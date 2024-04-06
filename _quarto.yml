@@ -3,8 +3,8 @@ project:
 
 website:
   title: "Let's Do Digital"
+  site-url: "https://letsdodigital.org/"
   navbar:
-    home: "https://letsdodigital.org"
     left:
       - href: learn/index.qmd
         text: Learn
@@ -23,7 +23,10 @@ website:
           - href: webinars/ask-a-clinician/index.qmd
             text: "Ask a clinician"
       - posts.qmd
+      - href: https://letsdodigital.org/coding-cheatsheet/
+        text: Cheatsheets
       - who-are-we.qmd
+      
 
   favicon: media/ldd-logo.png
 
