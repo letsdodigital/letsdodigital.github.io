@@ -1,0 +1,20 @@
+---
+title: "Let's talk digital 2023 conference 15th of June"
+description: "Conference update"
+author:
+  - name: Mark Bailey
+date: 2022-10-10
+categories: [Conference] # self-defined categories
+image: /media/conference-crowd.jpeg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+![](/media/conference-crowd.jpeg){width=100% fig-alt="A crowd of people talk at a conference."}
+
+The most recent inaugural Let’s Talk Digital Conference in March this year was a great success. We are now planning the next conference. This was originally going to be Thursday the 18th of May, but due to room booking issues, we have had to move the date. The 2023 conference will now be on:
+
+**Thursday 15th of June, 2023**
+
+We will keep you up to date on the programm!
+
+Image by SNCR GROUP from Pixabay

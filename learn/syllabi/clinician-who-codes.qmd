@@ -1,0 +1,23 @@
+---
+title: "Clinician-who-codes"
+---
+
+By Mark Bailey
+
+## The reasoning behind it all
+
+As far as I know, there is no course currently out in how to become a **Clinicain-who-codes** (CWC). This saddens me. 
+
+I have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.
+
+I would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:
+
+* A broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.
+* Serve as a translator between digital and clinical teams.
+* Why not have the end-user on your team to tell you what is and what is not going to work!
+
+## So what would you need to learn?
+
+* Clinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).
+* Clinical informatics (see separate syllabus [here](/learn/syllabi/clinical-informatician.qmd)).
+* Coding skills.

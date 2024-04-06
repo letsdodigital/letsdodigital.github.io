@@ -1,0 +1,38 @@
+project:
+  type: website
+
+website:
+  title: "Let's Do Digital"
+  navbar:
+    left:
+      - href: learn/index.qmd
+        text: Learn
+      - text: Conferences
+        menu:
+          - href: conferences/2024/index.qmd
+            text: "2024"
+          - href: conferences/2023/index.qmd
+            text: "2023"
+          - href: conferences/2022/index.qmd
+            text: "2022"
+      - text: Webinars
+        menu:
+          - href: webinars/quarterly/index.qmd
+            text: "Quarterly"
+          - href: webinars/ask-a-clinician/index.qmd
+            text: "Ask a clinician"
+      - posts.qmd
+      - who-are-we.qmd
+
+  favicon: media/ldd-logo.png
+
+format:
+  html:
+    theme: 
+      light: cosmo
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+

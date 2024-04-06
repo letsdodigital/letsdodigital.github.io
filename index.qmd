@@ -1,0 +1,35 @@
+---
+title: "Learn Collaborate Build"
+---
+
+```{=html}
+<div id="post-images" class="owl-carousel">
+    <div class="item">
+        <img src="/media/flying-book-in-library.jpeg" alt="Book flying through a library">
+    </div>
+    <div class="item">
+        <img src="/media/team-at-beach.jpeg" alt="A team group of people at the beach at sunset">
+    </div>
+    <div class="item">
+        <img src="/media/blueprints.jpeg" alt="Blueprints with pencil and metal ruler">
+    </div>
+</div>
+
+<!-- Include Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+<!-- Include jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Include Owl Carousel JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+<script src="/scripts.js"></script>
+```
+
+**Let's Do Digital** has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars todate. 
+
+We now plan to deliver several [teaching sessons on coding](/learn/coding/index.qmd) (programmatic, not terminologies) (programmatic, not terminologies). Additionally, we are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to **ask a clinician** about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.
+
+We will update you as these courses and webinars are open to registration.
+
