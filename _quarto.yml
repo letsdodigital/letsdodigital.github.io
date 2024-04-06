@@ -4,6 +4,7 @@ project:
 website:
   title: "Let's Do Digital"
   navbar:
+    home: "https://letsdodigital.org"
     left:
       - href: learn/index.qmd
         text: Learn

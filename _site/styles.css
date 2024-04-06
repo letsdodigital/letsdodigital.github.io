@@ -1,0 +1,28 @@
+#post-images .item {
+    position: relative;
+    overflow: hidden;
+    height: 200px;
+}
+
+#post-images .item img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: auto;
+}
+
+.zoom-effect {
+    animation: zoom 3s ease-in-out forwards;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
