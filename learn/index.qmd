@@ -6,7 +6,7 @@ Think `Education-as-a-service`.
 
 Available educational resources include:
 
-* [learn to code in python](https://letsdodigital.github.io/learn-python/)
+* [learn to code in python](https://letsdodigital.org/learn-python/)
 
 Coming soon: `Ask a clinician`.
 
