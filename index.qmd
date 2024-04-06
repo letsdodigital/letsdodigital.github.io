@@ -27,8 +27,10 @@ title: "Learn Collaborate Build"
 <script src="/scripts.js"></script>
 ```
 
-**Let's Do Digital** has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars todate. 
+**Let's Do Digital** has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date. 
 
-We now plan to deliver several [teaching sessons on coding](/learn/coding/index.qmd) (programmatic, not terminologies). Additionally, we are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to **ask a clinician** about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.
+We now plan to deliver several [teaching sessions on coding](/learn/index.qmd) (programmatic, not terminologies). Additionally, we are planning to open the floor to computer scientists, 
+data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to **ask a clinician** about their workflows, workloads, and thought 
+processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.
 
 We will update you as these courses and webinars are open to registration.
