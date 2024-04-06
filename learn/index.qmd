@@ -1,0 +1,15 @@
+---
+title: "Education"
+---
+
+Think `Education-as-a-service`.
+
+Available educational resources include:
+
+* [learn to code in python](https://letsdodigital.github.io/learn-python/)
+
+Coming soon: `Ask a clinician`.
+
+Interested in becoming a **clinical informatician**, view a syllabus in the making [here](/learn/syllabi/clinical-informatician.qmd).
+
+Interested in becoming a **clinician-who-codes**, view a syllabus in the making here [here](/learn/syllabi/clinician-who-codes.qmd).

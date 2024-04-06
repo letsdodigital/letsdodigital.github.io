@@ -1,0 +1,26 @@
+---
+title: "Let's Talk Digital Conference 2023"
+---
+
+{{< include /conferences/2023/_navbar.qmd >}}
+
+Thank you for taking an interest in the Let’s Talk Digital Conference 2023. It the conference is all over, but there is always more to come.
+
+Watch the conference in full, snippets, or as you like below:
+
+{{< video  https://youtu.be/p7_FgB4Uwqc?list=PLv5yR6DkBB8py632dr5aTmPgPM8ECbRI7 >}}
+
+Many thanks for our sponsors:
+
+::: {layout-ncol=2}
+
+![](/media/swag-logo.png){ fig-align="center" fig-alt="Somerset, Wiltshite, Avon and Gloucestershire Cancer Alliance in text, along with NHS logo" style="padding: 20px;"}
+
+![](/media/gloucestershire-university-logo.png){ fig-align="center" fig-alt="Gloucestershire University Logo with up arrow and name all in bold" style="padding: 20px;"}
+
+![](/media/mdcoll-logo.jpeg){ fig-align="center" fig-alt="mdcoll - multidisciplinary team meeting software" style="padding: 20px;"}
+
+![](/media/fci-logo.png){ fig-align="center" fig-alt="FCI logo with pixelated face" style="padding: 20px;"}
+
+:::
+

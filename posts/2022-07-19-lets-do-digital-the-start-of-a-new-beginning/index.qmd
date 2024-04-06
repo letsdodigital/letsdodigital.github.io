@@ -1,0 +1,14 @@
+---
+title: "Let's Do Digital - the start of a new beginning"
+description: "Future plans"
+author:
+  - name: Mark Bailey
+date: 2022-07-19
+categories: [Future plans] # self-defined categories
+image: /media/white-dog-in-the-leaves.jpeg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+![](/media/white-dog-in-the-leaves.jpeg){height=200px fig-align="center" fig-alt="White dog sitting in a thin layer of leaves"}
+
+Following on from the inaugural Let’s Do Digital Conference on the 18th of March 2022, we have now had our first Let’s Do Digital Quarterly meeting on the 15th of June 2022. This had a great turn out, show casing of exciting digital innovation in the South West and great discussion. Once of the topics that arose from both the Quarterly meeting and the digital Summer School that I joined over that week is the issue of digital innovation happening in silos and people not hearing about what is going on around the country, how they can collaborate and how they can benefit from the works from others. Hence, during the quarterly meeting I raised the idea about a means to share these digital innovations with others. This would also be a place for people to submit their ideas and for a team of software engineers (hopefully hired directly within the NHS) to build and then also share their learnings and digital solutions. In some ways this is a new digital movement of frontline staff sharing far and wide, paying forwards their homegrown digital solutions, which will benefit all within the NHS. I am formulating the idea of a sharing platform.
