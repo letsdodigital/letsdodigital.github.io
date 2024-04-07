@@ -263,7 +263,7 @@
     "href": "learn/index.html",
     "title": "Education",
     "section": "",
-    "text": "Think Education-as-a-service.\nAvailable educational resources include:\n\nlearn to code in python\n\nComing soon: Ask a clinician.\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
+    "text": "Think Education-as-a-service.\nAvailable educational resources include:\n\nlearn to code in python\n\nComing soon: Ask a clinician learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found here.\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
   },
   {
     "objectID": "learn/syllabi/clinician-who-codes.html",
@@ -369,5 +369,12 @@
     "title": "Clinical informatician",
     "section": "",
     "text": "This is currently being worked on with fellow Clinicains who code.\nWatch this space."
+  },
+  {
+    "objectID": "webinars/index.html",
+    "href": "webinars/index.html",
+    "title": "Webinars",
+    "section": "",
+    "text": "Currently, we have recordings from the 2022 Quarterly Let’s Do Digital Webinars."
   }
 ]

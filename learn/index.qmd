@@ -8,7 +8,7 @@ Available educational resources include:
 
 * [learn to code in python](https://letsdodigital.org/learn-python/)
 
-Coming soon: `Ask a clinician`.
+Coming soon: `Ask a clinician` learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found [here](https://letsdodigital.org/ask-a-clinician/).
 
 Interested in becoming a **clinical informatician**, view a syllabus in the making [here](/learn/syllabi/clinical-informatician.qmd).
 

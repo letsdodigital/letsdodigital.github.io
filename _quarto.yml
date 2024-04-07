@@ -16,15 +16,9 @@ website:
             text: "2023"
           - href: conferences/2022/index.qmd
             text: "2022"
-      - text: Webinars
-        menu:
-          - href: webinars/quarterly/index.qmd
-            text: "Quarterly"
-          - href: webinars/ask-a-clinician/index.qmd
-            text: "Ask a clinician"
+      - href: webinars/index.qmd
+        text: "Webinars"
       - posts.qmd
-      - href: https://letsdodigital.org/ask-a-clinician/
-        text: Ask-a-clinician
       - href: https://letsdodigital.org/coding-cheatsheet/
         text: Cheatsheets
       - who-are-we.qmd
