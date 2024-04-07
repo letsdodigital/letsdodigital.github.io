@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Let’s Do Digital Team">
+
+<title>Let’s Do Digital - Python basics</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../media/ldd-logo.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="../../../slides.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Let’s Do Digital</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../learn/index.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Conferences</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-conferences">    
+        <li>
+    <a class="dropdown-item" href="../../../conferences/2024/index.html">
+ <span class="dropdown-text">2024</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../conferences/2023/index.html">
+ <span class="dropdown-text">2023</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../conferences/2022/index.html">
+ <span class="dropdown-text">2022</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../../webinars/index.html"> 
+<span class="menu-text">Webinars</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../coding-cheatsheet/index.qmd"> 
+<span class="menu-text">Cheatsheets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../../who-are-we.html"> 
+<span class="menu-text">Who we are</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-are-computers" id="toc-what-are-computers" class="nav-link active" data-scroll-target="#what-are-computers">What are computers?</a></li>
+  <li><a href="#how-do-computers-think" id="toc-how-do-computers-think" class="nav-link" data-scroll-target="#how-do-computers-think">How do computers think?</a></li>
+  <li><a href="#how-do-computers-think-1" id="toc-how-do-computers-think-1" class="nav-link" data-scroll-target="#how-do-computers-think-1">How do computers think?</a></li>
+  <li><a href="#so-how-do-we-communicate-with-computers" id="toc-so-how-do-we-communicate-with-computers" class="nav-link" data-scroll-target="#so-how-do-we-communicate-with-computers">So how do we communicate with computers?</a></li>
+  <li><a href="#programming-languages" id="toc-programming-languages" class="nav-link" data-scroll-target="#programming-languages">Programming languages</a></li>
+  <li><a href="#translation" id="toc-translation" class="nav-link" data-scroll-target="#translation">Translation</a></li>
+  <li><a href="#ok-so-you-can-write-some-code.-what-do-you-put-in-the-code-how-do-you-tell-the-computer-what-to-do" id="toc-ok-so-you-can-write-some-code.-what-do-you-put-in-the-code-how-do-you-tell-the-computer-what-to-do" class="nav-link" data-scroll-target="#ok-so-you-can-write-some-code.-what-do-you-put-in-the-code-how-do-you-tell-the-computer-what-to-do"><span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span></a>
+  <ul class="collapse">
+  <li><a href="#we-will-be-learning-python" id="toc-we-will-be-learning-python" class="nav-link" data-scroll-target="#we-will-be-learning-python">We will be learning python</a></li>
+  <li><a href="#the-python-programming-language" id="toc-the-python-programming-language" class="nav-link" data-scroll-target="#the-python-programming-language">The Python programming language</a></li>
+  <li><a href="#what-is-in-a-code" id="toc-what-is-in-a-code" class="nav-link" data-scroll-target="#what-is-in-a-code">What is in a code?</a></li>
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a></li>
+  <li><a href="#variables-1" id="toc-variables-1" class="nav-link" data-scroll-target="#variables-1">Variables</a></li>
+  <li><a href="#spaces" id="toc-spaces" class="nav-link" data-scroll-target="#spaces">Spaces</a></li>
+  <li><a href="#double-or-single-quotation-marks" id="toc-double-or-single-quotation-marks" class="nav-link" data-scroll-target="#double-or-single-quotation-marks">Double or single quotation marks?</a></li>
+  <li><a href="#using-both-types-of-quotation-marks" id="toc-using-both-types-of-quotation-marks" class="nav-link" data-scroll-target="#using-both-types-of-quotation-marks">Using both types of quotation marks</a></li>
+  <li><a href="#f-strings" id="toc-f-strings" class="nav-link" data-scroll-target="#f-strings">f-strings</a></li>
+  <li><a href="#indentation" id="toc-indentation" class="nav-link" data-scroll-target="#indentation">Indentation</a></li>
+  <li><a href="#indentation-1" id="toc-indentation-1" class="nav-link" data-scroll-target="#indentation-1">Indentation</a></li>
+  <li><a href="#indentation-2" id="toc-indentation-2" class="nav-link" data-scroll-target="#indentation-2">Indentation</a></li>
+  <li><a href="#naming-conventions" id="toc-naming-conventions" class="nav-link" data-scroll-target="#naming-conventions">Naming conventions</a></li>
+  <li><a href="#comments" id="toc-comments" class="nav-link" data-scroll-target="#comments">Comments</a></li>
+  <li><a href="#comments-1" id="toc-comments-1" class="nav-link" data-scroll-target="#comments-1">Comments</a></li>
+  <li><a href="#basic-operators" id="toc-basic-operators" class="nav-link" data-scroll-target="#basic-operators">Basic operators</a></li>
+  <li><a href="#more-advanced-operators" id="toc-more-advanced-operators" class="nav-link" data-scroll-target="#more-advanced-operators">More advanced operators</a></li>
+  </ul></li>
+  <li><a href="#ok-so-you-can-create-variables-change-them-and-compare-them.-what-next" id="toc-ok-so-you-can-create-variables-change-them-and-compare-them.-what-next" class="nav-link" data-scroll-target="#ok-so-you-can-create-variables-change-them-and-compare-them.-what-next"><span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span></a>
+  <ul class="collapse">
+  <li><a href="#control-flow---if-statements" id="toc-control-flow---if-statements" class="nav-link" data-scroll-target="#control-flow---if-statements">Control flow - if statements</a></li>
+  <li><a href="#control-flow---for-loops" id="toc-control-flow---for-loops" class="nav-link" data-scroll-target="#control-flow---for-loops">Control flow - for loops</a></li>
+  <li><a href="#control-flow---while-loops" id="toc-control-flow---while-loops" class="nav-link" data-scroll-target="#control-flow---while-loops">Control flow - while loops</a></li>
+  <li><a href="#functions-methods" id="toc-functions-methods" class="nav-link" data-scroll-target="#functions-methods">Functions (methods)</a></li>
+  <li><a href="#functions-methods-1" id="toc-functions-methods-1" class="nav-link" data-scroll-target="#functions-methods-1">Functions (methods)</a></li>
+  <li><a href="#other-things-to-be-aware-of" id="toc-other-things-to-be-aware-of" class="nav-link" data-scroll-target="#other-things-to-be-aware-of">Other things to be aware of</a></li>
+  <li><a href="#error-handling" id="toc-error-handling" class="nav-link" data-scroll-target="#error-handling">Error Handling</a></li>
+  <li><a href="#error-handling-1" id="toc-error-handling-1" class="nav-link" data-scroll-target="#error-handling-1">Error Handling</a></li>
+  <li><a href="#the-traceback" id="toc-the-traceback" class="nav-link" data-scroll-target="#the-traceback">The Traceback</a></li>
+  <li><a href="#the-traceback-1" id="toc-the-traceback-1" class="nav-link" data-scroll-target="#the-traceback-1">The Traceback</a></li>
+  <li><a href="#compare-the-traceback-to-the-code" id="toc-compare-the-traceback-to-the-code" class="nav-link" data-scroll-target="#compare-the-traceback-to-the-code">Compare the Traceback to the code</a></li>
+  <li><a href="#you-got-all-that" id="toc-you-got-all-that" class="nav-link" data-scroll-target="#you-got-all-that">You got all that?</a></li>
+  <li><a href="#computers-are-pedantic" id="toc-computers-are-pedantic" class="nav-link" data-scroll-target="#computers-are-pedantic">Computers are pedantic!</a></li>
+  </ul></li>
+  </ul>
+<div class="quarto-alternate-formats"><h2>Other Formats</h2><ul><li><a href="3-python-basics.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Python basics</h1>
+<p class="subtitle lead">Module 1</p>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Let’s Do Digital Team </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-are-computers" class="level2" data-background-image="../../../media/yes-no-hands.jpg" data-background-opacity="0.3">
+<h2 data-background-image="/media/yes-no-hands.jpg" data-background-opacity="0.3" class="anchored" data-anchor-id="what-are-computers">What are computers?</h2>
+<ul>
+<li>At its core, a computer is essentially a device that answers <code>yes-no questions</code>.</li>
+<li>It answers these simple questions very very quickly.</li>
+<li>By asking the computer millions of these yes-no questions, it can calculate answers to very complex questions.</li>
+</ul>
+</section>
+<section id="how-do-computers-think" class="level2 smaller" data-background-image="../../../media/old-computer.jpg" data-background-opacity="0.3">
+<h2 class="smaller anchored" data-background-image="/media/old-computer.jpg" data-background-opacity="0.3" data-anchor-id="how-do-computers-think">How do computers think?</h2>
+<ul>
+<li>Confused by the last statement? Let me expand…</li>
+<li>Computers have lots of components to enable them to work.
+<ul>
+<li>Screen to show you its output.</li>
+<li>Keyboard and mouse to allow you to communicate with the computer.</li>
+<li>Inside the computer’s chassis:
+<ul>
+<li>Hard drives</li>
+<li>Memory sticks</li>
+<li>Fans</li>
+<li>Power supplies</li>
+<li>Motherboards</li>
+<li>Processors</li>
+</ul></li>
+</ul></li>
+<li>The processor of a computer is where all of the <code>thinking</code> takes place.</li>
+</ul>
+</section>
+<section id="how-do-computers-think-1" class="level2" data-background-image="../../../media/old-computer.jpg" data-background-opacity="0.3">
+<h2 data-background-image="/media/old-computer.jpg" data-background-opacity="0.3" class="anchored" data-anchor-id="how-do-computers-think-1">How do computers think?</h2>
+<ul>
+<li>The processor is where these <code>yes-no questions</code> are undertaken.</li>
+<li>The processor receives instructions in <code>binary</code> form.</li>
+<li>Binary is basically a string of <code>1</code>s and <code>0</code>s (eg 01001011).</li>
+<li>As modern computers communicate in binary (yes-no) form, they are said to be <code>digital</code>.</li>
+<li>The processor reads these binary instructions.</li>
+<li>Each instruction results in either a <code>True</code> or <code>False</code> <em>answer</em> (aka <code>yes-no answer</code>). The <code>output</code> (aka <em>answer</em>) is also in binary.</li>
+</ul>
+</section>
+<section id="so-how-do-we-communicate-with-computers" class="level2" data-background-image="../../../media/digital-self.jpg" data-background-opacity="0.3">
+<h2 data-background-image="/media/digital-self.jpg" data-background-opacity="0.3" class="anchored" data-anchor-id="so-how-do-we-communicate-with-computers">So how do we communicate with computers?</h2>
+<ul>
+<li>So computers listen, think and talk in binary.</li>
+<li>We need a method to communicate with them, enabling us to get them to do what we want them to do.</li>
+<li>This is where programming languages come into play.</li>
+</ul>
+</section>
+<section id="programming-languages" class="level2 smaller" data-background-image="../../../media/syntax-hard.jpg" data-background-opacity="0.2">
+<h2 class="smaller anchored" data-background-image="/media/syntax-hard.jpg" data-background-opacity="0.2" data-anchor-id="programming-languages">Programming languages</h2>
+<ul>
+<li>There are over 9000 programming languages, but much less than this in routine use.</li>
+<li>A programming language is written in <em>somewhat</em> of a human readable form (depends on the langauge).</li>
+<li>Popular langauges include:
+<ul>
+<li>Javascript / typescript</li>
+<li>C++</li>
+<li>Go</li>
+<li>Java</li>
+<li>Swift</li>
+<li>R</li>
+<li>Python</li>
+</ul></li>
+</ul>
+</section>
+<section id="translation" class="level2" data-background-image="../../../media/keyboard-of-flags.jpg" data-background-opacity="0.2">
+<h2 data-background-image="/media/keyboard-of-flags.jpg" data-background-opacity="0.2" class="anchored" data-anchor-id="translation">Translation</h2>
+<ul>
+<li>When you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into <code>1</code>s and <code>0</code>s which the computer can then read and act upon.</li>
+</ul>
+</section>
+<section id="ok-so-you-can-write-some-code.-what-do-you-put-in-the-code-how-do-you-tell-the-computer-what-to-do" class="level1" data-background-image="../../../media/barren-land.jpg" data-background-opacity="0.4">
+<h1 data-background-image="/media/barren-land.jpg" data-background-opacity="0.4"><span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span></h1>
+<section id="we-will-be-learning-python" class="level2">
+<h2 class="anchored" data-anchor-id="we-will-be-learning-python">We will be learning python</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../../media/python-logo.png" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+</section>
+<section id="the-python-programming-language" class="level2" data-background-image="../../../media/python-logo.png" data-background-opacity="0.3">
+<h2 data-background-image="/media/python-logo.png" data-background-opacity="0.3" class="anchored" data-anchor-id="the-python-programming-language">The Python programming language</h2>
+<ul>
+<li>Python is a scripting language interpreted and compiled at runtime.</li>
+<li>Its syntax emphasises readability and simplicity, utilising indentation for code structuring.</li>
+<li>Python supports various programming paradigms, including procedural, object-oriented, and functional.</li>
+<li>With a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation.</li>
+</ul>
+</section>
+<section id="what-is-in-a-code" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-in-a-code">What is in a code?</h2>
+<ul>
+<li>You need different elements in your code to be able to tell the computer what to do. These include:
+<ul>
+<li>Variables</li>
+<li>Operators</li>
+<li>Expressions</li>
+<li>Flow control</li>
+<li>Functions</li>
+<li>Error handling</li>
+<li>More advanced functionalities</li>
+</ul></li>
+</ul>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
+<ul>
+<li>A single variable is a contained space in the computer’s memory.</li>
+<li>Simple in-built variables include:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>variables_simple.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="variables_simple.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>a_string <span class="op">=</span> <span class="st">"I am a string"</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>an_integer <span class="op">=</span> <span class="dv">11</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>a_float <span class="op">=</span> <span class="fl">8.04</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>a_boolean <span class="op">=</span> <span class="va">True</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="variables-1" class="level2">
+<h2 class="anchored" data-anchor-id="variables-1">Variables</h2>
+<ul>
+<li>More complex variables include:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>variables_more_complex.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="variables_more_complex.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>a_list <span class="op">=</span> [<span class="st">"first element of list"</span>, <span class="st">"second element of list"</span>]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>another_list <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">5</span>, <span class="dv">3</span>, <span class="dv">6</span>]</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>a_dictionary <span class="op">=</span> {</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">"1st key"</span>: <span class="st">"1st value"</span>,</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">"2nd key"</span>: <span class="st">"2nd value"</span>,</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>a_tuple <span class="op">=</span> (<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">6</span>, <span class="dv">7</span>)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>a_set <span class="op">=</span> {<span class="dv">4</span>, <span class="dv">2</span>, <span class="dv">5</span>, <span class="dv">3</span>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="spaces" class="level2">
+<h2 class="anchored" data-anchor-id="spaces">Spaces</h2>
+<ul>
+<li>Variables names <strong>cannot have spaces</strong>, if you add a space, the computer will read this as two separate variables:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>spaces.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="spaces.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>variable_a <span class="op">=</span> <span class="st">"I am a variable"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>variable b <span class="op">=</span> <span class="st">"The added space will cause an error"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Syntax error:</p>
+<pre><code>    Cell In[1], line 2
+        variable b = "The added space will cause an error"
+                 ^
+    SyntaxError: invalid syntax</code></pre>
+</section>
+<section id="double-or-single-quotation-marks" class="level2">
+<h2 class="anchored" data-anchor-id="double-or-single-quotation-marks">Double or single quotation marks?</h2>
+<ul>
+<li>You will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>quotation_marks.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb5" data-filename="quotation_marks.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>variable_a <span class="op">=</span> <span class="st">"All good here with two single qoutation marks"</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>variable_b <span class="op">=</span> <span class="st">"I have the wrong matching qoutation marks'</span></span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="er">variable_c = 'Single quotation marks'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>Suddenly <code>variable_c</code> is part of the string for <code>variable_b</code></li>
+</ul>
+</section>
+<section id="using-both-types-of-quotation-marks" class="level2">
+<h2 class="anchored" data-anchor-id="using-both-types-of-quotation-marks">Using both types of quotation marks</h2>
+<ul>
+<li>You can embed quotation marks within each other</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>quotation_marks.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb6" data-filename="quotation_marks.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>variable_a <span class="op">=</span> <span class="st">"I want to highlight 'this' word"</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>variable_b <span class="op">=</span> <span class="st">'I would like to show you "this"'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="f-strings" class="level2">
+<h2 class="anchored" data-anchor-id="f-strings">f-strings</h2>
+<ul>
+<li>Useful to know</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>f_string.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb7" data-filename="f_string.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>age <span class="op">=</span> <span class="dv">25</span></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="ss">f"The patient's age is : </span><span class="sc">{</span> age <span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="indentation" class="level2" data-background-image="../../../media/steps-and-child.jpg" data-background-opacity="0.4">
+<h2 data-background-image="/media/steps-and-child.jpg" data-background-opacity="0.4" class="anchored" data-anchor-id="indentation">Indentation</h2>
+<ul>
+<li>Python is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of <code>tabs</code>) of expressions shows the computer which previous expression it relates to.</li>
+</ul>
+</section>
+<section id="indentation-1" class="level2">
+<h2 class="anchored" data-anchor-id="indentation-1">Indentation</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>indentation.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb8" data-filename="indentation.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1"></a><span class="cf">if</span> drug_prescribed <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb8-2"><a href="#cb8-2"></a>    <span class="cf">if</span> drug_given <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb8-3"><a href="#cb8-3"></a>        record_drug_given <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb8-4"><a href="#cb8-4"></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed and given to the patient"</span>)</span>
+<span id="cb8-5"><a href="#cb8-5"></a>    <span class="cf">else</span>:</span>
+<span id="cb8-6"><a href="#cb8-6"></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed but not given"</span>)</span>
+<span id="cb8-7"><a href="#cb8-7"></a><span class="cf">else</span>:</span>
+<span id="cb8-8"><a href="#cb8-8"></a>    <span class="bu">print</span>(<span class="st">"Drug has not been prescribed"</span>)</span>
+<span id="cb8-9"><a href="#cb8-9"></a></span>
+<span id="cb8-10"><a href="#cb8-10"></a><span class="bu">print</span>(<span class="st">"Drug round complete!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output (if drug has been prescribed and given)</p>
+<pre><code>    Drug has been prescribed and given to the patient
+    Drug round complete!</code></pre>
+</section>
+<section id="indentation-2" class="level2">
+<h2 class="anchored" data-anchor-id="indentation-2">Indentation</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>indentation.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb10" data-filename="indentation.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1"></a><span class="cf">if</span> drug_prescribed <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb10-2"><a href="#cb10-2"></a>    <span class="cf">if</span> drug_given <span class="op">==</span> <span class="va">True</span>:</span>
+<span id="cb10-3"><a href="#cb10-3"></a>        record_drug_given <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb10-4"><a href="#cb10-4"></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed and given to the patient"</span>)</span>
+<span id="cb10-5"><a href="#cb10-5"></a>    <span class="cf">else</span>:</span>
+<span id="cb10-6"><a href="#cb10-6"></a>        <span class="bu">print</span>(<span class="st">"Drug has been prescribed but not given"</span>)</span>
+<span id="cb10-7"><a href="#cb10-7"></a><span class="cf">else</span>:</span>
+<span id="cb10-8"><a href="#cb10-8"></a>    <span class="bu">print</span>(<span class="st">"Drug has not been prescribed"</span>)</span>
+<span id="cb10-9"><a href="#cb10-9"></a></span>
+<span id="cb10-10"><a href="#cb10-10"></a>    <span class="bu">print</span>(<span class="st">"Drug round complete!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output (if drug has been prescribed and given)</p>
+<pre><code>    Drug has been prescribed and given to the patient</code></pre>
+</section>
+<section id="naming-conventions" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="naming-conventions">Naming conventions</h2>
+<ul>
+<li>There are several naming conventions for programming languages. In python, conventions are:
+<ul>
+<li>Variables, functions and methods
+<ul>
+<li><code>snake_case</code></li>
+</ul></li>
+<li>Constants
+<ul>
+<li><code>CONSTANT_CASE</code></li>
+</ul></li>
+<li>Classes (a higher organisation method in python)
+<ul>
+<li><code>CamelCase</code></li>
+</ul></li>
+<li>Modules (a file with python code inside)
+<ul>
+<li><code>snake_case</code></li>
+</ul></li>
+<li>Packages (a collection of modules)
+<ul>
+<li><code>lowercasepackagenames</code></li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="comments" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="comments">Comments</h2>
+<ul>
+<li>Comments are useful in explaining what code is supposed to do.</li>
+<li>They are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).</li>
+<li>Use them sparingly, as they can clutter code.</li>
+<li>Try and make variable and function names self explanatory.</li>
+<li>You can comment with the hastag or encapsulate with triple quotation marks:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>comments.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb12" data-filename="comments.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># This is a single line comment</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>a_string <span class="op">=</span> <span class="st">"a string"</span></span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co">""" Double quotation mark multiline comment</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a><span class="co">    Here is some more of the comment</span></span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a><span class="co">"""</span></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> i_am_a_function():</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a><span class="co">''' Single quotation mark multiline comment</span></span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a><span class="co">    Here is some more of the comment</span></span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a><span class="co">'''</span></span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> i_am_another_function():</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">True</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="comments-1" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="comments-1">Comments</h2>
+<ul>
+<li>You will also come across something called <code>docstrings</code>. These are basically comments associated with functions / methods and classes.</li>
+<li>You will see them associated with modules as well (at the top of files).</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>docstrings.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb13" data-filename="docstrings.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> i_am_function(args1, args2):</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""A concise title</span></span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a><span class="co">    A description of the function.</span></span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a><span class="co">    Args:</span></span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a><span class="co">        args1: I am the first argument to the function.</span></span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a><span class="co">        args2: I am the second argument to the function.</span></span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a><span class="co">    Returns:</span></span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a><span class="co">        x: the addition of the 2 provided arguments.</span></span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    x <span class="op">=</span> args1 <span class="op">+</span> args2</span>
+<span id="cb13-14"><a href="#cb13-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb13-15"><a href="#cb13-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> x</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="basic-operators" class="level2" data-background-image="../../../media/blackboard-and-equations.jpg" data-background-opacity="0.2">
+<h2 data-background-image="/media/blackboard-and-equations.jpg" data-background-opacity="0.2" class="anchored" data-anchor-id="basic-operators">Basic operators</h2>
+<ul>
+<li>Operators manipulate and compare data (which are stored in variables). Operator types include:
+<ul>
+<li>Arithmetic: <code>+ - * /</code></li>
+<li>Comparison: <code>== &gt; &lt;</code></li>
+<li>Logical: <code>and or not</code></li>
+<li>Assignment: <code>= += -= *=</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="more-advanced-operators" class="level2" data-background-image="../../../media/blackboard-and-equations.jpg" data-background-opacity="0.2">
+<h2 data-background-image="/media/blackboard-and-equations.jpg" data-background-opacity="0.2" class="anchored" data-anchor-id="more-advanced-operators">More advanced operators</h2>
+<ul>
+<li>These include:
+<ul>
+<li>Bitwise: <code>&amp; | ^ &lt;&lt; &gt;&gt;</code></li>
+<li>Membership: <code>in   not in</code></li>
+<li>Identity: <code>is   is not</code></li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="ok-so-you-can-create-variables-change-them-and-compare-them.-what-next" class="level1" data-background-image="../../../media/river-close-up.jpg" data-background-opacity="0.4">
+<h1 data-background-image="/media/river-close-up.jpg" data-background-opacity="0.4"><span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span></h1>
+<section id="control-flow---if-statements" class="level2">
+<h2 class="anchored" data-anchor-id="control-flow---if-statements">Control flow - if statements</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>if_statement.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb14" data-filename="if_statement.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>patient_allergy <span class="op">=</span> <span class="st">"amoxicillin"</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> patient_allergy <span class="op">==</span> <span class="st">"amoxicillin"</span>:</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>    allergy_group <span class="op">=</span> <span class="st">"penicillins"</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a><span class="cf">elif</span> patient_allergy <span class="op">==</span> <span class="st">"tazocin"</span>:</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>    allergy_group <span class="op">=</span> <span class="st">"penicillins"</span></span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>    allergy_group <span class="op">=</span> <span class="st">"others"</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Patient is allergic to"</span>, allergy_group)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    Patient is allergic to penicillins</code></pre>
+</section>
+<section id="control-flow---for-loops" class="level2">
+<h2 class="anchored" data-anchor-id="control-flow---for-loops">Control flow - for loops</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>for_loop.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb16" data-filename="for_loop.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>list_of_numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> number <span class="kw">in</span> list_of_numbers:</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    1
+    2
+    3
+    4
+    5</code></pre>
+</section>
+<section id="control-flow---while-loops" class="level2">
+<h2 class="anchored" data-anchor-id="control-flow---while-loops">Control flow - while loops</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>while_loop.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb18" data-filename="while_loop.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>count <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(count)</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    1
+    2
+    3
+    4
+    5</code></pre>
+</section>
+<section id="functions-methods" class="level2" data-background-image="../../../media/box.jpg" data-background-opacity="0.4">
+<h2 data-background-image="/media/box.jpg" data-background-opacity="0.4" class="anchored" data-anchor-id="functions-methods">Functions (methods)</h2>
+<ul>
+<li>Blocks of reusable code that perform a specific task.</li>
+<li>Help in organising code and making it more modular.</li>
+<li>Part of the <code>DRY</code> (<code>don't repeat yourself</code>) philosophy.</li>
+<li>A <code>method</code> is just a function, used within a class (a higher organisational entity in python).</li>
+</ul>
+</section>
+<section id="functions-methods-1" class="level2">
+<h2 class="anchored" data-anchor-id="functions-methods-1">Functions (methods)</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb20" data-filename="functions.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>    another_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span> (a_variable)</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> another_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="other-things-to-be-aware-of" class="level2 smaller">
+<h2 class="smaller anchored" data-anchor-id="other-things-to-be-aware-of">Other things to be aware of</h2>
+<ul>
+<li>There are several other organisational practices in python, but we will leave these for another day.</li>
+<li>Just so you are aware, these are:
+<ul>
+<li>classes</li>
+<li>modules</li>
+<li>packages</li>
+</ul></li>
+<li>There are also:
+<ul>
+<li>Some fancy syntax practices</li>
+<li>Reading inputs from the terminal</li>
+<li>File handling</li>
+<li>Object oriented programming</li>
+</ul></li>
+</ul>
+</section>
+<section id="error-handling" class="level2" data-background-image="../../../media/insect-on-leaf.jpg" data-background-opacity="0.3">
+<h2 data-background-image="/media/insect-on-leaf.jpg" data-background-opacity="0.3" class="anchored" data-anchor-id="error-handling">Error Handling</h2>
+<ul>
+<li>Error handling is one of the most important concepts to understand and manage well. You will be spending 25-50% of your time <code>debugging</code>.</li>
+<li><code>Debugging</code> is the practice of looking for bugs (errors in the code) and trying to fix them.</li>
+<li>When an error happens in python, an <code>exception</code> is raised. You then use the <code>traceback</code> to try and find the cause of the error.</li>
+</ul>
+</section>
+<section id="error-handling-1" class="level2">
+<h2 class="anchored" data-anchor-id="error-handling-1">Error Handling</h2>
+<ul>
+<li>If you know an error might happen at a set location, you can catch errors directly in your code:</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb21" data-filename="functions.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="cf">try</span>:</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    variable <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="st">"a"</span></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="cf">except</span>:</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"I knew that you could not add an integer and a string!"</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a><span class="cf">else</span>:</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="st">"Somehow I did not get an error!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    I knew that you could not add an integer and a string!</code></pre>
+</section>
+<section id="the-traceback" class="level2">
+<h2 class="anchored" data-anchor-id="the-traceback">The Traceback</h2>
+<ul>
+<li>At first, this looks like a very complicated output</li>
+</ul>
+<div class="terminal-border">
+<pre><code>    Traceback (most recent call last):
+        File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
+            print(fruit_prices.get_price("pear"))
+        File "/User/a_user/code/error_in_code.py", line 21, in get_price
+            return self._price(fruit)
+        File "/User/a_user/code/error_in_code.py", line 24, in _price
+            return self.prices[fruit]
+    KeyError: 'pear'</code></pre>
+</div>
+</section>
+<section id="the-traceback-1" class="level2">
+<h2 class="anchored" data-anchor-id="the-traceback-1">The Traceback</h2>
+<ul>
+<li>When reading a Traceback, alwas read from the last line upwards.</li>
+</ul>
+<div class="terminal-border">
+<pre><code>    Traceback (most recent call last):
+        File "/User/a_user/code/error_in_code.py", line 28, in &lt;module&gt;
+            print(fruit_prices.get_price("pear"))
+        File "/User/a_user/code/error_in_code.py", line 21, in get_price
+            return self._price(fruit)
+        File "/User/a_user/code/error_in_code.py", line 24, in _price
+            return self.prices[fruit]
+    ==&gt; KeyError: 'pear' &lt;==</code></pre>
+</div>
+</section>
+<section id="compare-the-traceback-to-the-code" class="level2">
+<h2 class="anchored" data-anchor-id="compare-the-traceback-to-the-code">Compare the Traceback to the code</h2>
+<ul>
+<li>Compare against the code</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb25" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1"></a><span class="kw">class</span> FruitPrices:</span>
+<span id="cb25-2"><a href="#cb25-2"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
+<span id="cb25-3"><a href="#cb25-3"></a>        <span class="co"># 'pear' key does not exist!</span></span>
+<span id="cb25-4"><a href="#cb25-4"></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
+<span id="cb25-5"><a href="#cb25-5"></a></span>
+<span id="cb25-6"><a href="#cb25-6"></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
+<span id="cb25-7"><a href="#cb25-7"></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
+<span id="cb25-8"><a href="#cb25-8"></a></span>
+<span id="cb25-9"><a href="#cb25-9"></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
+<span id="cb25-10"><a href="#cb25-10"></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
+<span id="cb25-11"><a href="#cb25-11"></a></span>
+<span id="cb25-12"><a href="#cb25-12"></a></span>
+<span id="cb25-13"><a href="#cb25-13"></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
+<span id="cb25-14"><a href="#cb25-14"></a></span>
+<span id="cb25-15"><a href="#cb25-15"></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="you-got-all-that" class="level2" data-background-image="../../../media/coding.jpg" data-background-opacity="0.3">
+<h2 data-background-image="/media/coding.jpg" data-background-opacity="0.3" class="anchored" data-anchor-id="you-got-all-that">You got all that?</h2>
+<ul>
+<li>Now it is your turn.</li>
+<li>Time for some hands on coding in <code>Lesson 2</code>.</li>
+</ul>
+</section>
+<section id="computers-are-pedantic" class="level2">
+<h2 class="anchored" data-anchor-id="computers-are-pedantic">Computers are pedantic!</h2>
+<ul>
+<li><strong>Remember</strong> that computers think in <code>True</code> and <code>False</code>, e.g.&nbsp;<code>1</code> and <code>0</code>s. They are literal thinkers.</li>
+<li>Even one character being out of place can break an entire code base. So watch out for that <code>unpaired quotation mark</code>, look out for that <code>space</code> that should not be there, and make sure you <code>match your indentations to your if statements</code>.</li>
+<li>Now go have some fun in your tutor groups with hands-on coding and debugging.</li>
+</ul>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/letsdodigital\.org\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
