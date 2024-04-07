@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "webinars/ask-a-clinician/index.html",
-    "href": "webinars/ask-a-clinician/index.html",
-    "title": "Ask a clinician",
+    "objectID": "webinars/index.html",
+    "href": "webinars/index.html",
+    "title": "Webinars",
     "section": "",
-    "text": "Due to run later in 2024"
+    "text": "Currently, we have recordings from the 2022 Quarterly Let’s Do Digital Webinars."
   },
   {
     "objectID": "posts/2022-12-05-lets-talk-about-careers-in-clinical-informatics-and-white-swans/index.html#lets-talk-about-careers-in-clinical-informatics-and-white-swans",
@@ -298,7 +298,7 @@
     "href": "learn/index.html",
     "title": "Education",
     "section": "",
-    "text": "Think Education-as-a-service.\nAvailable educational resources include:\n\nlearn to code in python\n\nComing soon: Ask a clinician.\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
+    "text": "Think Education-as-a-service.\nAvailable educational resources include:\n\nlearn to code in python\n\nComing soon: Ask a clinician learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found here.\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
   },
   {
     "objectID": "learn/syllabi/clinician-who-codes.html",
