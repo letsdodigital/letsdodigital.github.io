@@ -23,6 +23,8 @@ website:
           - href: webinars/ask-a-clinician/index.qmd
             text: "Ask a clinician"
       - posts.qmd
+      - href: https://letsdodigital.org/ask-a-clinician/
+        text: Ask-a-clinician
       - href: https://letsdodigital.org/coding-cheatsheet/
         text: Cheatsheets
       - who-are-we.qmd
