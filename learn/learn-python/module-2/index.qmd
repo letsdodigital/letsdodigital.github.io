@@ -1,0 +1,11 @@
+---
+title: "{{< var coding-module-2 >}}"
+---
+
+After learning about the basics about coding and the programming language Python in [{{< var coding-module-2 >}}](../module-1/index.qmd) 
+
+## Chose a slide deck
+
+<ul>
+  <li><a href="slides/1-introduction.html" target="_blank">1 - Introduction</a></li>
+</ul>

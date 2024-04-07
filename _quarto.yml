@@ -19,7 +19,7 @@ website:
       - href: webinars/index.qmd
         text: "Webinars"
       - posts.qmd
-      - href: https://letsdodigital.org/coding-cheatsheet/
+      - href: cheatsheets/index.qmd
         text: Cheatsheets
       - who-are-we.qmd
       
