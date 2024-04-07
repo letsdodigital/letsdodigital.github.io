@@ -1,0 +1,34 @@
+---
+title: "&#127925; Do you want to build a web app? &#127925;"
+subtitle: "Module 1"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/web-app.png
+    data-background-opacity: "0.4"
+---
+
+
+## What to build?
+
+![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
+
+## Streamlit
+
+* We will be using a python web app framework called `Streamlit`.
+* Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
+
+![](/media/streamlit.png){fig-align="center"}
+
+## Preinstalled for you {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
+
+* We have preinstalled `Streamlit` on Codespace for you.
+* Time for `lession 3`.
+* Stay in the `module-1/hands-on` folder.
+* Run this code:
+
+<div class="terminal-border">
+        $ streamlit run lesson_3.py
+</div>

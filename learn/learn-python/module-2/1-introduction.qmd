@@ -1,0 +1,28 @@
+---
+title: "{{< var coding-module-2 >}}"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-color: "#ffffff"
+    data-background-color: "#698ECF"
+    data-background-video: "/media/distant-boat-at-sea.mp4"
+    data-background-video-loop: true
+
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title {
+        color: #000000;
+      }
+      </style>
+---
+
+
+## Introduction {background-image="/media/welcome-sign.jpg" background-opacity="0.4"}
+
+* Welcome and thank you for joining our course.
+* We hope you enjoy the course and find it helpful.
+* There are plans for further, more advanced courses, in the near future.
+* Please provide feedback at the end of the course, so we can help improve things further.

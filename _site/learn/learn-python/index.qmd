@@ -1,0 +1,12 @@
+---
+title: "{{< var coding-series-title >}}"
+---
+
+Welcome to the {{< var coding-series-title >}} course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer.
+
+## Modules
+
+* [{{< var coding-module-1 >}}](modules/module-1/index.html)
+* [{{< var coding-module-2 >}}](modules/module-2/index.html)
+
+More modules to arrive soon

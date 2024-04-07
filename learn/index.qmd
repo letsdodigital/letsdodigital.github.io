@@ -2,13 +2,19 @@
 title: "Education"
 ---
 
-Think `Education-as-a-service`.
-
 Available educational resources include:
 
-* [learn to code in python](https://letsdodigital.org/learn-python/)
+## Coding (programmatic)
 
-Coming soon: `Ask a clinician` learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found [here](https://letsdodigital.org/ask-a-clinician/).
+There are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.
+
+* [Learn to code in python](learn-python/index.qmd)
+
+## Ask a clinician
+
+Coming soon: `Ask a clinician` learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found [here](ask-a-clinician/index.qmd).
+
+## Clinical informatics
 
 Interested in becoming a **clinical informatician**, view a syllabus in the making [here](/learn/syllabi/clinical-informatician.qmd).
 
