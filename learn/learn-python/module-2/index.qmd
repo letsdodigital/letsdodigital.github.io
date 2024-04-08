@@ -7,5 +7,5 @@ After learning about the basics about coding and the programming language Python
 ## Chose a slide deck
 
 <ul>
-  <li><a href="slides/1-introduction.html" target="_blank">1 - Introduction</a></li>
+  <li><a href="1-introduction.html" target="_blank">1 - Introduction</a></li>
 </ul>
