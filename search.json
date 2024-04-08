@@ -700,6 +700,13 @@
     "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build a web app\n\n\n5 - Session close"
   },
   {
+    "objectID": "learn/learn-python/module-1/index.html#get-coding",
+    "href": "learn/learn-python/module-1/index.html#get-coding",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Get coding",
+    "text": "Get coding\nThe code for this course can be found below\n\n\nModule 1 code\n\n\nYou can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you."
+  },
+  {
     "objectID": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
     "href": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
     "title": "Coding environment (and the shell)",
