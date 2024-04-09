@@ -1,0 +1,58 @@
+---
+title: "Why a coding course and why now?"
+description: "It is a question of community"
+author:
+  - name: Mark Bailey
+date: 2024-04-10
+categories: [blog] # self-defined categories
+image: /media/glasses-and-code.jpg
+draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+---
+
+I guess the **short answer** is, why not!
+
+The **long answer** is, a little bit more complicated.
+
+![](/media/glasses-and-code.jpg){height=400px fig-align="center" fig-alt="Glasses in front of screens, which are displaying code."}
+
+So for those of you who know me, you will know I am very passionate about digital health. I cannot really explain why. I think it is because it combines two things that I am really interested in: medicine and computers. I have been playing with computers my whole life, learned how to code in 2013 with an Arduino Uno, and I have never looked back. I got into medicine via a very convoluted route. I started in chemistry, then medicinal chemistry, and then worked in the pharmaceutical industry for a while, where I then realised I wanted to be prescribing drugs and treating patients rather than testing drugs in a lab.
+
+```{=html}
+My journey, like most, in digital health has been very
+<span style="color: red;">c</span>
+<span style="color: orange;">o</span>
+<span style="color: gold;">l</span>
+<span style="color: green;">o</span>
+<span style="color: blue;">u</span>
+<span style="color: indigo;">r</span>
+<span style="color: violet;">f</span>
+<span style="color: red;">u</span>
+<span style="color: orange;">l</span>. I have tried to build and implement several different digital systems to automate routine, repetitive clinical tasks, and I have built systems to streamline workflows and reduce workflows. I even managed a small team of computer science students to build a prototype to help manage lung cancer treatment pathways. 
+```
+</br>
+All along the way, I came across several obstacles. You are probably familiar with them:
+
+* Difficulty in finding the right people to talk to.
+* The people in digital that you need to engage with have little time for "novel" ideas.
+* The people in digital actually block your "digital transformation" project.
+* Clinicians have no time to engage in your project.
+* You yourself have no time for the project.
+* There is no funding for the project.
+* You try and make changes at the national level, i.e., the Faculty of Clinical Informatics, and then said entity fails (yes, this [happened](https://www.digitalhealth.net/2023/07/fci-described-as-a-greek-tragedy/) to me!).
+* And in some cases, you just don't understand what is feasible with digital or how "digital" actually works.
+
+There are of course many more!
+
+It is the last bullet point that really made me realise something. A lot of clinicians I talk to, even ones that have an interest in digital healthcare, know very little about "digital" itself and how it works. It is apparent that the **digital literacy** across the clinical workforce is below par. How are you to understand how a "digital transformation" project is going to save you time, effort, and money, when you don't even understand how a computer "thinks"? How can you imagine what a computer can do for you, with its ultrafast processors, if you don't know that it thinks in **yes** and **no** questions and answers, in **ones** and **zeros**? So I started thinking, why not start building a course, a series of modules, to help my peers and anyone else interested, to better understand digital healthcare? In fact, I want to build the digital healthcare course that I would have wanted to pay money for and study when I entered this space back in 2017.
+
+Someone asked me yesterday, why start with such a basic coding course, why start with the coding language Python? Why charge for the course when there are so many other programming courses out there for a fraction of the price and offer more extensive learnings? It was a good question. It is one that I have thought myself. The answer is **community**.
+
+I recently watched a YouTube video on a [Dungeons and Dragons game](https://www.youtube.com/watch?v=nJ-ehbVQYxI) (D&D) which has been going on for 40 years. The dungeon master said something very interesting. He said he had kept long-term relationships going by this D&D game. He said that the D&D game was the "plank" to help people meet up and keep the relationships going. This "plank" was what kept his community together. I wish to recreate the same with the **Let's Do Digital** community.
+
+This brings me on to another passion of mine, **agile methodologies**, or **fail fast and learn fast**. I have always thought of these concepts as **trial and error**, that is until reading up on other names for it. So I thought, let's build a course for those interested in digital health, be they clinical or not, and start with solid foundations, and build on top of those. I have always learnt from **first priciples**, and I hope others who join our courses and community do to, although I fully realise there is a breath of learning practices out there. Coding seems to be the most fundamental of digital specialties. Much like Maths is fundamental to Physics, which is fundamental to Biology which is fundamental to psychology and so on. Having recently tutored on another coding course, it was apparent that most people in healthcare need to be shown the fundamentals of coding before they could even really grasp what a function is, a class, a web app, or even what is AI. And hence, our first course showing people the basics of coding.
+
+Now if this first course goes well, I envision creating further courses, building up on complexity. This would initially build up the "students" coding knowledge, but then moving on to more high-level clinical informatics topics like infrastructure, interoperability, data structures, data analysis, safety standards and so on.
+
+Then you may ask, why charge for such a course? Well, there are several reasons. The first is, me, and my team of tutors, are doing this all in our spare time. We have lives outside of digital health. We have families, bills to pay, and full-time jobs. I myself find time merely out of **stubbornness** to try and improve digital healthcare. I gave a lot of my time away for free last year, working as the interim-chair of council for the Faculty of Clinical informatics. I had dropped my paid work to enable this. My bank account was worryingly in the <span style="color: red;">red</span> for most of last summer. I feel a lot of people passionate about digital healthcare, and good digital healthcare for that matter, give a lot of their time for free to make digital happen in the NHS (and globally). I do think we should be paid for our time. And this course is more than just me running it. We have 11 tutors signed up to give their time and expertise to help you learn the fundamentals of coding. Perhaps I have pitched the ticket price too high, perhaps not. Time will tell. But, as of writing this blog, we have already had 4 people sign up for the course. I only advertised it at 10 am on Tuesday, the 9th of April on social media.
+
+So, I guess what I am trying to say is this. I think we need a course to help people learn about all things digital and clinical. I think we should start it here. I am ready to take on the journey of creating such a course. Are you ready to be involved? If so please sign up [here](https://letsdodigital.org/tickets/programming-in-healthcare-module-1-June-2024.html).
