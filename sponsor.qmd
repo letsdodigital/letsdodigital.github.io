@@ -1,0 +1,17 @@
+---
+title: "Sponsor the team"
+---
+
+There is a hard working team behind the **Let's Do Digital** name. If you feel we are doing a great job and want to help support us with our projects and teaching courses, then please do consider `buying us a coffee`:
+
+```{=html}
+<br>
+<div style="display: flex; justify-content: center;">
+    <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js" data-name="bmc-button" data-slug="letsdodigital" data-color="#FFDD00" data-emoji="☕"  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" ></script>
+</div>
+<br>
+```
+
+Any single sponsorship over £50 (UK) or if you sign up as a member on **buymeacoffee.com** will get you a place on the wall of our home page for individual supporters.
+
+For healthcare groups (eg Industry, individual trusts, government) that wish to sponosor the Let's Do Digital Team, please contact us at [info@letsdodigital.org](mailto:info@letsdodigital.org).

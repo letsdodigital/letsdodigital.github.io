@@ -20,10 +20,13 @@ website:
         text: "Webinars"
       - href: tickets/programming-in-healthcare-module-1-June-2024.qmd
         text: "Tickets"
+      - href: sponsor.qmd
+        text: Sponsor
       - posts.qmd
       - href: cheatsheets/index.qmd
         text: Cheatsheets
       - who-are-we.qmd
+      - contact.qmd
       
 
   favicon: media/ldd-logo.png
