@@ -1,0 +1,35 @@
+---
+title: "{{< var coding-series-title >}} - module 1"
+---
+
+![](/media/lets-learn-code-module-1.png){height=300px fig-align="center" fig-alt="Let's Do Digital Logo and words 'Let's Learn Code' on a note pad held by a hadn in the bottom left corner"}
+
+Please join us for the first of many coding courses in health care that the **Let's Do Digital team** will be running. This course is open to anyone, but has been designed for those working or interested in digital healthcare / clincal informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what is the command line, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is [Python](https://www.python.org/about/). Python is a well respected programming language, that is very versertile. You can build simple programs at one end and run data analysis, machine learning / AI and build extensive web apps at the other.
+
+## Course structure
+
+We now have 11 tutors and 41 potential students signed up for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don't even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor.
+
+
+## Topics covered
+
+The below topics may sound extensive and "out worldly" to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.
+ 
+* The terminal (the black window where you type in commands)
+* Syntax (the coding grammar)
+* Variables (where you store things)
+* Comments (stuff to read later when you have no idea what the code is supposed to do)
+* Control flow (if this then that)
+* Expressions and operators (add these two things. Make x equal to 3)
+* Functions (hay function, calculate the square root of 9)
+* Error handling (you were trying to do what!)
+* Web apps
+* Medical calculators
+
+
+### Purchase tickets
+
+
+### Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).

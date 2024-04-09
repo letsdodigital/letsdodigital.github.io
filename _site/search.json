@@ -1234,14 +1234,14 @@
   {
     "objectID": "learn/learn-python/module-2/1-introduction.html",
     "href": "learn/learn-python/module-2/1-introduction.html",
-    "title": "?var:coding-module-12",
+    "title": "Module 2 - Let’s take things to the next level",
     "section": "",
     "text": "Welcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
     "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
     "href": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "title": "?var:coding-module-12",
+    "title": "Module 2 - Let’s take things to the next level",
     "section": "",
     "text": "Welcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
@@ -1262,63 +1262,63 @@
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html",
     "href": "learn/learn-python/module-1/1-introduction.html",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "",
     "text": "Welcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#introduction",
     "href": "learn/learn-python/module-1/1-introduction.html#introduction",
-    "title": "?var:coding-module-11",
-    "section": "Introduction",
-    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+    "title": "Module 1 - Where is the on switch?",
+    "section": "",
+    "text": "Welcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
     "href": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "The coding environment",
     "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#python-basics",
     "href": "learn/learn-python/module-1/1-introduction.html#python-basics",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Python Basics",
     "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#build-an-app",
     "href": "learn/learn-python/module-1/1-introduction.html#build-an-app",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Build an app",
     "text": "Build an app\n\nFinally, we will get you building your own clinical app"
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
     "href": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Why learn to code?",
     "text": "Why learn to code?\n\nWe learn biology and anatomy at university to better understand and practice clinical medicine. Why don’t we learn the base subject to better understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
     "href": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "How can you use your coding skills in health care?",
     "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nInteroperability\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed, anything digital"
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
     "href": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Tutor groups",
     "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
     "href": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Off we go to the shell",
     "text": "Off we go to the shell"
   },
@@ -1398,5 +1398,61 @@
     "title": "Education",
     "section": "Clinical informatics",
     "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
+  },
+  {
+    "objectID": "tickets/index.html",
+    "href": "tickets/index.html",
+    "title": "Tickets for Let’s Do Digital Events",
+    "section": "",
+    "text": "Programming in healthcare - module 1"
+  },
+  {
+    "objectID": "tickets/index.html#programming-in-healthcare---module-1",
+    "href": "tickets/index.html#programming-in-healthcare---module-1",
+    "title": "Tickets for Let’s Do Digital Events",
+    "section": "",
+    "text": "Please join us for the first of many coding courses in health care that the Let’s Do Digital team will be running. This course is open to anyone, but has been designed for those working or interested in digital healthcare / clincal informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what is the command line, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well respected programming language, that is very versertile. You can build simple programs at one end and run data analysis, machine learning / AI and build extensive web apps at the other.\n\n\n\n\n\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/index.html#get-coding",
+    "href": "learn/learn-python/module-1/index.html#get-coding",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Get coding",
+    "text": "Get coding\nThe code for this course can be found below\n\n\nModule 1 code\n\n\nYou can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you."
+  },
+  {
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contacts",
+    "section": "",
+    "text": "Have questions or concerns you want to raise that are Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html",
+    "href": "tickets/programming-in-healthcare-module-1-July-2024.html",
+    "title": "Programming in healthcare - module 1",
+    "section": "",
+    "text": "Please join us for the first of many coding courses in health care that the Let’s Do Digital team will be running. This course is open to anyone, but has been designed for those working or interested in digital healthcare / clincal informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what is the command line, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well respected programming language, that is very versertile. You can build simple programs at one end and run data analysis, machine learning / AI and build extensive web apps at the other."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html#module-1",
+    "href": "tickets/programming-in-healthcare-module-1-July-2024.html#module-1",
+    "title": "Tickets for Let’s Do Digital Events",
+    "section": "",
+    "text": "Please join us for the first of many coding courses in health care that the Let’s Do Digital team will be running. This course is open to anyone, but has been designed for those working or interested in digital healthcare / clincal informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what is the command line, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well respected programming language, that is very versertile. You can build simple programs at one end and run data analysis, machine learning / AI and build extensive web apps at the other."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html#topics-covered",
+    "href": "tickets/programming-in-healthcare-module-1-July-2024.html#topics-covered",
+    "title": "Programming in healthcare - module 1",
+    "section": "Topics covered",
+    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.   * The terminal (the black window where you type in commands) * Syntax (the coding grammar) * Variables (where you store things) * Comments (stuff to read later when you have no idea what the code is supposed to do) * Control flow (if this then that) * Expressions and operators (add these two things. Make x equal to 3) * Functions (hay function, calculate the square root of 9) * Error handling (you were trying to do what!) * Web apps * Medical calculators\n\nPurchase tickets\n\n\nQuestions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html#course-structure",
+    "href": "tickets/programming-in-healthcare-module-1-July-2024.html#course-structure",
+    "title": "Programming in healthcare - module 1",
+    "section": "Course structure",
+    "text": "Course structure\nWe now have 11 tutors and 41 potential students signed up for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
   }
 ]

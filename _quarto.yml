@@ -18,6 +18,8 @@ website:
             text: "2022"
       - href: webinars/index.qmd
         text: "Webinars"
+      - href: tickets/programming-in-healthcare-module-1-July-2024.qmd
+        text: "Tickets"
       - posts.qmd
       - href: cheatsheets/index.qmd
         text: Cheatsheets

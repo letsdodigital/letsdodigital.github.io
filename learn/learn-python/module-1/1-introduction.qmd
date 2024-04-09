@@ -1,5 +1,5 @@
 ---
-title: "{{< var coding-module-11 >}}"
+title: "{{< var coding-module-1 >}}"
 author: "{{< var author >}}"
 format: revealjs
 logo: /media/ldd-logo.png
