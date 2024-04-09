@@ -63,452 +63,165 @@
     "text": "I have just had a fantastic meeting with my colleagues at Gloucestershire University. We have been lucky enough to have 5 new MSc students join the University to study by research the new health tech course. This is very exciting news, and I look forward to hearing about their work soon. Interesting areas they will cover include:\n\nGamification for helping patients with mental health issues\nTable top games for mental health and social interactions\nRadiology\nHealth care network security\nUsing technology to help manage dyslexia in complicated health procedures\n\nI look forward to talking more with the students and for people to hear more about their amazing work. I hope to get some, if not all, of the students to the next Let’s Do Digital quarterly meeting in Feb/March 2023.\nWant to get involved, find out more about the MSc in Health Tech or even apply for the MSc, please contact Thiago Viana at tviana1@glos.ac.uk.\nUpdate 05/05/2024: Thiago Viana no longer works at Gloucestershire University."
   },
   {
-    "objectID": "posts/2022-07-15-first-lets-do-digital-quarterly-meeting-15-07-2022/index.html",
-    "href": "posts/2022-07-15-first-lets-do-digital-quarterly-meeting-15-07-2022/index.html",
-    "title": "First Let’s Do Digital Quarterly meeting - 15/07/2022",
+    "objectID": "posts/2024-04-10-why-a-coding-course-and-why-now/index.html",
+    "href": "posts/2024-04-10-why-a-coding-course-and-why-now/index.html",
+    "title": "Why a coding course and why now?",
     "section": "",
-    "text": "We had our very first Let’s Do Digital Quarterly meeting. This was an idea I had from a colleague of mine from the University of Gloucestershire. This was a great meeting, talking about the future of digital innovation at the frontline, showcased a few ongoing projects in quick fire 3 min sessions and opened to the floor and discussed the issues around innovation at the frontline in the NHS. The recording from the session can be found at the below link:\nLet’s Do Digital Quarterly recording"
+    "text": "I guess the short answer is, why not!\nThe long answer is, a little bit more complicated.\n\n\n\n\n\nSo for those of you who know me, you will know I am very passionate about digital health. I cannot really explain why. I think it is because it combines two things that I am really interested in: medicine and computers. I have been playing with computers my whole life, learned how to code in 2013 with an Arduino Uno, and I have never looked back. I got into medicine via a very convoluted route. I started in chemistry, then medicinal chemistry, and then worked in the pharmaceutical industry for a while, where I then realised I wanted to be prescribing drugs and treating patients rather than testing drugs in a lab.\nMy journey, like most, in digital health has been very\nc\no\nl\no\nu\nr\nf\nu\nl. I have tried to build and implement several different digital systems to automate routine, repetitive clinical tasks, and I have built systems to streamline workflows and reduce workflows. I even managed a small team of computer science students to build a prototype to help manage lung cancer treatment pathways. \n All along the way, I came across several obstacles. You are probably familiar with them:\n\nDifficulty in finding the right people to talk to.\nThe people in digital that you need to engage with have little time for “novel” ideas.\nThe people in digital actually block your “digital transformation” project.\nClinicians have no time to engage in your project.\nYou yourself have no time for the project.\nThere is no funding for the project.\nYou try and make changes at the national level, i.e., the Faculty of Clinical Informatics, and then said entity fails (yes, this happened to me!).\nAnd in some cases, you just don’t understand what is feasible with digital or how “digital” actually works.\n\nThere are of course many more!\nIt is the last bullet point that really made me realise something. A lot of clinicians I talk to, even ones that have an interest in digital healthcare, know very little about “digital” itself and how it works. It is apparent that the digital literacy across the clinical workforce is below par. How are you to understand how a “digital transformation” project is going to save you time, effort, and money, when you don’t even understand how a computer “thinks”? How can you imagine what a computer can do for you, with its ultrafast processors, if you don’t know that it thinks in yes and no questions and answers, in ones and zeros? So I started thinking, why not start building a course, a series of modules, to help my peers and anyone else interested, to better understand digital healthcare? In fact, I want to build the digital healthcare course that I would have wanted to pay money for and study when I entered this space back in 2017.\nSomeone asked me yesterday, why start with such a basic coding course, why start with the coding language Python? Why charge for the course when there are so many other programming courses out there for a fraction of the price and offer more extensive learnings? It was a good question. It is one that I have thought myself. The answer is community.\nI recently watched a YouTube video on a Dungeons and Dragons game (D&D) which has been going on for 40 years. The dungeon master said something very interesting. He said he had kept long-term relationships going by this D&D game. He said that the D&D game was the “plank” to help people meet up and keep the relationships going. This “plank” was what kept his community together. I wish to recreate the same with the Let’s Do Digital community.\nThis brings me on to another passion of mine, agile methodologies, or fail fast and learn fast. I have always thought of these concepts as trial and error, that is until reading up on other names for it. So I thought, let’s build a course for those interested in digital health, be they clinical or not, and start with solid foundations, and build on top of those. I have always learnt from first priciples, and I hope others who join our courses and community do to, although I fully realise there is a breath of learning practices out there. Coding seems to be the most fundamental of digital specialties. Much like Maths is fundamental to Physics, which is fundamental to Biology which is fundamental to psychology and so on. Having recently tutored on another coding course, it was apparent that most people in healthcare need to be shown the fundamentals of coding before they could even really grasp what a function is, a class, a web app, or even what is AI. And hence, our first course showing people the basics of coding.\nNow if this first course goes well, I envision creating further courses, building up on complexity. This would initially build up the “students” coding knowledge, but then moving on to more high-level clinical informatics topics like infrastructure, interoperability, data structures, data analysis, safety standards and so on.\nThen you may ask, why charge for such a course? Well, there are several reasons. The first is, me, and my team of tutors, are doing this all in our spare time. We have lives outside of digital health. We have families, bills to pay, and full-time jobs. I myself find time merely out of stubbornness to try and improve digital healthcare. I gave a lot of my time away for free last year, working as the interim-chair of council for the Faculty of Clinical informatics. I had dropped my paid work to enable this. My bank account was worryingly in the red for most of last summer. I feel a lot of people passionate about digital healthcare, and good digital healthcare for that matter, give a lot of their time for free to make digital happen in the NHS (and globally). I do think we should be paid for our time. And this course is more than just me running it. We have 11 tutors signed up to give their time and expertise to help you learn the fundamentals of coding. Perhaps I have pitched the ticket price too high, perhaps not. Time will tell. But, as of writing this blog, we have already had 4 people sign up for the course. I only advertised it at 10 am on Tuesday, the 9th of April on social media.\nSo, I guess what I am trying to say is this. I think we need a course to help people learn about all things digital and clinical. I think we should start it here. I am ready to take on the journey of creating such a course. Are you ready to be involved? If so please sign up here."
   },
   {
-    "objectID": "who-are-we.html",
-    "href": "who-are-we.html",
-    "title": "Who we are",
+    "objectID": "posts.html",
+    "href": "posts.html",
+    "title": "Posts",
     "section": "",
-    "text": "A collection of people passionate about making better digital health care and education a reality.\nMark Bailey is the main curator of the Let’s Do Digital Website.\nDylan Goh was the main curator for the 2023 Conference pages.\nWe will publish a full list of names shortly"
+    "text": "Why a coding course and why now?\n\n\n\nblog\n\n\n\nIt is a question of community\n\n\n\nMark Bailey\n\n\nApr 10, 2024\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2023 conference is all done, but more to come\n\n\n\nConference\n\n\n\nAnother successful Let’s Talk Digital Conference\n\n\n\nMark Bailey\n\n\nJul 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT Kubernete\n\n\n\nConference\n\n\n\nLLM gives a great response\n\n\n\nMark Bailey\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk digital conference 2023 fast approaching\n\n\n\nConference\n\n\n\nConference update\n\n\n\nMark Bailey\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk about careers in clinical informatics and white swans\n\n\n\nCareers\n\n\n\nPubs and career advice\n\n\n\nMark Bailey\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk digital 2023 conference 15th of June\n\n\n\nConference\n\n\n\nConference update\n\n\n\nMark Bailey\n\n\nOct 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMsc in health tech underway\n\n\n\nEducation\n\n\n\nEducation\n\n\n\nMark Bailey\n\n\nSep 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2nd quarterly meeting 21/10/22 11am\n\n\n\nWebinar\n\n\n\nQuarterly meeting\n\n\n\nMark Bailey\n\n\nSep 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpiritum Duo - Let’s Do Digital pilot\n\n\n\nPilot\n\n\n\nPilot of Spiritum Duo\n\n\n\nMark Bailey\n\n\nJul 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s Do Digital - the start of a new beginning\n\n\n\nFuture plans\n\n\n\nFuture plans\n\n\n\nMark Bailey\n\n\nJul 19, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Let’s Do Digital Quarterly meeting - 15/07/2022\n\n\n\nQuarterly meeting\n\n\n\nQuarterly meeting\n\n\n\nMark Bailey\n\n\nJul 15, 2022\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "learn/syllabi/clinical-informatician.html",
-    "href": "learn/syllabi/clinical-informatician.html",
-    "title": "Clinical informatician",
+    "objectID": "learn/syllabi/clinician-who-codes.html",
+    "href": "learn/syllabi/clinician-who-codes.html",
+    "title": "Clinician-who-codes",
     "section": "",
-    "text": "This is currently being worked on with fellow Clinicains who code.\nWatch this space."
+    "text": "By Mark Bailey"
   },
   {
-    "objectID": "learn/learn-python/module-2/index.html",
-    "href": "learn/learn-python/module-2/index.html",
+    "objectID": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
+    "href": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
+    "title": "Clinician-who-codes",
+    "section": "The reasoning behind it all",
+    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinicain-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
+  },
+  {
+    "objectID": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
+    "href": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
+    "title": "Clinician-who-codes",
+    "section": "So what would you need to learn?",
+    "text": "So what would you need to learn?\n\nClinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).\nClinical informatics (see separate syllabus here).\nCoding skills."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
+    "href": "learn/learn-python/module-2/1-introduction.html#introduction",
     "title": "Module 2 - Let’s take things to the next level",
-    "section": "",
-    "text": "After learning about the basics about coding and the programming language Python in Module 2 - Let’s take things to the next level"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
-    "href": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
-    "title": "Module 2 - Let’s take things to the next level",
-    "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#introduction",
-    "href": "learn/learn-python/module-1/1-introduction.html#introduction",
-    "title": "Module 1 - Where is the on switch?",
     "section": "Introduction",
     "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
-    "href": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
+    "objectID": "learn/learn-python/index.html",
+    "href": "learn/learn-python/index.html",
+    "title": "Programming in Healthcare",
+    "section": "",
+    "text": "Welcome to the Programming in Healthcare course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
+  },
+  {
+    "objectID": "learn/learn-python/index.html#modules",
+    "href": "learn/learn-python/index.html#modules",
+    "title": "Programming in Healthcare",
+    "section": "Modules",
+    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nMore modules to arrive soon"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
+    "title": "Coding environment (and the shell)",
+    "section": "Today’s hands-on sessions",
+    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment is synonymous with the teaching environment."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace light theme",
+    "text": "Codespace light theme"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace dark theme",
+    "text": "Codespace dark theme"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace layout",
+    "text": "Codespace layout"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#commands",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#commands",
+    "title": "Coding environment (and the shell)",
+    "section": "Commands",
+    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
+    "title": "Coding environment (and the shell)",
+    "section": "Using the terminal",
+    "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
+    "title": "Coding environment (and the shell)",
+    "section": "List files and folders command",
+    "text": "List files and folders command\n\nThe ls command."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
+    "title": "Coding environment (and the shell)",
+    "section": "Change directory command",
+    "text": "Change directory command\n\nThe cd command.\ncd .. takes you back to the previous (parent) folder."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
+    "title": "Coding environment (and the shell)",
+    "section": "Where am I?",
+    "text": "Where am I?\n\npwd is the print working directory command."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
+    "title": "Coding environment (and the shell)",
+    "section": "LiveShare",
+    "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace view",
+    "text": "Codespace view"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
+    "title": "Coding environment (and the shell)",
+    "section": "Lession 1",
+    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python lession_1.py\n\nDid it work? If so, open up the lession_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/index.html",
+    "href": "learn/learn-python/module-1/index.html",
     "title": "Module 1 - Where is the on switch?",
-    "section": "The coding environment",
-    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
+    "section": "",
+    "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, not clinical terminologies)."
   },
   {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#python-basics",
-    "href": "learn/learn-python/module-1/1-introduction.html#python-basics",
+    "objectID": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
+    "href": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
     "title": "Module 1 - Where is the on switch?",
-    "section": "Python Basics",
-    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
+    "section": "Chose a slide deck",
+    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build a web app\n\n\n5 - Session close"
   },
   {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#build-an-app",
-    "href": "learn/learn-python/module-1/1-introduction.html#build-an-app",
+    "objectID": "learn/learn-python/module-1/index.html#get-coding",
+    "href": "learn/learn-python/module-1/index.html#get-coding",
     "title": "Module 1 - Where is the on switch?",
-    "section": "Build an app",
-    "text": "Build an app\n\nFinally, we will get you building your own clinical app"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
-    "href": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Why learn to code?",
-    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to better understand and practice clinical medicine. Why don’t we learn the base subject to better understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "href": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "How can you use your coding skills in health care?",
-    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nInteroperability\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed, anything digital"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
-    "href": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Tutor groups",
-    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
-    "href": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Off we go to the shell",
-    "text": "Off we go to the shell"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
-    "href": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
-    "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "What to build?",
-    "text": "What to build?"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#streamlit",
-    "href": "learn/learn-python/module-1/4-lets-build.html#streamlit",
-    "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "Streamlit",
-    "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
-    "href": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
-    "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "Preinstalled for you",
-    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the module-1/hands-on folder.\nRun this code:\n\n\n    $ streamlit run lesson_3.py"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/5-session-close.html#many-thanks",
-    "href": "learn/learn-python/module-1/5-session-close.html#many-thanks",
-    "title": "Session close",
-    "section": "Many thanks",
-    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease join us for more advanced courses, due out soon."
-  },
-  {
-    "objectID": "learn/index.html",
-    "href": "learn/index.html",
-    "title": "Education",
-    "section": "",
-    "text": "Available educational resources include:"
-  },
-  {
-    "objectID": "learn/index.html#coding-programmatic",
-    "href": "learn/index.html#coding-programmatic",
-    "title": "Education",
-    "section": "Coding (programmatic)",
-    "text": "Coding (programmatic)\nThere are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.\n\nLearn to code in python"
-  },
-  {
-    "objectID": "learn/index.html#ask-a-clinician",
-    "href": "learn/index.html#ask-a-clinician",
-    "title": "Education",
-    "section": "Ask a clinician",
-    "text": "Ask a clinician\nComing soon: Ask a clinician learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found here."
-  },
-  {
-    "objectID": "learn/index.html#clinical-informatics",
-    "href": "learn/index.html#clinical-informatics",
-    "title": "Education",
-    "section": "Clinical informatics",
-    "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
-  },
-  {
-    "objectID": "learn/index.html#coding-cheatsheets",
-    "href": "learn/index.html#coding-cheatsheets",
-    "title": "Education",
-    "section": "Coding cheatsheets",
-    "text": "Coding cheatsheets\nA collection of code and commands."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learn Collaborate Build",
-    "section": "",
-    "text": "Let’s Do Digital has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date.\nOur first Programming in Healthcare course is now open to registration. Please find further details about the course and registration here.\nLook out for another series of learning opportunities. We are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to ask a clinician about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.\n\n    Individual supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above.\n\n\n\n    Healthcare group supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above."
-  },
-  {
-    "objectID": "conferences/2023/maps.html",
-    "href": "conferences/2023/maps.html",
-    "title": "Maps 2023",
-    "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nFor those of you attending in person, the venue is at the Park Campus in Cheltenham.\nAddress:\n\nElwes Teaching Centre (1a on the 2nd map below) Park Campus University of Gloucestershire Cheltenham GL50 2RH\n\nPaid for parking is available on the campus. Alternatively there is free parking on the roads off from the campus.\n\n\nThe conference will be held in the Elwes Teaching Centre (1a on the map):\nIf you are struggling to find the building, please click here for directions.\n\nFor those of you attending virtually, a virtual invite will be sent out shortly by email."
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html",
-    "href": "conferences/2023/organising-committee.html",
-    "title": "Organising Committee",
-    "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
-    "href": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
-    "title": "Organising Committee",
-    "section": "Dr Mark A Bailey- Chief Conference Organiser",
-    "text": "Dr Mark A Bailey- Chief Conference Organiser"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-anita-phung",
-    "href": "conferences/2023/organising-committee.html#dr-anita-phung",
-    "title": "Organising Committee",
-    "section": "Dr Anita Phung",
-    "text": "Dr Anita Phung"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
-    "href": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
-    "title": "Organising Committee",
-    "section": "Mr Sobath Premaratne",
-    "text": "Mr Sobath Premaratne"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-dom-main",
-    "href": "conferences/2023/organising-committee.html#dr-dom-main",
-    "title": "Organising Committee",
-    "section": "Dr Dom Main",
-    "text": "Dr Dom Main"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-dylan-goh",
-    "href": "conferences/2023/organising-committee.html#dr-dylan-goh",
-    "title": "Organising Committee",
-    "section": "Dr Dylan Goh",
-    "text": "Dr Dylan Goh"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-alistair-cannon",
-    "href": "conferences/2023/organising-committee.html#dr-alistair-cannon",
-    "title": "Organising Committee",
-    "section": "Dr Alistair Cannon",
-    "text": "Dr Alistair Cannon"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
-    "href": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
-    "title": "Organising Committee",
-    "section": "Dr Aparna Ghosh",
-    "text": "Dr Aparna Ghosh"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-dionne-matthews",
-    "href": "conferences/2023/organising-committee.html#dr-dionne-matthews",
-    "title": "Organising Committee",
-    "section": "Dr Dionne Matthews",
-    "text": "Dr Dionne Matthews"
-  },
-  {
-    "objectID": "conferences/2023/posters.html",
-    "href": "conferences/2023/posters.html",
-    "title": "Posters",
-    "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\nBelow are posters and also links to video presentations of works submitted to the conference."
-  },
-  {
-    "objectID": "conferences/2023/posters.html#mary-hannah-bonnett-poster",
-    "href": "conferences/2023/posters.html#mary-hannah-bonnett-poster",
-    "title": "Posters",
-    "section": "Mary Hannah Bonnett Poster",
-    "text": "Mary Hannah Bonnett Poster\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#benjamin-choudhury-1st-poster",
-    "href": "conferences/2023/posters.html#benjamin-choudhury-1st-poster",
-    "title": "Posters",
-    "section": "Benjamin Choudhury 1st Poster",
-    "text": "Benjamin Choudhury 1st Poster\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#benjamin-choudhury-2nd-poster",
-    "href": "conferences/2023/posters.html#benjamin-choudhury-2nd-poster",
-    "title": "Posters",
-    "section": "Benjamin Choudhury 2nd Poster",
-    "text": "Benjamin Choudhury 2nd Poster\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#dylan-goh",
-    "href": "conferences/2023/posters.html#dylan-goh",
-    "title": "Posters",
-    "section": "Dylan Goh",
-    "text": "Dylan Goh\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#aminul-islam-and-abu-sufian",
-    "href": "conferences/2023/posters.html#aminul-islam-and-abu-sufian",
-    "title": "Posters",
-    "section": "Aminul Islam and Abu Sufian",
-    "text": "Aminul Islam and Abu Sufian\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#nick-leney",
-    "href": "conferences/2023/posters.html#nick-leney",
-    "title": "Posters",
-    "section": "Nick Leney",
-    "text": "Nick Leney\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#dionne-matthews",
-    "href": "conferences/2023/posters.html#dionne-matthews",
-    "title": "Posters",
-    "section": "Dionne Matthews",
-    "text": "Dionne Matthews\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#usama-shahid",
-    "href": "conferences/2023/posters.html#usama-shahid",
-    "title": "Posters",
-    "section": "Usama Shahid",
-    "text": "Usama Shahid\n\n\n\n\n\nVideo Presentation"
-  },
-  {
-    "objectID": "conferences/2023/posters.html#helen-winter",
-    "href": "conferences/2023/posters.html#helen-winter",
-    "title": "Posters",
-    "section": "Helen Winter",
-    "text": "Helen Winter\n\n\n\n\n\nNo video presentation for this poster."
-  },
-  {
-    "objectID": "conferences/2022/index.html",
-    "href": "conferences/2022/index.html",
-    "title": "Let’s Talk Digital Conference 2022",
-    "section": "",
-    "text": "You can find information about the first Let’s Talk Digital Conference on the main sponsor’s website SWAG.\n\nWant to jump straight in and watch the recordings of the 2022 conference, view below:"
-  },
-  {
-    "objectID": "conferences/2024/index.html",
-    "href": "conferences/2024/index.html",
-    "title": "Let’s Talk Digital Conference 2024",
-    "section": "",
-    "text": "Watch this space for further details.\nThe conference is booked for the 24th of October at:\n\nSandford Education Centre Gloucestershire Hospitals NHS Foundation Trust 38 Keynsham Rd Cheltenham GL53 7PX"
-  },
-  {
-    "objectID": "conferences/2023/index.html",
-    "href": "conferences/2023/index.html",
-    "title": "Let’s Talk Digital Conference 2023",
-    "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nThank you for taking an interest in the Let’s Talk Digital Conference 2023. It the conference is all over, but there is always more to come.\nWatch the conference in full, snippets, or as you like below:\n\nMany thanks for our sponsors:"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html",
-    "href": "conferences/2023/agenda.html",
-    "title": "Agenda 2023",
-    "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n8:30 – 9:30 – Welcome coffee and tea\n9:30 – Mark Bailey – Interim Chair of Council, Faculty of Clinical Informatics and Locum Respiratory Consultant – Opening talk"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#morning-session-1",
-    "href": "conferences/2023/agenda.html#morning-session-1",
-    "title": "Agenda 2023",
-    "section": "9:35 – Morning session 1",
-    "text": "9:35 – Morning session 1\n9:35 – Chair – Mark Bailey 9:40 – TBC – Patient representative 9:50 – Prof Joe McDonald – Medical Director at Sleepstation, SARD JV, Parsek and Ethical Healthcare Consulting- 10 Lessons from 20 Years in Health IT 10:00 – Dom Main – GP and Clinical Engineer at Healthtech1, and Anita Phung – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician – Robotic Process Automation in Primary Care 10:10 – Q&A"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#coffee-break",
-    "href": "conferences/2023/agenda.html#coffee-break",
-    "title": "Agenda 2023",
-    "section": "10:25 – Coffee break",
-    "text": "10:25 – Coffee break\n11:05 – Morning session 2 11:05 – Chair – Helen Winter – SWAG cancer alliance clinical director and Medical Oncologist at Bristol Royal Infirmary Hospital 11:10 – Matimba Swama – PhD candidate – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial 11:25 – Sophie Brooks – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL 11:35 – Kareem El-Wakeel, Senior Programmer, Collaboration Digital Ltd – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally. 11:45 – Q&A"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#debate",
-    "href": "conferences/2023/agenda.html#debate",
-    "title": "Agenda 2023",
-    "section": "12:00 – Debate",
-    "text": "12:00 – Debate\n“This house believes that clinicians should be allowed to directly code and create health apps” Chair – Anita Phung For – Marcus Baw, Clinical Informatician, Software Developer and other roles Against – Harold Thimbleby – Professor in Healthcare computer sciences, Swansea University (2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#lunch-with-posters",
-    "href": "conferences/2023/agenda.html#lunch-with-posters",
-    "title": "Agenda 2023",
-    "section": "12:50 – 13:50 – Lunch with posters",
-    "text": "12:50 – 13:50 – Lunch with posters"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#afternoon-session-1",
-    "href": "conferences/2023/agenda.html#afternoon-session-1",
-    "title": "Agenda 2023",
-    "section": "13:50 – Afternoon session 1",
-    "text": "13:50 – Afternoon session 1\n13:50 – Chair – Alistair Cannon – Psychiatrist and education fellow at South London & Maudsley 13:55 – Kevin Monk – CEO SardJV – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients. 14:05 – Grant Vallance- Information Manager, Oxford University Hospital NHS Foundation Trust and Joe Channing Software Engineer, Oxford University Hospital NHS Foundation Trust- Clinical Services Providing Clinical Software 14:15 – Mark Wardle – CCIO and Consultant Neurologist, Cardiff and Vale University Health Board – 10 lessons from a journey through health and care data 14:25 – Q&A"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#coffee-break-1",
-    "href": "conferences/2023/agenda.html#coffee-break-1",
-    "title": "Agenda 2023",
-    "section": "14:40 – Coffee break",
-    "text": "14:40 – Coffee break"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#afternoon-session-2",
-    "href": "conferences/2023/agenda.html#afternoon-session-2",
-    "title": "Agenda 2023",
-    "section": "15:20 – Afternoon session 2",
-    "text": "15:20 – Afternoon session 2\n15:20 – Chair – TBC 15:25 – Poster awards 15:35 – Rajesh Sivaprakasam – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust- Are we ready for digital Healthcare? 15:45 – Andrea Preston – Macmillan Divisional Lead Pharmacist – Haematology, University Hospitals Bristol & Weston NHS Foundation Trust 15:55 – Majid Kazmi- Director of Innovation for Cancer and Surgery; Deputy Medical Director Guy’s and St Thomas’ NHS Foundation Trust and Paul Landau- CEO Careology – Digital cancer care: how to empower patients beyond the hospital walls 16:05 – Q&A 16:20 – close"
-  },
-  {
-    "objectID": "conferences/2023/bios.html",
-    "href": "conferences/2023/bios.html",
-    "title": "Bios 2023",
-    "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\n\n\n\n\n\nFull Name – Mark Bailey\nJob Title(s) – Consultant in Respiratory Medicine and Clinician-who-codes, Conference co-producer\nTitle of presentation - Mark has been very interested in all things digital for most of his life. His digital interests filtered into his current healthcare role when he started thinking of ways to streamline daily clinical tasks. He built a desktop app called “Spiritum”. This houses the Gloucestershire sleep, bronchiectasis and tuberculosis services. It automates the transfer of data within the trust, creating standardised clinical letters, retrieves lab and radiology reports, flagging abnormal ones for clinicians to review, etc. As part of works to improve the sleep service, the Spiritum app helped reduce the breach rate of this service by 79% over a 2-year period. A spin-off from the Spiritum app was an program called “Quick Spiritum”. This uses robotic process automation to automate and speed up routine clinical tasks. These tasks include looking up imaging (eg chest X-rays), bloods and clinical letter and requesting tests and referrals. Quick Spiritum was found to save, on average, 30% of clinician’s time on these tasks. This work has shown what is possible with automation and digitisation, and Mark’s department is keen to tackle the next big issues. Mark and his team have been working over the last one and a half years on improving the local lung cancer pathway using the knowledge gained from the above projects. Mark has two computer science placement students working with him on this project – Joe Channing and Nick Ives. Mark’s team now have a functional “proof-of-concept” app that will be showcased at the Let’s Talk Digital Conference. This app has been created in open source and in a modular fashion. By using open source and a modular build, the hope is to be able to allow other disease sites and trusts to both benefit and collaborate on this work.\nMark is also a big advocate of advancing the clinical informatics speciality. He is a board member of the Faculty of Clinical Informatics, a board member of the NHS pycom (python community) and a current student on the NHS Digital Academy PGDip Digital Academy course. He hopes to progress this to an MSc in September.\n\n\n\n\n\n\n\n\nFull name – Marcus Baw\nJob Title(s) – Clinical Informatician, Software Developer, GP, Director at Baw Medical Ltd\nTitle of presentation – Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\nDr Marcus Baw is a practicing GP and Emergency Physician in Yorkshire, UK, with a specialist interest in health informatics and health technology. He is a software developer and works exclusively on open source projects. He is also the Immediate Past Chair of the Royal College of GPs Health Informatics Group.\n\n\n\n\n\n\n\n\nFull Name – Sophie Brook\nJob Title(s) – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL\nTitle of Presentation – Sophie is an NHS Clinician who created Lister due to experiencing frustrations from paper handover lists that still saturate the NHS regardless of digital transformation. She felt the cognitive overload of trying to remember and prioritise all patients within her care and the patient safety concerns of missed or overlooked tasks. This was coupled with the lack of transparency between tasks and staff members, with various roles working from different lists, leading to delays and inefficient ways of working. Motivated to solve these problems, Sophie was accepted onto the NHS Clinical Entrepreneur programme in 2019 with the Idea of digitising this process to improve patient safety, teamwork and workflow. Fast forward to 2023, Lister is now a developed task management solution and is currently being evaluated with 4 NHS Trusts.\nSophie’s passion for digital innovation has evolved over the years and she is a member of the National Digital Shared Decision-Making Council with NHSE, a member of the LND local council and a UCL MSc student in Digital Health. She looks forward to sharing her journey from NHS Clinician turned digital Innovator at the let’s Talk Digital Conference 2023.\n\n\n\n\n\n\n\n\nFull Name – Mr Kareem El-Wakeel\nJob title(s) – Senior Programmer, Collaboration Digital Ltd\nTitle of presentation – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally.\nAfter graduating from Bristol university with a Masters in Aeronautical Engineering, Kareem decided to pursue his passion in software development and programming. As a software engineer, he applied his skills working in different industries, testing software, developing transport and journey planning apps, and medical software, building experience in web and app development as well as backend systems. Kareem is currently our chief programming officer.\n\n\n\n\n\n\n\n\nFull name – Majid Kazmi\nJob title(s) – Director of Innovation for Cancer and Surgery and Deputy Medical Director, Guy’s and St Thomas’ NHS Foundation Trust\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nMajid Kazmi, B.Med.Biol, MD ChB (comm), FRCP, FRCPath, has a national profile in myeloma and bone marrow (stem cell) transplantation as well as clinical leadership in cancer. Majid is the UK lead for the EBMT (European group for Blood and Marrow Transplantation) for auto-immune disorders and has performed the largest number of these transplants in the UK. He has been involved in writing the UK myeloma and amyloidosis guidelines and is an invited speaker nationally and internationally.\n\n\n\n\n\n\n\n\nFull name – Paul Landau\nJob title(s) – CEO and Founder, Careology\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nPaul Landau is the CEO and Founder of Careology, the leading digital cancer care platform. Careology’s award-winning app enables patients to navigate their cancer journey and connect them with their clinicians and community. Paul is a pioneer in the technology space – launching Fitbug in 2005, making it a highly influential player in the global wearables market. Following his wife’s cancer diagnosis he leveraged his consumer health-tech experience to change how cancer-care is delivered. Careology launched in 2019, empowering Patients and Healthcare professionals to be more in control, make decisions based on clinical rigour and help ease pressure in the system.\n\n\n\n\n\n\n\n\nFull Name – Dom Main\nJob Title(s) – GP and Clinical Engineer at Healthtech-1\nTitle of presentation – Robotic Process Automation in Primary Care\nPracticing GP who came to medicine after a few years studying Physics, passionate about improving the lives of healthcare workers and patients through technology.\n\n\n\n\n\n\n\n\nFull Name – Professor Joe McDonald\nJob Title(s) – Medical Director at SARD JV, Sleepstation, Parsek Solutions, Ethical Healthcare\nTitle of presentation – 10 Lessons from 20 Years in Health IT\nJoe is a consultant psychiatrist by background and sytemic family therapist. A former NHS trust Medical Director, he oversaw the digitisation of mental health records during NPfIT as national clinical lead for IT and former Medical Director of the Lorenzo Delivery Team. Joe was “let go” by NPfIT for his “career-limiting frankness”. Founding director of The Great North Care Record and longstanding crusader in the field of NHS IT usability, carried out 4 National UX surveys over 10 years. Now working as a peripatetic CCIO/MD for SME’s trying to do right by his beloved NHS.\n\n\n\n\n\n\n\n\nFull Name – Kevin Monk\nJob Title(s) – CEO of SARD JV, General Tinkerer.\nTitle of presentation – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients.\nKevin cofounded SARD JV with Oxleas NHS FT. He’s been hacking software together since he was 8 years old. For the last 15 years, he’s built workforce systems for the NHS in rostering, appraisal, eLeave, and capacity and demand management. SARD is taking this all to a new level thanks to AI. In this talk, we’ll get a glimpse of our inevitable future – away from the AI hype and a real-life demo of what it can actually do that’s useful. Very useful.\n\n\n\n\n\n\n\n\nFull name – Anita Phung\nJob title(s) – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician\nTitle of presentation – Robotic Process Automation in Primary Care\nAnita is a recently qualified GP with a strong interest in health optimisation and digital health. She worked for an early-stage health tech start up for 2 years before taking a career break to walk Camino de Santiago (500 miles!). Anita is currently involved in various digital health-related projects whilst considering her role in the digital health space.\n\n\n\n\n\n\n\n\nFull Name – Andrea Preston\nJob Title(s) – Andrea Preston (MRPharmS Consultant), Head of Patient Innovation and Care at Sanius Health | Myeloma Specialist Pharmacist.\nTitle of Presentation – Andrea is a haematology specialist pharmacist with over 20 years’ experience in the NHS. After co-creating an app to support patients with Chronic Myeloid Leukaemia she joined Sanius Health, an award-winning, AI powered patient generated data platform with a focus on accelerating personalised medicine, drug discovery, and clinical research for cancer treatment, haematological malignancies, haematological disorders and rare diseases.\nAndrea is Chair of the UK Myeloma Society Pharmacist Group and plays an active prescribing role for patients with multiple myeloma and amyloid.\nAndrea is passionate about research and innovation for patient benefit. She has been an NHS Clinical Entrepreneur with NHS England and NHS Improvement’s Innovation, Research and Life Sciences group and is a member of the British Oncology Pharmacy Association’s Audit & Research Committee. Her areas of research interest include medication adherence, dosing in obesity and the use of innovative technologies to drive better outcomes for patients.\n\n\n\n\n\n\n\n\nFull Name – Mr Rajesh Sivaprakasam\nJob Title(s) – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust\nTitle of presentation – Are we ready for digital Healthcare?\nMr.Rajesh Sivaprakasam is a Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Bartshealth NHS Trust. He completed training in abdominal organ transplatation in Addenbrooke’s Hospital Cambridge and conducted research in cellular Biology at University of Cambridge. As a surgeon-scientist, he leads NIHR funded clincial trials and is the chair of Multispeciality Robotic research programme in Barts health NHS Trust. His research work is presented in many international conferences, published in peer-reviewed journals and developed the world’s first risk score to predict outcome following intestinal transplantation. He is engaged with many national patient organisations to improve their engagement towards adopting digital solutions and uses multimedia to demystify the potential solutions used presently and considered for the future. He performed the first live renal transplantation in TV (BATFA winner) and is a member of All Party Parlimentary Group to improve engagement of BAME communities to organ donation and transplantation. He is passionate about enhancing patient care and medical education using digital innovation-based solutions and work with many innovators at various stages of the development of their solutions across the globe. He is an experienced Medical entrepreneur and actively participates in enhancing a patient-clinician-provider & industry partnered approach to develop and integrate digital solutions into practice. He regularly participates in MedTech events and strives to encourage educational & healthcare organisations to improve engagement of their students and teams toward digial health, thereby, shape the future of our healthcare service.\n\n\n\n\n\n\n\n\nFull name – Matimba Swana\nJob Title(s) – PhD candidate\nTitle of Presentation – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial\nMatimba is a PhD candidate in the Department of Engineering Mathematics at University of Bristol. Matimba’s research investigates cancer nanomedicine, swarm medicine, bioethics and the use of virtual tumours and patient twin models in clinical trials. Matimba is currently doing a placement on the Futures team in the UK Government Office for Science. Matimba is passionate about emerging technologies, medical ethics, global health and digital health disparities. Matimba currently sits on the Bristol cancer steering committee and is a trustee on the Executive Board at the Brain Tumour Charity. Matimba previously worked in stem cell research and clinical trials with a focus on decentralised phase II and III rare disease trials and digital healthcare.\n\n\n\n\n\n\n\n\nFull name – Prof Harold Thimbleby\nJob Title(s) – See Change Fellow in Digital Health\nTitle of Presentation – 1) Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\n\nShort talk: “First do no harm? First fix digital”\n\nHarold Thimbleby is an internationally recognised computer scientist and popular speaker who campaigns for improving digital healthcare. Harold’s book Fix IT: See and solve the problems of digital healthcare (OUP) won the British Medical Association best book awards in General Medicine; the BMA judges wrote “It is such an important book. Our ability to help patients is so reliant on IT and digital solutions. It has the broadest appeal and has achieved something quite impressive … It should be read by all healthcare staff.”\nAs an expert witness in NHS cases, Harold has helped keep healthcare professionals out of prison; he has also provided expert evidence in other cases, such as the UK Post Office scandal which prosecuted over 700 people for alleged fraud that was in fact caused by computer bugs. He recently finished a project with Welsh Ambulance helping them make best use of AI systems.\n\n\n\n\n\n\n\n\nFull Name – Grant D. Vallance\nJob Title(s) – Information Manager for the Department of Clinical Haematology, Oxford University Hospitals Foundation NHS Trust\nTitle of Presentation – Clinical Services Providing Clinical Software\nGrant originally comes from New Zealand but calls the U.K. home after being here for over 20 years. He has degrees in biochemistry, bioethics, ethics and the philosophy of science. He has worked in clinical trial administration and has done and still does academic teaching at the University of Oxford in ethics (mainly research ethics) and clinical trial protocol development. A self-confessed long-term computer nerd. His first computer was a ZX Spectrum 16k, which dates him somewhat. Perhaps being a computer nerd is the reason why, after a circuitous path, he has come to work in information management in a clinical department that looks after sick patients and not IT/informatics systems. He is a passionate believer in the view that the NHS should embrace and encourage frontline digital innovation where it occurs and particularly from within clinical departments. He has been fighting tooth and nail to do so and the struggle is the reason for his greying beard. Unfortunately, how the NHS and NHS Trusts do digital innovation is generally not very conducive to supporting frontline digital innovation. Consequently, he has some rather firm views on how this can be remedied…\n\n\n\n\n\n\n\n\nFull Name – Dr Mark Wardle\nJob Title(s) – Consultant Neurologist and Chief Clinical Information Officer.\nTitle of Presentation – 10 lessons from a journey through health and care data\nMark Wardle is a consultant neurologist and CCIO with a mission to build higher quality and safer healthcare services through open standards, interoperability and the use of meaningful data captured as a consequence of the processes of care. The 10 lessons are drawn from his experience developing clinical applications that are in active use within the NHS and worldwide, chairing the Welsh Technical Standards Board (WTSB), international consultancy work and continued academic involvement in the use of real-life data and outcomes. https://www.wardle.org and https://github.com/wardle"
-  },
-  {
-    "objectID": "tickets/index.html",
-    "href": "tickets/index.html",
-    "title": "Tickets for Let’s Do Digital Events",
-    "section": "",
-    "text": "Programming in Healthcare - Module 1"
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html",
-    "href": "tickets/programming-in-healthcare-module-1-June-2024.html",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "",
-    "text": "Please join us for the first of many coding courses in healthcare that the Let’s Do Digital team will be running. This course is open to anyone but has been designed for those working or interested in digital healthcare / clinical informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#course-structure",
-    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#course-structure",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "Course structure",
-    "text": "Course structure\nWe now have 11 tutors and 41 potential students signed up (on the mailing list) for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#when-and-where",
-    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#when-and-where",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "When and where",
-    "text": "When and where\nOnline, Thursday 27th June, 2-5 pm, on Zoom."
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#topics-covered",
-    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#topics-covered",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "Topics covered",
-    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (add these two things. Make x equal to 3)\nFunctions (hay function, calculate the square root of 9)\nError handling (you were trying to do what!)\nWeb apps\nMedical calculators"
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#purchase-tickets",
-    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#purchase-tickets",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "Purchase tickets",
-    "text": "Purchase tickets\n\n    \n        \n            \n                \n            \n        \n        \n            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at buymeacoffee.com\n        \n    \n    \n        \n            \n                \n            \n        \n        \n            If you feel that £50 is too much for this 3 hour course with tutor support, then we offer a lower value of £25 per ticket. Before you consider this lower priced ticket, please do remember that a lot of time and effort has gone into creating this course."
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#questions",
-    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#questions",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "Questions",
-    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#thanks-to",
-    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#thanks-to",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "Thanks to",
-    "text": "Thanks to\nMany thanks to NHS-R Community hosted by The Strategy Unit for providing the Let’s Do Digital Team with access to their Zoom account for this teaching session."
-  },
-  {
-    "objectID": "learn/ask-a-clinician/index.html",
-    "href": "learn/ask-a-clinician/index.html",
-    "title": "Ask a clinician",
-    "section": "",
-    "text": "Under construction"
+    "section": "Get coding",
+    "text": "Get coding\nThe code for this course can be found below\n\n\nModule 1 code\n\n\nYou can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#what-are-computers",
@@ -763,158 +476,452 @@
     "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
   },
   {
-    "objectID": "learn/learn-python/module-1/index.html",
-    "href": "learn/learn-python/module-1/index.html",
-    "title": "Module 1 - Where is the on switch?",
+    "objectID": "learn/ask-a-clinician/index.html",
+    "href": "learn/ask-a-clinician/index.html",
+    "title": "Ask a clinician",
     "section": "",
-    "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, not clinical terminologies)."
+    "text": "Under construction"
   },
   {
-    "objectID": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
-    "href": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build a web app\n\n\n5 - Session close"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/index.html#get-coding",
-    "href": "learn/learn-python/module-1/index.html#get-coding",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Get coding",
-    "text": "Get coding\nThe code for this course can be found below\n\n\nModule 1 code\n\n\nYou can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
-    "title": "Coding environment (and the shell)",
-    "section": "Today’s hands-on sessions",
-    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment is synonymous with the teaching environment."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace light theme",
-    "text": "Codespace light theme"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace dark theme",
-    "text": "Codespace dark theme"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace layout",
-    "text": "Codespace layout"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#commands",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#commands",
-    "title": "Coding environment (and the shell)",
-    "section": "Commands",
-    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
-    "title": "Coding environment (and the shell)",
-    "section": "Using the terminal",
-    "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
-    "title": "Coding environment (and the shell)",
-    "section": "List files and folders command",
-    "text": "List files and folders command\n\nThe ls command."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
-    "title": "Coding environment (and the shell)",
-    "section": "Change directory command",
-    "text": "Change directory command\n\nThe cd command.\ncd .. takes you back to the previous (parent) folder."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
-    "title": "Coding environment (and the shell)",
-    "section": "Where am I?",
-    "text": "Where am I?\n\npwd is the print working directory command."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
-    "title": "Coding environment (and the shell)",
-    "section": "LiveShare",
-    "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace view",
-    "text": "Codespace view"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
-    "title": "Coding environment (and the shell)",
-    "section": "Lession 1",
-    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python lession_1.py\n\nDid it work? If so, open up the lession_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
-  },
-  {
-    "objectID": "learn/learn-python/index.html",
-    "href": "learn/learn-python/index.html",
-    "title": "Programming in Healthcare",
+    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html",
+    "href": "tickets/programming-in-healthcare-module-1-June-2024.html",
+    "title": "Programming in Healthcare - Module 1",
     "section": "",
-    "text": "Welcome to the Programming in Healthcare course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
+    "text": "Please join us for the first of many coding courses in healthcare that the Let’s Do Digital team will be running. This course is open to anyone but has been designed for those working or interested in digital healthcare / clinical informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
   },
   {
-    "objectID": "learn/learn-python/index.html#modules",
-    "href": "learn/learn-python/index.html#modules",
-    "title": "Programming in Healthcare",
-    "section": "Modules",
-    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nMore modules to arrive soon"
+    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#course-structure",
+    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#course-structure",
+    "title": "Programming in Healthcare - Module 1",
+    "section": "Course structure",
+    "text": "Course structure\nWe now have 11 tutors and 41 potential students signed up (on the mailing list) for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
   },
   {
-    "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "href": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "title": "Module 2 - Let’s take things to the next level",
+    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#when-and-where",
+    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#when-and-where",
+    "title": "Programming in Healthcare - Module 1",
+    "section": "When and where",
+    "text": "When and where\nOnline, Thursday 27th June, 2-5 pm, on Zoom."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#topics-covered",
+    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#topics-covered",
+    "title": "Programming in Healthcare - Module 1",
+    "section": "Topics covered",
+    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (add these two things. Make x equal to 3)\nFunctions (hay function, calculate the square root of 9)\nError handling (you were trying to do what!)\nWeb apps\nMedical calculators"
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#purchase-tickets",
+    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#purchase-tickets",
+    "title": "Programming in Healthcare - Module 1",
+    "section": "Purchase tickets",
+    "text": "Purchase tickets\n\n    \n        \n            \n                \n            \n        \n        \n            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at buymeacoffee.com\n        \n    \n    \n        \n            \n                \n            \n        \n        \n            If you feel that £50 is too much for this 3 hour course with tutor support, then we offer a lower value of £25 per ticket. Before you consider this lower priced ticket, please do remember that a lot of time and effort has gone into creating this course."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#questions",
+    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#questions",
+    "title": "Programming in Healthcare - Module 1",
+    "section": "Questions",
+    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#thanks-to",
+    "href": "tickets/programming-in-healthcare-module-1-June-2024.html#thanks-to",
+    "title": "Programming in Healthcare - Module 1",
+    "section": "Thanks to",
+    "text": "Thanks to\nMany thanks to NHS-R Community hosted by The Strategy Unit for providing the Let’s Do Digital Team with access to their Zoom account for this teaching session."
+  },
+  {
+    "objectID": "tickets/index.html",
+    "href": "tickets/index.html",
+    "title": "Tickets for Let’s Do Digital Events",
+    "section": "",
+    "text": "Programming in Healthcare - Module 1"
+  },
+  {
+    "objectID": "conferences/2023/bios.html",
+    "href": "conferences/2023/bios.html",
+    "title": "Bios 2023",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\n\n\n\n\n\nFull Name – Mark Bailey\nJob Title(s) – Consultant in Respiratory Medicine and Clinician-who-codes, Conference co-producer\nTitle of presentation - Mark has been very interested in all things digital for most of his life. His digital interests filtered into his current healthcare role when he started thinking of ways to streamline daily clinical tasks. He built a desktop app called “Spiritum”. This houses the Gloucestershire sleep, bronchiectasis and tuberculosis services. It automates the transfer of data within the trust, creating standardised clinical letters, retrieves lab and radiology reports, flagging abnormal ones for clinicians to review, etc. As part of works to improve the sleep service, the Spiritum app helped reduce the breach rate of this service by 79% over a 2-year period. A spin-off from the Spiritum app was an program called “Quick Spiritum”. This uses robotic process automation to automate and speed up routine clinical tasks. These tasks include looking up imaging (eg chest X-rays), bloods and clinical letter and requesting tests and referrals. Quick Spiritum was found to save, on average, 30% of clinician’s time on these tasks. This work has shown what is possible with automation and digitisation, and Mark’s department is keen to tackle the next big issues. Mark and his team have been working over the last one and a half years on improving the local lung cancer pathway using the knowledge gained from the above projects. Mark has two computer science placement students working with him on this project – Joe Channing and Nick Ives. Mark’s team now have a functional “proof-of-concept” app that will be showcased at the Let’s Talk Digital Conference. This app has been created in open source and in a modular fashion. By using open source and a modular build, the hope is to be able to allow other disease sites and trusts to both benefit and collaborate on this work.\nMark is also a big advocate of advancing the clinical informatics speciality. He is a board member of the Faculty of Clinical Informatics, a board member of the NHS pycom (python community) and a current student on the NHS Digital Academy PGDip Digital Academy course. He hopes to progress this to an MSc in September.\n\n\n\n\n\n\n\n\nFull name – Marcus Baw\nJob Title(s) – Clinical Informatician, Software Developer, GP, Director at Baw Medical Ltd\nTitle of presentation – Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\nDr Marcus Baw is a practicing GP and Emergency Physician in Yorkshire, UK, with a specialist interest in health informatics and health technology. He is a software developer and works exclusively on open source projects. He is also the Immediate Past Chair of the Royal College of GPs Health Informatics Group.\n\n\n\n\n\n\n\n\nFull Name – Sophie Brook\nJob Title(s) – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL\nTitle of Presentation – Sophie is an NHS Clinician who created Lister due to experiencing frustrations from paper handover lists that still saturate the NHS regardless of digital transformation. She felt the cognitive overload of trying to remember and prioritise all patients within her care and the patient safety concerns of missed or overlooked tasks. This was coupled with the lack of transparency between tasks and staff members, with various roles working from different lists, leading to delays and inefficient ways of working. Motivated to solve these problems, Sophie was accepted onto the NHS Clinical Entrepreneur programme in 2019 with the Idea of digitising this process to improve patient safety, teamwork and workflow. Fast forward to 2023, Lister is now a developed task management solution and is currently being evaluated with 4 NHS Trusts.\nSophie’s passion for digital innovation has evolved over the years and she is a member of the National Digital Shared Decision-Making Council with NHSE, a member of the LND local council and a UCL MSc student in Digital Health. She looks forward to sharing her journey from NHS Clinician turned digital Innovator at the let’s Talk Digital Conference 2023.\n\n\n\n\n\n\n\n\nFull Name – Mr Kareem El-Wakeel\nJob title(s) – Senior Programmer, Collaboration Digital Ltd\nTitle of presentation – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally.\nAfter graduating from Bristol university with a Masters in Aeronautical Engineering, Kareem decided to pursue his passion in software development and programming. As a software engineer, he applied his skills working in different industries, testing software, developing transport and journey planning apps, and medical software, building experience in web and app development as well as backend systems. Kareem is currently our chief programming officer.\n\n\n\n\n\n\n\n\nFull name – Majid Kazmi\nJob title(s) – Director of Innovation for Cancer and Surgery and Deputy Medical Director, Guy’s and St Thomas’ NHS Foundation Trust\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nMajid Kazmi, B.Med.Biol, MD ChB (comm), FRCP, FRCPath, has a national profile in myeloma and bone marrow (stem cell) transplantation as well as clinical leadership in cancer. Majid is the UK lead for the EBMT (European group for Blood and Marrow Transplantation) for auto-immune disorders and has performed the largest number of these transplants in the UK. He has been involved in writing the UK myeloma and amyloidosis guidelines and is an invited speaker nationally and internationally.\n\n\n\n\n\n\n\n\nFull name – Paul Landau\nJob title(s) – CEO and Founder, Careology\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nPaul Landau is the CEO and Founder of Careology, the leading digital cancer care platform. Careology’s award-winning app enables patients to navigate their cancer journey and connect them with their clinicians and community. Paul is a pioneer in the technology space – launching Fitbug in 2005, making it a highly influential player in the global wearables market. Following his wife’s cancer diagnosis he leveraged his consumer health-tech experience to change how cancer-care is delivered. Careology launched in 2019, empowering Patients and Healthcare professionals to be more in control, make decisions based on clinical rigour and help ease pressure in the system.\n\n\n\n\n\n\n\n\nFull Name – Dom Main\nJob Title(s) – GP and Clinical Engineer at Healthtech-1\nTitle of presentation – Robotic Process Automation in Primary Care\nPracticing GP who came to medicine after a few years studying Physics, passionate about improving the lives of healthcare workers and patients through technology.\n\n\n\n\n\n\n\n\nFull Name – Professor Joe McDonald\nJob Title(s) – Medical Director at SARD JV, Sleepstation, Parsek Solutions, Ethical Healthcare\nTitle of presentation – 10 Lessons from 20 Years in Health IT\nJoe is a consultant psychiatrist by background and sytemic family therapist. A former NHS trust Medical Director, he oversaw the digitisation of mental health records during NPfIT as national clinical lead for IT and former Medical Director of the Lorenzo Delivery Team. Joe was “let go” by NPfIT for his “career-limiting frankness”. Founding director of The Great North Care Record and longstanding crusader in the field of NHS IT usability, carried out 4 National UX surveys over 10 years. Now working as a peripatetic CCIO/MD for SME’s trying to do right by his beloved NHS.\n\n\n\n\n\n\n\n\nFull Name – Kevin Monk\nJob Title(s) – CEO of SARD JV, General Tinkerer.\nTitle of presentation – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients.\nKevin cofounded SARD JV with Oxleas NHS FT. He’s been hacking software together since he was 8 years old. For the last 15 years, he’s built workforce systems for the NHS in rostering, appraisal, eLeave, and capacity and demand management. SARD is taking this all to a new level thanks to AI. In this talk, we’ll get a glimpse of our inevitable future – away from the AI hype and a real-life demo of what it can actually do that’s useful. Very useful.\n\n\n\n\n\n\n\n\nFull name – Anita Phung\nJob title(s) – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician\nTitle of presentation – Robotic Process Automation in Primary Care\nAnita is a recently qualified GP with a strong interest in health optimisation and digital health. She worked for an early-stage health tech start up for 2 years before taking a career break to walk Camino de Santiago (500 miles!). Anita is currently involved in various digital health-related projects whilst considering her role in the digital health space.\n\n\n\n\n\n\n\n\nFull Name – Andrea Preston\nJob Title(s) – Andrea Preston (MRPharmS Consultant), Head of Patient Innovation and Care at Sanius Health | Myeloma Specialist Pharmacist.\nTitle of Presentation – Andrea is a haematology specialist pharmacist with over 20 years’ experience in the NHS. After co-creating an app to support patients with Chronic Myeloid Leukaemia she joined Sanius Health, an award-winning, AI powered patient generated data platform with a focus on accelerating personalised medicine, drug discovery, and clinical research for cancer treatment, haematological malignancies, haematological disorders and rare diseases.\nAndrea is Chair of the UK Myeloma Society Pharmacist Group and plays an active prescribing role for patients with multiple myeloma and amyloid.\nAndrea is passionate about research and innovation for patient benefit. She has been an NHS Clinical Entrepreneur with NHS England and NHS Improvement’s Innovation, Research and Life Sciences group and is a member of the British Oncology Pharmacy Association’s Audit & Research Committee. Her areas of research interest include medication adherence, dosing in obesity and the use of innovative technologies to drive better outcomes for patients.\n\n\n\n\n\n\n\n\nFull Name – Mr Rajesh Sivaprakasam\nJob Title(s) – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust\nTitle of presentation – Are we ready for digital Healthcare?\nMr.Rajesh Sivaprakasam is a Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Bartshealth NHS Trust. He completed training in abdominal organ transplatation in Addenbrooke’s Hospital Cambridge and conducted research in cellular Biology at University of Cambridge. As a surgeon-scientist, he leads NIHR funded clincial trials and is the chair of Multispeciality Robotic research programme in Barts health NHS Trust. His research work is presented in many international conferences, published in peer-reviewed journals and developed the world’s first risk score to predict outcome following intestinal transplantation. He is engaged with many national patient organisations to improve their engagement towards adopting digital solutions and uses multimedia to demystify the potential solutions used presently and considered for the future. He performed the first live renal transplantation in TV (BATFA winner) and is a member of All Party Parlimentary Group to improve engagement of BAME communities to organ donation and transplantation. He is passionate about enhancing patient care and medical education using digital innovation-based solutions and work with many innovators at various stages of the development of their solutions across the globe. He is an experienced Medical entrepreneur and actively participates in enhancing a patient-clinician-provider & industry partnered approach to develop and integrate digital solutions into practice. He regularly participates in MedTech events and strives to encourage educational & healthcare organisations to improve engagement of their students and teams toward digial health, thereby, shape the future of our healthcare service.\n\n\n\n\n\n\n\n\nFull name – Matimba Swana\nJob Title(s) – PhD candidate\nTitle of Presentation – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial\nMatimba is a PhD candidate in the Department of Engineering Mathematics at University of Bristol. Matimba’s research investigates cancer nanomedicine, swarm medicine, bioethics and the use of virtual tumours and patient twin models in clinical trials. Matimba is currently doing a placement on the Futures team in the UK Government Office for Science. Matimba is passionate about emerging technologies, medical ethics, global health and digital health disparities. Matimba currently sits on the Bristol cancer steering committee and is a trustee on the Executive Board at the Brain Tumour Charity. Matimba previously worked in stem cell research and clinical trials with a focus on decentralised phase II and III rare disease trials and digital healthcare.\n\n\n\n\n\n\n\n\nFull name – Prof Harold Thimbleby\nJob Title(s) – See Change Fellow in Digital Health\nTitle of Presentation – 1) Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\n\nShort talk: “First do no harm? First fix digital”\n\nHarold Thimbleby is an internationally recognised computer scientist and popular speaker who campaigns for improving digital healthcare. Harold’s book Fix IT: See and solve the problems of digital healthcare (OUP) won the British Medical Association best book awards in General Medicine; the BMA judges wrote “It is such an important book. Our ability to help patients is so reliant on IT and digital solutions. It has the broadest appeal and has achieved something quite impressive … It should be read by all healthcare staff.”\nAs an expert witness in NHS cases, Harold has helped keep healthcare professionals out of prison; he has also provided expert evidence in other cases, such as the UK Post Office scandal which prosecuted over 700 people for alleged fraud that was in fact caused by computer bugs. He recently finished a project with Welsh Ambulance helping them make best use of AI systems.\n\n\n\n\n\n\n\n\nFull Name – Grant D. Vallance\nJob Title(s) – Information Manager for the Department of Clinical Haematology, Oxford University Hospitals Foundation NHS Trust\nTitle of Presentation – Clinical Services Providing Clinical Software\nGrant originally comes from New Zealand but calls the U.K. home after being here for over 20 years. He has degrees in biochemistry, bioethics, ethics and the philosophy of science. He has worked in clinical trial administration and has done and still does academic teaching at the University of Oxford in ethics (mainly research ethics) and clinical trial protocol development. A self-confessed long-term computer nerd. His first computer was a ZX Spectrum 16k, which dates him somewhat. Perhaps being a computer nerd is the reason why, after a circuitous path, he has come to work in information management in a clinical department that looks after sick patients and not IT/informatics systems. He is a passionate believer in the view that the NHS should embrace and encourage frontline digital innovation where it occurs and particularly from within clinical departments. He has been fighting tooth and nail to do so and the struggle is the reason for his greying beard. Unfortunately, how the NHS and NHS Trusts do digital innovation is generally not very conducive to supporting frontline digital innovation. Consequently, he has some rather firm views on how this can be remedied…\n\n\n\n\n\n\n\n\nFull Name – Dr Mark Wardle\nJob Title(s) – Consultant Neurologist and Chief Clinical Information Officer.\nTitle of Presentation – 10 lessons from a journey through health and care data\nMark Wardle is a consultant neurologist and CCIO with a mission to build higher quality and safer healthcare services through open standards, interoperability and the use of meaningful data captured as a consequence of the processes of care. The 10 lessons are drawn from his experience developing clinical applications that are in active use within the NHS and worldwide, chairing the Welsh Technical Standards Board (WTSB), international consultancy work and continued academic involvement in the use of real-life data and outcomes. https://www.wardle.org and https://github.com/wardle"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html",
+    "href": "conferences/2023/agenda.html",
+    "title": "Agenda 2023",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n8:30 – 9:30 – Welcome coffee and tea\n9:30 – Mark Bailey – Interim Chair of Council, Faculty of Clinical Informatics and Locum Respiratory Consultant – Opening talk"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#morning-session-1",
+    "href": "conferences/2023/agenda.html#morning-session-1",
+    "title": "Agenda 2023",
+    "section": "9:35 – Morning session 1",
+    "text": "9:35 – Morning session 1\n9:35 – Chair – Mark Bailey 9:40 – TBC – Patient representative 9:50 – Prof Joe McDonald – Medical Director at Sleepstation, SARD JV, Parsek and Ethical Healthcare Consulting- 10 Lessons from 20 Years in Health IT 10:00 – Dom Main – GP and Clinical Engineer at Healthtech1, and Anita Phung – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician – Robotic Process Automation in Primary Care 10:10 – Q&A"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#coffee-break",
+    "href": "conferences/2023/agenda.html#coffee-break",
+    "title": "Agenda 2023",
+    "section": "10:25 – Coffee break",
+    "text": "10:25 – Coffee break\n11:05 – Morning session 2 11:05 – Chair – Helen Winter – SWAG cancer alliance clinical director and Medical Oncologist at Bristol Royal Infirmary Hospital 11:10 – Matimba Swama – PhD candidate – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial 11:25 – Sophie Brooks – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL 11:35 – Kareem El-Wakeel, Senior Programmer, Collaboration Digital Ltd – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally. 11:45 – Q&A"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#debate",
+    "href": "conferences/2023/agenda.html#debate",
+    "title": "Agenda 2023",
+    "section": "12:00 – Debate",
+    "text": "12:00 – Debate\n“This house believes that clinicians should be allowed to directly code and create health apps” Chair – Anita Phung For – Marcus Baw, Clinical Informatician, Software Developer and other roles Against – Harold Thimbleby – Professor in Healthcare computer sciences, Swansea University (2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#lunch-with-posters",
+    "href": "conferences/2023/agenda.html#lunch-with-posters",
+    "title": "Agenda 2023",
+    "section": "12:50 – 13:50 – Lunch with posters",
+    "text": "12:50 – 13:50 – Lunch with posters"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#afternoon-session-1",
+    "href": "conferences/2023/agenda.html#afternoon-session-1",
+    "title": "Agenda 2023",
+    "section": "13:50 – Afternoon session 1",
+    "text": "13:50 – Afternoon session 1\n13:50 – Chair – Alistair Cannon – Psychiatrist and education fellow at South London & Maudsley 13:55 – Kevin Monk – CEO SardJV – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients. 14:05 – Grant Vallance- Information Manager, Oxford University Hospital NHS Foundation Trust and Joe Channing Software Engineer, Oxford University Hospital NHS Foundation Trust- Clinical Services Providing Clinical Software 14:15 – Mark Wardle – CCIO and Consultant Neurologist, Cardiff and Vale University Health Board – 10 lessons from a journey through health and care data 14:25 – Q&A"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#coffee-break-1",
+    "href": "conferences/2023/agenda.html#coffee-break-1",
+    "title": "Agenda 2023",
+    "section": "14:40 – Coffee break",
+    "text": "14:40 – Coffee break"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#afternoon-session-2",
+    "href": "conferences/2023/agenda.html#afternoon-session-2",
+    "title": "Agenda 2023",
+    "section": "15:20 – Afternoon session 2",
+    "text": "15:20 – Afternoon session 2\n15:20 – Chair – TBC 15:25 – Poster awards 15:35 – Rajesh Sivaprakasam – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust- Are we ready for digital Healthcare? 15:45 – Andrea Preston – Macmillan Divisional Lead Pharmacist – Haematology, University Hospitals Bristol & Weston NHS Foundation Trust 15:55 – Majid Kazmi- Director of Innovation for Cancer and Surgery; Deputy Medical Director Guy’s and St Thomas’ NHS Foundation Trust and Paul Landau- CEO Careology – Digital cancer care: how to empower patients beyond the hospital walls 16:05 – Q&A 16:20 – close"
+  },
+  {
+    "objectID": "conferences/2023/index.html",
+    "href": "conferences/2023/index.html",
+    "title": "Let’s Talk Digital Conference 2023",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nThank you for taking an interest in the Let’s Talk Digital Conference 2023. It the conference is all over, but there is always more to come.\nWatch the conference in full, snippets, or as you like below:\n\nMany thanks for our sponsors:"
+  },
+  {
+    "objectID": "conferences/2024/index.html",
+    "href": "conferences/2024/index.html",
+    "title": "Let’s Talk Digital Conference 2024",
+    "section": "",
+    "text": "Watch this space for further details.\nThe conference is booked for the 24th of October at:\n\nSandford Education Centre Gloucestershire Hospitals NHS Foundation Trust 38 Keynsham Rd Cheltenham GL53 7PX"
+  },
+  {
+    "objectID": "conferences/2022/index.html",
+    "href": "conferences/2022/index.html",
+    "title": "Let’s Talk Digital Conference 2022",
+    "section": "",
+    "text": "You can find information about the first Let’s Talk Digital Conference on the main sponsor’s website SWAG.\n\nWant to jump straight in and watch the recordings of the 2022 conference, view below:"
+  },
+  {
+    "objectID": "conferences/2023/posters.html",
+    "href": "conferences/2023/posters.html",
+    "title": "Posters",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\nBelow are posters and also links to video presentations of works submitted to the conference."
+  },
+  {
+    "objectID": "conferences/2023/posters.html#mary-hannah-bonnett-poster",
+    "href": "conferences/2023/posters.html#mary-hannah-bonnett-poster",
+    "title": "Posters",
+    "section": "Mary Hannah Bonnett Poster",
+    "text": "Mary Hannah Bonnett Poster\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#benjamin-choudhury-1st-poster",
+    "href": "conferences/2023/posters.html#benjamin-choudhury-1st-poster",
+    "title": "Posters",
+    "section": "Benjamin Choudhury 1st Poster",
+    "text": "Benjamin Choudhury 1st Poster\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#benjamin-choudhury-2nd-poster",
+    "href": "conferences/2023/posters.html#benjamin-choudhury-2nd-poster",
+    "title": "Posters",
+    "section": "Benjamin Choudhury 2nd Poster",
+    "text": "Benjamin Choudhury 2nd Poster\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#dylan-goh",
+    "href": "conferences/2023/posters.html#dylan-goh",
+    "title": "Posters",
+    "section": "Dylan Goh",
+    "text": "Dylan Goh\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#aminul-islam-and-abu-sufian",
+    "href": "conferences/2023/posters.html#aminul-islam-and-abu-sufian",
+    "title": "Posters",
+    "section": "Aminul Islam and Abu Sufian",
+    "text": "Aminul Islam and Abu Sufian\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#nick-leney",
+    "href": "conferences/2023/posters.html#nick-leney",
+    "title": "Posters",
+    "section": "Nick Leney",
+    "text": "Nick Leney\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#dionne-matthews",
+    "href": "conferences/2023/posters.html#dionne-matthews",
+    "title": "Posters",
+    "section": "Dionne Matthews",
+    "text": "Dionne Matthews\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#usama-shahid",
+    "href": "conferences/2023/posters.html#usama-shahid",
+    "title": "Posters",
+    "section": "Usama Shahid",
+    "text": "Usama Shahid\n\n\n\n\n\nVideo Presentation"
+  },
+  {
+    "objectID": "conferences/2023/posters.html#helen-winter",
+    "href": "conferences/2023/posters.html#helen-winter",
+    "title": "Posters",
+    "section": "Helen Winter",
+    "text": "Helen Winter\n\n\n\n\n\nNo video presentation for this poster."
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html",
+    "href": "conferences/2023/organising-committee.html",
+    "title": "Organising Committee",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
+    "href": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
+    "title": "Organising Committee",
+    "section": "Dr Mark A Bailey- Chief Conference Organiser",
+    "text": "Dr Mark A Bailey- Chief Conference Organiser"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-anita-phung",
+    "href": "conferences/2023/organising-committee.html#dr-anita-phung",
+    "title": "Organising Committee",
+    "section": "Dr Anita Phung",
+    "text": "Dr Anita Phung"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
+    "href": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
+    "title": "Organising Committee",
+    "section": "Mr Sobath Premaratne",
+    "text": "Mr Sobath Premaratne"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-dom-main",
+    "href": "conferences/2023/organising-committee.html#dr-dom-main",
+    "title": "Organising Committee",
+    "section": "Dr Dom Main",
+    "text": "Dr Dom Main"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-dylan-goh",
+    "href": "conferences/2023/organising-committee.html#dr-dylan-goh",
+    "title": "Organising Committee",
+    "section": "Dr Dylan Goh",
+    "text": "Dr Dylan Goh"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-alistair-cannon",
+    "href": "conferences/2023/organising-committee.html#dr-alistair-cannon",
+    "title": "Organising Committee",
+    "section": "Dr Alistair Cannon",
+    "text": "Dr Alistair Cannon"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
+    "href": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
+    "title": "Organising Committee",
+    "section": "Dr Aparna Ghosh",
+    "text": "Dr Aparna Ghosh"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-dionne-matthews",
+    "href": "conferences/2023/organising-committee.html#dr-dionne-matthews",
+    "title": "Organising Committee",
+    "section": "Dr Dionne Matthews",
+    "text": "Dr Dionne Matthews"
+  },
+  {
+    "objectID": "conferences/2023/maps.html",
+    "href": "conferences/2023/maps.html",
+    "title": "Maps 2023",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nFor those of you attending in person, the venue is at the Park Campus in Cheltenham.\nAddress:\n\nElwes Teaching Centre (1a on the 2nd map below) Park Campus University of Gloucestershire Cheltenham GL50 2RH\n\nPaid for parking is available on the campus. Alternatively there is free parking on the roads off from the campus.\n\n\nThe conference will be held in the Elwes Teaching Centre (1a on the map):\nIf you are struggling to find the building, please click here for directions.\n\nFor those of you attending virtually, a virtual invite will be sent out shortly by email."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learn Collaborate Build",
+    "section": "",
+    "text": "Let’s Do Digital has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date.\nOur first Programming in Healthcare course is now open to registration. Please find further details about the course and registration here.\nLook out for another series of learning opportunities. We are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to ask a clinician about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.\n\n    Individual supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above.\n\n\n\n    Healthcare group supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above."
+  },
+  {
+    "objectID": "learn/index.html",
+    "href": "learn/index.html",
+    "title": "Education",
+    "section": "",
+    "text": "Available educational resources include:"
+  },
+  {
+    "objectID": "learn/index.html#coding-programmatic",
+    "href": "learn/index.html#coding-programmatic",
+    "title": "Education",
+    "section": "Coding (programmatic)",
+    "text": "Coding (programmatic)\nThere are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.\n\nLearn to code in python"
+  },
+  {
+    "objectID": "learn/index.html#ask-a-clinician",
+    "href": "learn/index.html#ask-a-clinician",
+    "title": "Education",
+    "section": "Ask a clinician",
+    "text": "Ask a clinician\nComing soon: Ask a clinician learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found here."
+  },
+  {
+    "objectID": "learn/index.html#clinical-informatics",
+    "href": "learn/index.html#clinical-informatics",
+    "title": "Education",
+    "section": "Clinical informatics",
+    "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
+  },
+  {
+    "objectID": "learn/index.html#coding-cheatsheets",
+    "href": "learn/index.html#coding-cheatsheets",
+    "title": "Education",
+    "section": "Coding cheatsheets",
+    "text": "Coding cheatsheets\nA collection of code and commands."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/5-session-close.html#many-thanks",
+    "href": "learn/learn-python/module-1/5-session-close.html#many-thanks",
+    "title": "Session close",
+    "section": "Many thanks",
+    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease join us for more advanced courses, due out soon."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
+    "href": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "What to build?",
+    "text": "What to build?"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#streamlit",
+    "href": "learn/learn-python/module-1/4-lets-build.html#streamlit",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Streamlit",
+    "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
+    "href": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Preinstalled for you",
+    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the module-1/hands-on folder.\nRun this code:\n\n\n    $ streamlit run lesson_3.py"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#introduction",
+    "href": "learn/learn-python/module-1/1-introduction.html#introduction",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Introduction",
     "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
-    "objectID": "learn/syllabi/clinician-who-codes.html",
-    "href": "learn/syllabi/clinician-who-codes.html",
-    "title": "Clinician-who-codes",
+    "objectID": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
+    "href": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "The coding environment",
+    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#python-basics",
+    "href": "learn/learn-python/module-1/1-introduction.html#python-basics",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Python Basics",
+    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#build-an-app",
+    "href": "learn/learn-python/module-1/1-introduction.html#build-an-app",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Build an app",
+    "text": "Build an app\n\nFinally, we will get you building your own clinical app"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
+    "href": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Why learn to code?",
+    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to better understand and practice clinical medicine. Why don’t we learn the base subject to better understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "href": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "How can you use your coding skills in health care?",
+    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nInteroperability\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed, anything digital"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
+    "href": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Tutor groups",
+    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
+    "href": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Off we go to the shell",
+    "text": "Off we go to the shell"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/index.html",
+    "href": "learn/learn-python/module-2/index.html",
+    "title": "Module 2 - Let’s take things to the next level",
     "section": "",
-    "text": "By Mark Bailey"
+    "text": "After learning about the basics about coding and the programming language Python in Module 2 - Let’s take things to the next level"
   },
   {
-    "objectID": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
-    "href": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
-    "title": "Clinician-who-codes",
-    "section": "The reasoning behind it all",
-    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinicain-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
+    "objectID": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
+    "href": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "Chose a slide deck",
+    "text": "Chose a slide deck\n\n\n1 - Introduction"
   },
   {
-    "objectID": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
-    "href": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
-    "title": "Clinician-who-codes",
-    "section": "So what would you need to learn?",
-    "text": "So what would you need to learn?\n\nClinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).\nClinical informatics (see separate syllabus here).\nCoding skills."
-  },
-  {
-    "objectID": "posts.html",
-    "href": "posts.html",
-    "title": "Posts",
+    "objectID": "learn/syllabi/clinical-informatician.html",
+    "href": "learn/syllabi/clinical-informatician.html",
+    "title": "Clinical informatician",
     "section": "",
-    "text": "2023 conference is all done, but more to come\n\n\n\nConference\n\n\n\nAnother successful Let’s Talk Digital Conference\n\n\n\nMark Bailey\n\n\nJul 12, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nChatGPT Kubernete\n\n\n\nConference\n\n\n\nLLM gives a great response\n\n\n\nMark Bailey\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk digital conference 2023 fast approaching\n\n\n\nConference\n\n\n\nConference update\n\n\n\nMark Bailey\n\n\nMay 5, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk about careers in clinical informatics and white swans\n\n\n\nCareers\n\n\n\nPubs and career advice\n\n\n\nMark Bailey\n\n\nDec 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s talk digital 2023 conference 15th of June\n\n\n\nConference\n\n\n\nConference update\n\n\n\nMark Bailey\n\n\nOct 10, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMsc in health tech underway\n\n\n\nEducation\n\n\n\nEducation\n\n\n\nMark Bailey\n\n\nSep 16, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2nd quarterly meeting 21/10/22 11am\n\n\n\nWebinar\n\n\n\nQuarterly meeting\n\n\n\nMark Bailey\n\n\nSep 5, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpiritum Duo - Let’s Do Digital pilot\n\n\n\nPilot\n\n\n\nPilot of Spiritum Duo\n\n\n\nMark Bailey\n\n\nJul 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLet’s Do Digital - the start of a new beginning\n\n\n\nFuture plans\n\n\n\nFuture plans\n\n\n\nMark Bailey\n\n\nJul 19, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFirst Let’s Do Digital Quarterly meeting - 15/07/2022\n\n\n\nQuarterly meeting\n\n\n\nQuarterly meeting\n\n\n\nMark Bailey\n\n\nJul 15, 2022\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is currently being worked on with fellow Clinicains who code.\nWatch this space."
+  },
+  {
+    "objectID": "who-are-we.html",
+    "href": "who-are-we.html",
+    "title": "Who we are",
+    "section": "",
+    "text": "A collection of people passionate about making better digital health care and education a reality.\nMark Bailey is the main curator of the Let’s Do Digital Website.\nDylan Goh was the main curator for the 2023 Conference pages.\nWe will publish a full list of names shortly"
+  },
+  {
+    "objectID": "posts/2022-07-15-first-lets-do-digital-quarterly-meeting-15-07-2022/index.html",
+    "href": "posts/2022-07-15-first-lets-do-digital-quarterly-meeting-15-07-2022/index.html",
+    "title": "First Let’s Do Digital Quarterly meeting - 15/07/2022",
+    "section": "",
+    "text": "We had our very first Let’s Do Digital Quarterly meeting. This was an idea I had from a colleague of mine from the University of Gloucestershire. This was a great meeting, talking about the future of digital innovation at the frontline, showcased a few ongoing projects in quick fire 3 min sessions and opened to the floor and discussed the issues around innovation at the frontline in the NHS. The recording from the session can be found at the below link:\nLet’s Do Digital Quarterly recording"
   },
   {
     "objectID": "posts/2022-10-10-lets-talk-digital-2023-conference-15th-of-june/index.html",
