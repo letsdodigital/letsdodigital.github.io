@@ -23,8 +23,6 @@ website:
       - href: sponsor.qmd
         text: Sponsor
       - posts.qmd
-      - href: cheatsheets/index.qmd
-        text: Cheatsheets
       - who-are-we.qmd
       - contact.qmd
       
