@@ -26,3 +26,13 @@
     }
 }
 
+.supporter-frame {
+    width: 100%;
+    height: 200px;
+    background-color: #f8f9fa;
+    border: 15px solid;
+    border-image: linear-gradient(to bottom, #8B4513, #cd7f32, #8B4513) 1;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 5px;
+}

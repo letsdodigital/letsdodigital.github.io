@@ -34,3 +34,15 @@ data scientists, cybersecurity specialists, basically anyone in the digital doma
 processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.
 
 We will update you as these courses and webinars are open to registration.
+
+```{=html}
+<div class="supporter-frame">
+    <h3>Individual supporters</h3>
+    If you wish to support us, please follow the Sponsor link in the navigation bar above.
+</div>
+<br>
+<div class="supporter-frame">
+    <h3>Healthcare group supporters</h3>
+    If you wish to support us, please follow the Sponsor link in the navigation bar above.
+</div>
+```
