@@ -19,3 +19,7 @@ Coming soon: `Ask a clinician` learning series. A place for non-clinicians to as
 Interested in becoming a **clinical informatician**, view a syllabus in the making [here](/learn/syllabi/clinical-informatician.qmd).
 
 Interested in becoming a **clinician-who-codes**, view a syllabus in the making here [here](/learn/syllabi/clinician-who-codes.qmd).
+
+## Coding cheatsheets
+
+A [collection](/cheatsheets/index.qmd) of code and commands.
