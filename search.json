@@ -86,56 +86,56 @@
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#introduction",
     "href": "learn/learn-python/module-1/1-introduction.html#introduction",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Introduction",
     "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
     "href": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "The coding environment",
     "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#python-basics",
     "href": "learn/learn-python/module-1/1-introduction.html#python-basics",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Python Basics",
     "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#build-an-app",
     "href": "learn/learn-python/module-1/1-introduction.html#build-an-app",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Build an app",
     "text": "Build an app\n\nFinally, we will get you building your own clinical app"
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
     "href": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Why learn to code?",
     "text": "Why learn to code?\n\nWe learn biology and anatomy at university to better understand and practice clinical medicine. Why don’t we learn the base subject to better understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
     "href": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "How can you use your coding skills in health care?",
     "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nInteroperability\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed, anything digital"
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
     "href": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Tutor groups",
     "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
     "href": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
-    "title": "?var:coding-module-11",
+    "title": "Module 1 - Where is the on switch?",
     "section": "Off we go to the shell",
     "text": "Off we go to the shell"
   },
@@ -196,95 +196,102 @@
     "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Learn Collaborate Build",
+    "objectID": "contacts.html",
+    "href": "contacts.html",
+    "title": "Contacts",
     "section": "",
-    "text": "Let’s Do Digital has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date.\nWe now plan to deliver several teaching sessions on coding (programmatic, not terminologies). Additionally, we are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to ask a clinician about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.\nWe will update you as these courses and webinars are open to registration."
+    "text": "Have questions or concerns you want to raise that are Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "conferences/2023/bios.html",
-    "href": "conferences/2023/bios.html",
-    "title": "Bios 2023",
+    "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html",
+    "href": "tickets/programming-in-healthcare-module-1-July-2024.html",
+    "title": "Programming in healthcare - module 1",
     "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\n\n\n\n\n\nFull Name – Mark Bailey\nJob Title(s) – Consultant in Respiratory Medicine and Clinician-who-codes, Conference co-producer\nTitle of presentation - Mark has been very interested in all things digital for most of his life. His digital interests filtered into his current healthcare role when he started thinking of ways to streamline daily clinical tasks. He built a desktop app called “Spiritum”. This houses the Gloucestershire sleep, bronchiectasis and tuberculosis services. It automates the transfer of data within the trust, creating standardised clinical letters, retrieves lab and radiology reports, flagging abnormal ones for clinicians to review, etc. As part of works to improve the sleep service, the Spiritum app helped reduce the breach rate of this service by 79% over a 2-year period. A spin-off from the Spiritum app was an program called “Quick Spiritum”. This uses robotic process automation to automate and speed up routine clinical tasks. These tasks include looking up imaging (eg chest X-rays), bloods and clinical letter and requesting tests and referrals. Quick Spiritum was found to save, on average, 30% of clinician’s time on these tasks. This work has shown what is possible with automation and digitisation, and Mark’s department is keen to tackle the next big issues. Mark and his team have been working over the last one and a half years on improving the local lung cancer pathway using the knowledge gained from the above projects. Mark has two computer science placement students working with him on this project – Joe Channing and Nick Ives. Mark’s team now have a functional “proof-of-concept” app that will be showcased at the Let’s Talk Digital Conference. This app has been created in open source and in a modular fashion. By using open source and a modular build, the hope is to be able to allow other disease sites and trusts to both benefit and collaborate on this work.\nMark is also a big advocate of advancing the clinical informatics speciality. He is a board member of the Faculty of Clinical Informatics, a board member of the NHS pycom (python community) and a current student on the NHS Digital Academy PGDip Digital Academy course. He hopes to progress this to an MSc in September.\n\n\n\n\n\n\n\n\nFull name – Marcus Baw\nJob Title(s) – Clinical Informatician, Software Developer, GP, Director at Baw Medical Ltd\nTitle of presentation – Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\nDr Marcus Baw is a practicing GP and Emergency Physician in Yorkshire, UK, with a specialist interest in health informatics and health technology. He is a software developer and works exclusively on open source projects. He is also the Immediate Past Chair of the Royal College of GPs Health Informatics Group.\n\n\n\n\n\n\n\n\nFull Name – Sophie Brook\nJob Title(s) – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL\nTitle of Presentation – Sophie is an NHS Clinician who created Lister due to experiencing frustrations from paper handover lists that still saturate the NHS regardless of digital transformation. She felt the cognitive overload of trying to remember and prioritise all patients within her care and the patient safety concerns of missed or overlooked tasks. This was coupled with the lack of transparency between tasks and staff members, with various roles working from different lists, leading to delays and inefficient ways of working. Motivated to solve these problems, Sophie was accepted onto the NHS Clinical Entrepreneur programme in 2019 with the Idea of digitising this process to improve patient safety, teamwork and workflow. Fast forward to 2023, Lister is now a developed task management solution and is currently being evaluated with 4 NHS Trusts.\nSophie’s passion for digital innovation has evolved over the years and she is a member of the National Digital Shared Decision-Making Council with NHSE, a member of the LND local council and a UCL MSc student in Digital Health. She looks forward to sharing her journey from NHS Clinician turned digital Innovator at the let’s Talk Digital Conference 2023.\n\n\n\n\n\n\n\n\nFull Name – Mr Kareem El-Wakeel\nJob title(s) – Senior Programmer, Collaboration Digital Ltd\nTitle of presentation – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally.\nAfter graduating from Bristol university with a Masters in Aeronautical Engineering, Kareem decided to pursue his passion in software development and programming. As a software engineer, he applied his skills working in different industries, testing software, developing transport and journey planning apps, and medical software, building experience in web and app development as well as backend systems. Kareem is currently our chief programming officer.\n\n\n\n\n\n\n\n\nFull name – Majid Kazmi\nJob title(s) – Director of Innovation for Cancer and Surgery and Deputy Medical Director, Guy’s and St Thomas’ NHS Foundation Trust\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nMajid Kazmi, B.Med.Biol, MD ChB (comm), FRCP, FRCPath, has a national profile in myeloma and bone marrow (stem cell) transplantation as well as clinical leadership in cancer. Majid is the UK lead for the EBMT (European group for Blood and Marrow Transplantation) for auto-immune disorders and has performed the largest number of these transplants in the UK. He has been involved in writing the UK myeloma and amyloidosis guidelines and is an invited speaker nationally and internationally.\n\n\n\n\n\n\n\n\nFull name – Paul Landau\nJob title(s) – CEO and Founder, Careology\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nPaul Landau is the CEO and Founder of Careology, the leading digital cancer care platform. Careology’s award-winning app enables patients to navigate their cancer journey and connect them with their clinicians and community. Paul is a pioneer in the technology space – launching Fitbug in 2005, making it a highly influential player in the global wearables market. Following his wife’s cancer diagnosis he leveraged his consumer health-tech experience to change how cancer-care is delivered. Careology launched in 2019, empowering Patients and Healthcare professionals to be more in control, make decisions based on clinical rigour and help ease pressure in the system.\n\n\n\n\n\n\n\n\nFull Name – Dom Main\nJob Title(s) – GP and Clinical Engineer at Healthtech-1\nTitle of presentation – Robotic Process Automation in Primary Care\nPracticing GP who came to medicine after a few years studying Physics, passionate about improving the lives of healthcare workers and patients through technology.\n\n\n\n\n\n\n\n\nFull Name – Professor Joe McDonald\nJob Title(s) – Medical Director at SARD JV, Sleepstation, Parsek Solutions, Ethical Healthcare\nTitle of presentation – 10 Lessons from 20 Years in Health IT\nJoe is a consultant psychiatrist by background and sytemic family therapist. A former NHS trust Medical Director, he oversaw the digitisation of mental health records during NPfIT as national clinical lead for IT and former Medical Director of the Lorenzo Delivery Team. Joe was “let go” by NPfIT for his “career-limiting frankness”. Founding director of The Great North Care Record and longstanding crusader in the field of NHS IT usability, carried out 4 National UX surveys over 10 years. Now working as a peripatetic CCIO/MD for SME’s trying to do right by his beloved NHS.\n\n\n\n\n\n\n\n\nFull Name – Kevin Monk\nJob Title(s) – CEO of SARD JV, General Tinkerer.\nTitle of presentation – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients.\nKevin cofounded SARD JV with Oxleas NHS FT. He’s been hacking software together since he was 8 years old. For the last 15 years, he’s built workforce systems for the NHS in rostering, appraisal, eLeave, and capacity and demand management. SARD is taking this all to a new level thanks to AI. In this talk, we’ll get a glimpse of our inevitable future – away from the AI hype and a real-life demo of what it can actually do that’s useful. Very useful.\n\n\n\n\n\n\n\n\nFull name – Anita Phung\nJob title(s) – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician\nTitle of presentation – Robotic Process Automation in Primary Care\nAnita is a recently qualified GP with a strong interest in health optimisation and digital health. She worked for an early-stage health tech start up for 2 years before taking a career break to walk Camino de Santiago (500 miles!). Anita is currently involved in various digital health-related projects whilst considering her role in the digital health space.\n\n\n\n\n\n\n\n\nFull Name – Andrea Preston\nJob Title(s) – Andrea Preston (MRPharmS Consultant), Head of Patient Innovation and Care at Sanius Health | Myeloma Specialist Pharmacist.\nTitle of Presentation – Andrea is a haematology specialist pharmacist with over 20 years’ experience in the NHS. After co-creating an app to support patients with Chronic Myeloid Leukaemia she joined Sanius Health, an award-winning, AI powered patient generated data platform with a focus on accelerating personalised medicine, drug discovery, and clinical research for cancer treatment, haematological malignancies, haematological disorders and rare diseases.\nAndrea is Chair of the UK Myeloma Society Pharmacist Group and plays an active prescribing role for patients with multiple myeloma and amyloid.\nAndrea is passionate about research and innovation for patient benefit. She has been an NHS Clinical Entrepreneur with NHS England and NHS Improvement’s Innovation, Research and Life Sciences group and is a member of the British Oncology Pharmacy Association’s Audit & Research Committee. Her areas of research interest include medication adherence, dosing in obesity and the use of innovative technologies to drive better outcomes for patients.\n\n\n\n\n\n\n\n\nFull Name – Mr Rajesh Sivaprakasam\nJob Title(s) – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust\nTitle of presentation – Are we ready for digital Healthcare?\nMr.Rajesh Sivaprakasam is a Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Bartshealth NHS Trust. He completed training in abdominal organ transplatation in Addenbrooke’s Hospital Cambridge and conducted research in cellular Biology at University of Cambridge. As a surgeon-scientist, he leads NIHR funded clincial trials and is the chair of Multispeciality Robotic research programme in Barts health NHS Trust. His research work is presented in many international conferences, published in peer-reviewed journals and developed the world’s first risk score to predict outcome following intestinal transplantation. He is engaged with many national patient organisations to improve their engagement towards adopting digital solutions and uses multimedia to demystify the potential solutions used presently and considered for the future. He performed the first live renal transplantation in TV (BATFA winner) and is a member of All Party Parlimentary Group to improve engagement of BAME communities to organ donation and transplantation. He is passionate about enhancing patient care and medical education using digital innovation-based solutions and work with many innovators at various stages of the development of their solutions across the globe. He is an experienced Medical entrepreneur and actively participates in enhancing a patient-clinician-provider & industry partnered approach to develop and integrate digital solutions into practice. He regularly participates in MedTech events and strives to encourage educational & healthcare organisations to improve engagement of their students and teams toward digial health, thereby, shape the future of our healthcare service.\n\n\n\n\n\n\n\n\nFull name – Matimba Swana\nJob Title(s) – PhD candidate\nTitle of Presentation – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial\nMatimba is a PhD candidate in the Department of Engineering Mathematics at University of Bristol. Matimba’s research investigates cancer nanomedicine, swarm medicine, bioethics and the use of virtual tumours and patient twin models in clinical trials. Matimba is currently doing a placement on the Futures team in the UK Government Office for Science. Matimba is passionate about emerging technologies, medical ethics, global health and digital health disparities. Matimba currently sits on the Bristol cancer steering committee and is a trustee on the Executive Board at the Brain Tumour Charity. Matimba previously worked in stem cell research and clinical trials with a focus on decentralised phase II and III rare disease trials and digital healthcare.\n\n\n\n\n\n\n\n\nFull name – Prof Harold Thimbleby\nJob Title(s) – See Change Fellow in Digital Health\nTitle of Presentation – 1) Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\n\nShort talk: “First do no harm? First fix digital”\n\nHarold Thimbleby is an internationally recognised computer scientist and popular speaker who campaigns for improving digital healthcare. Harold’s book Fix IT: See and solve the problems of digital healthcare (OUP) won the British Medical Association best book awards in General Medicine; the BMA judges wrote “It is such an important book. Our ability to help patients is so reliant on IT and digital solutions. It has the broadest appeal and has achieved something quite impressive … It should be read by all healthcare staff.”\nAs an expert witness in NHS cases, Harold has helped keep healthcare professionals out of prison; he has also provided expert evidence in other cases, such as the UK Post Office scandal which prosecuted over 700 people for alleged fraud that was in fact caused by computer bugs. He recently finished a project with Welsh Ambulance helping them make best use of AI systems.\n\n\n\n\n\n\n\n\nFull Name – Grant D. Vallance\nJob Title(s) – Information Manager for the Department of Clinical Haematology, Oxford University Hospitals Foundation NHS Trust\nTitle of Presentation – Clinical Services Providing Clinical Software\nGrant originally comes from New Zealand but calls the U.K. home after being here for over 20 years. He has degrees in biochemistry, bioethics, ethics and the philosophy of science. He has worked in clinical trial administration and has done and still does academic teaching at the University of Oxford in ethics (mainly research ethics) and clinical trial protocol development. A self-confessed long-term computer nerd. His first computer was a ZX Spectrum 16k, which dates him somewhat. Perhaps being a computer nerd is the reason why, after a circuitous path, he has come to work in information management in a clinical department that looks after sick patients and not IT/informatics systems. He is a passionate believer in the view that the NHS should embrace and encourage frontline digital innovation where it occurs and particularly from within clinical departments. He has been fighting tooth and nail to do so and the struggle is the reason for his greying beard. Unfortunately, how the NHS and NHS Trusts do digital innovation is generally not very conducive to supporting frontline digital innovation. Consequently, he has some rather firm views on how this can be remedied…\n\n\n\n\n\n\n\n\nFull Name – Dr Mark Wardle\nJob Title(s) – Consultant Neurologist and Chief Clinical Information Officer.\nTitle of Presentation – 10 lessons from a journey through health and care data\nMark Wardle is a consultant neurologist and CCIO with a mission to build higher quality and safer healthcare services through open standards, interoperability and the use of meaningful data captured as a consequence of the processes of care. The 10 lessons are drawn from his experience developing clinical applications that are in active use within the NHS and worldwide, chairing the Welsh Technical Standards Board (WTSB), international consultancy work and continued academic involvement in the use of real-life data and outcomes. https://www.wardle.org and https://github.com/wardle"
+    "text": "Please join us for the first of many coding courses in health care that the Let’s Do Digital team will be running. This course is open to anyone, but has been designed for those working or interested in digital healthcare / clincal informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what is the command line, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well respected programming language, that is very versertile. You can build simple programs at one end and run data analysis, machine learning / AI and build extensive web apps at the other."
   },
   {
-    "objectID": "conferences/2023/agenda.html",
-    "href": "conferences/2023/agenda.html",
-    "title": "Agenda 2023",
+    "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html#course-structure",
+    "href": "tickets/programming-in-healthcare-module-1-July-2024.html#course-structure",
+    "title": "Programming in healthcare - module 1",
+    "section": "Course structure",
+    "text": "Course structure\nWe now have 11 tutors and 41 potential students signed up for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html#topics-covered",
+    "href": "tickets/programming-in-healthcare-module-1-July-2024.html#topics-covered",
+    "title": "Programming in healthcare - module 1",
+    "section": "Topics covered",
+    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.   * The terminal (the black window where you type in commands) * Syntax (the coding grammar) * Variables (where you store things) * Comments (stuff to read later when you have no idea what the code is supposed to do) * Control flow (if this then that) * Expressions and operators (add these two things. Make x equal to 3) * Functions (hay function, calculate the square root of 9) * Error handling (you were trying to do what!) * Web apps * Medical calculators\n\nPurchase tickets\n\n\nQuestions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "conferences/2023/maps.html",
+    "href": "conferences/2023/maps.html",
+    "title": "Maps 2023",
     "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n8:30 – 9:30 – Welcome coffee and tea\n9:30 – Mark Bailey – Interim Chair of Council, Faculty of Clinical Informatics and Locum Respiratory Consultant – Opening talk"
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nFor those of you attending in person, the venue is at the Park Campus in Cheltenham.\nAddress:\n\nElwes Teaching Centre (1a on the 2nd map below) Park Campus University of Gloucestershire Cheltenham GL50 2RH\n\nPaid for parking is available on the campus. Alternatively there is free parking on the roads off from the campus.\n\n\nThe conference will be held in the Elwes Teaching Centre (1a on the map):\nIf you are struggling to find the building, please click here for directions.\n\nFor those of you attending virtually, a virtual invite will be sent out shortly by email."
   },
   {
-    "objectID": "conferences/2023/agenda.html#morning-session-1",
-    "href": "conferences/2023/agenda.html#morning-session-1",
-    "title": "Agenda 2023",
-    "section": "9:35 – Morning session 1",
-    "text": "9:35 – Morning session 1\n9:35 – Chair – Mark Bailey 9:40 – TBC – Patient representative 9:50 – Prof Joe McDonald – Medical Director at Sleepstation, SARD JV, Parsek and Ethical Healthcare Consulting- 10 Lessons from 20 Years in Health IT 10:00 – Dom Main – GP and Clinical Engineer at Healthtech1, and Anita Phung – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician – Robotic Process Automation in Primary Care 10:10 – Q&A"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#coffee-break",
-    "href": "conferences/2023/agenda.html#coffee-break",
-    "title": "Agenda 2023",
-    "section": "10:25 – Coffee break",
-    "text": "10:25 – Coffee break\n11:05 – Morning session 2 11:05 – Chair – Helen Winter – SWAG cancer alliance clinical director and Medical Oncologist at Bristol Royal Infirmary Hospital 11:10 – Matimba Swama – PhD candidate – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial 11:25 – Sophie Brooks – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL 11:35 – Kareem El-Wakeel, Senior Programmer, Collaboration Digital Ltd – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally. 11:45 – Q&A"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#debate",
-    "href": "conferences/2023/agenda.html#debate",
-    "title": "Agenda 2023",
-    "section": "12:00 – Debate",
-    "text": "12:00 – Debate\n“This house believes that clinicians should be allowed to directly code and create health apps” Chair – Anita Phung For – Marcus Baw, Clinical Informatician, Software Developer and other roles Against – Harold Thimbleby – Professor in Healthcare computer sciences, Swansea University (2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#lunch-with-posters",
-    "href": "conferences/2023/agenda.html#lunch-with-posters",
-    "title": "Agenda 2023",
-    "section": "12:50 – 13:50 – Lunch with posters",
-    "text": "12:50 – 13:50 – Lunch with posters"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#afternoon-session-1",
-    "href": "conferences/2023/agenda.html#afternoon-session-1",
-    "title": "Agenda 2023",
-    "section": "13:50 – Afternoon session 1",
-    "text": "13:50 – Afternoon session 1\n13:50 – Chair – Alistair Cannon – Psychiatrist and education fellow at South London & Maudsley 13:55 – Kevin Monk – CEO SardJV – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients. 14:05 – Grant Vallance- Information Manager, Oxford University Hospital NHS Foundation Trust and Joe Channing Software Engineer, Oxford University Hospital NHS Foundation Trust- Clinical Services Providing Clinical Software 14:15 – Mark Wardle – CCIO and Consultant Neurologist, Cardiff and Vale University Health Board – 10 lessons from a journey through health and care data 14:25 – Q&A"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#coffee-break-1",
-    "href": "conferences/2023/agenda.html#coffee-break-1",
-    "title": "Agenda 2023",
-    "section": "14:40 – Coffee break",
-    "text": "14:40 – Coffee break"
-  },
-  {
-    "objectID": "conferences/2023/agenda.html#afternoon-session-2",
-    "href": "conferences/2023/agenda.html#afternoon-session-2",
-    "title": "Agenda 2023",
-    "section": "15:20 – Afternoon session 2",
-    "text": "15:20 – Afternoon session 2\n15:20 – Chair – TBC 15:25 – Poster awards 15:35 – Rajesh Sivaprakasam – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust- Are we ready for digital Healthcare? 15:45 – Andrea Preston – Macmillan Divisional Lead Pharmacist – Haematology, University Hospitals Bristol & Weston NHS Foundation Trust 15:55 – Majid Kazmi- Director of Innovation for Cancer and Surgery; Deputy Medical Director Guy’s and St Thomas’ NHS Foundation Trust and Paul Landau- CEO Careology – Digital cancer care: how to empower patients beyond the hospital walls 16:05 – Q&A 16:20 – close"
-  },
-  {
-    "objectID": "conferences/2023/index.html",
-    "href": "conferences/2023/index.html",
-    "title": "Let’s Talk Digital Conference 2023",
+    "objectID": "conferences/2023/organising-committee.html",
+    "href": "conferences/2023/organising-committee.html",
+    "title": "Organising Committee",
     "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nThank you for taking an interest in the Let’s Talk Digital Conference 2023. It the conference is all over, but there is always more to come.\nWatch the conference in full, snippets, or as you like below:\n\nMany thanks for our sponsors:"
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee"
   },
   {
-    "objectID": "conferences/2024/index.html",
-    "href": "conferences/2024/index.html",
-    "title": "Let’s Talk Digital Conference 2024",
-    "section": "",
-    "text": "Watch this space for further details.\nThe conference is booked for the 24th of October at:\n\nSandford Education Centre Gloucestershire Hospitals NHS Foundation Trust 38 Keynsham Rd Cheltenham GL53 7PX"
+    "objectID": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
+    "href": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
+    "title": "Organising Committee",
+    "section": "Dr Mark A Bailey- Chief Conference Organiser",
+    "text": "Dr Mark A Bailey- Chief Conference Organiser"
   },
   {
-    "objectID": "conferences/2022/index.html",
-    "href": "conferences/2022/index.html",
-    "title": "Let’s Talk Digital Conference 2022",
-    "section": "",
-    "text": "You can find information about the first Let’s Talk Digital Conference on the main sponsor’s website SWAG.\n\nWant to jump straight in and watch the recordings of the 2022 conference, view below:"
+    "objectID": "conferences/2023/organising-committee.html#dr-anita-phung",
+    "href": "conferences/2023/organising-committee.html#dr-anita-phung",
+    "title": "Organising Committee",
+    "section": "Dr Anita Phung",
+    "text": "Dr Anita Phung"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
+    "href": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
+    "title": "Organising Committee",
+    "section": "Mr Sobath Premaratne",
+    "text": "Mr Sobath Premaratne"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-dom-main",
+    "href": "conferences/2023/organising-committee.html#dr-dom-main",
+    "title": "Organising Committee",
+    "section": "Dr Dom Main",
+    "text": "Dr Dom Main"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-dylan-goh",
+    "href": "conferences/2023/organising-committee.html#dr-dylan-goh",
+    "title": "Organising Committee",
+    "section": "Dr Dylan Goh",
+    "text": "Dr Dylan Goh"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-alistair-cannon",
+    "href": "conferences/2023/organising-committee.html#dr-alistair-cannon",
+    "title": "Organising Committee",
+    "section": "Dr Alistair Cannon",
+    "text": "Dr Alistair Cannon"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
+    "href": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
+    "title": "Organising Committee",
+    "section": "Dr Aparna Ghosh",
+    "text": "Dr Aparna Ghosh"
+  },
+  {
+    "objectID": "conferences/2023/organising-committee.html#dr-dionne-matthews",
+    "href": "conferences/2023/organising-committee.html#dr-dionne-matthews",
+    "title": "Organising Committee",
+    "section": "Dr Dionne Matthews",
+    "text": "Dr Dionne Matthews"
   },
   {
     "objectID": "conferences/2023/posters.html",
@@ -357,74 +364,102 @@
     "text": "Helen Winter\n\n\n\n\n\nNo video presentation for this poster."
   },
   {
-    "objectID": "conferences/2023/organising-committee.html",
-    "href": "conferences/2023/organising-committee.html",
-    "title": "Organising Committee",
+    "objectID": "conferences/2022/index.html",
+    "href": "conferences/2022/index.html",
+    "title": "Let’s Talk Digital Conference 2022",
     "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee"
+    "text": "You can find information about the first Let’s Talk Digital Conference on the main sponsor’s website SWAG.\n\nWant to jump straight in and watch the recordings of the 2022 conference, view below:"
   },
   {
-    "objectID": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
-    "href": "conferences/2023/organising-committee.html#dr-mark-a-bailey--chief-conference-organiser",
-    "title": "Organising Committee",
-    "section": "Dr Mark A Bailey- Chief Conference Organiser",
-    "text": "Dr Mark A Bailey- Chief Conference Organiser"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-anita-phung",
-    "href": "conferences/2023/organising-committee.html#dr-anita-phung",
-    "title": "Organising Committee",
-    "section": "Dr Anita Phung",
-    "text": "Dr Anita Phung"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
-    "href": "conferences/2023/organising-committee.html#mr-sobath-premaratne",
-    "title": "Organising Committee",
-    "section": "Mr Sobath Premaratne",
-    "text": "Mr Sobath Premaratne"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-dom-main",
-    "href": "conferences/2023/organising-committee.html#dr-dom-main",
-    "title": "Organising Committee",
-    "section": "Dr Dom Main",
-    "text": "Dr Dom Main"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-dylan-goh",
-    "href": "conferences/2023/organising-committee.html#dr-dylan-goh",
-    "title": "Organising Committee",
-    "section": "Dr Dylan Goh",
-    "text": "Dr Dylan Goh"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-alistair-cannon",
-    "href": "conferences/2023/organising-committee.html#dr-alistair-cannon",
-    "title": "Organising Committee",
-    "section": "Dr Alistair Cannon",
-    "text": "Dr Alistair Cannon"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
-    "href": "conferences/2023/organising-committee.html#dr-aparna-ghosh",
-    "title": "Organising Committee",
-    "section": "Dr Aparna Ghosh",
-    "text": "Dr Aparna Ghosh"
-  },
-  {
-    "objectID": "conferences/2023/organising-committee.html#dr-dionne-matthews",
-    "href": "conferences/2023/organising-committee.html#dr-dionne-matthews",
-    "title": "Organising Committee",
-    "section": "Dr Dionne Matthews",
-    "text": "Dr Dionne Matthews"
-  },
-  {
-    "objectID": "conferences/2023/maps.html",
-    "href": "conferences/2023/maps.html",
-    "title": "Maps 2023",
+    "objectID": "conferences/2024/index.html",
+    "href": "conferences/2024/index.html",
+    "title": "Let’s Talk Digital Conference 2024",
     "section": "",
-    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nFor those of you attending in person, the venue is at the Park Campus in Cheltenham.\nAddress:\n\nElwes Teaching Centre (1a on the 2nd map below) Park Campus University of Gloucestershire Cheltenham GL50 2RH\n\nPaid for parking is available on the campus. Alternatively there is free parking on the roads off from the campus.\n\n\nThe conference will be held in the Elwes Teaching Centre (1a on the map):\nIf you are struggling to find the building, please click here for directions.\n\nFor those of you attending virtually, a virtual invite will be sent out shortly by email."
+    "text": "Watch this space for further details.\nThe conference is booked for the 24th of October at:\n\nSandford Education Centre Gloucestershire Hospitals NHS Foundation Trust 38 Keynsham Rd Cheltenham GL53 7PX"
+  },
+  {
+    "objectID": "conferences/2023/index.html",
+    "href": "conferences/2023/index.html",
+    "title": "Let’s Talk Digital Conference 2023",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\nThank you for taking an interest in the Let’s Talk Digital Conference 2023. It the conference is all over, but there is always more to come.\nWatch the conference in full, snippets, or as you like below:\n\nMany thanks for our sponsors:"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html",
+    "href": "conferences/2023/agenda.html",
+    "title": "Agenda 2023",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n8:30 – 9:30 – Welcome coffee and tea\n9:30 – Mark Bailey – Interim Chair of Council, Faculty of Clinical Informatics and Locum Respiratory Consultant – Opening talk"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#morning-session-1",
+    "href": "conferences/2023/agenda.html#morning-session-1",
+    "title": "Agenda 2023",
+    "section": "9:35 – Morning session 1",
+    "text": "9:35 – Morning session 1\n9:35 – Chair – Mark Bailey 9:40 – TBC – Patient representative 9:50 – Prof Joe McDonald – Medical Director at Sleepstation, SARD JV, Parsek and Ethical Healthcare Consulting- 10 Lessons from 20 Years in Health IT 10:00 – Dom Main – GP and Clinical Engineer at Healthtech1, and Anita Phung – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician – Robotic Process Automation in Primary Care 10:10 – Q&A"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#coffee-break",
+    "href": "conferences/2023/agenda.html#coffee-break",
+    "title": "Agenda 2023",
+    "section": "10:25 – Coffee break",
+    "text": "10:25 – Coffee break\n11:05 – Morning session 2 11:05 – Chair – Helen Winter – SWAG cancer alliance clinical director and Medical Oncologist at Bristol Royal Infirmary Hospital 11:10 – Matimba Swama – PhD candidate – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial 11:25 – Sophie Brooks – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL 11:35 – Kareem El-Wakeel, Senior Programmer, Collaboration Digital Ltd – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally. 11:45 – Q&A"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#debate",
+    "href": "conferences/2023/agenda.html#debate",
+    "title": "Agenda 2023",
+    "section": "12:00 – Debate",
+    "text": "12:00 – Debate\n“This house believes that clinicians should be allowed to directly code and create health apps” Chair – Anita Phung For – Marcus Baw, Clinical Informatician, Software Developer and other roles Against – Harold Thimbleby – Professor in Healthcare computer sciences, Swansea University (2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#lunch-with-posters",
+    "href": "conferences/2023/agenda.html#lunch-with-posters",
+    "title": "Agenda 2023",
+    "section": "12:50 – 13:50 – Lunch with posters",
+    "text": "12:50 – 13:50 – Lunch with posters"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#afternoon-session-1",
+    "href": "conferences/2023/agenda.html#afternoon-session-1",
+    "title": "Agenda 2023",
+    "section": "13:50 – Afternoon session 1",
+    "text": "13:50 – Afternoon session 1\n13:50 – Chair – Alistair Cannon – Psychiatrist and education fellow at South London & Maudsley 13:55 – Kevin Monk – CEO SardJV – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients. 14:05 – Grant Vallance- Information Manager, Oxford University Hospital NHS Foundation Trust and Joe Channing Software Engineer, Oxford University Hospital NHS Foundation Trust- Clinical Services Providing Clinical Software 14:15 – Mark Wardle – CCIO and Consultant Neurologist, Cardiff and Vale University Health Board – 10 lessons from a journey through health and care data 14:25 – Q&A"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#coffee-break-1",
+    "href": "conferences/2023/agenda.html#coffee-break-1",
+    "title": "Agenda 2023",
+    "section": "14:40 – Coffee break",
+    "text": "14:40 – Coffee break"
+  },
+  {
+    "objectID": "conferences/2023/agenda.html#afternoon-session-2",
+    "href": "conferences/2023/agenda.html#afternoon-session-2",
+    "title": "Agenda 2023",
+    "section": "15:20 – Afternoon session 2",
+    "text": "15:20 – Afternoon session 2\n15:20 – Chair – TBC 15:25 – Poster awards 15:35 – Rajesh Sivaprakasam – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust- Are we ready for digital Healthcare? 15:45 – Andrea Preston – Macmillan Divisional Lead Pharmacist – Haematology, University Hospitals Bristol & Weston NHS Foundation Trust 15:55 – Majid Kazmi- Director of Innovation for Cancer and Surgery; Deputy Medical Director Guy’s and St Thomas’ NHS Foundation Trust and Paul Landau- CEO Careology – Digital cancer care: how to empower patients beyond the hospital walls 16:05 – Q&A 16:20 – close"
+  },
+  {
+    "objectID": "conferences/2023/bios.html",
+    "href": "conferences/2023/bios.html",
+    "title": "Bios 2023",
+    "section": "",
+    "text": "2023 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n\n\n\n\n\n\n\nFull Name – Mark Bailey\nJob Title(s) – Consultant in Respiratory Medicine and Clinician-who-codes, Conference co-producer\nTitle of presentation - Mark has been very interested in all things digital for most of his life. His digital interests filtered into his current healthcare role when he started thinking of ways to streamline daily clinical tasks. He built a desktop app called “Spiritum”. This houses the Gloucestershire sleep, bronchiectasis and tuberculosis services. It automates the transfer of data within the trust, creating standardised clinical letters, retrieves lab and radiology reports, flagging abnormal ones for clinicians to review, etc. As part of works to improve the sleep service, the Spiritum app helped reduce the breach rate of this service by 79% over a 2-year period. A spin-off from the Spiritum app was an program called “Quick Spiritum”. This uses robotic process automation to automate and speed up routine clinical tasks. These tasks include looking up imaging (eg chest X-rays), bloods and clinical letter and requesting tests and referrals. Quick Spiritum was found to save, on average, 30% of clinician’s time on these tasks. This work has shown what is possible with automation and digitisation, and Mark’s department is keen to tackle the next big issues. Mark and his team have been working over the last one and a half years on improving the local lung cancer pathway using the knowledge gained from the above projects. Mark has two computer science placement students working with him on this project – Joe Channing and Nick Ives. Mark’s team now have a functional “proof-of-concept” app that will be showcased at the Let’s Talk Digital Conference. This app has been created in open source and in a modular fashion. By using open source and a modular build, the hope is to be able to allow other disease sites and trusts to both benefit and collaborate on this work.\nMark is also a big advocate of advancing the clinical informatics speciality. He is a board member of the Faculty of Clinical Informatics, a board member of the NHS pycom (python community) and a current student on the NHS Digital Academy PGDip Digital Academy course. He hopes to progress this to an MSc in September.\n\n\n\n\n\n\n\n\nFull name – Marcus Baw\nJob Title(s) – Clinical Informatician, Software Developer, GP, Director at Baw Medical Ltd\nTitle of presentation – Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\nDr Marcus Baw is a practicing GP and Emergency Physician in Yorkshire, UK, with a specialist interest in health informatics and health technology. He is a software developer and works exclusively on open source projects. He is also the Immediate Past Chair of the Royal College of GPs Health Informatics Group.\n\n\n\n\n\n\n\n\nFull Name – Sophie Brook\nJob Title(s) – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL\nTitle of Presentation – Sophie is an NHS Clinician who created Lister due to experiencing frustrations from paper handover lists that still saturate the NHS regardless of digital transformation. She felt the cognitive overload of trying to remember and prioritise all patients within her care and the patient safety concerns of missed or overlooked tasks. This was coupled with the lack of transparency between tasks and staff members, with various roles working from different lists, leading to delays and inefficient ways of working. Motivated to solve these problems, Sophie was accepted onto the NHS Clinical Entrepreneur programme in 2019 with the Idea of digitising this process to improve patient safety, teamwork and workflow. Fast forward to 2023, Lister is now a developed task management solution and is currently being evaluated with 4 NHS Trusts.\nSophie’s passion for digital innovation has evolved over the years and she is a member of the National Digital Shared Decision-Making Council with NHSE, a member of the LND local council and a UCL MSc student in Digital Health. She looks forward to sharing her journey from NHS Clinician turned digital Innovator at the let’s Talk Digital Conference 2023.\n\n\n\n\n\n\n\n\nFull Name – Mr Kareem El-Wakeel\nJob title(s) – Senior Programmer, Collaboration Digital Ltd\nTitle of presentation – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally.\nAfter graduating from Bristol university with a Masters in Aeronautical Engineering, Kareem decided to pursue his passion in software development and programming. As a software engineer, he applied his skills working in different industries, testing software, developing transport and journey planning apps, and medical software, building experience in web and app development as well as backend systems. Kareem is currently our chief programming officer.\n\n\n\n\n\n\n\n\nFull name – Majid Kazmi\nJob title(s) – Director of Innovation for Cancer and Surgery and Deputy Medical Director, Guy’s and St Thomas’ NHS Foundation Trust\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nMajid Kazmi, B.Med.Biol, MD ChB (comm), FRCP, FRCPath, has a national profile in myeloma and bone marrow (stem cell) transplantation as well as clinical leadership in cancer. Majid is the UK lead for the EBMT (European group for Blood and Marrow Transplantation) for auto-immune disorders and has performed the largest number of these transplants in the UK. He has been involved in writing the UK myeloma and amyloidosis guidelines and is an invited speaker nationally and internationally.\n\n\n\n\n\n\n\n\nFull name – Paul Landau\nJob title(s) – CEO and Founder, Careology\nTitle of presentation – Digital cancer care: how to empower patients beyond the hospital walls\nPaul Landau is the CEO and Founder of Careology, the leading digital cancer care platform. Careology’s award-winning app enables patients to navigate their cancer journey and connect them with their clinicians and community. Paul is a pioneer in the technology space – launching Fitbug in 2005, making it a highly influential player in the global wearables market. Following his wife’s cancer diagnosis he leveraged his consumer health-tech experience to change how cancer-care is delivered. Careology launched in 2019, empowering Patients and Healthcare professionals to be more in control, make decisions based on clinical rigour and help ease pressure in the system.\n\n\n\n\n\n\n\n\nFull Name – Dom Main\nJob Title(s) – GP and Clinical Engineer at Healthtech-1\nTitle of presentation – Robotic Process Automation in Primary Care\nPracticing GP who came to medicine after a few years studying Physics, passionate about improving the lives of healthcare workers and patients through technology.\n\n\n\n\n\n\n\n\nFull Name – Professor Joe McDonald\nJob Title(s) – Medical Director at SARD JV, Sleepstation, Parsek Solutions, Ethical Healthcare\nTitle of presentation – 10 Lessons from 20 Years in Health IT\nJoe is a consultant psychiatrist by background and sytemic family therapist. A former NHS trust Medical Director, he oversaw the digitisation of mental health records during NPfIT as national clinical lead for IT and former Medical Director of the Lorenzo Delivery Team. Joe was “let go” by NPfIT for his “career-limiting frankness”. Founding director of The Great North Care Record and longstanding crusader in the field of NHS IT usability, carried out 4 National UX surveys over 10 years. Now working as a peripatetic CCIO/MD for SME’s trying to do right by his beloved NHS.\n\n\n\n\n\n\n\n\nFull Name – Kevin Monk\nJob Title(s) – CEO of SARD JV, General Tinkerer.\nTitle of presentation – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients.\nKevin cofounded SARD JV with Oxleas NHS FT. He’s been hacking software together since he was 8 years old. For the last 15 years, he’s built workforce systems for the NHS in rostering, appraisal, eLeave, and capacity and demand management. SARD is taking this all to a new level thanks to AI. In this talk, we’ll get a glimpse of our inevitable future – away from the AI hype and a real-life demo of what it can actually do that’s useful. Very useful.\n\n\n\n\n\n\n\n\nFull name – Anita Phung\nJob title(s) – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician\nTitle of presentation – Robotic Process Automation in Primary Care\nAnita is a recently qualified GP with a strong interest in health optimisation and digital health. She worked for an early-stage health tech start up for 2 years before taking a career break to walk Camino de Santiago (500 miles!). Anita is currently involved in various digital health-related projects whilst considering her role in the digital health space.\n\n\n\n\n\n\n\n\nFull Name – Andrea Preston\nJob Title(s) – Andrea Preston (MRPharmS Consultant), Head of Patient Innovation and Care at Sanius Health | Myeloma Specialist Pharmacist.\nTitle of Presentation – Andrea is a haematology specialist pharmacist with over 20 years’ experience in the NHS. After co-creating an app to support patients with Chronic Myeloid Leukaemia she joined Sanius Health, an award-winning, AI powered patient generated data platform with a focus on accelerating personalised medicine, drug discovery, and clinical research for cancer treatment, haematological malignancies, haematological disorders and rare diseases.\nAndrea is Chair of the UK Myeloma Society Pharmacist Group and plays an active prescribing role for patients with multiple myeloma and amyloid.\nAndrea is passionate about research and innovation for patient benefit. She has been an NHS Clinical Entrepreneur with NHS England and NHS Improvement’s Innovation, Research and Life Sciences group and is a member of the British Oncology Pharmacy Association’s Audit & Research Committee. Her areas of research interest include medication adherence, dosing in obesity and the use of innovative technologies to drive better outcomes for patients.\n\n\n\n\n\n\n\n\nFull Name – Mr Rajesh Sivaprakasam\nJob Title(s) – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust\nTitle of presentation – Are we ready for digital Healthcare?\nMr.Rajesh Sivaprakasam is a Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Bartshealth NHS Trust. He completed training in abdominal organ transplatation in Addenbrooke’s Hospital Cambridge and conducted research in cellular Biology at University of Cambridge. As a surgeon-scientist, he leads NIHR funded clincial trials and is the chair of Multispeciality Robotic research programme in Barts health NHS Trust. His research work is presented in many international conferences, published in peer-reviewed journals and developed the world’s first risk score to predict outcome following intestinal transplantation. He is engaged with many national patient organisations to improve their engagement towards adopting digital solutions and uses multimedia to demystify the potential solutions used presently and considered for the future. He performed the first live renal transplantation in TV (BATFA winner) and is a member of All Party Parlimentary Group to improve engagement of BAME communities to organ donation and transplantation. He is passionate about enhancing patient care and medical education using digital innovation-based solutions and work with many innovators at various stages of the development of their solutions across the globe. He is an experienced Medical entrepreneur and actively participates in enhancing a patient-clinician-provider & industry partnered approach to develop and integrate digital solutions into practice. He regularly participates in MedTech events and strives to encourage educational & healthcare organisations to improve engagement of their students and teams toward digial health, thereby, shape the future of our healthcare service.\n\n\n\n\n\n\n\n\nFull name – Matimba Swana\nJob Title(s) – PhD candidate\nTitle of Presentation – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial\nMatimba is a PhD candidate in the Department of Engineering Mathematics at University of Bristol. Matimba’s research investigates cancer nanomedicine, swarm medicine, bioethics and the use of virtual tumours and patient twin models in clinical trials. Matimba is currently doing a placement on the Futures team in the UK Government Office for Science. Matimba is passionate about emerging technologies, medical ethics, global health and digital health disparities. Matimba currently sits on the Bristol cancer steering committee and is a trustee on the Executive Board at the Brain Tumour Charity. Matimba previously worked in stem cell research and clinical trials with a focus on decentralised phase II and III rare disease trials and digital healthcare.\n\n\n\n\n\n\n\n\nFull name – Prof Harold Thimbleby\nJob Title(s) – See Change Fellow in Digital Health\nTitle of Presentation – 1) Debate: “This house believes that clinicians should be allowed to directly code and create health apps” For – Marcus Baw, Clinical Informatician, Software Developer, and other roles Against – Harold Thimbleby, Professor of Computer Science, Swansea University\n\nShort talk: “First do no harm? First fix digital”\n\nHarold Thimbleby is an internationally recognised computer scientist and popular speaker who campaigns for improving digital healthcare. Harold’s book Fix IT: See and solve the problems of digital healthcare (OUP) won the British Medical Association best book awards in General Medicine; the BMA judges wrote “It is such an important book. Our ability to help patients is so reliant on IT and digital solutions. It has the broadest appeal and has achieved something quite impressive … It should be read by all healthcare staff.”\nAs an expert witness in NHS cases, Harold has helped keep healthcare professionals out of prison; he has also provided expert evidence in other cases, such as the UK Post Office scandal which prosecuted over 700 people for alleged fraud that was in fact caused by computer bugs. He recently finished a project with Welsh Ambulance helping them make best use of AI systems.\n\n\n\n\n\n\n\n\nFull Name – Grant D. Vallance\nJob Title(s) – Information Manager for the Department of Clinical Haematology, Oxford University Hospitals Foundation NHS Trust\nTitle of Presentation – Clinical Services Providing Clinical Software\nGrant originally comes from New Zealand but calls the U.K. home after being here for over 20 years. He has degrees in biochemistry, bioethics, ethics and the philosophy of science. He has worked in clinical trial administration and has done and still does academic teaching at the University of Oxford in ethics (mainly research ethics) and clinical trial protocol development. A self-confessed long-term computer nerd. His first computer was a ZX Spectrum 16k, which dates him somewhat. Perhaps being a computer nerd is the reason why, after a circuitous path, he has come to work in information management in a clinical department that looks after sick patients and not IT/informatics systems. He is a passionate believer in the view that the NHS should embrace and encourage frontline digital innovation where it occurs and particularly from within clinical departments. He has been fighting tooth and nail to do so and the struggle is the reason for his greying beard. Unfortunately, how the NHS and NHS Trusts do digital innovation is generally not very conducive to supporting frontline digital innovation. Consequently, he has some rather firm views on how this can be remedied…\n\n\n\n\n\n\n\n\nFull Name – Dr Mark Wardle\nJob Title(s) – Consultant Neurologist and Chief Clinical Information Officer.\nTitle of Presentation – 10 lessons from a journey through health and care data\nMark Wardle is a consultant neurologist and CCIO with a mission to build higher quality and safer healthcare services through open standards, interoperability and the use of meaningful data captured as a consequence of the processes of care. The 10 lessons are drawn from his experience developing clinical applications that are in active use within the NHS and worldwide, chairing the Welsh Technical Standards Board (WTSB), international consultancy work and continued academic involvement in the use of real-life data and outcomes. https://www.wardle.org and https://github.com/wardle"
+  },
+  {
+    "objectID": "tickets/index.html",
+    "href": "tickets/index.html",
+    "title": "Tickets for Let’s Do Digital Events",
+    "section": "",
+    "text": "Programming in healthcare - module 1"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Learn Collaborate Build",
+    "section": "",
+    "text": "Let’s Do Digital has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date.\nWe now plan to deliver several teaching sessions on coding (programmatic, not terminologies). Additionally, we are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to ask a clinician about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.\nWe will update you as these courses and webinars are open to registration."
   },
   {
     "objectID": "learn/ask-a-clinician/index.html",
