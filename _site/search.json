@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Learn Collaborate Build",
     "section": "",
-    "text": "Let’s Do Digital has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date.\nWe now plan to deliver several teaching sessions on coding (programmatic, not terminologies). Additionally, we are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to ask a clinician about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.\nWe will update you as these courses and webinars are open to registration.\n\n    Individual supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above.\n\n\n\n    Healthcare group supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above."
+    "text": "Let’s Do Digital has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date.\nOur first Programming in Healthcare course is now open to registration. Please find further details about the course and registration here.\nLook out for another series of learning opportunities. We are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to ask a clinician about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.\n\n    Individual supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above.\n\n\n\n    Healthcare group supporters\n    If you wish to support us, please follow the Sponsor link in the navigation bar above."
   },
   {
     "objectID": "conferences/2023/agenda.html",
@@ -1404,7 +1404,7 @@
     "href": "tickets/index.html",
     "title": "Tickets for Let’s Do Digital Events",
     "section": "",
-    "text": "Programming in healthcare - module 1"
+    "text": "Programming in Healthcare - Module 1"
   },
   {
     "objectID": "tickets/index.html#programming-in-healthcare---module-1",
@@ -1472,42 +1472,42 @@
   {
     "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html",
     "href": "tickets/programming-in-healthcare-module-1-June-2024.html",
-    "title": "Programming in healthcare - module 1",
+    "title": "Programming in Healthcare - Module 1",
     "section": "",
     "text": "Please join us for the first of many coding courses in healthcare that the Let’s Do Digital team will be running. This course is open to anyone but has been designed for those working or interested in digital healthcare / clinical informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
   },
   {
     "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#course-structure",
     "href": "tickets/programming-in-healthcare-module-1-June-2024.html#course-structure",
-    "title": "Programming in healthcare - module 1",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Course structure",
     "text": "Course structure\nWe now have 11 tutors and 41 potential students signed up (on the mailing list) for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
   },
   {
     "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#when-and-where",
     "href": "tickets/programming-in-healthcare-module-1-June-2024.html#when-and-where",
-    "title": "Programming in healthcare - module 1",
+    "title": "Programming in Healthcare - Module 1",
     "section": "When and where",
-    "text": "When and where\nOnline, Thursday 27th of June, 2-5 pm, on Zoom."
+    "text": "When and where\nOnline, Thursday 27th June, 2-5 pm, on Zoom."
   },
   {
     "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#topics-covered",
     "href": "tickets/programming-in-healthcare-module-1-June-2024.html#topics-covered",
-    "title": "Programming in healthcare - module 1",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Topics covered",
-    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.   * The terminal (the black window where you type in commands) * Syntax (the coding grammar) * Variables (where you store things) * Comments (stuff to read later when you have no idea what the code is supposed to do) * Control flow (if this then that) * Expressions and operators (add these two things. Make x equal to 3) * Functions (hay function, calculate the square root of 9) * Error handling (you were trying to do what!) * Web apps * Medical calculators"
+    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (add these two things. Make x equal to 3)\nFunctions (hay function, calculate the square root of 9)\nError handling (you were trying to do what!)\nWeb apps\nMedical calculators"
   },
   {
     "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#purchase-tickets",
     "href": "tickets/programming-in-healthcare-module-1-June-2024.html#purchase-tickets",
-    "title": "Programming in healthcare - module 1",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Purchase tickets",
-    "text": "Purchase tickets\n\n    \n        \n            \n                \n            \n        \n        \n            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at *buymeacofee.com*.\n        \n    \n    \n        \n            \n                \n            \n        \n        \n            If you feel that £50 is too much for this 3 hour course with tutor support, then we offer a lower value of £25 per ticket. Before you consider this lower priced ticket, please do remember that a lot of time and effort has gone into creating this course."
+    "text": "Purchase tickets\n\n    \n        \n            \n                \n            \n        \n        \n            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at buymeacoffee.com\n        \n    \n    \n        \n            \n                \n            \n        \n        \n            If you feel that £50 is too much for this 3 hour course with tutor support, then we offer a lower value of £25 per ticket. Before you consider this lower priced ticket, please do remember that a lot of time and effort has gone into creating this course."
   },
   {
     "objectID": "tickets/programming-in-healthcare-module-1-June-2024.html#questions",
     "href": "tickets/programming-in-healthcare-module-1-June-2024.html#questions",
-    "title": "Programming in healthcare - module 1",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
