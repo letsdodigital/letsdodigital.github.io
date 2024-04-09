@@ -1,5 +1,5 @@
 ---
-title: "{{< var coding-series-title >}} - module 1"
+title: "{{< var coding-series-title >}} - Module 1"
 ---
 
 ![](/media/lets-learn-code-module-1.png){height=300px fig-align="center" fig-alt="Let's Do Digital Logo and words 'Let's Learn Code' on a note pad held by a hadn in the bottom left corner"}
@@ -13,23 +13,24 @@ We now have 11 tutors and 41 potential students signed up (on the mailing list) 
 
 ## When and where
 
-Online, Thursday 27th of June, 2-5 pm, on Zoom.
+Online, Thursday 27^th^ June, 2-5 pm, on Zoom.
 
 
 ## Topics covered
 
 The below topics may sound extensive and "out worldly" to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.
- 
-* The terminal (the black window where you type in commands)
-* Syntax (the coding grammar)
-* Variables (where you store things)
-* Comments (stuff to read later when you have no idea what the code is supposed to do)
-* Control flow (if this then that)
-* Expressions and operators (add these two things. Make x equal to 3)
-* Functions (hay function, calculate the square root of 9)
-* Error handling (you were trying to do what!)
-* Web apps
-* Medical calculators
+
+
+- The terminal (the black window where you type in commands)
+- Syntax (the coding grammar)
+- Variables (where you store things)
+- Comments (stuff to read later when you have no idea what the code is supposed to do)
+- Control flow (if this then that)
+- Expressions and operators (add these two things. Make x equal to 3)
+- Functions (hay function, calculate the square root of 9)
+- Error handling (you were trying to do what!)
+- Web apps
+- Medical calculators
 
 
 ## Purchase tickets
@@ -43,7 +44,7 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at *buymeacofee.com*.
+            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at <strong>buymeacoffee.com</strong>
         </div>
     </div>
     <div style="display: flex; flex-direction: row;">

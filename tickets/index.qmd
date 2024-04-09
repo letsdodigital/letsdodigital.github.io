@@ -2,4 +2,4 @@
 title: "Tickets for Let's Do Digital Events"
 ---
 
-[{{< var coding-series-title >}} - module 1](programming-in-healthcare-module-1-July-2024.qmd)
+[{{< var coding-series-title >}} - Module 1](programming-in-healthcare-module-1-July-2024.qmd)
