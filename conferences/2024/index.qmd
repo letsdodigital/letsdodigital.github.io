@@ -2,7 +2,20 @@
 title: "Let's Talk Digital Conference 2024"
 ---
 
-Watch this space for further details. 
+![](/media/open-sign.jpg){height=300px fig-align="center" fig-alt="Bronze lettering on a wooden placard"}
+
+This year's key theme is **open source**. But we are not talking socks, sandles and hippee like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field.
+
+## Line up
+
+We are currently building up the agenda. Our current line up includes:
+
+* Paul Drake - Plastic surgeon, CCIO and clinicians-who-codes at East Grinstead Hospital
+* Nadia Kuftinoff
+* Simon Laftimer
+* Grant Vallance
+
+## Address
 
 The conference is booked for the 24th of October at:
 
@@ -13,3 +26,9 @@ The conference is booked for the 24th of October at:
 > GL53 7PX
 
 ![](/media/cheltenham-hospital.jpeg){height=300px fig-align="center" fig-alt="Front of Cheltenham General Hospital"}
+
+This will be a hybrid event, so you can always join us online. However, we highly recommend joining us in person for greater networking and collaboration.
+
+## Tickets
+
+Tickets will be available soon.
