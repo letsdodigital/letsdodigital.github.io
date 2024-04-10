@@ -7,6 +7,10 @@ date: 2022-10-10
 categories: [Conference] # self-defined categories
 image: /media/conference-crowd.jpeg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+comments:
+  hypothesis: true
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
 ---
 
 ![](/media/conference-crowd.jpeg){width=100% fig-alt="A crowd of people talk at a conference."}

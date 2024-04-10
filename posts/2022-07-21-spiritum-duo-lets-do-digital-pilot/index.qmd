@@ -7,6 +7,10 @@ date: 2022-07-21
 categories: [Pilot] # self-defined categories
 image: /media/spiritum-duo-logo.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+comments:
+  hypothesis: true
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
 ---
 
 ![](/media/spiritum-duo-logo.png){height=200px fig-align="center" fig-alt="SpiritumDuo logo - dandilion head with seeds"}

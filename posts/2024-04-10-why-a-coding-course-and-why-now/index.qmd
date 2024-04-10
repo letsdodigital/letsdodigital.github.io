@@ -7,6 +7,10 @@ date: 2024-04-10
 categories: [blog] # self-defined categories
 image: /media/glasses-and-code.jpg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+comments:
+  hypothesis: true
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
 ---
 
 I guess the **short answer** is, why not!
