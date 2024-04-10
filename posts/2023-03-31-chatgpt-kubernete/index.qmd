@@ -7,6 +7,10 @@ date: 2023-05-05
 categories: [Conference]
 image: /media/cartoon-robot.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
+comments:
+  hypothesis: true
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
 ---
 
 ![](/media/cartoon-robot.png){height=400px fig-align="center" fig-alt="A cartoon drawing of a robot"}
