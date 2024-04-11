@@ -6,4 +6,4 @@ Welcome to the {{< var ask-a-clinician-series-title >}} series. This series allo
 
 ## Modules
 
-* [{{< var aac-1}}](ask-a-clinician-1.qmd)
+* [{{< var aac-1 >}}](ask-a-clinician-1.qmd)
