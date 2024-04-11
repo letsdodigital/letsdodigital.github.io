@@ -10,9 +10,9 @@ title-slide-attributes:
     data-background-video-loop: true
 ---
 
-# hi
+# Inside the mind of a medic
 
-asdfsda
+The ether between the ears of Dr Mark Bailey
 
 # hi
 
@@ -20,10 +20,3 @@ asdfadsf
 
 Video by Ricky Esquivel: https://www.pexels.com/video/fixing-a-light-bulb-in-a-series-of-electric-wires-3052161/
 
-```{=html}
-<style>
-.reveal .slides > section.present > h1 {
-    text-shadow: 2px 2px 8px #000000;
-}
-</style>
-```
