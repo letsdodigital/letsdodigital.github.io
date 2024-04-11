@@ -1,0 +1,29 @@
+---
+title: "{{< var aac-1 >}}"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-color: "#0D4848"
+    data-background-video: "/media/dusk-and-lights.mp4"
+    data-background-video-loop: true
+---
+
+# hi
+
+asdfsda
+
+# hi
+
+asdfadsf
+
+Video by Ricky Esquivel: https://www.pexels.com/video/fixing-a-light-bulb-in-a-series-of-electric-wires-3052161/
+
+```{=html}
+<style>
+.reveal .slides > section.present > h1 {
+    text-shadow: 2px 2px 8px #000000;
+}
+</style>
+```
