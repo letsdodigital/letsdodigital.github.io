@@ -6,16 +6,17 @@ title: "Let's Talk Digital Conference - 2024"
 
 ![](/media/open-sign.jpg){height=300px fig-align="center" fig-alt="Bronze lettering on a wooden placard"}
 
-This year's key theme is **open source**. But we are not talking socks, sandles and hippee like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field.
+This year's key theme is **open**. That is **open source**, **open standards**, **open learning** and **open data**. But we are not talking socks, sandles and hippee like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field.
 
 ## Line up
 
 We are currently building up the agenda. Our current line up includes:
 
-* Paul Drake - Plastic surgeon, CCIO and clinicians-who-codes at East Grinstead Hospital
+* Paul Drake - Plastic surgeon, CCIO and clinician-who-codes at East Grinstead Hospital
 * Nadia Kuftinoff
-* Simon Laftimer
+* Simon Laftimer - Dermatology Systems Manager, UHSfT
 * Grant Vallance
+* Mark Bailey - locum respiratory consultant, clinician-who-codes and conference host.
 
 ## Address
 
