@@ -8,7 +8,11 @@ A collection of people passionate about making better digital health care and ed
 
 **Dylan Goh** was the main curator for the 2023 Conference pages.
 
+**Nik Walne** is our current website *debugger*
+
 # Tutors - coding course
+
+## Nik Walne 
 
 ## Chris Wilson
 
@@ -19,3 +23,4 @@ He has worked with the Royal College of General Practitioners (RCGP) on their Di
 Chris started to learn coding in 2015 and developed an interest in clinical informatics. He is a member of the British Computer Society and an independent iOS developer.
 
 Chris also works part time for a London-based company that makes electronic health record and data platform software used in sub-Sarahan Africa and the Middle East.
+
