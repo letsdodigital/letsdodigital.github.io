@@ -2,7 +2,7 @@
 title: "Maps 2023"
 ---
 
-{{< include /conferences/2023/_navbar.qmd >}}
+{{< include _navbar.qmd >}}
 
 For those of you attending in person, the venue is at the Park Campus in Cheltenham.
 

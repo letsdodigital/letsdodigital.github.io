@@ -2,7 +2,7 @@
 title: "Posters"
 ---
 
-{{< include /conferences/2023/_navbar.qmd >}}
+{{< include _navbar.qmd >}}
 
 Below are posters and also links to video presentations of works submitted to the conference.
 
