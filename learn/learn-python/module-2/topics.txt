@@ -20,6 +20,7 @@
 * Error handling
 * More advanced functionalities
 
+//TODO #2 @nikdotcodes We need to try and make this module less "dry" than the first, and really try and relate each topic to clinical knowledge and thought process. No easy, but esssential I think
 ### Potential Module 2 Topics
 * Libraries & pip
     * numpy, pandas, polars
