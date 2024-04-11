@@ -11,6 +11,26 @@
 
 ## Topics
 
+### Quick Reminder - Topics from Module 1
+* Variables
+* Operators
+* Expressions
+* Flow control
+* Functions
+* Error handling
+* More advanced functionalities
+
+### Potential Module 2 Topics
+* Libraries & pip
+    * numpy, pandas, polars
+* Virtual Environments
+* Data structures + indexing
+* OOP concepts
+    * classes, inheritance
+* Getting information
+    * Reading/writing files, calling apis, reading/writing databases
+
+
 PLEASE ADD
 Break down into sub Topics
 
