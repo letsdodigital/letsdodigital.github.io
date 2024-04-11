@@ -8,4 +8,14 @@ A collection of people passionate about making better digital health care and ed
 
 **Dylan Goh** was the main curator for the 2023 Conference pages.
 
-We will publish a full list of names shortly
+# Tutors - coding course
+
+## Chris Wilson
+
+Chris is a GP and Urgent Care doctor in Northern Ireland. He graduated from Queen’s University Belfast in 2006.
+
+He has worked with the Royal College of General Practitioners (RCGP) on their Diabetes Quality Improvement Toolkit and been an expedition and diving medic in Madagascar.
+
+Chris started to learn coding in 2015 and developed an interest in clinical informatics. He is a member of the British Computer Society and an independent iOS developer.
+
+Chris also works part time for a London-based company that makes electronic health record and data platform software used in sub-Sarahan Africa and the Middle East.
