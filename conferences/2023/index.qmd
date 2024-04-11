@@ -2,7 +2,7 @@
 title: "Let's Talk Digital Conference 2023"
 ---
 
-{{< include /conferences/2023/_navbar.qmd >}}
+{{< include _navbar.qmd >}}
 
 Thank you for taking an interest in the Let’s Talk Digital Conference 2023. It the conference is all over, but there is always more to come.
 

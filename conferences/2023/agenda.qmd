@@ -2,7 +2,7 @@
 title: "Agenda 2023"
 ---
 
-{{< include /conferences/2023/_navbar.qmd >}}
+{{< include _navbar.qmd >}}
 
 8:30 – 9:30 – Welcome coffee and tea
 

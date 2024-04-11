@@ -1,4 +1,5 @@
 ---
 title: "Agenda - 2024"
-draft: true
 ---
+
+{{< include _navbar.qmd >}}

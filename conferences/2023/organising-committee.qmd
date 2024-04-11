@@ -2,7 +2,7 @@
 title: "Organising Committee"
 ---
 
-{{< include /conferences/2023/_navbar.qmd >}}
+{{< include _navbar.qmd >}}
 
 ![](/media/mark-bailey.jpeg){height=300px fig-align="center" fig-alt="Profile picture of "}
 
