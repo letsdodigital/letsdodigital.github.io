@@ -1,5 +1,32 @@
 ---
 title: "Contacts"
 ---
+Have questions or concerns you want to raise that are Let’s Do Digital related, contact us on the following...
 
-Have questions or concerns you want to raise that are **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
+::::: {.grid style="padding-left: 5.5em; padding-right: 5.5em; padding-top: 3.5em;" id=contact-grid}
+
+:::: {.g-col-12 .g-col-md-6 style="text-align:center;"}
+[{{< fa envelope size=3x >}}](mailto:info@letsdodigital.org)
+
+[info@letsdodigital.org](mailto:info@letsdodigital.org)
+::::
+
+:::: {.g-col-12 .g-col-md-6 style="text-align:center;"}
+[{{< fa brands bluesky size=3x >}}](https://bsky.app/profile/letsdodigital.bsky.social)
+
+[@letsdodigital.bsky.social](https://bsky.app/profile/letsdodigital.bsky.social)
+::::
+
+:::: {.g-col-12 .g-col-md-6 style="text-align:center;"}
+[{{< fa brands x-twitter size=3x >}}](https://twitter.com/LetsDoDigitalCI)
+
+[@LetsDoDigitalCI](https://twitter.com/LetsDoDigitalCI)
+::::
+
+:::: {.g-col-12 .g-col-md-6 style="text-align:center;"}
+[{{< fa brands youtube size=3x >}}](http://www.youtube.com/@letsdodigital9237)
+
+[@letsdodigital9237](http://www.youtube.com/@letsdodigital9237)
+::::
+
+:::::
