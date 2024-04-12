@@ -12,11 +12,26 @@ title-slide-attributes:
 
 # Inside the mind of a medic
 
-The ether between the ears of Dr Mark Bailey
+The ether between the ears of 
 
-# hi
+Dr Mark Bailey
 
-asdfadsf
+## What is a doctor's day like
 
-Video by Ricky Esquivel: https://www.pexels.com/video/fixing-a-light-bulb-in-a-series-of-electric-wires-3052161/
+## What do they have to juggle
 
+## The patient focused history
+
+## The doctor's focused...
+
+# Shout out for video and pictures from
+
+* Video by Ricky Esquivel: https://www.pexels.com/video/fixing-a-light-bulb-in-a-series-of-electric-wires-3052161/
+
+```{=html}
+<style>
+.reveal .slides > section.present > .title {
+    text-shadow: 2px 2px 8px #000000;
+}
+</style>
+```
