@@ -1,5 +1,5 @@
 ---
-title: "Who we are"
+title: "Who are we"
 ---
 
 A collection of people passionate about making better digital health care and education a reality.
@@ -8,11 +8,17 @@ A collection of people passionate about making better digital health care and ed
 
 **Dylan Goh** was the main curator for the 2023 Conference pages.
 
-**Nik Walne** is our current website *debugger*
+**Nik Walne** is our current website *debugger*.
 
 # Tutors - coding course
 
-## Nik Walne 
+Full list to be updated soon!
+</br>
+</br>
+
+---
+
+![](/media/chris-wilson.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
 ## Chris Wilson
 

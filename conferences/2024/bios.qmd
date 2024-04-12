@@ -1,0 +1,27 @@
+---
+title: "Bios 2023"
+---
+
+{{< include _navbar.qmd >}}
+
+![](/media/mark-bailey.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Mark Bailey"}
+
+**Full name** – Mark Bailey
+
+**Job title(s)** – Locum Consultant in Respiratory Medicine and Clinician-who-codes, Conference Host
+
+---
+
+\
+
+![](/media/simon-lamiter.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Simon Latimer"}
+
+**Full name** – Simon Latimer
+
+**Job title(s)** – Dermatology Systems Manager, UHSfT
+
+**Short bio** - Ex Reuters, ex City IT consultant , ex games industry CTO and 17 years in NHS clinical informatics at University Hospitals Sussex.  Still angry.  Still passionate about getting it right.
+
+---
+
+\
