@@ -30,6 +30,7 @@
     width: calc(100% - 40px);
     height: 200px;
     background-color: #f8f9fa;
+    color: black;
     border: 15px solid;
     border-image: linear-gradient(to bottom, #C0C0C0, #808080, #C0C0C0) 1;
     padding: 10px;
