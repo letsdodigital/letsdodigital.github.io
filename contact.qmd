@@ -3,7 +3,7 @@ title: "Contacts"
 ---
 Have questions or concerns you want to raise that are Let’s Do Digital related, contact us on the following...
 
-::::: {.grid style="padding-left: 3.5em; padding-right: 5.5em; padding-top: 3.5em;"}
+::::: {.grid style="padding-left: 5.5em; padding-right: 5.5em; padding-top: 3.5em;" id=contact-grid}
 
 :::: {.g-col-12 .g-col-md-6 style="text-align:center;"}
 [{{< fa envelope size=3x >}}](mailto:info@letsdodigital.org)
