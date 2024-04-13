@@ -50,3 +50,7 @@ Tickets will be available soon.
 * The importance of the collaborative approach to developing apps and systems, having system coders and clinical staff (and end users too) both providing their particular expertise to the task is vital for accuracy and useability, and all having a mutual respect for each other's skills.
 * There are good ways and less good ways to innovate. The challenge is differentiating them and meetings where a frank and open discourse can occur are essential for this.
 * Getting patient participation is very valuable, and can help develop the system/process.
+
+## Call for abstracts
+
+If you wish to submit an abstract to the conference, please email [info@letsdodigital.org](mailto:info@letsdodigital.org) with a 250-300 word abstract of a digital healthcare intervention. Successful abstracts will be show cased on the Let's Do Digital Website and prizes will be awarded for the best posters.
