@@ -2,7 +2,7 @@
 title: "{{< var coding-series-title >}} - Module 1"
 ---
 
-![](/media/lets-learn-code-module-1.png){height=300px fig-align="center" fig-alt="Let's Do Digital Logo and words 'Let's Learn Code' on a note pad held by a hadn in the bottom left corner"}
+![](/media/lets-learn-code-module-1.png){height=300px fig-align="center" fig-alt="Let's Do Digital Logo and words 'Let's Learn Code' on a note pad held by a hand in the bottom left corner"}
 
 Please join us for the first of many coding courses in healthcare that the **Let's Do Digital team** will be running. This course is open to anyone but has been designed for those working or interested in digital healthcare / clinical informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is [Python](https://www.python.org/about/). Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other.
 
