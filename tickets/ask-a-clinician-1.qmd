@@ -15,7 +15,8 @@ Join us as Dr Mark Bailey, Locum Respiratory Consultant and Clinician-who-codes,
 
 ## Webinar structure
 
- the first half will be a presentation of the medics clinical decision making process, followed by Q&A.
+The first half will be a presentation of the medical clinical decision making process, followed by Q&A.
+
 
 ## When and where
 
@@ -49,14 +50,16 @@ Online, 2-3pm, on Thursday the 13th of June.
 </div>
 ```
 
+
 ## Questions
 
 Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
 
-## Many thanks
+
+<!--## Many thanks
 
 Many thanks to
 
 **Dr Kim Pramanik** ([https://www.linkedin.com/in/drkimpramanik/](https://www.linkedin.com/in/drkimpramanik/))
 
-For providing the Let's Do Digital team with access to her Zoom account to enable this course to run virtually.
+For providing the Let's Do Digital team with access to her Zoom account to enable this course to run virtually.-->
