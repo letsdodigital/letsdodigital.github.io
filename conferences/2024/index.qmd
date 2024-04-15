@@ -33,7 +33,7 @@ We are currently building up the agenda. Our current line up includes:
 * There are good ways and less good ways to innovate. The challenge is differentiating them and meetings where a frank and open discourse can occur are essential for this.
 * Getting patient participation is very valuable, and can help develop the system/process.
 
-## Tickets
+## Tickets and coffees
 
 ```{=html}
 <div style="display: flex; flex-direction: column; width: 100%;">

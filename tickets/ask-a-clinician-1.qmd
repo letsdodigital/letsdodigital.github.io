@@ -22,7 +22,7 @@ Join us as Dr Mark Bailey, Locum Respiratory Consultant and Clinician-who-codes,
 Online, 2-3pm, on Thursday the 13th of June.
 
 
-## Tickets
+## Tickets and coffees
 
 ```{=html}
 <div style="display: flex; flex-direction: column; width: 100%;">
