@@ -6,7 +6,7 @@ title: "Ask a clinician webinar series - episode 1"
 
 ![](/media/a-pill-in-each-hand.jpg){height=300px fig-align="center" fig-alt="A pill in each outstretched hand of a male doctor"}
 
-Are you a computer programmer, data analyst, UX-designer, cybersecurity expert, or anyone else for that matter that works with healthcare data? Perhaps you have wondered how on earth did a doctor think it was okay to just input `TBC` into your very valuable input field in the EPR that you spent months designing / passing through redtape / evaluating / etc. What on was the doctor doing? Why did they not fill in the field properly. Did they not get the training I spent hours writing?
+Are you a computer programmer, data analyst, UX-designer, cybersecurity expert, or anyone else for that matter that works with healthcare data? Perhaps you have wondered how on earth did a doctor think it was okay to just input `TBC` into your very valuable input field in the EPR that you spent months designing / passing through red tape / evaluating / etc. What on was the doctor doing? Why did they not fill in the field properly. Did they not get the training I spent hours writing?
 
 This is the first webinar of many of the `Ask a clinician` series from the Let's Do Digital Team. If you have ever wanted to ask a clinician what their thought processes where, what are their workflows, workloads, or just, "what the hell were you thinking?", this is the webinar for you.
 
