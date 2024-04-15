@@ -12,10 +12,6 @@ title-slide-attributes:
 
 # Inside the mind of a medic {background-image="/media/a-pill-in-each-hand-cropped.jpg" background-opacity="0.4"}
 
-a-pill-in-each-hand
-
-The ether between the ears of 
-
 Dr Mark Bailey
 
 ## What is a doctor's day like
