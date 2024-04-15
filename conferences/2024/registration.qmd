@@ -1,0 +1,7 @@
+---
+title: "Registration"
+---
+
+{{< include _navbar.qmd >}}
+
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="4"></script>

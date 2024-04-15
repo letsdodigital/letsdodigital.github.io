@@ -1,0 +1,17 @@
+---
+title: "Maps 2024"
+---
+
+{{< include _navbar.qmd >}}
+
+The conference is booked for the 24th of October at:
+
+> Sandford Education Centre<br>
+> Gloucestershire Hospitals NHS Foundation Trust<br>
+> 38 Keynsham Rd<br>
+> Cheltenham<br>
+> GL53 7PX
+
+![](/media/cheltenham-hospital.jpeg){height=300px fig-align="center" fig-alt="Front of Cheltenham General Hospital"}
+
+This will be a hybrid event, so you can always join us online. However, we highly recommend joining us in person for greater networking and collaboration.

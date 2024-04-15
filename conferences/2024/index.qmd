@@ -18,24 +18,6 @@ We are currently building up the agenda. Our current line up includes:
 * Grant Vallance
 * Mark Bailey - locum respiratory consultant, clinician-who-codes and conference host.
 
-## Address
-
-The conference is booked for the 24th of October at:
-
-> Sandford Education Centre<br>
-> Gloucestershire Hospitals NHS Foundation Trust<br>
-> 38 Keynsham Rd<br>
-> Cheltenham<br>
-> GL53 7PX
-
-![](/media/cheltenham-hospital.jpeg){height=300px fig-align="center" fig-alt="Front of Cheltenham General Hospital"}
-
-This will be a hybrid event, so you can always join us online. However, we highly recommend joining us in person for greater networking and collaboration.
-
-## Tickets
-
-Tickets will be available soon.
-
 ## Feedback from last year's conference
 
 **What did you enjoy about the conference?**
@@ -50,6 +32,33 @@ Tickets will be available soon.
 * The importance of the collaborative approach to developing apps and systems, having system coders and clinical staff (and end users too) both providing their particular expertise to the task is vital for accuracy and useability, and all having a mutual respect for each other's skills.
 * There are good ways and less good ways to innovate. The challenge is differentiating them and meetings where a frank and open discourse can occur are essential for this.
 * Getting patient participation is very valuable, and can help develop the system/process.
+
+## Tickets
+
+```{=html}
+<div style="display: flex; flex-direction: column; width: 100%;">
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://letsdodigital.org/conferences/2024/registration.html" style="display: flex; justify-content: center;">
+                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Napkins get a you a free ticket. Napkins are always useful for cleaning up after those small coffee spills!
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://www.buymeacoffee.com/letsdodigital/e/241276" style="display: flex; justify-content: center;">
+                <img src="/media/white-paper-coffee-cup.jpg" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporters" board on the home page of <strong>letsdodigital.org</strong> for a whole year.
+        </div>
+    </div>
+</div>
+```
 
 ## Call for abstracts
 

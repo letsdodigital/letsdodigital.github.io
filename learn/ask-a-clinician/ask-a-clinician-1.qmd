@@ -10,7 +10,9 @@ title-slide-attributes:
     data-background-video-loop: true
 ---
 
-# Inside the mind of a medic
+# Inside the mind of a medic {background-image="/media/a-pill-in-each-hand-cropped.jpg" background-opacity="0.4"}
+
+a-pill-in-each-hand
 
 The ether between the ears of 
 
@@ -23,10 +25,6 @@ Dr Mark Bailey
 ## The patient focused history
 
 ## The doctor's focused...
-
-# Shout out for video and pictures from
-
-* Video by Ricky Esquivel: https://www.pexels.com/video/fixing-a-light-bulb-in-a-series-of-electric-wires-3052161/
 
 ```{=html}
 <style>
