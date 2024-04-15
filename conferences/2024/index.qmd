@@ -54,7 +54,7 @@ We are currently building up the agenda. Our current line up includes:
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporters" board on the home page of letsdodigital.org for a whole year.
+            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporters" board on the home page of letsdodigital.org for a whole year!
         </div>
     </div>
 </div>
