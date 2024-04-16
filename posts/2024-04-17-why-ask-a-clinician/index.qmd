@@ -4,7 +4,7 @@ description: "Why teach others clinical?"
 author:
   - name: Mark Bailey
 date: 2024-04-17
-categories: [blog] # self-defined categories
+categories: [blog]
 image: /media/canyon-with-speach-bubbles.png
 draft: false
 comments:
