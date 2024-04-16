@@ -25,6 +25,7 @@ Online, 2-3pm, on Thursday the 13th of June.
 
 ## Tickets and coffees
 
+
 ```{=html}
 <div style="display: flex; flex-direction: column; width: 100%;">
     <div style="display: flex; flex-direction: row;">
@@ -48,6 +49,11 @@ Online, 2-3pm, on Thursday the 13th of June.
         </div>
     </div>
 </div>
+
+<p style="color: grey; font-style: italic;">
+Click on either the napkin or coffee cup to get tickets.
+</p>
+
 ```
 
 

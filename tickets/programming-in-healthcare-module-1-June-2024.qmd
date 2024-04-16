@@ -36,6 +36,8 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
 ## Purchase tickets
 
 ```{=html}
+
+
 <div style="display: flex; flex-direction: column; width: 100%;">
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
@@ -44,7 +46,7 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at <strong>buymeacoffee.com</strong>
+            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at buymeacoffee.com.
         </div>
     </div>
     <div style="display: flex; flex-direction: row;">
@@ -58,6 +60,10 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
         </div>
     </div>
 </div>
+
+<p style="color: grey; font-style: italic;">
+Click on a ticket to purchase a ticket.
+</p>
 ```
 
 
