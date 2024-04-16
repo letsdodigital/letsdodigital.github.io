@@ -6,16 +6,16 @@ title: "Ask a clinician webinar series - episode 1"
 
 ![](/media/a-pill-in-each-hand.jpg){height=300px fig-align="center" fig-alt="A pill in each outstretched hand of a male doctor"}
 
-Are you a computer programmer, data analyst, UX-designer, cybersecurity expert, or anyone else for that matter that works with healthcare data? Perhaps you have wondered how on earth did a doctor think it was okay to just input `TBC` into your very valuable input field in the EPR that you spent months designing / passing through red tape / evaluating / etc. What on was the doctor doing? Why did they not fill in the field properly. Did they not get the training I spent hours writing?
+Are you a computer programmer, data analyst, UX designer, cybersecurity expert, or anyone else for that matter who works with healthcare data? Perhaps you have wondered, "How on earth did a doctor think it was okay to just input 'TBC' into your very valuable input field in the EPR that you spent months designing, passing through red tape, evaluating, etc.? What on earth was the doctor thinking? Why did they not fill in the field properly? Did they not get the training I spent hours writing?"
 
-This is the first webinar of many of the `Ask a clinician` series from the Let's Do Digital Team. If you have ever wanted to ask a clinician what their thought processes where, what are their workflows, workloads, or just, "what the hell were you thinking?", this is the webinar for you.
+This is the first webinar of many in the "Ask a Clinician" series from the Let’s Do Digital Team. If you have ever wanted to ask a clinician about their thought processes, workflows, workloads, or just, "What the hell were you thinking?", this is the webinar for you.
 
-Join us as Dr Mark Bailey, Locum Respiratory Consultant and Clinician-who-codes, explains how a medic thinks, works, and screws up your data. 
+Join us as Dr Mark Bailey, Locum Respiratory Consultant and Clinician-who-codes, explains how a medic thinks, works, and, somehow, messes up your data.
 
 
 ## Webinar structure
 
-The first half will be a presentation of the medical clinical decision making process, followed by Q&A.
+The first half will be a presentation of the medical clinical decision making process, followed by a Q&A.
 
 
 ## When and where
@@ -44,7 +44,7 @@ Online, 2-3pm, on Thursday the 13th of June.
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the home page letsdodigital.org for a whole year!
+            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the letsdodigital.org home page for a whole year!
         </div>
     </div>
 </div>
