@@ -58,6 +58,10 @@ We are currently building up the agenda. Our current line up includes:
         </div>
     </div>
 </div>
+
+<p style="color: grey; font-style: italic;">
+Click on either the napkin or coffee cup to get tickets.
+</p>
 ```
 
 ## Call for abstracts
