@@ -62,7 +62,7 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
 </div>
 
 <p style="color: grey; font-style: italic;">
-Click on a ticket to purchase a ticket.
+Click on a ticket to purchase a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
 </p>
 ```
 

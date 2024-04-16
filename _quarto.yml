@@ -25,6 +25,17 @@ website:
       - posts.qmd
       - who-are-we.qmd
       - contact.qmd
+  page-footer: 
+    left: 
+      - href: contact.qmd
+        text: Contact
+      - href: privacy-policy.qmd
+        text: Privacy Policy
+    right: 
+      - icon: github
+        href: https://github.com/letsdodigital
+      - icon: twitter 
+        href: https://twitter.com/letsdodigitalci
       
 
   favicon: media/ldd-logo.png
