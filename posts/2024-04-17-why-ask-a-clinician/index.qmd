@@ -25,13 +25,13 @@ At the recent Digital Health ReWired conference in Birmingham, I asked a questio
 
 > We have lots of courses in data analytics, clinical informatics, etc., but how come we do not have any courses on teaching computer scientists, data analysts, cyber security experts, etc., about clinical?
 
-This question was well received by the panel, and, it later turned out, the audience as well. However, the answer seemed to be, 'we just don't have that in place.'
+This question was well received by the panel, and, it later turned out, the audience as well. However, the answer seemed to be, "we just don't have that in place."
 
-Straight away after the talk, a data analyst came up to me and said, 'yes, we need such a course.' We had a long and fruitful discussion about it, and so I decided to talk to a few people I knew were at the conference and might be able to help / endorse a course for 'digital folk.'
+Straight away after the talk, a data analyst came up to me and said, "yes, we need such a course." We had a long and fruitful discussion about it, and so I decided to talk to a few people I knew were at the conference and might be able to help / endorse a course for "digital folk."
 
 After a bit of wandering around the conference venue, I found [James Freed](https://www.linkedin.com/in/james-freed-digital/), Deputy Director of the NHS Digital Academy, someone who I know well and who was happy to help with the course. I also spoke to [Alex Cheung](https://www.linkedin.com/in/acpy/) from AnalystX who was also very supportive.
 
-So there I was, with a big idea about teaching clinical matters to non-clinicians. I started to think about which disease I should teach first, should I talk about anatomy, should I talk about 'what is health' and 'what is disease'? I eventually thought it was best to ask those that were likely to want to sit in on this webinar series. So I asked the [NHS-R](https://nhsrcommunity.com/) and [NHS PyCom](https://nhs-pycom.net/) folk, people I know well, via their respective Slack channels. These are the topics I got back:
+So there I was, with a big idea about teaching clinical matters to non-clinicians. I started to think about which disease I should teach first, should I talk about anatomy, should I talk about "what is health" and "what is disease"? I eventually thought it was best to ask those that were likely to want to sit in on this webinar series. So I asked the [NHS-R](https://nhsrcommunity.com/) and [NHS PyCom](https://nhs-pycom.net/) folk, people I know well, via their respective Slack channels. These are the topics I got back:
 
 * How to best display data/results of analysis.
 * How would we identifying datasets, like the pneumonia on X-rays, or ROCT eye scans would be helpful for coders who want to explore the application of deep learning to medical data.
@@ -51,8 +51,8 @@ So there I was, with a big idea about teaching clinical matters to non-clinician
 
 Well done if you read all of them. 
 
-As you can see, there is a wide range of topics, however, not really the stuff I learned about at medical school. Thes above are more practical questions, stuff that you learn and interact with by just being a doctor and doing the day job. So I had a rethink. I decided to start with something I know well, and would be a good place to start a new series. So instead of 'here is Prof Mark, telling you about how many times the airways divide in your lungs' (24 by the way), the series is now named "{{< var ask-a-clinician-series-title >}}" and the first episode will be about "{{< var aac-1 >}}".
+As you can see, there is a wide range of topics, however, not really the stuff I learned about at medical school. Thes above are more practical questions, stuff that you learn and interact with by just being a doctor and doing the day job. So I had a rethink. I decided to start with something I know well, and would be a good place to start a new series. So instead of "here is Prof Mark, telling you about how many times the airways divide in your lungs" (24 by the way), the series is now named "{{< var ask-a-clinician-series-title >}}" and the first episode will be about "{{< var aac-1 >}}".
 
-Future episodes (I am hoping for one a month, but don't hold me to that as I do this in my 'spare' time) will bring in GPs, surgeons, dentists, pharmacists, nurses and more. I already have a few episodes lined up if this first one goes well.
+Future episodes (I am hoping for one a month, but don't hold me to that as I do this in my "spare" time) will bring in GPs, surgeons, dentists, pharmacists, nurses and more. I already have a few episodes lined up if this first one goes well.
 
 And so, if you are interested, please do join us at the first of many episodes of "{{< var ask-a-clinician-series-title >}}" by signing up [here](/tickets/ask-a-clinician-1.qmd).
