@@ -6,7 +6,7 @@ logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
     data-background-color: "#ffffff"
-    data-background-video: "/media/paraglider-off-cliff-cropped-2.mp4"
+    data-background-video: "/media/paraglider-off-cliff-cropped.mp4"
     data-background-video-loop: true
 ---
 
