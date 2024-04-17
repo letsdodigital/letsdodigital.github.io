@@ -55,7 +55,7 @@ Online, 2-3pm, on Thursday the 13th of June.
 </div>
 
 <p style="color: grey; font-style: italic;">
-Click on napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
+Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
 </p>
 
 ```
