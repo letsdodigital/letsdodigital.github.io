@@ -5,8 +5,8 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#0D4848"
-    data-background-video: "/media/dusk-and-lights.mp4"
+    data-background-color: "#ffffff"
+    data-background-video: "/media/paraglider-off-cliff-cropped.mp4"
     data-background-video-loop: true
 ---
 
@@ -22,10 +22,21 @@ Dr Mark Bailey
 
 ## The doctor's focused...
 
-```{=html}
-<style>
-.reveal .slides > section.present > .title {
-    text-shadow: 2px 2px 8px #000000;
-}
-</style>
-```
+
+Patients are like code
+
+Debugging a virus / disease
+
+Clerking
+Tactically lazy
+WAD / WAI
+EPR Ux - structure vs unstructured data (historical, and speed)
+Treat the patient, not the EPR
+
+* Structured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?
+* How to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?
+* Clinical coding from a clinician’s perspective. How is this best tought to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?
+* How could we do better together?
+* Clinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?
+* Usability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?
+* Decision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?
