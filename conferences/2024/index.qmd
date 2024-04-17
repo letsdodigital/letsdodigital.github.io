@@ -12,10 +12,11 @@ This year's key theme is **open**. That is **open source**, **open standards**, 
 
 We are currently building up the agenda. Our current line up includes:
 
+* Stephen Rowley - Patient advocate and STEM career
 * Paul Drake - Plastic surgeon, CCIO and clinician-who-codes at East Grinstead Hospital
-* Nadia Kuftinoff
-* Simon Laftimer - Dermatology Systems Manager, UHSfT
-* Grant Vallance
+* Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & West Berkshire ICB
+* Simon Laftimer - Dermatology Systems Manager, University Hospital Southampton NHS Foundation Trust
+* Grant Vallance, Information Manager, Oxford University Hospitals NHS Trust
 * Mark Bailey - locum respiratory consultant, clinician-who-codes and conference host.
 
 ## Feedback from last year's conference
@@ -36,6 +37,26 @@ We are currently building up the agenda. Our current line up includes:
 ## Tickets and coffees
 
 ```{=html}
+Please consider buying the team a coffee or three. Running a conference comes unfortunately with running costs, see 
+<a class="link-dcsp"
+    data-bs-toggle="collapse"
+    href="#collapseDocuments"
+    role="button"
+    aria-expanded="false"
+    aria-controls="collapseDocuments">
+        conference costs
+</a>.
+<div class="collapse" id="collapseDocuments">
+    <ul>
+        <li>£270 for venue hire. </li>
+        <li>£1500 for audiovisual equipment.</li>
+        <li>£1300 for the catering.</li>
+        <li>£150 for poster prizes.</li>
+        <li>£150 for badges printing and venue stationary.</li>
+        <li><b>Total: £3,370.</b></li>
+    </ul>
+</div>
+
 <div style="display: flex; flex-direction: column; width: 100%;">
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
@@ -63,6 +84,9 @@ We are currently building up the agenda. Our current line up includes:
 Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
 </p>
 ```
+
+
+
 
 ## Call for abstracts
 
