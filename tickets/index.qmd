@@ -10,6 +10,10 @@ title: "Let's Do Digital Events"
 
 [{{< var coding-series-title >}} - Module 1](programming-in-healthcare-module-1-June-2024.qmd)
 
+## 3rd July 2024
+
+[{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
+
 ## 24th October 2024
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
