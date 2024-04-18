@@ -1,5 +1,5 @@
 ---
-title: "Bios 2023"
+title: "Bios 2024"
 ---
 
 {{< include _navbar.qmd >}}

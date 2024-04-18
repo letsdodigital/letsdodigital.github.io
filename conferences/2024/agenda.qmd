@@ -1,5 +1,5 @@
 ---
-title: "Agenda - 2024"
+title: "Agenda 2024"
 ---
 
 {{< include _navbar.qmd >}}

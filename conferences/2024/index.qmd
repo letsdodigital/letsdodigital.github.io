@@ -37,7 +37,7 @@ We are currently building up the agenda. Our current line up includes:
 ## Tickets and coffees
 
 ```{=html}
-Please consider buying the team a coffee or three. Running a conference comes unfortunately with running costs, see 
+Please consider buying the Let's Do Digital team a coffee or three. Running a conference comes unfortunately with running costs, see 
 <a class="link-dcsp"
     data-bs-toggle="collapse"
     href="#collapseDocuments"

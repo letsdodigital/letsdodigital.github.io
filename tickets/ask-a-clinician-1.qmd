@@ -29,6 +29,7 @@ Online, 2-3pm, on Thursday the 13th of June.
 
 ## Tickets and coffees
 
+Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
 
 ```{=html}
 <div style="display: flex; flex-direction: column; width: 100%;">

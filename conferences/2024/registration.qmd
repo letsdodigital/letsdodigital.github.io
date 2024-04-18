@@ -1,5 +1,5 @@
 ---
-title: "Registration"
+title: "Registration 2024"
 ---
 
 {{< include _navbar.qmd >}}
