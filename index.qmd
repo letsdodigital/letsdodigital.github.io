@@ -31,7 +31,7 @@ title: "Learn Collaborate Build"
 
 ## Updates
 
-* We have had lots of interest for an evening coding session. So we built on. See details [here](/tickets/programming-in-healthcare-module-1-July-2024.qmd)
+* We have had lots of interest for an evening coding session. So we built one. See details [here](/tickets/programming-in-healthcare-module-1-July-2024.qmd)
 * Tickets are also open for the first (of many) of the "Ask a Clinician" series. Find out more [here](/tickets/ask-a-clinician-1.qmd).
 * Our first **{{< var coding-series-title >}} course** is now open to registration. Please find further details about the course and registration [here](/tickets/programming-in-healthcare-module-1-June-2024.qmd).
 
