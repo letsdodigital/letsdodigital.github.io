@@ -382,7 +382,14 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#the-python-programming-language",
     "title": "Python basics",
     "section": "The Python programming language",
-    "text": "The Python programming language\n\nPython is a scripting language interpreted and compiled at runtime.\nIts syntax emphasises readability and simplicity, utilising indentation for code structuring.\nPython supports various programming paradigms, including procedural, object-oriented, and functional.\nWith a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation."
+    "text": "The Python programming language\n\nPython is a scripting language interpreted and compiled at runtime.\nIts syntax emphasises readability and simplicity, utilising indentation for code structuring.\nPython supports various programming paradigms, including procedural, object-oriented, and functional.\nWith a vast standard library and active community support, Python is widely used for web development, data analysis, AI / machine learning, and automation."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#where-to-code",
+    "href": "learn/learn-python/module-1/3-python-basics.html#where-to-code",
+    "title": "Python basics",
+    "section": "Where to code?",
+    "text": "Where to code?\n\nThere are many integrated development environments (IDEs) for the python programming language.\nAn IDE is basically a very fancy text editor where you write code, and run it (along with some other fancy stuff).\nThere are several IDEs for python, two populat ones are VS Code and Pycharm.\nWe will be using an online version of VS Code (called Codespace), so you do not need to install anything on your computer."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#what-is-in-a-code",
@@ -515,14 +522,35 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods",
     "title": "Python basics",
     "section": "Functions (methods)",
-    "text": "Functions (methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisational entity in python)."
+    "text": "Functions (methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisational entity in python).\nA function:\n\nTakes zero or more input values,\nUndertakes some process, and\nReturns zero or more output values."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-methods-1",
     "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods-1",
     "title": "Python basics",
     "section": "Functions (methods)",
-    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    another_variable = \"a return value\"\n\n    print (a_variable)\n\n    return another_variable"
+    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-methods-2",
+    "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods-2",
+    "title": "Python basics",
+    "section": "Functions (methods)",
+    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-methods-3",
+    "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods-3",
+    "title": "Python basics",
+    "section": "Functions (methods)",
+    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#inbuilt-functions",
+    "href": "learn/learn-python/module-1/3-python-basics.html#inbuilt-functions",
+    "title": "Python basics",
+    "section": "Inbuilt functions",
+    "text": "Inbuilt functions\n\nThere are some functions that are already built into python, eg\n\n\n\nbuilt_in_functions.py\n\nprint(\"hello world\")\nlen([0,1,2,3,4])"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#other-things-to-be-aware-of",
@@ -644,11 +672,172 @@
     "text": "Off we go to the shell"
   },
   {
-    "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "href": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "title": "Module 2 - Let’s take things to the next level",
-    "section": "Introduction",
-    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+    "objectID": "learn/learn-python/module-2/module-2-topics.html",
+    "href": "learn/learn-python/module-2/module-2-topics.html",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Build a basic digital consent form.\n\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript: Understanding the structure, styling, and interactivity of web pages.\nWeb frameworks (e.g., Flask, Django): Choosing a framework to simplify backend development and routing.\nRESTful APIs: Designing an API for communication between the frontend and backend of the application.\n\n\n\n\n\nImporting modules: Using external libraries or frameworks for building specific functionalities in the web application.\n\n\n\n\n\nClasses and objects: Structuring the backend logic of the web application using object-oriented programming principles.\n\n\n\n\n\nIntroduction to databases: Understanding database concepts such as tables, records, and SQL queries.\nDatabase integration with Python: Using libraries like SQLAlchemy to interact with a database from Python code.\nBasic CRUD operations: Implementing Create, Read, Update, and Delete operations for managing consent form data in the database.\n\n\n\n\n\n\nAuthentication / authorizathion / role based access control\nWeb security\nDeployment"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/module-2-topics.html#building-a-digital-consent-form",
+    "href": "learn/learn-python/module-2/module-2-topics.html#building-a-digital-consent-form",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Build a basic digital consent form."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/module-2-topics.html#coding-topics",
+    "href": "learn/learn-python/module-2/module-2-topics.html#coding-topics",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Basics of HTML, CSS, and JavaScript: Understanding the structure, styling, and interactivity of web pages.\nWeb frameworks (e.g., Flask, Django): Choosing a framework to simplify backend development and routing.\nRESTful APIs: Designing an API for communication between the frontend and backend of the application.\n\n\n\n\n\nImporting modules: Using external libraries or frameworks for building specific functionalities in the web application.\n\n\n\n\n\nClasses and objects: Structuring the backend logic of the web application using object-oriented programming principles.\n\n\n\n\n\nIntroduction to databases: Understanding database concepts such as tables, records, and SQL queries.\nDatabase integration with Python: Using libraries like SQLAlchemy to interact with a database from Python code.\nBasic CRUD operations: Implementing Create, Read, Update, and Delete operations for managing consent form data in the database."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/module-2-topics.html#if-we-have-time-if-not-then-mention-that-important",
+    "href": "learn/learn-python/module-2/module-2-topics.html#if-we-have-time-if-not-then-mention-that-important",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Authentication / authorizathion / role based access control\nWeb security\nDeployment"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html",
+    "href": "learn/learn-python/topics.html",
+    "title": "All coding topics",
+    "section": "",
+    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises.\n\n\n\n\n\nBasic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations\n\n\n\n\n\nConditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements\n\n\n\n\n\nIndexing (starts from 0)\nLists\nTuples\nDictionaries\nSets\n\n\n\n\n\nDefining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)\n\n\n\n\n\nReading from and writing to files\nWorking with different file formats (text files, CSV, JSON)\n\n\n\n\n\nImporting modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django\n\n\n\n\n\nHome computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments\n\n\n\n\n\nClasses and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction\n\n\n\n\n\nException handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions\n\n\n\n\n\nAdvanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing\n\n\n\n\n\nUsing and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing\n\n\n\n\n\nThreading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications\n\n\n\n\n\nPattern matching using regular expressions\nRegular expression syntax\nUsing the re module\n\n\n\n\n\nWriting and running unit tests using unittest or pytest\nTest-driven development (TDD) approach\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs\n\n\n\n\n\nNumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM\n\n\n\n\n\nMetaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode\n\n\n\n\n\nBasics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#key-points",
+    "href": "learn/learn-python/topics.html#key-points",
+    "title": "All coding topics",
+    "section": "",
+    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises."
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
+    "href": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Basic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#control-flow-difficulty-210",
+    "href": "learn/learn-python/topics.html#control-flow-difficulty-210",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Conditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#data-structures-difficulty-310",
+    "href": "learn/learn-python/topics.html#data-structures-difficulty-310",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Indexing (starts from 0)\nLists\nTuples\nDictionaries\nSets"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#functions-difficulty-410",
+    "href": "learn/learn-python/topics.html#functions-difficulty-410",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Defining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#file-handling-difficulty-410",
+    "href": "learn/learn-python/topics.html#file-handling-difficulty-410",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Reading from and writing to files\nWorking with different file formats (text files, CSV, JSON)"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
+    "href": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Importing modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#environments-difficulty-610",
+    "href": "learn/learn-python/topics.html#environments-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Home computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
+    "href": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Classes and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#error-handling-difficulty-410",
+    "href": "learn/learn-python/topics.html#error-handling-difficulty-410",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Exception handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
+    "href": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Advanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
+    "href": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Using and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
+    "href": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Threading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
+    "href": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Pattern matching using regular expressions\nRegular expression syntax\nUsing the re module"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#testing-difficulty-510",
+    "href": "learn/learn-python/topics.html#testing-difficulty-510",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Writing and running unit tests using unittest or pytest\nTest-driven development (TDD) approach"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#web-development-difficulty-610",
+    "href": "learn/learn-python/topics.html#web-development-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Basics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
+    "href": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
+    "title": "All coding topics",
+    "section": "",
+    "text": "NumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
+    "href": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Metaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
+    "href": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Basics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
   },
   {
     "objectID": "learn/ask-a-clinician/index.html",
@@ -754,6 +943,13 @@
     "title": "Education",
     "section": "Coding cheatsheets",
     "text": "Coding cheatsheets\nA collection of code and commands."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
+    "href": "learn/learn-python/module-2/1-introduction.html#introduction",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
     "objectID": "learn/learn-python/module-2/index.html",
