@@ -81,8 +81,15 @@ title-slide-attributes:
 * Python is a scripting language interpreted and compiled at runtime.
 * Its syntax emphasises readability and simplicity, utilising indentation for code structuring.
 * Python supports various programming paradigms, including procedural, object-oriented, and functional.
-* With a vast standard library and active community support, Python is widely used for web development, data analysis, AI, and automation.
+* With a vast standard library and active community support, Python is widely used for web development, data analysis, AI / machine learning, and automation.
 
+
+## Where to code?
+
+* There are many integrated development environments (IDEs) for the python programming language.
+* An IDE is basically a very fancy text editor where you write code, and run it (along with some other fancy stuff).
+* There are several IDEs for python, two populat ones are VS Code and Pycharm.
+* We will be using an online version of VS Code (called Codespace), so you do not need to install anything on your computer.
 
 ## What is in a code?
 
@@ -360,20 +367,56 @@ Output
 * Help in organising code and making it more modular.
 * Part of the `DRY` (`don't repeat yourself`) philosophy.
 * A `method` is just a function, used within a class (a higher organisational entity in python).
+* A function:
+    1. Takes zero or more input values,
+    2. Undertakes some process, and
+    3. Returns zero or more output values.
 
 
 ## Functions (methods)
 
-```{.python filename="functions.py"}
+```{.python filename="functions.py" code-line-numbers="1"}
 def name_of_function(argument_1, argument_2):
     a_variable = argument_1 + argument_2
-    another_variable = "a return value"
+    return_variable = "a return value"
 
     print (a_variable)
 
-    return another_variable
+    return return_variable
 ```
 
+## Functions (methods)
+
+```{.python filename="functions.py" code-line-numbers="2"}
+def name_of_function(argument_1, argument_2):
+    a_variable = argument_1 + argument_2
+    return_variable = "a return value"
+
+    print (a_variable)
+
+    return return_variable
+```
+
+## Functions (methods)
+
+```{.python filename="functions.py" code-line-numbers="7"}
+def name_of_function(argument_1, argument_2):
+    a_variable = argument_1 + argument_2
+    return_variable = "a return value"
+
+    print (a_variable)
+
+    return return_variable
+```
+
+## Inbuilt functions
+
+* There are some functions that are already built into python, eg
+```{.python filename="built_in_functions.py"}
+print("hello world")
+len([0,1,2,3,4])
+
+```
 ## Other things to be aware of {.smaller}
 
 * There are several other organisational practices in python, but we will leave these for another day.
