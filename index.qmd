@@ -31,13 +31,14 @@ title: "Learn Collaborate Build"
 
 ## Updates
 
-* We have had lots of interest for an evening coding session. So we built one. See details [here](/tickets/programming-in-healthcare-module-1-July-2024.qmd)
-* Tickets are also open for the first (of many) of the "Ask a Clinician" series. Find out more [here](/tickets/ask-a-clinician-1.qmd).
-* Our first **{{< var coding-series-title >}} course** is now open to registration. Please find further details about the course and registration [here](/tickets/programming-in-healthcare-module-1-June-2024.qmd).
+23/04/24 - Registration for this year's **Let's Talk Digital Conference** is now open. Sign up [here](/conferences/2024/index.qmd).
 
+19/04/24 - We have had lots of interest for an evening coding session. So we built one. See details [here](/tickets/programming-in-healthcare-module-1-July-2024.qmd).
 
+18/04/24 -  Tickets are also open for the first (of many) of the "Ask a Clinician" series. Find out more [here](/tickets/ask-a-clinician-1.qmd).
 
-Look out for another series of learning opportunities. We are planning to open the floor to computer scientists, data scientists, cybersecurity specialists, basically anyone in the digital domain who works in or around healthcare, to ask a clinician about their workflows, workloads, and thought processes. We hope to enable those in digital fields to better understand the data and information in front of them by granting them direct access to clinicians on the front line.
+18/04/24 - Our first **{{< var coding-series-title >}} course** is now open to registration. Please find further details about the course and registration [here](/tickets/programming-in-healthcare-module-1-June-2024.qmd).
+
 
 ```{=html}
 <div class="supporter-frame">
