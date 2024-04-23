@@ -1,0 +1,30 @@
+---
+title: "Why another conference?"
+description: "Because we need to do things differently?"
+author:
+  - name: Mark Bailey
+date: 2024-04-25
+categories: [blog]
+image: /media/conference-sunlight.pjg
+draft: true
+comments:
+  hypothesis: true
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
+---
+
+Somethings are born out of alternative plans!
+
+![](/media/conference-sunlight.jpg){height=400px fig-align="center" fig-alt="A burning firepit"}
+
+Back in the summer of 2021, Dr Helen Winter, medical lead for the South West SWAG cancer alliance, and myself were trying to do something novel. We wanted to build and implement a new digital pathway management system to help streamline and speed up lung cancer management. We had so many people backing this new digital health technology, we had stakeholder meetings, and I had hours on hours of meetings with the digital team at my trust to try and get the technology over the line. I had gathered funding from the local CCG and trust to enable two computer science students on full time placement to build a prototype of the new technology. We had the CEO of the trust backing it. We had patients backing it. We had the department lead and fellow colleagues backing it. However, it went no, (at least locally)!
+
+Within the trust, and I should probably not point fingers, there were people blocking this implementation. And so, to try and open up communications and get help from outside, Helen and me decided to build a conference to showcase great digital innovation at the frontline and allow people (and ourselves) to learn from others. That conference was **Let's Talk Digital 2022**.
+
+Although the conference did not succeed in getting the lung cancer project off the ground at the original trust, the project is likely to be implemented at another trust. Also, the 2022 and 2023 Let's Talk Digital Conferences have been great places to see how others have managed to get their new implementation over the line. Also, we could share stories about what did not work as well (just as important to learn about in my opinion).
+
+I almost did not run the Let's Talk Digital conference this year. It is a lot of work, and I was out of pocket the previous two years. However, I have had a huge number of people tell me that they really enjoyed the previous conferences and feel it day in the diary to do and learn good. It is apparent that the **Let's Talk Digital Conferences** are a great place for people to talk about these difficult conversations around health, digital and great implementation of both. These conferences are a place to get to the nitty gritty of trying to implement digital change for the better at the frontline, rather than from a top down push (which has poor outcomes most of the time).
+
+So don't you worry. The 2024 Let's Talk Digital Conference is full steam ahead for its arrival on the 24th of October.
+
+And so, if you are interested, please do join us at this year's **Let's Talk Digital Conferenc**e by signing up [here](/conferences/2024/index.qmd).

@@ -6,7 +6,7 @@ title: "Let's Talk Digital Conference - 2024"
 
 ![](/media/open-sign.jpg){height=300px fig-align="center" fig-alt="Bronze lettering on a wooden placard"}
 
-This year's key theme is **open**. That is **open source**, **open standards**, **open learning** and **open data**. But we are not talking socks, sandles and hippee like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field. And we are looking for innovation at the clincal frontline. Please do join us either in person or virtually for a jam packed event on Thursday the 24th of October.
+This year's key theme is **open**. That is **open source**, **open standards**, **open learning** and **open data**. But we are not talking socks, sandles and hippee like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field. And we are looking for innovation at the clinical frontline. Please do join us either in person or virtually for a jam packed event on Thursday the 24th of October 2024 at Cheltenham General Hospital.
 
 ## Line up
 
@@ -85,9 +85,16 @@ Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be fou
 </p>
 ```
 
-
-
-
 ## Call for abstracts
 
 If you wish to submit an abstract to the conference, please email [info@letsdodigital.org](mailto:info@letsdodigital.org) with a 250-300 word abstract of a digital healthcare intervention. Successful abstracts will be show cased on the Let's Do Digital Website and prizes will be awarded for the best posters.
+
+## Want to give a presenation?
+
+If you wish to present at the conference, and you have a topic that is in keeping with this year's theme, then please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
+
+## Sponsorship
+
+If you wish to sponsor the event, please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
+
+
