@@ -378,25 +378,494 @@
     "text": "15:20 – Afternoon session 2\n15:20 – Chair – TBC 15:25 – Poster awards 15:35 – Rajesh Sivaprakasam – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust- Are we ready for digital Healthcare? 15:45 – Andrea Preston – Macmillan Divisional Lead Pharmacist – Haematology, University Hospitals Bristol & Weston NHS Foundation Trust 15:55 – Majid Kazmi- Director of Innovation for Cancer and Surgery; Deputy Medical Director Guy’s and St Thomas’ NHS Foundation Trust and Paul Landau- CEO Careology – Digital cancer care: how to empower patients beyond the hospital walls 16:05 – Q&A 16:20 – close"
   },
   {
-    "objectID": "sponsor.html",
-    "href": "sponsor.html",
-    "title": "Sponsor the team",
+    "objectID": "learn/learn-python/module-1/index.html",
+    "href": "learn/learn-python/module-1/index.html",
+    "title": "Module 1 - Where is the on switch?",
     "section": "",
-    "text": "There is a hard working team behind the Let’s Do Digital name. If you feel we are doing a great job and want to help support us with our projects and teaching courses, then please do consider buying us a coffee:\n\n    \n\n\nA single sponsorship over £50 (UK) or signing up as a member on buymeacoffee.com will get you a place on the wall of our home page for individual supporters.\nFor healthcare groups (eg industry, individual trusts, government) that wish to sponosor the Let’s Do Digital Team, please contact us at info@letsdodigital.org."
+    "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, not clinical terminologies)."
   },
   {
-    "objectID": "learn/learn-python/index.html",
-    "href": "learn/learn-python/index.html",
-    "title": "Programming in Healthcare",
-    "section": "",
-    "text": "Welcome to the Programming in Healthcare course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
+    "objectID": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
+    "href": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Chose a slide deck",
+    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build a web app\n\n\n5 - Session close"
   },
   {
-    "objectID": "learn/learn-python/index.html#modules",
-    "href": "learn/learn-python/index.html#modules",
-    "title": "Programming in Healthcare",
+    "objectID": "learn/learn-python/module-1/index.html#get-coding",
+    "href": "learn/learn-python/module-1/index.html#get-coding",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Get coding",
+    "text": "Get coding\nThe code for this course can be found below\n\n\nModule 1 code\n\n\nYou can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/index.html#feedback",
+    "href": "learn/learn-python/module-1/index.html#feedback",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Feedback",
+    "text": "Feedback\nA short feedback survey will be available here at the end of the module."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
+    "title": "Coding environment (and the shell)",
+    "section": "Today’s hands-on sessions",
+    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment is synonymous with the teaching environment."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace light theme",
+    "text": "Codespace light theme"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace dark theme",
+    "text": "Codespace dark theme"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace layout",
+    "text": "Codespace layout"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#commands",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#commands",
+    "title": "Coding environment (and the shell)",
+    "section": "Commands",
+    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
+    "title": "Coding environment (and the shell)",
+    "section": "Using the terminal",
+    "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
+    "title": "Coding environment (and the shell)",
+    "section": "List files and folders command",
+    "text": "List files and folders command\n\nThe ls command."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
+    "title": "Coding environment (and the shell)",
+    "section": "Change directory command",
+    "text": "Change directory command\n\nThe cd command.\ncd .. takes you back to the previous (parent) folder."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
+    "title": "Coding environment (and the shell)",
+    "section": "Where am I?",
+    "text": "Where am I?\n\npwd is the print working directory command."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
+    "title": "Coding environment (and the shell)",
+    "section": "LiveShare",
+    "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace view",
+    "text": "Codespace view"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
+    "title": "Coding environment (and the shell)",
+    "section": "Lession 1",
+    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python lession_1.py\n\nDid it work? If so, open up the lession_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
+    "href": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "What to build?",
+    "text": "What to build?"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#streamlit",
+    "href": "learn/learn-python/module-1/4-lets-build.html#streamlit",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Streamlit",
+    "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
+    "href": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Preinstalled for you",
+    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the module-1/hands-on folder.\nRun this code:\n\n\n    $ streamlit run lesson_3.py"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/index.html",
+    "href": "learn/learn-python/module-2/index.html",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "",
+    "text": "After learning about the basics about coding and the programming language Python in Module 2 - Let’s take things to the next level"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
+    "href": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "Chose a slide deck",
+    "text": "Chose a slide deck\n\n\n1 - Introduction"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
+    "href": "learn/learn-python/module-2/1-introduction.html#introduction",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+  },
+  {
+    "objectID": "learn/index.html",
+    "href": "learn/index.html",
+    "title": "Education",
+    "section": "",
+    "text": "Available educational resources include:"
+  },
+  {
+    "objectID": "learn/index.html#coding-programmatic",
+    "href": "learn/index.html#coding-programmatic",
+    "title": "Education",
+    "section": "Coding (programmatic)",
+    "text": "Coding (programmatic)\nThere are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.\n\nLearn to code in python"
+  },
+  {
+    "objectID": "learn/index.html#ask-a-clinician",
+    "href": "learn/index.html#ask-a-clinician",
+    "title": "Education",
+    "section": "Ask a clinician",
+    "text": "Ask a clinician\nComing soon: Ask a clinician learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found here."
+  },
+  {
+    "objectID": "learn/index.html#clinical-informatics",
+    "href": "learn/index.html#clinical-informatics",
+    "title": "Education",
+    "section": "Clinical informatics",
+    "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
+  },
+  {
+    "objectID": "learn/index.html#coding-cheatsheets",
+    "href": "learn/index.html#coding-cheatsheets",
+    "title": "Education",
+    "section": "Coding cheatsheets",
+    "text": "Coding cheatsheets\nA collection of code and commands."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "What is a doctor’s day like",
+    "text": "What is a doctor’s day like"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#what-do-they-have-to-juggle",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#what-do-they-have-to-juggle",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "What do they have to juggle",
+    "text": "What do they have to juggle"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-patient-focused-history",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-patient-focused-history",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "The patient focused history",
+    "text": "The patient focused history"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-doctors-focused",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-doctors-focused",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "The doctor’s focused…",
+    "text": "The doctor’s focused…\nPatients are like code\nDebugging a virus / disease\nClerking Tactically lazy WAD / WAI EPR Ux - structure vs unstructured data (historical, and speed) Treat the patient, not the EPR\n\nStructured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?\nHow to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?\nClinical coding from a clinician’s perspective. How is this best tought to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?\nHow could we do better together?\nClinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?\nUsability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?\nDecision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?"
+  },
+  {
+    "objectID": "learn/syllabi/clinician-who-codes.html",
+    "href": "learn/syllabi/clinician-who-codes.html",
+    "title": "Clinician-who-codes",
+    "section": "",
+    "text": "By Mark Bailey"
+  },
+  {
+    "objectID": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
+    "href": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
+    "title": "Clinician-who-codes",
+    "section": "The reasoning behind it all",
+    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinicain-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
+  },
+  {
+    "objectID": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
+    "href": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
+    "title": "Clinician-who-codes",
+    "section": "So what would you need to learn?",
+    "text": "So what would you need to learn?\n\nClinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).\nClinical informatics (see separate syllabus here).\nCoding skills."
+  },
+  {
+    "objectID": "learn/syllabi/clinical-informatician.html",
+    "href": "learn/syllabi/clinical-informatician.html",
+    "title": "Clinical informatician",
+    "section": "",
+    "text": "This is currently being worked on with fellow Clinicains who code.\nWatch this space."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/index.html",
+    "href": "learn/ask-a-clinician/index.html",
+    "title": "Ask a clinician",
+    "section": "",
+    "text": "Welcome to the Ask a clinician series. This series allowed and encourages people with a digital background better understand the thought processes and workflows of clinicians. By doing this, we hope to help computer scientists, data analysts, cybersecurity specialists, etc to better understand the healthcare data in front of them."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/index.html#modules",
+    "href": "learn/ask-a-clinician/index.html#modules",
+    "title": "Ask a clinician",
     "section": "Modules",
-    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nMore modules to arrive soon"
+    "text": "Modules\n\nUnderstanding clinical decision making: insights from a medic"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html",
+    "href": "learn/learn-python/topics.html",
+    "title": "All coding topics",
+    "section": "",
+    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises.\n\n\n\n\n\nBasic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations\n\n\n\n\n\nConditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements\n\n\n\n\n\nIndexing (starts from 0)\nLists\nTuples\nDictionaries\nSets\n\n\n\n\n\nDefining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)\n\n\n\n\n\nReading from and writing to files\nWorking with different file formats (text files, CSV, JSON)\n\n\n\n\n\nImporting modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django\n\n\n\n\n\nHome computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments\n\n\n\n\n\nClasses and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction\n\n\n\n\n\nException handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions\n\n\n\n\n\nAdvanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing\n\n\n\n\n\nUsing and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing\n\n\n\n\n\nThreading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications\n\n\n\n\n\nPattern matching using regular expressions\nRegular expression syntax\nUsing the re module\n\n\n\n\n\nWriting and running unit tests using unittest or pytest\nTest-driven development (TDD) approach\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs\n\n\n\n\n\nNumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM\n\n\n\n\n\nMetaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode\n\n\n\n\n\nBasics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#key-points",
+    "href": "learn/learn-python/topics.html#key-points",
+    "title": "All coding topics",
+    "section": "",
+    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises."
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
+    "href": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Basic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#control-flow-difficulty-210",
+    "href": "learn/learn-python/topics.html#control-flow-difficulty-210",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Conditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#data-structures-difficulty-310",
+    "href": "learn/learn-python/topics.html#data-structures-difficulty-310",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Indexing (starts from 0)\nLists\nTuples\nDictionaries\nSets"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#functions-difficulty-410",
+    "href": "learn/learn-python/topics.html#functions-difficulty-410",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Defining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#file-handling-difficulty-410",
+    "href": "learn/learn-python/topics.html#file-handling-difficulty-410",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Reading from and writing to files\nWorking with different file formats (text files, CSV, JSON)"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
+    "href": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Importing modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#environments-difficulty-610",
+    "href": "learn/learn-python/topics.html#environments-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Home computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
+    "href": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Classes and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#error-handling-difficulty-410",
+    "href": "learn/learn-python/topics.html#error-handling-difficulty-410",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Exception handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
+    "href": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Advanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
+    "href": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Using and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
+    "href": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Threading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
+    "href": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Pattern matching using regular expressions\nRegular expression syntax\nUsing the re module"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#testing-difficulty-510",
+    "href": "learn/learn-python/topics.html#testing-difficulty-510",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Writing and running unit tests using unittest or pytest\nTest-driven development (TDD) approach"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#web-development-difficulty-610",
+    "href": "learn/learn-python/topics.html#web-development-difficulty-610",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Basics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
+    "href": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
+    "title": "All coding topics",
+    "section": "",
+    "text": "NumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
+    "href": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Metaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode"
+  },
+  {
+    "objectID": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
+    "href": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
+    "title": "All coding topics",
+    "section": "",
+    "text": "Basics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/module-2-topics.html",
+    "href": "learn/learn-python/module-2/module-2-topics.html",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Build a basic digital consent form.\n\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript: Understanding the structure, styling, and interactivity of web pages.\nWeb frameworks (e.g., Flask, Django): Choosing a framework to simplify backend development and routing.\nRESTful APIs: Designing an API for communication between the frontend and backend of the application.\n\n\n\n\n\nImporting modules: Using external libraries or frameworks for building specific functionalities in the web application.\n\n\n\n\n\nClasses and objects: Structuring the backend logic of the web application using object-oriented programming principles.\n\n\n\n\n\nIntroduction to databases: Understanding database concepts such as tables, records, and SQL queries.\nDatabase integration with Python: Using libraries like SQLAlchemy to interact with a database from Python code.\nBasic CRUD operations: Implementing Create, Read, Update, and Delete operations for managing consent form data in the database.\n\n\n\n\n\n\nAuthentication / authorizathion / role based access control\nWeb security\nDeployment"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/module-2-topics.html#building-a-digital-consent-form",
+    "href": "learn/learn-python/module-2/module-2-topics.html#building-a-digital-consent-form",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Build a basic digital consent form."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/module-2-topics.html#coding-topics",
+    "href": "learn/learn-python/module-2/module-2-topics.html#coding-topics",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Basics of HTML, CSS, and JavaScript: Understanding the structure, styling, and interactivity of web pages.\nWeb frameworks (e.g., Flask, Django): Choosing a framework to simplify backend development and routing.\nRESTful APIs: Designing an API for communication between the frontend and backend of the application.\n\n\n\n\n\nImporting modules: Using external libraries or frameworks for building specific functionalities in the web application.\n\n\n\n\n\nClasses and objects: Structuring the backend logic of the web application using object-oriented programming principles.\n\n\n\n\n\nIntroduction to databases: Understanding database concepts such as tables, records, and SQL queries.\nDatabase integration with Python: Using libraries like SQLAlchemy to interact with a database from Python code.\nBasic CRUD operations: Implementing Create, Read, Update, and Delete operations for managing consent form data in the database."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/module-2-topics.html#if-we-have-time-if-not-then-mention-that-important",
+    "href": "learn/learn-python/module-2/module-2-topics.html#if-we-have-time-if-not-then-mention-that-important",
+    "title": "Module 2 topics",
+    "section": "",
+    "text": "Authentication / authorizathion / role based access control\nWeb security\nDeployment"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#introduction",
+    "href": "learn/learn-python/module-1/1-introduction.html#introduction",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
+    "href": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "The coding environment",
+    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#python-basics",
+    "href": "learn/learn-python/module-1/1-introduction.html#python-basics",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Python Basics",
+    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#build-an-app",
+    "href": "learn/learn-python/module-1/1-introduction.html#build-an-app",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Build an app",
+    "text": "Build an app\n\nFinally, we will get you building your own clinical app"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
+    "href": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Why learn to code?",
+    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to better understand and practice clinical medicine. Why don’t we learn the base subject to better understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "href": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "How can you use your coding skills in health care?",
+    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nInteroperability\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed, anything digital"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
+    "href": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Tutor groups",
+    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
+    "href": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
+    "title": "Module 1 - Where is the on switch?",
+    "section": "Off we go to the shell",
+    "text": "Off we go to the shell"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/5-session-close.html#many-thanks",
+    "href": "learn/learn-python/module-1/5-session-close.html#many-thanks",
+    "title": "Session close",
+    "section": "Many thanks",
+    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease join us for more advanced courses, due out soon."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#what-are-computers",
@@ -679,494 +1148,25 @@
     "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
   },
   {
-    "objectID": "learn/learn-python/module-1/5-session-close.html#many-thanks",
-    "href": "learn/learn-python/module-1/5-session-close.html#many-thanks",
-    "title": "Session close",
-    "section": "Many thanks",
-    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease join us for more advanced courses, due out soon."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#introduction",
-    "href": "learn/learn-python/module-1/1-introduction.html#introduction",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Introduction",
-    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
-    "href": "learn/learn-python/module-1/1-introduction.html#the-coding-environment",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "The coding environment",
-    "text": "The coding environment\n\nWe will explore the development (teaching) environment.\nGet you connected to the development environment.\nGet you running some common command line functions in Lession 1."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#python-basics",
-    "href": "learn/learn-python/module-1/1-introduction.html#python-basics",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Python Basics",
-    "text": "Python Basics\n\nHow do we communicate with computers.\nIntroduction to the python programming language.\nLearn about:\n\nSyntax\nVariables\nOperators\nControl flow\nFunctions\nError handling\n\nThen get you programming in Lesson 2."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#build-an-app",
-    "href": "learn/learn-python/module-1/1-introduction.html#build-an-app",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Build an app",
-    "text": "Build an app\n\nFinally, we will get you building your own clinical app"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
-    "href": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Why learn to code?",
-    "text": "Why learn to code?\n\nWe learn biology and anatomy at university to better understand and practice clinical medicine. Why don’t we learn the base subject to better understand and practice digital medicine?\nOf course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.\nHowever, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "href": "learn/learn-python/module-1/1-introduction.html#how-can-you-use-your-coding-skills-in-health-care",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "How can you use your coding skills in health care?",
-    "text": "How can you use your coding skills in health care?\n\nData analytics\nBuilding apps\nInteroperability\nAutomate routine tasks\nHelp lead a software development team with knowledge of both digital and clinical aspects.\nIndeed, anything digital"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
-    "href": "learn/learn-python/module-1/1-introduction.html#tutor-groups",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Tutor groups",
-    "text": "Tutor groups\n\nHas everyone been placed in a tutor group?"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
-    "href": "learn/learn-python/module-1/1-introduction.html#off-we-go-to-the-shell",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Off we go to the shell",
-    "text": "Off we go to the shell"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/module-2-topics.html",
-    "href": "learn/learn-python/module-2/module-2-topics.html",
-    "title": "Module 2 topics",
+    "objectID": "learn/learn-python/index.html",
+    "href": "learn/learn-python/index.html",
+    "title": "Programming in Healthcare",
     "section": "",
-    "text": "Build a basic digital consent form.\n\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript: Understanding the structure, styling, and interactivity of web pages.\nWeb frameworks (e.g., Flask, Django): Choosing a framework to simplify backend development and routing.\nRESTful APIs: Designing an API for communication between the frontend and backend of the application.\n\n\n\n\n\nImporting modules: Using external libraries or frameworks for building specific functionalities in the web application.\n\n\n\n\n\nClasses and objects: Structuring the backend logic of the web application using object-oriented programming principles.\n\n\n\n\n\nIntroduction to databases: Understanding database concepts such as tables, records, and SQL queries.\nDatabase integration with Python: Using libraries like SQLAlchemy to interact with a database from Python code.\nBasic CRUD operations: Implementing Create, Read, Update, and Delete operations for managing consent form data in the database.\n\n\n\n\n\n\nAuthentication / authorizathion / role based access control\nWeb security\nDeployment"
+    "text": "Welcome to the Programming in Healthcare course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
   },
   {
-    "objectID": "learn/learn-python/module-2/module-2-topics.html#building-a-digital-consent-form",
-    "href": "learn/learn-python/module-2/module-2-topics.html#building-a-digital-consent-form",
-    "title": "Module 2 topics",
-    "section": "",
-    "text": "Build a basic digital consent form."
-  },
-  {
-    "objectID": "learn/learn-python/module-2/module-2-topics.html#coding-topics",
-    "href": "learn/learn-python/module-2/module-2-topics.html#coding-topics",
-    "title": "Module 2 topics",
-    "section": "",
-    "text": "Basics of HTML, CSS, and JavaScript: Understanding the structure, styling, and interactivity of web pages.\nWeb frameworks (e.g., Flask, Django): Choosing a framework to simplify backend development and routing.\nRESTful APIs: Designing an API for communication between the frontend and backend of the application.\n\n\n\n\n\nImporting modules: Using external libraries or frameworks for building specific functionalities in the web application.\n\n\n\n\n\nClasses and objects: Structuring the backend logic of the web application using object-oriented programming principles.\n\n\n\n\n\nIntroduction to databases: Understanding database concepts such as tables, records, and SQL queries.\nDatabase integration with Python: Using libraries like SQLAlchemy to interact with a database from Python code.\nBasic CRUD operations: Implementing Create, Read, Update, and Delete operations for managing consent form data in the database."
-  },
-  {
-    "objectID": "learn/learn-python/module-2/module-2-topics.html#if-we-have-time-if-not-then-mention-that-important",
-    "href": "learn/learn-python/module-2/module-2-topics.html#if-we-have-time-if-not-then-mention-that-important",
-    "title": "Module 2 topics",
-    "section": "",
-    "text": "Authentication / authorizathion / role based access control\nWeb security\nDeployment"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html",
-    "href": "learn/learn-python/topics.html",
-    "title": "All coding topics",
-    "section": "",
-    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises.\n\n\n\n\n\nBasic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations\n\n\n\n\n\nConditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements\n\n\n\n\n\nIndexing (starts from 0)\nLists\nTuples\nDictionaries\nSets\n\n\n\n\n\nDefining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)\n\n\n\n\n\nReading from and writing to files\nWorking with different file formats (text files, CSV, JSON)\n\n\n\n\n\nImporting modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django\n\n\n\n\n\nHome computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments\n\n\n\n\n\nClasses and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction\n\n\n\n\n\nException handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions\n\n\n\n\n\nAdvanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing\n\n\n\n\n\nUsing and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing\n\n\n\n\n\nThreading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications\n\n\n\n\n\nPattern matching using regular expressions\nRegular expression syntax\nUsing the re module\n\n\n\n\n\nWriting and running unit tests using unittest or pytest\nTest-driven development (TDD) approach\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs\n\n\n\n\n\nNumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM\n\n\n\n\n\nMetaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode\n\n\n\n\n\nBasics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#key-points",
-    "href": "learn/learn-python/topics.html#key-points",
-    "title": "All coding topics",
-    "section": "",
-    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises."
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
-    "href": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Basic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#control-flow-difficulty-210",
-    "href": "learn/learn-python/topics.html#control-flow-difficulty-210",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Conditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#data-structures-difficulty-310",
-    "href": "learn/learn-python/topics.html#data-structures-difficulty-310",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Indexing (starts from 0)\nLists\nTuples\nDictionaries\nSets"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#functions-difficulty-410",
-    "href": "learn/learn-python/topics.html#functions-difficulty-410",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Defining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#file-handling-difficulty-410",
-    "href": "learn/learn-python/topics.html#file-handling-difficulty-410",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Reading from and writing to files\nWorking with different file formats (text files, CSV, JSON)"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
-    "href": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Importing modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#environments-difficulty-610",
-    "href": "learn/learn-python/topics.html#environments-difficulty-610",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Home computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
-    "href": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Classes and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#error-handling-difficulty-410",
-    "href": "learn/learn-python/topics.html#error-handling-difficulty-410",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Exception handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
-    "href": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Advanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
-    "href": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Using and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
-    "href": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Threading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
-    "href": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Pattern matching using regular expressions\nRegular expression syntax\nUsing the re module"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#testing-difficulty-510",
-    "href": "learn/learn-python/topics.html#testing-difficulty-510",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Writing and running unit tests using unittest or pytest\nTest-driven development (TDD) approach"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#web-development-difficulty-610",
-    "href": "learn/learn-python/topics.html#web-development-difficulty-610",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Basics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
-    "href": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
-    "title": "All coding topics",
-    "section": "",
-    "text": "NumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
-    "href": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Metaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode"
-  },
-  {
-    "objectID": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
-    "href": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
-    "title": "All coding topics",
-    "section": "",
-    "text": "Basics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
-  },
-  {
-    "objectID": "learn/ask-a-clinician/index.html",
-    "href": "learn/ask-a-clinician/index.html",
-    "title": "Ask a clinician",
-    "section": "",
-    "text": "Welcome to the Ask a clinician series. This series allowed and encourages people with a digital background better understand the thought processes and workflows of clinicians. By doing this, we hope to help computer scientists, data analysts, cybersecurity specialists, etc to better understand the healthcare data in front of them."
-  },
-  {
-    "objectID": "learn/ask-a-clinician/index.html#modules",
-    "href": "learn/ask-a-clinician/index.html#modules",
-    "title": "Ask a clinician",
+    "objectID": "learn/learn-python/index.html#modules",
+    "href": "learn/learn-python/index.html#modules",
+    "title": "Programming in Healthcare",
     "section": "Modules",
-    "text": "Modules\n\nUnderstanding clinical decision making: insights from a medic"
+    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nMore modules to arrive soon"
   },
   {
-    "objectID": "learn/syllabi/clinical-informatician.html",
-    "href": "learn/syllabi/clinical-informatician.html",
-    "title": "Clinical informatician",
+    "objectID": "sponsor.html",
+    "href": "sponsor.html",
+    "title": "Sponsor the team",
     "section": "",
-    "text": "This is currently being worked on with fellow Clinicains who code.\nWatch this space."
-  },
-  {
-    "objectID": "learn/syllabi/clinician-who-codes.html",
-    "href": "learn/syllabi/clinician-who-codes.html",
-    "title": "Clinician-who-codes",
-    "section": "",
-    "text": "By Mark Bailey"
-  },
-  {
-    "objectID": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
-    "href": "learn/syllabi/clinician-who-codes.html#the-reasoning-behind-it-all",
-    "title": "Clinician-who-codes",
-    "section": "The reasoning behind it all",
-    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinicain-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
-  },
-  {
-    "objectID": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
-    "href": "learn/syllabi/clinician-who-codes.html#so-what-would-you-need-to-learn",
-    "title": "Clinician-who-codes",
-    "section": "So what would you need to learn?",
-    "text": "So what would you need to learn?\n\nClinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).\nClinical informatics (see separate syllabus here).\nCoding skills."
-  },
-  {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
-    "title": "Understanding clinical decision making: insights from a medic",
-    "section": "What is a doctor’s day like",
-    "text": "What is a doctor’s day like"
-  },
-  {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#what-do-they-have-to-juggle",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#what-do-they-have-to-juggle",
-    "title": "Understanding clinical decision making: insights from a medic",
-    "section": "What do they have to juggle",
-    "text": "What do they have to juggle"
-  },
-  {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-patient-focused-history",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-patient-focused-history",
-    "title": "Understanding clinical decision making: insights from a medic",
-    "section": "The patient focused history",
-    "text": "The patient focused history"
-  },
-  {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-doctors-focused",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-doctors-focused",
-    "title": "Understanding clinical decision making: insights from a medic",
-    "section": "The doctor’s focused…",
-    "text": "The doctor’s focused…\nPatients are like code\nDebugging a virus / disease\nClerking Tactically lazy WAD / WAI EPR Ux - structure vs unstructured data (historical, and speed) Treat the patient, not the EPR\n\nStructured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?\nHow to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?\nClinical coding from a clinician’s perspective. How is this best tought to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?\nHow could we do better together?\nClinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?\nUsability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?\nDecision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?"
-  },
-  {
-    "objectID": "learn/index.html",
-    "href": "learn/index.html",
-    "title": "Education",
-    "section": "",
-    "text": "Available educational resources include:"
-  },
-  {
-    "objectID": "learn/index.html#coding-programmatic",
-    "href": "learn/index.html#coding-programmatic",
-    "title": "Education",
-    "section": "Coding (programmatic)",
-    "text": "Coding (programmatic)\nThere are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.\n\nLearn to code in python"
-  },
-  {
-    "objectID": "learn/index.html#ask-a-clinician",
-    "href": "learn/index.html#ask-a-clinician",
-    "title": "Education",
-    "section": "Ask a clinician",
-    "text": "Ask a clinician\nComing soon: Ask a clinician learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found here."
-  },
-  {
-    "objectID": "learn/index.html#clinical-informatics",
-    "href": "learn/index.html#clinical-informatics",
-    "title": "Education",
-    "section": "Clinical informatics",
-    "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
-  },
-  {
-    "objectID": "learn/index.html#coding-cheatsheets",
-    "href": "learn/index.html#coding-cheatsheets",
-    "title": "Education",
-    "section": "Coding cheatsheets",
-    "text": "Coding cheatsheets\nA collection of code and commands."
-  },
-  {
-    "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "href": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "title": "Module 2 - Let’s take things to the next level",
-    "section": "Introduction",
-    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
-  },
-  {
-    "objectID": "learn/learn-python/module-2/index.html",
-    "href": "learn/learn-python/module-2/index.html",
-    "title": "Module 2 - Let’s take things to the next level",
-    "section": "",
-    "text": "After learning about the basics about coding and the programming language Python in Module 2 - Let’s take things to the next level"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
-    "href": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
-    "title": "Module 2 - Let’s take things to the next level",
-    "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
-    "href": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
-    "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "What to build?",
-    "text": "What to build?"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#streamlit",
-    "href": "learn/learn-python/module-1/4-lets-build.html#streamlit",
-    "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "Streamlit",
-    "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
-    "href": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
-    "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "Preinstalled for you",
-    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the module-1/hands-on folder.\nRun this code:\n\n\n    $ streamlit run lesson_3.py"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#todays-hands-on-sessions",
-    "title": "Coding environment (and the shell)",
-    "section": "Today’s hands-on sessions",
-    "text": "Today’s hands-on sessions\n\nWe will be using the GitHub Codespace development environment.\nThis is a browser version of the well known desktop VS Code development environment.\nIn the context of this course, a development environment is synonymous with the teaching environment."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-light-theme",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace light theme",
-    "text": "Codespace light theme"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-dark-theme",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace dark theme",
-    "text": "Codespace dark theme"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-layout",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace layout",
-    "text": "Codespace layout"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#commands",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#commands",
-    "title": "Coding environment (and the shell)",
-    "section": "Commands",
-    "text": "Commands\n\nA command is a piece of code that carries out a specific task.\nThese tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#using-the-terminal",
-    "title": "Coding environment (and the shell)",
-    "section": "Using the terminal",
-    "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
-    "title": "Coding environment (and the shell)",
-    "section": "List files and folders command",
-    "text": "List files and folders command\n\nThe ls command."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#change-directory-command",
-    "title": "Coding environment (and the shell)",
-    "section": "Change directory command",
-    "text": "Change directory command\n\nThe cd command.\ncd .. takes you back to the previous (parent) folder."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#where-am-i",
-    "title": "Coding environment (and the shell)",
-    "section": "Where am I?",
-    "text": "Where am I?\n\npwd is the print working directory command."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
-    "title": "Coding environment (and the shell)",
-    "section": "LiveShare",
-    "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
-    "title": "Coding environment (and the shell)",
-    "section": "Codespace view",
-    "text": "Codespace view"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
-    "title": "Coding environment (and the shell)",
-    "section": "Lession 1",
-    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python lession_1.py\n\nDid it work? If so, open up the lession_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/index.html",
-    "href": "learn/learn-python/module-1/index.html",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "",
-    "text": "This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, not clinical terminologies)."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
-    "href": "learn/learn-python/module-1/index.html#chose-a-slide-deck",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Coding environment\n\n\n3 - Python basics\n\n\n4 - Let’s build a web app\n\n\n5 - Session close"
-  },
-  {
-    "objectID": "learn/learn-python/module-1/index.html#get-coding",
-    "href": "learn/learn-python/module-1/index.html#get-coding",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Get coding",
-    "text": "Get coding\nThe code for this course can be found below\n\n\nModule 1 code\n\n\nYou can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you."
-  },
-  {
-    "objectID": "learn/learn-python/module-1/index.html#feedback",
-    "href": "learn/learn-python/module-1/index.html#feedback",
-    "title": "Module 1 - Where is the on switch?",
-    "section": "Feedback",
-    "text": "Feedback\nA short feedback survey will be available here at the end of the module."
+    "text": "There is a hard working team behind the Let’s Do Digital name. If you feel we are doing a great job and want to help support us with our projects and teaching courses, then please do consider buying us a coffee:\n\n    \n\n\nA single sponsorship over £50 (UK) or signing up as a member on buymeacoffee.com will get you a place on the wall of our home page for individual supporters.\nFor healthcare groups (eg industry, individual trusts, government) that wish to sponosor the Let’s Do Digital Team, please contact us at info@letsdodigital.org."
   },
   {
     "objectID": "contact.html",
