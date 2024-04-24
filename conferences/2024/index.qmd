@@ -16,7 +16,8 @@ We are currently building up the agenda. Our current line up includes:
 * Paul Drake - Plastic surgeon, CCIO and clinician-who-codes at East Grinstead Hospital
 * Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & West Berkshire ICB
 * Simon Laftimer - Dermatology Systems Manager, University Hospital Southampton NHS Foundation Trust
-* Grant Vallance, Information Manager, Oxford University Hospitals NHS Trust
+* Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust
+* Marcus Baw - Locum GP and ED doctor and clinician-who-codes.
 * Mark Bailey - locum respiratory consultant, clinician-who-codes and conference host.
 
 ## Feedback from last year's conference
