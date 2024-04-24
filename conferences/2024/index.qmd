@@ -12,15 +12,109 @@ This year's key theme is **open**. That is **open source**, **open standards**, 
 
 We are currently building up the agenda. Our current line up includes:
 
-* Stephen Rowley - Patient advocate and STEM career
-* Paul Drake - Plastic surgeon, CCIO and clinician-who-codes at East Grinstead Hospital
-* Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & West Berkshire ICB
-* Simon Laftimer - Dermatology Systems Manager, University Hospital Southampton NHS Foundation Trust
-* Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust
-* Marcus Baw - Locum GP and ED doctor and clinician-who-codes.
-* Tom Stocker - Digital and innovation leader, The Clatterbridge Cancer Centre NHS Foundation Trust; Director, Care Cascades.
-* Marcus and Tom will be presenting their invaluable work on [Clinical Digital Manifesto](https://clinicaldigitalmanifesto.org/)
-* Mark Bailey - locum respiratory consultant, clinician-who-codes and conference host.
+```{=html}
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/stephen-rowley-circle.png" alt="picture of Stephen Rowley in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Stephen Rowley - Patient advocate and STEM career
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/paul-drake-circle.png" alt="picture of Paul Drake in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Paul Drake - Plastic surgeon, CCIO and clinician-who-codes at East Grinstead Hospital
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/nadia-kuftinoff-circle.png" alt="picture of Nadia Kuftinoff in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & West Berkshire ICB
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/simon-latimer-circle.png" alt="picture of Simon Laftimer in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Simon Laftimer - Dermatology Systems Manager, University Hospital Southampton NHS Foundation Trust
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/grant-vallance-circle.png" alt="picture of Grant Vallance in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/marcus-baw-circle.png" alt="picture of Marcus Baw in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Marcus Baw - Locum GP and ED doctor and clinician-who-codes.
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/tom-stocker-circle.png" alt="picture of Tom Stocker in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Tom Stocker - Digital and innovation leader, The Clatterbridge Cancer Centre NHS Foundation Trust; Director, Care Cascades.
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/book-circle.png" alt="picture of a book in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Marcus and Tom will be presenting there invaluable work on the <a href="https://clinicaldigitalmanifesto.org/">Clinical Digial Manifesto</a>
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/sobath-premaratne-circle.png" alt="picture of Sobath Premaratne in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Sobath Premaratne - Vascular and Endovascular Surgeon and part-time renal transplant surgeon in London. Ex requirements analyst and software developer
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/mark-bailey-circle.png" alt="picture of Mark Bailey in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Mark Bailey - locum respiratory consultant, clinician-who-codes and conference host.
+        </div>
+    </div>
+</div>
+```
+
 
 ## Feedback from last year's conference
 

@@ -52,3 +52,38 @@
 #contact-grid a:has(i):hover {
     color: rgba(var(--bs-link-hover-color-rgb));
 }
+
+.agenda-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+.agenda-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.agenda-image-container {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding: 10px;
+}
+
+.agenda-image {
+    height: 80px;
+    width: 80px;
+}
+
+.agenda-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding: 10px;
+    justify-content: center;
+}
+
+.agenda-text-container a {
+    display: inline;
+  }
