@@ -1,6 +1,6 @@
 ```{=html}
 <div style='display: flex; justify-content: space-between;'>
-    <div><a href="index.html">2023 Conference</a></div>
+    <div><a href="index.html">2024 Conference</a></div>
     <div><a href="agenda.html">Agenda</a></div>
     <div><a href="bios.html">Bios</a></div>
     <div><a href="posters.html">Posters</a></div>
