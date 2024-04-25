@@ -171,7 +171,7 @@ Please consider buying the Let's Do Digital team a coffee or three. Running a co
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
             <a href="https://www.buymeacoffee.com/letsdodigital/e/241276" style="display: flex; justify-content: center;">
-                <img src="/media/white-paper-coffee-cup.jpg" alt="3 tickets" style="height: 100px;">
+                <img src="/media/white-paper-coffee-cup.png" alt="3 tickets" style="height: 100px;">
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
