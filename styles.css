@@ -67,7 +67,7 @@
 .agenda-image-container {
     display: flex;
     flex-direction: column;
-    width: 20%;
+    width: 100px;
     padding: 10px;
 }
 
@@ -96,4 +96,8 @@
 .italic-grey {
     color: grey;
     font-style: italic;
+}
+
+.max-300px {
+    max-height: 300px;
 }

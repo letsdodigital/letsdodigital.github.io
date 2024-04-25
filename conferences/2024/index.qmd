@@ -4,13 +4,38 @@ title: "Let's Talk Digital Conference - 2024"
 
 {{< include _navbar.qmd >}}
 
-![](/media/open-sign.jpg){height=300px fig-align="center" fig-alt="Bronze lettering on a wooden placard"}
+```{=html}
+<img src="/media/open-sign.jpg" class="img-fluid d-block mx-auto max-300px" alt="Bronze lettering on a wooden placard">
+```
+\
 
 This year's key theme is **open**. That is **open source**, **open standards**, **open learning** and **open data**. But we are not talking socks, sandles and hippee like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field. And we are looking for innovation at the clinical frontline. Please do join us either in person or virtually for a jam packed event on Thursday the 24th of October 2024 at Cheltenham General Hospital.
 
 ## Line up
 
 We are currently building up the agenda. Our current line up includes:
+
+::: {.grid}
+
+::: {.g-col-3}
+
+## First column 
+I would like to have text here
+
+Sentence becomes longer, it should automatically stay in their column
+:::
+  
+::: {.g-col-6}
+
+## Second column 
+
+and here
+
+More text
+
+:::
+  
+:::  
 
 ```{=html}
 <div class="agenda-container">
