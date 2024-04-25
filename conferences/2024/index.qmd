@@ -89,7 +89,7 @@ We are currently building up the agenda. Our current line up includes:
             <img src="/media/book-circle.png" alt="picture of a book in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">
-            Marcus and Tom will be presenting there invaluable work on the <a href="https://clinicaldigitalmanifesto.org/">Clinical Digial Manifesto</a>
+            Marcus and Tom will be presenting their invaluable work on the <a href="https://clinicaldigitalmanifesto.org/">Clinical Digial Manifesto</a>
         </div>
     </div>
 </div>
