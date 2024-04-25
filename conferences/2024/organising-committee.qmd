@@ -4,4 +4,46 @@ title: "Organising Committee 2024"
 
 {{< include _navbar.qmd >}}
 
-Watch this space
+The organising committee for the 2024 conference includes:
+
+
+![](/media/mark-bailey.jpeg){height=300px fig-align="center" fig-alt="Profile picture of "}
+
+## Dr Mark A Bailey- Chief Conference Organiser
+
+\
+
+![](/media/anita-phung.jpeg){height=300px fig-align="center" fig-alt="Profile picture of "}
+
+## Dr Anita Phung
+
+\
+
+![](/media/sobath-premaratne.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Sobath Premaratne"}
+
+## Mr Sobath Premaratne
+
+\
+
+![](/media/dom-main.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Dom Main"}
+
+## Dr Dom Main
+
+\
+
+![](/media/dylan-goh.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Dylan Goh"}
+
+## Dr Dylan Goh
+
+\
+
+![](/media/aparna-ghosh.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Aparna Ghosh"}
+
+## Dr Aparna Ghosh
+
+\
+
+![](/media/alex-brown.png){height=300px fig-align="center" fig-alt="Profile picture of Alex Brown"}
+
+
+## Dr Alex Brown

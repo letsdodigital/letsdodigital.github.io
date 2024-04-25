@@ -3,3 +3,5 @@ title: "Agenda 2024"
 ---
 
 {{< include _navbar.qmd >}}
+
+We are in the process of buiding the agenda. Watch this space for updates.

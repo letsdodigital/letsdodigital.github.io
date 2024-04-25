@@ -15,28 +15,6 @@ This year's key theme is **open**. That is **open source**, **open standards**, 
 
 We are currently building up the agenda. Our current line up includes:
 
-::: {.grid}
-
-::: {.g-col-3}
-
-## First column 
-I would like to have text here
-
-Sentence becomes longer, it should automatically stay in their column
-:::
-  
-::: {.g-col-6}
-
-## Second column 
-
-and here
-
-More text
-
-:::
-  
-:::  
-
 ```{=html}
 <div class="agenda-container">
     <div class="agenda-row">
