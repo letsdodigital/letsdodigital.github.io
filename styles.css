@@ -87,3 +87,13 @@
 .agenda-text-container a {
     display: inline;
   }
+
+.sponsors-named {
+    font-weight: bold;
+    text-indent: 20px;
+}
+
+.italic-grey {
+    color: grey;
+    font-style: italic;
+}
