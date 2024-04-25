@@ -42,7 +42,7 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
             <a href="https://buymeacoffee.com/letsdodigital/e/244886" style="display: flex; justify-content: center;">
-                <img src="/media/tickets.jpg" alt="3 tickets" style="height: 100px;">
+                <img src="/media/tickets.png" alt="3 tickets" style="height: 100px;">
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
@@ -52,7 +52,7 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
             <a href="https://buymeacoffee.com/letsdodigital/e/244873" style="display: flex; justify-content: center;">
-                <img src="/media/tickets.jpg" alt="3 tickets" style="height: 100px;">
+                <img src="/media/tickets.png" alt="3 tickets" style="height: 100px;">
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
