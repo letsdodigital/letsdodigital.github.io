@@ -12,15 +12,109 @@ A collection of people passionate about making better digital health care and ed
 
 # Tutors - coding course
 
-Full list to be updated soon!
+
 </br>
 </br>
+
+### Rhidian Bramley
 
 ---
 
+\
+
+![](/media/alex-brown.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+
+### Alex Brown
+
+Paediatric registrar.
+
+---
+
+\
+
+### Haroon Chughtai
+
+---
+
+\
+
+![](/media/remon-hanna.jpg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+
+### Remon Hanna
+
+Doctor &  Head of data @ MedTech
+
+---
+
+\
+
+### Michael Kriger
+
+---
+
+\
+
+![](/media/dom-main.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+
+### Dom Main
+
+---
+
+\
+
+### Alexandre Mathy
+
+---
+
+\
+
+### Sam McInerney
+
+---
+
+\
+
+![](/media/sobath-premaratne.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Sobath Premaratne"}
+
+### Mr Sobath Premaratne
+
+Consultant in Vascular and Endovascular Surgery. Bart's Health NHS Trust, London.
+
+---
+
+\
+
+### Harriet Sands
+
+---
+
+\
+
+![](/media/grant-vallance.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+
+### Grant Vallance
+
+---
+
+\
+
+
+### Mathew Vithayathil 
+
+---
+
+\
+
+### Nik Walne
+
+---
+
+\
+
 ![](/media/chris-wilson.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
-## Chris Wilson
+
+### Chris Wilson
 
 Chris is a GP and Urgent Care doctor in Northern Ireland. He graduated from Queen’s University Belfast in 2006.
 
@@ -29,4 +123,8 @@ He has worked with the Royal College of General Practitioners (RCGP) on their Di
 Chris started to learn coding in 2015 and developed an interest in clinical informatics. He is a member of the British Computer Society and an independent iOS developer.
 
 Chris also works part time for a London-based company that makes electronic health record and data platform software used in sub-Sarahan Africa and the Middle East.
+
+---
+
+\
 
