@@ -8,11 +8,11 @@ title: "Paying the team"
 
 * This includes webinars and courses.
 * After expenses and a 10% payback into Let's Do Digital for future endeavours, the profits will be divided across the hours input by the team member. 
-* For a chair of a session, they can get up to one hour preparation time for every one hour of the session.
-* For new material covered in webinars and teaching session, the speaker can get up to 3 hours of preparation time for every one hour of the session.
-* For previously covered materials, the speaker can get up to 1 hour of preparation time for every one hour of the session.
-* For tutors, they can claim up to one hour of preparation time for every one hour of teaching.
-* Admin support time is very variable, but will be limited to a maximum of 5 hours per 1 hour session.
+* For a chair of a session, they can get up to 1 hour preparation time for every 1 hour of the session.
+* For new material, the speaker can get up to 3 hours of preparation time for every 1 hour of the session.
+* For previously covered materials, the speaker can get up to 1 hour of preparation time for every 1 hour of the session.
+* For tutors, they can claim up to 1 hour of preparation time for every 1 hour of teaching.
+* Admin support time is very variable, but will be limited to a maximum of 5 hours for every 1 hour of the session.
 * Profits made after and directly in relation to the teaching event will be shared out as outlined above on a yearly basis. These post-events profits will be shared until 5 years after the event.
 
 ### Software house
