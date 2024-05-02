@@ -109,6 +109,16 @@ We are currently building up the agenda. Our current line up includes:
 <div class="agenda-container">
     <div class="agenda-row">
         <div class="agenda-image-container">
+            <img src="/media/alexandre-mathy.png" alt="picture of Alexandre Mathy in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Alexandre Mathy - Consultant Neurologist at the Great Western Hospital, Oxford University Hospitals and Lead Clinician for the Community Headache Clinic.
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
             <img src="/media/mark-bailey-circle.png" alt="picture of Mark Bailey in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">

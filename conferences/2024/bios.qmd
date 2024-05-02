@@ -4,7 +4,7 @@ title: "Bios 2024"
 
 {{< include _navbar.qmd >}}
 
-![](/media/mark-bailey.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Mark Bailey"}
+![](/media/mark-bailey-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Mark Bailey"}
 
 **Full name** – Mark Bailey
 
@@ -16,7 +16,7 @@ title: "Bios 2024"
 
 \
 
-![](/media/marcus-baw.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Marcus Baw"}
+![](/media/marcus-baw-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Marcus Baw"}
 
 **Full name** – Marcus Baw
 
@@ -26,7 +26,7 @@ title: "Bios 2024"
 
 \
 
-![](/media/simon-lamiter.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Simon Latimer"}
+![](/media/simon-latimer-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Simon Latimer"}
 
 **Full name** – Simon Latimer
 
@@ -38,7 +38,19 @@ title: "Bios 2024"
 
 \
 
-![](/media/tom-stocker.png){height=300px fig-align="center" fig-alt="Profile picture of Tom Stocker"}
+![](/media/alexandre-mathy-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Alexandre Mathy"}
+
+**Full name** – Alexandre Mathy
+
+**Job title(s)** – Consultant Neurologist at the Great Western Hospital, Oxford University Hospitals, and Lead Clinician for the Community Headache Clinic
+
+**Short bio** -Alexandrew has a BA in Computer Science from Cambridge University and a PhD in Neuroscience from UCL. He has worked on several software projects, including TenAlea, a platform for clinical trials management. His current focus is integrating Artificial Intelligence into clinical workflows.
+
+---
+
+\
+
+![](/media/tom-stocker-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Tom Stocker"}
 
 **Full name** – Tom Stocker
 
