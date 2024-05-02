@@ -7,7 +7,7 @@ title: "Paying the team"
 ### Educational materials
 
 * This includes webinars and courses.
-* After expenses and a 10% payback into Let's Do Digital for future endeavours, the profits will be divided across the hours input by the team member. 
+* After expenses and a 10% payback into Let's Do Digital for future endeavours, the profits will be divided as a proportion of hours worked. 
 * For a chair of a session, they can get up to 1 hour preparation time for every 1 hour of the session.
 * For new material, the speaker can get up to 3 hours of preparation time for every 1 hour of the session.
 * For previously covered materials, the speaker can get up to 1 hour of preparation time for every 1 hour of the session.
