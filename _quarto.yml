@@ -22,6 +22,8 @@ website:
         text: "Tickets"
       - href: sponsor.qmd
         text: Sponsor
+      - href: paying-the-team.qmd
+        text: Paying the team
       - posts.qmd
       - who-are-we.qmd
       - contact.qmd
@@ -31,6 +33,8 @@ website:
         text: Contact
       - href: privacy-policy.qmd
         text: Privacy Policy
+      - href: company-information.qmd
+        text: Company information
     right: 
       - icon: github
         href: https://github.com/letsdodigital
