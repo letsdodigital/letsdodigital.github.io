@@ -7,6 +7,6 @@ Welcome to the {{< var coding-series-title >}} course on learning how to code. T
 ## Modules
 
 * [{{< var coding-module-1 >}}](module-1/index.qmd)
-* [{{< var coding-module-2 >}}](module-2/index.qmd)
+<!-- * [{{< var coding-module-2 >}}](module-2/index.qmd) */ -->
 
 More modules to arrive soon
