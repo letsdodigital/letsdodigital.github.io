@@ -185,13 +185,13 @@ Please consider buying the Let's Do Digital team a coffee or three. Running a co
             </a>
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporters" board on the letsdodigital.org home page for a whole year!
+            Buy 1 coffee or more to get a ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporters" board on the letsdodigital.org home page for a whole year!
         </div>
     </div>
 </div>
 
 <p style="color: grey; font-style: italic;">
-Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
+Click on the napkin or coffee cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
 </p>
 ```
 
@@ -199,7 +199,7 @@ Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be fou
 
 If you wish to submit an abstract to the conference, please email [info@letsdodigital.org](mailto:info@letsdodigital.org) with a 250-300 word abstract of a digital healthcare intervention. Successful abstracts will be show cased on the Let's Do Digital Website and prizes will be awarded for the best posters.
 
-## Want to give a presenation?
+## Want to give a presentation?
 
 If you wish to present at the conference, and you have a topic that is in keeping with this year's theme, then please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
 
