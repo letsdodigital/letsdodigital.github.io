@@ -8,9 +8,9 @@ categories: [blog]
 image: /media/man-at-the-arcades.jpg
 draft: false
 comments:
- hypothesis: true
- giscus: 
- repo: letsdodigital/letsdodigital.github.io
+  hypothesis: true
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
 ---
 
 Sometimes you learn the most by playing a game.
