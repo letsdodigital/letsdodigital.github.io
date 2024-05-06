@@ -2,19 +2,25 @@
 title: "Paying the team"
 ---
 
-**Let's Do Digital** is dedicated to creating educational content in the field of digital healthcare. It also hopes to one day be able to build digital systems to improve healthcare. The main income for Let's Do Digital is through sponsorship. We believe that these monies should be fairly shared with those involved in helping Let's Do Digital run. Hence, Let's Do Digital sets out these criteria for paying those involved it its ongoings.
+**Let's Do Digital** is dedicated to creating educational content in the field of digital healthcare. It also hopes to one day be able to build digital systems to improve healthcare. The main income for Let's Do Digital is through sponsorship (currently received through [buymeacoffee.com](https://buymeacoffee.com/letsdodigital)). We believe that these monies should be fairly shared with those involved in helping Let's Do Digital run. Hence, Let's Do Digital sets out these criteria for paying those involved in its ongoings.
 
 ### Educational materials
 
 * This includes webinars and courses.
 * After expenses and a 10% payback into Let's Do Digital for future endeavours, the profits will be divided as a proportion of hours worked.
 * Profits received relating directly with an event will be shared with team members involved in said event.
-* For a chair of a session, they can get up to 1 hour preparation time for every 1 hour of the session.
-* For new material, the speaker can get up to 3 hours of preparation time for every 1 hour of the session.
-* For previously covered materials, the speaker can get up to 1 hour of preparation time for every 1 hour of the session.
+* For a chair of a session, they can claim up to 1 hour preparation time for every 1 hour of the session.
+* For new material, the speaker can claim up to 3 hours of preparation time for every 1 hour of the session.
+* For previously covered materials, the speaker can claim up to 1 hour of preparation time for every 1 hour of the session.
 * For tutors, they can claim up to 1 hour of preparation time for every 1 hour of teaching.
 * Admin support time is very variable, but will be limited to a maximum of 5 hours for every 1 hour of the session.
 * Profits made after and directly in relation to the teaching event will be shared out as outlined above on a yearly basis. These post-events profits will be shared until 5 years after the event.
+
+### Conferences
+
+* This is in regards to the Let's Talk Digital Conference run by the Let's Do Digital team.
+* After expenses and a 10% payback into Let's Do Digital for future endeavours, the profits will be divided as a proportion of hours worked.
+* Profits will be shared with those helping run the conference. Unfortunately, there will unlikely be enough profits to pay for speakers and chairs.
 
 ### Software house
 
