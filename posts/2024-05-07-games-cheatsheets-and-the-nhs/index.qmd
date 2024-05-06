@@ -6,7 +6,7 @@ author:
 date: 2024-05-07
 categories: [blog]
 image: /media/man-at-the-arcades.jpg
-draft: true
+draft: false
 comments:
   hypothesis: true
   giscus: 
