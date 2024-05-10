@@ -588,6 +588,55 @@
     "text": "Coding cheatsheets\nA collection of code and commands."
   },
   {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#patient-disease-and-coding-bugs-are-very-similar",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#patient-disease-and-coding-bugs-are-very-similar",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Patient disease and coding bugs are very similar",
+    "text": "Patient disease and coding bugs are very similar\n\nDoctors and computer scientists are really the same, trying to debug “bugs”!"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#but",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#but",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "But",
+    "text": "But\n\nDoctor’s main concern is the patient, their safety and the control / fixing of their health."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#but-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#but-1",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "But",
+    "text": "But\n\nOn the other hand, those in the digital world, their main concern seems to be the data and fixing code bugs."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#so-why-are-we-not-understanding-each-other",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#so-why-are-we-not-understanding-each-other",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "So why are we not understanding each other!",
+    "text": "So why are we not understanding each other!\n\nAt the end of the day, we are all working on the same larger issue, but the exchange of information / data is not happening well."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Understanding",
+    "text": "Understanding\n\nMost doctors do not understand what is digital and what do digital people want."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-1",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Understanding",
+    "text": "Understanding\n\nMost digital folk do not understand what doctors do or think, and why doctors do not fill in the forms perfectly that digital folk have created."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-2",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-2",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Understanding",
+    "text": "Understanding\n\nAnd here is the crunch point, doctors find data entry “distracts” them from “their important task” of “fixing” the patient."
+  },
+  {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
     "title": "Understanding clinical decision making: insights from a medic",
@@ -595,25 +644,60 @@
     "text": "What is a doctor’s day like"
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#what-do-they-have-to-juggle",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#what-do-they-have-to-juggle",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "What do they have to juggle",
-    "text": "What do they have to juggle"
+    "section": "Inpatients clerking (emergency admission)",
+    "text": "Inpatients clerking (emergency admission)\n\nABCDE\nHistory taking\nExamination\nFormulate a treatment plan\nPrescriptions\nWrite down all of the above in the clerking document\nUndertake blood samples\nConsent"
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-patient-focused-history",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-patient-focused-history",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-1",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "The patient focused history",
-    "text": "The patient focused history"
+    "section": "Inpatients clerking (emergency admission)",
+    "text": "Inpatients clerking (emergency admission)\n\nProcedures\nReferrals\nChase all tests and referrals\nAnswering patient and relatives questions\nReassess patient\nDischarge letter\nDiscuss patient with seniors\nHand over care to next care team"
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-doctors-focused",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-doctors-focused",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-2",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-2",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "The doctor’s focused…",
-    "text": "The doctor’s focused…\nPatients are like code\nDebugging a virus / disease\nClerking Tactically lazy WAD / WAI EPR Ux - structure vs unstructured data (historical, and speed) Treat the patient, not the EPR\n\nStructured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?\nHow to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?\nClinical coding from a clinician’s perspective. How is this best tought to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?\nHow could we do better together?\nClinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?\nUsability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?\nDecision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?"
+    "section": "Inpatients clerking (emergency admission)",
+    "text": "Inpatients clerking (emergency admission)\n\nTeaching sessions\nQI projects"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Middle grade and consultants",
+    "text": "Middle grade and consultants\n\nOutpatient work\nSupervision\nLead MDTs"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#a-lot-to-juggle",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#a-lot-to-juggle",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "A lot to juggle!",
+    "text": "A lot to juggle!\n\nTactically lazy!\nIt is mainly the junior and middle grade doctors that input data into EPRs, at least in the inpatient setting.\nWAD / WAI\nEPR Ux - structure vs unstructured data (historical, and speed)\nTreat the patient, not the EPR"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#help-us-to-help-you",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#help-us-to-help-you",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Help us to help you",
+    "text": "Help us to help you\n\nIf you can get data from what doctors do anyway, without the doctor having to do more work, then everyone is a winner."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-1",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Previously asked questions",
+    "text": "Previously asked questions\n\nStructured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?\nHow to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?\nClinical coding from a clinician’s perspective. How is this best taught to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?\nHow could we do better together?"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-2",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-2",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Previously asked questions",
+    "text": "Previously asked questions\n\nClinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?\nUsability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?\nDecision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?"
   },
   {
     "objectID": "learn/syllabi/clinician-who-codes.html",
