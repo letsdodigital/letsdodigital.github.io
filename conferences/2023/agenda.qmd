@@ -9,25 +9,37 @@ title: "Agenda 2023"
 9:30 – Mark Bailey – Interim Chair of Council, Faculty of Clinical Informatics and Locum Respiratory Consultant – Opening talk
 
 ## 9:35 – Morning session 1
+
 9:35 – Chair – Mark Bailey
+
 9:40 – TBC – Patient representative
+
 9:50 – Prof Joe McDonald – Medical Director at Sleepstation, SARD JV, Parsek and Ethical Healthcare Consulting- 10 Lessons from 20 Years in Health IT
+
 10:00 – Dom Main – GP and Clinical Engineer at Healthtech1, and Anita Phung – General Practitioner, Metabolic Health Doctor, Health Optimisation Clinician – Robotic Process Automation in Primary Care
 10:10 – Q&A
 
 ## 10:25 – Coffee break
 
-11:05 – Morning session 2
+## 11:05 – Morning session 2
+
 11:05 – Chair – Helen Winter – SWAG cancer alliance clinical director and Medical Oncologist at Bristol Royal Infirmary Hospital
+
 11:10 – Matimba Swama – PhD candidate – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial
+
 11:25 – Sophie Brooks – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL
+
 11:35 – Kareem El-Wakeel, Senior Programmer, Collaboration Digital Ltd – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally.
+
 11:45 – Q&A
 
 ## 12:00 – Debate
+
 “This house believes that clinicians should be allowed to directly code and create health apps”
 Chair – Anita Phung
+
 For – Marcus Baw, Clinical Informatician, Software Developer and other roles
+
 Against – Harold Thimbleby – Professor in Healthcare computer sciences, Swansea University
 (2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)
 
@@ -35,19 +47,31 @@ Against – Harold Thimbleby – Professor in Healthcare computer sciences, Swan
 
 
 ## 13:50 – Afternoon session 1
+
 13:50 – Chair – Alistair Cannon – Psychiatrist and education fellow at South London & Maudsley
-13:55 – Kevin Monk – CEO SardJV – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients.
+
+13:55 – Kevin Monk – CEO SardJV – AI Beyond The Hype – a real live demo of useful things AI can do for the NHS and patients
+
 14:05 – Grant Vallance- Information Manager, Oxford University Hospital NHS Foundation Trust and Joe Channing Software Engineer, Oxford University Hospital NHS Foundation Trust- Clinical Services Providing Clinical Software
+
 14:15 – Mark Wardle – CCIO and Consultant Neurologist, Cardiff and Vale University Health Board – 10 lessons from a journey through health and care data
+
 14:25 – Q&A
 
 ## 14:40 – Coffee break
 
 ## 15:20 – Afternoon session 2
+
 15:20 – Chair – TBC
+
 15:25 – Poster awards
+
 15:35 – Rajesh Sivaprakasam – Robotic Renal Failure Surgeon, Lead for Robotic renal failure Surgery, Research and Education at Barts health NHS Trust- Are we ready for digital Healthcare?
+
 15:45 – Andrea Preston – Macmillan Divisional Lead Pharmacist – Haematology, University Hospitals Bristol & Weston NHS Foundation Trust
+
 15:55 – Majid Kazmi- Director of Innovation for Cancer and Surgery; Deputy Medical Director Guy’s and St Thomas’ NHS Foundation Trust and Paul Landau- CEO Careology – Digital cancer care: how to empower patients beyond the hospital walls
+
 16:05 – Q&A
+
 16:20 – close
