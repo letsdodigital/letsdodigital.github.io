@@ -1,6 +1,6 @@
 ---
 title: "{{< var aac-1 >}}"
-author: "{{< var author >}}"
+author: "Dr Mark Bailey"
 format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
@@ -14,29 +14,96 @@ title-slide-attributes:
 
 Dr Mark Bailey
 
+## Patient disease and coding bugs are very similar
+
+* Doctors and computer scientists are really the same, trying to debug “bugs”!
+
+## But
+
+* Doctor’s main concern is the patient, their safety and the control / fixing of their health.
+
+## But
+
+* On the other hand, those in the digital world, their main concern seems to be the data and fixing code bugs.
+
+## So why are we not understanding each other!
+
+* At the end of the day, we are all working on the same larger issue, but the exchange of information / data is not happening well.
+
+## Understanding
+
+* Most doctors do not understand what is digital and what do digital people want.
+
+## Understanding
+
+* Most digital folk do not understand what doctors do or think, and why doctors do not fill in the forms perfectly that digital folk have created.
+
+## Understanding
+
+* And here is the crunch point, doctors find data entry “distracts” them from "their important task" of "fixing" the patient.
+
+# Let's be a fly on the wall
+
 ## What is a doctor's day like
 
-## What do they have to juggle
+## Inpatients clerking (emergency admission)
 
-## The patient focused history
+* ABCDE
+* History taking
+* Examination
+* Formulate a treatment plan
+* Prescriptions
+* Write down all of the above in the clerking document
+* Undertake blood samples
+* Consent
 
-## The doctor's focused...
+## Inpatients clerking (emergency admission)
 
+* Procedures
+* Referrals
+* Chase all tests and referrals
+* Answering patient and relatives questions
+* Reassess patient
+* Discharge letter
+* Discuss patient with seniors
+* Hand over care to next care team
 
-Patients are like code
+## Inpatients clerking (emergency admission)
 
-Debugging a virus / disease
+* Teaching sessions
+* QI projects
 
-Clerking
-Tactically lazy
-WAD / WAI
-EPR Ux - structure vs unstructured data (historical, and speed)
-Treat the patient, not the EPR
+## Middle grade and consultants
+
+* Outpatient work
+* Supervision
+* Lead MDTs
+
+## A lot to juggle!
+
+* Tactically lazy!
+* It is mainly the junior and middle grade doctors that input data into EPRs, at least in the inpatient setting.
+* WAD / WAI
+* EPR Ux - structure vs unstructured data (historical, and speed)
+* Treat the patient, not the EPR
+
+# And so what can we do to help doctors help you in digital?
+
+## Help us to help you
+
+* If you can get data from what doctors do anyway, without the doctor having to do more work, then everyone is a winner.
+
+# Previously asked questions
+
+## Previously asked questions {.smaller}
 
 * Structured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?
 * How to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?
-* Clinical coding from a clinician’s perspective. How is this best tought to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?
+* Clinical coding from a clinician’s perspective. How is this best taught to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?
 * How could we do better together?
+
+## Previously asked questions {.smaller}
+
 * Clinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?
 * Usability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?
 * Decision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?
