@@ -50,6 +50,20 @@ title: "Bios 2024"
 
 \
 
+![](/media/geoff-revill-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Geoff Revill"}
+
+**Full name** – Geoff Revill
+
+**Job title(s)** – Managing Director, Safe Space One Ltd. Director of the South West Cyber Security Cluster
+
+**Short bio** - Geoff has worked in software systems development for over 35 years. Ranging from deeply embedded systems in safety critical applications such as health, automotive and aerospace, through to a private-by-design social platform, whilst also spending nearly 10 years also working on very large scale systems of systems interoperability through semantic data. While in Silicon Valley he product led 300 software engineers developing next generation software development tools. He was responsible for a GNU C/C++ compiler Open Source contribution team, alongside competing commercial C/C++ compilers, and for adopting OS into large scale development tools architecture, and integrating with the company’s BSD 4.3 Unix OS code base, at the same time as supporting the organisation’s COTS Operating Systems and Middleware. This period was one when a whole market transitioned from commercial off-the-shelf operating systems to OS Linux. More recently Geoff has led two companies to receive UK Government Innovation awards, including his current company which is innovating a patient-centred managed self-care platform integral to the medical consultation process for any Long Term Care need.
+
+No one can deny Open Source is not integral to any software today. I have seen many cycles of code licensing methods come and go for varying use cases. I will take a stance that Open Source is NOT (currently) an appropriate solution for end user application systems.
+
+---
+
+\
+
 ![](/media/tom-stocker-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Tom Stocker"}
 
 **Full name** – Tom Stocker
