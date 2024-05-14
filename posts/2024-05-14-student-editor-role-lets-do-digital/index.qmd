@@ -1,0 +1,28 @@
+---
+title: "Student Editor Role - Let's Do Digital"
+description: "Be part of clinical informatics education"
+author:
+ - name: Mark Bailey
+date: 2024-05-14
+categories: [update]
+image: /media/typewriter_and_girl.jpg
+draft: false
+comments:
+  hypothesis: true
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
+---
+
+🌟 Exciting Opportunity Alert! Calling all #clinicalstudents ! 🌟 
+
+![](/media/typewriter_and_girl.jpg){height=400px fig-align="center" fig-alt="Man standing in front of Crazy Climber arcade game"}
+
+Join us as the Student Editor for Let’s Do Digital! Are you passionate about clinical informatics, want to learn more about this speciality and eager to make a meaningful contribution? Here's your chance!
+
+As Student Editor, you will be the lead for student-led webinars covering a range of clinical informatics topics and become a key advocate for knowledge-sharing across the clinical informatics community. As the Student Editor, you will have the opportunity to facilitate discussions, learning, and provide a platform for your peers to showcase their growing knowledge base.
+
+Not only will you be at the forefront of bringing clinical informatics teaching to university level, but you'll also have the chance to establish yourself as a respected figure in the field. With each webinar, you'll expand your network, demonstrate your and your colleagues growing clinical informatics knowledge, and leave a lasting impact on the future of clinical informatics.
+
+Also, as Student Editor, you will be leading the creation of the open-source 'The Clinical Informatics Handbook', where you and your fellow student's insights will be valued and shared for generations to come. Join us in revolutionising the way we approach healthcare education. 
+
+Contact the Let's Do Digital team at [info@letsdodigital.org](mailto:info@letsdodigital.org). to learn more and express your interest. Don’t miss this chance to make a difference in the world of clinical informatics!
