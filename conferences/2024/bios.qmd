@@ -50,6 +50,21 @@ title: "Bios 2024"
 
 \
 
+
+![](/media/michal-pruski-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Michal Pruski"}
+
+**Full name** – Michal Pruski
+
+**Job title(s)** – Senior Clinical Scientist University Hospital of Wales, Cardiff and Vale UHB 
+
+**Short bio** - After completing his basic science and bioethics training, and motivated by his experience in pre-hospital care, Michal completed the NHS Scientist Training Programme in Critical Care Science. Since becoming a Clinical Scientist, Michal has been working in an NHS research and evaluation centre, as well as developing his clinical skills in vascular ultrasound, both at the Cardiff and Vale University Health Board. 
+
+Michal is halfway through the Health Informatics Higher Specialist Scientist Training programme and is setting up a study looking at barriers and facilitators to the adoption of healthcare AI in Wales. He is passionate about bioethics and promoting the healthcare science workforce.
+
+---
+
+\
+
 ![](/media/geoff-revill-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Geoff Revill"}
 
 **Full name** – Geoff Revill
@@ -73,7 +88,3 @@ No one can deny Open Source is not integral to any software today. I have seen m
 **Short bio** - Tom works at Clatterbridge Cancer Centre delivering their digital strategy and EPR programme, and is working on a new venture aiming to generate financial returns to the NHS and NHS Staff from their innovations.
  
 He has a background in NHS service design, and national technology programmes  across Oxfordshire CCG, NHS England, NHSX, and the CQC – and is a lay member of the Chartered Institute of Ergonomics and Human Factors, Chartered Health information Management Executives, and the Royal College of Ophthalmologists.
-
----
-
-\
