@@ -23,7 +23,7 @@ title-slide-attributes:
 
 * We will explore the development (teaching) environment.
 * Get you connected to the development environment.
-* Get you running some common command line functions in `Lession 1`.
+* Get you running some common command line functions in `Lesson 1`.
 
 
 ## Python Basics {.smaller}
@@ -52,6 +52,7 @@ title-slide-attributes:
 * We learn biology and anatomy at university to better understand and practice clinical medicine. Why don't we learn the base subject to better understand and practice digital medicine?
 * Of course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.
 * However, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects.
+* Also, how can you be expected to understand how AI and large language models work if you don't understand the basics of how computers think?
 
 
 ## How can you use your coding skills in health care?
