@@ -95,7 +95,7 @@ Pro tip:
 
 ![](/media/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
 
-## Lession 1 {.smaller}
+## Lesson 1 {.smaller}
 
 * Join your tutor group in the `Zoom break out rooms`.
 * `Follow the link` to the online learning environment (Codespace).
@@ -109,10 +109,10 @@ Pro tip:
 * Run the following command in the new directory 
 
 ```
-    $ python lession_1.py
+    $ python lesson_1.py
 ```
 
-* Did it work? If so, open up the lession_1.py file.
+* Did it work? If so, open up the lesson_1.py file.
 * Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 20 minutes for lession 1.
+* We will give you 20 minutes for lesson 1.
