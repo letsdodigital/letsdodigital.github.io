@@ -22,10 +22,10 @@ title-slide-attributes:
 
 ![](/media/streamlit.png){fig-align="center"}
 
-## Preinstalled for you {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
+## Pre-installed for you {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
 
-* We have preinstalled `Streamlit` on Codespace for you.
-* Time for `lession 3`.
+* We have pre-installed `Streamlit` on Codespace for you.
+* Time for `lesson 3`.
 * Stay in the `module-1/hands-on` folder.
 * Run this code:
 
