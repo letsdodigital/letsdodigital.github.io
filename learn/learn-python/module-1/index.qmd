@@ -4,7 +4,7 @@ title: "Module 1 - Where is the on switch?"
 
 This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, not clinical terminologies).
 
-## Chose a slide deck
+## Choose a slide deck
 
 <ul>
   <li><a href="1-introduction.html" target="_blank">1 - Introduction</a></li>
