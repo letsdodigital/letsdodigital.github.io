@@ -9,7 +9,7 @@ title: "Let's Talk Digital Conference - 2024"
 ```
 \
 
-This year's key theme is **open**. That is **open source**, **open standards**, **open learning** and **open data**. But we are not talking socks, sandles and hippee like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field. And we are looking for innovation at the clinical frontline. Please do join us either in person or virtually for a jam packed event on Thursday the 24th of October 2024 at Cheltenham General Hospital.
+This year's key theme is **open**. That is **open source**, **open standards**, **open learning** and **open data**. But we are not talking socks, sandals and hippie like outfits. We are talking linux, internet and best solutions for an ever growing array of digital technologies used across the NHS and further a field. And we are looking for innovation at the clinical frontline. Please do join us either in person or virtually for a jam packed event on Thursday the 24th of October 2024 at Cheltenham General Hospital.
 
 ## Line up
 
@@ -160,7 +160,7 @@ We are currently building up the agenda. Our current line up includes:
 
 **Tell us one thing you learnt or took away from the conference?**
 
-* The importance of the collaborative approach to developing apps and systems, having system coders and clinical staff (and end users too) both providing their particular expertise to the task is vital for accuracy and useability, and all having a mutual respect for each other's skills.
+* The importance of the collaborative approach to developing apps and systems, having system coders and clinical staff (and end users too) both providing their particular expertise to the task is vital for accuracy and usability, and all having a mutual respect for each other's skills.
 * There are good ways and less good ways to innovate. The challenge is differentiating them and meetings where a frank and open discourse can occur are essential for this.
 * Getting patient participation is very valuable, and can help develop the system/process.
 
