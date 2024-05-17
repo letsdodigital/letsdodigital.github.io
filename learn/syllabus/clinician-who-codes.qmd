@@ -19,5 +19,5 @@ I would have given my left arm to study a Clinician-who-code course. Today, I am
 ## So what would you need to learn?
 
 * Clinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).
-* Clinical informatics (see separate syllabus [here](/learn/syllabi/clinical-informatician.qmd)).
+* Clinical informatics (see separate syllabus [here](/learn/syllabi/clinical-information.qmd)).
 * Coding skills.

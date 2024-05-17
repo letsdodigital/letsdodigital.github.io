@@ -1,7 +1,0 @@
----
-title: "Clinical informatician"
----
-
-This is currently being worked on with fellow Clinicains who code. 
-
-Watch this space.
