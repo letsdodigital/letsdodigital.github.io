@@ -27,6 +27,6 @@ Build a basic digital consent form.
 
 ## If we have time (if not, then mention that important)
 
-* Authentication / authorizathion / role based access control
+* Authentication / authorisation / role based access control
 * Web security
 * Deployment
