@@ -1,5 +1,5 @@
 ---
-title: "Clinical information"
+title: "Clinical informatician"
 ---
 
 This is currently being worked on with fellow Clinicians who code. 
