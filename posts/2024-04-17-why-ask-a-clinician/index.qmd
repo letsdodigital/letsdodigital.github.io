@@ -5,7 +5,7 @@ author:
   - name: Mark Bailey
 date: 2024-04-17
 categories: [blog]
-image: /media/canyon-with-speach-bubbles.png
+image: /media/canyon-with-speech-bubbles.png
 draft: false
 comments:
   hypothesis: true
