@@ -5,8 +5,8 @@
   right: 12px !important;
   top: 5px;
   left: unset !important;
-  height: 80px !important;
-  width: 80x !important;
+  height: 120px !important;
+  width: 120x !important;
   max-width: unset !important;
   max-height: unset !important;
 }
@@ -23,4 +23,12 @@
   border: 1px solid black;
   background-color:white;
   padding: 30px;
+}
+
+.center {
+  text-align: center;
+}
+
+.white h1 {
+  color: white;
 }

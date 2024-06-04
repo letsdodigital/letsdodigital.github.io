@@ -1099,25 +1099,32 @@
     "text": "Coding cheatsheets\nA collection of code and commands."
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#patient-disease-and-coding-bugs-are-very-similar",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#patient-disease-and-coding-bugs-are-very-similar",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#treating-disease-and-debugging-code-are-very-similar",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#treating-disease-and-debugging-code-are-very-similar",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "Patient disease and coding bugs are very similar",
-    "text": "Patient disease and coding bugs are very similar\n\nDoctors and computer scientists are really the same, trying to debug “bugs”!"
+    "section": "Treating disease and debugging code are very similar",
+    "text": "Treating disease and debugging code are very similar\n\nDoctors and computer scientists are really the same.\nBoth are just trying to fix bugs!"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#but",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#but",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "But",
-    "text": "But\n\nDoctor’s main concern is the patient, their safety and the control / fixing of their health."
+    "text": "But\n\nA doctor’s main concern is the patient, their safety and the control / fixing of their health."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#but-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#but-1",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "But",
-    "text": "But\n\nOn the other hand, those in the digital world, their main concern seems to be the data and fixing code bugs."
+    "text": "But\n\nOn the other hand, for those in the digital world, their main concern seems to be the data and the fixing of bugs in the code."
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#a-gross-over-simplification",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#a-gross-over-simplification",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "A gross over simplification",
+    "text": "A gross over simplification"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#so-why-are-we-not-understanding-each-other",
@@ -1127,74 +1134,102 @@
     "text": "So why are we not understanding each other!\n\nAt the end of the day, we are all working on the same larger issue, but the exchange of information / data is not happening well."
   },
   {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#why",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#why",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Why",
+    "text": "Why"
+  },
+  {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "Understanding",
-    "text": "Understanding\n\nMost doctors do not understand what is digital and what do digital people want."
+    "text": "Understanding\n\nMost doctors do not understand what is digital and what digital people want from them."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-1",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "Understanding",
-    "text": "Understanding\n\nMost digital folk do not understand what doctors do or think, and why doctors do not fill in the forms perfectly that digital folk have created."
+    "text": "Understanding\n\nMost digital folk do not understand what doctors do or think, and why doctors do not fill in the digital forms and related materials perfectly that digital folk have created."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-2",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-2",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "Understanding",
-    "text": "Understanding\n\nAnd here is the crunch point, doctors find data entry “distracts” them from “their important task” of “fixing” the patient."
+    "text": "Understanding\n\nAnd here is the crunch point!\nDoctors find data entry distracts them from “their important task” of “fixing” the patient."
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#what-is-a-doctors-day-like",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#canyon",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#canyon",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "What is a doctor’s day like",
-    "text": "What is a doctor’s day like"
+    "section": "Canyon",
+    "text": "Canyon"
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-1",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "Inpatients clerking (emergency admission)",
-    "text": "Inpatients clerking (emergency admission)\n\nABCDE\nHistory taking\nExamination\nFormulate a treatment plan\nPrescriptions\nWrite down all of the above in the clerking document\nUndertake blood samples\nConsent"
+    "section": "The junior doctor - Inpatients clerking",
+    "text": "The junior doctor - Inpatients clerking\n\nABCDE\nHistory taking\nExamination\nFormulate a treatment plan\nPrescriptions\nWrite down all of the above in the clerking document\nUndertake blood samples\nConsent"
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-1",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-1",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-2",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-2",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "Inpatients clerking (emergency admission)",
-    "text": "Inpatients clerking (emergency admission)\n\nProcedures\nReferrals\nChase all tests and referrals\nAnswering patient and relatives questions\nReassess patient\nDischarge letter\nDiscuss patient with seniors\nHand over care to next care team"
+    "section": "The junior doctor - Inpatients clerking",
+    "text": "The junior doctor - Inpatients clerking\n\nProcedures\nReferrals\nChase all tests and referrals\nAnswering patient and relatives questions\nReassess patient\nDischarge letter\nDiscuss patient with seniors\nHand over care to next care team"
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-2",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#inpatients-clerking-emergency-admission-2",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---and",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---and",
     "title": "Understanding clinical decision making: insights from a medic",
-    "section": "Inpatients clerking (emergency admission)",
-    "text": "Inpatients clerking (emergency admission)\n\nTeaching sessions\nQI projects"
+    "section": "The junior doctor - and …",
+    "text": "The junior doctor - and …\n\nTeaching sessions\nQI projects\nAttend clinics for own learning\nKeeping portfolio up to date\nYearly appraisals and competencies to sign off"
   },
   {
-    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants",
-    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants",
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants-1",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "Middle grade and consultants",
-    "text": "Middle grade and consultants\n\nOutpatient work\nSupervision\nLead MDTs"
+    "text": "Middle grade and consultants\n\nA lot of the same\nLead ward rounds\nOutpatient work\nSupervision\nLead MDTs"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#outpatients-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#outpatients-1",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Outpatients",
+    "text": "Outpatients\n\nVery much the same kind of work type and workload as emergency admissions, but on different times scales"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#a-lot-to-juggle",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#a-lot-to-juggle",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "A lot to juggle!",
-    "text": "A lot to juggle!\n\nTactically lazy!\nIt is mainly the junior and middle grade doctors that input data into EPRs, at least in the inpatient setting.\nWAD / WAI\nEPR Ux - structure vs unstructured data (historical, and speed)\nTreat the patient, not the EPR"
+    "text": "A lot to juggle!\n\nIt is mainly the junior and middle grade doctors that input data into EPRs, at least in the inpatient setting\nBut we treat the patient, not the EPR!"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Data entry",
+    "text": "Data entry\n\nCOWs\nTablets\nStatic desktops\n10s of different clinical programs to log into, enter data into and read from\nPoor quality hardware (computers very slow or don’t work at all)\nPoor quality software (crashes, restarts)\nNot to mention the ergonomics of all of the above!"
+  },
+  {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry-1",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry-1",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Data entry",
+    "text": "Data entry\n\nAnd because of the slow digital systems, doctors find shortcuts to get the job done as quickly as possible around all of the other tasks they need to do for the patient and other priorities\nWork As Imagined vs Work as Done (aka shortcuts) - WAI vs WAD\nTactically lazy!"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#help-us-to-help-you",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#help-us-to-help-you",
     "title": "Understanding clinical decision making: insights from a medic",
     "section": "Help us to help you",
-    "text": "Help us to help you\n\nIf you can get data from what doctors do anyway, without the doctor having to do more work, then everyone is a winner."
+    "text": "Help us to help you\n\nIf you can get data from what doctors do anyway, without the doctor having to do more work, then everyone is a winner (WAD not WAI)\nEnd-user centred design\nDesign the system for the clinician, their way of thinking and their workflows\nGrab data from already populated fields / record sets\nMake it as easy as possible to do the right thing\nCentre the digital systems and data acquisition around the patient and the clinician, not the other way around"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-1",
