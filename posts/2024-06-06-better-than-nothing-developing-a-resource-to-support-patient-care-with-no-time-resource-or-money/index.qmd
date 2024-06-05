@@ -5,7 +5,7 @@ author:
  - name: Nadia Kuftinoff
 date: 2024-06-06
 categories: [blog]
-image: /media/typewriter_and_girl.jpg
+image: /media/dinner-party-with-drinks.jpg
 draft: false
 comments:
   hypothesis: true
