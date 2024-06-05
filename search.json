@@ -693,6 +693,13 @@
     "text": "Previously asked questions\n\nClinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?\nUsability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?\nDecision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?"
   },
   {
+    "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#upcoming-events",
+    "href": "learn/ask-a-clinician/ask-a-clinician-1.html#upcoming-events",
+    "title": "Understanding clinical decision making: insights from a medic",
+    "section": "Upcoming events",
+    "text": "Upcoming events\n27th June - 3rd June Programming in Healthcare - Module 1\n16th July Frontline Insights - Digitising a sleep service and automating clinic preparation - Andrew Simpson & Sam Inerney\n1st August Ask a clinician - insights from a CCIO and pharmacists - Ramandeep Kaur\nAugust - September Ask a clinician - insights from two GPs - Anita Phung and Dom Main\nSeptember Ask a clinician - insights from a surgeon - Sobath Premaratne\n24th October Let’s Talk Digital Conference - Cheltenham / hybrid\n21st of November Ask a clinician - insights from a solicitor and dentist - Sam Shah"
+  },
+  {
     "objectID": "learn/index.html",
     "href": "learn/index.html",
     "title": "Education",
