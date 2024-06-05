@@ -26,6 +26,18 @@ title: "Bios 2024"
 
 \
 
+![](/media/nadia-kuftinoff-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Nadia Kuftinoff"}
+
+**Full name** – Nadia Kuftinoff
+
+**Job title(s)** – Senior Digital Delivery Lead, BOB ICB
+
+**Short bio** - Nadia oversees a portfolio of digital delivery projects in general practice ranging from operational to transformational. She has extensive experience of user-led innovation adoption and evaluation projects. She works closely with the frontline using her subject matter expertise to re-design service delivery and re-imagine what the role of a digital transformation lead looks like. She has an MSc in Digital Health Leadership from Imperial College London.
+
+---
+
+\
+
 ![](/media/simon-latimer-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Simon Latimer"}
 
 **Full name** – Simon Latimer
