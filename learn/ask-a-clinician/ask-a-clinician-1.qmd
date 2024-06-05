@@ -190,3 +190,26 @@ Clinician-who-codes
 * Clinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?
 * Usability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?
 * Decision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?
+
+## Upcoming events {.smaller}
+
+**27th June - 3rd June**
+Programming in Healthcare - Module 1
+
+**16th July**
+Frontline Insights - Digitising a sleep service and automating clinic preparation - Andrew Simpson & Sam Inerney
+
+**1st August**
+Ask a clinician - insights from a CCIO and pharmacists - Ramandeep Kaur
+
+**August - September**
+Ask a clinician - insights from two GPs - Anita Phung and Dom Main
+
+**September**
+Ask a clinician - insights from a surgeon - Sobath Premaratne
+
+**24th October**
+Let’s Talk Digital Conference - Cheltenham / hybrid
+
+**21st of November**
+Ask a clinician - insights from a solicitor and dentist - Sam Shah
