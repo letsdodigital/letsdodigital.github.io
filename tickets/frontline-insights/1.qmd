@@ -1,0 +1,72 @@
+---
+title: "Frontline Insights - episode 1"
+draft: true
+---
+
+## {{< var fi-1 >}}
+
+![](/media/clock-robot.jpg){height=300px fig-align="center" fig-alt="A toy robot with a clock as its thorax"}
+
+Main material
+
+## Webinar structure
+
+**Chair:** Mark Bailey, Let's Do Digital Lead, Locum Respiratory Consultant and Clinician-who-codes
+
+**Speaker:** Andrew Simpson & Sam Inerney
+
+Two 20 minute presentations followed by a Q&A.
+
+
+## When and where
+
+Online, 2-3pm, on Tuesday the 16th of July.
+
+
+## Tickets and coffees
+
+Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
+
+```{=html}
+<div style="display: flex; flex-direction: column; width: 100%;">
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://www.buymeacoffee.com/letsdodigital/e/243960aa" style="display: flex; justify-content: center;">
+                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Napkins get a you a free ticket. Always useful for cleaning up after those small coffee spills!
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://www.buymeacoffee.com/letsdodigital/e/243971aa" style="display: flex; justify-content: center;">
+                <img src="/media/white-paper-coffee-cup.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the letsdodigital.org home page for a whole year!
+        </div>
+    </div>
+</div>
+
+<p style="color: grey; font-style: italic;">
+Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
+</p>
+
+```
+
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
+
+
+<!--## Many thanks
+
+Many thanks to
+
+**Dr Kim Pramanik** ([https://www.linkedin.com/in/drkimpramanik/](https://www.linkedin.com/in/drkimpramanik/))
+
+For providing the Let's Do Digital team with access to her Zoom account to enable this course to run virtually.-->
