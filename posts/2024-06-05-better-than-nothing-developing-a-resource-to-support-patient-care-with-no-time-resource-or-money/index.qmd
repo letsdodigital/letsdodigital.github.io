@@ -3,7 +3,7 @@ title: "Better Than Nothing: developing a resource to support patient care with 
 description: "An Integrated Care Board Story"
 author:
  - name: Nadia Kuftinoff
-date: 2024-06-06
+date: 2024-06-05
 categories: [blog]
 image: /media/dinner-party-with-drinks.jpg
 draft: false
