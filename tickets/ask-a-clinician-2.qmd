@@ -1,0 +1,86 @@
+---
+title: "Ask a clinician webinar series - episode 2"
+---
+
+## {{< var aac-2 >}}
+
+![](/media/drugs-in-a-dish.jpg){height=300px fig-align="center" fig-alt="A pill in each outstretched hand of a male doctor"}
+
+In the world of healthcare data, bridging the gap between clinical practice and digital solutions can often seem like an insurmountable challenge. Have you ever encountered a situation where clinical input in the Electronic Patient Record (EPR) left you baffled? You meticulously designed and implemented a system, only to find a doctor entering 'TBC' in a crucial field. What drives these decisions? What are the underlying factors influencing a clinician's interaction with digital tools?
+
+This is the second webinar in the **{{< var ask-a-clinician-series-title >}}** series from the **Let’s Do Digital** Team. If you have ever wanted to ask a CCIO or pharmacist about their thought processes, workflows, workloads, or just, “What the hell were you thinking?”, this is the webinar for you.
+
+Join us as Ramandeep, an enthusiastic individual, passionate about digital transformation and innovation explains how a CCIO and pharmacist thinks, works, and, somehow, messes up your data. Ramandeep's passion stems from her first role as an EPMA Pharmacist in 2014, and she is currently the Group Chief Clinical Information Officer at University Hospitals of Northamptonshire. She has completed the Digital Health.London Pioneer Fellowship Programme and Cohort 4 of the NHS Digital Health Leadership Academy. She is proud to currently be an Advisory Panel member on the CCIO Digital Health Network, a member of the BCS, RPS, Shuri Network & UKCPA.
+
+
+## Webinar structure
+
+```{=html}
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/alex-cheung.png" alt="picture of Alex Cheung in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Alex Cheung, Senior Manager NHS England and Community Engagement for AnalystX.
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/ramandeep-kaur.png" alt="picture of Ramandeep Kaur in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Ramandeep Kaur, Pharmacist and Group Chief Clinical Information Officer at University Hospitals of Northamptonshire
+        </div>
+    </div>
+</div>
+```
+
+The first half will be a presentation of the medical clinical decision making process, followed by a Q&A.
+
+
+## When and where
+
+Online, 2-3pm, on Thursday the 1st August.
+
+
+## Tickets and coffees
+
+Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
+
+```{=html}
+<div style="display: flex; flex-direction: column; width: 100%;">
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://buymeacoffee.com/letsdodigital/e/262990" style="display: flex; justify-content: center;">
+                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Napkins get a you a free ticket. Always useful for cleaning up after those small coffee spills!
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://buymeacoffee.com/letsdodigital/e/262989" style="display: flex; justify-content: center;">
+                <img src="/media/white-paper-coffee-cup.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the letsdodigital.org home page for a whole year!
+        </div>
+    </div>
+</div>
+
+<p style="color: grey; font-style: italic;">
+Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
+</p>
+
+```
+
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
