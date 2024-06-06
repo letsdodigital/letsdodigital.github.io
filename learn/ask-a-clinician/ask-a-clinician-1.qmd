@@ -191,6 +191,15 @@ Clinician-who-codes
 * Usability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?
 * Decision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?
 
+# Buy us a coffee {.smaller}
+
+If you liked what you have seen today, and want to help support the **Let's Do Digital Team** in providing you with further great material, please do consider buying us a coffee, or three.
+
+![](/media/aac-1-bmac.png){height=300px fig-align="center" fig-alt="QR code"}
+
+[https://www.buymeacoffee.com/letsdodigital/e/243971](https://www.buymeacoffee.com/letsdodigital/e/243971)
+
+
 ## Upcoming events {.smaller}
 
 **27th June - 3rd June**
