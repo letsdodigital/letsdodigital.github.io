@@ -1,5 +1,6 @@
 ---
 title: "Let's Do Digital Events"
+image: /media/tickets.png
 ---
 
 ## 13th June 2024

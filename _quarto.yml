@@ -40,6 +40,7 @@ website:
         href: https://github.com/letsdodigital
       - icon: twitter 
         href: https://twitter.com/letsdodigitalci
+  twitter-card: true
       
 
   favicon: media/ldd-logo.png
