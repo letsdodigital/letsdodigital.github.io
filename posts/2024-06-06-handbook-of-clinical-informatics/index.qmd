@@ -1,6 +1,6 @@
 ---
 title: "Handbook of Clinical Informatics"
-description: "The best way to eat an elephant is one bit at a time!"
+description: "The best way to eat an elephant is one bite at a time!"
 author:
  - name: Mark Bailey
 date: 2024-06-06
