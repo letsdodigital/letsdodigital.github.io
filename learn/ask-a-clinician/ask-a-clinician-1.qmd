@@ -47,7 +47,8 @@ Clinician-who-codes
 
 ## Understanding {background-image="/media/matrix-screen.jpg" background-opacity="0.4"}
 
-* Most doctors do not understand what is **digital** and what digital people **want** from them.
+* Most doctors do not understand what **digital** really is and what digital people **want** from them.
+* There is a rare bread of clinician that understands both the clinical and the digital aspects. These are called **clinical informaticians**. There is currently no certification or registration for this specialist role.
 
 
 ## Understanding {background-image="/media/ct-head-scans.jpg" background-opacity="0.2"}
@@ -75,7 +76,7 @@ Clinician-who-codes
 # The junior doctor - Inpatients clerking {background-image="/media/empty-ward.jpg" background-opacity="0.4"}
 
 
-## The junior doctor - Inpatients clerking
+## The junior doctor - Inpatients clerking {background-image="/media/doctor-and-syringe.jpg" background-opacity="0.4"}
 
 * ABCDE
 * History taking
@@ -87,7 +88,7 @@ Clinician-who-codes
 * Consent
 
 
-## The junior doctor - Inpatients clerking
+## The junior doctor - Inpatients clerking {background-image="/media/doctor-and-patient-hand-on-shoulder.jpg" background-opacity="0.4"}
 
 * Procedures
 * Referrals
@@ -99,7 +100,7 @@ Clinician-who-codes
 * Hand over care to next care team
 
 
-## The junior doctor - and ...
+## The junior doctor - and ... {background-image="/media/lady-in-meeting.jpg" background-opacity="0.4"}
 
 * Teaching sessions
 * QI projects
@@ -140,7 +141,7 @@ Clinician-who-codes
 # A question of data entry
 
 
-## Data entry {.smaller}
+## Data entry {background-image="/media/old-mac.jpg" background-opacity="0.3"}
 
 * COWs
 * Tablets
@@ -151,7 +152,7 @@ Clinician-who-codes
 * Not to mention the ergonomics of all of the above!
 
 
-## Data entry {.smaller}
+## Data entry { background-image="/media/old-mac.jpg" background-opacity="0.3"}
 
 * And because of the slow digital systems, doctors find shortcuts to get the job done as quickly as possible around all of the other tasks they need to do for the patient and other priorities
 * Work As Imagined vs Work as Done (aka shortcuts) - WAI vs WAD
