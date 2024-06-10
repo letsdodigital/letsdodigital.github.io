@@ -33,20 +33,11 @@ Please do consider buying the Let's Do Digital team a coffee or three. We put a 
 
 ```{=html}
 <p style="color: grey; font-style: italic;">
-Click on the napkin or coffee cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
+Click on the coffee cup or napkin to get a ticket.
 </p>
 
 <div style="display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://www.buymeacoffee.com/letsdodigital/e/243960" style="display: flex; justify-content: center;">
-                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Napkins get a you a free ticket. Always useful for cleaning up after those small coffee spills!
-        </div>
-    </div>
+
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
             <a href="https://www.buymeacoffee.com/letsdodigital/e/243971" style="display: flex; justify-content: center;">
@@ -55,6 +46,16 @@ Click on the napkin or coffee cup to get a ticket. Our privacy policy can be fou
         </div>
         <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
             Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the letsdodigital.org home page for a whole year!
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://www.buymeacoffee.com/letsdodigital/e/243960" style="display: flex; justify-content: center;">
+                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Napkins get a you a free ticket. Always useful for cleaning up after those small coffee spills!
         </div>
     </div>
 </div>
