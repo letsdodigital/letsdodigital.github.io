@@ -57,7 +57,15 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-  }
+}
+
+.agenda-container-small {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left:10px;
+    padding-bottom:10px;
+}
   
 .agenda-row {
     display: flex;
@@ -71,22 +79,33 @@
     padding: 10px;
 }
 
+.agenda-image-container-small {
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    justify-content: center;
+}
+
 .agenda-image {
     height: 80px;
     width: 80px;
+}
+
+.agenda-image-small {
+    height: 60px;
+    width: 60px;
 }
 
 .agenda-text-container {
     display: flex;
     flex-direction: column;
     width: 80%;
-    padding: 10px;
     justify-content: center;
 }
 
 .agenda-text-container a {
     display: inline;
-  }
+}
 
 .sponsors-named {
     font-weight: bold;
