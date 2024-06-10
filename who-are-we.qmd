@@ -4,17 +4,35 @@ title: "Who are we"
 
 A collection of people passionate about making better digital healthcare and education a reality.
 
-[**Mark Bailey**](https://bailey-medics.com/) is the main curator of the Let's Do Digital Website.
+![](/media/mark-bailey-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Mark Bailey"}
 
-**Dylan Goh** was the main curator for the 2023 Conference pages.
+### [**Mark Bailey**](https://bailey-medics.com/)
+Mark is the main curator of the Let's Do Digital Website.
 
-**Nik Walne** is our current website *debugger*.
+---
+
+![](/media/dylan-goh-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Dylan Goh"}
+
+### Dylan Goh
+
+Dylan was the main curator for the 2023 Conference pages.
+
+---
+
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+
+### Nik Walne
+Nik is our current website *debugger* and also one of our tutors.
+
+--- 
 
 # Tutors - coding course
 
 
 </br>
 </br>
+
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
 
 ### Rhidian Bramley
 
@@ -32,13 +50,15 @@ Paediatric registrar.
 
 \
 
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+
 ### Haroon Chughtai
 
 ---
 
 \
 
-![](/media/remon-hanna.jpg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+![](/media/remon-hanna.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
 ### Remon Hanna
 
@@ -48,13 +68,15 @@ Doctor &  Head of data @ MedTech
 
 \
 
+![](/media/michael-kriger.png){height=300px fig-align="center" fig-alt="Profile picture of Michael Kriger"}
+
 ### Michael Kriger
 
 ---
 
 \
 
-![](/media/dom-main.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+![](/media/dom-main-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
 ### Dom Main
 
@@ -62,11 +84,15 @@ Doctor &  Head of data @ MedTech
 
 \
 
+![](/media/alexandre-mathy-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+
 ### Alexandre Mathy
 
 ---
 
 \
+
+![](/media/sam-mcinerney.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
 ### Sam McInerney
 
@@ -100,6 +126,8 @@ Freddie is interested in improving clinician knowledge about digital technologie
 
 \
 
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+
 ### Harriet Sands
 
 Harriet is a Data Scientist with experience in applying data science techniques in both public sector and commercial settings.
@@ -110,7 +138,7 @@ Some of her career highlights include identifying pre-cursors to frequent ambula
 
 \
 
-![](/media/grant-vallance.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+![](/media/grant-vallance-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
 ### Grant Vallance
 
@@ -118,6 +146,7 @@ Some of her career highlights include identifying pre-cursors to frequent ambula
 
 \
 
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
 
 ### Mathew Vithayathil 
 
@@ -125,13 +154,15 @@ Some of her career highlights include identifying pre-cursors to frequent ambula
 
 \
 
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+
 ### Nik Walne
 
 ---
 
 \
 
-![](/media/chris-wilson.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+![](/media/chris-wilson.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
 
 ### Chris Wilson
