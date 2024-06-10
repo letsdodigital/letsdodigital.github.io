@@ -26,6 +26,16 @@ Sam is the founder of [DoctorsThatCode.com](https://www.doctorsthatcode.com/), a
 <div class="agenda-container">
     <div class="agenda-row">
         <div class="agenda-image-container">
+            <img src="/media/remon-hanna-circular.png" alt="picture of Ramon Hanna in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Chair: Remon Hanna, Doctor &  Head of data @ MedTech
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
             <img src="/media/andrew-simpson.png" alt="picture of Andrew Simpson in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">
@@ -50,8 +60,9 @@ Two 20 minute presentations followed by a Q&A.
 
 ## When and where
 
-Online, 2-3pm, on Tuesday the 16th of July.
+YouTube streaming, 2-3pm, on Tuesday the 16th of July.
 
+Link to be available here beforehand.
 
 ## Tickets and coffees
 
@@ -91,12 +102,3 @@ Click on the coffee cup or napkin to get a ticket.
 ## Questions
 
 Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
-
-
-<!--## Many thanks
-
-Many thanks to
-
-**Dr Kim Pramanik** ([https://www.linkedin.com/in/drkimpramanik/](https://www.linkedin.com/in/drkimpramanik/))
-
-For providing the Let's Do Digital team with access to her Zoom account to enable this course to run virtually.-->
