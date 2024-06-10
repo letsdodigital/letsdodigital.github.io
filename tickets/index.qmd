@@ -15,9 +15,9 @@ image: /media/tickets.png
 
 [{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
 
-<!--## 16th of July 2024
+## 16th of July 2024
 
-[{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)-->
+[{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
 
 ## 1st August 2024
 
