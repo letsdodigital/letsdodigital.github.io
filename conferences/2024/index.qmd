@@ -13,7 +13,7 @@ This year's key theme is **open**. That is **open source**, **open standards**, 
 
 ## Line up
 
-We are currently building up the agenda. Our current line up includes:
+We have a fantastic line up of speakers for you giving you a range of exciting and educational case studies and manifestos.
 
 ```{=html}
 <div class="agenda-container">
@@ -23,6 +23,16 @@ We are currently building up the agenda. Our current line up includes:
         </div>
         <div class="agenda-text-container">
             Stephen Rowley - Patient advocate and STEM career
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/nick-bell.png" alt="picture of Nick Bell in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Nick Bell - Consultant Physician in General, Respiratory and Adult Cystic Fibrosis Medicine at the Bristol Royal Infirmary
         </div>
     </div>
 </div>
@@ -139,6 +149,16 @@ We are currently building up the agenda. Our current line up includes:
 <div class="agenda-container">
     <div class="agenda-row">
         <div class="agenda-image-container">
+            <img src="/media/simon-chapman.png" alt="picture of Simon Chapman in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Simon Chapman - Consultant Paediatric in Endocrinology/Diabetes & Clinician-who-codes
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
             <img src="/media/mark-bailey-circle.png" alt="picture of Mark Bailey in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">
@@ -187,17 +207,13 @@ Please consider buying the Let's Do Digital team a coffee or three. Running a co
     </ul>
 </div>
 
+<p></p>
+
+<p style="color: grey; font-style: italic;">
+Click on the coffee cup or napkin to get a ticket. 
+</p>
+
 <div style="display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://letsdodigital.org/conferences/2024/registration.html" style="display: flex; justify-content: center;">
-                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Napkins get a you a free ticket. Napkins are always useful for cleaning up after those small coffee spills!
-        </div>
-    </div>
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
             <a href="https://www.buymeacoffee.com/letsdodigital/e/241276" style="display: flex; justify-content: center;">
@@ -208,11 +224,17 @@ Please consider buying the Let's Do Digital team a coffee or three. Running a co
             Buy 1 coffee or more to get a ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporters" board on the letsdodigital.org home page for a whole year!
         </div>
     </div>
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://letsdodigital.org/conferences/2024/registration.html" style="display: flex; justify-content: center;">
+                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Napkins get a you a free ticket. Napkins are always useful for cleaning up after those small coffee spills!
+        </div>
+    </div>
 </div>
-
-<p style="color: grey; font-style: italic;">
-Click on the napkin or coffee cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
-</p>
 ```
 
 ## Call for abstracts
@@ -221,7 +243,7 @@ If you wish to submit an abstract to the conference, please email [info@letsdodi
 
 ## Want to give a presentation?
 
-If you wish to present at the conference, and you have a topic that is in keeping with this year's theme, then please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
+This year's agenda is now full. If you wish to present at future conferences, then please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
 
 ## Sponsorship
 
