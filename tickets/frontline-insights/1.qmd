@@ -6,15 +6,44 @@ draft: true
 
 ## {{< var fi-1 >}}
 
+We have a very exciting webinar ready and waiting for you, especially for those computer geeks out there!
+
 ![](/media/clock-robot.jpg){height=300px fig-align="center" fig-alt="A toy robot with a clock as its thorax"}
 
-Main material
+In this first of many webinars from the **Frontline Insights** series from the **Let's Do Digital** team, we are excited to hear from Andrew Simpson, Clinical Scientist at South Tees Hospital NHS Foundation Trust and Sam McInerney, Oncology registrar at the Beatson Cancer Centre and founder of DoctorsThatCode.com.
+
+Andrew will show us how **Internet of Things** (IoT), blood sweat and tears and a department that is open to innovation brought together both hardware and software to automate the heavy workload at the sleep department in South Tees. 
+
+Sam will give us the low down on how he successfully used **robotic process automation** to streamline the detailed clinic preparation that is required of oncology clinic outpatients.
+
+Andrew is a <abbr title="Health and Care Professions Council">HCPC</abbr> registered Clinical Scientist in Medical Physics & Clinical Engineering, specialising in Clinical Measurement, Clinical Engineering & Computing. Andrew has implemented an array of digital solutions to improve healthcare management. Andrew  is also the British Computer Society Teesside and District Branch Chair.
+
+Sam is the founder of [DoctorsThatCode.com](https://www.doctorsthatcode.com/), a very interesting and informative blog series. He is an up and coming clinician-who-codes, and uses his dual speciality skills to improve the care he gives as a oncology registrar in Scotland.
 
 ## Webinar structure
 
-**Chair:** Mark Bailey, Let's Do Digital Lead, Locum Respiratory Consultant and Clinician-who-codes
-
-**Speaker:** Andrew Simpson & Sam Inerney
+```{=html}
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/andrew-simpson.png" alt="picture of Andrew Simpson in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Speaker: Andrew Simpson, Clinical Scientist, South Tees Hospital NHS Foundation Trust.
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/sam-mcinerney.png" alt="picture of Ramandeep Kaur in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Speaker: Sam McInerney Beatson Cancer Centre and founder of DoctorsThatCode.com, 
+        </div>
+    </div>
+</div>
+```
 
 Two 20 minute presentations followed by a Q&A.
 
@@ -29,10 +58,14 @@ Online, 2-3pm, on Tuesday the 16th of July.
 Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
 
 ```{=html}
+<p style="color: grey; font-style: italic;">
+Click on the napkin or coffee cup to get a ticket.
+</p>
+
 <div style="display: flex; flex-direction: column; width: 100%;">
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://www.buymeacoffee.com/letsdodigital/e/243960aa" style="display: flex; justify-content: center;">
+            <a href="" style="display: flex; justify-content: center;">
                 <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
             </a>
         </div>
@@ -42,7 +75,7 @@ Please do consider buying the Let's Do Digital team a coffee or three. We put a 
     </div>
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://www.buymeacoffee.com/letsdodigital/e/243971aa" style="display: flex; justify-content: center;">
+            <a href="https://buymeacoffee.com/letsdodigital/e/264708" style="display: flex; justify-content: center;">
                 <img src="/media/white-paper-coffee-cup.png" alt="3 tickets" style="height: 100px;">
             </a>
         </div>
@@ -51,11 +84,6 @@ Please do consider buying the Let's Do Digital team a coffee or three. We put a 
         </div>
     </div>
 </div>
-
-<p style="color: grey; font-style: italic;">
-Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
-</p>
-
 ```
 
 

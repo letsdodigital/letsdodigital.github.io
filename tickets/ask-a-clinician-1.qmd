@@ -32,6 +32,10 @@ Online, 2-3pm, on Thursday the 13th of June.
 Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
 
 ```{=html}
+<p style="color: grey; font-style: italic;">
+Click on the napkin or coffee cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
+</p>
+
 <div style="display: flex; flex-direction: column; width: 100%;">
     <div style="display: flex; flex-direction: row;">
         <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
@@ -54,11 +58,6 @@ Please do consider buying the Let's Do Digital team a coffee or three. We put a 
         </div>
     </div>
 </div>
-
-<p style="color: grey; font-style: italic;">
-Click on the napkin or cofffe cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
-</p>
-
 ```
 
 
