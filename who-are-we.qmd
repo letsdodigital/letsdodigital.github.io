@@ -74,11 +74,27 @@ Doctor &  Head of data @ MedTech
 
 \
 
-![](/media/sobath-premaratne.jpeg){height=300px fig-align="center" fig-alt="Profile picture of Sobath Premaratne"}
+![](/media/sobath-premaratne-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Sobath Premaratne"}
 
 ### Mr Sobath Premaratne
 
 Consultant in Vascular and Endovascular Surgery. Bart's Health NHS Trust, London.
+
+---
+
+\
+
+![](/media/freddie-renyard.png){height=300px fig-align="center" fig-alt="Profile picture of Sobath Premaratne"}
+
+### Freddie Renyard
+
+Freddie is a fifth year medical student from the University of Bristol and intercalated bioengineering graduate from Imperial College London who is starting an Academic Foundation Post in Oxford soon.
+
+He is passionate about using new technologies to enhance patient care. He is currently working with the Neurocomputing Lab in Erasmus MC, Rotterdam, where he is accelerating neural simulations to improve our understanding of the brain.
+
+He also has experience in computer engineering and has completed industry and academic internships. During his time with the Particle Physics group at Bristol, he looked into ways that new particle physics hardware could be used in clinical care.
+
+Freddie is interested in improving clinician knowledge about digital technologies. He's currently working on a course for clinicians to help them work with medical and radiological data: stay tuned for updates!
 
 ---
 
