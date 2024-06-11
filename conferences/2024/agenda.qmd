@@ -161,7 +161,7 @@ title: "Agenda 2024"
 
 \
 
-## 12:00 – Debate - This house believes that the NHS should be using open source where ever possible
+## 12:00 – Debate - This house believes that the NHS should be using open source wherever possible
 
 **Chair**
 ```{=html}
