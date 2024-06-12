@@ -609,11 +609,11 @@
     "text": "Welcome to the Ask a Clinician series. This series allowed and encourages people with a digital background better understand the thought processes and workflows of clinicians. By doing this, we hope to help computer scientists, data analysts, cybersecurity specialists, etc to better understand the healthcare data in front of them."
   },
   {
-    "objectID": "learn/ask-a-clinician/index.html#modules",
-    "href": "learn/ask-a-clinician/index.html#modules",
+    "objectID": "learn/ask-a-clinician/index.html#episodes",
+    "href": "learn/ask-a-clinician/index.html#episodes",
     "title": "Ask a Clinician",
-    "section": "Modules",
-    "text": "Modules\n\nUnderstanding clinical decision making: insights from a medic"
+    "section": "Episodes",
+    "text": "Episodes\n\nUnderstanding clinical decision making: insights from a medic"
   },
   {
     "objectID": "learn/syllabus/clinical-informatician.html",
@@ -1122,154 +1122,154 @@
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#treating-disease-and-debugging-code-are-very-similar",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#treating-disease-and-debugging-code-are-very-similar",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Treating disease and debugging code are very similar",
     "text": "Treating disease and debugging code are very similar\n\nDoctors and computer scientists are really the same.\nBoth are just trying to fix bugs!"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#but",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#but",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "But",
     "text": "But\n\nA doctor’s main concern is the patient, their safety and the control / fixing of their health."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#but-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#but-1",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "But",
     "text": "But\n\nOn the other hand, for those in the digital world, their main concern seems to be the data and the fixing of bugs in the code."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#a-gross-over-simplification",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#a-gross-over-simplification",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "A gross over simplification",
     "text": "A gross over simplification"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#so-why-are-we-not-understanding-each-other",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#so-why-are-we-not-understanding-each-other",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "So why are we not understanding each other!",
     "text": "So why are we not understanding each other!\n\nAt the end of the day, we are all working on the same larger issue, but the exchange of information / data is not happening well."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#why",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#why",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Why",
     "text": "Why"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Understanding",
     "text": "Understanding\n\nMost doctors do not understand what digital really is and what digital people want from them.\nThere is a rare bread of clinician that understands both the clinical and the digital aspects. These are called clinical informaticians. There is currently no certification or registration for this specialist role."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-1",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Understanding",
     "text": "Understanding\n\nMost digital folk do not understand what doctors do or think, and why doctors do not fill in the digital forms and related materials perfectly that digital folk have created."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-2",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#understanding-2",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Understanding",
     "text": "Understanding\n\nAnd here is the crunch point!\nDoctors find data entry distracts them from “their important task” of “fixing” the patient."
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#canyon",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#canyon",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Canyon",
     "text": "Canyon"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-1",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "The junior doctor - Inpatients clerking",
     "text": "The junior doctor - Inpatients clerking\n\nABCDE\nHistory taking\nExamination\nFormulate a treatment plan\nPrescriptions\nWrite down all of the above in the clerking document\nUndertake blood samples\nConsent"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-2",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---inpatients-clerking-2",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "The junior doctor - Inpatients clerking",
     "text": "The junior doctor - Inpatients clerking\n\nProcedures\nReferrals\nChase all tests and referrals\nAnswering patient and relatives questions\nReassess patient\nDischarge letter\nDiscuss patient with seniors\nHand over care to next care team"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---and",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#the-junior-doctor---and",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "The junior doctor - and …",
     "text": "The junior doctor - and …\n\nTeaching sessions\nQI projects\nAttend clinics for own learning\nKeeping portfolio up to date\nYearly appraisals and competencies to sign off"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#middle-grade-and-consultants-1",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Middle grade and consultants",
     "text": "Middle grade and consultants\n\nA lot of the same\nLead ward rounds\nOutpatient work\nSupervision\nLead MDTs"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#outpatients-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#outpatients-1",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Outpatients",
     "text": "Outpatients\n\nVery much the same kind of work type and workload as emergency admissions, but on different times scales"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#a-lot-to-juggle",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#a-lot-to-juggle",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "A lot to juggle!",
     "text": "A lot to juggle!\n\nIt is mainly the junior and middle grade doctors that input data into EPRs, at least in the inpatient setting\nBut we treat the patient, not the EPR!"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Data entry",
     "text": "Data entry\n\nCOWs\nTablets\nStatic desktops\n10s of different clinical programs to log into, enter data into and read from\nPoor quality hardware (computers very slow or don’t work at all)\nPoor quality software (crashes, restarts)\nNot to mention the ergonomics of all of the above!"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#data-entry-1",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Data entry",
     "text": "Data entry\n\nAnd because of the slow digital systems, doctors find shortcuts to get the job done as quickly as possible around all of the other tasks they need to do for the patient and other priorities\nWork As Imagined vs Work as Done (aka shortcuts) - WAI vs WAD\nTactically lazy!"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#help-us-to-help-you",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#help-us-to-help-you",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Help us to help you",
     "text": "Help us to help you\n\nIf you can get data from what doctors do anyway, without the doctor having to do more work, then everyone is a winner (WAD not WAI)\nEnd-user centred design\nDesign the system for the clinician, their way of thinking and their workflows\nGrab data from already populated fields / record sets\nMake it as easy as possible to do the right thing\nCentre the digital systems and data acquisition around the patient and the clinician, not the other way around"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-1",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-1",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Previously asked questions",
     "text": "Previously asked questions\n\nStructured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?\nHow to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?\nClinical coding from a clinician’s perspective. How is this best taught to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?\nHow could we do better together?"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-2",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#previously-asked-questions-2",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Previously asked questions",
     "text": "Previously asked questions\n\nClinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get “clinically coded”, how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?\nUsability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it’s way into clinical software systems?\nDecision support tools and software as a medical device - aware of warnings like “this information is for guidance only and not intended to replace a diagnosis from a trained clinician” are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#upcoming-events",
     "href": "learn/ask-a-clinician/ask-a-clinician-1.html#upcoming-events",
-    "title": "Understanding clinical decision making: insights from a medic",
+    "title": "Ask a Clinician series - Episode 1",
     "section": "Upcoming events",
     "text": "Upcoming events\n27th June - 3rd June Programming in Healthcare - Module 1\n16th July Frontline Insights - Digitising a sleep service and automating clinic preparation - Andrew Simpson & Sam Inerney\n1st August Ask a clinician - insights from a CCIO and pharmacists - Ramandeep Kaur\nAugust - September Ask a clinician - insights from two GPs - Anita Phung and Dom Main\nSeptember Ask a clinician - insights from a surgeon - Sobath Premaratne\n24th October Let’s Talk Digital Conference - Cheltenham / hybrid\n21st of November Ask a clinician - insights from a solicitor and dentist - Sam Shah"
   },
