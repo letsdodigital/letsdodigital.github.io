@@ -4,6 +4,6 @@ title: "{{< var ask-a-clinician-series-title >}}"
 
 Welcome to the {{< var ask-a-clinician-series-title >}} series. This series allowed and encourages people with a digital background better understand the thought processes and workflows of clinicians. By doing this, we hope to help computer scientists, data analysts, cybersecurity specialists, etc to better understand the healthcare data in front of them.
 
-## Modules
+## Episodes
 
 * [{{< var aac-1 >}}](ask-a-clinician-1.qmd)

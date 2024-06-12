@@ -1,5 +1,5 @@
 ---
-title: "{{< var aac-1 >}}"
+title: "{{< var ask-a-clinician-series-title >}} series - Episode 1"
 author: "Dr Mark Bailey"
 format: revealjs
 css: /slides.css
@@ -9,13 +9,7 @@ title-slide-attributes:
     data-background-video-loop: true
 ---
 
-# Inside the mind of a medic {.center background-image="/media/a-pill-in-each-hand-cropped.jpg" background-opacity="0.4"}
-
-Dr Mark Bailey
-
-Locum Respiratory Consultant
-
-Clinician-who-codes
+# Understanding clinical decision making: insights from a medic {.center background-image="/media/a-pill-in-each-hand-cropped.jpg" background-opacity="0.4"}
 
 
 ## Treating disease and debugging code are very similar {background-image="/media/spider.jpg" background-opacity="0.4"}
