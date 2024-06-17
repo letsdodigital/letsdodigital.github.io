@@ -32,7 +32,7 @@ title: "Agenda 2024"
             <img src="/media/remon-hanna.png" alt="picture of Remon Hanna" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Remon Hanna
+            Remon Hanna - Doctor & Head of data, MedTech
         </div>
     </div>
 </div>
@@ -168,10 +168,10 @@ title: "Agenda 2024"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/blank-face.png" alt="picture of ..." class="agenda-image-small">
+            <img src="/media/james-freed.png" alt="picture of James Freed" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            TBC
+            James Freed - Deputy Director, NHS Digital Academy
         </div>
     </div>
 </div>
@@ -214,7 +214,7 @@ title: "Agenda 2024"
 \
 
 
-## 13:50 – Afternoon session 1 - Building with what you have got!
+## 13:50 – Afternoon session 1 - Build with what you have got!
 
 13:50 – **Chair**
 ```{=html}
