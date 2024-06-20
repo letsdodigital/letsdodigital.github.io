@@ -91,7 +91,6 @@ Dionne has worked in quality improvement implementation within the NHS since 201
 
 \
 
-
 ![](/media/michal-pruski-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Michal Pruski"}
 
 **Full name** – Michal Pruski
@@ -101,6 +100,18 @@ Dionne has worked in quality improvement implementation within the NHS since 201
 **Short bio** - After completing his basic science and bioethics training, and motivated by his experience in pre-hospital care, Michal completed the NHS Scientist Training Programme in Critical Care Science. Since becoming a Clinical Scientist, Michal has been working in an NHS research and evaluation centre, as well as developing his clinical skills in vascular ultrasound, both at the Cardiff and Vale University Health Board. 
 
 Michal is halfway through the Health Informatics Higher Specialist Scientist Training programme and is setting up a study looking at barriers and facilitators to the adoption of healthcare AI in Wales. He is passionate about bioethics and promoting the healthcare science workforce.
+
+---
+
+\
+
+![](/media/stef-piatek.png){height=300px fig-align="center" fig-alt="Profile picture of Stef Piatek"}
+
+**Full name** – Stef Piatek
+
+**Job title(s)** – Technical Programme Director, Clinical Research Informatics Unit, University College London Hospitals NHS Foundation Trust
+
+**Short bio** - Stef leads on the technical delivery of projects within the Clinical Research Informatics Unit at University College London Hospital. After a PhD in functional genomics, he changed tact and focused on computation and software development while becoming a Clinical Scientist in Bioinformatics (genomics) at Great Ormond St Hospital. He’s since worked in research software engineering at University College London, specialising in healthcare projects.
 
 ---
 

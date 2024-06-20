@@ -288,16 +288,16 @@ title: "Agenda 2024"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/blank-face.png" alt="picture of ..." class="agenda-image-small">
+            <img src="/media/grant-vallance-circle.png" alt="picture of Grant Vallance" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            TBC
+            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust
         </div>
     </div>
 </div>
 ```
 
-15:25 – Poster awards
+15:25 – **Poster awards**
 
 15:35 – **MedEd Connect: Transforming Medical Education through Digital Technology**  
 ```{=html}
@@ -327,6 +327,20 @@ title: "Agenda 2024"
 </div>
 ```
 
-15:55 – **Q&A**
+15:55 – **Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications**
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/stef-Piatek.png" alt="picture of Stef Piatek" class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Stef Piatek - Technical Programme Director, Clinical Research Informatics Unit, University College London Hospitals NHS Foundation Trust
+        </div>
+    </div>
+</div>
+```
 
-16:20 – **close**
+16:05 - **Q&A**
+
+16:30 – **close**
