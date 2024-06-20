@@ -112,7 +112,7 @@ We have a fantastic line up of speakers and chairs for you, providing you with a
             <img src="/media/tom-stocker-circle.png" alt="picture of Tom Stocker in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">
-            Tom Stocker - Digital and innovation leader, The Clatterbridge Cancer Centre NHS Foundation Trust; Director, Care Cascades.
+            Tom Stocker - Director, Care Cascades.
         </div>
     </div>
 </div>
