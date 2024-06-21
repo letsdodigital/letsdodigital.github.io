@@ -1,5 +1,5 @@
 ---
-title: "Process mapping"
+title: "Process mapping - lesson 1"
 subtitle: "Module 2"
 author: "{{< var author >}}"
 format: revealjs
@@ -10,15 +10,35 @@ title-slide-attributes:
     data-background-opacity: "0.4"
 ---
 
-# Lesson 1 - Process mapping
-
 ## What is process mapping?
+
+* Can be undertaking in very elaborate and complicated fashion.
+* However, at its core, you draw a flow chart that describes a process, either current, or a new imagined one.
+
+![](/media/toothbrush-process-map.png){fig-align="center" width="max" height="max"}
+
 
 ## Why do process mapping?
 
-## Where do process mapping?
+* We may be asked to process a lot when we are transforming processes and a lot of the time we do not see them used to good affect.
+* However, if you use it prior to jumping into a project, it is a good tool to think about the problem, help explain the current issues and your view on a new process pathway, and also it gives you a step by step guide to building your new digital app.
 
-## Let's do process mapping
+
+## Where do process mapping? {background-image="/media/fibre-optics.jpg" background-opacity="0.3"}
+
+* You can do this on paper
+* Today, we will be using an online process mapping program
+
+
+## Let's do process mapping {background-image="/media/skier-in-mid-air.jpg" background-opacity="0.3"}
 
 * Go join your break out group. 
-* Once there you will be given a link to an online process mapping program called `Moqups`. Here you will be able to build a process map of how you currently do consent forms on paper (if you are lucky enough to have digital consent forms at  your place of work, try thinking back to days before this).
+* Once there you will be given a link to an online process mapping program called `Moqups`.
+
+
+## Specifically
+
+* Choose one person in your group to create your process map.
+* Spend 10 minutes in your group to create a process map of current paper based consent forms.
+* Then spend another 10 minutes to think of the best digital consent form you would want and create a process map to describe how it would work.
+* We will then reconvene at half past and talk through your results.

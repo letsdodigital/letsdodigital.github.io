@@ -84,7 +84,7 @@ Doctor &  Head of data, MedTech
 
 \
 
-![](/media/alexandre-mathy-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+![](/media/alexandre-mathy.png){height=300px fig-align="center" fig-alt="Profile picture of Alexandre Mathy"}
 
 ### Alexandre Mathy
 
