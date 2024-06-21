@@ -326,28 +326,63 @@
     "href": "learn/learn-python/index.html#modules",
     "title": "Programming in Healthcare",
     "section": "Modules",
-    "text": "Modules\n\nModule 1 - Where is the on switch? \n\nMore modules to arrive soon"
+    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nWe aim to deliver 5-10 modules on programming in healthcare"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/2-process-mapping.html#what-is-process-mapping",
+    "href": "learn/learn-python/module-2/2-process-mapping.html#what-is-process-mapping",
+    "title": "Process mapping",
+    "section": "What is process mapping?",
+    "text": "What is process mapping?"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/2-process-mapping.html#why-do-process-mapping",
+    "href": "learn/learn-python/module-2/2-process-mapping.html#why-do-process-mapping",
+    "title": "Process mapping",
+    "section": "Why do process mapping?",
+    "text": "Why do process mapping?"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/2-process-mapping.html#where-do-process-mapping",
+    "href": "learn/learn-python/module-2/2-process-mapping.html#where-do-process-mapping",
+    "title": "Process mapping",
+    "section": "Where do process mapping?",
+    "text": "Where do process mapping?"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/2-process-mapping.html#lets-do-process-mapping",
+    "href": "learn/learn-python/module-2/2-process-mapping.html#lets-do-process-mapping",
+    "title": "Process mapping",
+    "section": "Let’s do process mapping",
+    "text": "Let’s do process mapping\n\nGo join your break out group.\nOnce there you will be given a link to an online process mapping program called Moqups. Here you will be able to build a process map of how you currently do consent forms on paper (if you are lucky enough to have digital consent forms at your place of work, try thinking back to days before this)."
   },
   {
     "objectID": "learn/learn-python/module-2/index.html",
     "href": "learn/learn-python/module-2/index.html",
     "title": "Module 2 - Let’s take things to the next level",
     "section": "",
-    "text": "After learning about the basics about coding and the programming language Python in Module 2 - Let’s take things to the next level"
+    "text": "After learning about the basics about coding and the programming language Python in Module 1 - Where is the on switch?, in module 2 we gently take you through more advanced topics. We even get you doing a bit of process mapping (only a little I swear) and building a digital consent app."
   },
   {
     "objectID": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
     "href": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
     "title": "Module 2 - Let’s take things to the next level",
     "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction"
+    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Process mapping\n\n\n3 - Digital consent form\n\n\n4 - Pit stop\n\n\n5 - Session close"
   },
   {
-    "objectID": "learn/learn-python/module-2/1-introduction.html#introduction",
-    "href": "learn/learn-python/module-2/1-introduction.html#introduction",
+    "objectID": "learn/learn-python/module-2/1-introduction.html#what-are-we-going-to-cover",
+    "href": "learn/learn-python/module-2/1-introduction.html#what-are-we-going-to-cover",
     "title": "Module 2 - Let’s take things to the next level",
-    "section": "Introduction",
-    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nThere are plans for further, more advanced courses, in the near future.\nPlease provide feedback at the end of the course, so we can help improve things further."
+    "section": "What are we going to cover?",
+    "text": "What are we going to cover?\n\nIn this 3 hour session, we are going to cover:\n\nProcess mapping (just a quick session on this)\nBuilding a digital consent app (browser based)"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/1-introduction.html#lots-to-cover",
+    "href": "learn/learn-python/module-2/1-introduction.html#lots-to-cover",
+    "title": "Module 2 - Let’s take things to the next level",
+    "section": "Lots to cover",
+    "text": "Lots to cover\n\nSo let’s get started."
   },
   {
     "objectID": "learn/learn-python/module-1/5-session-close.html#many-thanks",
@@ -1460,7 +1495,7 @@
     "href": "learn/index.html#ask-a-clinician",
     "title": "Education",
     "section": "Ask a clinician",
-    "text": "Ask a clinician\nComing soon: Ask a clinician learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found here."
+    "text": "Ask a clinician\nThe slides from the first webinar of this series can be found here."
   },
   {
     "objectID": "learn/index.html#clinical-informatics",
@@ -1470,11 +1505,11 @@
     "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
   },
   {
-    "objectID": "learn/index.html#coding-cheatsheets",
-    "href": "learn/index.html#coding-cheatsheets",
+    "objectID": "learn/index.html#coding-cheat-sheets",
+    "href": "learn/index.html#coding-cheat-sheets",
     "title": "Education",
-    "section": "Coding cheatsheets",
-    "text": "Coding cheatsheets\nA collection of code and commands."
+    "section": "Coding cheat sheets",
+    "text": "Coding cheat sheets\nA collection of code and commands."
   },
   {
     "objectID": "learn/syllabus/clinician-who-codes.html",
