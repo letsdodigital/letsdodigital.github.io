@@ -1,0 +1,24 @@
+---
+title: "Process mapping"
+subtitle: "Module 2"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/map-south-america.jpg
+    data-background-opacity: "0.4"
+---
+
+# Lesson 1 - Process mapping
+
+## What is process mapping?
+
+## Why do process mapping?
+
+## Where do process mapping?
+
+## Let's do process mapping
+
+* Go join your break out group. 
+* Once there you will be given a link to an online process mapping program called `Moqups`. Here you will be able to build a process map of how you currently do consent forms on paper (if you are lucky enough to have digital consent forms at  your place of work, try thinking back to days before this).

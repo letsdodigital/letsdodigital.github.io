@@ -1,0 +1,11 @@
+---
+title: "Pit step - How are you all doing?"
+subtitle: "Module 2"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/signature-on-form.jpg
+    data-background-opacity: "0.4"
+---

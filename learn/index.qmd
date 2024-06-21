@@ -12,7 +12,7 @@ There are so many programming languages to choose from. We could argue for hours
 
 ## Ask a clinician
 
-Coming soon: `Ask a clinician` learning series. A place for non-clinicians to ask clinicians about their thought processes and workflows, amongst other things. Further information and recordings will be found [here](ask-a-clinician/index.qmd).
+The slides from the first webinar of this series can be found [here](ask-a-clinician/index.qmd).
 
 ## Clinical informatics
 
@@ -20,6 +20,6 @@ Interested in becoming a **clinical informatician**, view a syllabus in the maki
 
 Interested in becoming a **clinician-who-codes**, view a syllabus in the making here [here](/learn/syllabi/clinician-who-codes.qmd).
 
-## Coding cheatsheets
+## Coding cheat sheets
 
 A [collection](/cheatsheets/index.qmd) of code and commands.

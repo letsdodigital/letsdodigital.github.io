@@ -1,0 +1,74 @@
+---
+title: "Building a digital consent form"
+subtitle: "Module 2"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/signature-on-form.jpg
+    data-background-opacity: "0.4"
+---
+
+# Lesson 2 - Let's build a digital consent app
+
+* What is a python virtual environment?
+* What is OOP?
+* What is a frontend?
+* What is a backend?
+* Streamlit
+* Suprabase
+* st_supabase_connection library
+* What is an API?
+* Tables and records, query
+* Strange line dropping in VScode (linting, formatting)
+* Recommend doing small changes to code saving, and checking what happens in the browser
+* List comprehension, how to read and write them
+* magicEnabled = false
+* Queries get all data. Really should only get the data you need
+* Streamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, press a button)
+* Sometimes you need to refresh the browser to get certain codes changes to work
+* What is state
+* field labels, keys, on_change, lists for selectbox
+* Why the text field and selectbox outside of the form. Because Streamlit.io does not allow for dynamic update within forms before submitting
+* Return nothing = `return`
+* global variables
+* field types
+* What is a web browser
+* What languages do we use in web browsers - JS, TS, HTML, CSS, more fancy ones (XML)
+* what is a function, how to write one. (Anatomy of a function)
+* Anatomy of the for loop. Loop variable. The use of `else` with for loops. `breaks`
+* Don't forget indentation and colons `:`
+* `all` statement
+* Initialising variables
+
+```{.bash}
+streamlit hello
+```
+
+* create app.py and add
+
+```{.python filename="app.py"}
+import streamlit as st
+
+st.write("Hello world")
+```
+
+```{.bash}
+streamlit run app.py
+```
+
+* When you update the code and save, click "Always rerun" (top right) in the browser to always refresh on code change.
+
+```{.python filename="----.py"}
+
+```
+
+```{.bash}
+
+```
+
+# Pit stop
+
+* How is it going? 
+* What are people getting stuck on?

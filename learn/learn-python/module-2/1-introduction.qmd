@@ -5,24 +5,23 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-color: "#ffffff"
-    data-background-color: "#698ECF"
-    data-background-video: "/media/distant-boat-at-sea.mp4"
-    data-background-video-loop: true
-
-include-in-header:
-  - text: |
-      <style>
-      #title-slide .title {
-        color: #000000;
-      }
-      </style>
+    data-background-image: /media/hello-in-soup.jpg
+    data-background-opacity: "0.4"
 ---
 
-
-## Introduction {background-image="/media/welcome-sign.jpg" background-opacity="0.4"}
+# Introduction {background-image="/media/welcome-sign.jpg" background-opacity="0.4"}
 
 * Welcome and thank you for joining our course.
 * We hope you enjoy the course and find it helpful.
-* There are plans for further, more advanced courses, in the near future.
 * Please provide feedback at the end of the course, so we can help improve things further.
+
+## What are we going to cover? {background-image="/media/whiteboard-flowchart.jpg" background-opacity="0.4"}
+
+* In this 3 hour session, we are going to cover:
+    * Process mapping (just a quick session on this)
+    * Building a digital consent app (browser based)
+
+
+## Lots to cover {background-image="/media/hopscotch.jpg" background-opacity="0.4"}
+
+* So let's get started.
