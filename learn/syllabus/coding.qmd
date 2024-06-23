@@ -53,6 +53,7 @@
 * Python virtual environments
 * Docker and containers
 * OS virtual environments
+* Kubernetes
 
 ## 7. Object-Oriented Programming (Difficulty: 6/10)
 
