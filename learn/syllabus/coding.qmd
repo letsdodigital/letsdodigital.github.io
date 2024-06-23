@@ -1,12 +1,5 @@
 # All coding topics
 
-## Key points
-
-* 3 hour session
-* Similar layout of lectures and hands-on material as module 1.
-* 2-10 tutors with break out rooms for 3-5 students.
-* Step by step leaning of ideas and practical exercises.
-
 ## 1. Introduction to Python (Difficulty: 1/10)
 
 * Basic syntax
