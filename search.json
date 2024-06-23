@@ -312,7 +312,7 @@
     "href": "learn/syllabus/clinical-informatician.html",
     "title": "Clinical informatician",
     "section": "",
-    "text": "This is currently being worked on with fellow Clinicains who code.\nWatch this space."
+    "text": "This is currently being worked on. The repo is here.\nWatch this space."
   },
   {
     "objectID": "learn/learn-python/index.html",
@@ -1386,6 +1386,139 @@
     "text": "Authentication / authorizathion / role based access control\nWeb security\nDeployment"
   },
   {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#so-where-to-start",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#so-where-to-start",
+    "title": "Building a digital consent form",
+    "section": "So, where to start?",
+    "text": "So, where to start?\n\nDon’t worry, we will get you coding soon.\nHowever, it is probably a good idea to make sure you are familiar with all of the coding concepts you need to build a digital consent form."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-be-building-a",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-be-building-a",
+    "title": "Building a digital consent form",
+    "section": "We are going to be building a…",
+    "text": "We are going to be building a…\n\nA web based digital healthcare app\nThis needs a frontend and and backend\n\nFrontend - what you see and interact with\nThe brains (in most cases) and data storage of your app"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-web-browser",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-web-browser",
+    "title": "Building a digital consent form",
+    "section": "What is a web browser",
+    "text": "What is a web browser\n\nWhat is a web browser\nWhat languages do we use in web browsers - JS, TS, HTML, CSS, more fancy ones (XML)"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
+    "title": "Building a digital consent form",
+    "section": "We are going to cheat",
+    "text": "We are going to cheat\n\nAs we do not have time to build both the front and backend, we have created a cloud database (specifically suprabase) for you to connect to\nThe “brains” and frontend will be managed by the streamlit server that you will build.\nA server is basically a computer program that provides you with a web page to interact with"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-a-python-virtual-environment",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-a-python-virtual-environment",
+    "title": "Building a digital consent form",
+    "section": "We need a python virtual environment",
+    "text": "We need a python virtual environment\n\nIf you do not see (.venv) on your command line, as a tutor to help get it up and running."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-library",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-library",
+    "title": "Building a digital consent form",
+    "section": "What is a library",
+    "text": "What is a library\n\nYou will be using different libraries in this build\nA library is basically a collection of code that provides set functionality\nYou need to import libraries to use them"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-an-api",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-an-api",
+    "title": "Building a digital consent form",
+    "section": "What is an API",
+    "text": "What is an API\n\nAn application process interface (API) is a means for computer programs, on the same computer or over networks or even the internet to communicate together."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#data-in-a-database",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#data-in-a-database",
+    "title": "Building a digital consent form",
+    "section": "Data in a database",
+    "text": "Data in a database\n\nMuch like a spreadsheet, data is stored in a database in tables\nEach row in the database is called a record\nYou query the database to get data from it\nQueries in streamlit get all data. Really should only get the data you need"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#python-related-material-1",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#python-related-material-1",
+    "title": "Building a digital consent form",
+    "section": "Python related material 1",
+    "text": "Python related material 1\n\nwhat is a function, how to write one. (Anatomy of a function)\nList comprehension, how to read and write them\nWhat is state\nReturn nothing = return\nglobal variables"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#python-related-material-2",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#python-related-material-2",
+    "title": "Building a digital consent form",
+    "section": "Python related material 2",
+    "text": "Python related material 2\n\nAnatomy of the for loop. Loop variable. The use of else with for loops. breaks\nDon’t forget indentation and colons :\nall statement\nInitialising variables"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#frontend-related-material-in-streamlit",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#frontend-related-material-in-streamlit",
+    "title": "Building a digital consent form",
+    "section": "Frontend related material (in streamlit)",
+    "text": "Frontend related material (in streamlit)\n\nField labels, keys, on_change, lists for selectbox\nfield types - st.text, st.selectbox, st.error"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#have-the-slides-on-hand",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#have-the-slides-on-hand",
+    "title": "Building a digital consent form",
+    "section": "Have the slides on hand",
+    "text": "Have the slides on hand\n\nMake sure you have the slides on hand - https://letsdodigital.org/learn/learn-python/module-2/\nYou will likely need them as you build your digital consent form.\nRecommend doing small changes to code saving, and checking what happens in the browser"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#ask",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#ask",
+    "title": "Building a digital consent form",
+    "section": "Ask",
+    "text": "Ask\n\nPlease please please ask questions of your tutor. That is why they are here.\n\nThere is no such thing as a stupid question, only a question left unanswered"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
+    "title": "Building a digital consent form",
+    "section": "Nuances of streamlit",
+    "text": "Nuances of streamlit\n\nWhen you update the code and save, click “Always rerun” (top right) in the browser to always refresh on code change.\nSometimes you need to refresh the browser to get certain codes changes to work\nStreamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, press a button)\nWhy the text field and selectbox outside of the form. Because Streamlit.io does not allow for dynamic update within forms before submitting"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#want-further-output-to-the-browser",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#want-further-output-to-the-browser",
+    "title": "Building a digital consent form",
+    "section": "Want further output to the browser?",
+    "text": "Want further output to the browser?\n\nmagicEnabled = false"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#linting-formatting",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#linting-formatting",
+    "title": "Building a digital consent form",
+    "section": "Linting / formatting",
+    "text": "Linting / formatting\n\nStrange line dropping in VScode (linting, formatting)"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#where-to-start",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#where-to-start",
+    "title": "Building a digital consent form",
+    "section": "Where to start",
+    "text": "Where to start\n\nPick a terminal (there should be loads to choose from)\nGo to…\n\ncd users/[your_name]/module_2/\nand then run\nstreamlit run lesson_2.py"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#this-will-run",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#this-will-run",
+    "title": "Building a digital consent form",
+    "section": "This will run",
+    "text": "This will run\n\n\nlesson_2.py\n\ndef main():\n    st.title(\"Hello\")\n    st.text(\"Hello World!\")\n\n    return\n\n\nif __name__ == \"__main__\":\n    main()\n\nAnd…"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#start-the-browser",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#start-the-browser",
+    "title": "Building a digital consent form",
+    "section": "Start the browser",
+    "text": "Start the browser\nPicture of browser"
+  },
+  {
     "objectID": "learn/learn-python/topics.html",
     "href": "learn/learn-python/topics.html",
     "title": "All coding topics",
@@ -1551,7 +1684,7 @@
     "href": "learn/index.html#clinical-informatics",
     "title": "Education",
     "section": "Clinical informatics",
-    "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here here."
+    "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here."
   },
   {
     "objectID": "learn/index.html#coding-cheat-sheets",
@@ -1572,7 +1705,7 @@
     "href": "learn/syllabus/clinician-who-codes.html#the-reasoning-behind-it-all",
     "title": "Clinician-who-codes",
     "section": "The reasoning behind it all",
-    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinicain-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
+    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinician-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
   },
   {
     "objectID": "learn/syllabus/clinician-who-codes.html#so-what-would-you-need-to-learn",
