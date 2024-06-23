@@ -308,25 +308,60 @@
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "learn/syllabus/clinical-informatician.html",
-    "href": "learn/syllabus/clinical-informatician.html",
-    "title": "Clinical informatician",
+    "objectID": "learn/syllabus/clinician-who-codes.html",
+    "href": "learn/syllabus/clinician-who-codes.html",
+    "title": "Clinician-who-codes",
     "section": "",
-    "text": "This is currently being worked on. The repo is here.\nWatch this space."
+    "text": "By Mark Bailey"
   },
   {
-    "objectID": "learn/learn-python/index.html",
-    "href": "learn/learn-python/index.html",
-    "title": "Programming in Healthcare",
-    "section": "",
-    "text": "Welcome to the Programming in Healthcare course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
+    "objectID": "learn/syllabus/clinician-who-codes.html#the-reasoning-behind-it-all",
+    "href": "learn/syllabus/clinician-who-codes.html#the-reasoning-behind-it-all",
+    "title": "Clinician-who-codes",
+    "section": "The reasoning behind it all",
+    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinician-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
   },
   {
-    "objectID": "learn/learn-python/index.html#modules",
-    "href": "learn/learn-python/index.html#modules",
-    "title": "Programming in Healthcare",
-    "section": "Modules",
-    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nWe aim to deliver 5-10 modules on programming in healthcare"
+    "objectID": "learn/syllabus/clinician-who-codes.html#so-what-would-you-need-to-learn",
+    "href": "learn/syllabus/clinician-who-codes.html#so-what-would-you-need-to-learn",
+    "title": "Clinician-who-codes",
+    "section": "So what would you need to learn?",
+    "text": "So what would you need to learn?\n\nClinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).\nClinical informatics (see separate syllabus here).\nCoding skills."
+  },
+  {
+    "objectID": "learn/index.html",
+    "href": "learn/index.html",
+    "title": "Education",
+    "section": "",
+    "text": "Available educational resources include:"
+  },
+  {
+    "objectID": "learn/index.html#coding-programmatic",
+    "href": "learn/index.html#coding-programmatic",
+    "title": "Education",
+    "section": "Coding (programmatic)",
+    "text": "Coding (programmatic)\nThere are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.\n\nLearn to code in python"
+  },
+  {
+    "objectID": "learn/index.html#ask-a-clinician",
+    "href": "learn/index.html#ask-a-clinician",
+    "title": "Education",
+    "section": "Ask a clinician",
+    "text": "Ask a clinician\nThe slides from the first webinar of this series can be found here."
+  },
+  {
+    "objectID": "learn/index.html#syllabus",
+    "href": "learn/index.html#syllabus",
+    "title": "Education",
+    "section": "Syllabus",
+    "text": "Syllabus\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here.\nInterested in becoming a coding, view a syllabus in the making here."
+  },
+  {
+    "objectID": "learn/index.html#coding-cheat-sheets",
+    "href": "learn/index.html#coding-cheat-sheets",
+    "title": "Education",
+    "section": "Coding cheat sheets",
+    "text": "Coding cheat sheets\nA collection of code and commands."
   },
   {
     "objectID": "learn/learn-python/module-2/2-process-mapping.html#what-is-process-mapping",
@@ -1519,200 +1554,165 @@
     "text": "Start the browser\nPicture of browser"
   },
   {
-    "objectID": "learn/learn-python/topics.html",
-    "href": "learn/learn-python/topics.html",
-    "title": "All coding topics",
+    "objectID": "learn/learn-python/index.html",
+    "href": "learn/learn-python/index.html",
+    "title": "Programming in Healthcare",
     "section": "",
-    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises.\n\n\n\n\n\nBasic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations\n\n\n\n\n\nConditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements\n\n\n\n\n\nIndexing (starts from 0)\nLists\nTuples\nDictionaries\nSets\n\n\n\n\n\nDefining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)\n\n\n\n\n\nReading from and writing to files\nWorking with different file formats (text files, CSV, JSON)\n\n\n\n\n\nImporting modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django\n\n\n\n\n\nHome computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments\n\n\n\n\n\nClasses and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction\n\n\n\n\n\nException handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions\n\n\n\n\n\nAdvanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing\n\n\n\n\n\nUsing and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing\n\n\n\n\n\nThreading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications\n\n\n\n\n\nPattern matching using regular expressions\nRegular expression syntax\nUsing the re module\n\n\n\n\n\nWriting and running unit tests using unittest or pytest\nTest-driven development (TDD) approach\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs\n\n\n\n\n\nNumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM\n\n\n\n\n\nMetaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode\n\n\n\n\n\nBasics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
+    "text": "Welcome to the Programming in Healthcare course on learning how to code. This course has been designed for the beginner, all the way up to the advanced programmer."
   },
   {
-    "objectID": "learn/learn-python/topics.html#key-points",
-    "href": "learn/learn-python/topics.html#key-points",
+    "objectID": "learn/learn-python/index.html#modules",
+    "href": "learn/learn-python/index.html#modules",
+    "title": "Programming in Healthcare",
+    "section": "Modules",
+    "text": "Modules\n\nModule 1 - Where is the on switch?\nModule 2 - Let’s take things to the next level\n\nWe aim to deliver 5-10 modules on programming in healthcare"
+  },
+  {
+    "objectID": "learn/syllabus/clinical-informatician.html",
+    "href": "learn/syllabus/clinical-informatician.html",
+    "title": "Clinical informatician",
+    "section": "",
+    "text": "This is currently being worked on. The repo is here.\nWatch this space."
+  },
+  {
+    "objectID": "learn/syllabus/coding.html",
+    "href": "learn/syllabus/coding.html",
+    "title": "All coding topics",
+    "section": "",
+    "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises.\n\n\n\n\n\nBasic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations\n\n\n\n\n\nConditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements\n\n\n\n\n\nIndexing (starts from 0)\nLists\nTuples\nDictionaries\nSets\n\n\n\n\n\nDefining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)\n\n\n\n\n\nReading from and writing to files\nWorking with different file formats (text files, CSV, JSON)\n\n\n\n\n\nImporting modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django\n\n\n\n\n\nHome computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments\nKubernetes\n\n\n\n\n\nClasses and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction\n\n\n\n\n\nException handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions\n\n\n\n\n\nAdvanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing\n\n\n\n\n\nUsing and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing\n\n\n\n\n\nThreading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications\n\n\n\n\n\nPattern matching using regular expressions\nRegular expression syntax\nUsing the re module\n\n\n\n\n\nWriting and running unit tests using unittest or pytest\nTest-driven development (TDD) approach\n\n\n\n\n\nBasics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs\n\n\n\n\n\nNumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM\n\n\n\n\n\nMetaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode\n\n\n\n\n\nBasics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
+  },
+  {
+    "objectID": "learn/syllabus/coding.html#key-points",
+    "href": "learn/syllabus/coding.html#key-points",
     "title": "All coding topics",
     "section": "",
     "text": "3 hour session\nSimilar layout of lectures and hands-on material as module 1.\n2-10 tutors with break out rooms for 3-5 students.\nStep by step leaning of ideas and practical exercises."
   },
   {
-    "objectID": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
-    "href": "learn/learn-python/topics.html#introduction-to-python-difficulty-110",
+    "objectID": "learn/syllabus/coding.html#introduction-to-python-difficulty-110",
+    "href": "learn/syllabus/coding.html#introduction-to-python-difficulty-110",
     "title": "All coding topics",
     "section": "",
     "text": "Basic syntax\nVariables and data types\nBasic input/output\nBasic arithmetic operations"
   },
   {
-    "objectID": "learn/learn-python/topics.html#control-flow-difficulty-210",
-    "href": "learn/learn-python/topics.html#control-flow-difficulty-210",
+    "objectID": "learn/syllabus/coding.html#control-flow-difficulty-210",
+    "href": "learn/syllabus/coding.html#control-flow-difficulty-210",
     "title": "All coding topics",
     "section": "",
     "text": "Conditional statements (if, elif, else)\nLooping (for loops, while loops)\nBreak and continue statements"
   },
   {
-    "objectID": "learn/learn-python/topics.html#data-structures-difficulty-310",
-    "href": "learn/learn-python/topics.html#data-structures-difficulty-310",
+    "objectID": "learn/syllabus/coding.html#data-structures-difficulty-310",
+    "href": "learn/syllabus/coding.html#data-structures-difficulty-310",
     "title": "All coding topics",
     "section": "",
     "text": "Indexing (starts from 0)\nLists\nTuples\nDictionaries\nSets"
   },
   {
-    "objectID": "learn/learn-python/topics.html#functions-difficulty-410",
-    "href": "learn/learn-python/topics.html#functions-difficulty-410",
+    "objectID": "learn/syllabus/coding.html#functions-difficulty-410",
+    "href": "learn/syllabus/coding.html#functions-difficulty-410",
     "title": "All coding topics",
     "section": "",
     "text": "Defining functions\nFunction arguments (positional arguments, keyword arguments, default values)\nReturning values from functions\nScope of variables (global vs. local)"
   },
   {
-    "objectID": "learn/learn-python/topics.html#file-handling-difficulty-410",
-    "href": "learn/learn-python/topics.html#file-handling-difficulty-410",
+    "objectID": "learn/syllabus/coding.html#file-handling-difficulty-410",
+    "href": "learn/syllabus/coding.html#file-handling-difficulty-410",
     "title": "All coding topics",
     "section": "",
     "text": "Reading from and writing to files\nWorking with different file formats (text files, CSV, JSON)"
   },
   {
-    "objectID": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
-    "href": "learn/learn-python/topics.html#libraries-frameworks-modules-and-packages-difficulty-510",
+    "objectID": "learn/syllabus/coding.html#libraries-frameworks-modules-and-packages-difficulty-510",
+    "href": "learn/syllabus/coding.html#libraries-frameworks-modules-and-packages-difficulty-510",
     "title": "All coding topics",
     "section": "",
     "text": "Importing modules, pip\nCreating and using packages\nUnderstanding the Python Standard Library\nFrameworks, like Django"
   },
   {
-    "objectID": "learn/learn-python/topics.html#environments-difficulty-610",
-    "href": "learn/learn-python/topics.html#environments-difficulty-610",
+    "objectID": "learn/syllabus/coding.html#environments-difficulty-610",
+    "href": "learn/syllabus/coding.html#environments-difficulty-610",
     "title": "All coding topics",
     "section": "",
-    "text": "Home computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments"
+    "text": "Home computer / bare metal server / cloud\nPython virtual environments\nDocker and containers\nOS virtual environments\nKubernetes"
   },
   {
-    "objectID": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
-    "href": "learn/learn-python/topics.html#object-oriented-programming-difficulty-610",
+    "objectID": "learn/syllabus/coding.html#object-oriented-programming-difficulty-610",
+    "href": "learn/syllabus/coding.html#object-oriented-programming-difficulty-610",
     "title": "All coding topics",
     "section": "",
     "text": "Classes and objects\nAttributes and methods\nInheritance and polymorphism\nEncapsulation and abstraction"
   },
   {
-    "objectID": "learn/learn-python/topics.html#error-handling-difficulty-410",
-    "href": "learn/learn-python/topics.html#error-handling-difficulty-410",
+    "objectID": "learn/syllabus/coding.html#error-handling-difficulty-410",
+    "href": "learn/syllabus/coding.html#error-handling-difficulty-410",
     "title": "All coding topics",
     "section": "",
     "text": "Exception handling (try, except, finally)\nRaising exceptions\nHandling different types of errors\ntry, catch, except, else, finally, custom exceptions"
   },
   {
-    "objectID": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
-    "href": "learn/learn-python/topics.html#advanced-data-structures-difficulty-710",
+    "objectID": "learn/syllabus/coding.html#advanced-data-structures-difficulty-710",
+    "href": "learn/syllabus/coding.html#advanced-data-structures-difficulty-710",
     "title": "All coding topics",
     "section": "",
     "text": "Advanced usage of lists, tuples, dictionaries, and sets\nList comprehensions\nGenerators and generator expressions\nAdvanced dictionary techniques\nnumpy, pandas, polars\nslicing and filtering\ndeleting and adding\nAliasing"
   },
   {
-    "objectID": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
-    "href": "learn/learn-python/topics.html#decorators-and-context-managers-difficulty-710",
+    "objectID": "learn/syllabus/coding.html#decorators-and-context-managers-difficulty-710",
+    "href": "learn/syllabus/coding.html#decorators-and-context-managers-difficulty-710",
     "title": "All coding topics",
     "section": "",
     "text": "Using and creating decorators\nContext managers using the with statement\nDecorator applications such as memoization, logging, and timing"
   },
   {
-    "objectID": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
-    "href": "learn/learn-python/topics.html#concurrency-and-parallelism-difficulty-810",
+    "objectID": "learn/syllabus/coding.html#concurrency-and-parallelism-difficulty-810",
+    "href": "learn/syllabus/coding.html#concurrency-and-parallelism-difficulty-810",
     "title": "All coding topics",
     "section": "",
     "text": "Threading and multiprocessing\nAsynchronous programming with asyncio\nGIL (Global Interpreter Lock) and its implications"
   },
   {
-    "objectID": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
-    "href": "learn/learn-python/topics.html#regular-expressions-difficulty-610",
+    "objectID": "learn/syllabus/coding.html#regular-expressions-difficulty-610",
+    "href": "learn/syllabus/coding.html#regular-expressions-difficulty-610",
     "title": "All coding topics",
     "section": "",
     "text": "Pattern matching using regular expressions\nRegular expression syntax\nUsing the re module"
   },
   {
-    "objectID": "learn/learn-python/topics.html#testing-difficulty-510",
-    "href": "learn/learn-python/topics.html#testing-difficulty-510",
+    "objectID": "learn/syllabus/coding.html#testing-difficulty-510",
+    "href": "learn/syllabus/coding.html#testing-difficulty-510",
     "title": "All coding topics",
     "section": "",
     "text": "Writing and running unit tests using unittest or pytest\nTest-driven development (TDD) approach"
   },
   {
-    "objectID": "learn/learn-python/topics.html#web-development-difficulty-610",
-    "href": "learn/learn-python/topics.html#web-development-difficulty-610",
+    "objectID": "learn/syllabus/coding.html#web-development-difficulty-610",
+    "href": "learn/syllabus/coding.html#web-development-difficulty-610",
     "title": "All coding topics",
     "section": "",
     "text": "Basics of HTML, CSS, and JavaScript\nWeb frameworks (e.g., Flask, Django, fastAPI)\nRESTful APIs"
   },
   {
-    "objectID": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
-    "href": "learn/learn-python/topics.html#data-science-and-visualization-difficulty-810",
+    "objectID": "learn/syllabus/coding.html#data-science-and-visualization-difficulty-810",
+    "href": "learn/syllabus/coding.html#data-science-and-visualization-difficulty-810",
     "title": "All coding topics",
     "section": "",
     "text": "NumPy and pandas for data manipulation\nData visualization with Matplotlib and Seaborn\nIntroduction to machine learning with scikit-learn\nAI / ML / NN / NLP / LLM"
   },
   {
-    "objectID": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
-    "href": "learn/learn-python/topics.html#advanced-topics-difficulty-910",
+    "objectID": "learn/syllabus/coding.html#advanced-topics-difficulty-910",
+    "href": "learn/syllabus/coding.html#advanced-topics-difficulty-910",
     "title": "All coding topics",
     "section": "",
     "text": "Metaprogramming\nClosures and lexical scoping\nCustom iterators and iterables\nPython internals and bytecode"
   },
   {
-    "objectID": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
-    "href": "learn/learn-python/topics.html#type-annotations-and-static-typing-difficulty-510",
+    "objectID": "learn/syllabus/coding.html#type-annotations-and-static-typing-difficulty-510",
+    "href": "learn/syllabus/coding.html#type-annotations-and-static-typing-difficulty-510",
     "title": "All coding topics",
     "section": "",
     "text": "Basics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
-  },
-  {
-    "objectID": "learn/index.html",
-    "href": "learn/index.html",
-    "title": "Education",
-    "section": "",
-    "text": "Available educational resources include:"
-  },
-  {
-    "objectID": "learn/index.html#coding-programmatic",
-    "href": "learn/index.html#coding-programmatic",
-    "title": "Education",
-    "section": "Coding (programmatic)",
-    "text": "Coding (programmatic)\nThere are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.\n\nLearn to code in python"
-  },
-  {
-    "objectID": "learn/index.html#ask-a-clinician",
-    "href": "learn/index.html#ask-a-clinician",
-    "title": "Education",
-    "section": "Ask a clinician",
-    "text": "Ask a clinician\nThe slides from the first webinar of this series can be found here."
-  },
-  {
-    "objectID": "learn/index.html#clinical-informatics",
-    "href": "learn/index.html#clinical-informatics",
-    "title": "Education",
-    "section": "Clinical informatics",
-    "text": "Clinical informatics\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here."
-  },
-  {
-    "objectID": "learn/index.html#coding-cheat-sheets",
-    "href": "learn/index.html#coding-cheat-sheets",
-    "title": "Education",
-    "section": "Coding cheat sheets",
-    "text": "Coding cheat sheets\nA collection of code and commands."
-  },
-  {
-    "objectID": "learn/syllabus/clinician-who-codes.html",
-    "href": "learn/syllabus/clinician-who-codes.html",
-    "title": "Clinician-who-codes",
-    "section": "",
-    "text": "By Mark Bailey"
-  },
-  {
-    "objectID": "learn/syllabus/clinician-who-codes.html#the-reasoning-behind-it-all",
-    "href": "learn/syllabus/clinician-who-codes.html#the-reasoning-behind-it-all",
-    "title": "Clinician-who-codes",
-    "section": "The reasoning behind it all",
-    "text": "The reasoning behind it all\nAs far as I know, there is no course currently out in how to become a Clinician-who-codes (CWC). This saddens me.\nI have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.\nI would have given my left arm to study a Clinician-who-code course. Today, I am left with the feeling that a CWC course still needs to exist. I fully appreciate that no everyone needs to have in depth knowledge of both clinical and digital (aka coding) aspects of digital healthcare to be able to work in this domain. However, I see a lot of benefits of having a CWC on your digital healthcare team:\n\nA broad understanding of the intricacies of how computers work and how they can complement, rather than hinder, clinicians and their workflows.\nServe as a translator between digital and clinical teams.\nWhy not have the end-user on your team to tell you what is and what is not going to work!"
-  },
-  {
-    "objectID": "learn/syllabus/clinician-who-codes.html#so-what-would-you-need-to-learn",
-    "href": "learn/syllabus/clinician-who-codes.html#so-what-would-you-need-to-learn",
-    "title": "Clinician-who-codes",
-    "section": "So what would you need to learn?",
-    "text": "So what would you need to learn?\n\nClinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).\nClinical informatics (see separate syllabus here).\nCoding skills."
   },
   {
     "objectID": "tickets/programming-in-healthcare-module-1-July-2024.html",
