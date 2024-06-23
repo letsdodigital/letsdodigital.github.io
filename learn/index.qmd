@@ -16,9 +16,9 @@ The slides from the first webinar of this series can be found [here](ask-a-clini
 
 ## Clinical informatics
 
-Interested in becoming a **clinical informatician**, view a syllabus in the making [here](/learn/syllabi/clinical-informatician.qmd).
+Interested in becoming a **clinical informatician**, view a syllabus in the making [here](/learn/syllabus/clinical-informatician.qmd).
 
-Interested in becoming a **clinician-who-codes**, view a syllabus in the making here [here](/learn/syllabi/clinician-who-codes.qmd).
+Interested in becoming a **clinician-who-codes**, view a syllabus in the making [here](/learn/syllabus/clinician-who-codes.qmd).
 
 ## Coding cheat sheets
 

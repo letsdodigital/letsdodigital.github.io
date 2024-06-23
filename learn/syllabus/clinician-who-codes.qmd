@@ -6,7 +6,7 @@ By Mark Bailey
 
 ## The reasoning behind it all
 
-As far as I know, there is no course currently out in how to become a **Clinicain-who-codes** (CWC). This saddens me. 
+As far as I know, there is no course currently out in how to become a **Clinician-who-codes** (CWC). This saddens me. 
 
 I have pretty much defined myself as a CWC since I discovered digital health in 2018. It was back then that I started building different apps to speed up mine and colleagues clinical and admin workflows. I even got some robotic process automation in there.
 
@@ -19,5 +19,5 @@ I would have given my left arm to study a Clinician-who-code course. Today, I am
 ## So what would you need to learn?
 
 * Clinical speciality (pharmacist, midwife, nurse, doctor, paramedic, etc).
-* Clinical informatics (see separate syllabus [here](/learn/syllabi/clinical-informatician.qmd)).
+* Clinical informatics (see separate syllabus [here](/learn/syllabus/clinical-informatician.qmd)).
 * Coding skills.
