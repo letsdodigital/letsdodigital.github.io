@@ -332,7 +332,7 @@ title: "Agenda 2024"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/stef-Piatek.png" alt="picture of Stef Piatek" class="agenda-image-small">
+            <img src="/media/stef-piatek.png" alt="picture of Stef Piatek" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
             Stef Piatek - Technical Programme Director, Clinical Research Informatics Unit, University College London Hospitals NHS Foundation Trust
