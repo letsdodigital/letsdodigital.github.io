@@ -267,7 +267,7 @@ title: "Agenda 2024"
             <img src="/media/nick-bell.png" alt="picture of Nick Bell" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Nick Ball - Consultant Physician in General, Respiratory and Adult Cystic Fibrosis Medicine at the Bristol Royal Infirmary
+            Nick Bell - Consultant Physician in General, Respiratory and Adult Cystic Fibrosis Medicine at the Bristol Royal Infirmary
         </div>
     </div>
 </div>
