@@ -127,7 +127,7 @@ title: "Agenda 2024"
             <img src="/media/michal-pruski-circle.png" alt="picture of Michal Pruski" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Michal Pruski - Clinical Scientist undertaking the HSST in Health/Clinical Informatics
+            Michal Pruski - University of Manchester & Cardiff and Vale UHB,
         </div>
     </div>
 </div>
