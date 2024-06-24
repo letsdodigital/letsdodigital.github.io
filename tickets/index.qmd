@@ -23,6 +23,10 @@ image: /media/tickets.png
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician-2.qmd)
 
+## 22nd August 2024
+
+[{{< var coding-series-title >}} - Module 2](programming-in-healthcare/module-2-22-08-24.qmd)
+
 ## 24th October 2024
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
