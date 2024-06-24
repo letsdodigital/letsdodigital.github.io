@@ -1,5 +1,6 @@
 ---
 title: "Let's Do Digital"
+description: "Join the Let's Do Digital community to learn, collaborate, and innovate"
 ---
 
 ```{=html}
@@ -27,9 +28,11 @@ title: "Let's Do Digital"
 <script src="/scripts.js"></script>
 ```
 
-**Let's Do Digital** has been a centre for safe and open discussion and learning around digital health since 2022. We have had two great conferences and several webinars to date. 
+**Welcome to Let's Do Digital** – Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to transforming the future of healthcare through education and collaboration. Join our vibrant community of healthcare professionals, educators, and tech enthusiasts to access comprehensive resources, connect with like-minded individuals, and explore innovative ideas. Together, we can revolutionise digital healthcare and make a lasting impact. Dive in, explore, and start your journey with us today!
 
 ## Updates
+
+24/06/24 - Module 2 of the popular **Programming in Healthcare** course is now open. Learn more advanced programming skills and build your very own **digital consent form**. Register [here](/tickets/programming-in-healthcare/module-2-22-08-24.qmd)
 
 23/04/24 - Registration for this year's **Let's Talk Digital Conference** is now open. Sign up [here](/conferences/2024/index.qmd).
 
@@ -39,6 +42,33 @@ title: "Let's Do Digital"
 
 18/04/24 - Our first **{{< var coding-series-title >}} course** is now open to registration. Please find further details about the course and registration [here](/tickets/programming-in-healthcare-module-1-June-2024.qmd).
 
+## What the Let's Do Digital Community is saying
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/moustache-avatar.png" alt="Avatar of Moustached man" class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Really great chance to introduce myself to a new group of like-minded people, as I start out in a new direction in my career.
+        </div>
+    </div>
+</div>
+
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/lady-smiling-avatar.png" alt="Avatar of smiling lady" class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            The openness of the people talking about real problems and trying to address them.
+        </div>
+    </div>
+</div>
+```
+
+## Supporters of Let's Do Digital
 
 ```{=html}
 <div class="supporter-frame">
@@ -55,3 +85,8 @@ title: "Let's Do Digital"
     <p class="italic-grey">If you wish to support us, please follow the Sponsor link in the navigation bar above.</p>
 </div>
 ```
+
+## How to get involved
+
+Do you want to get involved in current Let's Do Digital projects? Do you have a webinar series, course or app that you want to get off the ground with the help of the Let's Do Digital. Come join us for networking, collaboration and innovation. Email the team at 
+[Let's Do Digital](mailto:info@letsdodigital.org). Better yet, join our forum at [Digital Health Discourse](https://discourse.digitalhealth.net/g/lets-do-digital).

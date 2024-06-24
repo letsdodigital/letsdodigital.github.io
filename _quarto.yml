@@ -20,13 +20,10 @@ website:
         text: "Webinars"
       - href: tickets/index.qmd
         text: "Tickets"
-      - href: sponsor.qmd
-        text: Sponsor
-      - href: paying-the-team.qmd
-        text: Paying the team
       - posts.qmd
+      - forum.qmd
       - who-are-we.qmd
-      - contact.qmd
+      
   page-footer: 
     left: 
       - href: contact.qmd
@@ -35,6 +32,10 @@ website:
         text: Privacy Policy
       - href: company-information.qmd
         text: Company information
+      - href: sponsor.qmd
+        text: Sponsor us
+      - href: paying-the-team.qmd
+        text: Paying the team
     right: 
       - icon: github
         href: https://github.com/letsdodigital
