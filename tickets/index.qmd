@@ -3,32 +3,33 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
-## 13th June 2024
-
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-1 >}}](ask-a-clinician-1.qmd)
-
-## 27th June 2024
+### 27th June 2024
 
 [{{< var coding-series-title >}} - Module 1](programming-in-healthcare-module-1-June-2024.qmd)
 
-## 3rd July 2024
+### 3rd July 2024
 
 [{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
 
-## 16th of July 2024
+### 16th of July 2024
 
 [{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
 
-## 1st August 2024
+### 1st August 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician-2.qmd)
 
-## 22nd August 2024
+### 22nd August 2024
 
 [{{< var coding-series-title >}} - Module 2](programming-in-healthcare/module-2-22-08-24.qmd)
 
-## 24th October 2024
+### 24th October 2024
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
 
 
+## Previous events
+
+### 13th June 2024
+
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-1 >}}](ask-a-clinician-1.qmd)
