@@ -30,6 +30,15 @@ image: /media/tickets.png
 
 ## Previous events
 
+### July 2022
+
+[July 2022 Quarterly meeting](https://www.youtube.com/watch?v=x6-jPJxEqp8&list=PLv5yR6DkBB8rWE4m482wj5rqMK2k9NtyH)
+
+### October 2022
+
+[October 2022 Quarterly meeting](https://www.youtube.com/watch?v=Ke-UhqCRRlU&list=PLv5yR6DkBB8rWE4m482wj5rqMK2k9NtyH)
+
+
 ### 13th June 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-1 >}}](ask-a-clinician-1.qmd)
