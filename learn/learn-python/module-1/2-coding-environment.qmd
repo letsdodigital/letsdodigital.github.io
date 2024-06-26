@@ -20,6 +20,7 @@ title-slide-attributes:
 * In the context of this course, a development environment is synonymous with the `teaching environment`.
 
 
+
 ## <span class="hide-title">Codespace light theme</span>
 
 ![](/media/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
