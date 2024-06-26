@@ -700,13 +700,6 @@
     "text": "Where am I?\n\npwd is the print working directory command."
   },
   {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#liveshare",
-    "title": "Coding environment (and the shell)",
-    "section": "LiveShare",
-    "text": "LiveShare\n\nWe will be using liveshare for the hands-on learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment."
-  },
-  {
     "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
     "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-view",
     "title": "Coding environment (and the shell)",
@@ -714,11 +707,25 @@
     "text": "Codespace view"
   },
   {
-    "objectID": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
-    "href": "learn/learn-python/module-1/2-coding-environment.html#lession-1",
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#lesson-1",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#lesson-1",
     "title": "Coding environment (and the shell)",
-    "section": "Lession 1",
-    "text": "Lession 1\n\nJoin your tutor group in the Zoom break out rooms.\nFollow the link to the online learning environment (Codespace).\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd users/{your_name}/module-1/hands-on\n\nReplace {your_name} with your own name in the format firstname underscore lastname, eg john_doe.\nRun the following command in the new directory\n\n    $ python lession_1.py\n\nDid it work? If so, open up the lession_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lession 1."
+    "section": "Lesson 1",
+    "text": "Lesson 1\n\nMake sure you have a GitHub account.\nJoin your tutor group in the named Zoom break out rooms.\nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#codespace-load",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#codespace-load",
+    "title": "Coding environment (and the shell)",
+    "section": "Codespace load",
+    "text": "Codespace load"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#get-to-your-first-lesson",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#get-to-your-first-lesson",
+    "title": "Coding environment (and the shell)",
+    "section": "Get to your first lesson",
+    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd programming_in_healthcare/module_1\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 30 minutes for lesson 1."
   },
   {
     "objectID": "learn/learn-python/module-1/index.html",
@@ -1292,7 +1299,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#how-do-computers-think-1",
     "title": "Python basics",
     "section": "How do computers think?",
-    "text": "How do computers think?\n\nThe processor is where these yes-no questions are undertaken.\nThe processor receives instructions in binary form.\nBinary is basically a string of 1s and 0s (eg 01001011).\nAs modern computers communicate in binary (yes-no) form, they are said to be digital.\nThe processor reads these binary instructions.\nEach instruction results in either a True or False answer (aka yes-no answer). The output (aka answer) is also in binary."
+    "text": "How do computers think?\n\nThe processor is where these yes-no questions are undertaken.\nThe processor receives instructions in binary form.\nBinary is basically a string of 1s and 0s (eg 01001011).\nAs modern computers communicate in binary (yes-no) form, they are said to be digital.\nThe processor reads these binary instructions.\nEach instruction results in either a True (1) or False (0) answer (aka yes-no answer). The output (aka answer) is also in binary."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#so-how-do-we-communicate-with-computers",
@@ -1334,7 +1341,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#where-to-code",
     "title": "Python basics",
     "section": "Where to code?",
-    "text": "Where to code?\n\nThere are many integrated development environments (IDEs) for the python programming language.\nAn IDE is basically a very fancy text editor where you write code, and run it (along with some other fancy stuff).\nThere are several IDEs for python, two populat ones are VS Code and Pycharm.\nWe will be using an online version of VS Code (called Codespace), so you do not need to install anything on your computer."
+    "text": "Where to code?\n\nThere are many integrated development environments (IDEs) for the python programming language.\nAn IDE is basically a very fancy text editor where you write code, and run it (along with some other fancy stuff).\nThere are several IDEs for python, two popular ones are VS Code and Pycharm.\nWe will be using an online version of VS Code (called Codespace), so you do not need to install anything on your computer."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#what-is-in-a-code",
@@ -1355,7 +1362,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#variables-1",
     "title": "Python basics",
     "section": "Variables",
-    "text": "Variables\n\nMore complex variables include:\n\n\n\nvariables_more_complex.py\n\na_list = [\"first element of list\", \"second element of list\"]\nanother_list = [1, 5, 3, 6]\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}\na_tuple = (1, 2, 3, 4, 6, 7)\na_set = {4, 2, 5, 3}"
+    "text": "Variables\n\nMore complex variables include:\n\n\n\nvariables_more_complex.py\n\na_list = [\"first element of list\", \"second element of list\"]\nanother_list = [1, 5, 3, 6]\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}\na_tuple = (1, 2, 3, 4, 6, 7) # fixed, cannot change\na_set = {4, 2, 5, 3} # can add new items"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#spaces",
@@ -1369,7 +1376,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#double-or-single-quotation-marks",
     "title": "Python basics",
     "section": "Double or single quotation marks?",
-    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors.\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two single qoutation marks\"\nvariable_b = \"I have the wrong matching qoutation marks'\nvariable_c = 'Single quotation marks'\n\n\nSuddenly variable_c is part of the string for variable_b"
+    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks.\nIt does not matter which you chose, but be consistent. If you accidentally mix pairs of quotation marks you will get strange errors.\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two single quotation marks\"\nvariable_b = \"I have the wrong matching quotation marks'\nvariable_c = 'Single quotation marks'\n\n\nSuddenly variable_c is part of the string for variable_b and also an error!"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#using-both-types-of-quotation-marks",
@@ -1386,11 +1393,18 @@
     "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age }\")"
   },
   {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#add-strings-together",
+    "href": "learn/learn-python/module-1/3-python-basics.html#add-strings-together",
+    "title": "Python basics",
+    "section": "Add strings together",
+    "text": "Add strings together\n\nOr you can add strings together like this\n\n\n\nadding_strings.py\n\nage = 25\nprint(\"The patient's age is : \" +  age \")"
+  },
+  {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#indentation",
     "href": "learn/learn-python/module-1/3-python-basics.html#indentation",
     "title": "Python basics",
     "section": "Indentation",
-    "text": "Indentation\n\nPython is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of tabs) of expressions shows the computer which previous expression it relates to."
+    "text": "Indentation\n\nPython is extremely sensitive to indentation. One extra space or tab in front of a line of code and you will not hear the end of it in terms of errors or strange results.\nIndentation (in the form of tabs) of lines of code shows the computer which previous line(s) of code it relates to."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#indentation-1",
@@ -1425,7 +1439,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#comments-1",
     "title": "Python basics",
     "section": "Comments",
-    "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules as well (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        x: the addition of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n    \n    return x"
+    "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules as well (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        int: the sum of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n    \n    return x"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#basic-operators",
@@ -1439,14 +1453,14 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#more-advanced-operators",
     "title": "Python basics",
     "section": "More advanced operators",
-    "text": "More advanced operators\n\nThese include:\n\nBitwise: & | ^ &lt;&lt; &gt;&gt;\nMembership: in   not in\nIdentity: is   is not"
+    "text": "More advanced operators\n\nThese include:\n\nBitwise: & | ^ &lt;&lt; &gt;&gt; ~\nMembership: in   not in\nIdentity: is   is not"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#control-flow---if-statements",
     "href": "learn/learn-python/module-1/3-python-basics.html#control-flow---if-statements",
     "title": "Python basics",
     "section": "Control flow - if statements",
-    "text": "Control flow - if statements\n\n\nif_statement.py\n\npatient_allergy = \"amoxicillin\"\n\nif patient_allergy == \"amoxicillin\":\n    allergy_group = \"penicillins\"\nelif patient_allergy == \"tazocin\":\n    allergy_group = \"penicillins\"\nelse:\n    allergy_group = \"others\"\n\nprint(\"Patient is allergic to\", allergy_group)\n\nOutput\n    Patient is allergic to penicillins"
+    "text": "Control flow - if statements\n\n\nif_statement.py\n\npatient_allergy = \"amoxicillin\"\n\nif patient_allergy == \"amoxicillin\":\n    allergy_group = \"penicillins\"\nelif patient_allergy == \"tazocin\":\n    allergy_group = \"penicillins\"\nelse:\n    allergy_group = \"not defined\"\n\nprint(\"Patient is allergic to\", allergy_group)\n\nOutput\n    Patient is allergic to penicillins"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#control-flow---for-loops",
@@ -1463,39 +1477,46 @@
     "text": "Control flow - while loops\n\n\nwhile_loop.py\n\ncount = 1\n\nwhile count &lt;= 5:\n    print(count)\n    count += 1\n\nOutput\n    1\n    2\n    3\n    4\n    5"
   },
   {
-    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-methods",
-    "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods",
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods",
+    "href": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods",
     "title": "Python basics",
-    "section": "Functions (methods)",
-    "text": "Functions (methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisational entity in python).\nA function:\n\nTakes zero or more input values,\nUndertakes some process, and\nReturns zero or more output values."
+    "section": "Functions (and methods)",
+    "text": "Functions (and methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisational entity in python).\nA function:\n\nTakes zero or more input values,\nUndertakes some process, and\nReturns zero or more output values."
   },
   {
-    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-methods-1",
-    "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods-1",
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-1",
+    "href": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-1",
     "title": "Python basics",
-    "section": "Functions (methods)",
-    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+    "section": "Functions (and methods)",
+    "text": "Functions (and methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
   },
   {
-    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-methods-2",
-    "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods-2",
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-2",
+    "href": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-2",
     "title": "Python basics",
-    "section": "Functions (methods)",
-    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+    "section": "Functions (and methods)",
+    "text": "Functions (and methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
   },
   {
-    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-methods-3",
-    "href": "learn/learn-python/module-1/3-python-basics.html#functions-methods-3",
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-3",
+    "href": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-3",
     "title": "Python basics",
-    "section": "Functions (methods)",
-    "text": "Functions (methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+    "section": "Functions (and methods)",
+    "text": "Functions (and methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-4",
+    "href": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-4",
+    "title": "Python basics",
+    "section": "Functions (and methods)",
+    "text": "Functions (and methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#inbuilt-functions",
     "href": "learn/learn-python/module-1/3-python-basics.html#inbuilt-functions",
     "title": "Python basics",
     "section": "Inbuilt functions",
-    "text": "Inbuilt functions\n\nThere are some functions that are already built into python, eg\n\n\n\nbuilt_in_functions.py\n\nprint(\"hello world\")\nlen([0,1,2,3,4])"
+    "text": "Inbuilt functions\n\nThere are some functions that are already built into python, eg\n\n\n\nbuilt_in_functions.py\n\nprint(\"hello world\")\nlen([0,1,2,3,4])\n\nOutput\n    hello world\n    5"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#other-things-to-be-aware-of",
@@ -1551,7 +1572,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#computers-are-pedantic",
     "title": "Python basics",
     "section": "Computers are pedantic!",
-    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging."
+    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-1/"
   },
   {
     "objectID": "learn/learn-python/module-1/4-lets-build.html#what-to-build",
@@ -1568,11 +1589,18 @@
     "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
   },
   {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
-    "href": "learn/learn-python/module-1/4-lets-build.html#preinstalled-for-you",
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#time-to-install-a-framework",
+    "href": "learn/learn-python/module-1/4-lets-build.html#time-to-install-a-framework",
     "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "Preinstalled for you",
-    "text": "Preinstalled for you\n\nWe have preinstalled Streamlit on Codespace for you.\nTime for lession 3.\nStay in the module-1/hands-on folder.\nRun this code:\n\n\n    $ streamlit run lesson_3.py"
+    "section": "Time to install a framework",
+    "text": "Time to install a framework\n\nYou now need to install the Streamlit framework. Don’t worry, it is very easy:\n\n$ pip install streamlit\n\nStay in the module-1/hands-on folder.\nRun this code:\n\n$ streamlit run lesson_3.py"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#warning",
+    "href": "learn/learn-python/module-1/4-lets-build.html#warning",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Warning!",
+    "text": "Warning!\n\nYou are building an educational program. This is NOT to be used with real patients!"
   },
   {
     "objectID": "learn/learn-python/module-1/5-session-close.html#many-thanks",
