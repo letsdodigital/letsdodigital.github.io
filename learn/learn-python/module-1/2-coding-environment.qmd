@@ -28,7 +28,7 @@ title-slide-attributes:
 
 ## <span class="hide-title">Codespace dark theme</span>
 
-![](/media/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-dark-theme-2.png){.absolute top=0 left=0 width="max" height="max"}
 
 
 ## <span class="hide-title">Codespace layout</span>
