@@ -22,13 +22,26 @@ title-slide-attributes:
 
 ![](/media/streamlit.png){fig-align="center"}
 
-## Preinstalled for you {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
+## Time to install a framework {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
 
-* We have preinstalled `Streamlit` on Codespace for you.
-* Time for `lession 3`.
+* You now need to install the Streamlit framework. Don't worry, it is very easy:
+
+```{.bash}
+$ pip install streamlit
+```
+
 * Stay in the `module-1/hands-on` folder.
 * Run this code:
 
-<div class="terminal-border">
-        $ streamlit run lesson_3.py
-</div>
+```{.bash}
+$ streamlit run lesson_3.py
+```
+
+## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
+
+* You are building an educational program. This is NOT to be used with real patients!
+
+# Now off you go! {background-image="/media/man-at-starting-line.jpg" background-opacity="0.3"}
+
+
+* Hands on lesson_4.py for those too fast at lesson_3.py only

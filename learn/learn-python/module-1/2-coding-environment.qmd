@@ -84,35 +84,39 @@ Pro tip:
 
 # Time to try it out for yourself{background-image="/media/dive-into-lake.jpg" background-opacity="0.2"}
 
-## LiveShare
-
-* We will be using liveshare for the `hands-on` learning sessions. This is an extension of Codespace (and VS Code) that allows others to work (and learn) in the same development environment.
-
-![](/media/liveshare.png){width="max" fig-align="center" height="max" border-width="1"}
-
 
 ## <span class="hide-title">Codespace view</span>
 
-![](/media/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/lesson-1-screenshot.png){.absolute top=0 left=0 width="max" height="max"}
 
-## Lession 1 {.smaller}
+## Lesson 1 {.smaller}
 
-* Join your tutor group in the `Zoom break out rooms`.
-* `Follow the link` to the online learning environment (Codespace).
+* Make sure you have a GitHub account.
+* Join your tutor group in the named `Zoom break out rooms`.
+* Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
+* Click on the `<> Code` button and then the `Codespaces` tab.
+* Click on `Create codespace on main`
+
+## <span class="hide-title">Codespace load</span>
+
+![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
+
+
+## Get to your first lesson
+
 * Change the directory (don't type the `$`. This is just how we show this is the command line):
 
-```
-    $ cd users/{your_name}/module-1/hands-on
-```
-
-* Replace `{your_name}` with your own name in the format `firstname underscore lastname`, eg `john_doe`.
-* Run the following command in the new directory 
-
-```
-    $ python lession_1.py
+```{.bash}
+    $ cd programming_in_healthcare/module_1
 ```
 
-* Did it work? If so, open up the lession_1.py file.
+* And then
+
+```{.bash}
+    $ python lesson_1.py
+```
+
+* Did it work? If so, open up the lesson_1.py file.
 * Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 20 minutes for lession 1.
+* We will give you 30 minutes for lesson 1.

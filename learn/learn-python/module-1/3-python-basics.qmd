@@ -41,7 +41,7 @@ title-slide-attributes:
 * Binary is basically a string of `1`s and `0`s (eg 01001011).
 * As modern computers communicate in binary (yes-no) form, they are said to be `digital`.
 * The processor reads these binary instructions.
-* Each instruction results in either a `True` or `False` *answer* (aka `yes-no answer`). The `output` (aka *answer*) is also in binary.
+* Each instruction results in either a `True` (1) or `False` (0) *answer* (aka `yes-no answer`). The `output` (aka *answer*) is also in binary.
 
 
 ## So how do we communicate with computers?{background-image="/media/digital-self.jpg" background-opacity="0.3"}
@@ -88,7 +88,7 @@ title-slide-attributes:
 
 * There are many integrated development environments (IDEs) for the python programming language.
 * An IDE is basically a very fancy text editor where you write code, and run it (along with some other fancy stuff).
-* There are several IDEs for python, two populat ones are VS Code and Pycharm.
+* There are several IDEs for python, two popular ones are VS Code and Pycharm.
 * We will be using an online version of VS Code (called Codespace), so you do not need to install anything on your computer.
 
 ## What is in a code?
@@ -126,8 +126,8 @@ a_dictionary = {
     "1st key": "1st value",
     "2nd key": "2nd value",
 }
-a_tuple = (1, 2, 3, 4, 6, 7)
-a_set = {4, 2, 5, 3}
+a_tuple = (1, 2, 3, 4, 6, 7) # fixed, cannot change
+a_set = {4, 2, 5, 3} # can add new items
 ```
 
 
@@ -148,15 +148,16 @@ Syntax error:
 
 ## Double or single quotation marks?
 
-* You will see people using 'single' and also "double" quotation marks. It does not matter which you chose, but be consistent. If you accidently mix pairs of quotation marks you will get strange errors.
+* You will see people using 'single' and also "double" quotation marks. 
+* It does not matter which you chose, but be consistent. If you accidentally mix pairs of quotation marks you will get strange errors.
 
 ```{.python filename="quotation_marks.py"}
-variable_a = "All good here with two single qoutation marks"
-variable_b = "I have the wrong matching qoutation marks'
+variable_a = "All good here with two single quotation marks"
+variable_b = "I have the wrong matching quotation marks'
 variable_c = 'Single quotation marks'
 ```
 
-* Suddenly `variable_c` is part of the string for `variable_b`
+* Suddenly `variable_c` is part of the string for `variable_b` and also an error!
 
 
 ## Using both types of quotation marks
@@ -177,9 +178,19 @@ age = 25
 print(f"The patient's age is : { age }")
 ```
 
+## Add strings together
+
+* Or you can add strings together like this
+
+```{.python filename="adding_strings.py"}
+age = 25
+print("The patient's age is : " +  age ")
+```
+
 ## Indentation {background-image="/media/steps-and-child.jpg" background-opacity="0.4"}
 
-* Python is extremely sensitive to indentation. One extra space or tab in front of a line of code (an expression) and you will not hear the end of it in terms of errors or strange results. Indentation (in the form of `tabs`) of expressions shows the computer which previous expression it relates to.
+* Python is extremely sensitive to indentation. One extra space or tab in front of a line of code and you will not hear the end of it in terms of errors or strange results. 
+* Indentation (in the form of `tabs`) of lines of code shows the computer which previous line(s) of code it relates to.
 
 
 ## Indentation
@@ -279,7 +290,7 @@ def i_am_function(args1, args2):
         args1: I am the first argument to the function.
         args2: I am the second argument to the function.
     Returns:
-        x: the addition of the 2 provided arguments.
+        int: the sum of the 2 provided arguments.
     """
 
     x = args1 + args2
@@ -300,7 +311,7 @@ def i_am_function(args1, args2):
 ## More advanced operators {background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
 * These include:
-    * Bitwise: `& | ^ << >>`
+    * Bitwise: `& | ^ << >> ~`
     * Membership: `in   not in`
     * Identity: `is   is not`
 
@@ -317,7 +328,7 @@ if patient_allergy == "amoxicillin":
 elif patient_allergy == "tazocin":
     allergy_group = "penicillins"
 else:
-    allergy_group = "others"
+    allergy_group = "not defined"
 
 print("Patient is allergic to", allergy_group)
 ```
@@ -361,7 +372,7 @@ Output
         4
         5
 
-## Functions (methods) {background-image="/media/box.jpg" background-opacity="0.4"}
+## Functions (and methods) {background-image="/media/box.jpg" background-opacity="0.4"}
 
 * Blocks of reusable code that perform a specific task. 
 * Help in organising code and making it more modular.
@@ -373,9 +384,9 @@ Output
     3. Returns zero or more output values.
 
 
-## Functions (methods)
+## Functions (and methods)
 
-```{.python filename="functions.py" code-line-numbers="1"}
+```{.python filename="functions.py"}
 def name_of_function(argument_1, argument_2):
     a_variable = argument_1 + argument_2
     return_variable = "a return value"
@@ -385,9 +396,9 @@ def name_of_function(argument_1, argument_2):
     return return_variable
 ```
 
-## Functions (methods)
+## Functions (and methods)
 
-```{.python filename="functions.py" code-line-numbers="2"}
+```{.python filename="functions.py" code-line-numbers="2,3"}
 def name_of_function(argument_1, argument_2):
     a_variable = argument_1 + argument_2
     return_variable = "a return value"
@@ -397,7 +408,19 @@ def name_of_function(argument_1, argument_2):
     return return_variable
 ```
 
-## Functions (methods)
+## Functions (and methods)
+
+```{.python filename="functions.py" code-line-numbers="5"}
+def name_of_function(argument_1, argument_2):
+    a_variable = argument_1 + argument_2
+    return_variable = "a return value"
+
+    print (a_variable)
+
+    return return_variable
+```
+
+## Functions (and methods)
 
 ```{.python filename="functions.py" code-line-numbers="7"}
 def name_of_function(argument_1, argument_2):
@@ -417,6 +440,12 @@ print("hello world")
 len([0,1,2,3,4])
 
 ```
+
+Output
+
+        hello world
+        5
+
 ## Other things to be aware of {.smaller}
 
 * There are several other organisational practices in python, but we will leave these for another day.
@@ -519,3 +548,4 @@ print(fruit_prices.get_price("pear"))
 * **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
 * Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
 * Now go have some fun in your tutor groups with hands-on coding and debugging.
+* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)

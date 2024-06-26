@@ -47,7 +47,7 @@ title-slide-attributes:
 ![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
 
 
-## Why learn to code? {background-image="/media/why.jpg" background-opacity="0.3"}
+## Why learn to code? {.smaller background-image="/media/why.jpg" background-opacity="0.2"}
 
 * We learn biology and anatomy at university to better understand and practice clinical medicine. Why don't we learn the base subject to better understand and practice digital medicine?
 * Of course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.

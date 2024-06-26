@@ -1,14 +1,14 @@
 .reveal .slide-logo {
-  display: block;
-  position: fixed;
-  bottom: unset !important;
-  right: 12px !important;
-  top: 5px;
-  left: unset !important;
-  height: 120px !important;
-  width: 120x !important;
-  max-width: unset !important;
-  max-height: unset !important;
+    display: block;
+    position: fixed;
+    bottom: unset !important;
+    right: 12px !important;
+    top: 5px;
+    left: unset !important;
+    height: 10vw !important; /* Adjust based on viewport width */
+    width: 10vw !important; /* Adjust based on viewport width */
+    max-width: unset !important;
+    max-height: unset !important;
 }
 
 .hide-title {
