@@ -1383,14 +1383,14 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#f-strings",
     "title": "Python basics",
     "section": "f-strings",
-    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age }\")"
+    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age })\n\nOutput\nThe patient's age is : 25"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#add-strings-together",
     "href": "learn/learn-python/module-1/3-python-basics.html#add-strings-together",
     "title": "Python basics",
     "section": "Add strings together",
-    "text": "Add strings together\n\nOr you can add strings together like this\n\n\n\nadding_strings.py\n\nage = 25\nprint(\"The patient's age is : \" +  age \")"
+    "text": "Add strings together\n\nOr you can add strings together like this\n\n\n\nadding_strings.py\n\nage = 25\nprint(\"The patient's age is : \" +  age \")\n\nOutput\nThe patient's age is : 25"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#indentation",
@@ -1425,7 +1425,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#comments",
     "title": "Python basics",
     "section": "Comments",
-    "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks:\n\n\n\ncomments.py\n\n# This is a single line comment\na_string = \"a string\"\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n\"\"\"\ndef i_am_a_function():\n    return True\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n'''\ndef i_am_another_function():\n    return True"
+    "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks:\n\n\n\ncomments.py\n\n# This is a single line comment\na_string = \"a string\"\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE DOUBLE QUOTATION MARKS\n\"\"\"\ndef i_am_a_function():\n    return True\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE SINGLE QUOTATION MARKS\n'''\ndef i_am_another_function():\n    return True"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#comments-1",
