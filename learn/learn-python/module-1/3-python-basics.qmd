@@ -175,8 +175,12 @@ variable_b = 'I would like to show you "this"'
 
 ```{.python filename="f_string.py"}
 age = 25
-print(f"The patient's age is : { age }")
+print(f"The patient's age is : { age })
 ```
+
+Output
+
+    The patient's age is : 25
 
 ## Add strings together
 
@@ -186,6 +190,10 @@ print(f"The patient's age is : { age }")
 age = 25
 print("The patient's age is : " +  age ")
 ```
+
+Output
+
+    The patient's age is : 25
 
 ## Indentation {background-image="/media/steps-and-child.jpg" background-opacity="0.4"}
 
@@ -263,12 +271,14 @@ a_string = "a string"
 
 """ Double quotation mark multiline comment
     Here is some more of the comment
+    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE DOUBLE QUOTATION MARKS
 """
 def i_am_a_function():
     return True
 
 ''' Single quotation mark multiline comment
     Here is some more of the comment
+    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE SINGLE QUOTATION MARKS
 '''
 def i_am_another_function():
     return True
