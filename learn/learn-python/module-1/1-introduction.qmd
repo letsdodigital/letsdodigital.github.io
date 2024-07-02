@@ -71,3 +71,9 @@ title-slide-attributes:
 * Has everyone been placed in a tutor group?
 
 ## Off we go to the shell {background-image="/media/horses-galloping.jpg" background-opacity="0.6"}
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/2-coding-environment.html" style="color: lightgrey;">Coding environment slides</a>
+</div>
+```
