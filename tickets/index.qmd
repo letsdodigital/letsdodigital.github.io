@@ -10,7 +10,7 @@ image: /media/tickets.png
 
 ### 16th of July 2024
 
-[{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/frontline-insights-1.qmd)
+[{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
 
 
 ### 1st August 2024
