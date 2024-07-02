@@ -3,7 +3,7 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
-### 3rd July 2024
+### 3rd July 2024 - last call
 
 [{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
 
