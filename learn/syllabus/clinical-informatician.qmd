@@ -1,7 +1,0 @@
----
-title: "Clinical informatician"
----
-
-This is currently being worked on. The repo is [here](https://github.com/letsdodigital/clinical-informatics-a-comprehensive-guide/tree/main/chapters).
-
-Watch this space.

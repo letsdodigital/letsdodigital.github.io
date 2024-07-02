@@ -1,9 +1,0 @@
----
-title: "Let's Talk Digital Conference 2022"
----
-
-You can find information about the first **Let's Talk Digital Conference** on the main sponsor's website [SWAG](https://www.swagcanceralliance.nhs.uk/lets-digital/lets-talk-digital-2022/).
-
-#### Want to jump straight in and watch the recordings of the 2022 conference, view below:
-
-{{< video  https://youtu.be/AEJuxaorARQ?list=PLv5yR6DkBB8qw4a1XRXE2D56pm2duJ4Rd >}}

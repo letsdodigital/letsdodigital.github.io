@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.52">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Simon Latimer">
+<meta name="dcterms.date" content="2024-05-07">
+<meta name="description" content="Because play is a form of learning">
+
+<title>Games, cheatsheets and the NHS – Let’s Do Digital</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/ldd-logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://hypothes.is/embed.js"></script>
+<script>
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    document.body.classList.add('hypothesis-enabled');
+  });
+</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Games, cheatsheets and the NHS – Let’s Do Digital">
+<meta name="twitter:description" content="Because play is a form of learning">
+<meta name="twitter:image" content="https://letsdodigital.org//media/man-at-the-arcades.jpg">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Let’s Do Digital</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../learn/index.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-conferences" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Conferences</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-conferences">    
+        <li>
+    <a class="dropdown-item" href="../../conferences/2024/index.html">
+ <span class="dropdown-text">2024</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../conferences/2023/index.html">
+ <span class="dropdown-text">2023</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../conferences/2022/index.html">
+ <span class="dropdown-text">2022</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../tickets/index.html"> 
+<span class="menu-text">Tickets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../who-are-we.html"> 
+<span class="menu-text">Who are we</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Games, cheatsheets and the NHS</h1>
+                  <div>
+        <div class="description">
+          Because play is a form of learning
+        </div>
+      </div>
+                          <div class="quarto-categories">
+                <div class="quarto-category">blog</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Simon Latimer </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">May 7, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#brighton-2007" id="toc-brighton-2007" class="nav-link active" data-scroll-target="#brighton-2007">Brighton, 2007</a></li>
+  <li><a href="#london-1989" id="toc-london-1989" class="nav-link" data-scroll-target="#london-1989">London, 1989</a></li>
+  <li><a href="#brighton-1999" id="toc-brighton-1999" class="nav-link" data-scroll-target="#brighton-1999">Brighton, 1999</a></li>
+  <li><a href="#brighton-2024" id="toc-brighton-2024" class="nav-link" data-scroll-target="#brighton-2024">Brighton, 2024</a></li>
+  <li><a href="#join-us" id="toc-join-us" class="nav-link" data-scroll-target="#join-us">Join us</a></li>
+  <li><a href="#simon-latimer" id="toc-simon-latimer" class="nav-link" data-scroll-target="#simon-latimer">Simon Latimer</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<p>Sometimes you learn the most by playing a game.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/man-at-the-arcades.jpg" class="quarto-figure quarto-figure-center figure-img" alt="Man standing in front of Crazy Climber arcade game" height="400"></p>
+</figure>
+</div>
+<section id="brighton-2007" class="level2">
+<h2 class="anchored" data-anchor-id="brighton-2007">Brighton, 2007</h2>
+<p>Still somewhat fresh from an eight-year stint as CTO in a local games company, I was working as a contractor, handling 2nd line desktop support for the Trust I am still employed in today. It was to be a stopgap, something to keep a roof over my head while scoping out where to go next. I hoped at the time to jump into another startup, there were and still are many to choose from in the city I work in and the contacts I’d cultivated in those eight years were telling me of all sorts of possibilities I could go for, some local, others further afield. The day job in the datacentre was a depressing place to be, there was a lot of animus directed at the IT department from all quarters in the Trust and despite all the money spent on NPfIT, ‘they’ (and it was very much a ‘they and us’ kind of mentality) were getting impatient at the ongoing lack of progress. Much of the work we did could be handled remotely, however I generally preferred to get out of my chair and go fix the problem in-person. Often as not the problem had been poorly described in the ticket and some important nuance of the issue had been overlooked, this was my justification for doing this, I also got to meet a lot of cool clinicians at work. While poking around at the problem, the clinician hovering over my shoulder waiting for me to finish, would unburden themselves of all the IT woes they were experiencing. Some of these issues I could happily just fix, there and then (grr, printers!) but most of what I heard was beyond my scope. These complaints were often phrased as ‘Why can’t (system/technology/device) X do Y. or Why do I have to have eleven applications open to run a clinic? Or, most heartbreakingly, if only this (system/technology/device) did X, we could achieve this ‘really-amazing-new-thing’ and save hours or create better outcomes for patients or make an important part of that service work smoothly. If it had been just one or two of these instances, I might have been fine finishing up my contract, turning back to the games industry and finding a new company to help build and succeed. It was instead, depressingly frequent. A few of these clinicians, took the time to educate me on how the NHS did things and how disjointed and frankly half-arsed some of the multi-million pound programmes appeared to be. Coming from where I did, it horrified me; professionally, as a user of the NHS and as a taxpayer.Reader, I got angry. I continued (carefully and cautiously) asking questions and looking for myself, the picture never improved, I kept waiting for the other shoe to drop, I must be missing something right? No.&nbsp;Part of me wanted to shout and scream, but that would have been counterproductive. Anyway, I’ve always been the type to try and fix things, so I stayed. And I promised myself I wouldn’t leave until it was fixed. I still carry that anger mostly it just simmers now.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/silhouette-scream.jpg" class="quarto-figure quarto-figure-center figure-img" alt="Silhouette of a man screaming" height="400"></p>
+</figure>
+</div>
+</section>
+<section id="london-1989" class="level2">
+<h2 class="anchored" data-anchor-id="london-1989">London, 1989</h2>
+<p>I got my first proper IT job at the end of the eighties. I was really lucky and didn’t yet know it; I worked for Reuters. We were the best paid, best trained and even better, best led IT workers in the city. Reuters had caught the wave when the City was deregulated post-big bang and by the time I joined they were the biggest game in town for financial data and market news. They spent billions (1990’s billions at that) on the infrastructure to deliver their products, I joined a team of over 400 shift workers, all employed keeping the golden geese happy and delivering eggs. We had a mantra, drilled into us pretty much from the outset. It leant on Reuters’ journalistic roots: - First, be accurate. If we published data, it absolutely had to be correct, 100%. Second, be timely. When we published data, it had to be actionable and immediate; microseconds count. Third, be reliable, day on day, week after week. We had to deliver the above, consistently.</p>
+<p>There were (and presumably still are) all manner of technologies deployed to deliver on this mantra. Some, simple and robust. Others, exotic and bleeding edge. I can’t detail any of these here (Still under NDA!) but I can talk to how the human processes and procedures we developed and deployed to deliver on this, worked. (Sometimes called the 8th layer in the OSI stack, or more crudely, the meat layer) Kaizen, Lean, Six Sigma, ISO9001. Anything that could give us an edge was eagerly consumed and deployed. The business we were in was and still is ruthlessly Darwinian, we were constantly chasing marginal gains, adding extra 9’s to the sigma (Six Sigma was in our view, a bit lightweight; we managed seven and eight sigma for many of our systems routinely)Despite the very formal team structures we had, with crystal-clear operational responsibilities and authority to act (we had a lot of ex-Royal Navy types who worked there) there was also a complementary flat structure when it came to how these marginal gains were identified and deployed. Simply put, if you found the problem, it was yours to fix. No passing it up the line or handing it off. You did it. It didn’t matter if it was a mess someone else had made or if it was outside of your normal responsibilities. You did it or made sure it got done. It was a heady place to work, it has spoiled me for working anywhere else since. It wasn’t perfect by any means, but for the time, it was bloody close. It’s one of the sources of my ongoing anger. I want to be chasing the same marginal gains in the NHS, I want us to be chasing down that next 9 rather than lurching all over, as we contend with God knows how many years of legacy systems, uncommunicative silos, balkanised organisations, and the all too frequent ‘not invented here’ attitude I’ve heard more than I care to recall.</p>
+</section>
+<section id="brighton-1999" class="level2">
+<h2 class="anchored" data-anchor-id="brighton-1999">Brighton, 1999</h2>
+<p>‘Why isn’t the queue running out the door?’ I said to the recruiter. I was at a job fair standing at a desk where the job advertised was as a game tester. I handed my freshly printed CV, full of Reuters’ earned IT certifications that ran to a whole page at this point. Totally unsuited to the role I was applying for. There was, however, a small section at the end in ‘interests’, that hinted at my PC and console gaming obsession. ‘Someone will call you later, we’re well busy’ the recruiter replied. I’d left the City after rather a horrible year. 1998 was my personal annus horribilis. I won’t detail here, but I was still in a rough place, a year later. I’d escaped to Brighton to join my brother and spent the following summer partying and forgetting. The money was running out though. A job was needed and I was bracing myself to join one of the regional bank offices or worse, American Express. I was spared this fate. Someone did indeed call. I had a job testing games, 48 hours later.</p>
+<p>‘Can you ask them if they’ve actually read my CV?’ this was to the QA lead. Four glorious months of late nights, pizza deliveries and sweaty geeks, playing and testing games. (Dungeon Keeper 2, if you’re interested.) I’d just heard one of the directors walking past, bemoaning the fact that they’d lost the third person who’d been hired as IT manager, on their first day. He didn’t quite run away screaming, but he did walk rather quickly. Ten minutes later, they’d read my CV and I was hired on the spot as the fifth full-time employee of Babelmedia. I was back in the saddle. Well, sort of. They couldn’t afford an actual saddle. The company had been founded about nine months prior, an offshoot of a game development studio. They’d launched a game that was actually pretty good, but it had failed on launch due to some pretty dire QA issues. It got panned in the games press and disappeared from sight, shortly after. Smarting from this, a new venture was run past the CEO; to create a company that got QA right. Especially where language QA was concerned (they call it localisation testing). Some favours were called in from around the industry and they raided the local universities for European native linguists and games players. Babelmedia started in a converted flat on Western road and in the first five months it went gangbusters. The fancy new office behind Hove station a few months later was their first expansion and the expansion never really stopped. We doubled the size of the business every six months for the following six years. Keeping up with this kind of expansion, from an IT infrastructure and services perspective is a tall ask. Part of me still wonders whether I should have run screaming too. With a budget and resources allocation that can charitably be compared to a couple of used Marmite pots, a ball of second-hand string and a bag of stale Murray mints, I barely kept ahead. The demands required that I pivot from my corporate thinking to one of extreme creativity, I didn’t sleep a lot for the first two years, but I really didn’t care. I was having too much fun.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/busy-at-computer.jpg" class="quarto-figure quarto-figure-center figure-img" alt="Silhouette of a man screaming" height="400"></p>
+</figure>
+</div>
+<p>In those six years we grew to a company that operated in three continents. We had major offices in Brighton (Hove, actually), Delhi and Montreal. A recording studio in London, sales offices in Los Angeles and Tokyo and several thousand employees, when all the translators and freelancers were counted in. We were one of the major players in the games-services sector, our client list read like a who’s who of the major games industry companies. We even got a feature written about us in Edge magazine, a singular honour. One of our biggest coups was being hired to create the first app certification platforms for mobile phone games. This was before iPhone, so it was mostly Nokia phones. We designed the certification process for both Vodafone and Sun Microsystems (the makers of Java). Certification of software is a process that is most often used in closed software platforms. The certification processes that we were used to prior to this, were those used by the major console players; Nintendo, Sony PlayStation and Microsoft XBOX. It works like this. Let’s use Sony as an example. You’re a development studio and you want to develop a game for PlayStation. OK, Sony will sell you a licence (after some due diligence) to develop a game, they’ll issue you with a Software Development Kit (SDK) and you also get to buy some special PlayStations designed for developing games and probably a few of the PlayStations designed for testing them. Part of the SDK is a phone-book sized document called the TRC (Technical Requirements Checklist)The TRC is your bible, therein you will find all of the do’s and don’ts of how your game shall work. You want to use a particular UI element? there are rules for that. You need to make a particular kind of call to the graphics engine in the console? Rules for that too. You get the idea. When you’re done developing (probably a few years later) you tell Sony, ‘Hey we’re done!’ Can we release the game already? They will book your game into a slot, for compliance testing. This is often done well in advance; you don’t want to miss the holiday season rush. They will take your finely honed and hopefully well-made game and during that booked slot, put it through a series of exacting tests, to make sure you really did follow the rules in the TRC. If you did, then yay! The game is released for mastering and disc duplication and hopefully, on the shelves in time for Christmas. If you fail compliance testing, however. Oh, my. Well, the next available slot is in six months. Too bad. We hope you do better next time. What do you mean, the marketing is already done? Sorry, can’t help you there. Sounds horrifying, yes? I’ve seen it happen. Grown men crying, the whole shebang. What does this have to do with the NHS I hear you ask? What’s all this games industry waffle for, and why would we want to have such an objectionable process for our software? It’s bad enough as it is! I’m getting to that. And yes. I really do think we need such a process in the NHS.</p>
+</section>
+<section id="brighton-2024" class="level2">
+<h2 class="anchored" data-anchor-id="brighton-2024">Brighton, 2024</h2>
+<p>QA is such an important thing in the games industry, delivering a finished, polished and compelling product that will sell, calls for the highest possible standards in software development. Every element of the game is gone over thousands of times, every possible player nutation is agonised over, the user experience honed to a fine edge, with hundreds of expert eyes looking not only for errors, but also ways to improve and optimise it. Imagine the kinds of amazing healthcare and clinical applications we’d have in the NHS if the software we acquired, had some form of minimum set of standards applied to application design, UX and usability.</p>
+<p>This is the rest of the reason I’m still angry. I’ve seen how good software is developed and deployed in other industries and it’s not like there isn’t the talent for it out there. Standards are needed, good ones too. The process above is a worst case scenario, I’m not saying that we copy the Sony example slavishly, but a certification process and compliance testing for NHS applications that told developers, these are what you have to do. Nothing less will suffice; it won’t get in if you don’t. If we did this, I might think my work here is done, and calm down a bit. Where to begin though. It’s fine having standards but if no-one pays much mind to them, then why bother? I don’t have all or even any of the answers, necessarily. I’m here to learn. I’d like to contribute to the ongoing discussion about what we should be doing. What does good look like? How do we define and refine our standards for the clinical informatics we commission, develop and use. I do strongly believe that we need a set of common, enforced standards for these systems and perhaps, one day even better; common systems and platforms in use across our whole service.</p>
+</section>
+<section id="join-us" class="level2">
+<h2 class="anchored" data-anchor-id="join-us">Join us</h2>
+<p>If you want to hear more about Simon’s amazing story, please do register and join us at the Let’s Talk Digital Conference 2024 on the 24th of October. Sign up <a href="../../conferences/2024/index.html">here</a>.</p>
+</section>
+<section id="simon-latimer" class="level2">
+<h2 class="anchored" data-anchor-id="simon-latimer">Simon Latimer</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/simon-latimer-circle.png" class="quarto-figure quarto-figure-center figure-img" alt="Profile picture of Simon Latimer" height="200"></p>
+</figure>
+</div>
+<p>Simon is a Systems manager in University Hospitals Sussex where he’s worked for the last 17 years. Prior to this he was a City of London banking IT consultant that found the NHS after mucking around in the games industry for a while. He’s held pretty much every job title that has ‘IT’ or ‘Computer’ in it from trainee to CTO. Still a keen gamer and in more recent years has extended his nerd credentials by taking up D&amp;D.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/letsdodigital\.org\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+<script src="https://utteranc.es/client.js" repo="letsdodigital/website" issue-term="pathname" theme="github-light" crossorigin="anonymous" async="">
+</script>
+<script src="https://giscus.app/client.js" data-repo="letsdodigital/letsdodigital.github.io" data-repo-id="R_kgDOLqtP6Q" data-category="General" data-category-id="" data-mapping="title" data-reactions-enabled="1" data-emit-metadata="0" data-input-position="top" data-theme="light" data-lang="en" crossorigin="anonymous" async="">
+</script>
+<input type="hidden" id="giscus-base-theme" value="light">
+<input type="hidden" id="giscus-alt-theme" value="dark">
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../contact.html">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../privacy-policy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../company-information.html">
+<p>Company information</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../sponsor.html">
+<p>Sponsor us</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../paying-the-team.html">
+<p>Paying the team</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/letsdodigital">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/letsdodigitalci">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
