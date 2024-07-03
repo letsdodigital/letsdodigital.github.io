@@ -313,7 +313,7 @@ def i_am_function(args1, args2):
 
 * Operators manipulate and compare data (which are stored in variables). Operator types include:
     * Arithmetic: `+ - * /`
-    * Comparison: `== > < `
+    * Comparison: `== > < >= <=`
     * Logical: `and or not`
     * Assignment: `= += -= *=`
 
@@ -382,6 +382,28 @@ Output
         4
         5
 
+## Colons, look out for the colons
+
+* All if, while and for statements must end with a colon
+
+```{.python filename="colon.py"}
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+```
+
+## Colons
+
+* The same goes for functions, methods and classes
+
+```{.python filename="more_colons.py"}
+def i_am_a_function():
+    print("hello")
+    return
+```
+
 ## Functions (and methods) {background-image="/media/box.jpg" background-opacity="0.4"}
 
 * Blocks of reusable code that perform a specific task. 
@@ -395,6 +417,8 @@ Output
 
 
 ## Functions (and methods)
+
+* Note the `def`
 
 ```{.python filename="functions.py"}
 def name_of_function(argument_1, argument_2):

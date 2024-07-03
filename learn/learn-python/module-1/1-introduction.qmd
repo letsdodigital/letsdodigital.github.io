@@ -42,7 +42,7 @@ title-slide-attributes:
 
 ## Build an app
 
-* Finally, we will get you building your own clinical app
+* If you are doing well, and have completed all of lesson 1 and 2, you can build a clinical calculator app.
 
 ![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
 

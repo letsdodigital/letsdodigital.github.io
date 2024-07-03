@@ -46,7 +46,7 @@ title-slide-attributes:
 * These tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system.
 
 
-## Using the terminal {.smaller}
+## Using the terminal
 
 * Also called the `command line interface` (`CLI`) or the `shell`.
 
@@ -60,6 +60,22 @@ Pro tip:
 
 * If you want to run a previously run command, you can select it with the &#8593; and 
 &#8595; arrow keys on the keyboard.
+
+
+## Altering the command to run
+
+* Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.
+* For example to change
+
+```{.bash}
+$ streamlit run exercise_1.py
+```
+
+to
+
+```{.bash}
+$ streamlit run exercise_2.py
+```
 
 
 ## List files and folders command

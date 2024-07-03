@@ -13,43 +13,51 @@ title-slide-attributes:
 # Lesson 2 - Let's build a digital consent app
 
 
-## So, where to start?
+## Eager to get started?
 
 * Don't worry, we will get you coding soon.
 * However, it is probably a good idea to make sure you are familiar with all of the coding concepts you need to build a `digital consent form`.
 
 
-## We are going to be building a...
+## So what are we going to build exactly?
 
-* A web based digital healthcare app
-* This needs a frontend and and backend
-    * Frontend - what you see and interact with
-    * The brains (in most cases) and data storage of your app
+* A web based digital healthcare app.
+* This needs both a frontend and a backend.
+    * Frontend - what you see and interact with.
+    * Backend - the brains (in most cases) and data storage of your app.
 
 
-## What is a web browser
+## What is a web browser?
 
-* What is a web browser
-* What languages do we use in web browsers - JS, TS, HTML, CSS, more fancy ones (XML)
+* You highly likely use these every day (Explorer, Chrome, Safari).
+* A web browser is a software program that allows a user to locate, access, and display web pages.
+* The main languages used in creating the raw webpage are HTML and javascript. 
+* You can use frameworks in other languages to then create these "raw" webpages. In our case a python scripting language framework called `streamlit`.
 
 
 ## We are going to cheat
 
-* As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprabase`) for you to connect to
+* As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprabase`) for you to connect to.
 * The "brains" and frontend will be managed by the `streamlit` server that you will build.
-* A server is basically a computer program that provides you with a web page to interact with
+* A server is basically a computer program that provides you with a web page to interact with.
 
 
-## We need a python virtual environment
+## You need to have VS code installed
 
-* If you do not see (.venv) on your command line, as a tutor to help get it up and running.
+* You have 10 minutes to try and install VS code now. If no luck, then we will get you to use `Codespace`.
+
+
+## We need some extensions
+
+* Python
+* Black
 
 
 ## What is a library
 
-* You will be using different libraries in this build
-* A library is basically a collection of code that provides set functionality
-* You need to `import` libraries to use them
+* You will be using different libraries in this build.
+* A library is basically a collection of code that provides set functionality.
+* You need to `import` libraries to use them.
 
 
 ## What is an API
@@ -80,12 +88,6 @@ title-slide-attributes:
 * `all` statement
 * Initialising variables
 
-
-## Frontend related material (in streamlit)
-* Field labels, keys, on_change, lists for selectbox
-* field types - st.text, st.selectbox, st.error
-
-
 ## Have the slides on hand
 
 * Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
@@ -98,6 +100,91 @@ title-slide-attributes:
 
 `There is no such thing as a stupid question, only a question left unanswered`
 
+## Streamlit
+
+* As said, we will be using a python web app framework called `Streamlit` for the frontend.
+* Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
+
+![](/media/streamlit.png){fig-align="center"}
+
+
+## Framework / Library import
+
+`Direct import`
+
+```{.python filename="libraries_1.py"}
+import streamlit
+```
+
+or as an `alias`
+
+```{.python filename="libraries_2.py"}
+import streamlit as st
+```
+
+
+## Who is running what?
+
+```{.python filename="main.py"}
+if __name__ == "__main__":
+    main()
+```
+
+* Checks if the current file is being run as an imported library or directly
+
+
+## Streamlit methods
+
+```{.python filename="streamlit methods.py" code-line-numbers="4,8,11"}
+import streamlit as st
+
+# Writes text to the browser
+st.write("Text to write to browser")
+
+# Creates a text input field
+# `step` is the increment for + - buttons
+st.number_input("Label of input box", step=1) 
+
+# Creates a select box
+st.selectbox("Label for selectbox", ["first choice","second choice"])
+
+# Show an error message
+st.error("I am an error message")
+```
+
+## Field labels, keys, on_change, lists for selectbox
+
+* Field labels, keys, on_change, lists for selectbox
+
+## magicEnabled = false
+
+* We have turned off a feature in Streamlit that shows all of your code in the browser using:
+
+```{.python filename=".streamlit/config.toml" code-line-numbers="2"}
+[runner]
+magicEnabled = false
+```
+
+Otherwise, the browser will be a little messy with all of your code visible.
+
+\
+(See .streamlit/config.toml file if interested)
+
+
+## Stopping a running program
+
+CTRL - C
+
+or 
+
+CMD - C
+
+
+## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
+
+* You are building an educational program. This is NOT to be used with real patients!
+
+
 ## Nuances of streamlit
 
 * When you update the code and save, click "Always rerun" (top right) in the browser to always refresh on code change.
@@ -106,29 +193,38 @@ title-slide-attributes:
 * Why the text field and selectbox outside of the form. Because Streamlit.io does not allow for dynamic update within forms before submitting
 
 
-## Want further output to the browser?
-
-* magicEnabled = false
-
-
 ## Linting / formatting
 
-* Strange line dropping in VScode (linting, formatting)
+* You may notice strange line dropping in VScode. This is the Black formatter making your code conform to standards when you save.
 
 
 ## Where to start
 
-* Pick a terminal (there should be loads to choose from)
-* Go to...
+* Click inside your terminal window
+* Go to:
 
 ```{.bash}
-cd users/[your_name]/module_2/
+$ cd programming_in_health_care/module_2/lesson_2
 ```
 
-and then run
+## Install libraries
 
 ```{.bash}
-streamlit run lesson_2.py
+$ pip install streamlit
+```
+
+and
+
+```{.bash}
+$ pip install st_supabase_connection
+```
+
+## And then run
+
+* And then run:
+
+```{.bash}
+$ streamlit run exercise_1.py
 ```
 
 
@@ -154,6 +250,32 @@ And...
 Picture of browser
 
 
+## Who is running what?
+
+```{.python filename="main.py"}
+if __name__ == "__main__":
+    main()
+```
+
+* Checks if the current file is being run as an imported library or directly
+
+
+## Altering the command to run
+
+* Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.
+* For example to change
+
+```{.bash}
+$ streamlit run exercise_1.py
+```
+
+to
+
+```{.bash}
+$ streamlit run exercise_2.py
+```
+
+
 # Pit stop
 
 * Half way through
@@ -168,4 +290,4 @@ Picture of browser
 * You will find it frustrating when code does not work straight away. However this is how you learn. Try writing code in different ways to see if you can get it to work
 * Ask!
 * Look up material in the slides
-* Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last)
+* Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last).
