@@ -35,36 +35,7 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
 
 ## Purchase tickets
 
-```{=html}
-
-
-<div style="display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://buymeacoffee.com/letsdodigital/e/244886" style="display: flex; justify-content: center;">
-                <img src="/media/tickets.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Prices for this event are £50 per student. Click on the ticket to be buy ticket(s) at buymeacoffee.com.
-        </div>
-    </div>
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://buymeacoffee.com/letsdodigital/e/244873" style="display: flex; justify-content: center;">
-                <img src="/media/tickets.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            If you feel that £50 is too much for this 3 hour course with tutor support, then we offer a lower value of £25 per ticket. Before you consider this lower priced ticket, please do remember that a lot of time and effort has gone into creating this course.
-        </div>
-    </div>
-</div>
-
-<p style="color: grey; font-style: italic;">
-Click on a ticket to purchase a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
-</p>
-```
+Ticket sales are now closed.
 
 
 ## Questions
