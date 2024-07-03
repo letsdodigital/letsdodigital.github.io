@@ -175,7 +175,7 @@ variable_b = 'I would like to show you "this"'
 
 ```{.python filename="f_string.py"}
 age = 25
-print(f"The patient's age is : { age })
+print(f"The patient's age is : { age }")
 ```
 
 Output
@@ -188,7 +188,7 @@ Output
 
 ```{.python filename="adding_strings.py"}
 age = 25
-print("The patient's age is : " +  age ")
+print("The patient's age is : " +  age)
 ```
 
 Output
@@ -471,7 +471,7 @@ def name_of_function(argument_1, argument_2):
 * There are some functions that are already built into python, eg
 ```{.python filename="built_in_functions.py"}
 print("hello world")
-len([0,1,2,3,4])
+print(len([0,1,2,3,4]))
 
 ```
 
@@ -577,7 +577,7 @@ print(fruit_prices.get_price("pear"))
 * Time for some hands on coding in `Lesson 2`.
 
 
-## Computers are pedantic!
+## Computers are pedantic! {.smaller}
 
 * **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
 * Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.

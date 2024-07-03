@@ -124,6 +124,10 @@ $ streamlit run exercise_2.py
 ![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
 
 
+## Ignore the extensions
+
+* Ignore when a small window in the bottom right that pops up. Just close these.
+
 ## Get to your first lesson {.smaller}
 
 * Change the directory (don't type the `$`. This is just how we show this is the command line):

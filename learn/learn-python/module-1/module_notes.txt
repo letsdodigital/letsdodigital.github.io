@@ -10,9 +10,6 @@ End 5pm
 7:20pm - hands-on - lesson_1.py
 8:00pm - talk - 3-python-basics (need 25-30 mins)
 8:20pm - hands-on - lesson_2.py
-
-8:55pm - talk - 4-lets-build.py
-9:00pm - hands-on - lesson_3.py / lesson_4.py
 9:50pm - talk - 5-session-close
 10:00pm - close
 

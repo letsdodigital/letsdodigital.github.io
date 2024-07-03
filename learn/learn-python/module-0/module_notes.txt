@@ -33,3 +33,11 @@ Learning points:
 * libraries, how to import
 * error types -> warning, "raise"
 * multiple lines
+* remove more complicated python stuff (name conventions)
+* Tutor guide for each lesson
+* Make it clear that module 0 and 1 are very basic.
+* Remove T/F ??
+* Just get into some code straight away
+* Write a variable
+* Where to write code and write commands
+* 4-5 students per tutor
