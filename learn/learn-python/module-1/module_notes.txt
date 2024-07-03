@@ -3,17 +3,18 @@ Timings of module 1 - example
 Start 3pm
 End 5pm
 
-1:30pm - open zoom room for tutors
-1:50-2pm - let students enter
-2:05pm - talk - 1-introduction
-2:10pm - talk - 2-coding-environment
-2:20pm - hands-on - lesson_1.py
-2:50pm - talk - 3-python-basics (need 25-30 mins)
-3:10pm - hands-on - lesson_2.py
-3:55pm - talk - 4-lets-build.py
-4:00pm - hands-on - lesson_3.py / lesson_4.py
-4:50pm - talk - 5-session-close
-5:00pm - close
+6:30pm - open zoom room for tutors
+6:50-7pm - let students enter
+7:05pm - talk - 1-introduction
+7:10pm - talk - 2-coding-environment
+7:20pm - hands-on - lesson_1.py
+8:00pm - talk - 3-python-basics (need 25-30 mins)
+8:20pm - hands-on - lesson_2.py
+
+8:55pm - talk - 4-lets-build.py
+9:00pm - hands-on - lesson_3.py / lesson_4.py
+9:50pm - talk - 5-session-close
+10:00pm - close
 
 
 Learning points:

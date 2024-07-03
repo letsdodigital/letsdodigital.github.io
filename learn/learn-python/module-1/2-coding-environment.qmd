@@ -46,7 +46,7 @@ title-slide-attributes:
 * These tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system.
 
 
-## Using the terminal
+## Using the terminal {.smaller}
 
 * Also called the `command line interface` (`CLI`) or the `shell`.
 
@@ -124,7 +124,7 @@ $ streamlit run exercise_2.py
 ![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
 
 
-## Get to your first lesson
+## Get to your first lesson {.smaller}
 
 * Change the directory (don't type the `$`. This is just how we show this is the command line):
 
