@@ -844,7 +844,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#basic-operators",
     "title": "Python basics",
     "section": "Basic operators",
-    "text": "Basic operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\n\nArithmetic: + - * /\nComparison: == &gt; &lt;\nLogical: and or not\nAssignment: = += -= *="
+    "text": "Basic operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\n\nArithmetic: + - * /\nComparison: == &gt; &lt; &gt;= &lt;=\nLogical: and or not\nAssignment: = += -= *="
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#more-advanced-operators",
@@ -875,6 +875,20 @@
     "text": "Control flow - while loops\n\n\nwhile_loop.py\n\ncount = 1\n\nwhile count &lt;= 5:\n    print(count)\n    count += 1\n\nOutput\n    1\n    2\n    3\n    4\n    5"
   },
   {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#colons-look-out-for-the-colons",
+    "href": "learn/learn-python/module-1/3-python-basics.html#colons-look-out-for-the-colons",
+    "title": "Python basics",
+    "section": "Colons, look out for the colons",
+    "text": "Colons, look out for the colons\n\nAll if, while and for statements must end with a colon\n\n\n\ncolon.py\n\ncount = 1\n\nwhile count &lt;= 5:\n    print(count)\n    count += 1"
+  },
+  {
+    "objectID": "learn/learn-python/module-1/3-python-basics.html#colons",
+    "href": "learn/learn-python/module-1/3-python-basics.html#colons",
+    "title": "Python basics",
+    "section": "Colons",
+    "text": "Colons\n\nThe same goes for functions, methods and classes\n\n\n\nmore_colons.py\n\ndef i_am_a_function():\n    print(\"hello\")\n    return"
+  },
+  {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods",
     "href": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods",
     "title": "Python basics",
@@ -886,7 +900,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-1",
     "title": "Python basics",
     "section": "Functions (and methods)",
-    "text": "Functions (and methods)\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
+    "text": "Functions (and methods)\n\nNote the def\n\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n    a_variable = argument_1 + argument_2\n    return_variable = \"a return value\"\n\n    print (a_variable)\n\n    return return_variable"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#functions-and-methods-2",
@@ -1460,7 +1474,7 @@
     "href": "learn/learn-python/module-1/1-introduction.html#build-an-app",
     "title": "Module 1 - OK, now the basics",
     "section": "Build an app",
-    "text": "Build an app\n\nFinally, we will get you building your own clinical app"
+    "text": "Build an app\n\nIf you are doing well, and have completed all of lesson 1 and 2, you can build a clinical calculator app."
   },
   {
     "objectID": "learn/learn-python/module-1/1-introduction.html#why-learn-to-code",
@@ -1559,6 +1573,13 @@
     "title": "Coding environment (and the shell)",
     "section": "Using the terminal",
     "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command.\n\nPro tip:\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard."
+  },
+  {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#altering-the-command-to-run",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#altering-the-command-to-run",
+    "title": "Coding environment (and the shell)",
+    "section": "Altering the command to run",
+    "text": "Altering the command to run\n\nUse the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.\nFor example to change\n\n$ streamlit run exercise_1.py\nto\n$ streamlit run exercise_2.py"
   },
   {
     "objectID": "learn/learn-python/module-1/2-coding-environment.html#list-files-and-folders-command",
@@ -1673,46 +1694,53 @@
     "text": "We can spend a long time\n\nWe could spend a long time talking about process mapping, and finding the best way to undertake something.\nWe could do a separate course on this if there is interest.\nHowever, let’s get building…"
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#so-where-to-start",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#so-where-to-start",
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#eager-to-get-started",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#eager-to-get-started",
     "title": "Building a digital consent form",
-    "section": "So, where to start?",
-    "text": "So, where to start?\n\nDon’t worry, we will get you coding soon.\nHowever, it is probably a good idea to make sure you are familiar with all of the coding concepts you need to build a digital consent form."
+    "section": "Eager to get started?",
+    "text": "Eager to get started?\n\nDon’t worry, we will get you coding soon.\nHowever, it is probably a good idea to make sure you are familiar with all of the coding concepts you need to build a digital consent form."
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-be-building-a",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-be-building-a",
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#so-what-are-we-going-to-build-exactly",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#so-what-are-we-going-to-build-exactly",
     "title": "Building a digital consent form",
-    "section": "We are going to be building a…",
-    "text": "We are going to be building a…\n\nA web based digital healthcare app\nThis needs a frontend and and backend\n\nFrontend - what you see and interact with\nThe brains (in most cases) and data storage of your app"
+    "section": "So what are we going to build exactly?",
+    "text": "So what are we going to build exactly?\n\nA web based digital healthcare app.\nThis needs both a frontend and a backend.\n\nFrontend - what you see and interact with.\nBackend - the brains (in most cases) and data storage of your app."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-web-browser",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-web-browser",
     "title": "Building a digital consent form",
-    "section": "What is a web browser",
-    "text": "What is a web browser\n\nWhat is a web browser\nWhat languages do we use in web browsers - JS, TS, HTML, CSS, more fancy ones (XML)"
+    "section": "What is a web browser?",
+    "text": "What is a web browser?\n\nYou highly likely use these every day (Explorer, Chrome, Safari).\nA web browser is a software program that allows a user to locate, access, and display web pages.\nThe main languages used in creating the raw webpage are HTML and javascript.\nYou can use frameworks in other languages to then create these “raw” webpages. In our case a python scripting language framework called streamlit."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
     "title": "Building a digital consent form",
     "section": "We are going to cheat",
-    "text": "We are going to cheat\n\nAs we do not have time to build both the front and backend, we have created a cloud database (specifically suprabase) for you to connect to\nThe “brains” and frontend will be managed by the streamlit server that you will build.\nA server is basically a computer program that provides you with a web page to interact with"
+    "text": "We are going to cheat\n\nAs we do not have time to build both the front and backend, we have created a cloud database (specifically suprabase) for you to connect to.\nThe “brains” and frontend will be managed by the streamlit server that you will build.\nA server is basically a computer program that provides you with a web page to interact with."
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-a-python-virtual-environment",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-a-python-virtual-environment",
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#you-need-to-have-vs-code-installed",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#you-need-to-have-vs-code-installed",
     "title": "Building a digital consent form",
-    "section": "We need a python virtual environment",
-    "text": "We need a python virtual environment\n\nIf you do not see (.venv) on your command line, as a tutor to help get it up and running."
+    "section": "You need to have VS code installed",
+    "text": "You need to have VS code installed\n\nYou have 10 minutes to try and install VS code now. If no luck, then we will get you to use Codespace."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions",
+    "title": "Building a digital consent form",
+    "section": "We need some extensions",
+    "text": "We need some extensions\n\nPython\nBlack"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-library",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-library",
     "title": "Building a digital consent form",
     "section": "What is a library",
-    "text": "What is a library\n\nYou will be using different libraries in this build\nA library is basically a collection of code that provides set functionality\nYou need to import libraries to use them"
+    "text": "What is a library\n\nYou will be using different libraries in this build.\nA library is basically a collection of code that provides set functionality.\nYou need to import libraries to use them."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-an-api",
@@ -1743,13 +1771,6 @@
     "text": "Python related material 2\n\nAnatomy of the for loop. Loop variable. The use of else with for loops. breaks\nDon’t forget indentation and colons :\nall statement\nInitialising variables"
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#frontend-related-material-in-streamlit",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#frontend-related-material-in-streamlit",
-    "title": "Building a digital consent form",
-    "section": "Frontend related material (in streamlit)",
-    "text": "Frontend related material (in streamlit)\n\nField labels, keys, on_change, lists for selectbox\nfield types - st.text, st.selectbox, st.error"
-  },
-  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#have-the-slides-on-hand",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#have-the-slides-on-hand",
     "title": "Building a digital consent form",
@@ -1764,6 +1785,62 @@
     "text": "Ask\n\nPlease please please ask questions of your tutor. That is why they are here.\n\nThere is no such thing as a stupid question, only a question left unanswered"
   },
   {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit",
+    "title": "Building a digital consent form",
+    "section": "Streamlit",
+    "text": "Streamlit\n\nAs said, we will be using a python web app framework called Streamlit for the frontend.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#framework-library-import",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#framework-library-import",
+    "title": "Building a digital consent form",
+    "section": "Framework / Library import",
+    "text": "Framework / Library import\nDirect import\n\n\nlibraries_1.py\n\nimport streamlit\n\nor as an alias\n\n\nlibraries_2.py\n\nimport streamlit as st"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#who-is-running-what",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#who-is-running-what",
+    "title": "Building a digital consent form",
+    "section": "Who is running what?",
+    "text": "Who is running what?\n\n\nmain.py\n\nif __name__ == \"__main__\":\n    main()\n\n\nChecks if the current file is being run as an imported library or directly"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods",
+    "title": "Building a digital consent form",
+    "section": "Streamlit methods",
+    "text": "Streamlit methods\n\n\nstreamlit methods.py\n\nimport streamlit as st\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Creates a text input field\n# `step` is the increment for + - buttons\nst.number_input(\"Label of input box\", step=1) \n\n# Creates a select box\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])\n\n# Show an error message\nst.error(\"I am an error message\")"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#field-labels-keys-on_change-lists-for-selectbox",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#field-labels-keys-on_change-lists-for-selectbox",
+    "title": "Building a digital consent form",
+    "section": "Field labels, keys, on_change, lists for selectbox",
+    "text": "Field labels, keys, on_change, lists for selectbox\n\nField labels, keys, on_change, lists for selectbox"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#magicenabled-false",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#magicenabled-false",
+    "title": "Building a digital consent form",
+    "section": "magicEnabled = false",
+    "text": "magicEnabled = false\n\nWe have turned off a feature in Streamlit that shows all of your code in the browser using:\n\n\n\n.streamlit/config.toml\n\n[runner]\nmagicEnabled = false\n\nOtherwise, the browser will be a little messy with all of your code visible.\n\n(See .streamlit/config.toml file if interested)"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#stopping-a-running-program",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#stopping-a-running-program",
+    "title": "Building a digital consent form",
+    "section": "Stopping a running program",
+    "text": "Stopping a running program\nCTRL - C\nor\nCMD - C"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#warning",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#warning",
+    "title": "Building a digital consent form",
+    "section": "Warning!",
+    "text": "Warning!\n\nYou are building an educational program. This is NOT to be used with real patients!"
+  },
+  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
     "title": "Building a digital consent form",
@@ -1771,25 +1848,32 @@
     "text": "Nuances of streamlit\n\nWhen you update the code and save, click “Always rerun” (top right) in the browser to always refresh on code change.\nSometimes you need to refresh the browser to get certain codes changes to work\nStreamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, press a button)\nWhy the text field and selectbox outside of the form. Because Streamlit.io does not allow for dynamic update within forms before submitting"
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#want-further-output-to-the-browser",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#want-further-output-to-the-browser",
-    "title": "Building a digital consent form",
-    "section": "Want further output to the browser?",
-    "text": "Want further output to the browser?\n\nmagicEnabled = false"
-  },
-  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#linting-formatting",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#linting-formatting",
     "title": "Building a digital consent form",
     "section": "Linting / formatting",
-    "text": "Linting / formatting\n\nStrange line dropping in VScode (linting, formatting)"
+    "text": "Linting / formatting\n\nYou may notice strange line dropping in VScode. This is the Black formatter making your code conform to standards when you save."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#where-to-start",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#where-to-start",
     "title": "Building a digital consent form",
     "section": "Where to start",
-    "text": "Where to start\n\nPick a terminal (there should be loads to choose from)\nGo to…\n\ncd users/[your_name]/module_2/\nand then run\nstreamlit run lesson_2.py"
+    "text": "Where to start\n\nClick inside your terminal window\nGo to:\n\n$ cd programming_in_health_care/module_2/lesson_2"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#install-libraries",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#install-libraries",
+    "title": "Building a digital consent form",
+    "section": "Install libraries",
+    "text": "Install libraries\n$ pip install streamlit\nand\n$ pip install st_supabase_connection"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#and-then-run",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#and-then-run",
+    "title": "Building a digital consent form",
+    "section": "And then run",
+    "text": "And then run\n\nAnd then run:\n\n$ streamlit run exercise_1.py"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#this-will-run",
@@ -1804,6 +1888,20 @@
     "title": "Building a digital consent form",
     "section": "Start the browser",
     "text": "Start the browser\nPicture of browser"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#who-is-running-what-1",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#who-is-running-what-1",
+    "title": "Building a digital consent form",
+    "section": "Who is running what?",
+    "text": "Who is running what?\n\n\nmain.py\n\nif __name__ == \"__main__\":\n    main()\n\n\nChecks if the current file is being run as an imported library or directly"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#altering-the-command-to-run",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#altering-the-command-to-run",
+    "title": "Building a digital consent form",
+    "section": "Altering the command to run",
+    "text": "Altering the command to run\n\nUse the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.\nFor example to change\n\n$ streamlit run exercise_1.py\nto\n$ streamlit run exercise_2.py"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#what-are-computers",
