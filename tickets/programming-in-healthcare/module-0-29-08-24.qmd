@@ -1,0 +1,54 @@
+---
+title: "{{< var coding-series-title >}} - Module 0"
+---
+
+![](/media/lets-learn-code-coffee.png){height=300px fig-align="center" fig-alt="Let's Do Digital Logo and words 'Let's Learn Code' on a note pad held by a hand in the bottom left corner"}
+
+Please join us for the module 0 of `Programming in Healthcare`. We found quite a divide with our previous module 1, in terms of student abilities, and so we thought we would split the old module 1 into module 0 and a new module 1.
+
+Module 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is [Python](https://www.python.org/about/). Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other.
+
+## Course structure
+
+We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don't even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor.
+
+
+## When and where
+
+Online, Thursday 29^th^ August, 2-5 pm, on Zoom.
+
+
+## Topics covered
+
+The below topics may sound extensive and "out worldly" to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.
+
+
+- The terminal (the black window where you type in commands)
+- Syntax (the coding grammar)
+- Variables (where you store things)
+- Comments (stuff to read later when you have no idea what the code is supposed to do)
+- Control flow (if this then that)
+- Expressions and operators (add these two things. Make x equal to 3)
+- Functions (hay function, calculate the square root of 9)
+- Error handling (you were trying to do what!)
+
+
+## Purchase tickets
+
+```{=html}
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+<div class="center-content">
+<stripe-buy-button
+  buy-button-id="buy_btn_1PYSK4DaLu4cWSSgXfUgbkPW"
+  publishable-key="pk_live_51PSZaLDaLu4cWSSgRn6WhzTNBbm7YfQh1lmyZ3xBh1gLqSNjhSkXBn4Y2ZSe1y3UftelHEiUdSApy7nkAXXudfU900k37D6Qok"
+>
+</stripe-buy-button>
+</div>
+```
+
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).

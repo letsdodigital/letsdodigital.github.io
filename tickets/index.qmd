@@ -28,6 +28,11 @@ image: /media/tickets.png
 [{{< var coding-series-title >}} - Module 2](programming-in-healthcare/module-2-22-08-24.qmd)
 
 
+### 29th August 2024
+
+[{{< var coding-series-title >}} - Module 0](programming-in-healthcare/module-0-29-08-24.qmd)
+
+
 ### 24th October 2024
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
