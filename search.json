@@ -788,14 +788,14 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#f-strings",
     "title": "Python basics",
     "section": "f-strings",
-    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age })\n\nOutput\nThe patient's age is : 25"
+    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age }\")\n\nOutput\nThe patient's age is : 25"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#add-strings-together",
     "href": "learn/learn-python/module-1/3-python-basics.html#add-strings-together",
     "title": "Python basics",
     "section": "Add strings together",
-    "text": "Add strings together\n\nOr you can add strings together like this\n\n\n\nadding_strings.py\n\nage = 25\nprint(\"The patient's age is : \" +  age \")\n\nOutput\nThe patient's age is : 25"
+    "text": "Add strings together\n\nOr you can add strings together like this\n\n\n\nadding_strings.py\n\nage = 25\nprint(\"The patient's age is : \" +  age)\n\nOutput\nThe patient's age is : 25"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#indentation",
@@ -928,7 +928,7 @@
     "href": "learn/learn-python/module-1/3-python-basics.html#inbuilt-functions",
     "title": "Python basics",
     "section": "Inbuilt functions",
-    "text": "Inbuilt functions\n\nThere are some functions that are already built into python, eg\n\n\n\nbuilt_in_functions.py\n\nprint(\"hello world\")\nlen([0,1,2,3,4])\n\nOutput\n    hello world\n    5"
+    "text": "Inbuilt functions\n\nThere are some functions that are already built into python, eg\n\n\n\nbuilt_in_functions.py\n\nprint(\"hello world\")\nprint(len([0,1,2,3,4]))\n\nOutput\n    hello world\n    5"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python-basics.html#other-things-to-be-aware-of",
@@ -1631,6 +1631,13 @@
     "text": "Codespace load"
   },
   {
+    "objectID": "learn/learn-python/module-1/2-coding-environment.html#ignore-the-extensions",
+    "href": "learn/learn-python/module-1/2-coding-environment.html#ignore-the-extensions",
+    "title": "Coding environment (and the shell)",
+    "section": "Ignore the extensions",
+    "text": "Ignore the extensions\n\nIgnore when a small window in the bottom right that pops up. Just close these."
+  },
+  {
     "objectID": "learn/learn-python/module-1/2-coding-environment.html#get-to-your-first-lesson",
     "href": "learn/learn-python/module-1/2-coding-environment.html#get-to-your-first-lesson",
     "title": "Coding environment (and the shell)",
@@ -1974,6 +1981,13 @@
     "text": "What is in a code?\n\nYou need different elements in your code to be able to tell the computer what to do. These include:\n\nVariables\nOperators\nExpressions\nFlow control\nFunctions\nError handling\nMore advanced functionalities"
   },
   {
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#how-read",
+    "href": "learn/learn-python/module-0/3-python-basics.html#how-read",
+    "title": "Python basics",
+    "section": "How read",
+    "text": "How read\n\nAll code is read sequentially, one line after another."
+  },
+  {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#variables",
     "href": "learn/learn-python/module-0/3-python-basics.html#variables",
     "title": "Python basics",
@@ -2013,14 +2027,14 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#f-strings",
     "title": "Python basics",
     "section": "f-strings",
-    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age })\n\nOutput\nThe patient's age is : 25"
+    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is : { age }\")\n\nOutput\nThe patient's age is : 25"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#add-strings-together",
     "href": "learn/learn-python/module-0/3-python-basics.html#add-strings-together",
     "title": "Python basics",
     "section": "Add strings together",
-    "text": "Add strings together\n\nOr you can add strings together like this\n\n\n\nadding_strings.py\n\nage = 25\nprint(\"The patient's age is : \" +  age \")\n\nOutput\nThe patient's age is : 25"
+    "text": "Add strings together\n\nOr you can add strings together like this\n\n\n\nadding_strings.py\n\nage = 25\nprint(\"The patient's age is : \" +  age)\n\nOutput\nThe patient's age is : 25"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#indentation",
@@ -2056,6 +2070,13 @@
     "title": "Python basics",
     "section": "Comments",
     "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks:\n\n\n\ncomments.py\n\n# This is a single line comment\na_string = \"a string\"\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE DOUBLE QUOTATION MARKS\n\"\"\"\ndef i_am_a_function():\n    return True\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE SINGLE QUOTATION MARKS\n'''\ndef i_am_another_function():\n    return True"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#to-uncomment",
+    "href": "learn/learn-python/module-0/3-python-basics.html#to-uncomment",
+    "title": "Python basics",
+    "section": "To uncomment",
+    "text": "To uncomment\n\nTo uncomment, remove the hashtag, or triple single / double quotation marks."
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#comments-1",
@@ -2100,6 +2121,13 @@
     "text": "Control flow - while loops\n\n\nwhile_loop.py\n\ncount = 1\n\nwhile count &lt;= 5:\n    print(count)\n    count += 1\n\nOutput\n    1\n    2\n    3\n    4\n    5"
   },
   {
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#indexing-lists",
+    "href": "learn/learn-python/module-0/3-python-basics.html#indexing-lists",
+    "title": "Python basics",
+    "section": "Indexing lists",
+    "text": "Indexing lists\n\n\nindexing.py\n\na_list = [\"a\", \"b\", \"c\"]\n\nprint(a_list[1])\n\nOutput b"
+  },
+  {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#functions-and-methods",
     "href": "learn/learn-python/module-0/3-python-basics.html#functions-and-methods",
     "title": "Python basics",
@@ -2139,7 +2167,7 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#inbuilt-functions",
     "title": "Python basics",
     "section": "Inbuilt functions",
-    "text": "Inbuilt functions\n\nThere are some functions that are already built into python, eg\n\n\n\nbuilt_in_functions.py\n\nprint(\"hello world\")\nlen([0,1,2,3,4])\n\nOutput\n    hello world\n    5"
+    "text": "Inbuilt functions\n\nThere are some functions that are already built into python, eg\n\n\n\nbuilt_in_functions.py\n\nprint(\"hello world\")\nprint(len([0,1,2,3,4]))\n\nOutput\n    hello world\n    5"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#other-things-to-be-aware-of",

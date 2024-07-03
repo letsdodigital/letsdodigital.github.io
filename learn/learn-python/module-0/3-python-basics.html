@@ -521,6 +521,12 @@ Let’s Do Digital Team
 </ul></li>
 </ul>
 </section>
+<section id="how-read" class="slide level2">
+<h2>How read</h2>
+<ul>
+<li>All code is read sequentially, one line after another.</li>
+</ul>
+</section>
 <section id="variables" class="slide level2">
 <h2>Variables</h2>
 <ul>
@@ -615,7 +621,7 @@ Let’s Do Digital Team
 <pre><strong>f_string.py</strong></pre>
 </div>
 <div class="sourceCode" id="cb7" data-filename="f_string.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>age <span class="op">=</span> <span class="dv">25</span></span>
-<span id="cb7-2"><a></a><span class="bu">print</span>(<span class="ss">f"The patient's age is : </span><span class="sc">{</span> age <span class="sc">}</span><span class="ss">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-2"><a></a><span class="bu">print</span>(<span class="ss">f"The patient's age is : </span><span class="sc">{</span> age <span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>The patient's age is : 25</code></pre>
@@ -630,7 +636,7 @@ Let’s Do Digital Team
 <pre><strong>adding_strings.py</strong></pre>
 </div>
 <div class="sourceCode" id="cb9" data-filename="adding_strings.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>age <span class="op">=</span> <span class="dv">25</span></span>
-<span id="cb9-2"><a></a><span class="bu">print</span>(<span class="st">"The patient's age is : "</span> <span class="op">+</span>  age <span class="st">")</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-2"><a></a><span class="bu">print</span>(<span class="st">"The patient's age is : "</span> <span class="op">+</span>  age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>The patient's age is : 25</code></pre>
@@ -741,6 +747,12 @@ Let’s Do Digital Team
 <span id="cb15-15"><a></a><span class="kw">def</span> i_am_another_function():</span>
 <span id="cb15-16"><a></a>    <span class="cf">return</span> <span class="va">True</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+</section>
+<section id="to-uncomment" class="slide level2">
+<h2>To uncomment</h2>
+<ul>
+<li>To <code>uncomment</code>, remove the hashtag, or triple single / double quotation marks.</li>
+</ul>
 </section>
 <section id="comments-1" class="slide level2 smaller">
 <h2>Comments</h2>
@@ -854,6 +866,18 @@ Let’s Do Digital Team
     4
     5</code></pre>
 </section>
+<section id="indexing-lists" class="slide level2">
+<h2>Indexing lists</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>indexing.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb23" data-filename="indexing.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a></a>a_list <span class="op">=</span> [<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>]</span>
+<span id="cb23-2"><a></a></span>
+<span id="cb23-3"><a></a><span class="bu">print</span>(a_list[<span class="dv">1</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output b</p>
+</section>
 <section id="functions-and-methods" class="slide level2" data-background-image="../../../media/box.jpg" data-background-opacity="0.4">
 <h2>Functions (and methods)</h2>
 <ul>
@@ -875,22 +899,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb23" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
-<span id="cb23-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
-<span id="cb23-3"><a></a>    return_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
-<span id="cb23-4"><a></a></span>
-<span id="cb23-5"><a></a>    <span class="bu">print</span> (a_variable)</span>
-<span id="cb23-6"><a></a></span>
-<span id="cb23-7"><a></a>    <span class="cf">return</span> return_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</section>
-<section id="functions-and-methods-2" class="slide level2">
-<h2>Functions (and methods)</h2>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>functions.py</strong></pre>
-</div>
-<div class="sourceCode" id="cb24" data-filename="functions.py" data-code-line-numbers="2,3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<div class="sourceCode" id="cb24" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
 <span id="cb24-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
 <span id="cb24-3"><a></a>    return_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
 <span id="cb24-4"><a></a></span>
@@ -899,13 +908,13 @@ Let’s Do Digital Team
 <span id="cb24-7"><a></a>    <span class="cf">return</span> return_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="functions-and-methods-3" class="slide level2">
+<section id="functions-and-methods-2" class="slide level2">
 <h2>Functions (and methods)</h2>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb25" data-filename="functions.py" data-code-line-numbers="5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<div class="sourceCode" id="cb25" data-filename="functions.py" data-code-line-numbers="2,3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
 <span id="cb25-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
 <span id="cb25-3"><a></a>    return_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
 <span id="cb25-4"><a></a></span>
@@ -914,19 +923,34 @@ Let’s Do Digital Team
 <span id="cb25-7"><a></a>    <span class="cf">return</span> return_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="functions-and-methods-4" class="slide level2">
+<section id="functions-and-methods-3" class="slide level2">
 <h2>Functions (and methods)</h2>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb26" data-filename="functions.py" data-code-line-numbers="7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<div class="sourceCode" id="cb26" data-filename="functions.py" data-code-line-numbers="5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
 <span id="cb26-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
 <span id="cb26-3"><a></a>    return_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
 <span id="cb26-4"><a></a></span>
 <span id="cb26-5"><a></a>    <span class="bu">print</span> (a_variable)</span>
 <span id="cb26-6"><a></a></span>
 <span id="cb26-7"><a></a>    <span class="cf">return</span> return_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="functions-and-methods-4" class="slide level2">
+<h2>Functions (and methods)</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb27" data-filename="functions.py" data-code-line-numbers="7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb27-2"><a></a>    a_variable <span class="op">=</span> argument_1 <span class="op">+</span> argument_2</span>
+<span id="cb27-3"><a></a>    return_variable <span class="op">=</span> <span class="st">"a return value"</span></span>
+<span id="cb27-4"><a></a></span>
+<span id="cb27-5"><a></a>    <span class="bu">print</span> (a_variable)</span>
+<span id="cb27-6"><a></a></span>
+<span id="cb27-7"><a></a>    <span class="cf">return</span> return_variable</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="inbuilt-functions" class="slide level2">
@@ -938,8 +962,8 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>built_in_functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb27" data-filename="built_in_functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a></a><span class="bu">print</span>(<span class="st">"hello world"</span>)</span>
-<span id="cb27-2"><a></a><span class="bu">len</span>([<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb28" data-filename="built_in_functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a></a><span class="bu">print</span>(<span class="st">"hello world"</span>)</span>
+<span id="cb28-2"><a></a><span class="bu">print</span>(<span class="bu">len</span>([<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    hello world
@@ -981,12 +1005,12 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb29" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a></a><span class="cf">try</span>:</span>
-<span id="cb29-2"><a></a>    variable <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="st">"a"</span></span>
-<span id="cb29-3"><a></a><span class="cf">except</span>:</span>
-<span id="cb29-4"><a></a>    <span class="bu">print</span>(<span class="st">"I knew that you could not add an integer and a string!"</span>)</span>
-<span id="cb29-5"><a></a><span class="cf">else</span>:</span>
-<span id="cb29-6"><a></a>    <span class="bu">print</span>(<span class="st">"Somehow I did not get an error!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb30" data-filename="functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a></a><span class="cf">try</span>:</span>
+<span id="cb30-2"><a></a>    variable <span class="op">=</span> <span class="dv">1</span> <span class="op">+</span> <span class="st">"a"</span></span>
+<span id="cb30-3"><a></a><span class="cf">except</span>:</span>
+<span id="cb30-4"><a></a>    <span class="bu">print</span>(<span class="st">"I knew that you could not add an integer and a string!"</span>)</span>
+<span id="cb30-5"><a></a><span class="cf">else</span>:</span>
+<span id="cb30-6"><a></a>    <span class="bu">print</span>(<span class="st">"Somehow I did not get an error!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    I knew that you could not add an integer and a string!</code></pre>
@@ -1032,21 +1056,21 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb33" data-filename="functions.py" data-code-line-numbers="3,4,15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb33-1"><a></a><span class="kw">class</span> FruitPrices:</span>
-<span id="cb33-2"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
-<span id="cb33-3"><a></a>        <span class="co"># 'pear' key does not exist!</span></span>
-<span id="cb33-4"><a></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
-<span id="cb33-5"><a></a></span>
-<span id="cb33-6"><a></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
-<span id="cb33-7"><a></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
-<span id="cb33-8"><a></a></span>
-<span id="cb33-9"><a></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
-<span id="cb33-10"><a></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
-<span id="cb33-11"><a></a></span>
-<span id="cb33-12"><a></a></span>
-<span id="cb33-13"><a></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
-<span id="cb33-14"><a></a></span>
-<span id="cb33-15"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb34" data-filename="functions.py" data-code-line-numbers="3,4,15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb34-1"><a></a><span class="kw">class</span> FruitPrices:</span>
+<span id="cb34-2"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>):</span>
+<span id="cb34-3"><a></a>        <span class="co"># 'pear' key does not exist!</span></span>
+<span id="cb34-4"><a></a>        <span class="va">self</span>.prices <span class="op">=</span> {<span class="st">"apple"</span>: <span class="fl">1.55</span>, <span class="st">"banana"</span>: <span class="fl">2.44</span>}</span>
+<span id="cb34-5"><a></a></span>
+<span id="cb34-6"><a></a>    <span class="kw">def</span> get_price(<span class="va">self</span>, fruit):</span>
+<span id="cb34-7"><a></a>        <span class="cf">return</span> <span class="va">self</span>._price(fruit)</span>
+<span id="cb34-8"><a></a></span>
+<span id="cb34-9"><a></a>    <span class="kw">def</span> _price(<span class="va">self</span>, fruit):</span>
+<span id="cb34-10"><a></a>        <span class="cf">return</span> <span class="va">self</span>.prices[fruit]</span>
+<span id="cb34-11"><a></a></span>
+<span id="cb34-12"><a></a></span>
+<span id="cb34-13"><a></a>fruit_prices <span class="op">=</span> FruitPrices()</span>
+<span id="cb34-14"><a></a></span>
+<span id="cb34-15"><a></a><span class="bu">print</span>(fruit_prices.get_price(<span class="st">"pear"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="you-got-all-that" class="slide level2" data-background-image="../../../media/coding.jpg" data-background-opacity="0.3">
@@ -1056,7 +1080,7 @@ Let’s Do Digital Team
 <li>Time for some hands on coding in <code>Lesson 2</code>.</li>
 </ul>
 </section>
-<section id="computers-are-pedantic" class="slide level2">
+<section id="computers-are-pedantic" class="slide level2 smaller">
 <h2>Computers are pedantic!</h2>
 <ul>
 <li><strong>Remember</strong> that computers think in <code>True</code> and <code>False</code>, e.g.&nbsp;<code>1</code> and <code>0</code>s. They are literal thinkers.</li>
