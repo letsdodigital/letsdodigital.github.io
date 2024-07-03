@@ -1,0 +1,29 @@
+---
+title: "Module 1 - Where is the on switch?"
+---
+
+This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, not clinical terminologies).
+
+## Chose a slide deck
+
+<ul>
+  <li><a href="1-introduction.html" target="_blank">1 - Introduction</a></li>
+  <li><a href="2-coding-environment.html" target="_blank">2 - Coding environment</a></li>
+  <li><a href="3-python-basics.html" target="_blank">3 - Python basics</a></li>
+  <li><a href="4-session-close.html" target="_blank">5 - Session close</a></li>
+</ul>
+
+## Get coding
+
+The code for this course can be found below
+<ul>
+  <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 0 code</a></li>
+</ul>
+
+You can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you.
+
+## Feedback
+
+A short feedback survey will be available here at the end of the module.
+
+<!--<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="2"></script>-->

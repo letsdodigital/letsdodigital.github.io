@@ -1,0 +1,91 @@
+---
+title: "Ask a clinician webinar series - episode 2"
+---
+
+## {{< var aac-2 >}}
+
+![](/media/surgeons.jpg){height=300px fig-align="center" fig-alt="A pill in each outstretched hand of a male doctor"}
+
+In the realm of healthcare data, merging clinical practice with digital innovation often feels like an overwhelming task. Have you ever been perplexed by clinical input in the Electronic Patient Record (EPR)? You carefully designed and implemented a system, only to discover a doctor entering 'TBC' in a vital field. What prompts these choices? What factors shape a clinician's interaction with digital tools?
+
+This is the second webinar in the {{< var ask-a-clinician-series-title >}} series from the Let’s Do Digital Team. If you have ever wanted to ask a surgeon about their thought processes, workflows, workloads, or just, “What the hell were you thinking?”, this is the webinar for you.
+
+Join us as Mr. Sobath Premaratne, a leading Vascular and Endovascular Surgeon at Bart’s Health NHS Trust in London, and a respected member of the Health and Care group of the British Computer Society, explains how a clinician thinks, works, and, sometimes, unintentionally disrupts your data. Mr. Premaratne is passionate about enhancing healthcare delivery through innovative solutions such as clinical process re-engineering, electronic health record systems, and artificial intelligence-enabled products. His extensive background includes an FRCS in Vascular and Endovascular Surgery, an MBCS in Software Engineering, an MSc in Advanced Surgical Practice, and specializations in Machine Learning and Computer Systems Analysis.
+
+With proficiency in medical ontologies like SNOMED CT, HL7-FHIR, and OpenEHR, and experience in AI application development using Python, Keras, TensorFlow, MATLAB, and Octave, Mr. Premaratne brings a unique blend of clinical and informatics expertise to the table. He is also an active member of the NHS AI Virtual Hub, NHS Python community, and NHS Digital Developer Hub. His technical skills extend to designing and developing websites and web applications using technologies such as React, HTML, CSS, jQuery, JavaScript, Django, JSON/AJAX, and PHP, as well as managing databases with Django ORM, SQLite, MS SQL, MongoDB, and MySQL.
+
+Mr. Premaratne's current interests in Health Informatics include Natural Language Processing (NLP), digital transformation in healthcare, development of medical apps, and the ethical use of AI in healthcare. His ultimate goal is to leverage his clinical and informatics expertise to create innovative solutions that enhance patient outcomes, reduce healthcare costs, and optimize workflows.
+
+Don't miss this opportunity to gain insights from a clinician deeply immersed in the intersection of healthcare and digital innovation.
+
+
+## Webinar structure
+
+```{=html}
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/blank-face.png" alt="picture of ... in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Chair: TBC
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/sobath-premaratne-circle.png" alt="picture of Sobath Premaratne in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Speaker: Sobath Premaratne - Vascular and Endovascular Surgeon and part-time renal transplant surgeon in London. Ex requirements analyst and software developer
+        </div>
+    </div>
+</div>
+```
+
+The first half will be a presentation of insights from a CCIO and pharmacist, followed by a Q&A.
+
+
+## When and where
+
+Online, 2-3pm, on Thursday the 1st August.
+
+
+## Tickets and coffees
+
+Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
+
+```{=html}
+<p style="color: grey; font-style: italic;">
+Click on the napkin or coffee cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
+</p>
+
+<div style="display: flex; flex-direction: column; width: 100%;">
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://buymeacoffee.com/letsdodigital/e/262989" style="display: flex; justify-content: center;">
+                <img src="/media/white-paper-coffee-cup.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the letsdodigital.org home page for a whole year!
+        </div>
+    </div>
+    <div style="display: flex; flex-direction: row;">
+        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
+            <a href="https://buymeacoffee.com/letsdodigital/e/262990" style="display: flex; justify-content: center;">
+                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
+            </a>
+        </div>
+        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
+            Napkins get a you a free ticket. Always useful for cleaning up after those small coffee spills!
+        </div>
+    </div>
+</div>
+```
+
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).

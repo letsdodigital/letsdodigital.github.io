@@ -3,7 +3,7 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
-### 3rd July 2024 - last call
+### 3rd July 2024 - tickets sales closed!
 
 [{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
 
@@ -13,9 +13,14 @@ image: /media/tickets.png
 [{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
 
 
+### 25th July 2024
+
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician/2.qmd)
+
+
 ### 1st August 2024
 
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician-2.qmd)
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-3 >}}](ask-a-clinician-3.qmd)
 
 
 ### 22nd August 2024
