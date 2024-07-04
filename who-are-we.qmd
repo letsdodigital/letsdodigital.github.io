@@ -7,22 +7,7 @@ A collection of people passionate about making better digital healthcare and edu
 ![](/media/mark-bailey-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Mark Bailey"}
 
 ### [**Mark Bailey**](https://bailey-medics.com/)
-Mark is the main curator of the Let's Do Digital Website.
-
----
-
-![](/media/dylan-goh-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Dylan Goh"}
-
-### Dylan Goh
-
-Dylan was the main curator for the 2023 Conference pages.
-
----
-
-![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
-
-### Nik Walne
-Nik is our current website *debugger* and also one of our tutors.
+Mark is the main curator of the Let's Do Digital Website and lead for the Let's Do Digital community. He is a locum respiratory consultant and clinician-who-codes. He is passionate about helping others learn about clinical informatics, be they general public, patient or healthcare staff, and he is also passionate about building amazing, useful, friendly and safe clinical apps.
 
 --- 
 
@@ -95,6 +80,15 @@ Doctor &  Head of data, MedTech
 ![](/media/sam-mcinerney.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
 
 ### Sam McInerney
+
+Sam, a medical oncology doctor at the Beatson in Glasgow, is also a PhD student at the University of Edinburgh. 
+His research focuses on integrating AI and electronic patient-reported outcomes (ePROMS) into the cancer patient pathway. 
+
+A life-long coder, before pursuing medicine Sam did a first degree in computer science and developed a keen interest in AI and neural networks. 
+Following his degree he worked for several years in London’s investment banking industry, specializing in low-latency, ultra-high-performance trading systems. 
+
+Sam graduated from St George’s University in London in 2006 after undertaking a graduate entry program into medicine, where Sam’s passion for building software carried over to his work in the NHS. Sam has built several applications since including an IOS app for clinical geneticists called 'The Genetic Counselling App' and most recently a system to automate clinic preparation. 
+Additionally, Sam founded DoctorsThatCode.com, a platform that offers tutorials and a blog space to keep up with the rapid advancements in AI and its implementation within healthcare.
 
 ---
 

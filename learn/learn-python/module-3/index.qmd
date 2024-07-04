@@ -1,0 +1,6 @@
+---
+title: "{{< var coding-module-3 >}}"
+---
+
+Module 3 is currently being built. We will be looking at data, statistics, machine learning, AI and the like. Watch this space
+
