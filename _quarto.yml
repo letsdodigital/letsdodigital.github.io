@@ -8,14 +8,8 @@ website:
     left:
       - href: learn/index.qmd
         text: Learn
-      - text: Conferences
-        menu:
-          - href: conferences/2024/index.qmd
-            text: "2024"
-          - href: conferences/2023/index.qmd
-            text: "2023"
-          - href: conferences/2022/index.qmd
-            text: "2022"
+      - href: conferences/2024/index.qmd
+        text: Conference
       - href: tickets/index.qmd
         text: "Tickets"
       - posts.qmd

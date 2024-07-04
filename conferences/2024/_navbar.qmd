@@ -6,6 +6,7 @@
     <div class="p-2"><a href="posters.html">Posters</a></div>
     <div class="p-2"><a href="maps.html">Maps</a></div>
     <div class="p-2"><a href="organising-committee.html">Organising Committee</a></div>
+    <div class="p-2"><a href="../all-conferences.html">Previous conferences</a></div>
 </div>
 ```
 
