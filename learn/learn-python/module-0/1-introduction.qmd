@@ -1,5 +1,5 @@
 ---
-title: "{{< var coding-module-1 >}}"
+title: "{{< var coding-module-0 >}}"
 author: "{{< var author >}}"
 format: revealjs
 logo: /media/ldd-logo.png
@@ -55,9 +55,8 @@ title-slide-attributes:
 * Interoperability
 * Automate routine tasks
 * Help lead a software development team with knowledge of both digital and clinical aspects.
-
-
 * Indeed, anything digital
+
 
 ## Tutor groups {background-image="/media/teacher-and-blackboard.jpg" background-opacity="0.6"}
 

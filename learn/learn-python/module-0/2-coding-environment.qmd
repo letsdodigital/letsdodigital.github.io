@@ -1,6 +1,6 @@
 ---
 title: "Coding environment (and the shell)"
-subtitle: "Module 1"
+subtitle: "Module 0"
 author: "{{< var author >}}"
 format: revealjs
 logo: /media/ldd-logo.png
@@ -22,7 +22,7 @@ title-slide-attributes:
 
 ## <span class="hide-title">Codespace light theme</span>
 
-![](/media/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-light-theme-1.png){.absolute top=0 left=0 width="max" height="max"}
 
 
 ## <span class="hide-title">Codespace dark theme</span>
@@ -33,6 +33,11 @@ title-slide-attributes:
 ## <span class="hide-title">Codespace layout</span>
 
 ![](/media/codespace-description.png){.absolute top=0 left=0 width="max" height="max"}
+
+
+## <span class="hide-title">Codespace what / where?</span>
+
+![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max"}
 
 
 # Useful terminal (shell) commands
@@ -124,4 +129,10 @@ Pro tip:
 * Did it work? If so, open up the lesson_1.py file.
 * Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 30 minutes for lesson 1.
+* We will give you 40 minutes for lesson 1.
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/3-python-basics.html" style="color: lightgrey;">Python basics</a>
+</div>
+```

@@ -15,19 +15,21 @@ End 5pm
 
 
 Learning points:
-* error in slide /code Speak to Nik
-* Not NHS laptops
-* Perhaps get Codespace running before session
 * MCQ, state how many true answers were left to find
-* Only one Codespace instance per 
 * indexing dictionaries and lists in slides
 * Code colour when active and not
 * squiggle lines
 * colon for if, else, function etc
 * what is if __main == "__main__":
     main()
-* Stopping programs with command-c or CTRL-c
-* explain what is st.write, number_input, selectbox, field etc
 * libraries, how to import
 * error types -> warning, "raise"
 * multiple lines
+* remove more complicated python stuff (name conventions)
+* Tutor guide for each lesson
+* Make it clear that module 0 and 1 are very basic.
+* Remove T/F ??
+* Just get into some code straight away
+* Write a variable
+* Where to write code and write commands
+* 4-5 students per tutor

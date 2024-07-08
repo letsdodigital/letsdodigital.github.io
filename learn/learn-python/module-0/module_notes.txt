@@ -1,4 +1,4 @@
-Timings of module 1 - example
+Timings of module 0 - example
 
 Start 3pm
 End 5pm
@@ -8,36 +8,20 @@ End 5pm
 2:05pm - talk - 1-introduction
 2:10pm - talk - 2-coding-environment
 2:20pm - hands-on - lesson_1.py
-2:50pm - talk - 3-python-basics (need 25-30 mins)
-3:10pm - hands-on - lesson_2.py
-3:55pm - talk - 4-lets-build.py
-4:00pm - hands-on - lesson_3.py / lesson_4.py
-4:50pm - talk - 5-session-close
+3:10pm - talk - 3-python-basics (need 25-30 mins)
+3:20pm - hands-on - lesson_2.py
+4:50pm - talk - 4-session-close
 5:00pm - close
 
 
 Learning points:
-* error in slide /code Speak to Nik
-* Not NHS laptops
-* Perhaps get Codespace running before session
-* MCQ, state how many true answers were left to find
-* Only one Codespace instance per 
+
 * indexing dictionaries and lists in slides
 * Code colour when active and not
 * squiggle lines
 * colon for if, else, function etc
-* what is if __main == "__main__":
-    main()
-* Stopping programs with command-c or CTRL-c
-* explain what is st.write, number_input, selectbox, field etc
-* libraries, how to import
-* error types -> warning, "raise"
 * multiple lines
 * remove more complicated python stuff (name conventions)
-* Tutor guide for each lesson
-* Make it clear that module 0 and 1 are very basic.
-* Remove T/F ??
 * Just get into some code straight away
-* Write a variable
 * Where to write code and write commands
 * 4-5 students per tutor

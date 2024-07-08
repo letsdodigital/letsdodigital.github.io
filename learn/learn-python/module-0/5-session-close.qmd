@@ -1,6 +1,6 @@
 ---
 title: "Session close"
-subtitle: "Module 1"
+subtitle: "Module 0"
 author: "{{< var author >}}"
 format: revealjs
 logo: /media/ldd-logo.png

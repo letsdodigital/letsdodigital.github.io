@@ -1,5 +1,5 @@
 ---
-title: "Module 1 - Where is the on switch?"
+title: "Module 0 - Where is the on switch?"
 ---
 
 This is the first module of the CWC course, and is designed for those with very little to no experience with coding (programmatic, not clinical terminologies).
@@ -15,12 +15,23 @@ This is the first module of the CWC course, and is designed for those with very 
 
 ## Get coding
 
-The code for this course can be found below
+The code for this course can be found below:
+
 <ul>
   <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 0 code</a></li>
 </ul>
 
 You can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you.
+
+
+## Tutor notes
+
+Notes for tutors can be found below:
+
+<ul>
+  <li><a href="tutor-notes.html" target="_blank">Tutor notes</a></li>
+</ul>
+
 
 ## Feedback
 

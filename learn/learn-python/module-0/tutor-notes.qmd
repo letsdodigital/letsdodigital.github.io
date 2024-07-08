@@ -1,0 +1,40 @@
+---
+title: "Tutor notes - module 0"
+---
+
+## Overview
+
+This is the first course of the Programming in Healthcare series. It is for students that have no experience with coding. You will need to provide a lot of hand holding, as almost all of the topics covered will be completely new to these students. There will be a high learning curve for most of the students, who may find the learning material overwhelming. This course has been designed to take things at a slow pace, trying to get the basics right first, with plenty of time to work through the coding practices. Please be patient with our students, and give them the time and teachings they need to grasp these basic concepts of programming. As you may know, there is a high attrition rate for people who start out trying to code. We need to help them over this initial hump, so we can help as many as possible to start out in this exciting world of coding.
+
+We will be using Codespace from Github as the teaching environment. All students will have to have a Github account. It is also recommended to not use a NHS computer, as some IT departments block access to GitHub.
+
+Code for the coding sessions can be found [here](https://github.com/letsdodigital/coding-hands-on).
+
+## Timings
+
+Start 7pm
+End 10pm
+
+6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality.
+7:00 pm - Open room to students
+7:05 pm - Talk - 1-introduction.html
+7:10 pm - Talk - 2-coding-environment.html
+7:20 pm - Hands-on - lesson_1.py
+8:00 pm - Talk - 3-python-basics.html
+8:20 pm - Hands-on - lesson_2.py
+9:50 pm - Talk - 4-session-close.html
+10:00 pm - Close
+
+## First hour
+
+In the first hour of this course, we will cover the basics of the IDE that is Codespace (slides 1-introduction.html and 2-coding-environment.html). We cover some basic commands. Then we will get the students to try out what they have learnt in the hands-on session (lesson_1.py).
+
+## Second and Third Hour
+
+For the rest of the module, we will cover python basics (3-python-basics.html) and then get students to try out some basic python code (lesson_2.py).
+
+
+## Common pit falls
+
+* **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of hospital/GP practice network.
+* **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.

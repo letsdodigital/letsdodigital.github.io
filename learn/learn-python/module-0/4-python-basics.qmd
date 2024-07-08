@@ -1,0 +1,175 @@
+---
+title: "Python basics - 2nd slide deck"
+subtitle: "Module 0"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-color: "#F6D499"
+    data-background-image: /media/python-scales.jpg
+---
+
+
+# <span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span> {background-image="/media/river-close-up.jpg" background-opacity="0.4"}
+
+
+## Control flow - if statements 
+
+```{.python filename="if_statement.py"}
+patient_allergy = "amoxicillin"
+
+if patient_allergy == "amoxicillin":
+    allergy_group = "penicillins"
+elif patient_allergy == "tazocin":
+    allergy_group = "penicillins"
+else:
+    allergy_group = "not defined"
+
+print("Patient is allergic to", allergy_group)
+```
+
+Output
+
+        Patient is allergic to penicillins
+
+
+## Control flow - for loops
+```{.python filename="for_loop.py"}
+list_of_numbers = [1, 2, 3, 4, 5]
+
+for number in list_of_numbers:
+    print(number)
+```
+
+Output
+
+        1
+        2
+        3
+        4
+        5
+
+
+## Control flow - while loops
+
+```{.python filename="while_loop.py"}
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+```
+
+Output
+
+        1
+        2
+        3
+        4
+        5
+
+## Indexing lists
+
+* Indexing in python starts at `0`.
+
+```{.python filename="indexing.py"}
+a_list = ["a", "b", "c"]
+
+print(a_list[0])
+```
+
+Output
+
+        a
+
+## Functions (and methods) {background-image="/media/box.jpg" background-opacity="0.4"}
+
+* Blocks of reusable code that perform a specific task. 
+* Help in organising code and making it more modular.
+* Part of the `DRY` (`don't repeat yourself`) philosophy.
+* A `method` is just a function, used within a class (a higher organisational entity in python).
+* A function:
+    1. Takes zero or more input values,
+    2. Undertakes some process, and
+    3. Returns zero or more output values.
+
+
+## Anatomy of a function
+
+```{.python filename="functions.py" code-line-numbers="2"}
+
+def name_of_function(argument_1, argument_2):
+
+    print (argument_1 + argument_2)
+
+    return "Finished"
+```
+
+## Anatomy of a function
+
+```{.python filename="functions.py" code-line-numbers="4"}
+
+def name_of_function(argument_1, argument_2):
+
+    print (argument_1 + argument_2)
+
+    return "Finished"
+```
+
+## Anatomy of a function
+
+```{.python filename="functions.py" code-line-numbers="6"}
+
+def name_of_function(argument_1, argument_2):
+
+    print (argument_1 + argument_2)
+
+    return "Finished"
+```
+
+## Inbuilt functions
+
+* There are some functions that are already built into python, eg
+```{.python filename="built_in_functions.py"}
+print("hello world")
+print(len([0,1,2,3,4]))
+
+```
+
+Output
+
+        hello world
+        5
+
+
+## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
+
+* Now it is your turn.
+* Time for some hands on coding in `Lesson 3`.
+* You need to change directory
+
+```{.bash}
+$ cd ../lesson_3
+```
+
+* Then run the first exercise:
+
+```{.bash}
+$ python exercise_1.py
+```
+
+## Computers are pedantic!  {.smaller}
+
+* **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
+* Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
+* Now go have some fun in your tutor groups with hands-on coding and debugging.
+* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
+
+## Next slides
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/5-session-close.html" style="color: lightgrey;">Session close deck</a>
+</div>
+```
