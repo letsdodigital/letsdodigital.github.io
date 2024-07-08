@@ -321,7 +321,7 @@ title: "Agenda 2024"
             <img src="/media/simon-chapman.png" alt="picture of Simon Chapman" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Simon Chapman - Paediatric Consultant and clinician-who-codes
+            Simon Chapman - Paediatric Consultant, King's College London NHS Foundation Trust and Clinician-who-codes
         </div>
     </div>
 </div>
