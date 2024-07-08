@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.53">
 
   <meta name="author" content="Let’s Do Digital Team">
-  <title>Let's Do Digital – Coding environment (and the shell)</title>
+  <title>Let's Do Digital – Python basics - 2nd slide deck</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -387,7 +387,7 @@
       margin-right: 0; 
     }
   </style>
-<meta name="twitter:title" content="Coding environment (and the shell) – Let’s Do Digital">
+<meta name="twitter:title" content="Python basics - 2nd slide deck – Let’s Do Digital">
 <meta name="twitter:description" content="Module 0">
 <meta name="twitter:card" content="summary">
 </head>
@@ -395,8 +395,8 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../../../media/egg-shells.jpg" data-background-opacity="0.5" class="quarto-title-block center">
-  <h1 class="title">Coding environment (and the shell)</h1>
+<section id="title-slide" data-background-color="#F6D499" data-background-image="../../../media/python-scales.jpg" class="quarto-title-block center">
+  <h1 class="title">Python basics - 2nd slide deck</h1>
   <p class="subtitle">Module 0</p>
 
 <div class="quarto-title-authors">
@@ -409,129 +409,182 @@ Let’s Do Digital Team
 
 </section>
 <section>
-<section id="the-coding-environment" class="title-slide slide level1 center" data-background-image="../../../media/bamboo-woods.jpg" data-background-opacity="0.2">
-<h1>The coding environment</h1>
+<section id="ok-so-you-can-create-variables-change-them-and-compare-them.-what-next" class="title-slide slide level1 center" data-background-image="../../../media/river-close-up.jpg" data-background-opacity="0.4">
+<h1><span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span></h1>
 
 </section>
-<section id="todays-hands-on-sessions" class="slide level2" data-background-image="../../../media/bamboo-woods.jpg" data-background-opacity="0.2">
-<h2>Today’s hands-on sessions</h2>
+<section id="control-flow---if-statements" class="slide level2">
+<h2>Control flow - if statements</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>if_statement.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="if_statement.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>patient_allergy <span class="op">=</span> <span class="st">"amoxicillin"</span></span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a><span class="cf">if</span> patient_allergy <span class="op">==</span> <span class="st">"amoxicillin"</span>:</span>
+<span id="cb1-4"><a></a>    allergy_group <span class="op">=</span> <span class="st">"penicillins"</span></span>
+<span id="cb1-5"><a></a><span class="cf">elif</span> patient_allergy <span class="op">==</span> <span class="st">"tazocin"</span>:</span>
+<span id="cb1-6"><a></a>    allergy_group <span class="op">=</span> <span class="st">"penicillins"</span></span>
+<span id="cb1-7"><a></a><span class="cf">else</span>:</span>
+<span id="cb1-8"><a></a>    allergy_group <span class="op">=</span> <span class="st">"not defined"</span></span>
+<span id="cb1-9"><a></a></span>
+<span id="cb1-10"><a></a><span class="bu">print</span>(<span class="st">"Patient is allergic to"</span>, allergy_group)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    Patient is allergic to penicillins</code></pre>
+</section>
+<section id="control-flow---for-loops" class="slide level2">
+<h2>Control flow - for loops</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>for_loop.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="for_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>list_of_numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>]</span>
+<span id="cb3-2"><a></a></span>
+<span id="cb3-3"><a></a><span class="cf">for</span> number <span class="kw">in</span> list_of_numbers:</span>
+<span id="cb3-4"><a></a>    <span class="bu">print</span>(number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    1
+    2
+    3
+    4
+    5</code></pre>
+</section>
+<section id="control-flow---while-loops" class="slide level2">
+<h2>Control flow - while loops</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>while_loop.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb5" data-filename="while_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
+<span id="cb5-4"><a></a>    <span class="bu">print</span>(count)</span>
+<span id="cb5-5"><a></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    1
+    2
+    3
+    4
+    5</code></pre>
+</section>
+<section id="indexing-lists" class="slide level2">
+<h2>Indexing lists</h2>
 <ul>
-<li>We will be using the GitHub <code>Codespace</code> development environment.</li>
-<li>This is a browser version of the well known desktop <code>VS Code</code> development environment.</li>
-<li>In the context of this course, a development environment is synonymous with the <code>teaching environment</code>.</li>
+<li>Indexing in python starts at <code>0</code>.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>indexing.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb7" data-filename="indexing.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>a_list <span class="op">=</span> [<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>]</span>
+<span id="cb7-2"><a></a></span>
+<span id="cb7-3"><a></a><span class="bu">print</span>(a_list[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    a</code></pre>
+</section>
+<section id="functions-and-methods" class="slide level2" data-background-image="../../../media/box.jpg" data-background-opacity="0.4">
+<h2>Functions (and methods)</h2>
+<ul>
+<li>Blocks of reusable code that perform a specific task.</li>
+<li>Help in organising code and making it more modular.</li>
+<li>Part of the <code>DRY</code> (<code>don't repeat yourself</code>) philosophy.</li>
+<li>A <code>method</code> is just a function, used within a class (a higher organisational entity in python).</li>
+<li>A function:
+<ol type="1">
+<li>Takes zero or more input values,</li>
+<li>Undertakes some process, and</li>
+<li>Returns zero or more output values.</li>
+</ol></li>
 </ul>
 </section>
-<section id="codespace-light-theme" class="slide level2">
-<h2><span class="hide-title">Codespace light theme</span></h2>
-<p><img data-src="../../../media/codespace-light-theme-1.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
+<section id="anatomy-of-a-function" class="slide level2">
+<h2>Anatomy of a function</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb9" data-filename="functions.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a></span>
+<span id="cb9-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb9-3"><a></a></span>
+<span id="cb9-4"><a></a>    <span class="bu">print</span> (argument_1 <span class="op">+</span> argument_2)</span>
+<span id="cb9-5"><a></a></span>
+<span id="cb9-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="codespace-dark-theme" class="slide level2">
-<h2><span class="hide-title">Codespace dark theme</span></h2>
-<p><img data-src="../../../media/codespace-dark-theme.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
+<section id="anatomy-of-a-function-1" class="slide level2">
+<h2>Anatomy of a function</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb10" data-filename="functions.py" data-code-line-numbers="4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a></span>
+<span id="cb10-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb10-3"><a></a></span>
+<span id="cb10-4"><a></a>    <span class="bu">print</span> (argument_1 <span class="op">+</span> argument_2)</span>
+<span id="cb10-5"><a></a></span>
+<span id="cb10-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="codespace-layout" class="slide level2">
-<h2><span class="hide-title">Codespace layout</span></h2>
-<p><img data-src="../../../media/codespace-description.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
+<section id="anatomy-of-a-function-2" class="slide level2">
+<h2>Anatomy of a function</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb11" data-filename="functions.py" data-code-line-numbers="6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a></span>
+<span id="cb11-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb11-3"><a></a></span>
+<span id="cb11-4"><a></a>    <span class="bu">print</span> (argument_1 <span class="op">+</span> argument_2)</span>
+<span id="cb11-5"><a></a></span>
+<span id="cb11-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section>
-<section id="codespace-what-where" class="slide level2">
-<h2><span class="hide-title">Codespace what / where?</span></h2>
-<p><img data-src="../../../media/codespace-what-where.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
-</section></section>
-<section>
-<section id="useful-terminal-shell-commands" class="title-slide slide level1 center">
-<h1>Useful terminal (shell) commands</h1>
-
-<img data-src="../../../media/the-shell.png" class="bordered quarto-figure quarto-figure-center r-stretch"></section>
-<section id="commands" class="slide level2" data-background-image="../../../media/command-button.jpg" data-background-opacity="0.2">
-<h2>Commands</h2>
+<section id="inbuilt-functions" class="slide level2">
+<h2>Inbuilt functions</h2>
 <ul>
-<li>A command is a piece of code that carries out a <code>specific task</code>.</li>
-<li>These tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system.</li>
+<li>There are some functions that are already built into python, eg</li>
 </ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>built_in_functions.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb12" data-filename="built_in_functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a><span class="bu">print</span>(<span class="st">"hello world"</span>)</span>
+<span id="cb12-2"><a></a><span class="bu">print</span>(<span class="bu">len</span>([<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    hello world
+    5</code></pre>
 </section>
-<section id="using-the-terminal" class="slide level2 smaller">
-<h2>Using the terminal</h2>
+<section id="you-got-all-that" class="slide level2" data-background-image="../../../media/coding.jpg" data-background-opacity="0.3">
+<h2>You got all that?</h2>
 <ul>
-<li>Also called the <code>command line interface</code> (<code>CLI</code>) or the <code>shell</code>.</li>
+<li>Now it is your turn.</li>
+<li>Time for some hands on coding in <code>Lesson 3</code>.</li>
+<li>You need to change directory</li>
 </ul>
-<p>Steps:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb14-1"><a></a><span class="ex">$</span> cd ../lesson_3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li><code>Select the terminal</code> (aka click on it).</li>
-<li><code>Type in your command</code> (this needs to be typed out <strong>exactly</strong>).</li>
-<li><code>Press enter</code> to run the command.</li>
+<li>Then run the first exercise:</li>
 </ul>
-<p>Pro tip:</p>
-<ul>
-<li>If you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard.</li>
-</ul>
+<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb15-1"><a></a><span class="ex">$</span> python exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="list-files-and-folders-command" class="slide level2">
-<h2>List files and folders command</h2>
+<section id="computers-are-pedantic" class="slide level2 smaller">
+<h2>Computers are pedantic!</h2>
 <ul>
-<li>The <code>ls</code> command.</li>
-</ul>
-
-<img data-src="../../../media/command-ls.png" class="bordered quarto-figure quarto-figure-center r-stretch"></section>
-<section id="change-directory-command" class="slide level2">
-<h2>Change directory command</h2>
-<ul>
-<li>The <code>cd</code> command.</li>
-<li><code>cd ..</code> takes you back to the previous (parent) folder.</li>
-</ul>
-
-<img data-src="../../../media/command-cd.png" class="bordered quarto-figure quarto-figure-center r-stretch"></section>
-<section id="where-am-i" class="slide level2">
-<h2>Where am I?</h2>
-<ul>
-<li><code>pwd</code> is the <code>print working directory</code> command.</li>
-</ul>
-
-<img data-src="../../../media/command-pwd.png" class="bordered quarto-figure quarto-figure-center r-stretch"></section></section>
-<section>
-<section id="time-to-try-it-out-for-yourself" class="title-slide slide level1 center" data-background-image="../../../media/dive-into-lake.jpg" data-background-opacity="0.2">
-<h1>Time to try it out for yourself</h1>
-
-</section>
-<section id="codespace-view" class="slide level2">
-<h2><span class="hide-title">Codespace view</span></h2>
-<p><img data-src="../../../media/lesson-1-screenshot.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
-</section>
-<section id="lesson-1" class="slide level2 smaller">
-<h2>Lesson 1</h2>
-<ul>
-<li>Make sure you have a GitHub account.</li>
-<li>Join your tutor group in the named <code>Zoom break out rooms</code>.</li>
-<li>Go to the page at <a href="https://github.com/letsdodigital/coding-hands-on">https://github.com/letsdodigital/coding-hands-on</a></li>
-<li>Click on the <code>&lt;&gt; Code</code> button and then the <code>Codespaces</code> tab.</li>
-<li>Click on <code>Create codespace on main</code></li>
+<li><strong>Remember</strong> that computers think in <code>True</code> and <code>False</code>, e.g.&nbsp;<code>1</code> and <code>0</code>s. They are literal thinkers.</li>
+<li>Even one character being out of place can break an entire code base. So watch out for that <code>unpaired quotation mark</code>, look out for that <code>space</code> that should not be there, and make sure you <code>match your indentations to your if statements</code>.</li>
+<li>Now go have some fun in your tutor groups with hands-on coding and debugging.</li>
+<li>Come back to these slides to remind yourself of key concepts - <a href="https://letsdodigital.org/learn/learn-python/module-1/">https://letsdodigital.org/learn/learn-python/module-1/</a></li>
 </ul>
 </section>
-<section id="codespace-load" class="slide level2">
-<h2><span class="hide-title">Codespace load</span></h2>
-<p><img data-src="../../../media/breakout-room-button.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
-</section>
-<section id="codespace-load-1" class="slide level2">
-<h2><span class="hide-title">Codespace load</span></h2>
-<p><img data-src="../../../media/github-repo-module-1-hands-on.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
-</section>
-<section id="get-to-your-first-lesson" class="slide level2">
-<h2>Get to your first lesson</h2>
-<ul>
-<li>Change the directory (don’t type the <code>$</code>. This is just how we show this is the command line):</li>
-</ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a></a>    <span class="ex">$</span> cd programming_in_healthcare/module_1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li>And then</li>
-</ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a></a>    <span class="ex">$</span> python lesson_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<ul>
-<li>Did it work? If so, open up the lesson_1.py file.</li>
-<li>Any problems, just ask your tutor for help.</li>
-<li><strong>There is no such thing as a stupid question, only the question left unanswered.</strong></li>
-<li>We will give you 40 minutes for lesson 1.</li>
-</ul>
+<section id="next-slides" class="slide level2">
+<h2>Next slides</h2>
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-1/3-python-basics.html" style="color: lightgrey;">Python basics</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/5-session-close.html" style="color: lightgrey;">Session close deck</a>
 </div>
 
 <div class="quarto-auto-generated-content">
