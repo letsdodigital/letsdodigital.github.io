@@ -24,7 +24,7 @@ if patient_allergy == "amoxicillin":
 elif patient_allergy == "tazocin":
     allergy_group = "penicillins"
 else:
-    allergy_group = "not defined"
+    allergy_group = "other antibiotics"
 
 print("Patient is allergic to", allergy_group)
 ```
@@ -33,6 +33,43 @@ Output
 
         Patient is allergic to penicillins
 
+## Control flow - if statements 
+
+```{.python filename="if_statement.py"}
+patient_allergy = "tazocin"
+
+if patient_allergy == "amoxicillin":
+    allergy_group = "penicillins"
+elif patient_allergy == "tazocin":
+    allergy_group = "penicillins"
+else:
+    allergy_group = "other antibiotics"
+
+print("Patient is allergic to", allergy_group)
+```
+
+Output
+
+        Patient is allergic to penicillins
+
+## Control flow - if statements 
+
+```{.python filename="if_statement.py"}
+patient_allergy = "clarithromycin"
+
+if patient_allergy == "amoxicillin":
+    allergy_group = "penicillins"
+elif patient_allergy == "tazocin":
+    allergy_group = "penicillins"
+else:
+    allergy_group = "other antibiotics"
+
+print("Patient is allergic to", allergy_group)
+```
+
+Output
+
+        Patient is allergic to other antibiotics
 
 ## Control flow - for loops
 ```{.python filename="for_loop.py"}
@@ -56,9 +93,9 @@ Output
 ```{.python filename="while_loop.py"}
 count = 1
 
-while count <= 5:
+while count < 6:
     print(count)
-    count += 1
+    count = count + 1
 ```
 
 Output
@@ -83,7 +120,7 @@ Output
 
         a
 
-## Dictionary keys
+## Dictionary lookup
 
 * You can get a `value` from a dictionary by providing it with the `key` you want to look up.
 
@@ -176,14 +213,15 @@ $ python exercise_1.py
 ## Computers are pedantic!  {.smaller}
 
 * **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
-* Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
+* Even one character being out of place can break your code. 
+* So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
 * Now go have some fun in your tutor groups with hands-on coding and debugging.
-* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
+* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
 
 ## Next slides
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-1/5-session-close.html" style="color: lightgrey;">Session close deck</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-0/5-session-close.html" style="color: lightgrey;">Session close deck</a>
 </div>
 ```

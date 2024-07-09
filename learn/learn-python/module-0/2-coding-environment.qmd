@@ -111,6 +111,13 @@ Pro tip:
 ![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
 
 
+## Ignore this
+
+* Ignore the pop out about extensions you may get in the bottom right of Codespace
+
+![](/media/python-extension.png)
+
+
 ## Get to your first lesson {.smaller}
 
 * Change the directory (don't type the `$`. This is just how we show that this is the command line):

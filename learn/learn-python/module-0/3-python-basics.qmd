@@ -550,13 +550,13 @@ $ python exercise_1.py
 * **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
 * Even one character being out of place can break your code. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
 * Now go have some fun in your tutor groups with hands-on coding and debugging.
-* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
+* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
 
 
 ## Next slides
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-1/4-python-basics.html" style="color: lightgrey;">Python basics 2nd deck</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-0/4-python-basics.html" style="color: lightgrey;">Python basics 2nd deck</a>
 </div>
 ```
