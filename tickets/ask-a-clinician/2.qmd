@@ -4,7 +4,7 @@ title: "Ask a clinician webinar series - episode 2"
 
 ## {{< var aac-2 >}}
 
-![](/media/surgeons.jpg){height=300px fig-align="center" fig-alt="A pill in each outstretched hand of a male doctor"}
+![](/media/surgeons.jpg){height=300px fig-align="center" fig-alt="Two surgeons in theatre"}
 
 In the realm of healthcare data, merging clinical practice with digital innovation often feels like an overwhelming task. Have you ever been perplexed by clinical input in the Electronic Patient Record (EPR)? You carefully designed and implemented a system, only to discover a doctor entering 'TBC' in a vital field. What prompts these choices? What factors shape a clinician's interaction with digital tools?
 
@@ -25,11 +25,10 @@ Don't miss this opportunity to gain insights from a clinician deeply immersed in
 <div class="agenda-container">
     <div class="agenda-row">
         <div class="agenda-image-container">
-            <img src="/media/blank-face.png" alt="picture of ... in a circle" class="agenda-image">
+            <img src="/media/nik-walne.png" alt="picture of ... in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">
-            Chair: TBC
-        </div>
+            Chair: Nik Walne - Senior BI Solutions Architect, Oxford Health NHS Foundation Trust
     </div>
 </div>
 <div class="agenda-container">
