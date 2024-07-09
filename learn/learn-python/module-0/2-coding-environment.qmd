@@ -17,7 +17,6 @@ title-slide-attributes:
 
 * We will be using the GitHub `Codespace` development environment.
 * This is a browser version of the well known desktop `VS Code` development environment.
-* In the context of this course, a development environment is synonymous with the `teaching environment`.
 
 
 ## <span class="hide-title">Codespace light theme</span>
@@ -112,12 +111,12 @@ Pro tip:
 ![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
 
 
-## Get to your first lesson
+## Get to your first lesson {.smaller}
 
-* Change the directory (don't type the `$`. This is just how we show this is the command line):
+* Change the directory (don't type the `$`. This is just how we show that this is the command line):
 
 ```{.bash}
-    $ cd programming_in_healthcare/module_1
+    $ cd programming_in_healthcare/module_0
 ```
 
 * And then

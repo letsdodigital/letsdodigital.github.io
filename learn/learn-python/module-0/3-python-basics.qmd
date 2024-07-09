@@ -13,9 +13,9 @@ title-slide-attributes:
 
 ## What are computers? {background-image="/media/yes-no-hands.jpg" background-opacity="0.3"}
 
-* At its core, a computer is essentially a device that answers `yes-no questions`.
+* At its core, a computer is essentially a device that answers simple `true-false questions`.
 * It answers these simple questions very very quickly.
-* By asking the computer millions of these yes-no questions, it can calculate answers to very complex questions.
+* By asking the computer millions of these true-false questions, it can calculate answers to very complex questions.
 
 
 ## How do computers think? {.smaller background-image="/media/old-computer.jpg" background-opacity="0.3"}
@@ -36,13 +36,19 @@ title-slide-attributes:
 
 ## How do computers think? {background-image="/media/old-computer.jpg" background-opacity="0.3"}
 
-* The processor is where these `yes-no questions` are undertaken.
+* The processor is where these `true-false questions` are undertaken.
 * The processor receives instructions in `binary` form. 
 * Binary is basically a string of `1`s and `0`s (eg 01001011).
-* As modern computers communicate in binary (yes-no or true-false) form, they are said to be `digital`.
+* A `1` can be considered `True`
+* A `0` can be considered `False`
+
+
+## How do computers think? {background-image="/media/old-computer.jpg" background-opacity="0.3"}
+
+* As modern computers communicate in binary form, they are said to be `digital`.
 * The processor reads these binary instructions.
 * Each instruction results in either a `True` (1) or `False` (0) `output`.
-* The `output` is also in binary.
+* Hence, the `output` is also in binary.
 
 
 ## So how do we communicate with computers?{background-image="/media/digital-self.jpg" background-opacity="0.3"}
@@ -57,7 +63,7 @@ title-slide-attributes:
 * There are over 9000 programming languages, but much less than this in routine use.
 * A programming language is written in *somewhat* of a human readable form (depends on the language).
 * Popular languages include:
-    * Javascript / typescript
+    * Javascript
     * C++
     * Go
     * Java
@@ -79,10 +85,10 @@ title-slide-attributes:
 
 ## The Python programming language{background-image="/media/python-logo.png" background-opacity="0.3"}
 
-* Python is a scripting language interpreted and **compiled at runtime**.
-* Its syntax emphasises readability and simplicity, utilising **indentation** for code structuring.
-* Python supports various programming paradigms, including procedural, object-oriented, and functional.
-* With a vast standard library and active community support, Python is widely used for **web development**, **data analysis**, **AI / machine learning**, and **automation**.
+* A language that is read by the computer and turned into `1`s and `0`s at **runtime**.
+* Its syntax emphasises readability and simplicity
+* It utilising **indentation** for code structuring.
+* Widely used for **web development**, **data analysis**, **AI / machine learning**, and **automation**.
 
 
 ## Where to code?
@@ -116,7 +122,7 @@ print("Guess what, I am the third line read by the computer")
 
 Output
 
-        I am the first line read by the computer
+        I am the first line of code read by the computer
         I am the second line read by the computer
         Guess what, I am the third line read by the computer
 
@@ -190,7 +196,7 @@ Syntax error:
 * It does not matter which you chose, but be consistent. If you accidentally mix pairs of quotation marks you will get strange errors.
 
 ```{.python filename="quotation_marks.py"}
-variable_a = "All good here with two single quotation marks"
+variable_a = "All good here with two double quotation marks"
 variable_b = "I have the wrong matching quotation marks'
 variable_c = 'Single quotation marks'
 ```
@@ -200,9 +206,9 @@ Output
         File "file_with_bad_code.py", line 2
         variable_b = "I have the wrong matching quotation marks'
                  ^
-SyntaxError: unterminated string literal (detected at line 18)
+        SyntaxError: unterminated string literal (detected at line 18)
 
-* Suddenly `variable_c` is part of the string for `variable_b` and also an error!
+* `variable_b`'s string causes an error due to unmatching quotation marks.
 
 
 ## Using both types of quotation marks
@@ -255,18 +261,22 @@ Output
 
         The patient's age is: 25
 
+* Note, the print statement when used like this adds a space between the arguments in the print out.
+
 ## Indentation {background-image="/media/steps-and-child.jpg" background-opacity="0.4"}
 
-* Python is extremely sensitive to indentation. One extra space or tab in front of a line of code and you will not hear the end of it in terms of errors or strange results. 
+* Python is `extremely` sensitive to indentation. One extra space or tab in front of a line of code and you will not hear the end of it in terms of errors or strange results. 
 * Indentation (in the form of `tabs`) of lines of code shows the computer which previous line(s) of code it relates to.
+* In standard `Codespace`, **1 tab = 4 spaces**
 
 
 ## Indentation
 
-```{.python filename="indentation.py" code-line-numbers="10"}
+* Let's say **a drug has been prescribed and given**
+
+```{.python filename="indentation.py" code-line-numbers="9"}
 if drug_prescribed == True:
     if drug_given == True:
-        record_drug_given = True
         print("Drug has been prescribed and given to the patient")
     else:
         print("Drug has been prescribed but not given")
@@ -276,7 +286,7 @@ else:
 print("Drug round complete!")
 ```
 
-Output (if drug has been prescribed and given)
+Output
 
         Drug has been prescribed and given to the patient
         Drug round complete!
@@ -284,10 +294,11 @@ Output (if drug has been prescribed and given)
 
 ## Indentation
 
-```{.python filename="indentation.py" code-line-numbers="10"}
+* Let's say **a drug has been prescribed and given**
+
+```{.python filename="indentation.py" code-line-numbers="9"}
 if drug_prescribed == True:
     if drug_given == True:
-        record_drug_given = True
         print("Drug has been prescribed and given to the patient")
     else:
         print("Drug has been prescribed but not given")
@@ -298,23 +309,23 @@ else:
 ```
 
 
-Output (if drug has been prescribed and given)
+Output
 
         Drug has been prescribed and given to the patient
 
 
 ## Naming conventions {.smaller}
 
-* There are several naming conventions python. The convention you need to know about for this module is:
-    * `snake_case` - Variables, functions and methods
+* There are several naming conventions in python. The convention you need to know about for this module is:
+    * `snake_case` - for variables, functions and methods
 
 ## Comments {.smaller}
 
-* Comments are useful in explaining what code is supposed to do.
-* They are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).
+* Comments are useful in `explaining` what code is supposed to do.
+* They are essential for when you, and others, need to read your code later to problem solve or add to your code (`10:1 reading to writing code ratio`).
 * Use them sparingly, as they can clutter code.
 * Try and make variable and function names self explanatory.
-* You can comment with the hastag or encapsulate with triple quotation marks:
+* You can comment with the hastag or encapsulate with triple quotation marks.
 * Comments are lines of code not translated by the interpretor.
 
 
@@ -322,7 +333,6 @@ Output (if drug has been prescribed and given)
 
 ```{.python filename="comments.py"}
 # This is a single line comment
-a_string = "a string"
 ```
 
 
@@ -349,20 +359,36 @@ a_string = "a string"
 
 * To `uncomment` - remove the hashtag, or triple single / double quotation marks.
 
+```{.python filename="comments.py"}
+# i_am_commented_out_function_call()
+
+i_am_a_function_call_that_can_run()
+```
+
 
 ## Basic operators {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
 * Operators manipulate and compare data (which are stored in variables). Operator types include:
-    * Assign `=` (eg `x = "a string"`)
-    * Arithmetic: 
-        * `+` plus (eg `x = 3 + 5`)
-        * `-` minus
-        * `*` multiply
-        * `/` divide
-    * Comparison:
-        * `==` compare (eg `if x == 8`)
-        * `>` greater than
-        * `<` less than
+* Assign `=`
+    
+    `x = "a string"`
+
+
+## Basic operators {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
+
+* Arithmetic: 
+    * `+` plus (eg `x = 3 + 5`)
+    * `-` minus
+    * `*` multiply
+    * `/` divide
+
+
+## Basic operators {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
+
+* Comparison:
+    * `==` compare (eg `if x == 8`)
+    * `>` greater than
+    * `<` less than
 
 
 ## More advanced operators {background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
@@ -383,7 +409,7 @@ Output
 ## Functions (and methods) {background-image="/media/box.jpg" background-opacity="0.4"}
 
 * Blocks of reusable code that perform a specific task. 
-* Help in organising code and making it more modular.
+* Help in organising code and making it more modular (code can be reused).
 * Part of the `DRY` (`don't repeat yourself`) philosophy.
 
 
@@ -442,7 +468,7 @@ Output
 * Error handling is one of the most important concepts to understand and manage well. 
 * You will be spending 25-50% of  your time `debugging`.
 * `Debugging` is the practice of looking for bugs (errors in the code) and trying to fix them.
-* When an error happens in python, an `exception` is raised. You then use the `traceback` to try and find the cause of the error.
+* When an error happens in python, ones says an `exception is raised`. You then use the `traceback` to try and find the cause of the error.
 
 
 ## The Traceback
@@ -466,11 +492,11 @@ Output
 * When reading a Traceback, alwas read from the last line upwards.
 
         Traceback (most recent call last):
-            File "/User/a_user/code/error_in_code.py", line 28, in <module>
+            File "/User/a_user/code/error_in_code.py", line 7, in <module>
                 print(fruit_prices.get_price("pear"))
-            File "/User/a_user/code/error_in_code.py", line 21, in get_price
+            File "/User/a_user/code/error_in_code.py", line 1, in get_price
                 return self._price(fruit)
-            File "/User/a_user/code/error_in_code.py", line 24, in _price
+            File "/User/a_user/code/error_in_code.py", line 5, in _price
                 return self.prices[fruit]
         ==> KeyError: 'pear' <==
 
@@ -479,27 +505,19 @@ Output
 
 * Compare against the code
 
-```{.python filename="functions.py" code-line-numbers="3,4,15"}
-class FruitPrices:
-    def __init__(self):
-        # 'pear' key does not exist!
-        self.prices = {"apple": 1.55, "banana": 2.44}
+```{.python filename="functions.py" code-line-numbers="5"}
+def fruit_prices(fruit):
+    # 'pear' key does not exist!
+    fruit_prices = {"apple": 1.55, "banana": 2.44}
 
-    def get_price(self, fruit):
-        return self._price(fruit)
+    return prices[fruit]
 
-    def _price(self, fruit):
-        return self.prices[fruit]
-
-
-fruit_prices = FruitPrices()
-
-print(fruit_prices.get_price("pear"))
+print(fruit_prices("pear"))
 ```
 
 ## Traceback
 
-* Some times the traceback will underline erroneousness code with upwards arrows
+* Sometimes the traceback will underline erroneous code with upwards arrows `^`
 
 Syntax error:
 
@@ -507,11 +525,6 @@ Syntax error:
             variable b = "The added space will cause an error"
                      ^
         SyntaxError: invalid syntax
-
-## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
-
-* Now it is your turn.
-* Time for some hands on coding in `Lesson 3`.
 
 
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
@@ -535,7 +548,7 @@ $ python exercise_1.py
 ## Computers are pedantic!  {.smaller}
 
 * **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
-* Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
+* Even one character being out of place can break your code. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
 * Now go have some fun in your tutor groups with hands-on coding and debugging.
 * Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
 

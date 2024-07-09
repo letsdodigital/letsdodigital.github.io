@@ -83,6 +83,20 @@ Output
 
         a
 
+## Dictionary keys
+
+* You can get a `value` from a dictionary by providing it with the `key` you want to look up.
+
+```{.python filename="indexing.py"}
+a_dictionary = {"key 1": 11, "key 2": 76}
+
+print(a_dictionary["key 1"])
+```
+
+Output
+
+        11
+
 ## Functions (and methods) {background-image="/media/box.jpg" background-opacity="0.4"}
 
 * Blocks of reusable code that perform a specific task. 

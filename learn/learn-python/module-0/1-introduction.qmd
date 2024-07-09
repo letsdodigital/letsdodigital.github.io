@@ -15,18 +15,20 @@ title-slide-attributes:
 
 * Welcome and thank you for joining our course.
 * We hope you enjoy the course and find it helpful.
-* There are plans for further, more advanced courses, in the near future.
 * Please provide feedback at the end of the course, so we can help improve things further.
+* If you enjoyed module 0, then we have several further modules for you to learn from.
 
 
-## The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
+## 1st section - The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
 * We will explore the development (teaching) environment.
 * Get you connected to the development environment.
-* Get you running some common command line functions in `Lesson 1`.
+* Get you running some common command line functions in the `Lesson 1` hands on session.
 
 
-## Python Basics {.smaller}
+## 2nd section - Python Basics {.smaller background-image="/media/python-logo.png" background-opacity="0.4"}
+
+
 
 * How do we communicate with computers.
 * Introduction to the python programming language.
@@ -37,15 +39,15 @@ title-slide-attributes:
     * Control flow
     * Functions
     * Error handling
-* Then get you programming in `Lesson 2`.
+* Then get you programming in the `Lesson 2` and `lesson 3` hands on sessions.
 
 
 ## Why learn to code? {.smaller background-image="/media/why.jpg" background-opacity="0.2"}
 
-* We learn biology and anatomy at university to better understand and practice clinical medicine. Why don't we learn the base subject to better understand and practice digital medicine?
+* We learn biology and anatomy at university to better understand and practice clinical medicine. Why don't we learn the base subject of "digital" to better understand and practice digital medicine?
 * Of course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.
 * However, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects.
-* Also, how can you be expected to understand how AI and large language models work if you don't understand the basics of how computers think?
+* Also, how can you be expected to understand how AI and large language models work if you don't understand the basis of how computers think?
 
 
 ## How can you use your coding skills in health care?
@@ -60,7 +62,7 @@ title-slide-attributes:
 
 ## Tutor groups {background-image="/media/teacher-and-blackboard.jpg" background-opacity="0.6"}
 
-* Has everyone been placed in a tutor group?
+* Everyone should have an assigned tutor group. If not, please do speak up.
 
 ## Off we go to the shell {background-image="/media/horses-galloping.jpg" background-opacity="0.6"}
 
