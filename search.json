@@ -459,7 +459,21 @@
     "href": "learn/learn-python/module-0/4-python-basics.html#control-flow---if-statements",
     "title": "Python basics - 2nd slide deck",
     "section": "Control flow - if statements",
-    "text": "Control flow - if statements\n\n\nif_statement.py\n\npatient_allergy = \"amoxicillin\"\n\nif patient_allergy == \"amoxicillin\":\n    allergy_group = \"penicillins\"\nelif patient_allergy == \"tazocin\":\n    allergy_group = \"penicillins\"\nelse:\n    allergy_group = \"not defined\"\n\nprint(\"Patient is allergic to\", allergy_group)\n\nOutput\n    Patient is allergic to penicillins"
+    "text": "Control flow - if statements\n\n\nif_statement.py\n\npatient_allergy = \"amoxicillin\"\n\nif patient_allergy == \"amoxicillin\":\n    allergy_group = \"penicillins\"\nelif patient_allergy == \"tazocin\":\n    allergy_group = \"penicillins\"\nelse:\n    allergy_group = \"other antibiotics\"\n\nprint(\"Patient is allergic to\", allergy_group)\n\nOutput\n    Patient is allergic to penicillins"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/4-python-basics.html#control-flow---if-statements-1",
+    "href": "learn/learn-python/module-0/4-python-basics.html#control-flow---if-statements-1",
+    "title": "Python basics - 2nd slide deck",
+    "section": "Control flow - if statements",
+    "text": "Control flow - if statements\n\n\nif_statement.py\n\npatient_allergy = \"tazocin\"\n\nif patient_allergy == \"amoxicillin\":\n    allergy_group = \"penicillins\"\nelif patient_allergy == \"tazocin\":\n    allergy_group = \"penicillins\"\nelse:\n    allergy_group = \"other antibiotics\"\n\nprint(\"Patient is allergic to\", allergy_group)\n\nOutput\n    Patient is allergic to penicillins"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/4-python-basics.html#control-flow---if-statements-2",
+    "href": "learn/learn-python/module-0/4-python-basics.html#control-flow---if-statements-2",
+    "title": "Python basics - 2nd slide deck",
+    "section": "Control flow - if statements",
+    "text": "Control flow - if statements\n\n\nif_statement.py\n\npatient_allergy = \"clarithromycin\"\n\nif patient_allergy == \"amoxicillin\":\n    allergy_group = \"penicillins\"\nelif patient_allergy == \"tazocin\":\n    allergy_group = \"penicillins\"\nelse:\n    allergy_group = \"other antibiotics\"\n\nprint(\"Patient is allergic to\", allergy_group)\n\nOutput\n    Patient is allergic to other antibiotics"
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#control-flow---for-loops",
@@ -473,7 +487,7 @@
     "href": "learn/learn-python/module-0/4-python-basics.html#control-flow---while-loops",
     "title": "Python basics - 2nd slide deck",
     "section": "Control flow - while loops",
-    "text": "Control flow - while loops\n\n\nwhile_loop.py\n\ncount = 1\n\nwhile count &lt;= 5:\n    print(count)\n    count += 1\n\nOutput\n    1\n    2\n    3\n    4\n    5"
+    "text": "Control flow - while loops\n\n\nwhile_loop.py\n\ncount = 1\n\nwhile count &lt; 6:\n    print(count)\n    count = count + 1\n\nOutput\n    1\n    2\n    3\n    4\n    5"
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#indexing-lists",
@@ -483,11 +497,11 @@
     "text": "Indexing lists\n\nIndexing in python starts at 0.\n\n\n\nindexing.py\n\na_list = [\"a\", \"b\", \"c\"]\n\nprint(a_list[0])\n\nOutput\n    a"
   },
   {
-    "objectID": "learn/learn-python/module-0/4-python-basics.html#dictionary-keys",
-    "href": "learn/learn-python/module-0/4-python-basics.html#dictionary-keys",
+    "objectID": "learn/learn-python/module-0/4-python-basics.html#dictionary-lookup",
+    "href": "learn/learn-python/module-0/4-python-basics.html#dictionary-lookup",
     "title": "Python basics - 2nd slide deck",
-    "section": "Dictionary keys",
-    "text": "Dictionary keys\n\nYou can get a value from a dictionary by providing it with the key you want to look up.\n\n\n\nindexing.py\n\na_dictionary = {\"key 1\": 11, \"key 2\": 76}\n\nprint(a_dictionary[\"key 1\"])\n\nOutput\n    11"
+    "section": "Dictionary lookup",
+    "text": "Dictionary lookup\n\nYou can get a value from a dictionary by providing it with the key you want to look up.\n\n\n\nindexing.py\n\na_dictionary = {\"key 1\": 11, \"key 2\": 76}\n\nprint(a_dictionary[\"key 1\"])\n\nOutput\n    11"
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#functions-and-methods",
@@ -536,7 +550,7 @@
     "href": "learn/learn-python/module-0/4-python-basics.html#computers-are-pedantic",
     "title": "Python basics - 2nd slide deck",
     "section": "Computers are pedantic!",
-    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-1/"
+    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break your code.\nSo watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-0/"
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#next-slides",
@@ -2265,7 +2279,7 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#computers-are-pedantic",
     "title": "Python basics - 1st slide deck",
     "section": "Computers are pedantic!",
-    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break your code. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-1/"
+    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break your code. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-0/"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#next-slides",
@@ -2314,7 +2328,7 @@
     "href": "learn/learn-python/module-0/5-session-close.html#many-thanks",
     "title": "Session close",
     "section": "Many thanks",
-    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start / addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease join us for more advanced courses, due out soon."
+    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great start to programming in healthcare.\nCould you please complete feedback before you leave.\nPlease join us for more advanced modules here https://letsdodigital.org/tickets/"
   },
   {
     "objectID": "learn/learn-python/module-0/2-coding-environment.html#todays-hands-on-sessions",
@@ -2413,6 +2427,13 @@
     "title": "Coding environment (and the shell)",
     "section": "Codespace load",
     "text": "Codespace load"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/2-coding-environment.html#ignore-this",
+    "href": "learn/learn-python/module-0/2-coding-environment.html#ignore-this",
+    "title": "Coding environment (and the shell)",
+    "section": "Ignore this",
+    "text": "Ignore this\n\nIgnore the pop out about extensions you may get in the bottom right of Codespace"
   },
   {
     "objectID": "learn/learn-python/module-0/2-coding-environment.html#get-to-your-first-lesson",
