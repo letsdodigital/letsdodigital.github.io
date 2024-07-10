@@ -32,6 +32,9 @@ image: /media/tickets.png
 
 [{{< var coding-series-title >}} - Module 0](programming-in-healthcare/module-0-29-08-24.qmd)
 
+### 11th September 2024
+
+[{{< var coding-series-title >}} - Module 0 - evening](programming-in-healthcare/module-0-11-09-24.qmd)
 
 ### 24th October 2024
 
