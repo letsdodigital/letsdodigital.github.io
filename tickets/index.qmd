@@ -40,6 +40,9 @@ image: /media/tickets.png
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
 
+### 2nd November 2024
+
+[{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
 
 ## Previous events
 
