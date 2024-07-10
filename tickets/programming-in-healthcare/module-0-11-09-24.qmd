@@ -1,5 +1,5 @@
 ---
-title: "{{< var coding-series-title >}} - Module 0"
+title: "{{< var coding-series-title >}} - Module 0 - evening"
 description: "Wednesday 11^th^ September, 7-10 pm"
 ---
 
