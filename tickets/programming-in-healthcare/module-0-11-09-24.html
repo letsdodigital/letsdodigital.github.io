@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="description" content="Wednesday 11th August, 7-10 pm">
 
-<title>Posts – Let’s Do Digital</title>
+<title>Programming in Healthcare - Module 0 – Let's Do Digital</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +24,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./media/ldd-logo.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/ldd-logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,68 +70,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="Posts – Let’s Do Digital">
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Programming in Healthcare - Module 0 – Let’s Do Digital">
+<meta name="twitter:description" content="Wednesday 11th August, 7-10 pm">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -143,7 +85,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Let’s Do Digital</span>
     </a>
   </div>
@@ -154,23 +96,23 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./learn/index.html"> 
+    <a class="nav-link" href="../../learn/index.html"> 
 <span class="menu-text">Learn</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./conferences/2024/index.html"> 
+    <a class="nav-link" href="../../conferences/2024/index.html"> 
 <span class="menu-text">Conference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tickets/index.html"> 
+    <a class="nav-link" href="../../tickets/index.html"> 
 <span class="menu-text">Tickets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./posts.html" aria-current="page"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./who-are-we.html"> 
+    <a class="nav-link" href="../../who-are-we.html"> 
 <span class="menu-text">Who are we</span></a>
   </li>  
 </ul>
@@ -186,16 +128,31 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(17)</span></div><div class="category" data-category="Careers">Careers <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Conference">Conference <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Future plans">Future plans <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pilot">Pilot <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quarterly meeting">Quarterly meeting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Webinar">Webinar <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blog">blog <span class="quarto-category-count">(6)</span></div><div class="category" data-category="update">update <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-structure" id="toc-course-structure" class="nav-link active" data-scroll-target="#course-structure">Course structure</a></li>
+  <li><a href="#when-and-where" id="toc-when-and-where" class="nav-link" data-scroll-target="#when-and-where">When and where</a></li>
+  <li><a href="#topics-covered" id="toc-topics-covered" class="nav-link" data-scroll-target="#topics-covered">Topics covered</a></li>
+  <li><a href="#purchase-tickets" id="toc-purchase-tickets" class="nav-link" data-scroll-target="#purchase-tickets">Purchase tickets</a></li>
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Posts</h1>
+<h1 class="title">Programming in Healthcare - Module 0</h1>
 </div>
 
+<div>
+  <div class="description">
+    Wednesday 11<sup>th</sup> August, 7-10 pm
+  </div>
+</div>
 
 
 <div class="quarto-title-meta">
@@ -210,527 +167,52 @@ window.Quarto = {
 </header>
 
 
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../../media/lets-learn-code-coffee.png" class="quarto-figure quarto-figure-center figure-img" alt="Let's Do Digital Logo and words 'Let's Learn Code' on a note pad held by a hand in the bottom left corner" height="300"></p>
+</figure>
+</div>
+<p>Please join us for the module 0 of <code>Programming in Healthcare</code>. We had some amazing feedback from module 1, but a few students mentioned it would be great to have a more basic level module in programming. Hence, we have created module 0.</p>
+<p>Module 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command and how to program the basics. The programming language we will be using is <a href="https://www.python.org/about/">Python</a>. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other.</p>
+<section id="course-structure" class="level2">
+<h2 class="anchored" data-anchor-id="course-structure">Course structure</h2>
+<p>We will have a mixture of talks to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with around 4 students per tutor.</p>
+</section>
+<section id="when-and-where" class="level2">
+<h2 class="anchored" data-anchor-id="when-and-where">When and where</h2>
+<p>Online, Wednesday 11<sup>th</sup> August, 7-10 pm, on Zoom.</p>
+</section>
+<section id="topics-covered" class="level2">
+<h2 class="anchored" data-anchor-id="topics-covered">Topics covered</h2>
+<p>The below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and gently take you through worked examples to better understand and utilise each one.</p>
+<ul>
+<li>The terminal (the black window where you type in commands)</li>
+<li>Syntax (the coding grammar)</li>
+<li>Variables (where you store things)</li>
+<li>Comments (stuff to read later when you have no idea what the code is supposed to do)</li>
+<li>Control flow (if this then that)</li>
+<li>Expressions and operators (eg add these two things. Make x equal to 3)</li>
+<li>Functions (hey function, calculate the square root of 9)</li>
+<li>Error handling (you were trying to do what!)</li>
+</ul>
+</section>
+<section id="purchase-tickets" class="level2">
+<h2 class="anchored" data-anchor-id="purchase-tickets">Purchase tickets</h2>
+<script async="" src="https://js.stripe.com/v3/buy-button.js">
+</script>
+<div class="center-content">
+<stripe-buy-button buy-button-id="buy_btn_1PawWFDaLu4cWSSgGQ5iGOl1" publishable-key="pk_live_51PSZaLDaLu4cWSSgRn6WhzTNBbm7YfQh1lmyZ3xBh1gLqSNjhSkXBn4Y2ZSe1y3UftelHEiUdSApy7nkAXXudfU900k37D6Qok">
+</stripe-buy-button>
+</div>
+</section>
+<section id="questions" class="level2">
+<h2 class="anchored" data-anchor-id="questions">Questions</h2>
+<p>Have questions about the course or anything else <strong>Let’s Do Digital</strong> related, email us at <a href="mailto:info@letsdodigital.org">info@letsdodigital.org</a>.</p>
 
 
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="blog" data-listing-date-sort="1719878400000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="304">
-<a href="./posts/2024-07-02-topics-for-first-10-essentials-of-health-informatics-webinars/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/green-cross-in-wire-jungle.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Topics for the first 10 Essentials of Health Informatics Webinars
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
-blog
-</div>
-</div>
-<div class="card-text listing-description">
-You need to start somewhere
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Jul 2, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="blog" data-listing-date-sort="1717632000000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="322">
-<a href="./posts/2024-06-06-handbook-of-clinical-informatics/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/information-and-wisdom.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Handbook of Clinical Informatics
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
-blog
-</div>
-</div>
-<div class="card-text listing-description">
-The best way to eat an elephant is one bite at a time!
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Jun 6, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="blog" data-listing-date-sort="1717545600000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2116">
-<a href="./posts/2024-06-05-better-than-nothing-developing-a-resource-to-support-patient-care-with-no-time-resource-or-money/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/dinner-party-with-drinks.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Better Than Nothing: developing a resource to support patient care with no time, resource or money
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
-blog
-</div>
-</div>
-<div class="card-text listing-description">
-An Integrated Care Board Story
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Nadia Kuftinoff
-</div>
-<div class="listing-date">
-Jun 5, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="update" data-listing-date-sort="1715644800000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
-<a href="./posts/2024-05-14-student-editor-role-lets-do-digital/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/typewriter_and_girl.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Student Editor Role - Let’s Do Digital
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('update'); return false;">
-update
-</div>
-</div>
-<div class="card-text listing-description">
-Be part of clinical informatics education
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-May 14, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="4" data-categories="blog" data-listing-date-sort="1715040000000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2572">
-<a href="./posts/2024-05-07-games-cheatsheets-and-the-nhs/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/man-at-the-arcades.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Games, cheatsheets and the NHS
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
-blog
-</div>
-</div>
-<div class="card-text listing-description">
-Because play is a form of learning
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Simon Latimer
-</div>
-<div class="listing-date">
-May 7, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="5" data-categories="blog" data-listing-date-sort="1713312000000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1079">
-<a href="./posts/2024-04-17-why-ask-a-clinician/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/canyon-with-speech-bubbles.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why ask a Clinician?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
-blog
-</div>
-</div>
-<div class="card-text listing-description">
-Why teach others clinical?
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Apr 17, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="6" data-categories="blog" data-listing-date-sort="1712707200000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1165">
-<a href="./posts/2024-04-10-why-a-coding-course-and-why-now/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/glasses-and-code.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Why a coding course and why now?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('blog'); return false;">
-blog
-</div>
-</div>
-<div class="card-text listing-description">
-It is a question of community
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Apr 10, 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="7" data-categories="Conference" data-listing-date-sort="1689120000000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="25">
-<a href="./posts/2023-07-12-2023-conference-is-all-done-but-more-to-come/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/great-job.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2023 conference is all done, but more to come
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
-Conference
-</div>
-</div>
-<div class="card-text listing-description">
-Another successful Let’s Talk Digital Conference
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Jul 12, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="8" data-categories="Conference" data-listing-date-sort="1683244800000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="397">
-<a href="./posts/2023-03-31-chatgpt-kubernete/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/cartoon-robot.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-ChatGPT Kubernete
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
-Conference
-</div>
-</div>
-<div class="card-text listing-description">
-LLM gives a great response
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-May 5, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="9" data-categories="Conference" data-listing-date-sort="1683244800000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="292">
-<a href="./posts/2023-05-05-lets-talk-digital-conference-2023-fast-approaching/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/blank-picture-frame.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Let’s talk digital conference 2023 fast approaching
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
-Conference
-</div>
-</div>
-<div class="card-text listing-description">
-Conference update
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-May 5, 2023
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="10" data-categories="Careers" data-listing-date-sort="1670198400000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="947">
-<a href="./posts/2022-12-05-lets-talk-about-careers-in-clinical-informatics-and-white-swans/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/need-a-job.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Let’s talk about careers in clinical informatics and white swans
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Careers'); return false;">
-Careers
-</div>
-</div>
-<div class="card-text listing-description">
-Pubs and career advice
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Dec 5, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="11" data-categories="Conference" data-listing-date-sort="1665360000000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="80">
-<a href="./posts/2022-10-10-lets-talk-digital-2023-conference-15th-of-june/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/conference-crowd.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Let’s talk digital 2023 conference 15th of June
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Conference'); return false;">
-Conference
-</div>
-</div>
-<div class="card-text listing-description">
-Conference update
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Oct 10, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="12" data-categories="Education" data-listing-date-sort="1663286400000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
-<a href="./posts/2022-09-16-msc-in-health-tech-underway/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/graduation-cap.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Msc in health tech underway
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Education'); return false;">
-Education
-</div>
-</div>
-<div class="card-text listing-description">
-Education
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Sep 16, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="13" data-categories="Webinar" data-listing-date-sort="1662336000000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="73">
-<a href="./posts/2022-09-05-2nd-quarterly-meeting-21-10-22-11am/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/ldd-informatics-hub.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-2nd quarterly meeting 21/10/22 11am
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Webinar'); return false;">
-Webinar
-</div>
-</div>
-<div class="card-text listing-description">
-Quarterly meeting
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Sep 5, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="14" data-categories="Pilot" data-listing-date-sort="1658361600000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="55">
-<a href="./posts/2022-07-21-spiritum-duo-lets-do-digital-pilot/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/spiritum-duo-logo.png" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Spiritum Duo - Let’s Do Digital pilot
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Pilot'); return false;">
-Pilot
-</div>
-</div>
-<div class="card-text listing-description">
-Pilot of Spiritum Duo
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Jul 21, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="15" data-categories="Future plans" data-listing-date-sort="1658188800000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="211">
-<a href="./posts/2022-07-19-lets-do-digital-the-start-of-a-new-beginning/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/white-dog-in-the-leaves.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Let’s Do Digital - the start of a new beginning
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Future plans'); return false;">
-Future plans
-</div>
-</div>
-<div class="card-text listing-description">
-Future plans
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Jul 19, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="16" data-categories="Quarterly meeting" data-listing-date-sort="1657843200000" data-listing-file-modified-sort="1720602657789" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
-<a href="./posts/2022-07-15-first-lets-do-digital-quarterly-meeting-15-07-2022/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img loading="lazy" src="./media/smart-watch.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-First Let’s Do Digital Quarterly meeting - 15/07/2022
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Quarterly meeting'); return false;">
-Quarterly meeting
-</div>
-</div>
-<div class="card-text listing-description">
-Quarterly meeting
-</div>
-<div class="card-attribution card-text-small justify">
-<div class="listing-author">
-Mark Bailey
-</div>
-<div class="listing-date">
-Jul 15, 2022
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1301,27 +783,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="../../contact.html">
 <p>Contact</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./privacy-policy.html">
+    <a class="nav-link" href="../../privacy-policy.html">
 <p>Privacy Policy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./company-information.html">
+    <a class="nav-link" href="../../company-information.html">
 <p>Company information</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./sponsor.html">
+    <a class="nav-link" href="../../sponsor.html">
 <p>Sponsor us</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./paying-the-team.html">
+    <a class="nav-link" href="../../paying-the-team.html">
 <p>Paying the team</p>
 </a>
   </li>  
