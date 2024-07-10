@@ -179,14 +179,14 @@
     "href": "tickets/programming-in-healthcare/module-0-29-08-24.html",
     "title": "Programming in Healthcare - Module 0",
     "section": "",
-    "text": "Please join us for the module 0 of Programming in Healthcare. We found quite a divide with our previous module 1, in terms of student abilities, and so we thought we would split the old module 1 into module 0 and a new module 1.\nModule 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
+    "text": "Please join us for the module 0 of Programming in Healthcare. We had some amazing feedback from module 1, but a few students mentioned it would be great to have a more basic level module in programming. Hence, we have created module 0.\nModule 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command and how to program the basics. The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
   },
   {
     "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#course-structure",
     "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#course-structure",
     "title": "Programming in Healthcare - Module 0",
     "section": "Course structure",
-    "text": "Course structure\nWe will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
+    "text": "Course structure\nWe will have a mixture of talks to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with around 4 students per tutor."
   },
   {
     "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#when-and-where",
@@ -200,7 +200,7 @@
     "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#topics-covered",
     "title": "Programming in Healthcare - Module 0",
     "section": "Topics covered",
-    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (add these two things. Make x equal to 3)\nFunctions (hay function, calculate the square root of 9)\nError handling (you were trying to do what!)"
+    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and gently take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (eg add these two things. Make x equal to 3)\nFunctions (hey function, calculate the square root of 9)\nError handling (you were trying to do what!)"
   },
   {
     "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#purchase-tickets",
