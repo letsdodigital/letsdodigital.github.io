@@ -1,0 +1,35 @@
+Timings of module 1 - example
+
+Start 3pm
+End 5pm
+
+6:30pm - open zoom room for tutors
+6:50-7pm - let students enter
+7:05pm - talk - 1-introduction
+7:10pm - talk - 2-coding-environment
+7:20pm - hands-on - lesson_1.py
+8:00pm - talk - 3-python-basics (need 25-30 mins)
+8:20pm - hands-on - lesson_2.py
+9:50pm - talk - 5-session-close
+10:00pm - close
+
+
+Learning points:
+* MCQ, state how many true answers were left to find
+* indexing dictionaries and lists in slides
+* Code colour when active and not
+* squiggle lines
+* colon for if, else, function etc
+* what is if __main == "__main__":
+    main()
+* libraries, how to import
+* error types -> warning, "raise"
+* multiple lines
+* remove more complicated python stuff (name conventions)
+* Tutor guide for each lesson
+* Make it clear that module 0 and 1 are very basic.
+* Remove T/F ??
+* Just get into some code straight away
+* Write a variable
+* Where to write code and write commands
+* 4-5 students per tutor

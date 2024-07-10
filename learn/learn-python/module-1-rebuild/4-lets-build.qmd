@@ -1,0 +1,105 @@
+---
+title: "&#127925; Do you want to build a web app? &#127925;"
+subtitle: "Module 1"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/web-app.png
+    data-background-opacity: "0.4"
+---
+
+
+## What to build?
+
+![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
+
+## Streamlit
+
+* We will be using a python web app framework called `Streamlit`.
+* Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
+
+![](/media/streamlit.png){fig-align="center"}
+
+
+## Framework / Library import
+
+`Direct import`
+
+```{.python filename="libraries_1.py"}
+import streamlit
+```
+
+or as an `alias`
+
+```{.python filename="libraries_2.py"}
+import streamlit as st
+```
+
+
+## Who is running what?
+
+```{.python filename="main.py"}
+if __name__ == "__main__":
+    main()
+```
+
+* Checks if the current file is being run as an imported library or directly
+
+
+## Streamlit methods
+
+```{.python filename="streamlit methods.py" code-line-numbers="4,8,11"}
+import streamlit as st
+
+# Writes text to the browser
+st.write("Text to write to browser")
+
+# Creates a text input field
+# `step` is the increment for + - buttons
+st.number_input("Label of input box", step=1) 
+
+# Creates a select box
+st.selectbox("Label for selectbox", ["first choice","second choice"])
+```
+
+## magicEnabled = false
+
+* We have turned off a feature in Streamlit that shows all of your code in the browser using:
+
+```{.python filename=".streamlit/config.toml" code-line-numbers="2"}
+[runner]
+magicEnabled = false
+```
+\
+(See .streamlit/config.toml file if interested)
+
+## Stopping a running program
+
+CTRL - C
+
+or 
+
+CMD - C
+
+## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
+
+* You are building an educational program. This is NOT to be used with real patients!
+
+## Time to install a framework {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
+
+* You now need to install the Streamlit framework. Don't worry, it is very easy:
+
+```{.bash}
+$ cd lesson_3
+$ pip install streamlit
+```
+
+* And now run this code:
+
+```{.bash}
+$ streamlit run exercise_1.py
+```
+
+# Now off you go! {background-image="/media/man-at-starting-line.jpg" background-opacity="0.3"}
