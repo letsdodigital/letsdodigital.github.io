@@ -17,33 +17,16 @@ title-slide-attributes:
 
 * We will be using the GitHub `Codespace` development environment.
 * This is a browser version of the well known desktop `VS Code` development environment.
-* In the context of this course, a development environment is synonymous with the `teaching environment`.
 
 
+## <span class="hide-title">Codespace what / where?</span>
 
-## <span class="hide-title">Codespace light theme</span>
-
-![](/media/codespace-light-theme.png){.absolute top=0 left=0 width="max" height="max"}
-
-
-## <span class="hide-title">Codespace dark theme</span>
-
-![](/media/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max"}
-
-
-## <span class="hide-title">Codespace layout</span>
-
-![](/media/codespace-description.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max"}
 
 
 # Useful terminal (shell) commands
 
 ![](/media/the-shell.png){.bordered fig-align="center" width="max" height="max"}
-
-## Commands {background-image="/media/command-button.jpg" background-opacity="0.2"}
-
-* A command is a piece of code that carries out a `specific task`.
-* These tasks can be as simple as showing you what folder you are in, to printing, changing settings, and updating the operating system.
 
 
 ## Using the terminal {.smaller}
@@ -99,50 +82,14 @@ $ streamlit run exercise_2.py
 ![](/media/command-pwd.png){.bordered fig-align="center" width="max" height="max"}
 
 
-# Time to try it out for yourself{background-image="/media/dive-into-lake.jpg" background-opacity="0.2"}
+## Review
 
+* You will be using the above functions in the hands-on sessions. Come back to these slides if you need to refresh your memory.
 
-## <span class="hide-title">Codespace view</span>
+## Python slides
 
-![](/media/lesson-1-screenshot.png){.absolute top=0 left=0 width="max" height="max"}
-
-## Lesson 1 {.smaller}
-
-* Make sure you have a GitHub account.
-* Join your tutor group in the named `Zoom break out rooms`.
-* Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
-* Click on the `<> Code` button and then the `Codespaces` tab.
-* Click on `Create codespace on main`
-
-## <span class="hide-title">Codespace load</span>
-
-![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max"}
-
-
-## <span class="hide-title">Codespace load</span>
-
-![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
-
-
-## Ignore the extensions
-
-* Ignore when a small window in the bottom right that pops up. Just close these.
-
-## Get to your first lesson {.smaller}
-
-* Change the directory (don't type the `$`. This is just how we show this is the command line):
-
-```{.bash}
-    $ cd programming_in_healthcare/module_1
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/3-python.html" style="color: lightgrey;">Coding environment slides</a>
+</div>
 ```
-
-* And then
-
-```{.bash}
-    $ python lesson_1.py
-```
-
-* Did it work? If so, open up the lesson_1.py file.
-* Any problems, just ask your tutor for help. 
-* **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 30 minutes for lesson 1.

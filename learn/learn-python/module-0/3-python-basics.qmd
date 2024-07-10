@@ -527,6 +527,13 @@ Syntax error:
         SyntaxError: invalid syntax
 
 
+## Squiggly lines
+
+* Hint: Codespace will underline with `squiggly lines` to highlight errors.
+
+![](/media/squiggly-lines-vscode.png){.bordered fig-align="center"}
+
+
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
 * Now it is your turn.

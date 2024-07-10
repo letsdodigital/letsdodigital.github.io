@@ -106,6 +106,30 @@ Output
         4
         5
 
+
+## Colons, look out for the colons
+
+* All **if**, **while** and **for** statements must end with a colon
+
+```{.python filename="colon.py"}
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+```
+
+## Colons
+
+* The same goes for **functions**, **methods** and **classes**
+
+```{.python filename="more_colons.py"}
+def i_am_a_function():
+    print("hello")
+    return
+```
+
+
 ## Indexing lists
 
 * Indexing in python starts at `0`.

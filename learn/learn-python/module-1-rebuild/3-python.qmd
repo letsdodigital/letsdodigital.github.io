@@ -583,3 +583,46 @@ print(fruit_prices.get_price("pear"))
 * Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
 * Now go have some fun in your tutor groups with hands-on coding and debugging.
 * Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
+
+
+## Lesson 1 {.smaller}
+
+* Make sure you have a GitHub account.
+* Join your tutor group in the named `Zoom break out rooms`.
+* Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
+* Click on the `<> Code` button and then the `Codespaces` tab.
+* Click on `Create codespace on main`
+
+## <span class="hide-title">Codespace load</span>
+
+![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max"}
+
+
+## <span class="hide-title">Codespace load</span>
+
+![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
+
+
+## Ignore the extensions
+
+* Ignore when a small window in the bottom right that pops up. Just close these.
+
+
+## Get to your first lesson {.smaller}
+
+* Change the directory (don't type the `$`. This is just how we show this is the command line):
+
+```{.bash}
+    $ cd programming_in_healthcare/module_1
+```
+
+* And then
+
+```{.bash}
+    $ python lesson_1.py
+```
+
+* Did it work? If so, open up the lesson_1.py file.
+* Any problems, just ask your tutor for help. 
+* **There is no such thing as a stupid question, only the question left unanswered.**
+* We will give you 30 minutes for lesson 1.

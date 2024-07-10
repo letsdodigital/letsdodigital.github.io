@@ -1,12 +1,14 @@
 ---
-title: "Tutor notes - module 0"
+title: "Tutor notes - module 1"
 ---
 
 ## Overview
 
-This is the first course of the Programming in Healthcare series. It is for students that have no experience with coding. You will need to provide a lot of hand holding, as almost all of the topics covered will be completely new to these students. There will be a high learning curve for most of the students, who may find the learning material overwhelming. This course has been designed to take things at a slow pace, trying to get the basics right first, with plenty of time to work through the coding practices. Please be patient with our students, and give them the time and teachings they need to grasp these basic concepts of programming. As you may know, there is a high attrition rate for people who start out trying to code. We need to help them over this initial hump, so we can help as many as possible to start out in this exciting world of coding.
+This is the second course of the Programming in Healthcare series. It is for students that have some experience with coding. Module 0 should have prepared most, if not all, students for module 1. 
 
-We will be using Codespace from Github as the teaching environment. All students will have to have a Github account. It is also recommended to not use a NHS computer, as some IT departments block access to GitHub.
+You will still need to provide a lot of hand holding, as these are still fairly new topics for the students. This course has been designed to take things at a slow pace, trying to get the basics right first, with plenty of time to work through the coding practices. Please be patient with our students, and give them the time and teachings they need. As you may know, there is a high attrition rate for people who start out trying to code. We need to help them over this initial hump, so we can help as many as possible to start out in this exciting world of coding.
+
+We will be using Codespace from Github as the teaching environment. All students will need to have a Github account. It is also recommended to not use a NHS computer, as some IT departments block access to GitHub.
 
 Code for the coding sessions can be found [here](https://github.com/letsdodigital/coding-hands-on).
 
@@ -37,7 +39,7 @@ In the first hour of this course, we will cover the basics of the IDE that is Co
 
 ## Second and Third Hour
 
-For the rest of the module, we will cover python basics (3-python-basics.html) and then get students to try out some basic python code (folder lesson_2 and lesson_3).
+For the rest of the module, we will cover python basics (3-python-basics.html) and then get students to try out some basic python code (lesson_2.py).
 
 
 ## Common pit falls
