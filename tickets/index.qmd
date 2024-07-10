@@ -3,11 +3,6 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
-### 3rd July 2024 - tickets sales closed!
-
-[{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
-
-
 ### 16th of July 2024
 
 [{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
@@ -64,3 +59,7 @@ image: /media/tickets.png
 ### 27th June 2024
 
 [{{< var coding-series-title >}} - Module 1](programming-in-healthcare-module-1-June-2024.qmd)
+
+### 3rd July 2024
+
+[{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)

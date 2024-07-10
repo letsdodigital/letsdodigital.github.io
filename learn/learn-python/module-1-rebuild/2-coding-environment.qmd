@@ -84,7 +84,8 @@ $ streamlit run exercise_2.py
 
 ## Review
 
-* You will be using the above functions in the hands-on sessions. Come back to these slides if you need to refresh your memory.
+* You will be using the above functions in the hands-on sessions. 
+* Come back to these slides if you need to refresh your memory.
 
 ## Python slides
 
