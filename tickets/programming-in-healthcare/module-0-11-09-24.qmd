@@ -1,6 +1,6 @@
 ---
 title: "{{< var coding-series-title >}} - Module 0"
-description: "Thursday 29^nd^ August, 2-5 pm"
+description: "Wednesday 11^th^ August, 7-10 pm"
 ---
 
 ![](/media/lets-learn-code-coffee.png){height=300px fig-align="center" fig-alt="Let's Do Digital Logo and words 'Let's Learn Code' on a note pad held by a hand in the bottom left corner"}
@@ -16,7 +16,7 @@ We will have a mixture of talks to introduce you to the topics of the module fol
 
 ## When and where
 
-Online, Thursday 29^th^ August, 2-5 pm, on Zoom.
+Online, Wednesday 11^th^ August, 7-10 pm, on Zoom.
 
 
 ## Topics covered
@@ -42,7 +42,7 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
 </script>
 <div class="center-content">
 <stripe-buy-button
-  buy-button-id="buy_btn_1PYSK4DaLu4cWSSgXfUgbkPW"
+  buy-button-id="buy_btn_1PawWFDaLu4cWSSgGQ5iGOl1"
   publishable-key="pk_live_51PSZaLDaLu4cWSSgRn6WhzTNBbm7YfQh1lmyZ3xBh1gLqSNjhSkXBn4Y2ZSe1y3UftelHEiUdSApy7nkAXXudfU900k37D6Qok"
 >
 </stripe-buy-button>
