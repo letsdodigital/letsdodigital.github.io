@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -137,6 +171,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#first-hour" id="toc-first-hour" class="nav-link" data-scroll-target="#first-hour">First hour</a></li>
   <li><a href="#second-and-third-hour" id="toc-second-and-third-hour" class="nav-link" data-scroll-target="#second-and-third-hour">Second and Third Hour</a></li>
   <li><a href="#common-pit-falls" id="toc-common-pit-falls" class="nav-link" data-scroll-target="#common-pit-falls">Common pit falls</a></li>
+  <li><a href="#answers-rebuild" id="toc-answers-rebuild" class="nav-link" data-scroll-target="#answers-rebuild">Answers (rebuild)</a></li>
   </ul>
 </nav>
     </div>
@@ -176,15 +211,15 @@ ul.task-list li input[type="checkbox"] {
 <section id="timings" class="level2">
 <h2 class="anchored" data-anchor-id="timings">Timings</h2>
 <p>Start 7pm End 10pm</p>
-<p>6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality. 7:00 pm - Open room to students 7:05 pm - Talk - 1-introduction.html 7:10 pm - Talk - 2-coding-environment.html 7:20 pm - Hands-on - lesson_1.py 8:00 pm - Talk - 3-python-basics.html 8:20 pm - Hands-on - lesson_2.py 9:50 pm - Talk - 4-session-close.html 10:00 pm - Close</p>
+<p>6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality. 7:00 pm - Open room to students 7:05 pm - Talk - 1-introduction.html 7:10 pm - Talk - 2-coding-environment.html 7:15 pm - Talk - 3-python.html 7:25 pm - Hands-on - lesson_1.py 7:45 pm - Talk - 4-lets-build.html 7:55 pm - Hands-on - lesson_2.py (&amp; lesson_3.py) 9:00 pm - Short stop to see how everyone is doing 9:05 pm - Back to Hands-on - lesson_2.py (&amp; lesson_3.py) 9:50 pm - Talk - 5-session-close.html 10:00 pm - Close</p>
 </section>
 <section id="first-hour" class="level2">
 <h2 class="anchored" data-anchor-id="first-hour">First hour</h2>
-<p>In the first hour of this course, we will cover the basics of the IDE that is Codespace (slides 1-introduction.html and 2-coding-environment.html). We cover some basic commands. Then we will get the students to try out what they have learnt in the hands-on session (lesson_1.py).</p>
+<p>In the first hour of this course, introduce classes and libraries.</p>
 </section>
 <section id="second-and-third-hour" class="level2">
 <h2 class="anchored" data-anchor-id="second-and-third-hour">Second and Third Hour</h2>
-<p>For the rest of the module, we will cover python basics (3-python-basics.html) and then get students to try out some basic python code (lesson_2.py).</p>
+<p>For the rest of the module, we will be building a basic clinical calculator in Streamlit.</p>
 </section>
 <section id="common-pit-falls" class="level2">
 <h2 class="anchored" data-anchor-id="common-pit-falls">Common pit falls</h2>
@@ -192,6 +227,53 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Cannot connect to GitHub website</strong> - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of hospital/GP practice network.</li>
 <li><strong>Cannot open an instance of Codespace</strong> - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.</li>
 </ul>
+</section>
+<section id="answers-rebuild" class="level2">
+<h2 class="anchored" data-anchor-id="answers-rebuild">Answers (rebuild)</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>lesson_1.exercise_1.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="lesson_1.exercise_1.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>random_number <span class="op">=</span> random.randint(<span class="dv">1</span>, <span class="dv">10</span>)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(random_number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>lesson_1.exercise_2.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb2" data-filename="lesson_1.exercise_2.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Patient:</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, name, age, diagnosis):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.name <span class="op">=</span> name</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.age <span class="op">=</span> age</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.diagnosis <span class="op">=</span> diagnosis</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.is_admitted <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> admit(<span class="va">self</span>):</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="kw">not</span> <span class="va">self</span>.is_admitted:</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(</span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>                <span class="ss">f"Admitting </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss"> to the hospital with diagnosis: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>diagnosis<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.is_admitted <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss"> is already admitted"</span>)</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> discharge(<span class="va">self</span>):</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> <span class="va">self</span>.is_admitted:</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"Discharging </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss"> from the hospital"</span>)</span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.is_admitted <span class="op">=</span> <span class="va">False</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a>            <span class="bu">print</span>(<span class="ss">f"</span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>name<span class="sc">}</span><span class="ss"> is not currently admitted"</span>)</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>patient_1 <span class="op">=</span> Patient(<span class="st">"John Doe"</span>, <span class="dv">45</span>, <span class="st">"Pneumonia"</span>)</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a>patient_2 <span class="op">=</span> Patient(<span class="st">"Jane Smith"</span>, <span class="dv">30</span>, <span class="st">"Appendicitis"</span>)</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>patient_1.admit()</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a>patient_2.admit()</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>patient_1.discharge()</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>patient_2.discharge()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 
 
 </section>

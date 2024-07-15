@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.54">
 
   <meta name="author" content="Let’s Do Digital Team">
-  <title>Let's Do Digital – Python basics</title>
+  <title>Let's Do Digital – Python</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -387,7 +387,7 @@
       margin-right: 0; 
     }
   </style>
-<meta name="twitter:title" content="Python basics – Let’s Do Digital">
+<meta name="twitter:title" content="Python – Let’s Do Digital">
 <meta name="twitter:description" content="Module 1">
 <meta name="twitter:card" content="summary">
 </head>
@@ -396,7 +396,7 @@
     <div class="slides">
 
 <section id="title-slide" data-background-color="#F6D499" data-background-image="../../../media/python-scales.jpg" class="quarto-title-block center">
-  <h1 class="title">Python basics</h1>
+  <h1 class="title">Python</h1>
   <p class="subtitle">Module 1</p>
 
 <div class="quarto-title-authors">
@@ -408,8 +408,8 @@ Let’s Do Digital Team
 </div>
 
 </section>
-<section id="we-will-be-learning-python" class="slide level2">
-<h2>We will be learning python</h2>
+<section id="we-will-be-using-python" class="slide level2">
+<h2>We will be using python</h2>
 
 <img data-src="../../../media/python-logo.png" class="quarto-figure quarto-figure-center r-stretch"></section>
 <section id="the-python-programming-language" class="slide level2" data-background-image="../../../media/python-logo.png" data-background-opacity="0.3">
@@ -427,27 +427,278 @@ Let’s Do Digital Team
 <li>If you want a reminder of the basics, please visit the <code>module 0</code> slides at <a href="https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html">https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html</a>.</li>
 </ul>
 </section>
+<section id="a-function" class="slide level2">
+<h2>A function</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>a_function.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb1" data-filename="a_function.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> a_function_that_prints(something_to_print):</span>
+<span id="cb1-2"><a></a>    <span class="bu">print</span>(something_to_print)</span>
+<span id="cb1-3"><a></a>    <span class="cf">return</span></span>
+<span id="cb1-4"><a></a></span>
+<span id="cb1-5"><a></a>a_function_that_prints(<span class="st">"Hello World!"</span>)</span>
+<span id="cb1-6"><a></a>a_function_that_prints(<span class="st">"Woo Hoo!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    "Hello World!"
+    "Woo Hoo!"</code></pre>
+</section>
 <section>
-<section id="lets-get-serious" class="title-slide slide level1 center">
-<h1>Let’s get serious</h1>
+<section id="class-please-sit-down" class="title-slide slide level1 center" data-background-image="../../../media/cartoon-classroom.png" data-background-opacity="0.2">
+<h1>Class, please sit down!</h1>
 
 </section>
 <section id="classes" class="slide level2">
 <h2>Classes</h2>
-<p>dot operator</p>
+<ul>
+<li>Much like functions are used to simplify reusable code, <code>classes</code> are used to organise code at a higher level.</li>
+<li>Classes are used to store attributes and actions of real life objects.</li>
+</ul>
 </section>
-<section id="libraries" class="slide level2">
+<section id="anatomy-of-a-class" class="slide level2">
+<h2>Anatomy of a class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb3" data-filename="classes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a></span>
+<span id="cb3-2"><a></a><span class="kw">class</span> VitalSigns:</span>
+<span id="cb3-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
+<span id="cb3-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
+<span id="cb3-5"><a></a>        <span class="va">self</span>.heart_rate <span class="op">=</span> heart_rate</span>
+<span id="cb3-6"><a></a>    </span>
+<span id="cb3-7"><a></a>    <span class="kw">def</span> display(<span class="va">self</span>):</span>
+<span id="cb3-8"><a></a>        <span class="bu">print</span>(<span class="ss">f"Temperature: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>temperature<span class="sc">}</span><span class="ss"> °C"</span>)</span>
+<span id="cb3-9"><a></a>        <span class="bu">print</span>(<span class="ss">f"Heart Rate: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>heart_rate<span class="sc">}</span><span class="ss"> bpm"</span>)</span>
+<span id="cb3-10"><a></a></span>
+<span id="cb3-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
+<span id="cb3-12"><a></a></span>
+<span id="cb3-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="anatomy-of-a-class-1" class="slide level2">
+<h2>Anatomy of a class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb4" data-filename="classes.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a></span>
+<span id="cb4-2"><a></a><span class="kw">class</span> VitalSigns:</span>
+<span id="cb4-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
+<span id="cb4-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
+<span id="cb4-5"><a></a>        <span class="va">self</span>.heart_rate <span class="op">=</span> heart_rate</span>
+<span id="cb4-6"><a></a>    </span>
+<span id="cb4-7"><a></a>    <span class="kw">def</span> display(<span class="va">self</span>):</span>
+<span id="cb4-8"><a></a>        <span class="bu">print</span>(<span class="ss">f"Temperature: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>temperature<span class="sc">}</span><span class="ss"> °C"</span>)</span>
+<span id="cb4-9"><a></a>        <span class="bu">print</span>(<span class="ss">f"Heart Rate: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>heart_rate<span class="sc">}</span><span class="ss"> bpm"</span>)</span>
+<span id="cb4-10"><a></a></span>
+<span id="cb4-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
+<span id="cb4-12"><a></a></span>
+<span id="cb4-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="naming-conventions" class="slide level2">
+<h2>Naming conventions</h2>
+<ul>
+<li>Variables, functions and methods
+<ul>
+<li><code>snake_case</code></li>
+</ul></li>
+<li>Classes
+<ul>
+<li><code>CamelCase</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="anatomy-of-a-class-2" class="slide level2">
+<h2>Anatomy of a class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb5" data-filename="classes.py" data-code-line-numbers="11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a></span>
+<span id="cb5-2"><a></a><span class="kw">class</span> VitalSigns:</span>
+<span id="cb5-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
+<span id="cb5-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
+<span id="cb5-5"><a></a>        <span class="va">self</span>.heart_rate <span class="op">=</span> heart_rate</span>
+<span id="cb5-6"><a></a>    </span>
+<span id="cb5-7"><a></a>    <span class="kw">def</span> display(<span class="va">self</span>):</span>
+<span id="cb5-8"><a></a>        <span class="bu">print</span>(<span class="ss">f"Temperature: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>temperature<span class="sc">}</span><span class="ss"> °C"</span>)</span>
+<span id="cb5-9"><a></a>        <span class="bu">print</span>(<span class="ss">f"Heart Rate: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>heart_rate<span class="sc">}</span><span class="ss"> bpm"</span>)</span>
+<span id="cb5-10"><a></a></span>
+<span id="cb5-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
+<span id="cb5-12"><a></a></span>
+<span id="cb5-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="creating-an-instance-of-the-class" class="slide level2">
+<h2>Creating an instance of the class</h2>
+<p><code>patient_1_vitals = VitalSigns(37.5, 80)</code></p>
+<ul>
+<li>This line of code creates an instance of the <code>VitalSigns</code> class.</li>
+<li>Essentially you have created a VitalSigns <code>object</code>.</li>
+<li>Classes are an example of <code>object oriented programming</code>.</li>
+</ul>
+</section>
+<section id="anatomy-of-a-class-3" class="slide level2">
+<h2>Anatomy of a class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb6" data-filename="classes.py" data-code-line-numbers="3,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a></span>
+<span id="cb6-2"><a></a><span class="kw">class</span> VitalSigns:</span>
+<span id="cb6-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
+<span id="cb6-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
+<span id="cb6-5"><a></a>        <span class="va">self</span>.heart_rate <span class="op">=</span> heart_rate</span>
+<span id="cb6-6"><a></a>    </span>
+<span id="cb6-7"><a></a>    <span class="kw">def</span> display(<span class="va">self</span>):</span>
+<span id="cb6-8"><a></a>        <span class="bu">print</span>(<span class="ss">f"Temperature: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>temperature<span class="sc">}</span><span class="ss"> °C"</span>)</span>
+<span id="cb6-9"><a></a>        <span class="bu">print</span>(<span class="ss">f"Heart Rate: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>heart_rate<span class="sc">}</span><span class="ss"> bpm"</span>)</span>
+<span id="cb6-10"><a></a></span>
+<span id="cb6-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
+<span id="cb6-12"><a></a></span>
+<span id="cb6-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>When you create an instance of a class (aka object) the <code>__init__</code> method is <strong>automatically</strong> called.</li>
+<li>Remember, a method is just a function inside a class.</li>
+</ul>
+</section>
+<section id="creating-an-instance-of-the-class-1" class="slide level2">
+<h2>Creating an instance of the class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb7" data-filename="classes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li>You have passed <code>37.5</code> and <code>80</code> as arguments.</li>
+</ul>
+</section>
+<section id="anatomy-of-a-class-4" class="slide level2">
+<h2>Anatomy of a class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb8" data-filename="classes.py" data-code-line-numbers="3,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a></span>
+<span id="cb8-2"><a></a><span class="kw">class</span> VitalSigns:</span>
+<span id="cb8-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
+<span id="cb8-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
+<span id="cb8-5"><a></a>        <span class="va">self</span>.heart_rate <span class="op">=</span> heart_rate</span>
+<span id="cb8-6"><a></a>    </span>
+<span id="cb8-7"><a></a>    <span class="kw">def</span> display(<span class="va">self</span>):</span>
+<span id="cb8-8"><a></a>        <span class="bu">print</span>(<span class="ss">f"Temperature: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>temperature<span class="sc">}</span><span class="ss"> °C"</span>)</span>
+<span id="cb8-9"><a></a>        <span class="bu">print</span>(<span class="ss">f"Heart Rate: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>heart_rate<span class="sc">}</span><span class="ss"> bpm"</span>)</span>
+<span id="cb8-10"><a></a></span>
+<span id="cb8-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
+<span id="cb8-12"><a></a></span>
+<span id="cb8-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<ul>
+<li><code>37.5</code> is set as the <code>temperature</code> argument.</li>
+<li><code>80</code> is set as the <code>heart_rate</code> argument.</li>
+</ul>
+</section>
+<section id="anatomy-of-a-class-5" class="slide level2">
+<h2>Anatomy of a class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb9" data-filename="classes.py" data-code-line-numbers="4,5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a></span>
+<span id="cb9-2"><a></a><span class="kw">class</span> VitalSigns:</span>
+<span id="cb9-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
+<span id="cb9-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
+<span id="cb9-5"><a></a>        <span class="va">self</span>.heart_rate <span class="op">=</span> heart_rate</span>
+<span id="cb9-6"><a></a>    </span>
+<span id="cb9-7"><a></a>    <span class="kw">def</span> display(<span class="va">self</span>):</span>
+<span id="cb9-8"><a></a>        <span class="bu">print</span>(<span class="ss">f"Temperature: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>temperature<span class="sc">}</span><span class="ss"> °C"</span>)</span>
+<span id="cb9-9"><a></a>        <span class="bu">print</span>(<span class="ss">f"Heart Rate: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>heart_rate<span class="sc">}</span><span class="ss"> bpm"</span>)</span>
+<span id="cb9-10"><a></a></span>
+<span id="cb9-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
+<span id="cb9-12"><a></a></span>
+<span id="cb9-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="one-needs-to-know-oneself" class="slide level2">
+<h2>One needs to know oneself</h2>
+<ul>
+<li><code>self</code> refers to the <code>instance</code> of the class that you have just created, eg <strong>patient_1_vitals</strong>.</li>
+<li><code>self</code> allows the object you have created to keep track of its own data.</li>
+<li><code>self</code> is ALWAYS passed as an argument to methods of a class.</li>
+<li><code>self</code> is ALWAYS the first argument to methods in a class.</li>
+</ul>
+</section>
+<section id="anatomy-of-a-class-6" class="slide level2">
+<h2>Anatomy of a class</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>classes.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb10" data-filename="classes.py" data-code-line-numbers="13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a></span>
+<span id="cb10-2"><a></a><span class="kw">class</span> VitalSigns:</span>
+<span id="cb10-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
+<span id="cb10-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
+<span id="cb10-5"><a></a>        <span class="va">self</span>.heart_rate <span class="op">=</span> heart_rate</span>
+<span id="cb10-6"><a></a>    </span>
+<span id="cb10-7"><a></a>    <span class="kw">def</span> display(<span class="va">self</span>):</span>
+<span id="cb10-8"><a></a>        <span class="bu">print</span>(<span class="ss">f"Temperature: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>temperature<span class="sc">}</span><span class="ss"> °C"</span>)</span>
+<span id="cb10-9"><a></a>        <span class="bu">print</span>(<span class="ss">f"Heart Rate: </span><span class="sc">{</span><span class="va">self</span><span class="sc">.</span>heart_rate<span class="sc">}</span><span class="ss"> bpm"</span>)</span>
+<span id="cb10-10"><a></a></span>
+<span id="cb10-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
+<span id="cb10-12"><a></a></span>
+<span id="cb10-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="the-dot-operator" class="slide level2">
+<h2>The dot operator</h2>
+<p><code>patient_1_vitals.display()</code></p>
+<ul>
+<li><p>It may look strange, but the <code>.</code> (dot) in between <strong>patient_1_vitals</strong> and <strong>display()</strong> is basically just a way to get data or use a method of a class.</p></li>
+<li><p>So in the instance above, you are basically saying:</p>
+<p>“For the <strong>patient_1_vitals</strong> instance that I have created, please now use the <strong>display()</strong> method.”</p></li>
+<li><p>Remember, method is just a function inside a class.</p></li>
+</ul>
+</section></section>
+<section>
+<section id="libraries" class="title-slide slide level1 center" data-background-image="../../../media/large-library.jpg" data-background-opacity="0.3">
+<h1>Libraries</h1>
+
+</section>
+<section id="libraries-1" class="slide level2">
 <h2>Libraries</h2>
-<p>PICTURE OF A LIBRARY</p>
+<ul>
+<li>Libraries are amazing. They will save you a lot of time and effort.</li>
+<li>Libraries are basically a collection of code that someone else (usually a group of people) has already written.</li>
+<li>You can use the code in these libraries within your own code.</li>
+</ul>
 </section>
-<section id="import-the-important-stuff" class="slide level2">
-<h2>Import the important stuff</h2>
+<section id="safety" class="slide level2" data-background-image="../../../media/tree-cutting.jpg" data-background-opacity="0.2">
+<h2>Safety</h2>
+<ul>
+<li>Of course, not every library is created equally. Some libraries are written better than others.</li>
+<li>This is very important to realise when you are looking to get consistent functionality from a library.</li>
+<li>Hence, choosing the wrong library, which could be poorly written, could affect patient care.</li>
+<li>We will talk about safety and code in future modules.</li>
+</ul>
+</section>
+<section id="installing-libraries" class="slide level2" data-background-image="../../../media/cut-apples.jpg" data-background-opacity="0.2">
+<h2>Installing libraries</h2>
+<ul>
+<li>This is very easy, just use <code>pip</code></li>
+</ul>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="you-got-all-that" class="slide level2" data-background-image="../../../media/coding.jpg" data-background-opacity="0.3">
 <h2>You got all that?</h2>
 <ul>
 <li>Now it is your turn.</li>
-<li>Time for some hands on coding in <code>Lesson 2</code>.</li>
+<li>Time for some hands on coding in <code>Lesson 1</code>.</li>
+<li>Once you have finished with lesson 1 (there are only two exercises), then move onto lesson 2.</li>
 </ul>
 </section>
 <section id="computers-are-pedantic" class="slide level2 smaller">
@@ -459,7 +710,7 @@ Let’s Do Digital Team
 <li>Come back to these slides to remind yourself of key concepts - <a href="https://letsdodigital.org/learn/learn-python/module-1/">https://letsdodigital.org/learn/learn-python/module-1/</a></li>
 </ul>
 </section>
-<section id="lesson-1" class="slide level2 smaller">
+<section id="lesson-1" class="slide level2">
 <h2>Lesson 1</h2>
 <ul>
 <li>Make sure you have a GitHub account.</li>
@@ -477,27 +728,28 @@ Let’s Do Digital Team
 <h2><span class="hide-title">Codespace load</span></h2>
 <p><img data-src="../../../media/github-repo-module-1-hands-on.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; "></p>
 </section>
-<section id="ignore-the-extensions" class="slide level2">
-<h2>Ignore the extensions</h2>
+<section id="ignore-this" class="slide level2">
+<h2>Ignore this</h2>
 <ul>
-<li>Ignore when a small window in the bottom right that pops up. Just close these.</li>
+<li>Ignore the pop out about extensions you may get in the bottom right of Codespace</li>
 </ul>
-</section>
+
+<img data-src="../../../media/python-extension.png" class="r-stretch"></section>
 <section id="get-to-your-first-lesson" class="slide level2 smaller">
 <h2>Get to your first lesson</h2>
 <ul>
 <li>Change the directory (don’t type the <code>$</code>. This is just how we show this is the command line):</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a></a>    <span class="ex">$</span> cd programming_in_healthcare/module_1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a></a>    <span class="ex">$</span> cd programming_in_healthcare/module_1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>And then</li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a></a>    <span class="ex">$</span> python lesson_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a></a>    <span class="ex">$</span> python lesson_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Did it work? If so, open up the lesson_1.py file.</li>
 <li>Any problems, just ask your tutor for help.</li>
 <li><strong>There is no such thing as a stupid question, only the question left unanswered.</strong></li>
-<li>We will give you 30 minutes for lesson 1.</li>
+<li>We will give you 20 minutes for lesson 1.</li>
 </ul>
 
 <div class="quarto-auto-generated-content">

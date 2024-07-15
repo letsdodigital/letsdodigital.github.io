@@ -963,21 +963,21 @@
     "href": "learn/learn-python/module-1-rebuild/tutor-notes.html#timings",
     "title": "Tutor notes - module 1",
     "section": "Timings",
-    "text": "Timings\nStart 7pm End 10pm\n6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality. 7:00 pm - Open room to students 7:05 pm - Talk - 1-introduction.html 7:10 pm - Talk - 2-coding-environment.html 7:20 pm - Hands-on - lesson_1.py 8:00 pm - Talk - 3-python-basics.html 8:20 pm - Hands-on - lesson_2.py 9:50 pm - Talk - 4-session-close.html 10:00 pm - Close"
+    "text": "Timings\nStart 7pm End 10pm\n6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality. 7:00 pm - Open room to students 7:05 pm - Talk - 1-introduction.html 7:10 pm - Talk - 2-coding-environment.html 7:15 pm - Talk - 3-python.html 7:25 pm - Hands-on - lesson_1.py 7:45 pm - Talk - 4-lets-build.html 7:55 pm - Hands-on - lesson_2.py (& lesson_3.py) 9:00 pm - Short stop to see how everyone is doing 9:05 pm - Back to Hands-on - lesson_2.py (& lesson_3.py) 9:50 pm - Talk - 5-session-close.html 10:00 pm - Close"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/tutor-notes.html#first-hour",
     "href": "learn/learn-python/module-1-rebuild/tutor-notes.html#first-hour",
     "title": "Tutor notes - module 1",
     "section": "First hour",
-    "text": "First hour\nIn the first hour of this course, we will cover the basics of the IDE that is Codespace (slides 1-introduction.html and 2-coding-environment.html). We cover some basic commands. Then we will get the students to try out what they have learnt in the hands-on session (lesson_1.py)."
+    "text": "First hour\nIn the first hour of this course, introduce classes and libraries."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/tutor-notes.html#second-and-third-hour",
     "href": "learn/learn-python/module-1-rebuild/tutor-notes.html#second-and-third-hour",
     "title": "Tutor notes - module 1",
     "section": "Second and Third Hour",
-    "text": "Second and Third Hour\nFor the rest of the module, we will cover python basics (3-python-basics.html) and then get students to try out some basic python code (lesson_2.py)."
+    "text": "Second and Third Hour\nFor the rest of the module, we will be building a basic clinical calculator in Streamlit."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/tutor-notes.html#common-pit-falls",
@@ -987,95 +987,200 @@
     "text": "Common pit falls\n\nCannot connect to GitHub website - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of hospital/GP practice network.\nCannot open an instance of Codespace - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo."
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#we-will-be-learning-python",
-    "href": "learn/learn-python/module-1-rebuild/3-python.html#we-will-be-learning-python",
-    "title": "Python basics",
-    "section": "We will be learning python",
-    "text": "We will be learning python"
+    "objectID": "learn/learn-python/module-1-rebuild/tutor-notes.html#answers-rebuild",
+    "href": "learn/learn-python/module-1-rebuild/tutor-notes.html#answers-rebuild",
+    "title": "Tutor notes - module 1",
+    "section": "Answers (rebuild)",
+    "text": "Answers (rebuild)\n\n\nlesson_1.exercise_1.py\n\nimport random\n\nrandom_number = random.randint(1, 10)\nprint(random_number)\n\n\n\nlesson_1.exercise_2.py\n\nclass Patient:\n    def __init__(self, name, age, diagnosis):\n        self.name = name\n        self.age = age\n        self.diagnosis = diagnosis\n        self.is_admitted = False\n\n    def admit(self):\n        if not self.is_admitted:\n            print(\n                f\"Admitting {self.name} to the hospital with diagnosis: {self.diagnosis}\"\n            )\n            self.is_admitted = True\n        else:\n            print(f\"{self.name} is already admitted\")\n\n    def discharge(self):\n        if self.is_admitted:\n            print(f\"Discharging {self.name} from the hospital\")\n            self.is_admitted = False\n        else:\n            print(f\"{self.name} is not currently admitted\")\n\npatient_1 = Patient(\"John Doe\", 45, \"Pneumonia\")\npatient_2 = Patient(\"Jane Smith\", 30, \"Appendicitis\")\n\npatient_1.admit()\npatient_2.admit()\npatient_1.discharge()\npatient_2.discharge()"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#we-will-be-using-python",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#we-will-be-using-python",
+    "title": "Python",
+    "section": "We will be using python",
+    "text": "We will be using python"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#the-python-programming-language",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#the-python-programming-language",
-    "title": "Python basics",
+    "title": "Python",
     "section": "The Python programming language",
     "text": "The Python programming language\n\nA programming language interpreted and compiled at runtime.\nIts syntax emphasises readability and simplicity.\nIt utilising indentation for code structuring.\nWidely used for web development, data analysis, AI / machine learning, and automation."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#reminder-of-the-basics",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#reminder-of-the-basics",
-    "title": "Python basics",
+    "title": "Python",
     "section": "Reminder of the basics",
     "text": "Reminder of the basics\n\nIf you want a reminder of the basics, please visit the module 0 slides at https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html."
   },
   {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#a-function",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#a-function",
+    "title": "Python",
+    "section": "A function",
+    "text": "A function\n\n\na_function.py\n\ndef a_function_that_prints(something_to_print):\n    print(something_to_print)\n    return\n\na_function_that_prints(\"Hello World!\")\na_function_that_prints(\"Woo Hoo!\")\n\nOutput\n    \"Hello World!\"\n    \"Woo Hoo!\""
+  },
+  {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#classes",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#classes",
-    "title": "Python basics",
+    "title": "Python",
     "section": "Classes",
-    "text": "Classes\ndot operator"
+    "text": "Classes\n\nMuch like functions are used to simplify reusable code, classes are used to organise code at a higher level.\nClasses are used to store attributes and actions of real life objects."
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#libraries",
-    "href": "learn/learn-python/module-1-rebuild/3-python.html#libraries",
-    "title": "Python basics",
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class",
+    "title": "Python",
+    "section": "Anatomy of a class",
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-1",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-1",
+    "title": "Python",
+    "section": "Anatomy of a class",
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#naming-conventions",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#naming-conventions",
+    "title": "Python",
+    "section": "Naming conventions",
+    "text": "Naming conventions\n\nVariables, functions and methods\n\nsnake_case\n\nClasses\n\nCamelCase"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-2",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-2",
+    "title": "Python",
+    "section": "Anatomy of a class",
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#creating-an-instance-of-the-class",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#creating-an-instance-of-the-class",
+    "title": "Python",
+    "section": "Creating an instance of the class",
+    "text": "Creating an instance of the class\npatient_1_vitals = VitalSigns(37.5, 80)\n\nThis line of code creates an instance of the VitalSigns class.\nEssentially you have created a VitalSigns object.\nClasses are an example of object oriented programming."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-3",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-3",
+    "title": "Python",
+    "section": "Anatomy of a class",
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\nWhen you create an instance of a class (aka object) the __init__ method is automatically called.\nRemember, a method is just a function inside a class."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#creating-an-instance-of-the-class-1",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#creating-an-instance-of-the-class-1",
+    "title": "Python",
+    "section": "Creating an instance of the class",
+    "text": "Creating an instance of the class\n\n\nclasses.py\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\n\nYou have passed 37.5 and 80 as arguments."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-4",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-4",
+    "title": "Python",
+    "section": "Anatomy of a class",
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\n37.5 is set as the temperature argument.\n80 is set as the heart_rate argument."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-5",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-5",
+    "title": "Python",
+    "section": "Anatomy of a class",
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#one-needs-to-know-oneself",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#one-needs-to-know-oneself",
+    "title": "Python",
+    "section": "One needs to know oneself",
+    "text": "One needs to know oneself\n\nself refers to the instance of the class that you have just created, eg patient_1_vitals.\nself allows the object you have created to keep track of its own data.\nself is ALWAYS passed as an argument to methods of a class.\nself is ALWAYS the first argument to methods in a class."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-6",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-6",
+    "title": "Python",
+    "section": "Anatomy of a class",
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#the-dot-operator",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#the-dot-operator",
+    "title": "Python",
+    "section": "The dot operator",
+    "text": "The dot operator\npatient_1_vitals.display()\n\nIt may look strange, but the . (dot) in between patient_1_vitals and display() is basically just a way to get data or use a method of a class.\nSo in the instance above, you are basically saying:\n“For the patient_1_vitals instance that I have created, please now use the display() method.”\nRemember, method is just a function inside a class."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#libraries-1",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#libraries-1",
+    "title": "Python",
     "section": "Libraries",
-    "text": "Libraries\nPICTURE OF A LIBRARY"
+    "text": "Libraries\n\nLibraries are amazing. They will save you a lot of time and effort.\nLibraries are basically a collection of code that someone else (usually a group of people) has already written.\nYou can use the code in these libraries within your own code."
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#import-the-important-stuff",
-    "href": "learn/learn-python/module-1-rebuild/3-python.html#import-the-important-stuff",
-    "title": "Python basics",
-    "section": "Import the important stuff",
-    "text": "Import the important stuff"
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#safety",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#safety",
+    "title": "Python",
+    "section": "Safety",
+    "text": "Safety\n\nOf course, not every library is created equally. Some libraries are written better than others.\nThis is very important to realise when you are looking to get consistent functionality from a library.\nHence, choosing the wrong library, which could be poorly written, could affect patient care.\nWe will talk about safety and code in future modules."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#installing-libraries",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#installing-libraries",
+    "title": "Python",
+    "section": "Installing libraries",
+    "text": "Installing libraries\n\nThis is very easy, just use pip\n\n$ pip install streamlit"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#you-got-all-that",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#you-got-all-that",
-    "title": "Python basics",
+    "title": "Python",
     "section": "You got all that?",
-    "text": "You got all that?\n\nNow it is your turn.\nTime for some hands on coding in Lesson 2."
+    "text": "You got all that?\n\nNow it is your turn.\nTime for some hands on coding in Lesson 1.\nOnce you have finished with lesson 1 (there are only two exercises), then move onto lesson 2."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#computers-are-pedantic",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#computers-are-pedantic",
-    "title": "Python basics",
+    "title": "Python",
     "section": "Computers are pedantic!",
     "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break an entire code base. So watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-1/"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#lesson-1",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#lesson-1",
-    "title": "Python basics",
+    "title": "Python",
     "section": "Lesson 1",
     "text": "Lesson 1\n\nMake sure you have a GitHub account.\nJoin your tutor group in the named Zoom break out rooms.\nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load",
-    "title": "Python basics",
+    "title": "Python",
     "section": "Codespace load",
     "text": "Codespace load"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load-1",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load-1",
-    "title": "Python basics",
+    "title": "Python",
     "section": "Codespace load",
     "text": "Codespace load"
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#ignore-the-extensions",
-    "href": "learn/learn-python/module-1-rebuild/3-python.html#ignore-the-extensions",
-    "title": "Python basics",
-    "section": "Ignore the extensions",
-    "text": "Ignore the extensions\n\nIgnore when a small window in the bottom right that pops up. Just close these."
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#ignore-this",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#ignore-this",
+    "title": "Python",
+    "section": "Ignore this",
+    "text": "Ignore this\n\nIgnore the pop out about extensions you may get in the bottom right of Codespace"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#get-to-your-first-lesson",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#get-to-your-first-lesson",
-    "title": "Python basics",
+    "title": "Python",
     "section": "Get to your first lesson",
-    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd programming_in_healthcare/module_1\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 30 minutes for lesson 1."
+    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd programming_in_healthcare/module_1\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lesson 1."
   },
   {
     "objectID": "learn/learn-python/module-1/index.html",
