@@ -43,7 +43,17 @@ Paediatric registrar.
 
 \
 
-![](/media/remon-hanna.png){height=300px fig-align="center" fig-alt="Profile picture of Chris Wilson"}
+![](/media/aparna-ghosh-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Aparna Ghosh"}
+
+### Aparna Ghosh
+
+GP and Clinical Informatician
+
+---
+
+\
+
+![](/media/remon-hanna.png){height=300px fig-align="center" fig-alt="Profile picture of Remon Hanna"}
 
 ### Remon Hanna
 

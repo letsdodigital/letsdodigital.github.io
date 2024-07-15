@@ -39,13 +39,31 @@ Steps:
 * `Type in your command` (this needs to be typed out **exactly**).
 * `Press enter` to run the command.
 
-Pro tip:
+
+## Pro tip
 
 * If you want to run a previously run command, you can select it with the &#8593; and 
 &#8595; arrow keys on the keyboard.
 
+```{.bash}
+$ cd module_1
+Press ↑
+$ cd programming_in_healthcare
+```
 
-## Altering the command to run
+
+## Tab
+
+* You can use the tab key to autocomplete a file or folder name
+
+```{.bash}
+$ cd prog
+Press TAB
+$ cd programming_in_healthcare
+```
+
+
+## Altering the command line
 
 * Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.
 * For example to change

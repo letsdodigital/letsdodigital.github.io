@@ -20,10 +20,12 @@ We will be using hackMD to store information for the session (eg tutor group all
 
 ## Timings
 
+Example timings for evening session.
+
 Start 7pm
 End 10pm
 
-6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality.
+6:30 pm - Open zoom for tutors and set up breakout rooms. Test all functionality.
 7:00 pm - Open room to students
 7:05 pm - Talk - 1-introduction.html
 7:10 pm - Talk - 2-coding-environment.html
@@ -31,14 +33,15 @@ End 10pm
 7:25 pm - Hands-on - lesson_1.py
 7:45 pm - Talk - 4-lets-build.html
 7:55 pm - Hands-on - lesson_2.py (& lesson_3.py)
-9:00 pm - Short stop to see how everyone is doing
-9:05 pm - Back to Hands-on - lesson_2.py (& lesson_3.py)
+9:00 pm - Talk - Short stop to see how everyone is doing
+9:05 pm - Hands-on - back to lesson_2.py (& lesson_3.py)
 9:50 pm - Talk - 5-session-close.html
 10:00 pm - Close
 
 ## First hour
 
-In the first hour of this course, introduce classes and libraries.
+In the first hour of this course we will introduce classes and libraries.
+
 
 ## Second and Third Hour
 
@@ -47,7 +50,7 @@ For the rest of the module, we will be building a basic clinical calculator in S
 
 ## Common pit falls
 
-* **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of hospital/GP practice network.
+* **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of the hospital/GP practice network.
 * **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.
 
 
@@ -92,4 +95,101 @@ patient_1.admit()
 patient_2.admit()
 patient_1.discharge()
 patient_2.discharge()
+```
+
+
+```{.python filename="lesson_2.exercise_8.py"}
+def calculate_egfr(creatinine, age, gender, race):
+    """Calculate the Estimated Glomerular Filtration Rate (egfr)
+
+    Calculate the estimated glomerular filtration rate (eGFR) using the CKD-EPI formula.
+
+    Args:
+        creatinine (int): Creatinine level
+        age (int): Age of patient
+        gender (str): "Male" or "Female"
+        race (str): "Afro-Caribbean" or "other"
+    Returns:
+        int: Estimated glomerular filtration rate (eGFR)
+
+    """
+    if gender == "Male":
+        gender_factor = 1
+    elif gender == "Female":
+        gender_factor = 0.742
+    else:
+        raise ValueError(
+            "Invalid gender. Please specify 'Male' for male or 'Female' for female."
+        )
+
+    if race == "Afro-Caribbean":
+        race_factor = 1.212
+    elif race == "other":
+        race_factor = 1
+    else:
+        raise ValueError(
+            "Invalid race. Please specify 'Afro-Caribbean' or 'other'."
+        )
+
+    egfr = (
+        175
+        * ((creatinine * 0.011312) ** (-1.154))
+        * (age ** (-0.203))
+        * gender_factor
+        * race_factor
+    )
+    return int(egfr)
+
+
+def get_ckd_stage(egfr):
+    """Get CKD stage
+
+    Determine the stage of chronic kidney disease (CKD) based on estimated glomerular filtration rate (eGFR).
+
+    Args:
+        egfr: Estimated glomerular filtration rate (eGFR)
+
+    Returns:
+        str: CKD stage
+    """
+    if egfr > 90:
+        return "1"
+    elif 60 <= egfr <= 89:
+        return "2"
+    elif 45 <= egfr <= 59:
+        return "3a"
+    elif 30 <= egfr <= 44:
+        return "3b"
+    elif 15 <= egfr <= 29:
+        return "4"
+    else:
+        return "5"
+
+
+def main():
+    """The main Streamlit code
+
+    Runs the Streamlit web app
+    """
+    st.title("eGFR calculator")
+
+    creatinine = st.number_input("Creatinine:", step=1)
+    age = st.number_input("Age:", step=1)
+    gender = st.selectbox("Gender:", ["", "Male", "Female"])
+    race = st.selectbox("Race:", ["", "Afro-Caribbean", "other"])
+
+    try:
+        egfr = calculate_egfr(creatinine, age, gender, race)
+    except Exception as e:
+        st.write(f"Awaiting appropriate inputs")
+    else:
+        st.write(f"eGFR: { egfr }")
+        ckd_stage = get_ckd_stage(egfr)
+        st.write(f"CKD stage { ckd_stage }")
+
+    return
+
+
+if __name__ == "__main__":
+    main()
 ```

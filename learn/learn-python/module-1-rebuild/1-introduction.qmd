@@ -20,8 +20,8 @@ title-slide-attributes:
 
 ## The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
-* `Module 0` covered the coding environment and some basic python coding.
-* We will quickly cover them again here.
+* `Module 0` covered the coding environment and the basics of python coding.
+* We will quickly cover them again.
 
 
 ## 1st section - Python Programming
