@@ -1,0 +1,75 @@
+---
+title: "{{< var dair-seminar-0 >}}"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+---
+
+## Introduction
+
+* Welcome to the DAIR course!
+* In the next 12 weeks, we will be covering a range of topics from basic data visualisation all the way up to machine learning
+* Please let one of the team know if you have any questions during the course or any suggestions for improvement.
+
+## Overall Course Aim
+
+* To broaden basic Python skills into fully-fledged, practical experience that can be used to:
+  * Do research
+  * Build new clinical tools
+* And most importantly, to directly improve patient care
+
+## Overall Course Philosophy
+
+* I set up this course as I want to accelerate the process of learning to code as a clinician after my own experiences.
+* The massive range of resources online can be intimidating.
+* Knowing how to improve can be difficult.
+* We want people to leave this course with a toolkit to solve real world clinical problems.
+* We also want to improve the quality of cross-disciplinary work
+
+## Tips to gain the most from DAIR
+
+* Practice, practice, practice
+* Be prepared for frustration!
+* Finding resources
+  * Documentation
+  * Stack Overflow
+  * GitHub
+
+## 5-minute open discussion
+
+* Questions:
+  * What reasons does everyone have for signing up for this course?
+  * What is the one skill that you are hoping to gain?
+
+## Break
+
+```
+def break_time(tired):
+    if tired:
+        return "Coffee!"
+    else:
+        return "We'll get going in 5 mins..."
+
+print(break_time(tired=True))
+```
+
+## Course breakdown
+
+* The course is split into multiple modules which each cover a different area.
+* Each module is split into two types of weeks:
+  * **Seminars** - Lecture-style discussions of the topic for the week.
+  * **Workshops** - Workbooks that you will complete with the direct or indirect support of a tutor.
+* The workshops will use Jupyter Notebooks within Google Colab to deliver the content.
+  * We will not be covering local setup of Python environments.
+
+## Module 1 - Tabular data
+
+## Module 2 - Working with DICOM 
+
+## Module 3 - 3D Printing for Medicine
+
+* NB - May omit if too divergent from the rest of the material.
+
+## Module 4 - AI for Medicine Part 1
+
+## Module 5 - AI for Medicine Part 2
