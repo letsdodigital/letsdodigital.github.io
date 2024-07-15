@@ -26,6 +26,11 @@ Our mentoring programme connects you with seasoned professionals who provide val
 **Supportive Community:** Join a network of like-minded individuals and professionals who are passionate about digital healthcare. Benefit from shared experiences and collective growth.
 
 
+## Our mentors and tutors
+
+Please see out [mentors and tutors](who-are-we.qmd) page.
+
+
 ## Contact us
 
 Ready to take the next step in your digital healthcare journey? Contact us today to learn more about our mentoring and tutoring services. Email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
