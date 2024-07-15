@@ -94,9 +94,19 @@ Additionally, Sam founded DoctorsThatCode.com, a platform that offers tutorials 
 
 \
 
+![](/media/anita-phung-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Anita Phung"}
+
+### Anita Phung
+
+GP and Clinical Informatician
+
+---
+
+\
+
 ![](/media/sobath-premaratne-circle.png){height=300px fig-align="center" fig-alt="Profile picture of Sobath Premaratne"}
 
-### Mr Sobath Premaratne
+### Sobath Premaratne
 
 Consultant in Vascular and Endovascular Surgery. Bart's Health NHS Trust, London.
 
