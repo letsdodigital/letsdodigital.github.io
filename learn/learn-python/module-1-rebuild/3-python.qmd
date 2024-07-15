@@ -10,7 +10,7 @@ title-slide-attributes:
     data-background-image: /media/python-scales.jpg
 ---
 
-## We will be using python
+## We will be using Python
 
 ![](/media/python-logo.png){fig-align="center"}
 
@@ -24,7 +24,7 @@ title-slide-attributes:
 
 ## Reminder of the basics
 
-* If you want a reminder of the basics, please visit the `module 0` slides at [https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html](https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html).
+* If you want a reminder of python basics, please visit the `module 0` slides at [https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html](https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html).
 
 ## A function
 
@@ -49,7 +49,7 @@ Output
 ## Classes
 
 * Much like functions are used to simplify reusable code, `classes` are used to organise code at a higher level.
-* Classes are used to store attributes and actions of real life objects.
+* Classes are used to store `attributes` and `actions` of real life objects.
 
 
 ## Anatomy of a class
@@ -62,7 +62,7 @@ class VitalSigns:
         self.heart_rate = heart_rate
     
     def display(self):
-        print(f"Temperature: {self.temperature} °C")
+        print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
 
 patient_1_vitals = VitalSigns(37.5, 80)
@@ -80,7 +80,7 @@ class VitalSigns:
         self.heart_rate = heart_rate
     
     def display(self):
-        print(f"Temperature: {self.temperature} °C")
+        print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
 
 patient_1_vitals = VitalSigns(37.5, 80)
@@ -107,7 +107,7 @@ class VitalSigns:
         self.heart_rate = heart_rate
     
     def display(self):
-        print(f"Temperature: {self.temperature} °C")
+        print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
 
 patient_1_vitals = VitalSigns(37.5, 80)
@@ -134,7 +134,7 @@ class VitalSigns:
         self.heart_rate = heart_rate
     
     def display(self):
-        print(f"Temperature: {self.temperature} °C")
+        print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
 
 patient_1_vitals = VitalSigns(37.5, 80)
@@ -165,7 +165,7 @@ class VitalSigns:
         self.heart_rate = heart_rate
     
     def display(self):
-        print(f"Temperature: {self.temperature} °C")
+        print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
 
 patient_1_vitals = VitalSigns(37.5, 80)
@@ -187,7 +187,7 @@ class VitalSigns:
         self.heart_rate = heart_rate
     
     def display(self):
-        print(f"Temperature: {self.temperature} °C")
+        print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
 
 patient_1_vitals = VitalSigns(37.5, 80)
@@ -214,7 +214,7 @@ class VitalSigns:
         self.heart_rate = heart_rate
     
     def display(self):
-        print(f"Temperature: {self.temperature} °C")
+        print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
 
 patient_1_vitals = VitalSigns(37.5, 80)
@@ -234,6 +234,29 @@ patient_1_vitals.display()
     
 * Remember, method is just a function inside a class.
 
+
+## The final output
+```{.python}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+
+    def display(self):
+        print(f"Temperature: {self.temperature}°C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+Output:
+
+        Temperature: 37.5°C
+        Heart Rate: 80 bpm
 
 # Libraries  {background-image="/media/large-library.jpg" background-opacity="0.3"}
 

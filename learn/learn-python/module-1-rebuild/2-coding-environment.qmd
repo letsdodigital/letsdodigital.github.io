@@ -40,7 +40,7 @@ Steps:
 * `Press enter` to run the command.
 
 
-## Pro tip
+## Arrow keys
 
 * If you want to run a previously run command, you can select it with the &#8593; and 
 &#8595; arrow keys on the keyboard.
@@ -65,8 +65,9 @@ $ cd programming_in_healthcare
 
 ## Altering the command line
 
-* Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.
-* For example to change
+* Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). 
+* Then make any corrections with the backspace and keyboard as needed.
+* For example, to change
 
 ```{.bash}
 $ streamlit run exercise_1.py
@@ -102,7 +103,7 @@ $ streamlit run exercise_2.py
 
 ## Review
 
-* You will be using the above functions in the hands-on sessions. 
+* You will be using the above commands in the hands-on sessions. 
 * Come back to these slides if you need to refresh your memory.
 
 ## Python slides
