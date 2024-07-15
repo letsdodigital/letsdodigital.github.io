@@ -997,8 +997,8 @@
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#we-will-be-using-python",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#we-will-be-using-python",
     "title": "Python",
-    "section": "We will be using python",
-    "text": "We will be using python"
+    "section": "We will be using Python",
+    "text": "We will be using Python"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#the-python-programming-language",
@@ -1012,7 +1012,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#reminder-of-the-basics",
     "title": "Python",
     "section": "Reminder of the basics",
-    "text": "Reminder of the basics\n\nIf you want a reminder of the basics, please visit the module 0 slides at https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html."
+    "text": "Reminder of the basics\n\nIf you want a reminder of python basics, please visit the module 0 slides at https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#a-function",
@@ -1033,14 +1033,14 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-1",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-1",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#naming-conventions",
@@ -1054,7 +1054,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-2",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#creating-an-instance-of-the-class",
@@ -1068,7 +1068,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-3",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\nWhen you create an instance of a class (aka object) the __init__ method is automatically called.\nRemember, a method is just a function inside a class."
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\nWhen you create an instance of a class (aka object) the __init__ method is automatically called.\nRemember, a method is just a function inside a class."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#creating-an-instance-of-the-class-1",
@@ -1082,14 +1082,14 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-4",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\n37.5 is set as the temperature argument.\n80 is set as the heart_rate argument."
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\n37.5 is set as the temperature argument.\n80 is set as the heart_rate argument."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-5",
     "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-5",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#one-needs-to-know-oneself",
@@ -1103,7 +1103,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#anatomy-of-a-class-6",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature} °C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#the-dot-operator",
@@ -1111,6 +1111,13 @@
     "title": "Python",
     "section": "The dot operator",
     "text": "The dot operator\npatient_1_vitals.display()\n\nIt may look strange, but the . (dot) in between patient_1_vitals and display() is basically just a way to get data or use a method of a class.\nSo in the instance above, you are basically saying:\n“For the patient_1_vitals instance that I have created, please now use the display() method.”\nRemember, method is just a function inside a class."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#the-final-output",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#the-final-output",
+    "title": "Python",
+    "section": "The final output",
+    "text": "The final output\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\nOutput:\n    Temperature: 37.5°C\n    Heart Rate: 80 bpm"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#libraries-1",
@@ -2576,11 +2583,11 @@
     "text": "Using the terminal\n\nAlso called the command line interface (CLI) or the shell.\n\nSteps:\n\nSelect the terminal (aka click on it).\nType in your command (this needs to be typed out exactly).\nPress enter to run the command."
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/2-coding-environment.html#pro-tip",
-    "href": "learn/learn-python/module-1-rebuild/2-coding-environment.html#pro-tip",
+    "objectID": "learn/learn-python/module-1-rebuild/2-coding-environment.html#arrow-keys",
+    "href": "learn/learn-python/module-1-rebuild/2-coding-environment.html#arrow-keys",
     "title": "Coding environment (and the shell)",
-    "section": "Pro tip",
-    "text": "Pro tip\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard.\n\n$ cd module_1\nPress ↑\n$ cd programming_in_healthcare"
+    "section": "Arrow keys",
+    "text": "Arrow keys\n\nIf you want to run a previously run command, you can select it with the ↑ and ↓ arrow keys on the keyboard.\n\n$ cd module_1\nPress ↑\n$ cd programming_in_healthcare"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/2-coding-environment.html#tab",
@@ -2594,7 +2601,7 @@
     "href": "learn/learn-python/module-1-rebuild/2-coding-environment.html#altering-the-command-line",
     "title": "Coding environment (and the shell)",
     "section": "Altering the command line",
-    "text": "Altering the command line\n\nUse the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.\nFor example to change\n\n$ streamlit run exercise_1.py\nto\n$ streamlit run exercise_2.py"
+    "text": "Altering the command line\n\nUse the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor).\nThen make any corrections with the backspace and keyboard as needed.\nFor example, to change\n\n$ streamlit run exercise_1.py\nto\n$ streamlit run exercise_2.py"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/2-coding-environment.html#list-files-and-folders-command",
@@ -2622,7 +2629,7 @@
     "href": "learn/learn-python/module-1-rebuild/2-coding-environment.html#review",
     "title": "Coding environment (and the shell)",
     "section": "Review",
-    "text": "Review\n\nYou will be using the above functions in the hands-on sessions.\nCome back to these slides if you need to refresh your memory."
+    "text": "Review\n\nYou will be using the above commands in the hands-on sessions.\nCome back to these slides if you need to refresh your memory."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/2-coding-environment.html#python-slides",
@@ -3329,7 +3336,7 @@
     "href": "who-are-we.html",
     "title": "Who are we",
     "section": "",
-    "text": "A collection of people passionate about making better digital healthcare and education a reality.\n\n\n\n\n\n\nMark Bailey\nMark is the main curator of the Let’s Do Digital Website and lead for the Let’s Do Digital community. He is a locum respiratory consultant and clinician-who-codes. He is passionate about helping others learn about clinical informatics, be they general public, patient or healthcare staff, and he is also passionate about building amazing, useful, friendly and safe clinical apps.\n\n\n\nMentors and tutors\n \n\n\n\n\n\n\nRhidian Bramley\n\n\n\n\n\n\n\n\n\n\nAlex Brown\nPaediatric registrar.\n\n\n\n\n\n\n\n\n\n\nHaroon Chughtai\n\n\n\n\n\n\n\n\n\n\nAparna Ghosh\nGP and Clinical Informatician\n\n\n\n\n\n\n\n\n\n\nRemon Hanna\nDoctor & Head of data, MedTech\n\n\n\n\n\n\n\n\n\n\nMichael Kriger\n\n\n\n\n\n\n\n\n\n\nDom Main\n\n\n\n\n\n\n\n\n\n\nAlexandre Mathy\n\n\n\n\n\n\n\n\n\n\nSam McInerney\nSam, a medical oncology doctor at the Beatson in Glasgow, is also a PhD student at the University of Edinburgh. His research focuses on integrating AI and electronic patient-reported outcomes (ePROMS) into the cancer patient pathway.\nA life-long coder, before pursuing medicine Sam did a first degree in computer science and developed a keen interest in AI and neural networks. Following his degree he worked for several years in London’s investment banking industry, specializing in low-latency, ultra-high-performance trading systems.\nSam graduated from St George’s University in London in 2006 after undertaking a graduate entry program into medicine, where Sam’s passion for building software carried over to his work in the NHS. Sam has built several applications since including an IOS app for clinical geneticists called ‘The Genetic Counselling App’ and most recently a system to automate clinic preparation. Additionally, Sam founded DoctorsThatCode.com, a platform that offers tutorials and a blog space to keep up with the rapid advancements in AI and its implementation within healthcare.\n\n\n\n\n\n\n\n\n\n\nAnita Phung\nGP and Clinical Informatician\n\n\n\n\n\n\n\n\n\n\nSobath Premaratne\nConsultant in Vascular and Endovascular Surgery. Bart’s Health NHS Trust, London.\n\n\n\n\n\n\n\n\n\n\nFreddie Renyard\nFreddie is a fifth year medical student from the University of Bristol and intercalated bioengineering graduate from Imperial College London who is starting an Academic Foundation Post in Oxford soon.\nHe is passionate about using new technologies to enhance patient care. He is currently working with the Neurocomputing Lab in Erasmus MC, Rotterdam, where he is accelerating neural simulations to improve our understanding of the brain.\nHe also has experience in computer engineering and has completed industry and academic internships. During his time with the Particle Physics group at Bristol, he looked into ways that new particle physics hardware could be used in clinical care.\nFreddie is interested in improving clinician knowledge about digital technologies. He’s currently working on a course for clinicians to help them work with medical and radiological data: stay tuned for updates!\n\n\n\n\n\n\n\n\n\n\nHarriet Sands\nHarriet is a Data Scientist with experience in applying data science techniques in both public sector and commercial settings.\nSome of her career highlights include identifying pre-cursors to frequent ambulance users for the city of Memphis, developing real-time economic indicators for the ONS, helping to establish the data science function of HM Treasury, and working in the very early days of the No. 10 Downing Street data science function. She is currently leading a pilot looking at how to operationalise ethical AI development at NHS England.\n\n\n\n\n\n\n\n\n\n\nGrant Vallance\n\n\n\n\n\n\n\n\n\n\nMathew Vithayathil\n\n\n\n\n\n\n\n\n\n\nNik Walne\n\n\n\n\n\n\n\n\n\n\nChris Wilson\nChris is a GP and Urgent Care doctor in Northern Ireland. He graduated from Queen’s University Belfast in 2006.\nHe has worked with the Royal College of General Practitioners (RCGP) on their Diabetes Quality Improvement Toolkit and been an expedition and diving medic in Madagascar.\nChris started to learn coding in 2015 and developed an interest in clinical informatics. He is a member of the British Computer Society and an independent iOS developer.\nChris also works part time for a London-based company that makes electronic health record and data platform software used in sub-Sarahan Africa and the Middle East."
+    "text": "A collection of people passionate about making better digital healthcare and education a reality.\n\n\n\n\n\n\nMark Bailey\nMark is the main curator of the Let’s Do Digital Website and lead for the Let’s Do Digital community. He is a locum respiratory consultant and clinician-who-codes. He is passionate about helping others learn about clinical informatics, be they general public, patient or healthcare staff, and he is also passionate about building amazing, useful, friendly and safe clinical apps.\n\n\n\nMentors and tutors\n \n\n\n\n\n\n\nRhidian Bramley\n\n\n\n\n\n\n\n\n\n\nAlex Brown\nPaediatric registrar.\n\n\n\n\n\n\n\n\n\n\nHaroon Chughtai\n\n\n\n\n\n\n\n\n\n\nAparna Ghosh\nAparna is a GP and clinical lecturer working in North London. She graduated with a BA in Medical Sciences from the University of Oxford and an MBBS from University College London. She started coding as a hobby and is currently assisting with the digital transformation of her local food bank.\nWith a background in mentoring and access work that started at University and continues today, she’s enthusiastic about helping others find roles and opportunities that suit them.\n\n\n\n\n\n\n\n\n\n\nRemon Hanna\nDoctor & Head of data, MedTech\n\n\n\n\n\n\n\n\n\n\nMichael Kriger\n\n\n\n\n\n\n\n\n\n\nDom Main\n\n\n\n\n\n\n\n\n\n\nAlexandre Mathy\n\n\n\n\n\n\n\n\n\n\nSam McInerney\nSam, a medical oncology doctor at the Beatson in Glasgow, is also a PhD student at the University of Edinburgh. His research focuses on integrating AI and electronic patient-reported outcomes (ePROMS) into the cancer patient pathway.\nA life-long coder, before pursuing medicine Sam did a first degree in computer science and developed a keen interest in AI and neural networks. Following his degree he worked for several years in London’s investment banking industry, specializing in low-latency, ultra-high-performance trading systems.\nSam graduated from St George’s University in London in 2006 after undertaking a graduate entry program into medicine, where Sam’s passion for building software carried over to his work in the NHS. Sam has built several applications since including an IOS app for clinical geneticists called ‘The Genetic Counselling App’ and most recently a system to automate clinic preparation. Additionally, Sam founded DoctorsThatCode.com, a platform that offers tutorials and a blog space to keep up with the rapid advancements in AI and its implementation within healthcare.\n\n\n\n\n\n\n\n\n\n\nAnita Phung\nGP and Clinical Informatician\n\n\n\n\n\n\n\n\n\n\nSobath Premaratne\nConsultant in Vascular and Endovascular Surgery. Bart’s Health NHS Trust, London.\n\n\n\n\n\n\n\n\n\n\nFreddie Renyard\nFreddie is a fifth year medical student from the University of Bristol and intercalated bioengineering graduate from Imperial College London who is starting an Academic Foundation Post in Oxford soon.\nHe is passionate about using new technologies to enhance patient care. He is currently working with the Neurocomputing Lab in Erasmus MC, Rotterdam, where he is accelerating neural simulations to improve our understanding of the brain.\nHe also has experience in computer engineering and has completed industry and academic internships. During his time with the Particle Physics group at Bristol, he looked into ways that new particle physics hardware could be used in clinical care.\nFreddie is interested in improving clinician knowledge about digital technologies. He’s currently working on a course for clinicians to help them work with medical and radiological data: stay tuned for updates!\n\n\n\n\n\n\n\n\n\n\nHarriet Sands\nHarriet is a Data Scientist with experience in applying data science techniques in both public sector and commercial settings.\nSome of her career highlights include identifying pre-cursors to frequent ambulance users for the city of Memphis, developing real-time economic indicators for the ONS, helping to establish the data science function of HM Treasury, and working in the very early days of the No. 10 Downing Street data science function. She is currently leading a pilot looking at how to operationalise ethical AI development at NHS England.\n\n\n\n\n\n\n\n\n\n\nGrant Vallance\n\n\n\n\n\n\n\n\n\n\nMathew Vithayathil\n\n\n\n\n\n\n\n\n\n\nNik Walne\n\n\n\n\n\n\n\n\n\n\nChris Wilson\nChris is a GP and Urgent Care doctor in Northern Ireland. He graduated from Queen’s University Belfast in 2006.\nHe has worked with the Royal College of General Practitioners (RCGP) on their Diabetes Quality Improvement Toolkit and been an expedition and diving medic in Madagascar.\nChris started to learn coding in 2015 and developed an interest in clinical informatics. He is a member of the British Computer Society and an independent iOS developer.\nChris also works part time for a London-based company that makes electronic health record and data platform software used in sub-Sarahan Africa and the Middle East."
   },
   {
     "objectID": "posts/2024-07-02-topics-for-first-10-essentials-of-health-informatics-webinars/index.html",
