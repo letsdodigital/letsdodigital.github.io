@@ -991,7 +991,7 @@
     "href": "learn/learn-python/module-1-rebuild/tutor-notes.html#answers-rebuild",
     "title": "Tutor notes - module 1",
     "section": "Answers (rebuild)",
-    "text": "Answers (rebuild)\n\n\nlesson_1.exercise_1.py\n\nimport random\n\nrandom_number = random.randint(1, 10)\nprint(random_number)\n\n\n\nlesson_1.exercise_2.py\n\nclass Patient:\n    def __init__(self, name, age, diagnosis):\n        self.name = name\n        self.age = age\n        self.diagnosis = diagnosis\n        self.is_admitted = False\n\n    def admit(self):\n        if not self.is_admitted:\n            print(\n                f\"Admitting {self.name} to the hospital with diagnosis: {self.diagnosis}\"\n            )\n            self.is_admitted = True\n        else:\n            print(f\"{self.name} is already admitted\")\n\n    def discharge(self):\n        if self.is_admitted:\n            print(f\"Discharging {self.name} from the hospital\")\n            self.is_admitted = False\n        else:\n            print(f\"{self.name} is not currently admitted\")\n\npatient_1 = Patient(\"John Doe\", 45, \"Pneumonia\")\npatient_2 = Patient(\"Jane Smith\", 30, \"Appendicitis\")\n\npatient_1.admit()\npatient_2.admit()\npatient_1.discharge()\npatient_2.discharge()\n\n\n\nlesson_2.exercise_8.py\n\ndef calculate_egfr(creatinine, age, gender, race):\n    \"\"\"Calculate the Estimated Glomerular Filtration Rate (egfr)\n\n    Calculate the estimated glomerular filtration rate (eGFR) using the CKD-EPI formula.\n\n    Args:\n        creatinine (int): Creatinine level\n        age (int): Age of patient\n        gender (str): \"Male\" or \"Female\"\n        race (str): \"Afro-Caribbean\" or \"other\"\n    Returns:\n        int: Estimated glomerular filtration rate (eGFR)\n\n    \"\"\"\n    if gender == \"Male\":\n        gender_factor = 1\n    elif gender == \"Female\":\n        gender_factor = 0.742\n    else:\n        raise ValueError(\n            \"Invalid gender. Please specify 'Male' for male or 'Female' for female.\"\n        )\n\n    if race == \"Afro-Caribbean\":\n        race_factor = 1.212\n    elif race == \"other\":\n        race_factor = 1\n    else:\n        raise ValueError(\n            \"Invalid race. Please specify 'Afro-Caribbean' or 'other'.\"\n        )\n\n    egfr = (\n        175\n        * ((creatinine * 0.011312) ** (-1.154))\n        * (age ** (-0.203))\n        * gender_factor\n        * race_factor\n    )\n    return int(egfr)\n\n\ndef get_ckd_stage(egfr):\n    \"\"\"Get CKD stage\n\n    Determine the stage of chronic kidney disease (CKD) based on estimated glomerular filtration rate (eGFR).\n\n    Args:\n        egfr: Estimated glomerular filtration rate (eGFR)\n\n    Returns:\n        str: CKD stage\n    \"\"\"\n    if egfr &gt; 90:\n        return \"1\"\n    elif 60 &lt;= egfr &lt;= 89:\n        return \"2\"\n    elif 45 &lt;= egfr &lt;= 59:\n        return \"3a\"\n    elif 30 &lt;= egfr &lt;= 44:\n        return \"3b\"\n    elif 15 &lt;= egfr &lt;= 29:\n        return \"4\"\n    else:\n        return \"5\"\n\n\ndef main():\n    \"\"\"The main Streamlit code\n\n    Runs the Streamlit web app\n    \"\"\"\n    st.title(\"eGFR calculator\")\n\n    creatinine = st.number_input(\"Creatinine:\", step=1)\n    age = st.number_input(\"Age:\", step=1)\n    gender = st.selectbox(\"Gender:\", [\"\", \"Male\", \"Female\"])\n    race = st.selectbox(\"Race:\", [\"\", \"Afro-Caribbean\", \"other\"])\n\n    try:\n        egfr = calculate_egfr(creatinine, age, gender, race)\n    except Exception as e:\n        st.write(f\"Awaiting appropriate inputs\")\n    else:\n        st.write(f\"eGFR: { egfr }\")\n        ckd_stage = get_ckd_stage(egfr)\n        st.write(f\"CKD stage { ckd_stage }\")\n\n    return\n\n\nif __name__ == \"__main__\":\n    main()"
+    "text": "Answers (rebuild)\n\n\nlesson_1.exercise_1.py\n\nimport random\n\nrandom_number = random.randint(1, 10)\nprint(random_number)\n\n\n\nlesson_1.exercise_2.py\n\nclass Patient:\n    def __init__(self, name, age, diagnosis):\n        self.name = name\n        self.age = age\n        self.diagnosis = diagnosis\n        self.is_admitted = False\n\n    def admit(self):\n        if not self.is_admitted:\n            print(\n                f\"Admitting {self.name} to the hospital with diagnosis: {self.diagnosis}\"\n            )\n            self.is_admitted = True\n        else:\n            print(f\"{self.name} is already admitted\")\n\n    def discharge(self):\n        if self.is_admitted:\n            print(f\"Discharging {self.name} from the hospital\")\n            self.is_admitted = False\n        else:\n            print(f\"{self.name} is not currently admitted\")\n\npatient_1 = Patient(\"John Doe\", 45, \"Pneumonia\")\npatient_2 = Patient(\"Jane Smith\", 30, \"Appendicitis\")\n\npatient_1.admit()\npatient_2.admit()\npatient_1.discharge()\npatient_2.discharge()\n\n\nNote, the answers for each exercise in lesson 2 are in the subsequent exercise.\n\n\n\nlesson_2.exercise_8.py\n\ndef calculate_egfr(creatinine, age, gender, race):\n    \"\"\"Calculate the Estimated Glomerular Filtration Rate (egfr)\n\n    Calculate the estimated glomerular filtration rate (eGFR) using the CKD-EPI formula.\n\n    Args:\n        creatinine (int): Creatinine level\n        age (int): Age of patient\n        gender (str): \"Male\" or \"Female\"\n        race (str): \"Afro-Caribbean\" or \"other\"\n    Returns:\n        int: Estimated glomerular filtration rate (eGFR)\n\n    \"\"\"\n    if gender == \"Male\":\n        gender_factor = 1\n    elif gender == \"Female\":\n        gender_factor = 0.742\n    else:\n        raise ValueError(\n            \"Invalid gender. Please specify 'Male' for male or 'Female' for female.\"\n        )\n\n    if race == \"Afro-Caribbean\":\n        race_factor = 1.212\n    elif race == \"other\":\n        race_factor = 1\n    else:\n        raise ValueError(\n            \"Invalid race. Please specify 'Afro-Caribbean' or 'other'.\"\n        )\n\n    egfr = (\n        175\n        * ((creatinine * 0.011312) ** (-1.154))\n        * (age ** (-0.203))\n        * gender_factor\n        * race_factor\n    )\n    return int(egfr)\n\n\ndef get_ckd_stage(egfr):\n    \"\"\"Get CKD stage\n\n    Determine the stage of chronic kidney disease (CKD) based on estimated glomerular filtration rate (eGFR).\n\n    Args:\n        egfr: Estimated glomerular filtration rate (eGFR)\n\n    Returns:\n        str: CKD stage\n    \"\"\"\n    if egfr &gt; 90:\n        return \"1\"\n    elif 60 &lt;= egfr &lt;= 89:\n        return \"2\"\n    elif 45 &lt;= egfr &lt;= 59:\n        return \"3a\"\n    elif 30 &lt;= egfr &lt;= 44:\n        return \"3b\"\n    elif 15 &lt;= egfr &lt;= 29:\n        return \"4\"\n    else:\n        return \"5\"\n\n\ndef main():\n    \"\"\"The main Streamlit code\n\n    Runs the Streamlit web app\n    \"\"\"\n    st.title(\"eGFR calculator\")\n\n    creatinine = st.number_input(\"Creatinine:\", step=1)\n    age = st.number_input(\"Age:\", step=1)\n    gender = st.selectbox(\"Gender:\", [\"\", \"Male\", \"Female\"])\n    race = st.selectbox(\"Race:\", [\"\", \"Afro-Caribbean\", \"other\"])\n\n    try:\n        egfr = calculate_egfr(creatinine, age, gender, race)\n    except Exception as e:\n        st.write(f\"Awaiting appropriate inputs\")\n    else:\n        st.write(f\"eGFR: { egfr }\")\n        ckd_stage = get_ckd_stage(egfr)\n        st.write(f\"CKD stage { ckd_stage }\")\n\n    return\n\n\nif __name__ == \"__main__\":\n    main()"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#we-will-be-using-python",
@@ -1020,6 +1020,13 @@
     "title": "Python",
     "section": "A function",
     "text": "A function\n\n\na_function.py\n\ndef a_function_that_prints(something_to_print):\n    print(something_to_print)\n    return\n\na_function_that_prints(\"Hello World!\")\na_function_that_prints(\"Woo Hoo!\")\n\nOutput\n    \"Hello World!\"\n    \"Woo Hoo!\""
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#error-handling",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#error-handling",
+    "title": "Python",
+    "section": "Error handling",
+    "text": "Error handling\n\nYou can raise errors with raise\n\n\n\nraise_error.py\n\nraise_error = True\n\nif raise_error == True:\n    raise ValueError(\"An error has been raised!\")\n\n\nOther types include:\n  TypeError\n  ZeroDivisionError\n  FileNotFoundError\n  IndexError\n  KeyError"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#classes",
@@ -1110,7 +1117,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#the-dot-operator",
     "title": "Python",
     "section": "The dot operator",
-    "text": "The dot operator\npatient_1_vitals.display()\n\nIt may look strange, but the . (dot) in between patient_1_vitals and display() is basically just a way to get data or use a method of a class.\nSo in the instance above, you are basically saying:\n“For the patient_1_vitals instance that I have created, please now use the display() method.”\nRemember, method is just a function inside a class."
+    "text": "The dot operator\npatient_1_vitals.display()\n\nIt may look strange, but the . (dot) in between patient_1_vitals and display() is basically just a way to get data or use a method of a class.\nSo in the instance above, you are basically saying:\n“For the patient_1_vitals instance that I have created, please run the display() method.”\nRemember, a method is just a function inside a class."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#the-final-output",
@@ -1124,7 +1131,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#libraries-1",
     "title": "Python",
     "section": "Libraries",
-    "text": "Libraries\n\nLibraries are amazing. They will save you a lot of time and effort.\nLibraries are basically a collection of code that someone else (usually a group of people) has already written.\nYou can use the code in these libraries within your own code."
+    "text": "Libraries\n\nLibraries are amazing. They will save you a lot of time and effort.\nLibraries are basically a collection of organised code that someone else (usually a group of people) has already written.\nYou can use the functionality in these libraries within your own code."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#safety",
@@ -1139,6 +1146,34 @@
     "title": "Python",
     "section": "Installing libraries",
     "text": "Installing libraries\n\nThis is very easy, just use pip\n\n$ pip install streamlit"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#preinstalled-libraries",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#preinstalled-libraries",
+    "title": "Python",
+    "section": "Preinstalled libraries",
+    "text": "Preinstalled libraries\n\nThere are a large collection of preinstalled libraries in python, so you will not need to use pip to install them.\neg\n  os\n  random\n  datetime\n  math\n  json"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#modules",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#modules",
+    "title": "Python",
+    "section": "Modules",
+    "text": "Modules\n\nModules are collections of code, which can be part of higher organisation levels, for example libraries.\nHence, you can think of a module as a single book in a physical library."
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#importing-modules",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#importing-modules",
+    "title": "Python",
+    "section": "Importing modules",
+    "text": "Importing modules\n\nPeople say “import that library”.\nIn fact, they are importing a module.\n\n\n\nimport.py\n\nimport datetime\n\nnow = datetime.datetime.now()\n\nprint(now)"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#importing-modules-1",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#importing-modules-1",
+    "title": "Python",
+    "section": "Importing modules",
+    "text": "Importing modules\n\n\nimport.py\n\nimport datetime\n\nnow = datetime.datetime.now()\n\nprint(now)\n\n\nYou use the dot operator to access the sub-modules, classes, methods and attributes within the imported module."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#you-got-all-that",
@@ -1187,7 +1222,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#get-to-your-first-lesson",
     "title": "Python",
     "section": "Get to your first lesson",
-    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd programming_in_healthcare/module_1\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lesson 1."
+    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show this is the command line):\n\n    $ cd programming_in_healthcare/module_1/lesson_1\n\nAnd then\n\n    $ python exercise_1.py\n\nDid it work? If so, open up the exercise_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lesson 1.\n\n\n    Web app slides"
   },
   {
     "objectID": "learn/learn-python/module-1/index.html",
@@ -1232,11 +1267,11 @@
     "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
   },
   {
-    "objectID": "learn/learn-python/module-1/4-lets-build.html#framework-library-import",
-    "href": "learn/learn-python/module-1/4-lets-build.html#framework-library-import",
+    "objectID": "learn/learn-python/module-1/4-lets-build.html#module-import",
+    "href": "learn/learn-python/module-1/4-lets-build.html#module-import",
     "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "Framework / Library import",
-    "text": "Framework / Library import\nDirect import\n\n\nlibraries_1.py\n\nimport streamlit\n\nor as an alias\n\n\nlibraries_2.py\n\nimport streamlit as st"
+    "section": "Module import",
+    "text": "Module import\nDirect import\n\n\nlibraries_1.py\n\nimport streamlit\n\nor as an alias\n\n\nlibraries_2.py\n\nimport streamlit as st"
   },
   {
     "objectID": "learn/learn-python/module-1/4-lets-build.html#who-is-running-what",
@@ -2219,11 +2254,11 @@
     "text": "Streamlit\n\nAs said, we will be using a python web app framework called Streamlit for the frontend.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#framework-library-import",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#framework-library-import",
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#module-import",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#module-import",
     "title": "Building a digital consent form",
-    "section": "Framework / Library import",
-    "text": "Framework / Library import\nDirect import\n\n\nlibraries_1.py\n\nimport streamlit\n\nor as an alias\n\n\nlibraries_2.py\n\nimport streamlit as st"
+    "section": "Module import",
+    "text": "Module import\nDirect import\n\n\nlibraries_1.py\n\nimport streamlit\n\nor as an alias\n\n\nlibraries_2.py\n\nimport streamlit as st"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#who-is-running-what",
@@ -2636,7 +2671,7 @@
     "href": "learn/learn-python/module-1-rebuild/2-coding-environment.html#python-slides",
     "title": "Coding environment (and the shell)",
     "section": "Python slides",
-    "text": "Python slides\n\n    Coding environment slides"
+    "text": "Python slides\n\n    Python slides"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/5-session-close.html#many-thanks",
@@ -2650,28 +2685,28 @@
     "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#what-to-build",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "What to build?",
-    "text": "What to build?"
+    "text": "What to build?\n\neGFR = estimated glomerular filtration rate"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#streamlit",
     "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#streamlit",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Streamlit",
-    "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
+    "text": "Streamlit\n\nWe will be using a python web app framework called Streamlit.\nFrameworks are a higher level of organisation of code above libraries."
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#framework-library-import",
-    "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#framework-library-import",
+    "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#module-import",
+    "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#module-import",
     "title": "🎵 Do you want to build a web app? 🎵",
-    "section": "Framework / Library import",
-    "text": "Framework / Library import\nDirect import\n\n\nlibraries_1.py\n\nimport streamlit\n\nor as an alias\n\n\nlibraries_2.py\n\nimport streamlit as st"
+    "section": "Module import",
+    "text": "Module import\nDirect import\n\n\nlibraries_1.py\n\nimport streamlit\n\nor as an alias\n\n\nlibraries_2.py\n\nimport streamlit as st"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#who-is-running-what",
     "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#who-is-running-what",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Who is running what?",
-    "text": "Who is running what?\n\n\nmain.py\n\nif __name__ == \"__main__\":\n    main()\n\n\nChecks if the current file is being run as an imported library or directly"
+    "text": "Who is running what?\n\nA common practice is to use:\n\n\n\nmain.py\n\nif __name__ == \"__main__\":\n    main()\n\n\nChecks if the current file is being run as an imported library or directly."
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#streamlit-methods",
@@ -2685,7 +2720,7 @@
     "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#magicenabled-false",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "magicEnabled = false",
-    "text": "magicEnabled = false\n\nWe have turned off a feature in Streamlit that shows all of your code in the browser using:\n\n\n\n.streamlit/config.toml\n\n[runner]\nmagicEnabled = false\n\n\n(See .streamlit/config.toml file if interested)"
+    "text": "magicEnabled = false\n\nWe have turned off the feature in Streamlit that shows all of your code in the browser using:\n\n\n\n.streamlit/config.toml\n\n[runner]\nmagicEnabled = false\n\n\n(See .streamlit/config.toml file if interested)"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#stopping-a-running-program",
@@ -2706,7 +2741,14 @@
     "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#time-to-install-a-framework",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Time to install a framework",
-    "text": "Time to install a framework\n\nYou now need to install the Streamlit framework. Don’t worry, it is very easy:\n\n$ cd lesson_3\n$ pip install streamlit\n\nAnd now run this code:\n\n$ streamlit run exercise_1.py"
+    "text": "Time to install a framework\n\nYou now need to install the Streamlit framework. Don’t worry, it is very easy:\n\n$ cd ../lesson_2\n$ pip install streamlit\n\nThere will be many lines of output in the terminal. Just wait for this to finish (30-60 seconds).\nAnd now run this command:\n\n$ streamlit run exercise_1.py"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#now-off-you-go",
+    "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#now-off-you-go",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Now off you go!",
+    "text": "Now off you go!\n\nLesson 3 is for those that finish lesson 2 early (but it is not a race).\n\n\n    Session close slides"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/index.html",
