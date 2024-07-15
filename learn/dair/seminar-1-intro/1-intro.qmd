@@ -64,12 +64,46 @@ print(break_time(tired=True))
 
 ## Module 1 - Tabular data
 
+* TODO Specify aims of this unit with regards to EDA, etc.
+  
 ## Module 2 - Working with DICOM 
 
+* Seminar content will include:
+  * What the DICOM standard is
+  * How computers represent scan data
+  * What data is in a DICOM file
+* Workshop content will include:
+  * Opening and rendering DICOM with Python
+  * Extracting demographics from DICOM
+
 ## Module 3 - 3D Printing for Medicine
+
+* Seminar content will include:
+  * How 3D printing works
+  * Current and future applications of 3D printing in clinical medicine
+* Workshop content will include:
+  * Opening volume scan data with InVesalius
+  * Accurately segmenting scans for 3D printing
 
 * NB - May omit if too divergent from the rest of the material.
 
 ## Module 4 - AI for Medicine Part 1
 
+* Seminar content will include:
+  * Different types of "machine learning"
+  * How a neural network works at a high level
+  * How machine learning algorithms are built
+  * Discussing advantages and limitations of these algorithms
+* Workshop content will include:
+  * Preprocessing data for training
+  * Constructing and training a basic neural network for pneumonia detection
+
 ## Module 5 - AI for Medicine Part 2
+
+* Seminar content will include:
+  * The practical steps needed to take a ML idea from idea to system
+  * How to effectively evaluate ML algorithms
+  * Discussion of advanced machine learning methods (LLMs)
+* Workshop content will include:
+  * Plotting results and refining the model
+  * Calculating evaluation metrics
