@@ -15,15 +15,18 @@ title-slide-attributes:
 
 ![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
 
+eGFR = estimated glomerular filtration rate
+
+
 ## Streamlit
 
 * We will be using a python web app framework called `Streamlit`.
-* Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
+* Frameworks are a higher level of organisation of code above libraries.
 
 ![](/media/streamlit.png){fig-align="center"}
 
 
-## Framework / Library import
+## Module import
 
 `Direct import`
 
@@ -40,12 +43,14 @@ import streamlit as st
 
 ## Who is running what?
 
+* A common practice is to use:
+
 ```{.python filename="main.py"}
 if __name__ == "__main__":
     main()
 ```
 
-* Checks if the current file is being run as an imported library or directly
+* Checks if the current file is being run as an imported library or directly.
 
 
 ## Streamlit methods
@@ -66,7 +71,7 @@ st.selectbox("Label for selectbox", ["first choice","second choice"])
 
 ## magicEnabled = false
 
-* We have turned off a feature in Streamlit that shows all of your code in the browser using:
+* We have turned off the feature in Streamlit that shows all of your code in the browser using:
 
 ```{.python filename=".streamlit/config.toml" code-line-numbers="2"}
 [runner]
@@ -92,14 +97,23 @@ CMD - C
 * You now need to install the Streamlit framework. Don't worry, it is very easy:
 
 ```{.bash}
-$ cd lesson_3
+$ cd ../lesson_2
 $ pip install streamlit
 ```
 
-* And now run this code:
+* There will be many lines of output in the terminal. Just wait for this to finish (30-60 seconds).
+* And now run this command:
 
 ```{.bash}
 $ streamlit run exercise_1.py
 ```
 
-# Now off you go! {background-image="/media/man-at-starting-line.jpg" background-opacity="0.3"}
+## Now off you go! {background-image="/media/man-at-starting-line.jpg" background-opacity="0.3"}
+
+* Lesson 3 is for those that finish lesson 2 early (but it is not a race).
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/5-session-close.html" style="color: lightgrey;">Session close slides</a>
+</div>
+```

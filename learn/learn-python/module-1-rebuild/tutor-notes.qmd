@@ -97,6 +97,7 @@ patient_1.discharge()
 patient_2.discharge()
 ```
 
+* Note, the answers for each exercise in lesson 2 are in the subsequent exercise.
 
 ```{.python filename="lesson_2.exercise_8.py"}
 def calculate_egfr(creatinine, age, gender, race):

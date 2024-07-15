@@ -110,6 +110,6 @@ $ streamlit run exercise_2.py
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-1/3-python.html" style="color: lightgrey;">Coding environment slides</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/3-python.html" style="color: lightgrey;">Python slides</a>
 </div>
 ```

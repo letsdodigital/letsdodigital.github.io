@@ -23,7 +23,7 @@ title-slide-attributes:
 ![](/media/streamlit.png){fig-align="center"}
 
 
-## Framework / Library import
+## Module import
 
 `Direct import`
 

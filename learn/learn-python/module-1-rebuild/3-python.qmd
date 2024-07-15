@@ -43,6 +43,26 @@ Output
         "Woo Hoo!"
 
 
+## Error handling
+
+* You can raise errors with `raise`
+
+```{.python filename="raise_error.py"}
+raise_error = True
+
+if raise_error == True:
+    raise ValueError("An error has been raised!")
+```
+
+* Other types include:
+
+        TypeError
+        ZeroDivisionError
+        FileNotFoundError
+        IndexError
+        KeyError
+
+
 # Class, please sit down! {background-image="/media/cartoon-classroom.png" background-opacity="0.2"}
 
 
@@ -230,9 +250,9 @@ patient_1_vitals.display()
 * It may look strange, but the `.` (dot) in between **patient_1_vitals** and **display()** is basically just a way to get data or use a method of a class.
 * So in the instance above, you are basically saying:
 
-    "For the **patient_1_vitals** instance that I have created, please now use the **display()** method."
+    "For the **patient_1_vitals** instance that I have created, please run the **display()** method."
     
-* Remember, method is just a function inside a class.
+* Remember, a method is just a function inside a class.
 
 
 ## The final output
@@ -264,8 +284,8 @@ Output:
 ## Libraries
 
 * Libraries are amazing. They will save you a lot of time and effort.
-* Libraries are basically a collection of code that someone else (usually a group of people) has already written.
-* You can use the code in these libraries within your own code.
+* Libraries are basically a collection of organised code that someone else (usually a group of people) has already written.
+* You can use the functionality in these libraries within your own code.
 
 
 ## Safety {background-image="/media/tree-cutting.jpg" background-opacity="0.2"}
@@ -284,6 +304,49 @@ Output:
 ```{.bash}
 $ pip install streamlit
 ```
+
+## Preinstalled libraries
+
+* There are a large collection of preinstalled libraries in python, so you will not need to use `pip` to install them.
+* eg
+
+        os
+        random
+        datetime
+        math
+        json
+
+
+## Modules {background-image="/media/book-flicking-pages.jpg" background-opacity="0.2"}
+
+* Modules are collections of code, which can be part of higher organisation levels, for example libraries.
+* Hence, you can think of a module as a single book in a physical library.
+
+
+## Importing modules
+
+* People say "import that library".
+* In fact, they are `importing a module`.
+
+```{.python filename="import.py"}
+import datetime
+
+now = datetime.datetime.now()
+
+print(now)
+```
+
+## Importing modules
+
+```{.python filename="import.py"}
+import datetime
+
+now = datetime.datetime.now()
+
+print(now)
+```
+
+* You use the `dot operator` to access the sub-modules, classes, methods and attributes within the imported module.
 
 
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
@@ -330,16 +393,22 @@ $ pip install streamlit
 * Change the directory (don't type the `$`. This is just how we show this is the command line):
 
 ```{.bash}
-    $ cd programming_in_healthcare/module_1
+    $ cd programming_in_healthcare/module_1/lesson_1
 ```
 
 * And then
 
 ```{.bash}
-    $ python lesson_1.py
+    $ python exercise_1.py
 ```
 
-* Did it work? If so, open up the lesson_1.py file.
+* Did it work? If so, open up the exercise_1.py file.
 * Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
 * We will give you 20 minutes for lesson 1.
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-1/4-lets-build.html" style="color: lightgrey;">Web app slides</a>
+</div>
+```
