@@ -1,5 +1,5 @@
 ---
-title: "Python basics"
+title: "Python"
 subtitle: "Module 1"
 author: "{{< var author >}}"
 format: revealjs
@@ -10,7 +10,7 @@ title-slide-attributes:
     data-background-image: /media/python-scales.jpg
 ---
 
-## We will be learning python
+## We will be using python
 
 ![](/media/python-logo.png){fig-align="center"}
 
@@ -26,25 +26,248 @@ title-slide-attributes:
 
 * If you want a reminder of the basics, please visit the `module 0` slides at [https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html](https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html).
 
+## A function
 
-# Let's get serious
+```{.python filename="a_function.py"}
+def a_function_that_prints(something_to_print):
+    print(something_to_print)
+    return
+
+a_function_that_prints("Hello World!")
+a_function_that_prints("Woo Hoo!")
+```
+
+Output
+
+        "Hello World!"
+        "Woo Hoo!"
+
+
+# Class, please sit down! {background-image="/media/cartoon-classroom.png" background-opacity="0.2"}
+
 
 ## Classes
 
-dot operator
+* Much like functions are used to simplify reusable code, `classes` are used to organise code at a higher level.
+* Classes are used to store attributes and actions of real life objects.
+
+
+## Anatomy of a class
+
+```{.python filename="classes.py"}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+    
+    def display(self):
+        print(f"Temperature: {self.temperature} °C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+## Anatomy of a class
+
+```{.python filename="classes.py" code-line-numbers="2"}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+    
+    def display(self):
+        print(f"Temperature: {self.temperature} °C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+
+## Naming conventions
+
+* Variables, functions and methods
+    * `snake_case`
+* Classes
+    * `CamelCase`
+
+
+## Anatomy of a class
+
+```{.python filename="classes.py" code-line-numbers="11"}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+    
+    def display(self):
+        print(f"Temperature: {self.temperature} °C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+## Creating an instance of the class
+
+`patient_1_vitals = VitalSigns(37.5, 80)`
+
+* This line of code creates an instance of the `VitalSigns` class.
+* Essentially you have created a VitalSigns `object`.
+* Classes are an example of `object oriented programming`.
+
+
+## Anatomy of a class
+
+```{.python filename="classes.py" code-line-numbers="3,11"}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+    
+    def display(self):
+        print(f"Temperature: {self.temperature} °C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+* When you create an instance of a class (aka object) the `__init__` method is **automatically** called.
+* Remember, a method is just a function inside a class.
+
+
+## Creating an instance of the class
+
+```{.python filename="classes.py"}
+patient_1_vitals = VitalSigns(37.5, 80)
+```
+
+* You have passed `37.5` and `80` as arguments.
+
+
+## Anatomy of a class
+
+```{.python filename="classes.py" code-line-numbers="3,11"}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+    
+    def display(self):
+        print(f"Temperature: {self.temperature} °C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+* `37.5` is set as the `temperature` argument.
+* `80` is set as the `heart_rate` argument.
+
+
+## Anatomy of a class
+
+```{.python filename="classes.py" code-line-numbers="4,5"}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+    
+    def display(self):
+        print(f"Temperature: {self.temperature} °C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+
+## One needs to know oneself
+
+* `self` refers to the `instance` of the class that you have just created, eg **patient_1_vitals**.
+* `self` allows the object you have created to keep track of its own data.
+* `self` is ALWAYS passed as an argument to methods of a class. 
+* `self` is ALWAYS the first argument to methods in a class.
+
+
+## Anatomy of a class
+
+```{.python filename="classes.py" code-line-numbers="13"}
+
+class VitalSigns:
+    def __init__(self, temperature, heart_rate):
+        self.temperature = temperature
+        self.heart_rate = heart_rate
+    
+    def display(self):
+        print(f"Temperature: {self.temperature} °C")
+        print(f"Heart Rate: {self.heart_rate} bpm")
+
+patient_1_vitals = VitalSigns(37.5, 80)
+
+patient_1_vitals.display()
+```
+
+
+## The dot operator
+
+`patient_1_vitals.display()`
+
+* It may look strange, but the `.` (dot) in between **patient_1_vitals** and **display()** is basically just a way to get data or use a method of a class.
+* So in the instance above, you are basically saying:
+
+    "For the **patient_1_vitals** instance that I have created, please now use the **display()** method."
+    
+* Remember, method is just a function inside a class.
+
+
+# Libraries  {background-image="/media/large-library.jpg" background-opacity="0.3"}
+
 
 ## Libraries
 
-PICTURE OF A LIBRARY
+* Libraries are amazing. They will save you a lot of time and effort.
+* Libraries are basically a collection of code that someone else (usually a group of people) has already written.
+* You can use the code in these libraries within your own code.
 
 
-## Import the important stuff
+## Safety {background-image="/media/tree-cutting.jpg" background-opacity="0.2"}
+
+
+* Of course, not every library is created equally. Some libraries are written better than others.
+* This is very important to realise when you are looking to get consistent functionality from a library.
+* Hence, choosing the wrong library, which could be poorly written, could affect patient care.
+* We will talk about safety and code in future modules.
+
+
+## Installing libraries {background-image="/media/cut-apples.jpg" background-opacity="0.2"}
+
+* This is very easy, just use `pip`
+
+```{.bash}
+$ pip install streamlit
+```
 
 
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
 * Now it is your turn.
-* Time for some hands on coding in `Lesson 2`.
+* Time for some hands on coding in `Lesson 1`.
+* Once you have finished with lesson 1 (there are only two exercises), then move onto lesson 2.
 
 
 ## Computers are pedantic! {.smaller}
@@ -55,7 +278,7 @@ PICTURE OF A LIBRARY
 * Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
 
 
-## Lesson 1 {.smaller}
+## Lesson 1
 
 * Make sure you have a GitHub account.
 * Join your tutor group in the named `Zoom break out rooms`.
@@ -72,10 +295,11 @@ PICTURE OF A LIBRARY
 
 ![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
 
+## Ignore this
 
-## Ignore the extensions
+* Ignore the pop out about extensions you may get in the bottom right of Codespace
 
-* Ignore when a small window in the bottom right that pops up. Just close these.
+![](/media/python-extension.png)
 
 
 ## Get to your first lesson {.smaller}
@@ -95,4 +319,4 @@ PICTURE OF A LIBRARY
 * Did it work? If so, open up the lesson_1.py file.
 * Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 30 minutes for lesson 1.
+* We will give you 20 minutes for lesson 1.

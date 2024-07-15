@@ -314,7 +314,7 @@ Output
         Drug has been prescribed and given to the patient
 
 
-## Naming conventions {.smaller}
+## Naming conventions
 
 * There are several naming conventions in python. The convention you need to know about for this module is:
     * `snake_case` - for variables, functions and methods
@@ -549,7 +549,6 @@ $ cd lesson_2
 ```{.bash}
 $ python exercise_1.py
 ```
-
 
 
 ## Computers are pedantic!  {.smaller}

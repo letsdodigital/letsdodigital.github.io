@@ -27,22 +27,69 @@ End 10pm
 7:00 pm - Open room to students
 7:05 pm - Talk - 1-introduction.html
 7:10 pm - Talk - 2-coding-environment.html
-7:20 pm - Hands-on - lesson_1.py
-8:00 pm - Talk - 3-python-basics.html
-8:20 pm - Hands-on - lesson_2.py
-9:50 pm - Talk - 4-session-close.html
+7:15 pm - Talk - 3-python.html
+7:25 pm - Hands-on - lesson_1.py
+7:45 pm - Talk - 4-lets-build.html
+7:55 pm - Hands-on - lesson_2.py (& lesson_3.py)
+9:00 pm - Short stop to see how everyone is doing
+9:05 pm - Back to Hands-on - lesson_2.py (& lesson_3.py)
+9:50 pm - Talk - 5-session-close.html
 10:00 pm - Close
 
 ## First hour
 
-In the first hour of this course, we will cover the basics of the IDE that is Codespace (slides 1-introduction.html and 2-coding-environment.html). We cover some basic commands. Then we will get the students to try out what they have learnt in the hands-on session (lesson_1.py).
+In the first hour of this course, introduce classes and libraries.
 
 ## Second and Third Hour
 
-For the rest of the module, we will cover python basics (3-python-basics.html) and then get students to try out some basic python code (lesson_2.py).
+For the rest of the module, we will be building a basic clinical calculator in Streamlit.
 
 
 ## Common pit falls
 
 * **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of hospital/GP practice network.
 * **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.
+
+
+## Answers (rebuild)
+
+```{.python filename="lesson_1.exercise_1.py"}
+import random
+
+random_number = random.randint(1, 10)
+print(random_number)
+```
+
+
+```{.python filename="lesson_1.exercise_2.py"}
+class Patient:
+    def __init__(self, name, age, diagnosis):
+        self.name = name
+        self.age = age
+        self.diagnosis = diagnosis
+        self.is_admitted = False
+
+    def admit(self):
+        if not self.is_admitted:
+            print(
+                f"Admitting {self.name} to the hospital with diagnosis: {self.diagnosis}"
+            )
+            self.is_admitted = True
+        else:
+            print(f"{self.name} is already admitted")
+
+    def discharge(self):
+        if self.is_admitted:
+            print(f"Discharging {self.name} from the hospital")
+            self.is_admitted = False
+        else:
+            print(f"{self.name} is not currently admitted")
+
+patient_1 = Patient("John Doe", 45, "Pneumonia")
+patient_2 = Patient("Jane Smith", 30, "Appendicitis")
+
+patient_1.admit()
+patient_2.admit()
+patient_1.discharge()
+patient_2.discharge()
+```
