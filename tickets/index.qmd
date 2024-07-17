@@ -3,10 +3,6 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
-### 16th of July 2024
-
-[{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
-
 
 ### 25th July 2024
 
@@ -27,19 +23,24 @@ image: /media/tickets.png
 
 [{{< var coding-series-title >}} - Module 0](programming-in-healthcare/module-0-29-08-24.qmd)
 
+
 ### 11th September 2024
 
 [{{< var coding-series-title >}} - Module 0 - evening](programming-in-healthcare/module-0-11-09-24.qmd)
+
 
 ### 24th October 2024
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
 
+
 ### 2nd November 2024
 
 [{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
 
+
 ## Previous events
+
 
 ### July 2022
 
@@ -60,6 +61,13 @@ image: /media/tickets.png
 
 [{{< var coding-series-title >}} - Module 1](programming-in-healthcare-module-1-June-2024.qmd)
 
+
 ### 3rd July 2024
 
+
 [{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
+
+
+### 16th of July 2024
+
+[{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)

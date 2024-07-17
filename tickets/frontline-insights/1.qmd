@@ -61,41 +61,12 @@ Two 20 minute presentations followed by a Q&A.
 
 YouTube streaming, 2-3pm, on Tuesday the 16th of July.
 
-Link to be available here beforehand.
 
 ## Tickets and coffees
 
-Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
+Ticket sales are now closed.
 
-```{=html}
-<p style="color: grey; font-style: italic;">
-Click on the coffee cup or napkin to get a ticket.
-</p>
-
-<div style="display: flex; flex-direction: column; width: 100%;">
-    
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://buymeacoffee.com/letsdodigital/e/264708" style="display: flex; justify-content: center;">
-                <img src="/media/white-paper-coffee-cup.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the letsdodigital.org home page for a whole year!
-        </div>
-    </div>
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://buymeacoffee.com/letsdodigital/e/264710" style="display: flex; justify-content: center;">
-                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Napkins get a you a free ticket. Always useful for cleaning up after those small coffee spills!
-        </div>
-    </div>
-</div>
-```
+You can watch the recording [here](https://www.youtube.com/live/oeWrARubRmU).
 
 
 ## Questions
