@@ -14,8 +14,7 @@ website:
         text: "Tickets"
       - posts.qmd
       - forum.qmd
-      - href: mentoring.qmd
-        text: Mentoring
+      - services-we-offer.qmd
       - who-are-we.qmd
       
   page-footer: 
