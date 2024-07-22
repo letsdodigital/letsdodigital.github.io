@@ -8,7 +8,6 @@ categories: [blog]
 image: /media/hand-on-steamy-glass.jpg
 draft: false
 comments:
-  hypothesis: true
   giscus: 
     repo: letsdodigital/letsdodigital.github.io
 ---
