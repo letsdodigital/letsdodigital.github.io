@@ -1138,7 +1138,14 @@
     "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#streamlit-methods",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Streamlit methods",
-    "text": "Streamlit methods\n\n\nstreamlit methods.py\n\nimport streamlit as st\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Creates a text input field\n# `step` is the increment for + - buttons\nst.number_input(\"Label of input box\", step=1) \n\n# Creates a select box\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
+    "text": "Streamlit methods\n\n\nstreamlit methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Creates a text input field\n# `step` is the increment for + - buttons\nst.number_input(\"Label of input box\", step=1) \n\n# Creates a select box\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
+  },
+  {
+    "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#streamlit-methods-1",
+    "href": "learn/learn-python/module-1-rebuild/4-lets-build.html#streamlit-methods-1",
+    "title": "🎵 Do you want to build a web app? 🎵",
+    "section": "Streamlit methods",
+    "text": "Streamlit methods"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/4-lets-build.html#magicenabled-false",
@@ -1894,7 +1901,7 @@
     "href": "conferences/2024/agenda.html",
     "title": "Agenda 2024",
     "section": "",
-    "text": "2024 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n    Previous conferences\n8:30 – Welcome coffee and tea\n9:30 – Opening talk"
+    "text": "2024 Conference\n    Agenda\n    Bios\n    Posters\n    Maps\n    Organising Committee\n    Previous conferences\nThursday the 24th of October\n8:30 – Welcome coffee and tea\n9:30 – Opening talk"
   },
   {
     "objectID": "conferences/2024/agenda.html#morning-session-1---one-big-headache",
@@ -2804,7 +2811,7 @@
     "href": "learn/learn-python/module-1-rebuild/3-python.html#importing-modules",
     "title": "Python",
     "section": "Importing modules",
-    "text": "Importing modules\n\nPeople say “import that library”.\nIn fact, they are importing a module.\n\n\n\nimport.py\n\nimport datetime\n\nnow = datetime.datetime.now()\n\nprint(now)"
+    "text": "Importing modules\n\nPeople say “import that library”.\nIn fact, they are importing a module.\n\n\n\nimport.py\n\n\nimport datetime\n\nnow = datetime.datetime.now()\n\nprint(now)"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/3-python.html#importing-modules-1",
