@@ -328,7 +328,8 @@ $ pip install streamlit
 * People say "import that library".
 * In fact, they are `importing a module`.
 
-```{.python filename="import.py"}
+```{.python filename="import.py" code-line-numbers="2"}
+
 import datetime
 
 now = datetime.datetime.now()
@@ -338,7 +339,7 @@ print(now)
 
 ## Importing modules
 
-```{.python filename="import.py"}
+```{.python filename="import.py" code-line-numbers="3"}
 import datetime
 
 now = datetime.datetime.now()

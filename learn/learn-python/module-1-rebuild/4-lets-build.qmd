@@ -55,8 +55,11 @@ if __name__ == "__main__":
 
 ## Streamlit methods
 
-```{.python filename="streamlit methods.py" code-line-numbers="4,8,11"}
+```{.python filename="streamlit methods.py" code-line-numbers="4,7,11,14"}
 import streamlit as st
+
+# A title for the page
+st.title("My first web app")
 
 # Writes text to the browser
 st.write("Text to write to browser")
@@ -68,6 +71,12 @@ st.number_input("Label of input box", step=1)
 # Creates a select box
 st.selectbox("Label for selectbox", ["first choice","second choice"])
 ```
+
+
+## Streamlit methods
+
+![](/media/my-first-app.png){fig-align="center" width="max" height="max" fig-alt="Picture of first app with some basic fields"}
+
 
 ## magicEnabled = false
 

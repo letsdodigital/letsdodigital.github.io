@@ -1,5 +1,6 @@
 ---
 title: "Let's Talk Digital Conference - 2024"
+description: "Thursday 24th October"
 ---
 
 {{< include _navbar.qmd >}}

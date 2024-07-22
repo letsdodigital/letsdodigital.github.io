@@ -4,6 +4,8 @@ title: "Agenda 2024"
 
 {{< include _navbar.qmd >}}
 
+**Thursday the 24th of October**
+
 8:30 – **Welcome coffee and tea**
 
 9:30 – **Opening talk**
