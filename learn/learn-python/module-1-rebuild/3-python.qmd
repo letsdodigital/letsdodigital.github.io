@@ -26,6 +26,7 @@ title-slide-attributes:
 
 * If you want a reminder of python basics, please visit the `module 0` slides at [https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html](https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html).
 
+
 ## A function
 
 ```{.python filename="a_function.py"}
@@ -61,6 +62,22 @@ if raise_error == True:
         FileNotFoundError
         IndexError
         KeyError
+
+## Handling potential exceptions
+
+```{.python filename="exception.py"}
+try:
+    number = int("!")
+    print("Conversion successful!")
+except ValueError:
+    print("Conversion failed. Please enter a valid number.")
+else:
+    print("The number is:", number)
+```
+
+Output
+
+        Conversion failed. Please enter a valid number.
 
 
 # Class, please sit down! {background-image="/media/cartoon-classroom.png" background-opacity="0.2"}

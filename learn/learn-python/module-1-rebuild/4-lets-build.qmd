@@ -87,7 +87,7 @@ st.selectbox("Label for selectbox", ["first choice","second choice"])
 magicEnabled = false
 ```
 \
-(See .streamlit/config.toml file if interested)
+(See the *.streamlit/config.toml* file if interested)
 
 ## Stopping a running program
 
@@ -96,6 +96,9 @@ CTRL - C
 or 
 
 CMD - C
+
+* If a major error happens, streamlit will not refresh and you will need to stop your program.
+* You will also need to stop the program between exercises.
 
 ## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
 

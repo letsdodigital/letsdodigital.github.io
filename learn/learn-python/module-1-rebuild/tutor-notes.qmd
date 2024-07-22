@@ -155,7 +155,7 @@ def get_ckd_stage(egfr):
     """
     if egfr > 90:
         return "1"
-    elif 60 <= egfr <= 89:
+    elif 60 <= egfr <= 90:
         return "2"
     elif 45 <= egfr <= 59:
         return "3a"
