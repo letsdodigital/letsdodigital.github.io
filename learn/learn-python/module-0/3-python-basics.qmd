@@ -534,6 +534,13 @@ Syntax error:
 ![](/media/squiggly-lines-vscode.png){.bordered fig-align="center"}
 
 
+## How to write
+
+* It might seem daunting to write code, and you might be wondering where to start.
+* The best way to write code is to just write it. 
+* Think a little about what you are going to write, but then write down a line of code and run the code. If it work, great! If it did not work, great too! Either way you have learnt something.
+
+
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
 * Now it is your turn.

@@ -39,8 +39,8 @@ a_function_that_prints("Woo Hoo!")
 
 Output
 
-        "Hello World!"
-        "Woo Hoo!"
+        Hello World!
+        Woo Hoo!
 
 
 ## Error handling
@@ -256,7 +256,7 @@ patient_1_vitals.display()
 
 
 ## The final output
-```{.python}
+```{.python code-line-numbers="8,9"}
 
 class VitalSigns:
     def __init__(self, temperature, heart_rate):
@@ -349,18 +349,23 @@ print(now)
 * You use the `dot operator` to access the sub-modules, classes, methods and attributes within the imported module.
 
 
+## How to write
+
+* It might seem daunting to write code, and you might be wondering where to start.
+* The best way to write code is to just write it. 
+* Think a little about what you are going to write, but then write down a line of code and run the code. If it work, great! If it did not work, great too! Either way you have learnt something.
+
+
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
 * Now it is your turn.
 * Time for some hands on coding in `Lesson 1`.
-* Once you have finished with lesson 1 (there are only two exercises), then move onto lesson 2.
 
 
 ## Computers are pedantic! {.smaller}
 
 * **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
 * Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
-* Now go have some fun in your tutor groups with hands-on coding and debugging.
 * Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
 
 

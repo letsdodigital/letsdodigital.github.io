@@ -14,10 +14,26 @@ Mark is the main curator of the Let's Do Digital Website and lead for the Let's 
 # Mentors and tutors
 
 
-</br>
-</br>
+\
+\
 
-![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+![](/media/basil-bekdash.png){height=300px fig-align="center" fig-alt="Profile picture of Basil Bekdash"}
+
+### Basil Bekdash
+
+Without portfolio but always chasing the data and trying to make sense of chaos and/or complexity.
+
+A paediatric surgeon by background but very happy to join anyone at the interfaces or outside domains, looking for commonalities obvious and otherwise.
+
+CSO and a clinical lead for a multi-sector (acute, mental health, community, transport) specialist provider for children and young people for ~3yrs as of now and general champion of the littlest guys which we all once used to be. “Children may not be little adults but adults are big children” being a principle we could follow quite broadly in data and informatics terms but probably more broadly in health and care.
+
+Technically literate but not especially adept though that’s where the team work comes in.
+
+---
+
+\
+
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Blank profile picture"}
 
 ### Rhidian Bramley
 
@@ -35,7 +51,7 @@ Paediatric registrar.
 
 \
 
-![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Blank profile picture"}
 
 ### Haroon Chughtai
 
@@ -142,7 +158,7 @@ Freddie is interested in improving clinician knowledge about digital technologie
 
 \
 
-![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Blank profile picture"}
 
 ### Harriet Sands
 
@@ -162,7 +178,7 @@ Some of her career highlights include identifying pre-cursors to frequent ambula
 
 \
 
-![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Blank profile picture"}
 
 ### Mathew Vithayathil 
 
@@ -170,7 +186,7 @@ Some of her career highlights include identifying pre-cursors to frequent ambula
 
 \
 
-![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Profile picture of ..."}
+![](/media/blank-face.png){height=300px fig-align="center" fig-alt="Blank profile picture"}
 
 ### Nik Walne
 
