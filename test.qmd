@@ -1,0 +1,19 @@
+---
+title: "test"
+---
+
+<script src="https://giscus.app/client.js"
+        data-repo="letsdodigital/letsdodigital.github.io"
+        data-repo-id="R_kgDOLqtP6Q"
+        data-category="General"
+        data-category-id="DIC_kwDOLqtP6c4ChErA"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="bottom"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
