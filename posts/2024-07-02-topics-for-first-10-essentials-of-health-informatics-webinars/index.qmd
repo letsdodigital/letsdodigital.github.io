@@ -8,7 +8,6 @@ categories: [blog]
 image: /media/green-cross-in-wire-jungle.jpg
 draft: false
 comments:
-  hypothesis: true
   giscus: 
     repo: letsdodigital/letsdodigital.github.io
 ---

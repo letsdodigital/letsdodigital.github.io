@@ -8,7 +8,6 @@ categories: [update]
 image: /media/typewriter_and_girl.jpg
 draft: false
 comments:
-  hypothesis: true
   giscus: 
     repo: letsdodigital/letsdodigital.github.io
 ---

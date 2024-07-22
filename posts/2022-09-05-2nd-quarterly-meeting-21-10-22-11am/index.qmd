@@ -8,7 +8,6 @@ categories: [Webinar] # self-defined categories
 image: /media/ldd-informatics-hub.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  hypothesis: true
   giscus: 
     repo: letsdodigital/letsdodigital.github.io
 ---

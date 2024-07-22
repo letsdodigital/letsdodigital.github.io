@@ -8,7 +8,6 @@ categories: [Education] # self-defined categories
 image: /media/graduation-cap.jpeg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  hypothesis: true
   giscus: 
     repo: letsdodigital/letsdodigital.github.io
 ---
