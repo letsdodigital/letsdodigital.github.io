@@ -38,12 +38,13 @@ title-slide-attributes:
 ## We are going to cheat
 
 * As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprabase`) for you to connect to.
-* The "brains" and frontend will be managed by the `streamlit` server that you will build.
+* The "brains" and frontend delivery will be managed by the `streamlit` server that you will be building.
 * A server is basically a computer program that provides you with a web page to interact with.
 
 
 ## You need to have VS code installed
 
+* Hopefully you have already installed the `VS Code IDE` on your own personal machines. 
 * You have 10 minutes to try and install VS code now. If no luck, then we will get you to use `Codespace`.
 
 
@@ -51,6 +52,16 @@ title-slide-attributes:
 
 * Python
 * Black
+
+
+## <span class="hide-title">Python extension</span>
+
+![](/media/python-extension-vs-code.png){.centre-full-image}
+
+
+## <span class="hide-title">Black formatter extension</span>
+
+![](/media/black-formatter-vs-code.png){.centre-full-image}
 
 
 ## What is a library

@@ -1,0 +1,71 @@
+---
+title: "Tutor notes - module 2"
+---
+
+## Overview
+
+This is the third course for the Programming in Healthcare series. It is for students that have some moderate experience with coding. Hopefully students would have completed the introductory modules 0 and 1.
+
+Hopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teachings they need. As you may know, there is a high attrition rate for people who are learning to code.
+
+We will have a **set up session** prior to running the module where we will get **VS Code installed** onto the student's computers. Worse case scenario, where the student cannot install, or does not get around to installing VS Code, they can use **Codespace** instead.
+
+Code for the coding sessions can be found [here](https://github.com/letsdodigital/coding-hands-on).
+
+
+## Session info for students
+
+We will be using hackMD to store information for the session (eg tutor group allocation).
+
+
+## Timings
+**Needs updating!**
+Example timings for evening session.
+
+Start 7pm
+End 10pm
+
+6:30 pm - Open zoom for tutors and set up breakout rooms. Test all functionality.
+
+7:00 pm - Open room to students
+
+7:05 pm - Talk - 1-introduction.html
+
+7:10 pm - Talk - 2-coding-environment.html
+
+7:15 pm - Talk - 3-python.html
+
+7:25 pm - Hands-on - lesson_1.py
+
+7:45 pm - Talk - 4-lets-build.html
+
+7:55 pm - Hands-on - lesson_2.py (& lesson_3.py)
+
+9:00 pm - Talk - Short stop to see how everyone is doing
+
+9:05 pm - Hands-on - back to lesson_2.py (& lesson_3.py)
+
+9:50 pm - Talk - 5-session-close.html
+
+10:00 pm - Close
+
+
+## Lesson 1
+
+We will be learning about process mapping and have some hands on work for the students in their tutoring groups.
+
+
+## Lesson 2
+
+For the rest of the module, we will be building a digital consent form.
+
+
+## Common pit falls
+
+* **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of the hospital/GP practice network.
+* **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.
+
+
+## Answers
+
+TBC

@@ -13,3 +13,25 @@ After learning about the basics about coding and the programming language Python
   <li><a href="4-pit-stop.html" target="_blank">4 - Pit stop</a></li>
   <li><a href="5-session-close.html" target="_blank">5 - Session close</a></li>
 </ul>
+
+
+## Get coding
+
+The code for this course can be found below
+<ul>
+  <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 2 code</a></li>
+</ul>
+
+
+## Tutor notes
+
+Notes for tutors can be found below:
+
+<ul>
+  <li><a href="tutor-notes.html" target="_blank">Tutor notes</a></li>
+</ul>
+
+
+## Feedback
+
+A short feedback survey will be available here at the end of the module.

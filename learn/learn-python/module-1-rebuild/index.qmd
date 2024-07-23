@@ -36,5 +36,3 @@ Notes for tutors can be found below:
 ## Feedback
 
 A short feedback survey will be available here at the end of the module.
-
-<!--<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="2"></script>-->
