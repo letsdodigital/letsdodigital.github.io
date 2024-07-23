@@ -51,7 +51,7 @@ title-slide-attributes:
 ## We need some extensions
 
 * Python
-* Black
+* Black formatter
 
 
 ## <span class="hide-title">Python extension</span>

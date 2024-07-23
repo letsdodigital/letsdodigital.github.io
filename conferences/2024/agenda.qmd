@@ -54,7 +54,7 @@ title: "Agenda 2024"
 </div>
 ```
 
-9:50 – **Shared care record in BOB**  
+9:50 – **Better than nothing - a case study of limitations developing a resource sharing hub for primary and secondary care**  
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -62,7 +62,7 @@ title: "Agenda 2024"
             <img src="/media/nadia-kuftinoff-circle.png" alt="picture of Nadia Kuftinoff" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & West Berkshire ICB
+            Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & Berkshire West ICB
         </div>
     </div>
 </div>
