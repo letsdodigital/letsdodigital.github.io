@@ -1446,21 +1446,14 @@
     "href": "learn/learn-python/module-2/1-introduction.html#what-are-we-going-to-cover",
     "title": "Module 2 - Let’s take things to the next level",
     "section": "What are we going to cover?",
-    "text": "What are we going to cover?\n\nIn this 3 hour session, we are going to cover:\n\nProcess mapping (just a quick session on this)\nBuilding a digital consent app (browser based)"
+    "text": "What are we going to cover?\n\nIn this 3 hour session, we are going to cover:\n\nProcess mapping\nBuilding a digital consent app"
   },
   {
     "objectID": "learn/learn-python/module-2/1-introduction.html#lots-to-cover",
     "href": "learn/learn-python/module-2/1-introduction.html#lots-to-cover",
     "title": "Module 2 - Let’s take things to the next level",
     "section": "Lots to cover",
-    "text": "Lots to cover\n\nSo let’s get started."
-  },
-  {
-    "objectID": "learn/learn-python/module-2/3-process-mapping-conclusion.html#a-possible-process-map-for-current-paper-based-consent-forms",
-    "href": "learn/learn-python/module-2/3-process-mapping-conclusion.html#a-possible-process-map-for-current-paper-based-consent-forms",
-    "title": "Process Mapping Conclusion",
-    "section": "A possible process map for current paper based consent forms",
-    "text": "A possible process map for current paper based consent forms"
+    "text": "Lots to cover\n\nSo let’s get started.\n\n\n    Process mapping"
   },
   {
     "objectID": "learn/learn-python/module-2/3-process-mapping-conclusion.html#current-process",
@@ -1468,13 +1461,6 @@
     "title": "Process Mapping Conclusion",
     "section": "Current process",
     "text": "Current process"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/3-process-mapping-conclusion.html#a-possible-process-map-for-an-optimised-digital-consent-form",
-    "href": "learn/learn-python/module-2/3-process-mapping-conclusion.html#a-possible-process-map-for-an-optimised-digital-consent-form",
-    "title": "Process Mapping Conclusion",
-    "section": "A possible process map for an optimised digital consent form",
-    "text": "A possible process map for an optimised digital consent form"
   },
   {
     "objectID": "learn/learn-python/module-2/3-process-mapping-conclusion.html#a-new",
@@ -1495,7 +1481,7 @@
     "href": "learn/learn-python/module-2/3-process-mapping-conclusion.html#we-can-spend-a-long-time",
     "title": "Process Mapping Conclusion",
     "section": "We can spend a long time",
-    "text": "We can spend a long time\n\nWe could spend a long time talking about process mapping, and finding the best way to undertake something.\nWe could do a separate course on this if there is interest.\nHowever, let’s get building…"
+    "text": "We can spend a long time\n\nWe could spend a long time talking about process mapping, and finding the best way to undertake something.\nWe could do a separate course on this if there is interest.\nHowever, let’s get building…\n\n\n    Digital consent form"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#eager-to-get-started",
@@ -1957,7 +1943,7 @@
     "href": "conferences/2024/agenda.html#afternoon-session-2---for-the-little-ones",
     "title": "Agenda 2024",
     "section": "15:20 – Afternoon session 2 - For the little ones",
-    "text": "15:20 – Afternoon session 2 - For the little ones\n15:20 – Chair\n\n    \n        \n            \n        \n        \n            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust\n        \n    \n\n15:25 – Poster awards\n15:35 – MedEd Connect: Transforming Medical Education through Digital Technology\n\n    \n        \n            \n        \n        \n            Sobath Premaratne - Vascular and Endovascular Surgeon and part-time renal transplant surgeon in London. Ex requirements analyst and software developer\n        \n    \n\n15:45 – Digital Growth Charts\n\n    \n        \n            \n        \n        \n            Simon Chapman - Paediatric Consultant, King's College London NHS Foundation Trust and Clinician-who-codes\n        \n    \n\n15:55 – Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications\n\n    \n        \n            \n        \n        \n            Stef Piatek - Technical Programme Director, Clinical Research Informatics Unit, University College London Hospitals NHS Foundation Trust\n        \n    \n\n16:05 - Q&A\n16:30 – close"
+    "text": "15:20 – Afternoon session 2 - For the little ones\n15:20 – Chair\n\n    \n        \n            \n        \n        \n            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust\n        \n    \n\n15:25 – Poster awards\n15:35 – MedEd Connect: Transforming Medical Education through Digital Technology\n\n    \n        \n            \n        \n        \n            Sobath Premaratne - Vascular and Endovascular Surgeon and part-time renal transplant surgeon in London. Ex requirements analyst and software developer\n        \n    \n\n15:45 – Digital Growth Charts\n\n    \n        \n            \n        \n        \n            Simon Chapman - Paediatric Consultant, King's College London NHS Foundation Trust and Clinician-who-codes\n        \n    \n\n15:55 – Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications\n\n    \n        \n            \n        \n        \n            Stef Piatek - Technical Programme Director, Clinical Research Informatics Unit, University College London Hospitals NHS Foundation Trust and RSE at University College London\n        \n    \n\n16:05 - Q&A\n16:30 – close"
   },
   {
     "objectID": "conferences/2024/maps.html",
@@ -2195,14 +2181,14 @@
     "href": "learn/learn-python/module-2/2-process-mapping.html#what-is-process-mapping",
     "title": "Process mapping - lesson 1",
     "section": "What is process mapping?",
-    "text": "What is process mapping?\n\nCan be undertaking in very elaborate and complicated fashion.\nHowever, at its core, you draw a flow chart that describes a process, either current, or a new imagined one."
+    "text": "What is process mapping?\n\nCan be undertaking in a very elaborate and complicated fashion.\nHowever, at its core, you draw a flow chart that describes a process, either current, or a new one imagined."
   },
   {
     "objectID": "learn/learn-python/module-2/2-process-mapping.html#why-do-process-mapping",
     "href": "learn/learn-python/module-2/2-process-mapping.html#why-do-process-mapping",
     "title": "Process mapping - lesson 1",
     "section": "Why do process mapping?",
-    "text": "Why do process mapping?\n\nWe may be asked to process a lot when we are transforming processes and a lot of the time we do not see them used to good affect.\nHowever, if you use it prior to jumping into a project, it is a good tool to think about the problem, help explain the current issues and your view on a new process pathway, and also it gives you a step by step guide to building your new digital app."
+    "text": "Why do process mapping?\n\nCan be used to excess and badly!\nBut, it is a good tool to help think about the current problem and to help explain the current issues.\nCan help you form your new process. It can also give you a step by step guide to building your new digital implementation.\nHowever, beware, digitising a bad process does not suddenly make a process better!"
   },
   {
     "objectID": "learn/learn-python/module-2/2-process-mapping.html#where-do-process-mapping",
@@ -2223,7 +2209,7 @@
     "href": "learn/learn-python/module-2/2-process-mapping.html#specifically",
     "title": "Process mapping - lesson 1",
     "section": "Specifically",
-    "text": "Specifically\n\nChoose one person in your group to create your process map.\nSpend 10 minutes in your group to create a process map of current paper based consent forms.\nThen spend another 10 minutes to think of the best digital consent form you would want and create a process map to describe how it would work.\nWe will then reconvene at half past and talk through your results."
+    "text": "Specifically\n\nChoose one person in your group to create your process map.\nSpend 10 minutes in your group to create a process map of current paper based consent forms.\nThen spend another 10 minutes to think of the best digital consent form you would want and create a process map to describe how it would work.\nWe will then reconvene at half past and talk through your results.\n\n\n    Process mapping conclusion"
   },
   {
     "objectID": "learn/learn-python/module-2/index.html",
