@@ -12,16 +12,18 @@ title-slide-attributes:
 
 ## What is process mapping?
 
-* Can be undertaking in very elaborate and complicated fashion.
-* However, at its core, you draw a flow chart that describes a process, either current, or a new imagined one.
+* Can be undertaking in a very elaborate and complicated fashion.
+* However, at its core, you draw a flow chart that describes a process, either current, or a new one imagined.
 
 ![](/media/toothbrush-process-map.png){fig-align="center" width="max" height="max"}
 
 
 ## Why do process mapping?
 
-* We may be asked to process a lot when we are transforming processes and a lot of the time we do not see them used to good affect.
-* However, if you use it prior to jumping into a project, it is a good tool to think about the problem, help explain the current issues and your view on a new process pathway, and also it gives you a step by step guide to building your new digital app.
+* Can be used to excess and badly!
+* But, it is a good tool to help think about the current problem and to help explain the current issues. 
+* Can help you form your new process. It can also give you a step by step guide to building your new digital implementation.
+* However, beware, `digitising a bad process does not suddenly make a process better!`
 
 
 ## Where do process mapping? {background-image="/media/fibre-optics.jpg" background-opacity="0.3"}
@@ -42,3 +44,9 @@ title-slide-attributes:
 * Spend 10 minutes in your group to create a process map of current paper based consent forms.
 * Then spend another 10 minutes to think of the best digital consent form you would want and create a process map to describe how it would work.
 * We will then reconvene at half past and talk through your results.
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-2/3-process-mapping-conclusion.html" style="color: lightgrey;">Process mapping conclusion</a>
+</div>
+```

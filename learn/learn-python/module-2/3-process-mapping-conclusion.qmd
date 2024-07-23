@@ -12,13 +12,13 @@ title-slide-attributes:
 
 # So what did everyone find?
 
-## A possible process map for current paper based consent forms
+# A possible process map for CURRENT paper based consent forms
 
 ## <span class="hide-title">Current process</span>
 
 ![](/media/paper-based-process-map.png){.centre-full-image}
 
-## A possible process map for an optimised digital consent form
+# A possible process map for a NEW optimised digital consent form
 
 ## <span class="hide-title">A new</span>
 
@@ -38,3 +38,9 @@ title-slide-attributes:
 * We could spend a long time talking about process mapping, and finding the best way to undertake something.
 * We could do a separate course on this if there is interest.
 * However, let's get building...
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-2/4-digital-consent-form.html" style="color: lightgrey;">Digital consent form</a>
+</div>
+```
