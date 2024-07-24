@@ -16,13 +16,13 @@ title-slide-attributes:
 
 ## <span class="hide-title">Current process</span>
 
-![](/media/paper-based-process-map.png){.centre-full-image}
+![](/media/paper-based-process-map.png){.centre-full-image fig-alt="A process map of current processes for consent"}
 
 # A possible process map for a NEW optimised digital consent form
 
 ## <span class="hide-title">A new</span>
 
-![](/media/new-digital-process-map.png){.centre-full-image}
+![](/media/new-digital-process-map.png){.centre-full-image fig-alt="A process map of a new and imagined processes for digital consent"}
 
 # Remember
 

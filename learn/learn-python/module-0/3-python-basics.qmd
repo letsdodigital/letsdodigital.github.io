@@ -81,7 +81,7 @@ title-slide-attributes:
 
 ## We will be learning python
 
-![](/media/python-logo.png){fig-align="center"}
+![](/media/python-logo.png){fig-align="center" fig-alt="Python logo"}
 
 ## The Python programming language{background-image="/media/python-logo.png" background-opacity="0.3"}
 
@@ -531,7 +531,7 @@ Syntax error:
 
 * Hint: Codespace will underline with `squiggly lines` to highlight errors.
 
-![](/media/squiggly-lines-vscode.png){.bordered fig-align="center"}
+![](/media/squiggly-lines-vscode.png){.bordered fig-align="center" fig-alt="Squiggly lines under errors in python code"}
 
 
 ## How to write

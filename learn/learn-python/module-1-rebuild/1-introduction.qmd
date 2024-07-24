@@ -28,14 +28,14 @@ title-slide-attributes:
 
 * Here we will get you doing some slightly more advanced python topics.
 
-![](/media/python-logo.png){ fig-align="center" width="max" height="max"}
+![](/media/python-logo.png){ fig-align="center" width="max" height="max" fig-alt="Python logo"}
 
 
 ## 2nd section - Build an app
 
 * In this section we will be building a clinical calculator app.
 
-![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
+![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max" fig-alt="Webpage of eGFR app"}
 
 ## Tutor groups {background-image="/media/teacher-and-blackboard.jpg" background-opacity="0.6"}
 

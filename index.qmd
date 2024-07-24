@@ -50,6 +50,7 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 18/04/24 - Our first **{{< var coding-series-title >}} course** is now open to registration. Please find further details about the course and registration [here](/tickets/programming-in-healthcare-module-1-June-2024.qmd).
 
+
 ## What the Let's Do Digital Community is saying
 
 ```{=html}
@@ -75,6 +76,10 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
     </div>
 </div>
 ```
+
+## Working in collaboration with
+
+![](/media/university-of-bristol.svg){width=200 fig-alt="University of Bristol logo"}
 
 ## Supporters of Let's Do Digital
 

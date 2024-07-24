@@ -15,7 +15,7 @@ title-slide-attributes:
 * Can be undertaking in a very elaborate and complicated fashion.
 * However, at its core, you draw a flow chart that describes a process, either current, or a new one imagined.
 
-![](/media/toothbrush-process-map.png){fig-align="center" width="max" height="max"}
+![](/media/toothbrush-process-map.png){fig-align="center" width="max" height="max" fig-alt="Process map of how to use a tooth brush"}
 
 
 ## Why do process mapping?

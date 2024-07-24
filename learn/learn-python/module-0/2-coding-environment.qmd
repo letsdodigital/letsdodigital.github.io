@@ -21,27 +21,27 @@ title-slide-attributes:
 
 ## <span class="hide-title">Codespace light theme</span>
 
-![](/media/codespace-light-theme-1.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-light-theme-1.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace light theme screen shot"}
 
 
 ## <span class="hide-title">Codespace dark theme</span>
 
-![](/media/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace dark theme screen shot"}
 
 
 ## <span class="hide-title">Codespace layout</span>
 
-![](/media/codespace-description.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-description.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout"}
 
 
 ## <span class="hide-title">Codespace what / where?</span>
 
-![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout with areas highlighted"}
 
 
 # Useful terminal (shell) commands
 
-![](/media/the-shell.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/the-shell.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of the command line"}
 
 ## Commands {background-image="/media/command-button.jpg" background-opacity="0.2"}
 
@@ -69,7 +69,7 @@ Pro tip:
 
 * The `ls` command.
 
-![](/media/command-ls.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-ls.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of running 'ls' in the command line"}
 
 
 ## Change directory command
@@ -77,13 +77,13 @@ Pro tip:
 * The `cd` command.
 * `cd ..` takes you back to the previous (parent) folder.
 
-![](/media/command-cd.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-cd.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of running 'cd' in the command line"}
 
 ## Where am I?
 
 * `pwd` is the `print working directory` command.
 
-![](/media/command-pwd.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-pwd.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of running 'pwd' in the command line"}
 
 
 # Time to try it out for yourself{background-image="/media/dive-into-lake.jpg" background-opacity="0.2"}
@@ -91,7 +91,7 @@ Pro tip:
 
 ## <span class="hide-title">Codespace view</span>
 
-![](/media/lesson-1-screenshot.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/lesson-1-screenshot.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of Codespace"}
 
 ## Lesson 1 {.smaller}
 
@@ -101,21 +101,21 @@ Pro tip:
 * Click on the `<> Code` button and then the `Codespaces` tab.
 * Click on `Create codespace on main`
 
+## <span class="hide-title">Break out room button</span>
+
+![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of the breakout room button in Zoom"}
+
+
 ## <span class="hide-title">Codespace load</span>
 
-![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max"}
-
-
-## <span class="hide-title">Codespace load</span>
-
-![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of Github website with arrows showing how to start up Codespace"}
 
 
 ## Ignore this
 
 * Ignore the pop out about extensions you may get in the bottom right of Codespace
 
-![](/media/python-extension.png)
+![](/media/python-extension.png fig-alt="Screenshot of python extensions pop out")
 
 
 ## Get to your first lesson {.smaller}

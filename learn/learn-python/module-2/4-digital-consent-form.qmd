@@ -13,13 +13,13 @@ title-slide-attributes:
 # Lesson 2 - Let's build a digital consent app
 
 
-## Eager to get started?
+## Eager to get started? {background-image="/media/lady-a-start-line.jpg" background-opacity="0.2"}
 
 * Don't worry, we will get you coding soon.
-* However, it is probably a good idea to make sure you are familiar with all of the coding concepts you need to build a `digital consent form`.
+* However, it is probably a good idea to make sure you are familiar with all of the concepts you need to build a `digital consent form`.
 
 
-## So what are we going to build exactly?
+## So what are we going to build exactly? {background-image="/media/house-blue-print.jpg" background-opacity="0.4"}
 
 * A web based digital healthcare app.
 * This needs both a frontend and a backend.
@@ -27,15 +27,15 @@ title-slide-attributes:
     * Backend - the brains (in most cases) and data storage of your app.
 
 
-## What is a web browser?
+## What is a web browser? {background-image="/media/droplets-on-web.jpg" background-opacity="0.4"}
 
 * You highly likely use these every day (Explorer, Chrome, Safari).
 * A web browser is a software program that allows a user to locate, access, and display web pages.
 * The main languages used in creating the raw webpage are HTML and javascript. 
-* You can use frameworks in other languages to then create these "raw" webpages. In our case a python scripting language framework called `streamlit`.
+* You can use frameworks in other languages to then create these "raw" webpages. In our case a python framework called `streamlit`.
 
 
-## We are going to cheat
+## We are going to cheat {background-image="/media/server-room.jpg" background-opacity="0.3"}
 
 * As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprabase`) for you to connect to.
 * The "brains" and frontend delivery will be managed by the `streamlit` server that you will be building.
@@ -45,7 +45,13 @@ title-slide-attributes:
 ## You need to have VS code installed
 
 * Hopefully you have already installed the `VS Code IDE` on your own personal machines. 
-* You have 10 minutes to try and install VS code now. If no luck, then we will get you to use `Codespace`.
+* You have 10 minutes to try and install VS code now. If no luck, then we will get you to use the `Codespace IDE`.
+
+
+## We need some extensions
+
+* AKA Plugins.
+* Add functionality and features, much like your favourite app store.
 
 
 ## We need some extensions
@@ -56,32 +62,34 @@ title-slide-attributes:
 
 ## <span class="hide-title">Python extension</span>
 
-![](/media/python-extension-vs-code.png){.centre-full-image}
+![](/media/python-extension-vs-code.png){.centre-full-image fig-alt="screen shot of the VS Code Python extension"}
 
 
 ## <span class="hide-title">Black formatter extension</span>
 
-![](/media/black-formatter-vs-code.png){.centre-full-image}
+![](/media/black-formatter-vs-code.png){.centre-full-image fig-alt="Screen shot of the VS Code Black formatter"}
 
 
 ## What is a library
 
 * You will be using different libraries in this build.
 * A library is basically a collection of code that provides set functionality.
-* You need to `import` libraries to use them.
+* You need to first `install` libraries and then `import` to use them.
+* See [module 1](https://letsdodigital.org/learn/learn-python/module-1/) for an overview.
 
 
 ## What is an API
 
-* An application process interface (API) is a means for computer programs, on the same computer or over networks or even the internet to communicate together.
+* An application process interface (API) is a means for computer programs to communicate with each other.
+* These communicating programs can be on the same computer, over networks or even the internet.
 
 
 ## Data in a database
 
-* Much like a spreadsheet, data is stored in a database in `tables`
-* Each row in the database is called a `record`
-* You `query` the database to get data from it
-* Queries in streamlit get all data. Really should only get the data you need
+* Much like a spreadsheet, data is stored in a database in `tables`.
+* Each row in the database is called a `record`.
+* You `query` the database to get data from it.
+* Queries in streamlit return all data from a table in a database. 
 
 
 ## Python related material 1
@@ -92,6 +100,7 @@ title-slide-attributes:
 * Return nothing = `return`
 * global variables
 
+
 ## Python related material 2
 
 * Anatomy of the for loop. Loop variable. The use of `else` with for loops. `breaks`
@@ -99,11 +108,13 @@ title-slide-attributes:
 * `all` statement
 * Initialising variables
 
+
 ## Have the slides on hand
 
 * Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
 * You will likely need them as you build your digital consent form.
 * Recommend doing small changes to code saving, and checking what happens in the browser
+
 
 ## Ask
 
@@ -111,12 +122,13 @@ title-slide-attributes:
 
 `There is no such thing as a stupid question, only a question left unanswered`
 
+
 ## Streamlit
 
 * As said, we will be using a python web app framework called `Streamlit` for the frontend.
 * Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
 
-![](/media/streamlit.png){fig-align="center"}
+![](/media/streamlit.png){fig-align="center" fig-alt="Streamlit icon"}
 
 
 ## Module import
@@ -163,9 +175,11 @@ st.selectbox("Label for selectbox", ["first choice","second choice"])
 st.error("I am an error message")
 ```
 
+
 ## Field labels, keys, on_change, lists for selectbox
 
 * Field labels, keys, on_change, lists for selectbox
+
 
 ## magicEnabled = false
 
@@ -191,9 +205,7 @@ or
 CMD - C
 
 
-## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
 
-* You are building an educational program. This is NOT to be used with real patients!
 
 
 ## Nuances of streamlit
@@ -218,6 +230,7 @@ CMD - C
 $ cd programming_in_health_care/module_2/lesson_2
 ```
 
+
 ## Install libraries
 
 ```{.bash}
@@ -229,6 +242,13 @@ and
 ```{.bash}
 $ pip install st_supabase_connection
 ```
+
+
+## Secrets
+
+* To use the `Supabase` cloud database, you need a URL (Uniform Resource Locator), eg website address and a secret `key`.
+* This will then give you access to the the Supabase via its API.
+
 
 ## And then run
 
@@ -287,11 +307,9 @@ $ streamlit run exercise_2.py
 ```
 
 
-# Pit stop
+## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
 
-* Half way through
-* How is it going? 
-* What are people getting stuck on?
+* You are building an educational program. This is NOT to be used with real patients!
 
 
 # Now go!

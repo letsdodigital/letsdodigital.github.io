@@ -21,12 +21,12 @@ title-slide-attributes:
 
 ## <span class="hide-title">Codespace what / where?</span>
 
-![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout with highlighted areas"}
 
 
 # Useful terminal (shell) commands
 
-![](/media/the-shell.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/the-shell.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of terminal in Codespace"}
 
 
 ## Using the terminal {.smaller}
@@ -84,7 +84,7 @@ $ streamlit run exercise_2.py
 
 * The `ls` command.
 
-![](/media/command-ls.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-ls.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of 'ls' being run in terminal"}
 
 
 ## Change directory command
@@ -92,13 +92,13 @@ $ streamlit run exercise_2.py
 * The `cd` command.
 * `cd ..` takes you back to the previous (parent) folder.
 
-![](/media/command-cd.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-cd.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of 'cd' being run in the terminal"}
 
 ## Where am I?
 
 * `pwd` is the `print working directory` command.
 
-![](/media/command-pwd.png){.bordered fig-align="center" width="max" height="max"}
+![](/media/command-pwd.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of 'pwd' being run in the terminal"}
 
 
 ## Review

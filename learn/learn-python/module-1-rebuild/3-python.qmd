@@ -12,7 +12,7 @@ title-slide-attributes:
 
 ## We will be using Python
 
-![](/media/python-logo.png){fig-align="center"}
+![](/media/python-logo.png){fig-align="center" fig-alt="Python logo"}
 
 ## The Python programming language {background-image="/media/python-logo.png" background-opacity="0.3"}
 
@@ -395,20 +395,20 @@ print(now)
 * Click on the `<> Code` button and then the `Codespaces` tab.
 * Click on `Create codespace on main`
 
+## <span class="hide-title">Break out room button</span>
+
+![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of break out room button in Zoom"}
+
+
 ## <span class="hide-title">Codespace load</span>
 
-![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max"}
-
-
-## <span class="hide-title">Codespace load</span>
-
-![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max"}
+![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of github webpage with arrows showing how to start Codespace"}
 
 ## Ignore this
 
 * Ignore the pop out about extensions you may get in the bottom right of Codespace
 
-![](/media/python-extension.png)
+![](/media/python-extension.png fig-alt="Screen shot of python extension pop out")
 
 
 ## Get to your first lesson {.smaller}

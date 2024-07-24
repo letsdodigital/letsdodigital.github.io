@@ -10,9 +10,11 @@ title-slide-attributes:
     data-background-opacity: "0.4"
 ---
 
-# Something
+# Pit stop
 
-Something!
+* Half way through
+* How is it going? 
+* What are people getting stuck on?
 
 ```{=html}
 <div class="bottom-right">

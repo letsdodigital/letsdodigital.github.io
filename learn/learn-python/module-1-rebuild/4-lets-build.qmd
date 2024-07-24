@@ -13,7 +13,7 @@ title-slide-attributes:
 
 ## What to build?
 
-![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
+![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max" fig-alt="Webpage of eGFR app"}
 
 eGFR = estimated glomerular filtration rate
 
@@ -23,7 +23,7 @@ eGFR = estimated glomerular filtration rate
 * We will be using a python web app framework called `Streamlit`.
 * Frameworks are a higher level of organisation of code above libraries.
 
-![](/media/streamlit.png){fig-align="center"}
+![](/media/streamlit.png){fig-align="center" fig-alt="Streamlit icon"}
 
 
 ## Module import
