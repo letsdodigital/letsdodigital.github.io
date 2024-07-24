@@ -21,6 +21,13 @@
     "text": "What the Let’s Do Digital Community is saying\n\n    \n        \n            \n        \n        \n            Really great chance to introduce myself to a new group of like-minded people, as I start out in a new direction in my career.\n        \n    \n\n\n\n    \n        \n            \n        \n        \n            The openness of the people talking about real problems and trying to address them."
   },
   {
+    "objectID": "index.html#working-in-collaboration-with",
+    "href": "index.html#working-in-collaboration-with",
+    "title": "Let’s Do Digital",
+    "section": "Working in collaboration with",
+    "text": "Working in collaboration with"
+  },
+  {
     "objectID": "index.html#supporters-of-lets-do-digital",
     "href": "index.html#supporters-of-lets-do-digital",
     "title": "Let’s Do Digital",
@@ -1999,7 +2006,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#eager-to-get-started",
     "title": "Building a digital consent form",
     "section": "Eager to get started?",
-    "text": "Eager to get started?\n\nDon’t worry, we will get you coding soon.\nHowever, it is probably a good idea to make sure you are familiar with all of the coding concepts you need to build a digital consent form."
+    "text": "Eager to get started?\n\nDon’t worry, we will get you coding soon.\nHowever, it is probably a good idea to make sure you are familiar with all of the concepts you need to build a digital consent form."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#so-what-are-we-going-to-build-exactly",
@@ -2013,7 +2020,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-web-browser",
     "title": "Building a digital consent form",
     "section": "What is a web browser?",
-    "text": "What is a web browser?\n\nYou highly likely use these every day (Explorer, Chrome, Safari).\nA web browser is a software program that allows a user to locate, access, and display web pages.\nThe main languages used in creating the raw webpage are HTML and javascript.\nYou can use frameworks in other languages to then create these “raw” webpages. In our case a python scripting language framework called streamlit."
+    "text": "What is a web browser?\n\nYou highly likely use these every day (Explorer, Chrome, Safari).\nA web browser is a software program that allows a user to locate, access, and display web pages.\nThe main languages used in creating the raw webpage are HTML and javascript.\nYou can use frameworks in other languages to then create these “raw” webpages. In our case a python framework called streamlit."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
@@ -2027,11 +2034,18 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#you-need-to-have-vs-code-installed",
     "title": "Building a digital consent form",
     "section": "You need to have VS code installed",
-    "text": "You need to have VS code installed\n\nHopefully you have already installed the VS Code IDE on your own personal machines.\nYou have 10 minutes to try and install VS code now. If no luck, then we will get you to use Codespace."
+    "text": "You need to have VS code installed\n\nHopefully you have already installed the VS Code IDE on your own personal machines.\nYou have 10 minutes to try and install VS code now. If no luck, then we will get you to use the Codespace IDE."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions",
+    "title": "Building a digital consent form",
+    "section": "We need some extensions",
+    "text": "We need some extensions\n\nAKA Plugins.\nAdd functionality and features, much like your favourite app store."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions-1",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions-1",
     "title": "Building a digital consent form",
     "section": "We need some extensions",
     "text": "We need some extensions\n\nPython\nBlack formatter"
@@ -2055,21 +2069,21 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-library",
     "title": "Building a digital consent form",
     "section": "What is a library",
-    "text": "What is a library\n\nYou will be using different libraries in this build.\nA library is basically a collection of code that provides set functionality.\nYou need to import libraries to use them."
+    "text": "What is a library\n\nYou will be using different libraries in this build.\nA library is basically a collection of code that provides set functionality.\nYou need to first install libraries and then import to use them.\nSee module 1 for an overview."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-an-api",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-an-api",
     "title": "Building a digital consent form",
     "section": "What is an API",
-    "text": "What is an API\n\nAn application process interface (API) is a means for computer programs, on the same computer or over networks or even the internet to communicate together."
+    "text": "What is an API\n\nAn application process interface (API) is a means for computer programs to communicate with each other.\nThese communicating programs can be on the same computer, over networks or even the internet."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#data-in-a-database",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#data-in-a-database",
     "title": "Building a digital consent form",
     "section": "Data in a database",
-    "text": "Data in a database\n\nMuch like a spreadsheet, data is stored in a database in tables\nEach row in the database is called a record\nYou query the database to get data from it\nQueries in streamlit get all data. Really should only get the data you need"
+    "text": "Data in a database\n\nMuch like a spreadsheet, data is stored in a database in tables.\nEach row in the database is called a record.\nYou query the database to get data from it.\nQueries in streamlit return all data from a table in a database."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#python-related-material-1",
@@ -2149,13 +2163,6 @@
     "text": "Stopping a running program\nCTRL - C\nor\nCMD - C"
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#warning",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#warning",
-    "title": "Building a digital consent form",
-    "section": "Warning!",
-    "text": "Warning!\n\nYou are building an educational program. This is NOT to be used with real patients!"
-  },
-  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
     "title": "Building a digital consent form",
@@ -2182,6 +2189,13 @@
     "title": "Building a digital consent form",
     "section": "Install libraries",
     "text": "Install libraries\n$ pip install streamlit\nand\n$ pip install st_supabase_connection"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#secrets",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#secrets",
+    "title": "Building a digital consent form",
+    "section": "Secrets",
+    "text": "Secrets\n\nTo use the Supabase cloud database, you need a URL (Uniform Resource Locator), eg website address and a secret key.\nThis will then give you access to the the Supabase via its API."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#and-then-run",
@@ -2217,6 +2231,13 @@
     "title": "Building a digital consent form",
     "section": "Altering the command to run",
     "text": "Altering the command to run\n\nUse the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.\nFor example to change\n\n$ streamlit run exercise_1.py\nto\n$ streamlit run exercise_2.py"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#warning",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#warning",
+    "title": "Building a digital consent form",
+    "section": "Warning!",
+    "text": "Warning!\n\nYou are building an educational program. This is NOT to be used with real patients!"
   },
   {
     "objectID": "learn/learn-python/module-2/3-process-mapping-conclusion.html#current-process",
@@ -2933,15 +2954,15 @@
     "text": "Lesson 1\n\nMake sure you have a GitHub account.\nJoin your tutor group in the named Zoom break out rooms.\nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load",
-    "href": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load",
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#break-out-room-button",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#break-out-room-button",
     "title": "Python",
-    "section": "Codespace load",
-    "text": "Codespace load"
+    "section": "Break out room button",
+    "text": "Break out room button"
   },
   {
-    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load-1",
-    "href": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load-1",
+    "objectID": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load",
+    "href": "learn/learn-python/module-1-rebuild/3-python.html#codespace-load",
     "title": "Python",
     "section": "Codespace load",
     "text": "Codespace load"
@@ -3150,15 +3171,15 @@
     "text": "Lesson 1\n\nMake sure you have a GitHub account.\nJoin your tutor group in the named Zoom break out rooms.\nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
   },
   {
-    "objectID": "learn/learn-python/module-0/2-coding-environment.html#codespace-load",
-    "href": "learn/learn-python/module-0/2-coding-environment.html#codespace-load",
+    "objectID": "learn/learn-python/module-0/2-coding-environment.html#break-out-room-button",
+    "href": "learn/learn-python/module-0/2-coding-environment.html#break-out-room-button",
     "title": "Coding environment (and the shell)",
-    "section": "Codespace load",
-    "text": "Codespace load"
+    "section": "Break out room button",
+    "text": "Break out room button"
   },
   {
-    "objectID": "learn/learn-python/module-0/2-coding-environment.html#codespace-load-1",
-    "href": "learn/learn-python/module-0/2-coding-environment.html#codespace-load-1",
+    "objectID": "learn/learn-python/module-0/2-coding-environment.html#codespace-load",
+    "href": "learn/learn-python/module-0/2-coding-environment.html#codespace-load",
     "title": "Coding environment (and the shell)",
     "section": "Codespace load",
     "text": "Codespace load"

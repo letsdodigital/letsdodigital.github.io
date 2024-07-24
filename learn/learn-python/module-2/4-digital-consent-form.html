@@ -413,14 +413,14 @@ Let’s Do Digital Team
 <h1>Lesson 2 - Let’s build a digital consent app</h1>
 
 </section>
-<section id="eager-to-get-started" class="slide level2">
+<section id="eager-to-get-started" class="slide level2" data-background-image="../../../media/lady-a-start-line.jpg" data-background-opacity="0.2">
 <h2>Eager to get started?</h2>
 <ul>
 <li>Don’t worry, we will get you coding soon.</li>
-<li>However, it is probably a good idea to make sure you are familiar with all of the coding concepts you need to build a <code>digital consent form</code>.</li>
+<li>However, it is probably a good idea to make sure you are familiar with all of the concepts you need to build a <code>digital consent form</code>.</li>
 </ul>
 </section>
-<section id="so-what-are-we-going-to-build-exactly" class="slide level2">
+<section id="so-what-are-we-going-to-build-exactly" class="slide level2" data-background-image="../../../media/house-blue-print.jpg" data-background-opacity="0.4">
 <h2>So what are we going to build exactly?</h2>
 <ul>
 <li>A web based digital healthcare app.</li>
@@ -431,16 +431,16 @@ Let’s Do Digital Team
 </ul></li>
 </ul>
 </section>
-<section id="what-is-a-web-browser" class="slide level2">
+<section id="what-is-a-web-browser" class="slide level2" data-background-image="../../../media/droplets-on-web.jpg" data-background-opacity="0.4">
 <h2>What is a web browser?</h2>
 <ul>
 <li>You highly likely use these every day (Explorer, Chrome, Safari).</li>
 <li>A web browser is a software program that allows a user to locate, access, and display web pages.</li>
 <li>The main languages used in creating the raw webpage are HTML and javascript.</li>
-<li>You can use frameworks in other languages to then create these “raw” webpages. In our case a python scripting language framework called <code>streamlit</code>.</li>
+<li>You can use frameworks in other languages to then create these “raw” webpages. In our case a python framework called <code>streamlit</code>.</li>
 </ul>
 </section>
-<section id="we-are-going-to-cheat" class="slide level2">
+<section id="we-are-going-to-cheat" class="slide level2" data-background-image="../../../media/server-room.jpg" data-background-opacity="0.3">
 <h2>We are going to cheat</h2>
 <ul>
 <li>As we do not have time to build both the front and backend, we have created a cloud database (specifically <code>suprabase</code>) for you to connect to.</li>
@@ -452,10 +452,17 @@ Let’s Do Digital Team
 <h2>You need to have VS code installed</h2>
 <ul>
 <li>Hopefully you have already installed the <code>VS Code IDE</code> on your own personal machines.</li>
-<li>You have 10 minutes to try and install VS code now. If no luck, then we will get you to use <code>Codespace</code>.</li>
+<li>You have 10 minutes to try and install VS code now. If no luck, then we will get you to use the <code>Codespace IDE</code>.</li>
 </ul>
 </section>
 <section id="we-need-some-extensions" class="slide level2">
+<h2>We need some extensions</h2>
+<ul>
+<li>AKA Plugins.</li>
+<li>Add functionality and features, much like your favourite app store.</li>
+</ul>
+</section>
+<section id="we-need-some-extensions-1" class="slide level2">
 <h2>We need some extensions</h2>
 <ul>
 <li>Python</li>
@@ -465,32 +472,34 @@ Let’s Do Digital Team
 <section id="python-extension" class="slide level2">
 <h2><span class="hide-title">Python extension</span></h2>
 
-<img data-src="../../../media/python-extension-vs-code.png" class="centre-full-image r-stretch"></section>
+<img data-src="../../../media/python-extension-vs-code.png" class="centre-full-image r-stretch" alt="screen shot of the VS Code Python extension"></section>
 <section id="black-formatter-extension" class="slide level2">
 <h2><span class="hide-title">Black formatter extension</span></h2>
 
-<img data-src="../../../media/black-formatter-vs-code.png" class="centre-full-image r-stretch"></section>
+<img data-src="../../../media/black-formatter-vs-code.png" class="centre-full-image r-stretch" alt="Screen shot of the VS Code Black formatter"></section>
 <section id="what-is-a-library" class="slide level2">
 <h2>What is a library</h2>
 <ul>
 <li>You will be using different libraries in this build.</li>
 <li>A library is basically a collection of code that provides set functionality.</li>
-<li>You need to <code>import</code> libraries to use them.</li>
+<li>You need to first <code>install</code> libraries and then <code>import</code> to use them.</li>
+<li>See <a href="https://letsdodigital.org/learn/learn-python/module-1/">module 1</a> for an overview.</li>
 </ul>
 </section>
 <section id="what-is-an-api" class="slide level2">
 <h2>What is an API</h2>
 <ul>
-<li>An application process interface (API) is a means for computer programs, on the same computer or over networks or even the internet to communicate together.</li>
+<li>An application process interface (API) is a means for computer programs to communicate with each other.</li>
+<li>These communicating programs can be on the same computer, over networks or even the internet.</li>
 </ul>
 </section>
 <section id="data-in-a-database" class="slide level2">
 <h2>Data in a database</h2>
 <ul>
-<li>Much like a spreadsheet, data is stored in a database in <code>tables</code></li>
-<li>Each row in the database is called a <code>record</code></li>
-<li>You <code>query</code> the database to get data from it</li>
-<li>Queries in streamlit get all data. Really should only get the data you need</li>
+<li>Much like a spreadsheet, data is stored in a database in <code>tables</code>.</li>
+<li>Each row in the database is called a <code>record</code>.</li>
+<li>You <code>query</code> the database to get data from it.</li>
+<li>Queries in streamlit return all data from a table in a database.</li>
 </ul>
 </section>
 <section id="python-related-material-1" class="slide level2">
@@ -534,7 +543,7 @@ Let’s Do Digital Team
 <li>Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).</li>
 </ul>
 
-<img data-src="../../../media/streamlit.png" class="quarto-figure quarto-figure-center r-stretch"></section>
+<img data-src="../../../media/streamlit.png" class="quarto-figure quarto-figure-center r-stretch" alt="Streamlit icon"></section>
 <section id="module-import" class="slide level2">
 <h2>Module import</h2>
 <p><code>Direct import</code></p>
@@ -615,12 +624,6 @@ Let’s Do Digital Team
 <p>or</p>
 <p>CMD - C</p>
 </section>
-<section id="warning" class="slide level2" data-background-image="../../../media/glowing-red-cone.jpg" data-background-opacity="0.3">
-<h2>Warning!</h2>
-<ul>
-<li>You are building an educational program. This is NOT to be used with real patients!</li>
-</ul>
-</section>
 <section id="nuances-of-streamlit" class="slide level2">
 <h2>Nuances of streamlit</h2>
 <ul>
@@ -649,6 +652,13 @@ Let’s Do Digital Team
 <div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>and</p>
 <div class="sourceCode" id="cb8"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="secrets" class="slide level2">
+<h2>Secrets</h2>
+<ul>
+<li>To use the <code>Supabase</code> cloud database, you need a URL (Uniform Resource Locator), eg website address and a secret <code>key</code>.</li>
+<li>This will then give you access to the the Supabase via its API.</li>
+</ul>
 </section>
 <section id="and-then-run" class="slide level2">
 <h2>And then run</h2>
@@ -701,16 +711,13 @@ Let’s Do Digital Team
 <div class="sourceCode" id="cb12"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>to</p>
 <div class="sourceCode" id="cb13"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb13-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section></section>
-<section id="pit-stop" class="title-slide slide level1 center">
-<h1>Pit stop</h1>
-<ul>
-<li>Half way through</li>
-<li>How is it going?</li>
-<li>What are people getting stuck on?</li>
-</ul>
 </section>
-
+<section id="warning" class="slide level2" data-background-image="../../../media/glowing-red-cone.jpg" data-background-opacity="0.3">
+<h2>Warning!</h2>
+<ul>
+<li>You are building an educational program. This is NOT to be used with real patients!</li>
+</ul>
+</section></section>
 <section id="now-go" class="title-slide slide level1 center">
 <h1>Now go!</h1>
 <ul>
