@@ -42,35 +42,8 @@ title-slide-attributes:
 * A server is basically a computer program that provides you with a web page to interact with.
 
 
-## You need to have VS code installed
+## What is a library? {background-image="/media/book-open-in-library.jpg" background-opacity="0.3"}
 
-* Hopefully you have already installed the `VS Code IDE` on your own personal machines. 
-* You have 10 minutes to try and install VS code now. If no luck, then we will get you to use the `Codespace IDE`.
-
-
-## We need some extensions
-
-* AKA Plugins.
-* Add functionality and features, much like your favourite app store.
-
-
-## We need some extensions
-
-* Python
-* Black formatter
-
-
-## <span class="hide-title">Python extension</span>
-
-![](/media/python-extension-vs-code.png){.centre-full-image fig-alt="screen shot of the VS Code Python extension"}
-
-
-## <span class="hide-title">Black formatter extension</span>
-
-![](/media/black-formatter-vs-code.png){.centre-full-image fig-alt="Screen shot of the VS Code Black formatter"}
-
-
-## What is a library
 
 * You will be using different libraries in this build.
 * A library is basically a collection of code that provides set functionality.
@@ -78,49 +51,222 @@ title-slide-attributes:
 * See [module 1](https://letsdodigital.org/learn/learn-python/module-1/) for an overview.
 
 
-## What is an API
+## What is an API? {background-image="/media/three-rotary-dial-phones.jpg" background-opacity="0.3"}
 
-* An application process interface (API) is a means for computer programs to communicate with each other.
+* An `application process interface` (`API`) is a means for computer programs to communicate with each other.
 * These communicating programs can be on the same computer, over networks or even the internet.
+* You will be using the `supabase library` to connect to the `supabase database` via its `API`.
 
 
-## Data in a database
+## Data in a database {background-image="/media/database-paperbased-with-girl-at-desk.jpg" background-opacity="0.3"}
 
 * Much like a spreadsheet, data is stored in a database in `tables`.
-* Each row in the database is called a `record`.
-* You `query` the database to get data from it.
-* Queries in streamlit return all data from a table in a database. 
+* You `query` tables in the database to get data.
+* Queries in streamlit return **all data** from a table.
+* You can then use standard python data manipulation to retrieve the data you need.
 
 
-## Python related material 1
+## State {background-image="/media/numbers-on-wooden-spinners.jpg" background-opacity="0.3"}
 
-* what is a function, how to write one. (Anatomy of a function)
-* List comprehension, how to read and write them
-* What is state
-* Return nothing = `return`
-* global variables
+* The `state` in a web app is basically the current values of variables being used.
+* Will we cover this shortly and how to read and alter state in Streamlit.
 
 
-## Python related material 2
+## Fields
 
-* Anatomy of the for loop. Loop variable. The use of `else` with for loops. `breaks`
-* Don't forget indentation and colons `:`
-* `all` statement
-* Initialising variables
+* A field on a web page is an element that you can interact with and input data.
+* Common types of fields include **text boxes**, **radio buttons**, **checkboxes**, **dropdown menus**, and **buttons**.
+* Fields are typically used in `forms` to collect user input.
 
-
-## Have the slides on hand
-
-* Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
-* You will likely need them as you build your digital consent form.
-* Recommend doing small changes to code saving, and checking what happens in the browser
+![](/media/two-fields.png){fig-align="center" fig-alt="Two fields from a web page"}
 
 
-## Ask
+## Fields - some key facts
 
-* Please please please ask questions of your tutor. That is why they are here.
+* There are many different attributes that you can alter for fields on a webpage. These include:
+    * **labels** - the label you see on the web page.
+    * **keys** - how you reference a field in code.
+    * **on_change** - a function to run when the value of a field changes.
 
-`There is no such thing as a stupid question, only a question left unanswered`
+
+## Web Page Forms
+
+* A form on a web page is a structured area that contains fields for users to input and submit data.
+* Forms are used to collect user input and can include various types of fields.
+* The data entered into a form can be sent to a server for processing, often through a submit button.
+
+![](/media/field-and-submit-button.png){fig-align="center" fig-alt="a field and a submit button from a form"}
+
+
+# Python specific concepts {background-image="/media/python-logo.png" background-opacity="0.3"}
+
+
+## Anatomy of a function
+
+```{.python filename="functions.py"}
+def name_of_function(argument_1, argument_2):
+
+    print (argument_1 + argument_2)
+
+    return "Finished"
+```
+
+
+## Mutability
+
+* `Mutability` is the ability of a variable to be changed.
+* As strange as it sounds, in python, some variables cannot be changed.
+* If you update an `immutable` variable, the variable is created again from scratch. 
+
+
+## Mutability
+
+* `Immutable` variables include:
+    * booleans
+    * integers
+    * floats
+    * strings
+    * tuples
+
+
+## Mutability
+
+* Don't trust me? Try this:
+
+```{.python filename="immutable_integer.py"}
+x = 10
+
+print(id(x))
+
+x = 6
+
+print(id(x))
+```
+
+Output
+
+        4463277792
+        4463277952
+
+
+## Mutable variables
+
+* And a list of mutable variable types include:
+    * lists
+    * dictionaries
+    * classes
+
+
+## Scope
+
+* In most programming languages, a variable has `scope`.
+* `Scope` defines where a variable can be read and altered.
+* `Scope` is determined by where a variable is originally defined.
+
+
+## Scope example
+
+```{.python filename="scope.py" code-line-numbers="6"}
+def patient_info():
+    patient_name = "Alice Smith"
+    print(f"Patient Name: {patient_name}")
+
+patient_info()
+print(patient_name)
+```
+
+Output
+
+        Patient Name: Alice Smith
+        Traceback (most recent call last):
+            File "/scope.py", line 6, in <module>
+                print(patient_name)
+                      ^^^^^^^^^^^^
+        NameError: name 'patient_name' is not defined.
+
+## Global keyword
+
+* To make a variable accessible inside your function or class, you can use the `global` keyword.
+* Using `global` allows you to reassign any variable.
+* Technically you do not need to use `global` if you are only updating (eg adding elements) mutable variables (eg lists and dictionaries).
+
+
+## Scope example - global
+
+```{.python filename="global.py" code-line-numbers="6"}
+patient_name = ""
+
+def patient_info():
+    global patient_name
+    patient_name = "Alice Smith"
+    print(f"Patient Name: {patient_name}")
+
+patient_info()
+print(patient_name)
+```
+
+Output
+
+        Patient Name: Alice Smith
+        Alice Smith
+
+
+## List comprehension {background-image="/media/sticky-notes-on-wall.jpg" background-opacity="0.3"}
+
+* A quick way to build new lists from other lists or other iterables (e.g., dictionaries).
+* Can take some time to get used to using these.
+\
+\
+    [**new_element** for **item** in **iterable** if **condition**]
+
+
+## List comprehension
+
+```{.python filename="list_comprehension.py"}
+patients = [
+        {"name": "Alice", "hospital_number": "H123", "age": 25},
+        {"name": "Bob", "hospital_number": "H124", "age": 17},
+    ]
+
+names = [
+    patient["name"]
+    for patient in patients
+    if patient["age"] > 18
+]
+
+print(names)
+```
+
+Output
+
+        Alice
+
+
+## I want it all
+
+* The `all()` function returns true if all elements in a list pass a certain test.
+* It uses **similar** syntax to `list comprehension`:
+\
+\
+    all(**condition** for **item** in **iterable**)
+
+
+## I want it all
+
+```{.python filename="list_comprehension.py"}
+patients = [
+    {"name": "Alice", "age": 25, "hospital_number": "H123"},
+    {"name": "James", "age": 18, "hospital_number": "H124"},
+]
+
+all_adults = all(patient["age"] >= 18 for patient in patients)
+
+print(all_adults)
+```
+
+Output
+
+        True
 
 
 ## Streamlit
@@ -158,27 +304,76 @@ if __name__ == "__main__":
 
 ## Streamlit methods
 
-```{.python filename="streamlit methods.py" code-line-numbers="4,8,11"}
+```{.python filename="streamlit_methods.py" code-line-numbers="4,7,10,13,16"}
 import streamlit as st
+
+# A title for the page
+st.title("My first web app")
 
 # Writes text to the browser
 st.write("Text to write to browser")
 
-# Creates a text input field
-# `step` is the increment for + - buttons
-st.number_input("Label of input box", step=1) 
+# Text input field with key and on_change function
+st.text_input("label", key="key_1", on_change=on_change_function())
 
-# Creates a select box
+# Or, assign the input field results to a variable
+hospital_number = st.text_input("Hospital number", "0", disabled=False)
+
+# Creates a select box, uses lists for selection choices
 st.selectbox("Label for selectbox", ["first choice","second choice"])
+```
+
+## Streamlit methods
+
+```{.python filename="streamlit_methods.py" code-line-numbers="4,7,10,13,16"}
+import streamlit as st
+
+# Create a header (basically larger text)
+st.header("A header")
 
 # Show an error message
 st.error("I am an error message")
 ```
 
+## Streamlit methods - forms
 
-## Field labels, keys, on_change, lists for selectbox
+```{.python filename="streamlit_methods.py" code-line-numbers="4,7,8,10,11"}
+import streamlit as st
 
-* Field labels, keys, on_change, lists for selectbox
+# Create a form
+with st.form()
+    # As many fields as you like, eg
+    st.text_input("First name")
+
+    submitted = st.form_submit_button("Submit")
+
+    if submitted:
+        st.write("Button pressed")
+
+```
+
+## Streamlit methods - change page
+
+```{.python filename="streamlit_methods.py" code-line-numbers="4"}
+import streamlit as st
+
+# Redirect to another page
+st.switch_page("pages/another_page.py")
+```
+
+
+## Session state
+
+```{.python filename="streamlit_session_state.py" code-line-numbers="4,7,8"}
+import streamlit as st
+
+# Set the session state
+st.session_state.a_variable_name = "a_value"
+
+# Clear all of the session variables
+for key in list(st.session_state.keys()):
+    del st.session_state[key]
+```
 
 
 ## magicEnabled = false
@@ -205,23 +400,53 @@ or
 CMD - C
 
 
+## Nuances of streamlit
 
+* When you update the code and save, click "Always rerun" (top right) in the browser to always refresh on code change.
+* Sometimes you need to refresh the browser or even restart Streamlit to get certain codes changes to work.
+* Streamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, press a button).
 
 
 ## Nuances of streamlit
 
-* When you update the code and save, click "Always rerun" (top right) in the browser to always refresh on code change.
-* Sometimes you need to refresh the browser to get certain codes changes to work
-* Streamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, press a button)
-* Why the text field and selectbox outside of the form. Because Streamlit.io does not allow for dynamic update within forms before submitting
+* Why the text field and selectbox outside of the form?
+* Because Streamlit does not allow for dynamic update within forms before submitting.
 
 
-## Linting / formatting
+## You need to have VS code installed
+
+* Hopefully you have already installed the `VS Code IDE` on your own personal machines. 
+* You have 10 minutes to try and install VS code now if you have not done so already. If no luck, then we will get you to use the `Codespace IDE`.
+
+
+## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
+
+* AKA Plugins.
+* Add functionality and features, much like your favourite app store.
+
+
+## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
+
+* Python
+* Black formatter
+
+
+## <span class="hide-title">Python extension</span>
+
+![](/media/python-extension-vs-code.png){.centre-full-image fig-alt="screen shot of the VS Code Python extension"}
+
+
+## <span class="hide-title">Black formatter extension</span>
+
+![](/media/black-formatter-vs-code.png){.centre-full-image fig-alt="Screen shot of the VS Code Black formatter"}
+
+
+## Formatting
 
 * You may notice strange line dropping in VScode. This is the Black formatter making your code conform to standards when you save.
 
 
-## Where to start
+## Finding your way
 
 * Click inside your terminal window
 * Go to:
@@ -248,6 +473,13 @@ $ pip install st_supabase_connection
 
 * To use the `Supabase` cloud database, you need a URL (Uniform Resource Locator), eg website address and a secret `key`.
 * This will then give you access to the the Supabase via its API.
+* You will find the url and key in the HackMD file (shared during the module 2 session).
+
+
+## Secrets
+
+* Create a copy of the **.streamlit/secrets_example.toml/** file and rename it **.streamlit/secrets.toml/**.
+* Add the url and API key from HackMD to this new file.
 
 
 ## And then run
@@ -278,17 +510,7 @@ And...
 
 ## Start the browser
 
-Picture of browser
-
-
-## Who is running what?
-
-```{.python filename="main.py"}
-if __name__ == "__main__":
-    main()
-```
-
-* Checks if the current file is being run as an imported library or directly
+![](/media/hello-world-browser.png){fig-align="center" fig-alt="Screen shot of the 'Hello World' output"}
 
 
 ## Altering the command to run
@@ -312,12 +534,25 @@ $ streamlit run exercise_2.py
 * You are building an educational program. This is NOT to be used with real patients!
 
 
+## Have the slides on hand {background-image="/media/old-style-slides.jpg" background-opacity="0.2"}
+
+* Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
+* You will likely need them as you build your digital consent form.
+* Recommend doing small changes to code saving, and checking what happens in the browser
+
+
+## Ask
+
+* Please please please ask questions of your tutor. That is why they are here.
+
+`There is no such thing as a stupid question, only a question left unanswered`
+
+
 # Now go!
 
 * Go join your breakout rooms again
 * Ask away
 * You will find it frustrating when code does not work straight away. However this is how you learn. Try writing code in different ways to see if you can get it to work
-* Ask!
 * Look up material in the slides
 * Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last).
 
