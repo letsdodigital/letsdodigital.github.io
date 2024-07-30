@@ -4,11 +4,6 @@ image: /media/tickets.png
 ---
 
 
-### 25th July 2024
-
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician/2.qmd)
-
-
 ### 1st August 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-3 >}}](ask-a-clinician-3.qmd)
@@ -71,3 +66,8 @@ image: /media/tickets.png
 ### 16th of July 2024
 
 [{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
+
+
+### 25th July 2024
+
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician/2.qmd)

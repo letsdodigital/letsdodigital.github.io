@@ -2,7 +2,7 @@
 title: "Ask a clinician webinar series - episode 3"
 ---
 
-## {{< var aac-2 >}}
+## {{< var aac-3 >}}
 
 ![](/media/drugs-in-a-dish.jpg){height=300px fig-align="center" fig-alt="A pill in each outstretched hand of a male doctor"}
 
