@@ -29,6 +29,8 @@ website:
         text: Sponsor us
       - href: paying-the-team.qmd
         text: Paying the team
+      - href: eohi/business-case.qmd
+        text: Essentials of Health Informatics
     right: 
       - icon: github
         href: https://github.com/letsdodigital

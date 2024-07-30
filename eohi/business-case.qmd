@@ -1,0 +1,386 @@
+---
+title: "Business Case: Essentials of Health Informatics"
+---
+
+## Executive Summary
+
+The project aims to develop a free to use, online guide titled **Essentials of Health Informatics**. This guide will serve as a comprehensive resource in health informatics. The target audience will include healthcare professionals, those in digital roles and students interested in health informatics. The initial business plan includes the delivery of ten pay-to-watch 1-hour webinars covering topics identified through survey. Additionally, the project will seek external sponsorship to support its financial sustainability. Subject matter experts will prepare their presentations, present at the webinar, and contribute to the guide. This project will utilise an **Education as a Service** model, providing flexible, up-to-date and accessible learning opportunities in contrast to traditional university degrees and hard copy textbooks.
+
+The benefits of this project include providing widespread access to up-to-date information in health informatics, funded through webinar fees, paid-for-viewing of webinar recordings and sponsorship. The guide will be regularly reviewed and updated, ensuring its relevance and accuracy compared to static hard copy guides. If the first 10 webinars are successful, additional series of webinars on different topics will be delivered.
+
+## Introduction
+
+
+### Background
+
+**Bailey Medics Ltd**, under the trade name **Let's Do Digital**, aims to bridge the knowledge gap in health informatics by creating an accessible, continuously updated online guide. The healthcare sector's increasing reliance on informatics necessitates a reliable and current resource for professionals and enthusiasts alike. By adopting an **Education as a Service** approach, Bailey Medics Ltd aims to offer flexible, up-to-date and accessible learning opportunities that keep pace with advancements in health informatics.
+
+
+### Objectives
+
+* To create and maintain a **comprehensive** and **free to access** online guide on health informatics.
+* To conduct a series of webinars as a revenue stream and educational initiative.
+* To engage with 2-5 external sponsors as an additional revenue stream.
+* To ensure the guide remains current through regular reviews and updates.
+* To expand the webinar series if the initial 10 webinars are successful.
+* To later develop a paid for exam covering the topic of health informatics.
+
+### Scope
+
+The project encompasses the development of the guide, organisation and delivery of webinars, securing sponsorship, and engaging subject matter experts for content creation and examination questions.
+
+### Feedback
+
+Feedback from social engagements has been very positive. A post by Mark Bailey (of Bailey Medics Ltd) on LinkedIn about the guide (initially referred to as the “Handbook of Clinical Informatics”) had many positive comments and large numbers of engagements. As of the 30th of July, this post regarding the guide had **4771 impressions**, **2520 unique views**, and **36 comments**. The top reaction was from **Clinical Scientists** and the top comments were from **Medical Doctors**. The post can be viewed [here](https://www.linkedin.com/posts/markbaileyci_i-am-curious-about-something-and-would-greatly-activity-7204555745709731841-gO_0?utm_source=share&utm_medium=member_desktop).
+
+
+## Problem Statement
+
+
+### Problem Definition
+
+There is a lack of accessible, up-to-date resources in health informatics, which hinders learning and professional development in this rapidly evolving field. Traditional hard copy guides are quickly outdated and less accessible, failing to meet the ongoing needs of learners.
+
+### Impact
+
+Without a reliable and current resource, healthcare professionals may struggle to stay informed about the latest advancements and best practices in health informatics. Benefits of actively engaging and learning from these educational materials include improved job performance and advancement opportunities. Our **Education as a Service** model addresses this gap by providing continuous, accessible learning opportunities, unlike static university degrees and textbooks.
+
+
+## Target Audience
+
+The guide, webinars and exam will be aimed at healthcare professionals, those in digital roles and students interested in health informatics.
+
+
+## Analysis of Options
+
+
+### Option 1: Traditional Printed Guide
+
+* **Pros:** Tangible, one-time cost for production.
+* **Cons:** Quickly outdated, high distribution costs, limited accessibility.
+
+
+### Option 2: Static Online Guide
+
+* **Pros:** Wider accessibility, lower distribution costs.
+* **Cons:** Still requires regular updates, initial development cost.
+
+
+### Option 3: Traditional University Delivery
+
+* **Pros:** Established educational framework, recognised credentials.
+* **Cons:** High costs for students, inflexible schedules, slow curriculum updates, limited accessibility for non-traditional students.
+
+
+### Option 4: Interactive Online Guide with Webinars (Proposed Solution)
+
+* **Pros:** Continuously updated, wide accessibility, interactive learning through webinars, potential for revenue through fees and sponsorship. This **Education as a Service** model offers flexible, ongoing educational opportunities.
+* **Cons:** Requires ongoing maintenance, initial setup costs, risk of low uptake.
+
+
+## Proposed Solution
+
+
+### Solution
+
+Develop an interactive online guide on health informatics, supported by an initial series of ten 1-hour webinars. This solution leverages the expertise of subject matter experts to ensure high-quality content and continuous updates. It combines education with revenue generation through webinar fees and potential sponsorship. If the initial series is successful, additional webinars will be developed.
+
+### Justification
+
+This **Education as a Service** approach addresses the need for up-to-date information, maximises accessibility, and creates a sustainable model through combined revenue streams.
+
+
+## Sponsorship Amounts
+
+There will be 3 tiers of sponsorship:
+
+1. **Gold: £3000 (GBP)** - Appreciation to your company at the beginning of the **Essentials of Health Informatics** webinars and on the **Essentials of Health Informatics** website landing page. Your company logo will be displayed on all of **Let's Do Digital** webinar and **Let's Talk Digital conference** opening slides and **Let's Do Digital** website landing page. With this sponsorship level, we would not accept any sponsorship from other similar vendors (the vendor genre would need to be agreed beforehand and not be too generalised). Sponsorship for 1 year.
+2. **Silver: £2000 (GBP)** - Appreciation to your company at the beginning of the **Essentials of Health Informatics** webinars and on the **Essentials of Health Informatics** website landing page. Your company logo will be displayed on all of **Let's Do Digital** webinar and **Let's Talk Digital conference** opening slides and **Let's Do Digital** website landing page. Sponsorship for 1 year.
+3. **Bronze: £1000 (GBP)** - Appreciation to your company at the beginning of the **Essentials of Health Informatics** webinars and on the **Essentials of Health Informatics** website landing page. Sponsorship for 1 year.
+
+
+## Benefits to External Sponsors
+
+1. **Brand Visibility and Recognition:** Sponsors will gain visibility among a targeted audience of healthcare professionals, educators, and technology enthusiasts interested in health informatics.
+2. **Thought Leadership:** By sponsoring this guide, sponsors demonstrate their commitment to advancing knowledge and innovation in health informatics, positioning themselves as leaders in the industry.
+3. **Corporate Social Responsibility (CSR):** Sponsors will show clear social responsibility by promoting accessible education and professional development in healthcare.
+4. **Long-Term Partnership Opportunities:** Sponsors can establish long-term partnerships with Bailey Medics Ltd for ongoing sponsorship of future webinar series or updates to the guide.
+
+
+## Benefits for Speakers
+
+1. **Professional Exposure and Recognition:** Speakers will gain visibility and recognition within the healthcare and technology sectors as **first authors** of their respective sections in the Essentials of Health Informatics guide.
+2. **Networking Opportunities:** Opportunities to network with other industry professionals, potential collaborators, and sponsors during webinar sessions and other related (eg Let's Do Digital) events.
+3. **Enhanced Credibility:** Contributing to an authoritative guide and delivering webinars enhances a speakers' credibility and authority in their field.
+4. **Compensation:** Speakers will receive competitive compensation up to £100 (GBP) per hour based on their involvement, incentivising high-quality contributions.
+5. **Professional Development:** Engaging in content creation and webinar delivery supports ongoing professional development and knowledge sharing.
+6. **Access to Resources:** Speakers gain access to resources, insights, and updates from other experts contributing to the guide, enriching their own knowledge base.
+
+
+## Advertising
+
+The marketing campaign for the **Essentials of Health Informatics** guide and webinars will focus on showcasing the unique value and comprehensive nature of the educational offering. The aim is to attract healthcare professionals, digital health specialists, and students by highlighting the following key aspects:
+
+* **Cutting-Edge Content:** Emphasise the up-to-date and relevant nature of the material, which addresses the latest advancements in health informatics.
+* **Expert-Led Sessions:** Feature testimonials and profiles of our esteemed subject matter experts to build credibility and interest.
+* **Interactive Learning:** Promote the interactive elements of the webinars, including live Q&A sessions, discussion forums, and virtual workshops.
+* **Flexible and Accessible:** Stress the convenience and flexibility of the online format, allowing learners to engage with the content at their own pace and from any location.
+* **Certification and Professional Development:** Highlight the opportunity for participants to earn a recognised credential in health informatics upon completing the series and passing the examination.
+
+
+
+### Advertising Channels
+
+To ensure wide-reaching and effective promotion, we will leverage the following advertising channels:
+
+* **Social Media Campaigns:** Utilise LinkedIn and X (Twitter) to reach healthcare professionals and digital health enthusiasts, featuring engaging posts and sponsored content.
+* **Email Marketing:** Send targeted email campaigns to our existing contacts and professional networks, highlighting the benefits and upcoming schedule of the webinar series.
+* **Professional Networks and Partnerships:** Collaborate with healthcare organisations, universities, and professional bodies to promote the series through their channels and networks.
+* **Webinars and Online Events:** Host free introductory webinars to generate interest and provide a sneak peek into the full series.
+
+
+### Key Messages
+
+Our advertising efforts will focus on the following key messages:
+
+* "Stay Ahead in Health Informatics: Enrol in Our Expert-Led Webinar Series".
+* "Flexible, Up-to-Date Learning: The Essentials of Health Informatics Guide".
+* "Earn a Recognised Credential in Health Informatics".
+* "Interactive and Engaging Webinars: Learn from the Best in the Field".
+* "Continuous Learning for Healthcare Professionals and Digital Health Enthusiasts".
+
+
+## Media locations
+
+The guide will be accessible free of charge at [https://essential-health-informatics.com/](https://essential-health-informatics.com/).
+
+Webinars and recordings will be hosted on a video hosting platform, likely on [https://thinkific.com/](https://essential-health-informatics.com/). 
+
+
+## Implementation Plan
+
+
+### Project Plan
+
+* **Phase 1:** Survey analysis and content Planning (1 month) - Managed by Mark Bailey (Let’s Do Digital lead).
+* **Phase 2:** Engagement of subject matter experts (2 months) by Mark Bailey and Trefor Roscoe (webinar chair).
+* **Phase 3:** Development of webinar content (initial estimates are of 10 hours work per speaker) and guide sections (3 months) - by Mark Bailey.
+* **Phase 4:** Marketing and promotion (2 months) - lead by Mark Bailey.
+* **Phase 5:** Delivery of webinars (10 weeks).
+* **Phase 6:** Ongoing updates and reviews (every 12 months).
+* **Phase 7:** Expansion of webinar series (if initial series is successful)
+* **Phase 8:** If development of the guide and webinar series is successful, then a paid for exam on health informatics will also be delivered.
+
+**Timeline:** A total of 8 months for initial development and delivery, with ongoing updates and potential expansion thereafter.
+
+
+### Resources Required
+
+* **Personnel:** Project manager - Mark Bailey, Trefor Roscoe, and subject matter experts.
+* **Technology:** Webinar platform, website hosting, content management system.
+* **Budget:** Expert compensation, technology and maintenance costs.
+
+
+### Roles and Responsibilities:
+
+* **Mark Bailey:** Project management, development, and marketing.
+* **Trefor Roscoe:** webinar chair.
+* **Subject Matter Experts:** Develop content, deliver webinars, and updates.
+
+
+## Financial Analysis
+
+
+### Costs for 1st 10 webinars
+
+* Expert Compensation: £10,000.
+* Webinar chair £2,000.
+* Project management, development, and marketing: £4,000.
+* Technology and Maintenance: £2,000.
+
+
+### Revenue
+
+* Webinar Fees: £495 per attendee x 35 attendees = £17,325
+* First month of ticket sales will likely be sold at a 30% reduced rate (eg £350) to attract initial interest.
+* Sponsorship: Estimated £5,000 annually.
+* Paid for viewing of recordings of webinars. This is covered by purchasing attendance to the webinars, but can also be bought separately.
+
+
+### Return on Investment (ROI):
+* Initial Year: £17,325 (fees) + £5,000 (sponsorship) - £18,000 (costs) = £4,325
+
+
+## SWOT analysis
+
+Below is the Strengths / Weaknesses / Opportunities / Threats analysis.
+
+### Strengths
+
+* **First-Mover Advantage:** As one of the first comprehensive, free-to-access, and online guides in health informatics, we can establish a strong brand presence and capture a significant share of the market early on.
+* **Expert-Led Content:** Leveraging the knowledge and experience of subject matter experts ensures high-quality, credible, and authoritative content that can attract and retain learners.
+* **Flexible and Up-to-Date Learning:** The online, continuously updated format of the guide and webinars provides flexibility and ensures the content remains relevant and current, unlike traditional static textbooks.
+* **Cost-Effective Education:** Offering high-value content at a competitive price of £495 for 10 webinars (recorded or live) makes advanced health informatics education accessible to a broader audience.
+* **Reputation and Network:** Strong professional networks and prior successes in digital health initiatives lend credibility and facilitate collaborations and endorsements from key stakeholders.
+
+
+### Weaknesses
+
+* **Customer Uptake Uncertainty:** There is a risk that the target audience may not engage as expected, impacting the project's financial sustainability and overall success.
+* **Initial Funding Requirements:** The upfront costs for developing the guide, compensating experts, and marketing efforts require significant initial investment, posing a financial risk if the revenue targets are not met.
+* **Dependence on Subject Matter Experts:** The quality and success of the webinars and guide are highly dependent on the engagement and performance of the subject matter experts. Securing their commitment and ensuring consistent quality may be challenging. **Mitigation:** Offer competitive compensation and promote professional exposure.
+* **Brand Recognition:** As a new entrant in the market, establishing brand recognition and trust may take time and require substantial marketing efforts.
+
+
+### Opportunities
+
+* **Expandable and Large Potential Market:** The healthcare sector's increasing reliance on informatics creates a vast market opportunity. There is potential to expand the series with additional webinars and topics, catering to various subfields and specialisations.
+* **Sponsorship and Partnerships:** Engaging with external sponsors and forming strategic partnerships with healthcare organisations, educational institutions, and professional bodies can provide additional revenue streams and enhance credibility.
+* **Professional Certification:** Developing a certification program for health informatics can attract professionals seeking to enhance their qualifications and career prospects, adding value to the series.
+* **Global Reach:** The online format allows for global accessibility, opening up opportunities to reach international markets and learners.
+* **Continuous Improvement:** Regular updates and feedback mechanisms ensure the content remains relevant and valuable, enhancing user satisfaction and retention.
+
+
+### Threats
+
+* **Lack of Uptake:** If the webinars and guide fail to attract a sufficient number of attendees, the project's financial viability and sustainability could be jeopardised. **Mitigation:** Robust marketing strategy, early bird discounts, and partnership with professional bodies.
+* **Initial Funding Difficulty:** Securing the necessary initial funding for development, marketing, and expert compensation may be challenging, especially without proven demand.
+* **Competition:** As the field of health informatics grows, other organisations may enter the market with similar offerings, increasing competition and potentially impacting market share.
+* **Technological Challenges:** Technical issues with the webinar platform or website could disrupt the learning experience and deter participants.
+
+
+## Benefits Realisation
+
+
+### Key Performance Indicators
+
+<span style="color: grey; font-style: italic;">Number in brackets is the ideal minimum.</span>
+
+* Number of webinar attendees (35).
+* Number of learners paying to solely watch recordings of the webinars (10).
+* User engagement with the online guide, determined via survey and site traffic analysis (200 individual views).
+* Sponsorship funds raised (£5000).
+* Feedback and satisfaction scores from participants (mainly positive).
+
+
+### Tracking and Reporting
+
+* Monthly reviews of attendee numbers and user engagement.
+* Bi-annual financial reviews.
+* Regular feedback surveys.
+
+
+### Timeline for Benefits
+
+* Immediate financial gains post-webinar series.
+* Continuous financial gains from webinar recordings.
+* Continuous engagement and updates ensure long-term sustainability.
+
+
+## Topics
+
+Below are topics that will be covered in the guide. The titles themselves may be updated or consolidated as needed. The topics are in order of number of votes received from the survey of top 10 topics for the first 10 webinars:
+
+1. Data Standards And Interoperability
+1. Introduction To ClinicalInformatics
+1. Usability And User Experience UX In HealthIT
+1. Healthcare IT Infrastructure
+1. Clinical Decision Support Systems (CDSS)
+1. Health Information Systems
+1. Artificial Intelligence And Machine Learning In Healthcare
+1. Clinical Workflow And Process Improvement
+1. Health Data Analytics
+1. Clinical Informatics Leadership And Governance
+1. Clinical Informatics Education And Training
+1. Regulatory And Policy Issues In Digital Health
+1. Patient Safety And Quality Improvement
+1. Population Health Management
+1. Ethics In Digital Health
+1. Programming In Clinical Informatics
+1. History Of Digital Health In The NHS UK
+1. Patient Engagement And Empowerment
+1. Health Economics And Informatics
+1. Privacy And Security
+1. Health IT Project Management
+1. Emerging Technologies In Healthcare
+1. Digital Health Literacy healthcare Staff And General Public
+1. Health Information Exchange (HIE)
+1. Standards And Regulatory Compliance
+1. Electronic Prescribing ePrescribing
+1. Social Determinants Of Health (SDOH) And Informatics
+1. Cognitive Informatics And Human Factors
+1. History Of Digital Health In Other Countries
+1. Public Health Informatics
+1. Digital Twins And Simulation In Healthcare
+1. Health Information Management
+1. Telemedicine And Telehealth
+1. Interdisciplinary Collaboration And Communication
+1. Digital Health Innovation And Entrepreneurship
+1. Research And Development In ClinicalInformatics
+1. Behavioural Health Informatics
+1. Digital Therapeutics And Remote Monitoring
+1. Mobile Health mHealth
+1. Global Health Informatics
+1. Clinical Trials And Research Informatics
+1. Personalised Medicine And Genomics
+
+
+## Growth Strategy
+
+The **Essentials of Health Informatics** project aims to grow both in content and reach, ensuring that it remains a leading resource in the field.
+
+
+### Content Expansion
+
+1. **Additional Webinar Series:** If the initial 10 webinar series are successful, further series covering other topics and sub-topics in health informatics will be developed. There are around 40 main topics that need to be covered (as [Topics](#Topics) above).
+1. **Interactive Features:** Introduce interactive features such as live Q&A sessions, forums for peer discussion, and virtual workshops to enhance engagement and learning.
+1. **Certification Programs:** Develop a certification program for participants who complete the webinar series and pass an examination. This will provide a recognised credential in health informatics.
+
+
+### Audience Growth
+
+1. **Targeted Marketing:** Implement a robust marketing strategy to reach a broader audience, including healthcare professionals, digital health enthusiasts, and students. Utilise social media, professional networks, and partnerships with healthcare organisations.
+1. **Global Outreach:** Expand the reach to an international audience by offering webinars at different times and providing translations in multiple languages.
+
+
+### Sponsorship and Partnerships
+
+1. **Increase Sponsorship:** Engage with more sponsors to support the financial sustainability of the project. Highlight the benefits of brand visibility, thought leadership, and access to valuable market insights.
+1. **Strategic Partnerships:** Form partnerships with universities, healthcare organisations, and professional bodies to promote the webinar series and guide. These partnerships can also provide additional resources and expertise.
+
+
+### Technology and Innovation
+
+1. **Platform Enhancement:** Continuously improve the online platform to ensure a seamless user experience. Incorporate advanced features such as personalised learning paths and analytics to track user progress.
+1. **Mobile Accessibility:** Develop a mobile app to provide easy access to the guide and webinars on the go, catering to the needs of busy professionals.
+
+
+### Accreditation
+
+1. **CPD or academy institute:** This project could expand the recognition of its learning materials (webinars, written guide and exam) through either continuous professional development (CPD) points or via accreditation via an academic institute.
+
+
+### Feedback and Improvement
+
+1. **Regular Updates:** Ensure the guide and webinars are regularly reviewed and updated based on the latest advancements in health informatics and participant feedback.
+1. **User Feedback:** Actively seek and incorporate feedback from participants to continuously improve the content and delivery of the webinars.
+
+
+## Personnel
+
+### Dr Mark Bailey BSc PhD MB BChir MRCP MSc [CV here](https://bailey-medics.com/mark-bailey-cv.html)
+
+An experienced expert in health informatics with an extensive background in clinical practice, digital innovation, and leadership, currently serving as the Director of Let’s Do Digital. This professional has successfully led multiple digital health initiatives, including integrating clinical protocols into electronic patient records and optimising sleep treatment protocols. As the former Interim Chair of Council at the Faculty of Clinical Informatics, they led over 1200 members, showcasing exceptional leadership and organisational skills. Their innovative work has significantly improved clinical efficiencies, demonstrated by developing an automation of routine clinical tasks and a digital cancer pathway prototype. With a robust academic background, including a PhD in Medicinal Chemistry and an MSc in Digital Leadership, they are well-equipped to manage the creation of the **Essentials of Health Informatics** webinar series and online guide, bringing a wealth of knowledge, practical experience, and strategic vision to the project.
+
+### Dr Trefor Roscoe FFCI
+
+Dr Trefor Roscoe has been involved in healthcare Informatics since the mid 90s. He taught at Sheffield University and was on committees regionally and nationally advising on medical computing in primary care.
+
+
+## Ownership
+
+All webinar materials and exam questions will be owned by Bailey Medics Limited. The **Essentials in Healthcare** guide will be available free of charge online. This will be hosted at expense to Bailey Medics Ltd.
+
+## Conclusion
+
+The **Essentials of Health Informatics** guide offers a sustainable, up-to-date resource, meeting a critical need in the healthcare sector. By leveraging webinars for funding and continuous updates, the project ensures both immediate and long-term benefits. If the initial 10 webinars are successful, further series will be developed to cover additional topics. We recommend proceeding with the development and implementation of this project to enhance knowledge and professional development in health informatics.
