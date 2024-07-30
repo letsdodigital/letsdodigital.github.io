@@ -1,0 +1,1269 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.55">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Business Case: Essentials of Health Informatics – Let’s Do Digital</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../media/ldd-logo.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta name="twitter:title" content="Business Case: Essentials of Health Informatics – Let’s Do Digital">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Let’s Do Digital</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../learn/index.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../conferences/2024/index.html"> 
+<span class="menu-text">Conference</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../tickets/index.html"> 
+<span class="menu-text">Tickets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../services-we-offer.html"> 
+<span class="menu-text">Services we offer</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../who-are-we.html"> 
+<span class="menu-text">Who are we</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#executive-summary" id="toc-executive-summary" class="nav-link active" data-scroll-target="#executive-summary">Executive Summary</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#background" id="toc-background" class="nav-link" data-scroll-target="#background">Background</a></li>
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">Scope</a></li>
+  <li><a href="#feedback" id="toc-feedback" class="nav-link" data-scroll-target="#feedback">Feedback</a></li>
+  </ul></li>
+  <li><a href="#problem-statement" id="toc-problem-statement" class="nav-link" data-scroll-target="#problem-statement">Problem Statement</a>
+  <ul class="collapse">
+  <li><a href="#problem-definition" id="toc-problem-definition" class="nav-link" data-scroll-target="#problem-definition">Problem Definition</a></li>
+  <li><a href="#impact" id="toc-impact" class="nav-link" data-scroll-target="#impact">Impact</a></li>
+  </ul></li>
+  <li><a href="#target-audience" id="toc-target-audience" class="nav-link" data-scroll-target="#target-audience">Target Audience</a></li>
+  <li><a href="#analysis-of-options" id="toc-analysis-of-options" class="nav-link" data-scroll-target="#analysis-of-options">Analysis of Options</a>
+  <ul class="collapse">
+  <li><a href="#option-1-traditional-printed-guide" id="toc-option-1-traditional-printed-guide" class="nav-link" data-scroll-target="#option-1-traditional-printed-guide">Option 1: Traditional Printed Guide</a></li>
+  <li><a href="#option-2-static-online-guide" id="toc-option-2-static-online-guide" class="nav-link" data-scroll-target="#option-2-static-online-guide">Option 2: Static Online Guide</a></li>
+  <li><a href="#option-3-traditional-university-delivery" id="toc-option-3-traditional-university-delivery" class="nav-link" data-scroll-target="#option-3-traditional-university-delivery">Option 3: Traditional University Delivery</a></li>
+  <li><a href="#option-4-interactive-online-guide-with-webinars-proposed-solution" id="toc-option-4-interactive-online-guide-with-webinars-proposed-solution" class="nav-link" data-scroll-target="#option-4-interactive-online-guide-with-webinars-proposed-solution">Option 4: Interactive Online Guide with Webinars (Proposed Solution)</a></li>
+  </ul></li>
+  <li><a href="#proposed-solution" id="toc-proposed-solution" class="nav-link" data-scroll-target="#proposed-solution">Proposed Solution</a>
+  <ul class="collapse">
+  <li><a href="#solution" id="toc-solution" class="nav-link" data-scroll-target="#solution">Solution</a></li>
+  <li><a href="#justification" id="toc-justification" class="nav-link" data-scroll-target="#justification">Justification</a></li>
+  </ul></li>
+  <li><a href="#sponsorship-amounts" id="toc-sponsorship-amounts" class="nav-link" data-scroll-target="#sponsorship-amounts">Sponsorship Amounts</a></li>
+  <li><a href="#benefits-to-external-sponsors" id="toc-benefits-to-external-sponsors" class="nav-link" data-scroll-target="#benefits-to-external-sponsors">Benefits to External Sponsors</a></li>
+  <li><a href="#benefits-for-speakers" id="toc-benefits-for-speakers" class="nav-link" data-scroll-target="#benefits-for-speakers">Benefits for Speakers</a></li>
+  <li><a href="#advertising" id="toc-advertising" class="nav-link" data-scroll-target="#advertising">Advertising</a>
+  <ul class="collapse">
+  <li><a href="#advertising-channels" id="toc-advertising-channels" class="nav-link" data-scroll-target="#advertising-channels">Advertising Channels</a></li>
+  <li><a href="#key-messages" id="toc-key-messages" class="nav-link" data-scroll-target="#key-messages">Key Messages</a></li>
+  </ul></li>
+  <li><a href="#media-locations" id="toc-media-locations" class="nav-link" data-scroll-target="#media-locations">Media locations</a></li>
+  <li><a href="#implementation-plan" id="toc-implementation-plan" class="nav-link" data-scroll-target="#implementation-plan">Implementation Plan</a>
+  <ul class="collapse">
+  <li><a href="#project-plan" id="toc-project-plan" class="nav-link" data-scroll-target="#project-plan">Project Plan</a></li>
+  <li><a href="#resources-required" id="toc-resources-required" class="nav-link" data-scroll-target="#resources-required">Resources Required</a></li>
+  <li><a href="#roles-and-responsibilities" id="toc-roles-and-responsibilities" class="nav-link" data-scroll-target="#roles-and-responsibilities">Roles and Responsibilities:</a></li>
+  </ul></li>
+  <li><a href="#financial-analysis" id="toc-financial-analysis" class="nav-link" data-scroll-target="#financial-analysis">Financial Analysis</a>
+  <ul class="collapse">
+  <li><a href="#costs-for-1st-10-webinars" id="toc-costs-for-1st-10-webinars" class="nav-link" data-scroll-target="#costs-for-1st-10-webinars">Costs for 1st 10 webinars</a></li>
+  <li><a href="#revenue" id="toc-revenue" class="nav-link" data-scroll-target="#revenue">Revenue</a></li>
+  <li><a href="#return-on-investment-roi" id="toc-return-on-investment-roi" class="nav-link" data-scroll-target="#return-on-investment-roi">Return on Investment (ROI):</a></li>
+  </ul></li>
+  <li><a href="#swot-analysis" id="toc-swot-analysis" class="nav-link" data-scroll-target="#swot-analysis">SWOT analysis</a>
+  <ul class="collapse">
+  <li><a href="#strengths" id="toc-strengths" class="nav-link" data-scroll-target="#strengths">Strengths</a></li>
+  <li><a href="#weaknesses" id="toc-weaknesses" class="nav-link" data-scroll-target="#weaknesses">Weaknesses</a></li>
+  <li><a href="#opportunities" id="toc-opportunities" class="nav-link" data-scroll-target="#opportunities">Opportunities</a></li>
+  <li><a href="#threats" id="toc-threats" class="nav-link" data-scroll-target="#threats">Threats</a></li>
+  </ul></li>
+  <li><a href="#benefits-realisation" id="toc-benefits-realisation" class="nav-link" data-scroll-target="#benefits-realisation">Benefits Realisation</a>
+  <ul class="collapse">
+  <li><a href="#key-performance-indicators" id="toc-key-performance-indicators" class="nav-link" data-scroll-target="#key-performance-indicators">Key Performance Indicators</a></li>
+  <li><a href="#tracking-and-reporting" id="toc-tracking-and-reporting" class="nav-link" data-scroll-target="#tracking-and-reporting">Tracking and Reporting</a></li>
+  <li><a href="#timeline-for-benefits" id="toc-timeline-for-benefits" class="nav-link" data-scroll-target="#timeline-for-benefits">Timeline for Benefits</a></li>
+  </ul></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a></li>
+  <li><a href="#growth-strategy" id="toc-growth-strategy" class="nav-link" data-scroll-target="#growth-strategy">Growth Strategy</a>
+  <ul class="collapse">
+  <li><a href="#content-expansion" id="toc-content-expansion" class="nav-link" data-scroll-target="#content-expansion">Content Expansion</a></li>
+  <li><a href="#audience-growth" id="toc-audience-growth" class="nav-link" data-scroll-target="#audience-growth">Audience Growth</a></li>
+  <li><a href="#sponsorship-and-partnerships" id="toc-sponsorship-and-partnerships" class="nav-link" data-scroll-target="#sponsorship-and-partnerships">Sponsorship and Partnerships</a></li>
+  <li><a href="#technology-and-innovation" id="toc-technology-and-innovation" class="nav-link" data-scroll-target="#technology-and-innovation">Technology and Innovation</a></li>
+  <li><a href="#accreditation" id="toc-accreditation" class="nav-link" data-scroll-target="#accreditation">Accreditation</a></li>
+  <li><a href="#feedback-and-improvement" id="toc-feedback-and-improvement" class="nav-link" data-scroll-target="#feedback-and-improvement">Feedback and Improvement</a></li>
+  </ul></li>
+  <li><a href="#personnel" id="toc-personnel" class="nav-link" data-scroll-target="#personnel">Personnel</a>
+  <ul class="collapse">
+  <li><a href="#dr-mark-bailey-bsc-phd-mb-bchir-mrcp-msc-cv-here" id="toc-dr-mark-bailey-bsc-phd-mb-bchir-mrcp-msc-cv-here" class="nav-link" data-scroll-target="#dr-mark-bailey-bsc-phd-mb-bchir-mrcp-msc-cv-here">Dr Mark Bailey BSc PhD MB BChir MRCP MSc CV here</a></li>
+  <li><a href="#dr-trefor-roscoe-ffci" id="toc-dr-trefor-roscoe-ffci" class="nav-link" data-scroll-target="#dr-trefor-roscoe-ffci">Dr Trefor Roscoe FFCI</a></li>
+  </ul></li>
+  <li><a href="#ownership" id="toc-ownership" class="nav-link" data-scroll-target="#ownership">Ownership</a></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Business Case: Essentials of Health Informatics</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="executive-summary" class="level2">
+<h2 class="anchored" data-anchor-id="executive-summary">Executive Summary</h2>
+<p>The project aims to develop a free to use, online guide titled <strong>Essentials of Health Informatics</strong>. This guide will serve as a comprehensive resource in health informatics. The target audience will include healthcare professionals, those in digital roles and students interested in health informatics. The initial business plan includes the delivery of ten pay-to-watch 1-hour webinars covering topics identified through survey. Additionally, the project will seek external sponsorship to support its financial sustainability. Subject matter experts will prepare their presentations, present at the webinar, and contribute to the guide. This project will utilise an <strong>Education as a Service</strong> model, providing flexible, up-to-date and accessible learning opportunities in contrast to traditional university degrees and hard copy textbooks.</p>
+<p>The benefits of this project include providing widespread access to up-to-date information in health informatics, funded through webinar fees, paid-for-viewing of webinar recordings and sponsorship. The guide will be regularly reviewed and updated, ensuring its relevance and accuracy compared to static hard copy guides. If the first 10 webinars are successful, additional series of webinars on different topics will be delivered.</p>
+</section>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<section id="background" class="level3">
+<h3 class="anchored" data-anchor-id="background">Background</h3>
+<p><strong>Bailey Medics Ltd</strong>, under the trade name <strong>Let’s Do Digital</strong>, aims to bridge the knowledge gap in health informatics by creating an accessible, continuously updated online guide. The healthcare sector’s increasing reliance on informatics necessitates a reliable and current resource for professionals and enthusiasts alike. By adopting an <strong>Education as a Service</strong> approach, Bailey Medics Ltd aims to offer flexible, up-to-date and accessible learning opportunities that keep pace with advancements in health informatics.</p>
+</section>
+<section id="objectives" class="level3">
+<h3 class="anchored" data-anchor-id="objectives">Objectives</h3>
+<ul>
+<li>To create and maintain a <strong>comprehensive</strong> and <strong>free to access</strong> online guide on health informatics.</li>
+<li>To conduct a series of webinars as a revenue stream and educational initiative.</li>
+<li>To engage with 2-5 external sponsors as an additional revenue stream.</li>
+<li>To ensure the guide remains current through regular reviews and updates.</li>
+<li>To expand the webinar series if the initial 10 webinars are successful.</li>
+<li>To later develop a paid for exam covering the topic of health informatics.</li>
+</ul>
+</section>
+<section id="scope" class="level3">
+<h3 class="anchored" data-anchor-id="scope">Scope</h3>
+<p>The project encompasses the development of the guide, organisation and delivery of webinars, securing sponsorship, and engaging subject matter experts for content creation and examination questions.</p>
+</section>
+<section id="feedback" class="level3">
+<h3 class="anchored" data-anchor-id="feedback">Feedback</h3>
+<p>Feedback from social engagements has been very positive. A post by Mark Bailey (of Bailey Medics Ltd) on LinkedIn about the guide (initially referred to as the “Handbook of Clinical Informatics”) had many positive comments and large numbers of engagements. As of the 30th of July, this post regarding the guide had <strong>4771 impressions</strong>, <strong>2520 unique views</strong>, and <strong>36 comments</strong>. The top reaction was from <strong>Clinical Scientists</strong> and the top comments were from <strong>Medical Doctors</strong>. The post can be viewed <a href="https://www.linkedin.com/posts/markbaileyci_i-am-curious-about-something-and-would-greatly-activity-7204555745709731841-gO_0?utm_source=share&amp;utm_medium=member_desktop">here</a>.</p>
+</section>
+</section>
+<section id="problem-statement" class="level2">
+<h2 class="anchored" data-anchor-id="problem-statement">Problem Statement</h2>
+<section id="problem-definition" class="level3">
+<h3 class="anchored" data-anchor-id="problem-definition">Problem Definition</h3>
+<p>There is a lack of accessible, up-to-date resources in health informatics, which hinders learning and professional development in this rapidly evolving field. Traditional hard copy guides are quickly outdated and less accessible, failing to meet the ongoing needs of learners.</p>
+</section>
+<section id="impact" class="level3">
+<h3 class="anchored" data-anchor-id="impact">Impact</h3>
+<p>Without a reliable and current resource, healthcare professionals may struggle to stay informed about the latest advancements and best practices in health informatics. Benefits of actively engaging and learning from these educational materials include improved job performance and advancement opportunities. Our <strong>Education as a Service</strong> model addresses this gap by providing continuous, accessible learning opportunities, unlike static university degrees and textbooks.</p>
+</section>
+</section>
+<section id="target-audience" class="level2">
+<h2 class="anchored" data-anchor-id="target-audience">Target Audience</h2>
+<p>The guide, webinars and exam will be aimed at healthcare professionals, those in digital roles and students interested in health informatics.</p>
+</section>
+<section id="analysis-of-options" class="level2">
+<h2 class="anchored" data-anchor-id="analysis-of-options">Analysis of Options</h2>
+<section id="option-1-traditional-printed-guide" class="level3">
+<h3 class="anchored" data-anchor-id="option-1-traditional-printed-guide">Option 1: Traditional Printed Guide</h3>
+<ul>
+<li><strong>Pros:</strong> Tangible, one-time cost for production.</li>
+<li><strong>Cons:</strong> Quickly outdated, high distribution costs, limited accessibility.</li>
+</ul>
+</section>
+<section id="option-2-static-online-guide" class="level3">
+<h3 class="anchored" data-anchor-id="option-2-static-online-guide">Option 2: Static Online Guide</h3>
+<ul>
+<li><strong>Pros:</strong> Wider accessibility, lower distribution costs.</li>
+<li><strong>Cons:</strong> Still requires regular updates, initial development cost.</li>
+</ul>
+</section>
+<section id="option-3-traditional-university-delivery" class="level3">
+<h3 class="anchored" data-anchor-id="option-3-traditional-university-delivery">Option 3: Traditional University Delivery</h3>
+<ul>
+<li><strong>Pros:</strong> Established educational framework, recognised credentials.</li>
+<li><strong>Cons:</strong> High costs for students, inflexible schedules, slow curriculum updates, limited accessibility for non-traditional students.</li>
+</ul>
+</section>
+<section id="option-4-interactive-online-guide-with-webinars-proposed-solution" class="level3">
+<h3 class="anchored" data-anchor-id="option-4-interactive-online-guide-with-webinars-proposed-solution">Option 4: Interactive Online Guide with Webinars (Proposed Solution)</h3>
+<ul>
+<li><strong>Pros:</strong> Continuously updated, wide accessibility, interactive learning through webinars, potential for revenue through fees and sponsorship. This <strong>Education as a Service</strong> model offers flexible, ongoing educational opportunities.</li>
+<li><strong>Cons:</strong> Requires ongoing maintenance, initial setup costs, risk of low uptake.</li>
+</ul>
+</section>
+</section>
+<section id="proposed-solution" class="level2">
+<h2 class="anchored" data-anchor-id="proposed-solution">Proposed Solution</h2>
+<section id="solution" class="level3">
+<h3 class="anchored" data-anchor-id="solution">Solution</h3>
+<p>Develop an interactive online guide on health informatics, supported by an initial series of ten 1-hour webinars. This solution leverages the expertise of subject matter experts to ensure high-quality content and continuous updates. It combines education with revenue generation through webinar fees and potential sponsorship. If the initial series is successful, additional webinars will be developed.</p>
+</section>
+<section id="justification" class="level3">
+<h3 class="anchored" data-anchor-id="justification">Justification</h3>
+<p>This <strong>Education as a Service</strong> approach addresses the need for up-to-date information, maximises accessibility, and creates a sustainable model through combined revenue streams.</p>
+</section>
+</section>
+<section id="sponsorship-amounts" class="level2">
+<h2 class="anchored" data-anchor-id="sponsorship-amounts">Sponsorship Amounts</h2>
+<p>There will be 3 tiers of sponsorship:</p>
+<ol type="1">
+<li><strong>Gold: £3000 (GBP)</strong> - Appreciation to your company at the beginning of the <strong>Essentials of Health Informatics</strong> webinars and on the <strong>Essentials of Health Informatics</strong> website landing page. Your company logo will be displayed on all of <strong>Let’s Do Digital</strong> webinar and <strong>Let’s Talk Digital conference</strong> opening slides and <strong>Let’s Do Digital</strong> website landing page. With this sponsorship level, we would not accept any sponsorship from other similar vendors (the vendor genre would need to be agreed beforehand and not be too generalised). Sponsorship for 1 year.</li>
+<li><strong>Silver: £2000 (GBP)</strong> - Appreciation to your company at the beginning of the <strong>Essentials of Health Informatics</strong> webinars and on the <strong>Essentials of Health Informatics</strong> website landing page. Your company logo will be displayed on all of <strong>Let’s Do Digital</strong> webinar and <strong>Let’s Talk Digital conference</strong> opening slides and <strong>Let’s Do Digital</strong> website landing page. Sponsorship for 1 year.</li>
+<li><strong>Bronze: £1000 (GBP)</strong> - Appreciation to your company at the beginning of the <strong>Essentials of Health Informatics</strong> webinars and on the <strong>Essentials of Health Informatics</strong> website landing page. Sponsorship for 1 year.</li>
+</ol>
+</section>
+<section id="benefits-to-external-sponsors" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-to-external-sponsors">Benefits to External Sponsors</h2>
+<ol type="1">
+<li><strong>Brand Visibility and Recognition:</strong> Sponsors will gain visibility among a targeted audience of healthcare professionals, educators, and technology enthusiasts interested in health informatics.</li>
+<li><strong>Thought Leadership:</strong> By sponsoring this guide, sponsors demonstrate their commitment to advancing knowledge and innovation in health informatics, positioning themselves as leaders in the industry.</li>
+<li><strong>Corporate Social Responsibility (CSR):</strong> Sponsors will show clear social responsibility by promoting accessible education and professional development in healthcare.</li>
+<li><strong>Long-Term Partnership Opportunities:</strong> Sponsors can establish long-term partnerships with Bailey Medics Ltd for ongoing sponsorship of future webinar series or updates to the guide.</li>
+</ol>
+</section>
+<section id="benefits-for-speakers" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-for-speakers">Benefits for Speakers</h2>
+<ol type="1">
+<li><strong>Professional Exposure and Recognition:</strong> Speakers will gain visibility and recognition within the healthcare and technology sectors as <strong>first authors</strong> of their respective sections in the Essentials of Health Informatics guide.</li>
+<li><strong>Networking Opportunities:</strong> Opportunities to network with other industry professionals, potential collaborators, and sponsors during webinar sessions and other related (eg Let’s Do Digital) events.</li>
+<li><strong>Enhanced Credibility:</strong> Contributing to an authoritative guide and delivering webinars enhances a speakers’ credibility and authority in their field.</li>
+<li><strong>Compensation:</strong> Speakers will receive competitive compensation up to £100 (GBP) per hour based on their involvement, incentivising high-quality contributions.</li>
+<li><strong>Professional Development:</strong> Engaging in content creation and webinar delivery supports ongoing professional development and knowledge sharing.</li>
+<li><strong>Access to Resources:</strong> Speakers gain access to resources, insights, and updates from other experts contributing to the guide, enriching their own knowledge base.</li>
+</ol>
+</section>
+<section id="advertising" class="level2">
+<h2 class="anchored" data-anchor-id="advertising">Advertising</h2>
+<p>The marketing campaign for the <strong>Essentials of Health Informatics</strong> guide and webinars will focus on showcasing the unique value and comprehensive nature of the educational offering. The aim is to attract healthcare professionals, digital health specialists, and students by highlighting the following key aspects:</p>
+<ul>
+<li><strong>Cutting-Edge Content:</strong> Emphasise the up-to-date and relevant nature of the material, which addresses the latest advancements in health informatics.</li>
+<li><strong>Expert-Led Sessions:</strong> Feature testimonials and profiles of our esteemed subject matter experts to build credibility and interest.</li>
+<li><strong>Interactive Learning:</strong> Promote the interactive elements of the webinars, including live Q&amp;A sessions, discussion forums, and virtual workshops.</li>
+<li><strong>Flexible and Accessible:</strong> Stress the convenience and flexibility of the online format, allowing learners to engage with the content at their own pace and from any location.</li>
+<li><strong>Certification and Professional Development:</strong> Highlight the opportunity for participants to earn a recognised credential in health informatics upon completing the series and passing the examination.</li>
+</ul>
+<section id="advertising-channels" class="level3">
+<h3 class="anchored" data-anchor-id="advertising-channels">Advertising Channels</h3>
+<p>To ensure wide-reaching and effective promotion, we will leverage the following advertising channels:</p>
+<ul>
+<li><strong>Social Media Campaigns:</strong> Utilise LinkedIn and X (Twitter) to reach healthcare professionals and digital health enthusiasts, featuring engaging posts and sponsored content.</li>
+<li><strong>Email Marketing:</strong> Send targeted email campaigns to our existing contacts and professional networks, highlighting the benefits and upcoming schedule of the webinar series.</li>
+<li><strong>Professional Networks and Partnerships:</strong> Collaborate with healthcare organisations, universities, and professional bodies to promote the series through their channels and networks.</li>
+<li><strong>Webinars and Online Events:</strong> Host free introductory webinars to generate interest and provide a sneak peek into the full series.</li>
+</ul>
+</section>
+<section id="key-messages" class="level3">
+<h3 class="anchored" data-anchor-id="key-messages">Key Messages</h3>
+<p>Our advertising efforts will focus on the following key messages:</p>
+<ul>
+<li>“Stay Ahead in Health Informatics: Enrol in Our Expert-Led Webinar Series”.</li>
+<li>“Flexible, Up-to-Date Learning: The Essentials of Health Informatics Guide”.</li>
+<li>“Earn a Recognised Credential in Health Informatics”.</li>
+<li>“Interactive and Engaging Webinars: Learn from the Best in the Field”.</li>
+<li>“Continuous Learning for Healthcare Professionals and Digital Health Enthusiasts”.</li>
+</ul>
+</section>
+</section>
+<section id="media-locations" class="level2">
+<h2 class="anchored" data-anchor-id="media-locations">Media locations</h2>
+<p>The guide will be accessible free of charge at <a href="https://essential-health-informatics.com/">https://essential-health-informatics.com/</a>.</p>
+<p>Webinars and recordings will be hosted on a video hosting platform, likely on <a href="https://essential-health-informatics.com/">https://thinkific.com/</a>.</p>
+</section>
+<section id="implementation-plan" class="level2">
+<h2 class="anchored" data-anchor-id="implementation-plan">Implementation Plan</h2>
+<section id="project-plan" class="level3">
+<h3 class="anchored" data-anchor-id="project-plan">Project Plan</h3>
+<ul>
+<li><strong>Phase 1:</strong> Survey analysis and content Planning (1 month) - Managed by Mark Bailey (Let’s Do Digital lead).</li>
+<li><strong>Phase 2:</strong> Engagement of subject matter experts (2 months) by Mark Bailey and Trefor Roscoe (webinar chair).</li>
+<li><strong>Phase 3:</strong> Development of webinar content (initial estimates are of 10 hours work per speaker) and guide sections (3 months) - by Mark Bailey.</li>
+<li><strong>Phase 4:</strong> Marketing and promotion (2 months) - lead by Mark Bailey.</li>
+<li><strong>Phase 5:</strong> Delivery of webinars (10 weeks).</li>
+<li><strong>Phase 6:</strong> Ongoing updates and reviews (every 12 months).</li>
+<li><strong>Phase 7:</strong> Expansion of webinar series (if initial series is successful)</li>
+<li><strong>Phase 8:</strong> If development of the guide and webinar series is successful, then a paid for exam on health informatics will also be delivered.</li>
+</ul>
+<p><strong>Timeline:</strong> A total of 8 months for initial development and delivery, with ongoing updates and potential expansion thereafter.</p>
+</section>
+<section id="resources-required" class="level3">
+<h3 class="anchored" data-anchor-id="resources-required">Resources Required</h3>
+<ul>
+<li><strong>Personnel:</strong> Project manager - Mark Bailey, Trefor Roscoe, and subject matter experts.</li>
+<li><strong>Technology:</strong> Webinar platform, website hosting, content management system.</li>
+<li><strong>Budget:</strong> Expert compensation, technology and maintenance costs.</li>
+</ul>
+</section>
+<section id="roles-and-responsibilities" class="level3">
+<h3 class="anchored" data-anchor-id="roles-and-responsibilities">Roles and Responsibilities:</h3>
+<ul>
+<li><strong>Mark Bailey:</strong> Project management, development, and marketing.</li>
+<li><strong>Trefor Roscoe:</strong> webinar chair.</li>
+<li><strong>Subject Matter Experts:</strong> Develop content, deliver webinars, and updates.</li>
+</ul>
+</section>
+</section>
+<section id="financial-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="financial-analysis">Financial Analysis</h2>
+<section id="costs-for-1st-10-webinars" class="level3">
+<h3 class="anchored" data-anchor-id="costs-for-1st-10-webinars">Costs for 1st 10 webinars</h3>
+<ul>
+<li>Expert Compensation: £10,000.</li>
+<li>Webinar chair £2,000.</li>
+<li>Project management, development, and marketing: £4,000.</li>
+<li>Technology and Maintenance: £2,000.</li>
+</ul>
+</section>
+<section id="revenue" class="level3">
+<h3 class="anchored" data-anchor-id="revenue">Revenue</h3>
+<ul>
+<li>Webinar Fees: £495 per attendee x 35 attendees = £17,325</li>
+<li>First month of ticket sales will likely be sold at a 30% reduced rate (eg £350) to attract initial interest.</li>
+<li>Sponsorship: Estimated £5,000 annually.</li>
+<li>Paid for viewing of recordings of webinars. This is covered by purchasing attendance to the webinars, but can also be bought separately.</li>
+</ul>
+</section>
+<section id="return-on-investment-roi" class="level3">
+<h3 class="anchored" data-anchor-id="return-on-investment-roi">Return on Investment (ROI):</h3>
+<ul>
+<li>Initial Year: £17,325 (fees) + £5,000 (sponsorship) - £18,000 (costs) = £4,325</li>
+</ul>
+</section>
+</section>
+<section id="swot-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="swot-analysis">SWOT analysis</h2>
+<p>Below is the Strengths / Weaknesses / Opportunities / Threats analysis.</p>
+<section id="strengths" class="level3">
+<h3 class="anchored" data-anchor-id="strengths">Strengths</h3>
+<ul>
+<li><strong>First-Mover Advantage:</strong> As one of the first comprehensive, free-to-access, and online guides in health informatics, we can establish a strong brand presence and capture a significant share of the market early on.</li>
+<li><strong>Expert-Led Content:</strong> Leveraging the knowledge and experience of subject matter experts ensures high-quality, credible, and authoritative content that can attract and retain learners.</li>
+<li><strong>Flexible and Up-to-Date Learning:</strong> The online, continuously updated format of the guide and webinars provides flexibility and ensures the content remains relevant and current, unlike traditional static textbooks.</li>
+<li><strong>Cost-Effective Education:</strong> Offering high-value content at a competitive price of £495 for 10 webinars (recorded or live) makes advanced health informatics education accessible to a broader audience.</li>
+<li><strong>Reputation and Network:</strong> Strong professional networks and prior successes in digital health initiatives lend credibility and facilitate collaborations and endorsements from key stakeholders.</li>
+</ul>
+</section>
+<section id="weaknesses" class="level3">
+<h3 class="anchored" data-anchor-id="weaknesses">Weaknesses</h3>
+<ul>
+<li><strong>Customer Uptake Uncertainty:</strong> There is a risk that the target audience may not engage as expected, impacting the project’s financial sustainability and overall success.</li>
+<li><strong>Initial Funding Requirements:</strong> The upfront costs for developing the guide, compensating experts, and marketing efforts require significant initial investment, posing a financial risk if the revenue targets are not met.</li>
+<li><strong>Dependence on Subject Matter Experts:</strong> The quality and success of the webinars and guide are highly dependent on the engagement and performance of the subject matter experts. Securing their commitment and ensuring consistent quality may be challenging. <strong>Mitigation:</strong> Offer competitive compensation and promote professional exposure.</li>
+<li><strong>Brand Recognition:</strong> As a new entrant in the market, establishing brand recognition and trust may take time and require substantial marketing efforts.</li>
+</ul>
+</section>
+<section id="opportunities" class="level3">
+<h3 class="anchored" data-anchor-id="opportunities">Opportunities</h3>
+<ul>
+<li><strong>Expandable and Large Potential Market:</strong> The healthcare sector’s increasing reliance on informatics creates a vast market opportunity. There is potential to expand the series with additional webinars and topics, catering to various subfields and specialisations.</li>
+<li><strong>Sponsorship and Partnerships:</strong> Engaging with external sponsors and forming strategic partnerships with healthcare organisations, educational institutions, and professional bodies can provide additional revenue streams and enhance credibility.</li>
+<li><strong>Professional Certification:</strong> Developing a certification program for health informatics can attract professionals seeking to enhance their qualifications and career prospects, adding value to the series.</li>
+<li><strong>Global Reach:</strong> The online format allows for global accessibility, opening up opportunities to reach international markets and learners.</li>
+<li><strong>Continuous Improvement:</strong> Regular updates and feedback mechanisms ensure the content remains relevant and valuable, enhancing user satisfaction and retention.</li>
+</ul>
+</section>
+<section id="threats" class="level3">
+<h3 class="anchored" data-anchor-id="threats">Threats</h3>
+<ul>
+<li><strong>Lack of Uptake:</strong> If the webinars and guide fail to attract a sufficient number of attendees, the project’s financial viability and sustainability could be jeopardised. <strong>Mitigation:</strong> Robust marketing strategy, early bird discounts, and partnership with professional bodies.</li>
+<li><strong>Initial Funding Difficulty:</strong> Securing the necessary initial funding for development, marketing, and expert compensation may be challenging, especially without proven demand.</li>
+<li><strong>Competition:</strong> As the field of health informatics grows, other organisations may enter the market with similar offerings, increasing competition and potentially impacting market share.</li>
+<li><strong>Technological Challenges:</strong> Technical issues with the webinar platform or website could disrupt the learning experience and deter participants.</li>
+</ul>
+</section>
+</section>
+<section id="benefits-realisation" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-realisation">Benefits Realisation</h2>
+<section id="key-performance-indicators" class="level3">
+<h3 class="anchored" data-anchor-id="key-performance-indicators">Key Performance Indicators</h3>
+<p><span style="color: grey; font-style: italic;">Number in brackets is the ideal minimum.</span></p>
+<ul>
+<li>Number of webinar attendees (35).</li>
+<li>Number of learners paying to solely watch recordings of the webinars (10).</li>
+<li>User engagement with the online guide, determined via survey and site traffic analysis (200 individual views).</li>
+<li>Sponsorship funds raised (£5000).</li>
+<li>Feedback and satisfaction scores from participants (mainly positive).</li>
+</ul>
+</section>
+<section id="tracking-and-reporting" class="level3">
+<h3 class="anchored" data-anchor-id="tracking-and-reporting">Tracking and Reporting</h3>
+<ul>
+<li>Monthly reviews of attendee numbers and user engagement.</li>
+<li>Bi-annual financial reviews.</li>
+<li>Regular feedback surveys.</li>
+</ul>
+</section>
+<section id="timeline-for-benefits" class="level3">
+<h3 class="anchored" data-anchor-id="timeline-for-benefits">Timeline for Benefits</h3>
+<ul>
+<li>Immediate financial gains post-webinar series.</li>
+<li>Continuous financial gains from webinar recordings.</li>
+<li>Continuous engagement and updates ensure long-term sustainability.</li>
+</ul>
+</section>
+</section>
+<section id="topics" class="level2">
+<h2 class="anchored" data-anchor-id="topics">Topics</h2>
+<p>Below are topics that will be covered in the guide. The titles themselves may be updated or consolidated as needed. The topics are in order of number of votes received from the survey of top 10 topics for the first 10 webinars:</p>
+<ol type="1">
+<li>Data Standards And Interoperability</li>
+<li>Introduction To ClinicalInformatics</li>
+<li>Usability And User Experience UX In HealthIT</li>
+<li>Healthcare IT Infrastructure</li>
+<li>Clinical Decision Support Systems (CDSS)</li>
+<li>Health Information Systems</li>
+<li>Artificial Intelligence And Machine Learning In Healthcare</li>
+<li>Clinical Workflow And Process Improvement</li>
+<li>Health Data Analytics</li>
+<li>Clinical Informatics Leadership And Governance</li>
+<li>Clinical Informatics Education And Training</li>
+<li>Regulatory And Policy Issues In Digital Health</li>
+<li>Patient Safety And Quality Improvement</li>
+<li>Population Health Management</li>
+<li>Ethics In Digital Health</li>
+<li>Programming In Clinical Informatics</li>
+<li>History Of Digital Health In The NHS UK</li>
+<li>Patient Engagement And Empowerment</li>
+<li>Health Economics And Informatics</li>
+<li>Privacy And Security</li>
+<li>Health IT Project Management</li>
+<li>Emerging Technologies In Healthcare</li>
+<li>Digital Health Literacy healthcare Staff And General Public</li>
+<li>Health Information Exchange (HIE)</li>
+<li>Standards And Regulatory Compliance</li>
+<li>Electronic Prescribing ePrescribing</li>
+<li>Social Determinants Of Health (SDOH) And Informatics</li>
+<li>Cognitive Informatics And Human Factors</li>
+<li>History Of Digital Health In Other Countries</li>
+<li>Public Health Informatics</li>
+<li>Digital Twins And Simulation In Healthcare</li>
+<li>Health Information Management</li>
+<li>Telemedicine And Telehealth</li>
+<li>Interdisciplinary Collaboration And Communication</li>
+<li>Digital Health Innovation And Entrepreneurship</li>
+<li>Research And Development In ClinicalInformatics</li>
+<li>Behavioural Health Informatics</li>
+<li>Digital Therapeutics And Remote Monitoring</li>
+<li>Mobile Health mHealth</li>
+<li>Global Health Informatics</li>
+<li>Clinical Trials And Research Informatics</li>
+<li>Personalised Medicine And Genomics</li>
+</ol>
+</section>
+<section id="growth-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="growth-strategy">Growth Strategy</h2>
+<p>The <strong>Essentials of Health Informatics</strong> project aims to grow both in content and reach, ensuring that it remains a leading resource in the field.</p>
+<section id="content-expansion" class="level3">
+<h3 class="anchored" data-anchor-id="content-expansion">Content Expansion</h3>
+<ol type="1">
+<li><strong>Additional Webinar Series:</strong> If the initial 10 webinar series are successful, further series covering other topics and sub-topics in health informatics will be developed. There are around 40 main topics that need to be covered (as <a href="#Topics">Topics</a> above).</li>
+<li><strong>Interactive Features:</strong> Introduce interactive features such as live Q&amp;A sessions, forums for peer discussion, and virtual workshops to enhance engagement and learning.</li>
+<li><strong>Certification Programs:</strong> Develop a certification program for participants who complete the webinar series and pass an examination. This will provide a recognised credential in health informatics.</li>
+</ol>
+</section>
+<section id="audience-growth" class="level3">
+<h3 class="anchored" data-anchor-id="audience-growth">Audience Growth</h3>
+<ol type="1">
+<li><strong>Targeted Marketing:</strong> Implement a robust marketing strategy to reach a broader audience, including healthcare professionals, digital health enthusiasts, and students. Utilise social media, professional networks, and partnerships with healthcare organisations.</li>
+<li><strong>Global Outreach:</strong> Expand the reach to an international audience by offering webinars at different times and providing translations in multiple languages.</li>
+</ol>
+</section>
+<section id="sponsorship-and-partnerships" class="level3">
+<h3 class="anchored" data-anchor-id="sponsorship-and-partnerships">Sponsorship and Partnerships</h3>
+<ol type="1">
+<li><strong>Increase Sponsorship:</strong> Engage with more sponsors to support the financial sustainability of the project. Highlight the benefits of brand visibility, thought leadership, and access to valuable market insights.</li>
+<li><strong>Strategic Partnerships:</strong> Form partnerships with universities, healthcare organisations, and professional bodies to promote the webinar series and guide. These partnerships can also provide additional resources and expertise.</li>
+</ol>
+</section>
+<section id="technology-and-innovation" class="level3">
+<h3 class="anchored" data-anchor-id="technology-and-innovation">Technology and Innovation</h3>
+<ol type="1">
+<li><strong>Platform Enhancement:</strong> Continuously improve the online platform to ensure a seamless user experience. Incorporate advanced features such as personalised learning paths and analytics to track user progress.</li>
+<li><strong>Mobile Accessibility:</strong> Develop a mobile app to provide easy access to the guide and webinars on the go, catering to the needs of busy professionals.</li>
+</ol>
+</section>
+<section id="accreditation" class="level3">
+<h3 class="anchored" data-anchor-id="accreditation">Accreditation</h3>
+<ol type="1">
+<li><strong>CPD or academy institute:</strong> This project could expand the recognition of its learning materials (webinars, written guide and exam) through either continuous professional development (CPD) points or via accreditation via an academic institute.</li>
+</ol>
+</section>
+<section id="feedback-and-improvement" class="level3">
+<h3 class="anchored" data-anchor-id="feedback-and-improvement">Feedback and Improvement</h3>
+<ol type="1">
+<li><strong>Regular Updates:</strong> Ensure the guide and webinars are regularly reviewed and updated based on the latest advancements in health informatics and participant feedback.</li>
+<li><strong>User Feedback:</strong> Actively seek and incorporate feedback from participants to continuously improve the content and delivery of the webinars.</li>
+</ol>
+</section>
+</section>
+<section id="personnel" class="level2">
+<h2 class="anchored" data-anchor-id="personnel">Personnel</h2>
+<section id="dr-mark-bailey-bsc-phd-mb-bchir-mrcp-msc-cv-here" class="level3">
+<h3 class="anchored" data-anchor-id="dr-mark-bailey-bsc-phd-mb-bchir-mrcp-msc-cv-here">Dr Mark Bailey BSc PhD MB BChir MRCP MSc <a href="https://bailey-medics.com/mark-bailey-cv.html">CV here</a></h3>
+<p>An experienced expert in health informatics with an extensive background in clinical practice, digital innovation, and leadership, currently serving as the Director of Let’s Do Digital. This professional has successfully led multiple digital health initiatives, including integrating clinical protocols into electronic patient records and optimising sleep treatment protocols. As the former Interim Chair of Council at the Faculty of Clinical Informatics, they led over 1200 members, showcasing exceptional leadership and organisational skills. Their innovative work has significantly improved clinical efficiencies, demonstrated by developing an automation of routine clinical tasks and a digital cancer pathway prototype. With a robust academic background, including a PhD in Medicinal Chemistry and an MSc in Digital Leadership, they are well-equipped to manage the creation of the <strong>Essentials of Health Informatics</strong> webinar series and online guide, bringing a wealth of knowledge, practical experience, and strategic vision to the project.</p>
+</section>
+<section id="dr-trefor-roscoe-ffci" class="level3">
+<h3 class="anchored" data-anchor-id="dr-trefor-roscoe-ffci">Dr Trefor Roscoe FFCI</h3>
+<p>Dr Trefor Roscoe has been involved in healthcare Informatics since the mid 90s. He taught at Sheffield University and was on committees regionally and nationally advising on medical computing in primary care.</p>
+</section>
+</section>
+<section id="ownership" class="level2">
+<h2 class="anchored" data-anchor-id="ownership">Ownership</h2>
+<p>All webinar materials and exam questions will be owned by Bailey Medics Limited. The <strong>Essentials in Healthcare</strong> guide will be available free of charge online. This will be hosted at expense to Bailey Medics Ltd.</p>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<p>The <strong>Essentials of Health Informatics</strong> guide offers a sustainable, up-to-date resource, meeting a critical need in the healthcare sector. By leveraging webinars for funding and continuous updates, the project ensures both immediate and long-term benefits. If the initial 10 webinars are successful, further series will be developed to cover additional topics. We recommend proceeding with the development and implementation of this project to enhance knowledge and professional development in health informatics.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/letsdodigital\.org\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../contact.html">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../privacy-policy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../company-information.html">
+<p>Company information</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../sponsor.html">
+<p>Sponsor us</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../paying-the-team.html">
+<p>Paying the team</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link active" href="../eohi/business-case.html" aria-current="page">
+<p>Essentials of Health Informatics</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/letsdodigital">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/letsdodigitalci">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
