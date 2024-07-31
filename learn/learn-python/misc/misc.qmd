@@ -1,0 +1,107 @@
+---
+title: "MISC"
+subtitle: "MISC"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+---
+
+
+## Mutability
+
+* `Mutability` is the ability of a variable to be changed.
+* As strange as it sounds, in python, some variables cannot be changed.
+* If you update an `immutable` variable, the variable is created again from scratch. 
+
+
+## Mutability
+
+* `Immutable` variables include:
+    * booleans
+    * integers
+    * floats
+    * strings
+    * tuples
+
+
+## Mutability
+
+* Don't trust me? Try this:
+
+```{.python filename="immutable_integer.py"}
+x = 10
+
+print(id(x))
+
+x = 6
+
+print(id(x))
+```
+
+Output
+
+        4463277792
+        4463277952
+
+
+## Mutable variables
+
+* And a list of mutable variable types include:
+    * lists
+    * dictionaries
+    * classes
+
+
+## Scope
+
+* In most programming languages, a variable has `scope`.
+* `Scope` defines where a variable can be read and altered.
+* `Scope` is determined by where a variable is originally defined.
+
+
+## Scope example
+
+```{.python filename="scope.py" code-line-numbers="6"}
+def patient_info():
+    patient_name = "Alice Smith"
+    print(f"Patient Name: {patient_name}")
+
+patient_info()
+print(patient_name)
+```
+
+Output
+
+        Patient Name: Alice Smith
+        Traceback (most recent call last):
+            File "/scope.py", line 6, in <module>
+                print(patient_name)
+                      ^^^^^^^^^^^^
+        NameError: name 'patient_name' is not defined.
+
+## Global keyword
+
+* To make a variable accessible inside your function or class, you can use the `global` keyword.
+* Using `global` allows you to reassign any variable.
+* Technically you do not need to use `global` if you are only updating (eg adding elements) mutable variables (eg lists and dictionaries).
+
+
+## Scope example - global
+
+```{.python filename="global.py" code-line-numbers="6"}
+patient_name = ""
+
+def patient_info():
+    global patient_name
+    patient_name = "Alice Smith"
+    print(f"Patient Name: {patient_name}")
+
+patient_info()
+print(patient_name)
+```
+
+Output
+
+        Patient Name: Alice Smith
+        Alice Smith
