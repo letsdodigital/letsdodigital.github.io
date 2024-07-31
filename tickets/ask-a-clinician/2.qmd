@@ -50,41 +50,12 @@ The first half will be a presentation of insights from a CCIO and pharmacist, fo
 
 Online, 2-3pm, on Thursday the 25th of July.
 
+You can watch the recording [here](https://youtu.be/rKwZkOC5Mpg)
+
 
 ## Tickets and coffees
 
-Please do consider buying the Let's Do Digital team a coffee or three. We put a lot of effort into making sure we deliver quality digital and healthcare content for you.
-
-```{=html}
-<p style="color: grey; font-style: italic;">
-Click on the napkin or coffee cup to get a ticket. Our privacy policy can be found <a href="https://letsdodigital.org/privacy-policy.html">here</a>.
-</p>
-
-<div style="display: flex; flex-direction: column; width: 100%;">
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://buymeacoffee.com/letsdodigital/e/273380" style="display: flex; justify-content: center;">
-                <img src="/media/white-paper-coffee-cup.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Buy 1 coffee or more to get a  ticket and also show your appreciation for the Let's Do Digital team. If you buy 10 coffees or more, you will also be placed on the "individual supporter" board on the letsdodigital.org home page for a whole year!
-        </div>
-    </div>
-    <div style="display: flex; flex-direction: row;">
-        <div style="display: flex; flex-direction: column; width: 20%; padding: 10px;">
-            <a href="https://buymeacoffee.com/letsdodigital/e/273381" style="display: flex; justify-content: center;">
-                <img src="/media/green-napkin.png" alt="3 tickets" style="height: 100px;">
-            </a>
-        </div>
-        <div style="display: flex; flex-direction: column; width: 80%; padding: 10px;">
-            Napkins get a you a free ticket. Always useful for cleaning up after those small coffee spills!
-        </div>
-    </div>
-</div>
-```
-
-If you are joining last minute, you can also jump straight on the YouTube live stream [here](https://youtube.com/live/f2N5x6uhIm0)
+Ticket sales are now closed.
 
 ## Questions
 
