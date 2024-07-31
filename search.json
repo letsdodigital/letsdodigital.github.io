@@ -368,21 +368,21 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function",
     "title": "Python basics - 1st slide deck",
     "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print (argument_1 + argument_2)\n\n    return \"Finished\""
+    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-1",
     "href": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-1",
     "title": "Python basics - 1st slide deck",
     "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print (argument_1 + argument_2)\n\n    return \"Finished\""
+    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-2",
     "href": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-2",
     "title": "Python basics - 1st slide deck",
     "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print (argument_1 + argument_2)\n\n    return \"Finished\""
+    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#inbuilt-functions",
@@ -536,7 +536,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-an-api",
     "title": "Building a digital consent form",
     "section": "What is an API?",
-    "text": "What is an API?\n\nAn application process interface (API) is a means for computer programs to communicate with each other.\nThese communicating programs can be on the same computer, over networks or even the internet.\nYou will be using the supabase library to connect to the supabase database via its API."
+    "text": "What is an API?\n\nAn application process interface (API) is a means for computer programs to communicate with each other.\nThese communicating programs can be on the same computer, over networks or even the internet.\nYou will be using the supabase python library to connect to the supabase database via its API."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#data-in-a-database",
@@ -564,7 +564,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#fields---some-key-facts",
     "title": "Building a digital consent form",
     "section": "Fields - some key facts",
-    "text": "Fields - some key facts\n\nThere are many different attributes that you can alter for fields on a webpage. These include:\n\nlabels - the label you see on the web page.\nkeys - how you reference a field in code.\non_change - a function to run when the value of a field changes."
+    "text": "Fields - some key facts\n\nThere are many different attributes that you can alter for each field on a webpage. These include:\n\nlabels - the label you see on the web page.\nkeys - how you reference a field in code.\non_change - a function to run when the value of a field changes."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#web-page-forms",
@@ -578,14 +578,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#anatomy-of-a-function",
     "title": "Building a digital consent form",
     "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n\n    print (argument_1 + argument_2)\n\n    return \"Finished\""
+    "text": "Anatomy of a function\n\n\nfunctions.py\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#scope",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#scope",
     "title": "Building a digital consent form",
     "section": "Scope",
-    "text": "Scope\n\nIn most programming languages, a variable has scope.\nScope defines where a variable can be read and altered.\nScope is determined by where a variable is originally defined."
+    "text": "Scope\n\nIn most programming languages, a variable has scope.\nScope defines where a variable can be read and altered.\nScope is determined by where a variable was originally defined."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#scope-example",
@@ -620,14 +620,21 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension-1",
     "title": "Building a digital consent form",
     "section": "List comprehension",
-    "text": "List comprehension\n\n\nlist_comprehension.py\n\npatients = [\n        {\"name\": \"Alice\", \"hospital_number\": \"H123\", \"age\": 25},\n        {\"name\": \"Bob\", \"hospital_number\": \"H124\", \"age\": 17},\n    ]\n\nnames = [\n    patient[\"name\"]\n    for patient in patients\n    if patient[\"age\"] &gt; 18\n]\n\nprint(names)\n\nOutput\n    Alice"
+    "text": "List comprehension\n\n\nlist_comprehension.py\n\ntemperatures = [36.5, 37.0, 38.5, 39.0, 37.8, 36.8, 39.5]\n\nhigh_temperatures = [temp for temp in temperatures if temp &gt; 38]\n\nprint(high_temperatures)\n\nOutput\n    [38.5, 39.0, 39.5]"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension---dictionaries",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension---dictionaries",
+    "title": "Building a digital consent form",
+    "section": "List comprehension - dictionaries",
+    "text": "List comprehension - dictionaries\n\n\nlist_comprehension.py\n\npatients = [\n        {\"name\": \"Alice\", \"hospital_number\": \"H123\", \"age\": 25},\n        {\"name\": \"Bob\", \"hospital_number\": \"H124\", \"age\": 17},\n    ]\n\nnames = [\n    patient[\"name\"]\n    for patient in patients\n    if patient[\"age\"] &gt; 18\n]\n\nprint(names)\n\nOutput\n    Alice"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-it-all",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-it-all",
     "title": "Building a digital consent form",
     "section": "I want it all",
-    "text": "I want it all\n\nThe all() function returns true if all elements in a list pass a certain test.\nIt uses similar syntax to list comprehension:\n\nall(condition for item in iterable)"
+    "text": "I want it all\n\nThe all() function returns true if all elements in a list pass a certain test.\n\nall(condition for item in iterable)"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-it-all-1",
@@ -679,6 +686,13 @@
     "text": "Streamlit methods - forms\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# Create a form\nwith st.form()\n    # As many fields as you like, eg\n    st.text_input(\"First name\")\n\n    submitted = st.form_submit_button(\"Submit\")\n\n    if submitted:\n        st.write(\"Button pressed\")"
   },
   {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods---forms-1",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods---forms-1",
+    "title": "Building a digital consent form",
+    "section": "Streamlit methods - forms",
+    "text": "Streamlit methods - forms\n\nNote the curved border around Streamlit forms."
+  },
+  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods---change-page",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods---change-page",
     "title": "Building a digital consent form",
@@ -711,21 +725,28 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
     "title": "Building a digital consent form",
     "section": "Nuances of streamlit",
-    "text": "Nuances of streamlit\n\nWhen you update the code and save, click “Always rerun” (top right) in the browser to always refresh on code change.\nSometimes you need to refresh the browser or even restart Streamlit to get certain codes changes to work.\nStreamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, press a button)."
+    "text": "Nuances of streamlit\n\nWhen you update the code and save, click Always rerun (top right) in the browser to automatically refresh on code change.\nSometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work.\nStreamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, or press a button)."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit-1",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit-1",
     "title": "Building a digital consent form",
     "section": "Nuances of streamlit",
-    "text": "Nuances of streamlit\n\nWhy the text field and selectbox outside of the form?\nBecause Streamlit does not allow for dynamic update within forms before submitting."
+    "text": "Nuances of streamlit\n\nWhy the text field and selectbox outside of the form (in lesson 2)?"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit-2",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit-2",
+    "title": "Building a digital consent form",
+    "section": "Nuances of streamlit",
+    "text": "Nuances of streamlit\n\nBecause Streamlit does not allow for dynamic update of fields within forms before submitting."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#you-need-to-have-vs-code-installed",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#you-need-to-have-vs-code-installed",
     "title": "Building a digital consent form",
     "section": "You need to have VS code installed",
-    "text": "You need to have VS code installed\n\nHopefully you have already installed the VS Code IDE on your own personal machines.\nYou have 10 minutes to try and install VS code now if you have not done so already. If no luck, then we will get you to use the Codespace IDE."
+    "text": "You need to have VS code installed\n\nHopefully you have already installed the VS Code IDE on your own personal machines.\nYou have 10 minutes to try and install VS code now if you have not done so already. If no luck, then we will get you to use the Codespace IDE instead."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions",
@@ -760,14 +781,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#formatting",
     "title": "Building a digital consent form",
     "section": "Formatting",
-    "text": "Formatting\n\nYou may notice strange line dropping in VScode. This is the Black formatter making your code conform to standards when you save."
+    "text": "Formatting\n\nYou may notice strange line dropping in VScode when you save. This is the Black formatter making your code conform to standards.\nBlack, as standard, makes code max 88 characters long, where possible.\n\n\n\nblack_formatting.py\n\n    st.text_input(\n        'Hospital number (eg \"HN001\")',\n        key=\"hospital_number_input\",\n        on_change=on_change_hospital_number(patients, hospital_numbers),\n    )"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
     "title": "Building a digital consent form",
     "section": "Finding your way",
-    "text": "Finding your way\n\nClick inside your terminal window\nGo to:\n\n$ cd programming_in_health_care/module_2/lesson_2"
+    "text": "Finding your way\n\nClick inside your terminal window.\nGo to:\n\n$ cd programming_in_health_care/module_2/lesson_2"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#install-libraries",
@@ -788,7 +809,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#secrets-1",
     "title": "Building a digital consent form",
     "section": "Secrets",
-    "text": "Secrets\n\nCreate a copy of the .streamlit/secrets_example.toml/ file and rename it .streamlit/secrets.toml/.\nAdd the url and API key from HackMD to this new file."
+    "text": "Secrets\n\nCreate a copy of the .streamlit/secrets_example.toml file and rename it .streamlit/secrets.toml.\nAdd the URL and API key from HackMD to this new file."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#and-then-run",
@@ -830,7 +851,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#have-the-slides-on-hand",
     "title": "Building a digital consent form",
     "section": "Have the slides on hand",
-    "text": "Have the slides on hand\n\nMake sure you have the slides on hand - https://letsdodigital.org/learn/learn-python/module-2/\nYou will likely need them as you build your digital consent form.\nRecommend doing small changes to code saving, and checking what happens in the browser"
+    "text": "Have the slides on hand\n\nMake sure you have the slides on hand - https://letsdodigital.org/learn/learn-python/module-2/\nYou will likely need them as you build your digital consent form.\nRecommend doing small changes to code, saving your work, and then checking to see what happens in the browser."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#ask",
@@ -838,6 +859,34 @@
     "title": "Building a digital consent form",
     "section": "Ask",
     "text": "Ask\n\nPlease please please ask questions of your tutor. That is why they are here.\n\nThere is no such thing as a stupid question, only a question left unanswered"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---consent_types",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---consent_types",
+    "title": "Building a digital consent form",
+    "section": "Database fields - consent_types",
+    "text": "Database fields - consent_types\nREAD ONLY\n\nid\ncreated_at\ntype\nfull_description\nintended_benefits\npotential_risks"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---patient_demographics",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---patient_demographics",
+    "title": "Building a digital consent form",
+    "section": "Database fields - patient_demographics",
+    "text": "Database fields - patient_demographics\nREAD ONLY\n\nid\ncreated_at\nfirst_name\nlast_name\nhospital_number (HN001 - HN050)\ndate_of_birth\nemail"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---users",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---users",
+    "title": "Building a digital consent form",
+    "section": "Database fields - users",
+    "text": "Database fields - users\nREAD ONLY\n\nid\ncreated_at\nuser_name\nfirst_name\nlast_name"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---submitted-consents",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---submitted-consents",
+    "title": "Building a digital consent form",
+    "section": "Database fields - submitted consents",
+    "text": "Database fields - submitted consents\nREAD AND WRITE ACCESS\n\nid\ncreated_at\npatient_id\nconsent_type_id\nuser_id"
   },
   {
     "objectID": "learn/learn-python/module-2/index.html",
@@ -4064,21 +4113,21 @@
     "href": "learn/learn-python/module-0/4-python-basics.html#anatomy-of-a-function",
     "title": "Python basics - 2nd slide deck",
     "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print (argument_1 + argument_2)\n\n    return \"Finished\""
+    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#anatomy-of-a-function-1",
     "href": "learn/learn-python/module-0/4-python-basics.html#anatomy-of-a-function-1",
     "title": "Python basics - 2nd slide deck",
     "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print (argument_1 + argument_2)\n\n    return \"Finished\""
+    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#anatomy-of-a-function-2",
     "href": "learn/learn-python/module-0/4-python-basics.html#anatomy-of-a-function-2",
     "title": "Python basics - 2nd slide deck",
     "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print (argument_1 + argument_2)\n\n    return \"Finished\""
+    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#inbuilt-functions",
