@@ -176,7 +176,7 @@ Output
 
 def name_of_function(argument_1, argument_2):
 
-    print (argument_1 + argument_2)
+    print(argument_1 + argument_2)
 
     return "Finished"
 ```
@@ -187,7 +187,7 @@ def name_of_function(argument_1, argument_2):
 
 def name_of_function(argument_1, argument_2):
 
-    print (argument_1 + argument_2)
+    print(argument_1 + argument_2)
 
     return "Finished"
 ```
@@ -198,7 +198,7 @@ def name_of_function(argument_1, argument_2):
 
 def name_of_function(argument_1, argument_2):
 
-    print (argument_1 + argument_2)
+    print(argument_1 + argument_2)
 
     return "Finished"
 ```

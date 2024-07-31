@@ -55,7 +55,7 @@ title-slide-attributes:
 
 * An `application process interface` (`API`) is a means for computer programs to communicate with each other.
 * These communicating programs can be on the same computer, over networks or even the internet.
-* You will be using the `supabase library` to connect to the `supabase database` via its `API`.
+* You will be using the `supabase python library` to connect to the `supabase database` via its `API`.
 
 
 ## Data in a database {background-image="/media/database-paperbased-with-girl-at-desk.jpg" background-opacity="0.3"}
@@ -83,7 +83,7 @@ title-slide-attributes:
 
 ## Fields - some key facts
 
-* There are many different attributes that you can alter for fields on a webpage. These include:
+* There are many different attributes that you can alter for each field on a webpage. These include:
     * **labels** - the label you see on the web page.
     * **keys** - how you reference a field in code.
     * **on_change** - a function to run when the value of a field changes.
@@ -106,16 +106,16 @@ title-slide-attributes:
 ```{.python filename="functions.py"}
 def name_of_function(argument_1, argument_2):
 
-    print (argument_1 + argument_2)
+    print(argument_1 + argument_2)
 
     return "Finished"
 ```
 
-## Scope
+## Scope {background-image="/media/telescope.jpg" background-opacity="0.2"}
 
 * In most programming languages, a variable has `scope`.
 * `Scope` defines where a variable can be read and altered.
-* `Scope` is determined by where a variable is originally defined.
+* `Scope` is determined by where a variable was originally defined.
 
 
 ## Scope example
@@ -143,11 +143,16 @@ Output
 
 * You can use the **global** keyword to get variables into scope, but this is bad practice and best avoided.
 
+![](/media/red-hand.png){fig-align="center" fig-alt="Streamlit icon"}
+
 
 ## Good practice
 
 * Instead, pass all the variables you need to classes and functions as arguments.
 * This also **makes** it much easier problem solve and test your code later.
+
+![](/media/tick-box.jpg){fig-align="center" fig-alt="Streamlit icon"}
+
 
 ## List comprehension {background-image="/media/sticky-notes-on-wall.jpg" background-opacity="0.3"}
 
@@ -160,7 +165,22 @@ Output
 
 ## List comprehension
 
-```{.python filename="list_comprehension.py"}
+```{.python filename="list_comprehension.py" code-line-numbers="3"}
+temperatures = [36.5, 37.0, 38.5, 39.0, 37.8, 36.8, 39.5]
+
+high_temperatures = [temp for temp in temperatures if temp > 38]
+
+print(high_temperatures)
+```
+
+Output
+
+        [38.5, 39.0, 39.5]
+
+
+## List comprehension - dictionaries
+
+```{.python filename="list_comprehension.py" code-line-numbers="6-10"}
 patients = [
         {"name": "Alice", "hospital_number": "H123", "age": 25},
         {"name": "Bob", "hospital_number": "H124", "age": 17},
@@ -180,10 +200,9 @@ Output
         Alice
 
 
-## I want it all
+## I want it all {background-image="/media/man-and-large-sundae.jpg" background-opacity="0.3"}
 
 * The `all()` function returns true if all elements in a list pass a certain test.
-* It uses **similar** syntax to `list comprehension`:
 \
 \
     all(**condition** for **item** in **iterable**)
@@ -191,7 +210,7 @@ Output
 
 ## I want it all
 
-```{.python filename="list_comprehension.py"}
+```{.python filename="list_comprehension.py" code-line-numbers="6"}
 patients = [
     {"name": "Alice", "age": 25, "hospital_number": "H123"},
     {"name": "James", "age": 18, "hospital_number": "H124"},
@@ -290,6 +309,12 @@ with st.form()
 
 ```
 
+## Streamlit methods - forms
+
+* Note the curved border around Streamlit forms.
+
+![](/media/form-on-streamlit.png){fig-align="center" fig-alt="Screenshot of a form in Streamlit"}
+
 ## Streamlit methods - change page
 
 ```{.python filename="streamlit_methods.py" code-line-numbers="4"}
@@ -316,7 +341,7 @@ for key in list(st.session_state.keys()):
 
 ## magicEnabled = false
 
-* We have turned off a feature in Streamlit that shows all of your code in the browser using:
+* We have turned **off** a feature in Streamlit that shows all of your code in the browser using:
 
 ```{.python filename=".streamlit/config.toml" code-line-numbers="2"}
 [runner]
@@ -329,7 +354,7 @@ Otherwise, the browser will be a little messy with all of your code visible.
 (See .streamlit/config.toml file if interested)
 
 
-## Stopping a running program
+## Stopping a running program {background-image="/media/stop-sign-with-man.jpg" background-opacity="0.3"}
 
 CTRL - C
 
@@ -340,21 +365,31 @@ CMD - C
 
 ## Nuances of streamlit
 
-* When you update the code and save, click "Always rerun" (top right) in the browser to always refresh on code change.
-* Sometimes you need to refresh the browser or even restart Streamlit to get certain codes changes to work.
-* Streamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, press a button).
+* When you update the code and save, click **Always rerun** (top right) in the browser to automatically refresh on code change.
+* Sometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work.
+* Streamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, or press a button).
 
 
 ## Nuances of streamlit
 
-* Why the text field and selectbox outside of the form?
-* Because Streamlit does not allow for dynamic update within forms before submitting.
+* Why the text field and selectbox outside of the form (in lesson 2)?
 
 
-## You need to have VS code installed
+![](/media/fields-outside-of-form.png){fig-align="center" fig-alt="Screenshot of fields outside of form"}
+
+## Nuances of streamlit
+
+* Because Streamlit does not allow for dynamic update of fields within forms before submitting.
+
+
+![](/media/laptop-sideways.jpg){fig-align="center" fig-alt="Screenshot of fields outside of form"}
+
+
+## You need to have VS code installed {background-image="/media/laptop-sideways.jpg" background-opacity="0.3"}
 
 * Hopefully you have already installed the `VS Code IDE` on your own personal machines. 
-* You have 10 minutes to try and install VS code now if you have not done so already. If no luck, then we will get you to use the `Codespace IDE`.
+* You have 10 minutes to try and install VS code now if you have not done so already. If no luck, then we will get you to use the `Codespace IDE` instead.
+
 
 
 ## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
@@ -381,12 +416,21 @@ CMD - C
 
 ## Formatting
 
-* You may notice strange line dropping in VScode. This is the Black formatter making your code conform to standards when you save.
+* You may notice strange line dropping in VScode when you save. This is the Black formatter making your code conform to standards.
+* Black, as standard, makes code max 88 characters long, where possible.
+
+```{.python filename="black_formatting.py"}
+    st.text_input(
+        'Hospital number (eg "HN001")',
+        key="hospital_number_input",
+        on_change=on_change_hospital_number(patients, hospital_numbers),
+    )
+```
 
 
 ## Finding your way
 
-* Click inside your terminal window
+* Click inside your terminal window.
 * Go to:
 
 ```{.bash}
@@ -416,8 +460,8 @@ $ pip install st_supabase_connection
 
 ## Secrets
 
-* Create a copy of the **.streamlit/secrets_example.toml/** file and rename it **.streamlit/secrets.toml/**.
-* Add the url and API key from HackMD to this new file.
+* Create a copy of the **.streamlit/secrets_example.toml** file and rename it **.streamlit/secrets.toml**.
+* Add the URL and API key from HackMD to this new file.
 
 
 ## And then run
@@ -476,7 +520,7 @@ $ streamlit run exercise_2.py
 
 * Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
 * You will likely need them as you build your digital consent form.
-* Recommend doing small changes to code saving, and checking what happens in the browser
+* Recommend doing small changes to code, saving your work, and then checking to see what happens in the browser.
 
 
 ## Ask
@@ -486,12 +530,59 @@ $ streamlit run exercise_2.py
 `There is no such thing as a stupid question, only a question left unanswered`
 
 
-# Now go!
+## Database fields - consent_types
 
-* Go join your breakout rooms again
-* Ask away
-* You will find it frustrating when code does not work straight away. However this is how you learn. Try writing code in different ways to see if you can get it to work
-* Look up material in the slides
+READ ONLY
+
+* id
+* created_at
+* type
+* full_description
+* intended_benefits
+* potential_risks
+
+
+## Database fields - patient_demographics
+
+READ ONLY
+
+* id
+* created_at
+* first_name
+* last_name
+* hospital_number **(HN001 - HN050)**
+* date_of_birth
+* email
+
+
+## Database fields - users
+
+READ ONLY
+
+* id
+* created_at
+* user_name
+* first_name
+* last_name
+
+
+## Database fields - submitted consents
+
+READ AND WRITE ACCESS
+
+* id
+* created_at
+* patient_id
+* consent_type_id
+* user_id
+
+
+# Now go! {.smaller}
+
+* Go join your breakout rooms again.
+* You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and with enough help to take you forwards.
+* Try writing code in different ways to see if you can get it to work.
+* Look up material in the slides.
 * Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last).
 
 ```{=html}
