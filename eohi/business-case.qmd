@@ -316,7 +316,7 @@ Below are topics that will be covered in the guide. The titles themselves may be
 1. Telemedicine And Telehealth
 1. Interdisciplinary Collaboration And Communication
 1. Digital Health Innovation And Entrepreneurship
-1. Research And Development In ClinicalInformatics
+1. Research And Development In Clinical Informatics
 1. Behavioural Health Informatics
 1. Digital Therapeutics And Remote Monitoring
 1. Mobile Health mHealth
