@@ -282,7 +282,7 @@ Below is the Strengths / Weaknesses / Opportunities / Threats analysis.
 Below are topics that will be covered in the guide. The titles themselves may be updated or consolidated as needed. The topics are in order of number of votes received from the survey of top 10 topics for the first 10 webinars:
 
 1. Data Standards And Interoperability
-1. Introduction To ClinicalInformatics
+1. Introduction To Clinical Informatics
 1. Usability And User Experience UX In HealthIT
 1. Healthcare IT Infrastructure
 1. Clinical Decision Support Systems (CDSS)
