@@ -4,11 +4,6 @@ image: /media/tickets.png
 ---
 
 
-### 1st August 2024
-
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-3 >}}](ask-a-clinician-3.qmd)
-
-
 ### 22nd August 2024
 
 [{{< var coding-series-title >}} - Module 2](programming-in-healthcare/module-2-22-08-24.qmd)
@@ -71,3 +66,8 @@ image: /media/tickets.png
 ### 25th July 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician/2.qmd)
+
+
+### 1st August 2024
+
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-3 >}}](ask-a-clinician-3.qmd)

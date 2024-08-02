@@ -1,0 +1,64 @@
+---
+title: "Ask someone in Digital - Episode 1"
+image: /media/walking-sign-trust.jpg
+---
+
+## {{< var asid-1 >}}
+
+![](/media/walking-sign-trust.jpg){height=300px fig-align="center" fig-alt="A don't talk sign with a TRUST sticker over the figures hear"}
+
+In the digital age, the balance between cybersecurity and usability in health systems is more crucial than ever. Geoff Revill will, in this webinar, delve into the delicate interplay between patient trust, clinician trust, and the security measures necessary to protect digital health information. Geoff will contrast the traditional trust norms in face-to-face clinician-patient engagements with the current digital realities, exploring how digital security models align or conflict with societal expectations.
+
+Key discussion points will include:
+
+* The impact of increased cybersecurity on system usability and the inherent trade-offs.
+* Trust points in digital systems and their correlation with real-world trust dynamics.
+* The often overlooked conflict between trust expectations in digital health solutions and the pursuit of user-friendly systems.
+* Real-world examples and implementation challenges, focusing on how aligning digital trust models with real-world expectations can introduce barriers to adoption.
+
+Geoff's aim is to engage all those involved in the patient journey in a conversation about where they see the balance points between trust and usability, and whether we are prepared to compromise patient trust for faster, cheaper, and more efficient digital health systems.
+
+Don't miss this opportunity to explore the future of digital health systems and their impact on trust and usability.
+
+## Webinar structure
+
+```{=html}
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/emma-davis.png" alt="picture of ... in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Chair: Emma Davis - Clinical Lead - CSO - Shared Care Records - PRSB & GP
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/geoff-revill-circle.png" alt="picture of Geoff Revill in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Speaker: Geoff Revill - Managing Director, Safe Space One Ltd. Director of the South West Cyber Security Cluster
+        </div>
+    </div>
+</div>
+```
+
+The first half will be a presentation from the speaker followed by a Q&A.
+
+
+## When and where
+
+Online, 2-3pm, on Thursday the 25th of July.
+
+
+
+## Register for free
+
+```{=html}
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
+```
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
