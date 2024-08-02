@@ -1,0 +1,35 @@
+---
+title: "Time to deliver, top ten topics"
+description: "The results are in"
+author:
+ - name: Mark Bailey
+date: 2024-08-02
+categories: [blog]
+image: /media/ground-survey.jpg
+draft: false
+comments:
+  giscus: 
+    repo: letsdodigital/letsdodigital.github.io
+---
+
+So now starts the hard work
+
+![](/media/ground-survey.jpg){height=400px fig-align="center" fig-alt="Three men undertaking a ground survey"}
+
+As promised (and in keeping with Discourse policy), here are the results from the above survey. Of 42 topics, we had 35 votes. The top ten topics voted for are as below. @TreforR and me have almost completed the line up of speakers (authors) for the webinars and chapters. We will be delivering these topics as paid-for-webinars, with the teachings from these webinars going towards writing the free to use and online Essentials in Health Informatics guide.
+
+|Score|Topic|Votes|
+|---|---|---|
+|---|Introduction To Clinical Informatics|23|
+|1|Data Standards And Interoperability|25|
+|2|Usability And User Experience UX In Health IT|21|
+|3|Healthcare IT Infrastructure|16|
+|4|Clinical Decision Support Systems (CDSS)|16|
+|5|Artificial Intelligence And Machine Learning In Healthcare|15|
+|6|Clinical Workflow And Process Improvement|14|
+|7|Health Data Analytics|12|
+|8|Clinical Informatics Leadership And Governance|12|
+|9|Regulatory And Policy Issues In Digital Health|10|
+|10|Patient Safety And Quality Improvement|10|
+
+Trefor and me have also worked up a business case for this project. If interested in attending the webinars, reading the guide, or even sponsoring this project, do have a look [here](https://letsdodigital.org/eohi/business-case.html).
