@@ -1,5 +1,6 @@
 ---
 title: "Business Case: Essentials of Health Informatics"
+image: /media/paper-files.jpg
 ---
 
 ## Executive Summary

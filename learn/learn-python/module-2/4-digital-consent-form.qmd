@@ -226,12 +226,23 @@ Output
         True
 
 
+## Lambda
+
+* We can use lambda to return a reference to a function rather than directly calling the function.
+* It is useful when you want to pass a function with its own arguments as an argument to another function.
+
+```{.python filename="lambda.py"}
+function_a(function_to_call=lambda:function_b(arg_1, arg_2))
+```
+
+
+# <span class="hide-title">Streamlit</span>{background-image="/media/streamlit.png" background-opacity="0.3"}
+
+
 ## Streamlit
 
 * As said, we will be using a python web app framework called `Streamlit` for the frontend.
 * Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
-
-![](/media/streamlit.png){fig-align="center" fig-alt="Streamlit icon"}
 
 
 ## Module import
@@ -271,7 +282,7 @@ st.title("My first web app")
 st.write("Text to write to browser")
 
 # Text input field with key and on_change function
-st.text_input("label", key="key_1", on_change=on_change_function())
+st.text_input("label", key="key_1", on_change=lambda:on_change_function())
 
 # Or, assign the input field results to a variable
 hospital_number = st.text_input("Hospital number", "0", disabled=False)
