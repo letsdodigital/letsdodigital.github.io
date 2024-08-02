@@ -9,7 +9,7 @@
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.5.55">
+  <meta name="generator" content="quarto-1.5.56">
 
   <meta name="author" content="Let’s Do Digital Team">
   <title>Let's Do Digital – Building a digital consent form</title>
@@ -644,14 +644,31 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <p>Output</p>
 <pre><code>    True</code></pre>
 </section>
-<section id="streamlit" class="slide level2">
+<section id="lambda" class="slide level2">
+<h2>Lambda</h2>
+<ul>
+<li>We can use lambda to return a reference to a function rather than directly calling the function.</li>
+<li>It is useful when you want to pass a function with its own arguments as an argument to another function.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>lambda.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb10" data-filename="lambda.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>function_a(function_to_call<span class="op">=</span><span class="kw">lambda</span>:function_b(arg_1, arg_2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section></section>
+<section>
+<section id="streamlit" class="title-slide slide level1 center" data-background-image="../../../media/streamlit.png" data-background-opacity="0.3">
+<h1><span class="hide-title">Streamlit</span></h1>
+
+</section>
+<section id="streamlit-1" class="slide level2">
 <h2>Streamlit</h2>
 <ul>
 <li>As said, we will be using a python web app framework called <code>Streamlit</code> for the frontend.</li>
 <li>Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).</li>
 </ul>
-
-<img data-src="../../../media/streamlit.png" class="quarto-figure quarto-figure-center r-stretch" alt="Streamlit icon"></section>
+</section>
 <section id="module-import" class="slide level2">
 <h2>Module import</h2>
 <p><code>Direct import</code></p>
@@ -659,14 +676,14 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>libraries_1.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb10" data-filename="libraries_1.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a><span class="im">import</span> streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11" data-filename="libraries_1.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a><span class="im">import</span> streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>or as an <code>alias</code></p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>libraries_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb11" data-filename="libraries_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12" data-filename="libraries_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="who-is-running-what" class="slide level2">
@@ -675,8 +692,8 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>main.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb12" data-filename="main.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb12-2"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13" data-filename="main.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb13-2"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Checks if the current file is being run as an imported library or directly</li>
@@ -688,22 +705,22 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb13" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,10,13,16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb13-2"><a></a></span>
-<span id="cb13-3"><a></a><span class="co"># A title for the page</span></span>
-<span id="cb13-4"><a></a>st.title(<span class="st">"My first web app"</span>)</span>
-<span id="cb13-5"><a></a></span>
-<span id="cb13-6"><a></a><span class="co"># Writes text to the browser</span></span>
-<span id="cb13-7"><a></a>st.write(<span class="st">"Text to write to browser"</span>)</span>
-<span id="cb13-8"><a></a></span>
-<span id="cb13-9"><a></a><span class="co"># Text input field with key and on_change function</span></span>
-<span id="cb13-10"><a></a>st.text_input(<span class="st">"label"</span>, key<span class="op">=</span><span class="st">"key_1"</span>, on_change<span class="op">=</span>on_change_function())</span>
-<span id="cb13-11"><a></a></span>
-<span id="cb13-12"><a></a><span class="co"># Or, assign the input field results to a variable</span></span>
-<span id="cb13-13"><a></a>hospital_number <span class="op">=</span> st.text_input(<span class="st">"Hospital number"</span>, <span class="st">"0"</span>, disabled<span class="op">=</span><span class="va">False</span>)</span>
-<span id="cb13-14"><a></a></span>
-<span id="cb13-15"><a></a><span class="co"># Creates a select box, uses lists for selection choices</span></span>
-<span id="cb13-16"><a></a>st.selectbox(<span class="st">"Label for selectbox"</span>, [<span class="st">"first choice"</span>,<span class="st">"second choice"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,10,13,16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb14-2"><a></a></span>
+<span id="cb14-3"><a></a><span class="co"># A title for the page</span></span>
+<span id="cb14-4"><a></a>st.title(<span class="st">"My first web app"</span>)</span>
+<span id="cb14-5"><a></a></span>
+<span id="cb14-6"><a></a><span class="co"># Writes text to the browser</span></span>
+<span id="cb14-7"><a></a>st.write(<span class="st">"Text to write to browser"</span>)</span>
+<span id="cb14-8"><a></a></span>
+<span id="cb14-9"><a></a><span class="co"># Text input field with key and on_change function</span></span>
+<span id="cb14-10"><a></a>st.text_input(<span class="st">"label"</span>, key<span class="op">=</span><span class="st">"key_1"</span>, on_change<span class="op">=</span><span class="kw">lambda</span>:on_change_function())</span>
+<span id="cb14-11"><a></a></span>
+<span id="cb14-12"><a></a><span class="co"># Or, assign the input field results to a variable</span></span>
+<span id="cb14-13"><a></a>hospital_number <span class="op">=</span> st.text_input(<span class="st">"Hospital number"</span>, <span class="st">"0"</span>, disabled<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb14-14"><a></a></span>
+<span id="cb14-15"><a></a><span class="co"># Creates a select box, uses lists for selection choices</span></span>
+<span id="cb14-16"><a></a>st.selectbox(<span class="st">"Label for selectbox"</span>, [<span class="st">"first choice"</span>,<span class="st">"second choice"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="streamlit-methods-1" class="slide level2">
@@ -712,13 +729,13 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb14" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,10,13,16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb14-2"><a></a></span>
-<span id="cb14-3"><a></a><span class="co"># Create a header (basically larger text)</span></span>
-<span id="cb14-4"><a></a>st.header(<span class="st">"A header"</span>)</span>
-<span id="cb14-5"><a></a></span>
-<span id="cb14-6"><a></a><span class="co"># Show an error message</span></span>
-<span id="cb14-7"><a></a>st.error(<span class="st">"I am an error message"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,10,13,16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb15-2"><a></a></span>
+<span id="cb15-3"><a></a><span class="co"># Create a header (basically larger text)</span></span>
+<span id="cb15-4"><a></a>st.header(<span class="st">"A header"</span>)</span>
+<span id="cb15-5"><a></a></span>
+<span id="cb15-6"><a></a><span class="co"># Show an error message</span></span>
+<span id="cb15-7"><a></a>st.error(<span class="st">"I am an error message"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="streamlit-methods---forms" class="slide level2">
@@ -727,17 +744,17 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb15" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,8,10,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb15-2"><a></a></span>
-<span id="cb15-3"><a></a><span class="co"># Create a form</span></span>
-<span id="cb15-4"><a></a><span class="cf">with</span> st.form()</span>
-<span id="cb15-5"><a></a>    <span class="co"># As many fields as you like, eg</span></span>
-<span id="cb15-6"><a></a>    st.text_input(<span class="st">"First name"</span>)</span>
-<span id="cb15-7"><a></a></span>
-<span id="cb15-8"><a></a>    submitted <span class="op">=</span> st.form_submit_button(<span class="st">"Submit"</span>)</span>
-<span id="cb15-9"><a></a></span>
-<span id="cb15-10"><a></a>    <span class="cf">if</span> submitted:</span>
-<span id="cb15-11"><a></a>        st.write(<span class="st">"Button pressed"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb16" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,8,10,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb16-2"><a></a></span>
+<span id="cb16-3"><a></a><span class="co"># Create a form</span></span>
+<span id="cb16-4"><a></a><span class="cf">with</span> st.form()</span>
+<span id="cb16-5"><a></a>    <span class="co"># As many fields as you like, eg</span></span>
+<span id="cb16-6"><a></a>    st.text_input(<span class="st">"First name"</span>)</span>
+<span id="cb16-7"><a></a></span>
+<span id="cb16-8"><a></a>    submitted <span class="op">=</span> st.form_submit_button(<span class="st">"Submit"</span>)</span>
+<span id="cb16-9"><a></a></span>
+<span id="cb16-10"><a></a>    <span class="cf">if</span> submitted:</span>
+<span id="cb16-11"><a></a>        st.write(<span class="st">"Button pressed"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="streamlit-methods---forms-1" class="slide level2">
@@ -753,10 +770,10 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb16" data-filename="streamlit_methods.py" data-code-line-numbers="4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb16-2"><a></a></span>
-<span id="cb16-3"><a></a><span class="co"># Redirect to another page</span></span>
-<span id="cb16-4"><a></a>st.switch_page(<span class="st">"pages/another_page.py"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb17" data-filename="streamlit_methods.py" data-code-line-numbers="4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb17-2"><a></a></span>
+<span id="cb17-3"><a></a><span class="co"># Redirect to another page</span></span>
+<span id="cb17-4"><a></a>st.switch_page(<span class="st">"pages/another_page.py"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="session-state" class="slide level2">
@@ -765,14 +782,14 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_session_state.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb17" data-filename="streamlit_session_state.py" data-code-line-numbers="4,7,8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb17-2"><a></a></span>
-<span id="cb17-3"><a></a><span class="co"># Set the session state</span></span>
-<span id="cb17-4"><a></a>st.session_state.a_variable_name <span class="op">=</span> <span class="st">"a_value"</span></span>
-<span id="cb17-5"><a></a></span>
-<span id="cb17-6"><a></a><span class="co"># Clear all of the session variables</span></span>
-<span id="cb17-7"><a></a><span class="cf">for</span> key <span class="kw">in</span> <span class="bu">list</span>(st.session_state.keys()):</span>
-<span id="cb17-8"><a></a>    <span class="kw">del</span> st.session_state[key]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb18" data-filename="streamlit_session_state.py" data-code-line-numbers="4,7,8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb18-2"><a></a></span>
+<span id="cb18-3"><a></a><span class="co"># Set the session state</span></span>
+<span id="cb18-4"><a></a>st.session_state.a_variable_name <span class="op">=</span> <span class="st">"a_value"</span></span>
+<span id="cb18-5"><a></a></span>
+<span id="cb18-6"><a></a><span class="co"># Clear all of the session variables</span></span>
+<span id="cb18-7"><a></a><span class="cf">for</span> key <span class="kw">in</span> <span class="bu">list</span>(st.session_state.keys()):</span>
+<span id="cb18-8"><a></a>    <span class="kw">del</span> st.session_state[key]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="magicenabled-false" class="slide level2">
@@ -784,8 +801,8 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>.streamlit/config.toml</strong></pre>
 </div>
-<div class="sourceCode" id="cb18" data-filename=".streamlit/config.toml" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a>[runner]</span>
-<span id="cb18-2"><a></a>magicEnabled <span class="op">=</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb19" data-filename=".streamlit/config.toml" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a>[runner]</span>
+<span id="cb19-2"><a></a>magicEnabled <span class="op">=</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Otherwise, the browser will be a little messy with all of your code visible.</p>
 <p><br>
@@ -858,11 +875,11 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>black_formatting.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb19" data-filename="black_formatting.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a>    st.text_input(</span>
-<span id="cb19-2"><a></a>        <span class="st">'Hospital number (eg "HN001")'</span>,</span>
-<span id="cb19-3"><a></a>        key<span class="op">=</span><span class="st">"hospital_number_input"</span>,</span>
-<span id="cb19-4"><a></a>        on_change<span class="op">=</span>on_change_hospital_number(patients, hospital_numbers),</span>
-<span id="cb19-5"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb20" data-filename="black_formatting.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a>    st.text_input(</span>
+<span id="cb20-2"><a></a>        <span class="st">'Hospital number (eg "HN001")'</span>,</span>
+<span id="cb20-3"><a></a>        key<span class="op">=</span><span class="st">"hospital_number_input"</span>,</span>
+<span id="cb20-4"><a></a>        on_change<span class="op">=</span>on_change_hospital_number(patients, hospital_numbers),</span>
+<span id="cb20-5"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="finding-your-way" class="slide level2">
@@ -871,13 +888,13 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <li>Click inside your terminal window.</li>
 <li>Go to:</li>
 </ul>
-<div class="sourceCode" id="cb20"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb20-1"><a></a><span class="ex">$</span> cd programming_in_health_care/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a></a><span class="ex">$</span> cd programming_in_health_care/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="install-libraries" class="slide level2">
 <h2>Install libraries</h2>
-<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb22"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>and</p>
-<div class="sourceCode" id="cb22"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="secrets" class="slide level2">
 <h2>Secrets</h2>
@@ -899,7 +916,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <ul>
 <li>And then run:</li>
 </ul>
-<div class="sourceCode" id="cb23"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="this-will-run" class="slide level2">
 <h2>This will run</h2>
@@ -907,15 +924,15 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>lesson_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb24" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb24-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
-<span id="cb24-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
-<span id="cb24-4"><a></a></span>
-<span id="cb24-5"><a></a>    <span class="cf">return</span></span>
-<span id="cb24-6"><a></a></span>
-<span id="cb24-7"><a></a></span>
-<span id="cb24-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb24-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb25" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb25-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
+<span id="cb25-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
+<span id="cb25-4"><a></a></span>
+<span id="cb25-5"><a></a>    <span class="cf">return</span></span>
+<span id="cb25-6"><a></a></span>
+<span id="cb25-7"><a></a></span>
+<span id="cb25-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb25-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And…</p>
 </section>
@@ -929,9 +946,9 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <li>Use the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.</li>
 <li>For example to change</li>
 </ul>
-<div class="sourceCode" id="cb25"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>to</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="warning" class="slide level2" data-background-image="../../../media/glowing-red-cone.jpg" data-background-opacity="0.3">
 <h2>Warning!</h2>

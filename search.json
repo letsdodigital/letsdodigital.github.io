@@ -644,8 +644,15 @@
     "text": "I want it all\n\n\nlist_comprehension.py\n\npatients = [\n    {\"name\": \"Alice\", \"age\": 25, \"hospital_number\": \"H123\"},\n    {\"name\": \"James\", \"age\": 18, \"hospital_number\": \"H124\"},\n]\n\nall_adults = all(patient[\"age\"] &gt;= 18 for patient in patients)\n\nprint(all_adults)\n\nOutput\n    True"
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit",
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#lambda",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#lambda",
+    "title": "Building a digital consent form",
+    "section": "Lambda",
+    "text": "Lambda\n\nWe can use lambda to return a reference to a function rather than directly calling the function.\nIt is useful when you want to pass a function with its own arguments as an argument to another function.\n\n\n\nlambda.py\n\nfunction_a(function_to_call=lambda:function_b(arg_1, arg_2))"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-1",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-1",
     "title": "Building a digital consent form",
     "section": "Streamlit",
     "text": "Streamlit\n\nAs said, we will be using a python web app framework called Streamlit for the frontend.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
@@ -669,7 +676,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods",
     "title": "Building a digital consent form",
     "section": "Streamlit methods",
-    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Text input field with key and on_change function\nst.text_input(\"label\", key=\"key_1\", on_change=on_change_function())\n\n# Or, assign the input field results to a variable\nhospital_number = st.text_input(\"Hospital number\", \"0\", disabled=False)\n\n# Creates a select box, uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
+    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Text input field with key and on_change function\nst.text_input(\"label\", key=\"key_1\", on_change=lambda:on_change_function())\n\n# Or, assign the input field results to a variable\nhospital_number = st.text_input(\"Hospital number\", \"0\", disabled=False)\n\n# Creates a select box, uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-1",
