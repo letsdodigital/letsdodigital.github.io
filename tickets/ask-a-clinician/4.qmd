@@ -1,0 +1,69 @@
+---
+title: "Ask a clinician - episode 4"
+---
+
+## {{< var aac-4 >}}
+
+![](/media/medical-bear.jpg){height=300px fig-align="center" fig-alt="A porcelain bear, wearing doctor cloths and some tablets in blister packs in the background"}
+
+Are you a computer programmer, data analyst, UX designer, cybersecurity expert, or anyone else who works with healthcare data? Have you ever wondered why certain decisions are made in clinical settings that seem to complicate your carefully designed systems? Or perhaps you're curious about the real-world challenges faced by GPs and clinical informaticians?
+
+Join us for an enlightening session in the "Ask a Clinician" series from the Let’s Do Digital Team. In this webinar, Anita Phung and Dom Main will share their unique perspectives as both GPs and clinical informaticians.
+
+**Anita Phung** is a Portfolio GP, Medical Monitor at Lindus Health, and SEL ICB Digital Transformation Clinical Lead. With over 10 years of clinical experience in the NHS, combined with her work in pharmaceutical medicine and health tech startups, Anita brings a wealth of knowledge in digital health and health optimisation. She’s passionate about building better digital systems and providing education in digital health. Anita's personal achievements, such as completing the 10-day silent meditation retreat Vipassana and the 500-mile Camino de Santiago hike, reflect her dedication to introspection and inspiration. She loves efficiency, creativity, and streamlining processes, and she's eager to connect and help where she can.
+
+**Dom Main** is a Clinical Engineer at Healthtech-1 and an NHS GP with 18 years of experience. Starting his career as a theatre orderly, Dom has seen firsthand how existing NHS systems can hinder good patient care. Motivated to change this, he’s on a mission to automate routine admin tasks in primary care. With a background in Physics and Philosophy, Dom quickly realised the significant impact of General Practice. Now, at Healthtech-1, he focuses on engineering and product development to help the NHS tackle administrative burdens and improve software solutions.
+
+In this webinar, Anita and Dom will discuss their thought processes, workflows, and the challenges they face. If you've ever wanted to ask clinicians, "What were you thinking?" or understand their work better, this is the perfect opportunity. Don’t miss out on this chance to gain valuable insights from two experts dedicated to transforming healthcare through digital innovation.
+
+## People and structure
+
+```{=html}
+<strong>Chair</strong>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/grant-vallance-circle.png" alt="picture of Grant Vallance in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust
+    </div>
+</div>
+<strong>Speakers</strong>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/dom-main-circle.png" alt="picture of Dom Main in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Dom Main – GP and Clinical Engineer at Healthtech1
+        </div>
+    </div>
+</div>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/anita-phung-circle.png" alt="picture of Anita Phung in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Anita Phung - Portfolio GP | Medical Monitor at Lindus Health | SEL ICB Digital Transformation Clinical Lead
+        </div>
+    </div>
+</div>
+```
+
+The first half will be presentations from our two presentors, followed by a Q&A.
+
+
+## When and where
+
+Online, 2-3pm, on Friday the 13th of September.
+
+```{=html}
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
+```
+
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).

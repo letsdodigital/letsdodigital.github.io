@@ -1,5 +1,5 @@
 ---
-title: "Ask a clinician webinar series - episode 2"
+title: "Ask a clinician - episode 2"
 ---
 
 ## {{< var aac-2 >}}

@@ -3,6 +3,14 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
+### 5th September 2024
+
+[{{< var ask-someone-in-digital >}} - {{< var asid-1 >}}](ask-someone-in-digital/1.qmd)
+
+
+### 13th September 2024
+
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
 
 ### 22nd August 2024
 
