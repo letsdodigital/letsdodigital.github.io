@@ -3,7 +3,7 @@ title: "Time to deliver, top ten topics"
 description: "The results are in"
 author:
  - name: Mark Bailey
-date: 2024-08-02
+date: 2024-08-01
 categories: [blog]
 image: /media/ground-survey.jpg
 draft: false
@@ -16,7 +16,7 @@ So now starts the hard work
 
 ![](/media/ground-survey.jpg){height=400px fig-align="center" fig-alt="Three men undertaking a ground survey"}
 
-As promised, here are the results from the above survey. Of 42 topics, we had 35 votes. The top ten topics voted for are as below. **Trefor Roscoe** and me have almost completed the line up of speakers (authors) for the webinars and chapters. We will be delivering these topics as paid-for-webinars, with the teachings from these webinars going towards writing the free to use and online Essentials in Health Informatics guide.
+As promised, here are the results from the top 10 topics for the **Essentials in Health Informatics** guide (as described [here](../2024-07-02-topics-for-first-10-essentials-of-health-informatics-webinars/)). Of 42 topics, we had 35 votes. The top ten topics voted for are as below. **Trefor Roscoe** and me have almost completed the line up of speakers (authors) for the webinars and chapters. We will be delivering these topics as paid-for-webinars, with the teachings from these webinars going towards writing the free to use and online Essentials in Health Informatics guide.
 
 |Score|Topic|Votes|
 |---|---|---|
