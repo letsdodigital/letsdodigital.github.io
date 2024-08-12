@@ -22,14 +22,15 @@ image: /media/tickets.png
 
 [{{< var coding-series-title >}} - Module 0 - evening](programming-in-healthcare/module-0-11-09-24.qmd)
 
+
 ### 12th September 2024
 
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
+[Digital Clinical Safety Platform (DCSP) webinar](dcsa/1.qmd)
 
 
 ### 13th September 2024
 
-[Digital Clinical Safety Platform (DCSP) webinar](dcsa/1.qmd)
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
 
 
 ### 24th October 2024
