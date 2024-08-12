@@ -1,5 +1,5 @@
 ---
-title: "Business Case: Essentials of Health Informatics"
+title: "Business Case and Plan: Essentials of Health Informatics"
 image: /media/paper-files.jpg
 ---
 
@@ -8,6 +8,7 @@ image: /media/paper-files.jpg
 The project aims to develop a free to use, online guide titled **Essentials of Health Informatics**. This guide will serve as a comprehensive resource in health informatics. The target audience will include healthcare professionals, those in digital roles and students interested in health informatics. The initial business plan includes the delivery of ten pay-to-watch 1-hour webinars covering topics identified through survey. Additionally, the project will seek external sponsorship to support its financial sustainability. Subject matter experts will prepare their presentations, present at the webinar, and contribute to the guide. This project will utilise an **Education as a Service** model, providing flexible, up-to-date and accessible learning opportunities in contrast to traditional university degrees and hard copy textbooks.
 
 The benefits of this project include providing widespread access to up-to-date information in health informatics, funded through webinar fees, paid-for-viewing of webinar recordings and sponsorship. The guide will be regularly reviewed and updated, ensuring its relevance and accuracy compared to static hard copy guides. If the first 10 webinars are successful, additional series of webinars on different topics will be delivered.
+
 
 ## Introduction
 
@@ -375,7 +376,9 @@ An experienced expert in health informatics with an extensive background in clin
 
 ### Dr Trefor Roscoe FFCI
 
-Dr Trefor Roscoe has been involved in healthcare Informatics since the mid 90s. He taught at Sheffield University and was on committees regionally and nationally advising on medical computing in primary care.
+Dr. Trefor Roscoe is a retired general practitioner in Sheffield. He became involved in medical computing in the early 1990s implementing a computer system in his practice where he was a partner for 25 years. Having set up a user group for his GP system, he contributed to local then regional committees rolling out computerisation in primary care. 
+
+A clinical lecturer in primary care at Sheffield University, he became involved in one of the first projects to use Internet resources for medical education and was appointed as the clinical tutor for health informatics for the North Trent Deanery. He went on to teach on the Sheffield MSC in health informatics and lectured at conferences across Europe. In recognition of this work he was appointed the founding fellow of the faculty of clinical informatics in 2021. 
 
 
 ## Ownership
