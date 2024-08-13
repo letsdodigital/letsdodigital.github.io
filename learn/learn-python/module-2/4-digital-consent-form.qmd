@@ -412,7 +412,6 @@ CMD - C
 
 * You need to have already have a virtual environment set up.
 
-
 ## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
 
 * Python
