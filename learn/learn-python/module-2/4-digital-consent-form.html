@@ -850,12 +850,6 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <li>Add functionality and features, much like your favourite app store.</li>
 </ul>
 </section>
-<section id="virtual-environments" class="slide level2">
-<h2>Virtual environments</h2>
-<ul>
-<li>You need to have already have a virtual environment set up.</li>
-</ul>
-</section>
 <section id="we-need-some-extensions-1" class="slide level2" data-background-image="../../../media/plugs-and-wire.jpg" data-background-opacity="0.3">
 <h2>We need some extensions</h2>
 <ul>
@@ -888,19 +882,54 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <span id="cb20-5"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
+<section id="python-must-be-installed" class="slide level2">
+<h2>Python must be installed</h2>
+<ul>
+<li>You need to make sure you have python installed.</li>
+<li>This should be version 3 or above.</li>
+</ul>
+</section>
+<section id="get-the-code" class="slide level2">
+<h2>Get the code</h2>
+<ul>
+<li>You need to <strong>clone</strong> (basically download) the code for the course from GitHub.</li>
+<li>Navigate your terminal to the folder where you want to save the course code in.</li>
+<li>Run the below code:</li>
+</ul>
+<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a></a><span class="ex">$</span> git clone https://github.com/letsdodigital/coding-hands-on</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="virtual-environments" class="slide level2">
+<h2>Virtual environments</h2>
+<ul>
+<li><strong>cd</strong> into your cloned repository (repo).</li>
+<li>You now need to create a virtual environment.</li>
+</ul>
+<div class="sourceCode" id="cb22"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a></a><span class="ex">$</span> python <span class="at">-m</span> venv .venv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="activate" class="slide level2">
+<h2>Activate</h2>
+<ul>
+<li>And now activate the virtual environment</li>
+</ul>
+<p>Mac</p>
+<div class="sourceCode" id="cb23"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a></a><span class="ex">$</span> source env/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+Windows</p>
+<div class="sourceCode" id="cb24"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a></a><span class="ex">$</span> env/Scripts/activate.bat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="install-libraries" class="slide level2">
+<h2>Install libraries</h2>
+<div class="sourceCode" id="cb25"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>and</p>
+<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
 <section id="finding-your-way" class="slide level2">
 <h2>Finding your way</h2>
 <ul>
 <li>Click inside your terminal window.</li>
 <li>Go to:</li>
 </ul>
-<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a></a><span class="ex">$</span> cd programming_in_health_care/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="install-libraries" class="slide level2">
-<h2>Install libraries</h2>
-<div class="sourceCode" id="cb22"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>and</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb27"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a></a><span class="ex">$</span> cd programming_in_health_care/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="secrets" class="slide level2">
 <h2>Secrets</h2>
@@ -922,7 +951,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <ul>
 <li>And then run:</li>
 </ul>
-<div class="sourceCode" id="cb24"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb28-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="this-will-run" class="slide level2">
 <h2>This will run</h2>
@@ -930,15 +959,15 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>lesson_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb25" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb25-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
-<span id="cb25-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
-<span id="cb25-4"><a></a></span>
-<span id="cb25-5"><a></a>    <span class="cf">return</span></span>
-<span id="cb25-6"><a></a></span>
-<span id="cb25-7"><a></a></span>
-<span id="cb25-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb25-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb29" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb29-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
+<span id="cb29-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
+<span id="cb29-4"><a></a></span>
+<span id="cb29-5"><a></a>    <span class="cf">return</span></span>
+<span id="cb29-6"><a></a></span>
+<span id="cb29-7"><a></a></span>
+<span id="cb29-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb29-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And…</p>
 </section>
@@ -952,9 +981,9 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <li>Use the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.</li>
 <li>For example to change</li>
 </ul>
-<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>to</p>
-<div class="sourceCode" id="cb27"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="warning" class="slide level2" data-background-image="../../../media/glowing-red-cone.jpg" data-background-opacity="0.3">
 <h2>Warning!</h2>

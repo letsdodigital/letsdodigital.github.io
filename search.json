@@ -931,13 +931,6 @@
     "text": "We need some extensions\n\nAKA Plugins.\nAdd functionality and features, much like your favourite app store."
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#virtual-environments",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#virtual-environments",
-    "title": "Building a digital consent form",
-    "section": "Virtual environments",
-    "text": "Virtual environments\n\nYou need to have already have a virtual environment set up."
-  },
-  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions-1",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-need-some-extensions-1",
     "title": "Building a digital consent form",
@@ -966,11 +959,32 @@
     "text": "Formatting\n\nYou may notice strange line dropping in VScode when you save. This is the Black formatter making your code conform to standards.\nBlack, as standard, makes code max 88 characters long, where possible.\n\n\n\nblack_formatting.py\n\n    st.text_input(\n        'Hospital number (eg \"HN001\")',\n        key=\"hospital_number_input\",\n        on_change=on_change_hospital_number(patients, hospital_numbers),\n    )"
   },
   {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#python-must-be-installed",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#python-must-be-installed",
     "title": "Building a digital consent form",
-    "section": "Finding your way",
-    "text": "Finding your way\n\nClick inside your terminal window.\nGo to:\n\n$ cd programming_in_health_care/module_2/lesson_2"
+    "section": "Python must be installed",
+    "text": "Python must be installed\n\nYou need to make sure you have python installed.\nThis should be version 3 or above."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#get-the-code",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#get-the-code",
+    "title": "Building a digital consent form",
+    "section": "Get the code",
+    "text": "Get the code\n\nYou need to clone (basically download) the code for the course from GitHub.\nNavigate your terminal to the folder where you want to save the course code in.\nRun the below code:\n\n$ git clone https://github.com/letsdodigital/coding-hands-on"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#virtual-environments",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#virtual-environments",
+    "title": "Building a digital consent form",
+    "section": "Virtual environments",
+    "text": "Virtual environments\n\ncd into your cloned repository (repo).\nYou now need to create a virtual environment.\n\n$ python -m venv .venv"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#activate",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#activate",
+    "title": "Building a digital consent form",
+    "section": "Activate",
+    "text": "Activate\n\nAnd now activate the virtual environment\n\nMac\n$ source env/bin/activate\n\nWindows\n$ env/Scripts/activate.bat"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#install-libraries",
@@ -978,6 +992,13 @@
     "title": "Building a digital consent form",
     "section": "Install libraries",
     "text": "Install libraries\n$ pip install streamlit\nand\n$ pip install st_supabase_connection"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
+    "title": "Building a digital consent form",
+    "section": "Finding your way",
+    "text": "Finding your way\n\nClick inside your terminal window.\nGo to:\n\n$ cd programming_in_health_care/module_2/lesson_2"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#secrets",
