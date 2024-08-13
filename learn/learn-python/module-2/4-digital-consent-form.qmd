@@ -408,15 +408,10 @@ CMD - C
 * Add functionality and features, much like your favourite app store.
 
 
-## Virtual environments
-
-* You need to have already have a virtual environment set up.
-
 ## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
 
 * Python
 * Black formatter
-
 
 ## <span class="hide-title">Python extension</span>
 
@@ -441,16 +436,45 @@ CMD - C
     )
 ```
 
+## Python must be installed
 
-## Finding your way
+* You need to make sure you have python installed. 
+* This should be version 3 or above.
 
-* Click inside your terminal window.
-* Go to:
+## Get the code
+
+* You need to **clone** (basically download) the code for the course from GitHub.
+* Navigate your terminal to the folder where you want to save the course code in.
+* Run the below code:
 
 ```{.bash}
-$ cd programming_in_health_care/module_2/lesson_2
+$ git clone https://github.com/letsdodigital/coding-hands-on
 ```
 
+
+## Virtual environments
+
+* **cd** into your cloned repository (repo).
+* You now need to create a virtual environment.
+
+```{.bash}
+$ python -m venv .venv
+```
+
+## Activate
+
+* And now activate the virtual environment
+
+Mac
+```{.bash}
+$ source env/bin/activate
+```
+
+\
+Windows
+```{.bash}
+$ env/Scripts/activate.bat
+```
 
 ## Install libraries
 
@@ -464,6 +488,14 @@ and
 $ pip install st_supabase_connection
 ```
 
+## Finding your way
+
+* Click inside your terminal window.
+* Go to:
+
+```{.bash}
+$ cd programming_in_health_care/module_2/lesson_2
+```
 
 ## Secrets
 
