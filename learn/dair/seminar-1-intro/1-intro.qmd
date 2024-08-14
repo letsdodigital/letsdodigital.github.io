@@ -5,12 +5,10 @@ format: revealjs
 logo: /media/ldd-logo.png
 ---
 
-
-
 ## Introduction {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
-* Welcome to the DAIM course!
-* In the coming weeks, we will be covering a range of topics from basic data visualisation all the way up to machine learning
+* Welcome to the **Data Analytics in Medicine (DAIM)** course!
+* In the coming weeks, we will be covering a range of topics from **basic data visualisation** all the way up to **machine learning**
 * Please let one of the team know if you have any **questions** during the course or **any suggestions for improvement**.
 
 ## Overall Course Aim {background-image="/media/daim/bg1.png" background-opacity="0.4"}
@@ -63,51 +61,47 @@ print(break_time(tired=True))
 * Each module is split into two types of weeks:
   * **Seminars** - Lecture-style discussions of the topic for the week.
   * **Workshops** - Workbooks that you will complete with the direct or indirect support of a tutor.
-* The workshops will use Jupyter Notebooks within Google Colab to deliver the content.
-  * We will not be covering local setup of Python environments.
+* The workshops will use **Jupyter Notebooks** within **Google Colab** to deliver the content. 
 
-## Module 1 - Tabular data {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Module 1 - Core Python for Images {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
-* TODO Specify aims of this unit with regards to EDA, etc.
+* Seminar content will include:
+  * How images are digitally **represented**
+  * Which **Python packages** are generally used to work with image data
+* Workshop content will include:
+  * How to open and render **different types** of image data  
+  * Basics of **relevant Python packages** for use later in the course
   
-## Module 2 - Working with DICOM  {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Module 2 - Python and DICOM {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
 * Seminar content will include:
-  * What the DICOM standard is
+  * What the **DICOM standard** is
   * How computers represent scan data
-  * What data is in a DICOM file
+  * What **data** is in a DICOM file
 * Workshop content will include:
-  * Opening and rendering DICOM with Python
-  * Extracting demographics from DICOM
+  * Opening and **rendering DICOM** with Python
+  * **Extracting demographics** from DICOM
 
-## Module 3 - 3D Printing for Medicine {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Module 3 - AI for Medicine {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
 * Seminar content will include:
-  * How 3D printing works
-  * Current and future applications of 3D printing in clinical medicine
+  * Different types of **"machine learning"**
+  * The practical steps needed to take **an idea to a system**
+  * Discussing **advantages and limitations** of these algorithms
 * Workshop content will include:
-  * Opening volume scan data with InVesalius
-  * Accurately segmenting scans for 3D printing
+  * **Preprocessing data** for training
+  * **Constructing, training, and evaulating** a basic neural network for **pneumonia detection**
 
-* NB - May omit if too divergent from the rest of the material.
+## Course Timeline
 
-## Module 4 - AI for Medicine Part 1
+* TODO (Make this when the updated course layout is better specified)
 
-* Seminar content will include:
-  * Different types of "machine learning"
-  * How a neural network works at a high level
-  * How machine learning algorithms are built
-  * Discussing advantages and limitations of these algorithms
-* Workshop content will include:
-  * Preprocessing data for training
-  * Constructing and training a basic neural network for pneumonia detection
+## Course Feedback {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
 
-## Module 5 - AI for Medicine Part 2
+* We will be asking for course feedback to allow us to refine the course for further cohorts
+* Please fill this out at the start and end of the course
+* Please include honest feedback!
 
-* Seminar content will include:
-  * The practical steps needed to take a ML idea from idea to system
-  * How to effectively evaluate ML algorithms
-  * Discussion of advanced machine learning methods (LLMs)
-* Workshop content will include:
-  * Plotting results and refining the model
-  * Calculating evaluation metrics
+## Thank you!
+
+Any questions?
