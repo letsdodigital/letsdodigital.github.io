@@ -917,6 +917,48 @@
     "text": "Nuances of streamlit\n\nBecause Streamlit does not allow for dynamic update of fields within forms before submitting."
   },
   {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#connection",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#connection",
+    "title": "Building a digital consent form",
+    "section": "Connection",
+    "text": "Connection\n\nHow to connect to the Supabase database and then query the data.\n\n\n\nsupabase.py\n\nimport streamlit as st\nfrom st_supabase_connection import SupabaseConnection, execute_query\n\nconn = st.connection(\"supabase\", type=SupabaseConnection)\n\ntest_data = {\"test_data\": \"Some test data\"}\n\n# Retrieve data from database\nusers = execute_query(conn.table(\"users\").select(\"*\"), ttl=\"10m\")\n\n# Add data to database\nupdate_result = execute_query(\n        conn.table(\"test_upload\").insert([test_data], count=\"None\")\n    )"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---test_upload",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---test_upload",
+    "title": "Building a digital consent form",
+    "section": "Database fields - test_upload",
+    "text": "Database fields - test_upload\nREAD AND WRITE ACCESS\n\nid\ntest_data\ncreated_at"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---consent_types",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---consent_types",
+    "title": "Building a digital consent form",
+    "section": "Database fields - consent_types",
+    "text": "Database fields - consent_types\nREAD ONLY\n\nid\ncreated_at\ntype\nfull_description\nintended_benefits\npotential_risks"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---patient_demographics",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---patient_demographics",
+    "title": "Building a digital consent form",
+    "section": "Database fields - patient_demographics",
+    "text": "Database fields - patient_demographics\nREAD ONLY\n\nid\ncreated_at\nfirst_name\nlast_name\nhospital_number (HN001 - HN050)\ndate_of_birth\nemail"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---users",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---users",
+    "title": "Building a digital consent form",
+    "section": "Database fields - users",
+    "text": "Database fields - users\nREAD ONLY\n\nid\ncreated_at\nuser_name\nfirst_name\nlast_name"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---submitted-consents",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---submitted-consents",
+    "title": "Building a digital consent form",
+    "section": "Database fields - submitted consents",
+    "text": "Database fields - submitted consents\nREAD AND WRITE ACCESS\n\nid\ncreated_at\npatient_id\nconsent_type_id\nuser_id"
+  },
+  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#you-need-to-have-vs-code-installed",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#you-need-to-have-vs-code-installed",
     "title": "Building a digital consent form",
@@ -1062,34 +1104,6 @@
     "title": "Building a digital consent form",
     "section": "Ask",
     "text": "Ask\n\nPlease please please ask questions of your tutor. That is why they are here.\n\nThere is no such thing as a stupid question, only a question left unanswered"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---consent_types",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---consent_types",
-    "title": "Building a digital consent form",
-    "section": "Database fields - consent_types",
-    "text": "Database fields - consent_types\nREAD ONLY\n\nid\ncreated_at\ntype\nfull_description\nintended_benefits\npotential_risks"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---patient_demographics",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---patient_demographics",
-    "title": "Building a digital consent form",
-    "section": "Database fields - patient_demographics",
-    "text": "Database fields - patient_demographics\nREAD ONLY\n\nid\ncreated_at\nfirst_name\nlast_name\nhospital_number (HN001 - HN050)\ndate_of_birth\nemail"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---users",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---users",
-    "title": "Building a digital consent form",
-    "section": "Database fields - users",
-    "text": "Database fields - users\nREAD ONLY\n\nid\ncreated_at\nuser_name\nfirst_name\nlast_name"
-  },
-  {
-    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---submitted-consents",
-    "href": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---submitted-consents",
-    "title": "Building a digital consent form",
-    "section": "Database fields - submitted consents",
-    "text": "Database fields - submitted consents\nREAD AND WRITE ACCESS\n\nid\ncreated_at\npatient_id\nconsent_type_id\nuser_id"
   },
   {
     "objectID": "learn/learn-python/module-1-rebuild/index.html",
