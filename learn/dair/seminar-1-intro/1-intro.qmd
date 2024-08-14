@@ -35,7 +35,7 @@ logo: /media/ldd-logo.png
   * Stack Overflow
   * GitHub
 
-## 5-minute open discussion {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## 5-minute open discussion {background-image="/media/steps-and-child.jpg" background-opacity="0.4"}
 
 * Questions:
   * What reasons does everyone have for signing up for this course?
@@ -62,6 +62,14 @@ print(break_time(tired=True))
   * **Seminars** - Lecture-style discussions of the topic for the week.
   * **Workshops** - Workbooks that you will complete with the direct or indirect support of a tutor.
 * The workshops will use **Jupyter Notebooks** within **Google Colab** to deliver the content. 
+
+## Learning Levels {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+
+* We've created a set of learning levels **(LLs)** for this course:
+  1. **Level 1** - Basic Practical Skills (coding skills)
+  2. **Level 2** - Theory (modelling skills)
+  3. **Level 3** - Project Planning and Management
+  4. **Level 4** - Clinical Translation
 
 ## Module 1 - Core Python for Images {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
