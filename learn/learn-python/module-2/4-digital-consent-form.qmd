@@ -30,8 +30,8 @@ title-slide-attributes:
 ## What is a web browser? {background-image="/media/droplets-on-web.jpg" background-opacity="0.4"}
 
 * You highly likely use these every day (Explorer, Chrome, Safari).
-* A web browser is a software program that allows a user to locate, access, and display web pages.
-* The main languages used in creating the raw webpage are HTML and javascript. 
+* A web browser is a software program that allows a user to locate, access, display and interact with a web page.
+* The main languages used in creating the "raw" webpage are HTML and javascript. 
 * You can use frameworks in other languages to then create these "raw" webpages. In our case a python framework called `streamlit`.
 
 
@@ -39,7 +39,7 @@ title-slide-attributes:
 
 * As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprabase`) for you to connect to.
 * The "brains" and frontend delivery will be managed by the `streamlit` server that you will be building.
-* A server is basically a computer program that provides you with a web page to interact with.
+* A server is basically a computer program that provides you with a web page.
 
 
 ## What is a library? {background-image="/media/book-open-in-library.jpg" background-opacity="0.3"}
@@ -68,7 +68,7 @@ title-slide-attributes:
 
 ## State {background-image="/media/numbers-on-wooden-spinners.jpg" background-opacity="0.3"}
 
-* The `state` in a web app is basically the current values of variables being used.
+* `State` in a web app is basically the current values of variables being used.
 * Will we cover this shortly and how to read and alter state in Streamlit.
 
 
@@ -93,7 +93,7 @@ title-slide-attributes:
 
 * A form on a web page is a structured area that contains fields for users to input and submit data.
 * Forms are used to collect user input and can include various types of fields.
-* The data entered into a form can be sent to a server for processing, often through a submit button.
+* The data entered into a form can be sent to a server for processing, often by pressing a submit button.
 
 ![](/media/field-and-submit-button.png){fig-align="center" fig-alt="a field and a submit button from a form"}
 
@@ -149,14 +149,14 @@ Output
 ## Good practice
 
 * Instead, pass all the variables you need to classes and functions as arguments.
-* This also **makes** it much easier problem solve and test your code later.
+* This also **makes** it much easier to problem solve and test your code later.
 
 ![](/media/tick-box.jpg){fig-align="center" fig-alt="Streamlit icon"}
 
 
 ## List comprehension {background-image="/media/sticky-notes-on-wall.jpg" background-opacity="0.3"}
 
-* A quick way to build new lists from other lists or other iterables (e.g., dictionaries).
+* A quick way to build new lists from other lists or even dictionaries.
 * Can take some time to get used to using these.
 \
 \
@@ -236,12 +236,13 @@ function_a(function_to_call=lambda:function_b(arg_1, arg_2))
 ```
 
 
-# <span class="hide-title">Streamlit</span>{background-image="/media/streamlit.png" background-opacity="0.3"}
+# <span class="hide-title">Streamlit</span>{background-image="/media/streamlit.png"}
 
 
 ## Streamlit
 
 * As said, we will be using a python web app framework called `Streamlit` for the frontend.
+* Frameworks are a superset of libraries.
 * Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
 
 
@@ -267,7 +268,7 @@ if __name__ == "__main__":
     main()
 ```
 
-* Checks if the current file is being run as an imported library or directly
+* Checks if the current file is being run as an imported library or directly.
 
 
 ## Streamlit methods
@@ -287,7 +288,7 @@ st.text_input("label", key="key_1", on_change=lambda:on_change_function())
 # Or, assign the input field results to a variable
 hospital_number = st.text_input("Hospital number", "0", disabled=False)
 
-# Creates a select box, uses lists for selection choices
+# Creates a select box. Uses lists for selection choices
 st.selectbox("Label for selectbox", ["first choice","second choice"])
 ```
 
@@ -374,11 +375,11 @@ or
 CMD - C
 
 
-## Nuances of streamlit
+## Nuances of Streamlit
 
-* When you update the code and save, click **Always rerun** (top right) in the browser to automatically refresh on code change.
-* Sometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work.
-* Streamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, or press a button).
+* When you update code and save, click **Always rerun** (top right) in the browser to automatically refresh on code change.
+* Sometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work (likely due to some error in the code).
+* Streamlit.io **reruns the whole script** whenever you interact with the browser (eg click something, select something, type something, or press a button).
 
 
 ## Nuances of streamlit
@@ -388,13 +389,14 @@ CMD - C
 
 ![](/media/fields-outside-of-form.png){fig-align="center" fig-alt="Screenshot of fields outside of form"}
 
-## Nuances of streamlit
+
+## Nuances of streamlit {background-image="/media/laptop-sideways.jpg" background-opacity="0.3"}
 
 * Because Streamlit does not allow for dynamic update of fields within forms before submitting.
 
 
-![](/media/laptop-sideways.jpg){fig-align="center" fig-alt="Screenshot of fields outside of form"}
 
+# Now let's get started {background-image="/media/bridge-in-jungle.jpg" background-opacity="0.3"}
 
 ## You need to have VS code installed {background-image="/media/laptop-sideways.jpg" background-opacity="0.3"}
 
@@ -463,20 +465,26 @@ $ python -m venv .venv
 
 ## Activate
 
-* And now activate the virtual environment
+* And now activate the virtual environment.
 
 Mac
 ```{.bash}
-$ source env/bin/activate
+$ source .venv/bin/activate
 ```
 
 \
 Windows
 ```{.bash}
-$ env/Scripts/activate.bat
+$ .venv/Scripts/activate.bat
 ```
 
 ## Install libraries
+\
+```{.bash}
+$ pip install black
+```
+
+and
 
 ```{.bash}
 $ pip install streamlit
@@ -499,7 +507,7 @@ $ cd programming_in_health_care/module_2/lesson_2
 
 ## Secrets
 
-* To use the `Supabase` cloud database, you need a URL (Uniform Resource Locator), eg website address and a secret `key`.
+* To use the `Supabase` cloud database, you need a `URL` (Uniform Resource Locator), eg website address and a secret `key`.
 * This will then give you access to the the Supabase via its API.
 * You will find the url and key in the HackMD file (shared during the module 2 session).
 
@@ -565,8 +573,8 @@ $ streamlit run exercise_2.py
 ## Have the slides on hand {background-image="/media/old-style-slides.jpg" background-opacity="0.2"}
 
 * Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
-* You will likely need them as you build your digital consent form.
-* Recommend doing small changes to code, saving your work, and then checking to see what happens in the browser.
+* You will need them as you build your digital consent form.
+* We recommend doing small changes to your code, saving your work, and then checking to see what happens in the browser.
 
 
 ## Ask
@@ -626,8 +634,8 @@ READ AND WRITE ACCESS
 # Now go! {.smaller}
 
 * Go join your breakout rooms again.
-* You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and with enough help to take you forwards.
-* Try writing code in different ways to see if you can get it to work.
+* You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and have provided you with great tutors to help you forwards.
+* Getting errors? Try writing code in different ways to see if you can get it to work.
 * Look up material in the slides.
 * Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last).
 

@@ -28,14 +28,15 @@ title-slide-attributes:
 
 ## Where do process mapping? {background-image="/media/fibre-optics.jpg" background-opacity="0.3"}
 
-* You can do this on paper
-* Today, we will be using an online process mapping program
+* You can do this on paper.
+* Today, we will be using an online process mapping program called 'Moqups'.
 
 
 ## Lesson 1 - process mapping {background-image="/media/skier-in-mid-air.jpg" background-opacity="0.3"}
 
 * Go join your break out group. 
 * Once there you will be given a link to an online process mapping program called `Moqups`.
+* Your tutor will show you how to use `Moqups` to create your process maps.
 
 
 ## Specifically
