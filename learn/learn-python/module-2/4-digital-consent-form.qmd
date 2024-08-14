@@ -292,6 +292,7 @@ hospital_number = st.text_input("Hospital number", "0", disabled=False)
 st.selectbox("Label for selectbox", ["first choice","second choice"])
 ```
 
+
 ## Streamlit methods
 
 ```{.python filename="streamlit_methods.py" code-line-numbers="4,7,10,13,16"}
@@ -303,6 +304,7 @@ st.header("A header")
 # Show an error message
 st.error("I am an error message")
 ```
+
 
 ## Streamlit methods - forms
 
@@ -318,14 +320,15 @@ with st.form()
 
     if submitted:
         st.write("Button pressed")
-
 ```
+
 
 ## Streamlit methods - forms
 
 * Note the curved border around Streamlit forms.
 
 ![](/media/form-on-streamlit.png){fig-align="center" fig-alt="Screenshot of a form in Streamlit"}
+
 
 ## Streamlit methods - change page
 
@@ -395,8 +398,91 @@ CMD - C
 * Because Streamlit does not allow for dynamic update of fields within forms before submitting.
 
 
+# <span class="hide-title">Supabase</span>
+
+![](/media/supabase-logo-wordmark--light.png){fig-align="center" fig-alt="Screenshot of fields outside of form"}
+
+
+## Connection
+
+* How to connect to the `Supabase` database and then query the data.
+
+```{.python filename="supabase.py" code-line-numbers="4,6,9,12-14"}
+import streamlit as st
+from st_supabase_connection import SupabaseConnection, execute_query
+
+conn = st.connection("supabase", type=SupabaseConnection)
+
+test_data = {"test_data": "Some test data"}
+
+# Retrieve data from database
+users = execute_query(conn.table("users").select("*"), ttl="10m")
+
+# Add data to database
+update_result = execute_query(
+        conn.table("test_upload").insert([test_data], count="None")
+    )
+```
+
+
+## Database fields - test_upload
+
+READ AND WRITE ACCESS
+
+* id
+* test_data
+* created_at
+
+
+## Database fields - consent_types
+
+READ ONLY
+
+* id
+* created_at
+* type
+* full_description
+* intended_benefits
+* potential_risks
+
+
+## Database fields - patient_demographics
+
+READ ONLY
+
+* id
+* created_at
+* first_name
+* last_name
+* hospital_number **(HN001 - HN050)**
+* date_of_birth
+* email
+
+
+## Database fields - users
+
+READ ONLY
+
+* id
+* created_at
+* user_name
+* first_name
+* last_name
+
+
+## Database fields - submitted consents
+
+READ AND WRITE ACCESS
+
+* id
+* created_at
+* patient_id
+* consent_type_id
+* user_id
+
 
 # Now let's get started {background-image="/media/bridge-in-jungle.jpg" background-opacity="0.3"}
+
 
 ## You need to have VS code installed {background-image="/media/laptop-sideways.jpg" background-opacity="0.3"}
 
@@ -582,53 +668,6 @@ $ streamlit run exercise_2.py
 * Please please please ask questions of your tutor. That is why they are here.
 
 `There is no such thing as a stupid question, only a question left unanswered`
-
-
-## Database fields - consent_types
-
-READ ONLY
-
-* id
-* created_at
-* type
-* full_description
-* intended_benefits
-* potential_risks
-
-
-## Database fields - patient_demographics
-
-READ ONLY
-
-* id
-* created_at
-* first_name
-* last_name
-* hospital_number **(HN001 - HN050)**
-* date_of_birth
-* email
-
-
-## Database fields - users
-
-READ ONLY
-
-* id
-* created_at
-* user_name
-* first_name
-* last_name
-
-
-## Database fields - submitted consents
-
-READ AND WRITE ACCESS
-
-* id
-* created_at
-* patient_id
-* consent_type_id
-* user_id
 
 
 # Now go! {.smaller}
