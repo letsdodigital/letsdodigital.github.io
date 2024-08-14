@@ -620,14 +620,14 @@
     "href": "learn/learn-python/module-2/3-process-mapping-conclusion.html#digital-is-not-always-the-answer",
     "title": "Process Mapping Conclusion",
     "section": "Digital is not always the answer",
-    "text": "Digital is not always the answer\n\nSometimes the answer is just doing things different, and better.\nDon’t think Digital Transformation, think:\n\n\n    \nTransformation to improve current processes, with the aid of Digital, if appropriate"
+    "text": "Digital is not always the answer\n\nSometimes the answer is just doing things differently to enable better.\nDon’t think Digital Transformation, think:\n\n\n    \nTransformation to improve current processes, with the aid of Digital, if appropriate"
   },
   {
     "objectID": "learn/learn-python/module-2/3-process-mapping-conclusion.html#we-can-spend-a-long-time",
     "href": "learn/learn-python/module-2/3-process-mapping-conclusion.html#we-can-spend-a-long-time",
     "title": "Process Mapping Conclusion",
     "section": "We can spend a long time",
-    "text": "We can spend a long time\n\nWe could spend a long time talking about process mapping, and finding the best way to undertake something.\nWe could do a separate course on this if there is interest.\nHowever, let’s get building…\n\n\n    Digital consent form"
+    "text": "We can spend a long time\n\nWe could spend a long time talking about process mapping, and finding the best way to undertake a task.\nWe could do a separate course on this if there is interest.\nHowever, let’s get building…\n\n\n    Digital consent form"
   },
   {
     "objectID": "learn/learn-python/module-2/2-process-mapping.html#what-is-process-mapping",
@@ -648,14 +648,14 @@
     "href": "learn/learn-python/module-2/2-process-mapping.html#where-do-process-mapping",
     "title": "Process mapping - lesson 1",
     "section": "Where do process mapping?",
-    "text": "Where do process mapping?\n\nYou can do this on paper\nToday, we will be using an online process mapping program"
+    "text": "Where do process mapping?\n\nYou can do this on paper.\nToday, we will be using an online process mapping program called ‘Moqups’."
   },
   {
     "objectID": "learn/learn-python/module-2/2-process-mapping.html#lesson-1---process-mapping",
     "href": "learn/learn-python/module-2/2-process-mapping.html#lesson-1---process-mapping",
     "title": "Process mapping - lesson 1",
     "section": "Lesson 1 - process mapping",
-    "text": "Lesson 1 - process mapping\n\nGo join your break out group.\nOnce there you will be given a link to an online process mapping program called Moqups."
+    "text": "Lesson 1 - process mapping\n\nGo join your break out group.\nOnce there you will be given a link to an online process mapping program called Moqups.\nYour tutor will show you how to use Moqups to create your process maps."
   },
   {
     "objectID": "learn/learn-python/module-2/2-process-mapping.html#specifically",
@@ -683,14 +683,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-web-browser",
     "title": "Building a digital consent form",
     "section": "What is a web browser?",
-    "text": "What is a web browser?\n\nYou highly likely use these every day (Explorer, Chrome, Safari).\nA web browser is a software program that allows a user to locate, access, and display web pages.\nThe main languages used in creating the raw webpage are HTML and javascript.\nYou can use frameworks in other languages to then create these “raw” webpages. In our case a python framework called streamlit."
+    "text": "What is a web browser?\n\nYou highly likely use these every day (Explorer, Chrome, Safari).\nA web browser is a software program that allows a user to locate, access, display and interact with a web page.\nThe main languages used in creating the “raw” webpage are HTML and javascript.\nYou can use frameworks in other languages to then create these “raw” webpages. In our case a python framework called streamlit."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
     "title": "Building a digital consent form",
     "section": "We are going to cheat",
-    "text": "We are going to cheat\n\nAs we do not have time to build both the front and backend, we have created a cloud database (specifically suprabase) for you to connect to.\nThe “brains” and frontend delivery will be managed by the streamlit server that you will be building.\nA server is basically a computer program that provides you with a web page to interact with."
+    "text": "We are going to cheat\n\nAs we do not have time to build both the front and backend, we have created a cloud database (specifically suprabase) for you to connect to.\nThe “brains” and frontend delivery will be managed by the streamlit server that you will be building.\nA server is basically a computer program that provides you with a web page."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-library",
@@ -718,7 +718,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#state",
     "title": "Building a digital consent form",
     "section": "State",
-    "text": "State\n\nThe state in a web app is basically the current values of variables being used.\nWill we cover this shortly and how to read and alter state in Streamlit."
+    "text": "State\n\nState in a web app is basically the current values of variables being used.\nWill we cover this shortly and how to read and alter state in Streamlit."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#fields",
@@ -739,7 +739,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#web-page-forms",
     "title": "Building a digital consent form",
     "section": "Web Page Forms",
-    "text": "Web Page Forms\n\nA form on a web page is a structured area that contains fields for users to input and submit data.\nForms are used to collect user input and can include various types of fields.\nThe data entered into a form can be sent to a server for processing, often through a submit button."
+    "text": "Web Page Forms\n\nA form on a web page is a structured area that contains fields for users to input and submit data.\nForms are used to collect user input and can include various types of fields.\nThe data entered into a form can be sent to a server for processing, often by pressing a submit button."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#anatomy-of-a-function",
@@ -774,14 +774,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#good-practice",
     "title": "Building a digital consent form",
     "section": "Good practice",
-    "text": "Good practice\n\nInstead, pass all the variables you need to classes and functions as arguments.\nThis also makes it much easier problem solve and test your code later."
+    "text": "Good practice\n\nInstead, pass all the variables you need to classes and functions as arguments.\nThis also makes it much easier to problem solve and test your code later."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension",
     "title": "Building a digital consent form",
     "section": "List comprehension",
-    "text": "List comprehension\n\nA quick way to build new lists from other lists or other iterables (e.g., dictionaries).\nCan take some time to get used to using these.\n\n[new_element for item in iterable if condition]"
+    "text": "List comprehension\n\nA quick way to build new lists from other lists or even dictionaries.\nCan take some time to get used to using these.\n\n[new_element for item in iterable if condition]"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension-1",
@@ -823,7 +823,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-1",
     "title": "Building a digital consent form",
     "section": "Streamlit",
-    "text": "Streamlit\n\nAs said, we will be using a python web app framework called Streamlit for the frontend.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
+    "text": "Streamlit\n\nAs said, we will be using a python web app framework called Streamlit for the frontend.\nFrameworks are a superset of libraries.\nFrameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app)."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#module-import",
@@ -837,14 +837,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#who-is-running-what",
     "title": "Building a digital consent form",
     "section": "Who is running what?",
-    "text": "Who is running what?\n\n\nmain.py\n\nif __name__ == \"__main__\":\n    main()\n\n\nChecks if the current file is being run as an imported library or directly"
+    "text": "Who is running what?\n\n\nmain.py\n\nif __name__ == \"__main__\":\n    main()\n\n\nChecks if the current file is being run as an imported library or directly."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods",
     "title": "Building a digital consent form",
     "section": "Streamlit methods",
-    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Text input field with key and on_change function\nst.text_input(\"label\", key=\"key_1\", on_change=lambda:on_change_function())\n\n# Or, assign the input field results to a variable\nhospital_number = st.text_input(\"Hospital number\", \"0\", disabled=False)\n\n# Creates a select box, uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
+    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Text input field with key and on_change function\nst.text_input(\"label\", key=\"key_1\", on_change=lambda:on_change_function())\n\n# Or, assign the input field results to a variable\nhospital_number = st.text_input(\"Hospital number\", \"0\", disabled=False)\n\n# Creates a select box. Uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-1",
@@ -899,8 +899,8 @@
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit",
     "title": "Building a digital consent form",
-    "section": "Nuances of streamlit",
-    "text": "Nuances of streamlit\n\nWhen you update the code and save, click Always rerun (top right) in the browser to automatically refresh on code change.\nSometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work.\nStreamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, or press a button)."
+    "section": "Nuances of Streamlit",
+    "text": "Nuances of Streamlit\n\nWhen you update code and save, click Always rerun (top right) in the browser to automatically refresh on code change.\nSometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work (likely due to some error in the code).\nStreamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, or press a button)."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#nuances-of-streamlit-1",
@@ -984,14 +984,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#activate",
     "title": "Building a digital consent form",
     "section": "Activate",
-    "text": "Activate\n\nAnd now activate the virtual environment\n\nMac\n$ source env/bin/activate\n\nWindows\n$ env/Scripts/activate.bat"
+    "text": "Activate\n\nAnd now activate the virtual environment.\n\nMac\n$ source .venv/bin/activate\n\nWindows\n$ .venv/Scripts/activate.bat"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#install-libraries",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#install-libraries",
     "title": "Building a digital consent form",
     "section": "Install libraries",
-    "text": "Install libraries\n$ pip install streamlit\nand\n$ pip install st_supabase_connection"
+    "text": "Install libraries\n\n\n$ pip install black\nand\n$ pip install streamlit\nand\n$ pip install st_supabase_connection"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
@@ -1054,7 +1054,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#have-the-slides-on-hand",
     "title": "Building a digital consent form",
     "section": "Have the slides on hand",
-    "text": "Have the slides on hand\n\nMake sure you have the slides on hand - https://letsdodigital.org/learn/learn-python/module-2/\nYou will likely need them as you build your digital consent form.\nRecommend doing small changes to code, saving your work, and then checking to see what happens in the browser."
+    "text": "Have the slides on hand\n\nMake sure you have the slides on hand - https://letsdodigital.org/learn/learn-python/module-2/\nYou will need them as you build your digital consent form.\nWe recommend doing small changes to your code, saving your work, and then checking to see what happens in the browser."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#ask",
@@ -3980,14 +3980,28 @@
     "href": "learn/learn-python/module-2/tutor-notes.html",
     "title": "Tutor notes - module 2",
     "section": "",
-    "text": "This is the third course for the Programming in Healthcare series. It is for students that have some moderate experience with coding. Hopefully students would have completed the introductory modules 0 and 1.\nHopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teachings they need. As you may know, there is a high attrition rate for people who are learning to code.\nWe will have a set up session prior to running the module where we will get VS Code installed onto the student’s computers. Worse case scenario, where the student cannot install, or does not get around to installing VS Code, they can use Codespace instead.\nCode for the coding sessions can be found here."
+    "text": "This is the third course for the Programming in Healthcare series. It is for students that have some moderate experience with coding. Hopefully students would have completed the introductory modules 0 and 1.\nHopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teachings they need. As you may know, there is a high attrition rate for people who are learning to code."
   },
   {
     "objectID": "learn/learn-python/module-2/tutor-notes.html#overview",
     "href": "learn/learn-python/module-2/tutor-notes.html#overview",
     "title": "Tutor notes - module 2",
     "section": "",
-    "text": "This is the third course for the Programming in Healthcare series. It is for students that have some moderate experience with coding. Hopefully students would have completed the introductory modules 0 and 1.\nHopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teachings they need. As you may know, there is a high attrition rate for people who are learning to code.\nWe will have a set up session prior to running the module where we will get VS Code installed onto the student’s computers. Worse case scenario, where the student cannot install, or does not get around to installing VS Code, they can use Codespace instead.\nCode for the coding sessions can be found here."
+    "text": "This is the third course for the Programming in Healthcare series. It is for students that have some moderate experience with coding. Hopefully students would have completed the introductory modules 0 and 1.\nHopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teachings they need. As you may know, there is a high attrition rate for people who are learning to code."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/tutor-notes.html#setup-session-for-students",
+    "href": "learn/learn-python/module-2/tutor-notes.html#setup-session-for-students",
+    "title": "Tutor notes - module 2",
+    "section": "Setup session for students",
+    "text": "Setup session for students\nWe will have a set up session prior to running the module where we will get VS Code installed onto the student’s computers. Worse case scenario, where the student cannot install, or does not get around to installing VS Code, they can use Codespace instead.\nCode for the coding sessions can be found here."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/tutor-notes.html#setup-session-for-tutors",
+    "href": "learn/learn-python/module-2/tutor-notes.html#setup-session-for-tutors",
+    "title": "Tutor notes - module 2",
+    "section": "Setup session for tutors",
+    "text": "Setup session for tutors\nWe will need to teach tutors how to use Moqups prior to teaching sessions to able tutors to teach students how to use this process mapping tool."
   },
   {
     "objectID": "learn/learn-python/module-2/tutor-notes.html#session-info-for-students",
@@ -4030,6 +4044,13 @@
     "title": "Tutor notes - module 2",
     "section": "Answers",
     "text": "Answers\nTBC"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/6-session-close.html#many-thanks",
+    "href": "learn/learn-python/module-2/6-session-close.html#many-thanks",
+    "title": "Session close",
+    "section": "Many thanks",
+    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great addition to your digital health carer.\nCould you please complete feedback before you leave.\nPlease do join us for more advanced courses."
   },
   {
     "objectID": "learn/learn-python/module-0/1-introduction.html#introduction",

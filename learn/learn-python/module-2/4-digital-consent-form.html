@@ -435,8 +435,8 @@ Let’s Do Digital Team
 <h2>What is a web browser?</h2>
 <ul>
 <li>You highly likely use these every day (Explorer, Chrome, Safari).</li>
-<li>A web browser is a software program that allows a user to locate, access, and display web pages.</li>
-<li>The main languages used in creating the raw webpage are HTML and javascript.</li>
+<li>A web browser is a software program that allows a user to locate, access, display and interact with a web page.</li>
+<li>The main languages used in creating the “raw” webpage are HTML and javascript.</li>
 <li>You can use frameworks in other languages to then create these “raw” webpages. In our case a python framework called <code>streamlit</code>.</li>
 </ul>
 </section>
@@ -445,7 +445,7 @@ Let’s Do Digital Team
 <ul>
 <li>As we do not have time to build both the front and backend, we have created a cloud database (specifically <code>suprabase</code>) for you to connect to.</li>
 <li>The “brains” and frontend delivery will be managed by the <code>streamlit</code> server that you will be building.</li>
-<li>A server is basically a computer program that provides you with a web page to interact with.</li>
+<li>A server is basically a computer program that provides you with a web page.</li>
 </ul>
 </section>
 <section id="what-is-a-library" class="slide level2" data-background-image="../../../media/book-open-in-library.jpg" data-background-opacity="0.3">
@@ -477,7 +477,7 @@ Let’s Do Digital Team
 <section id="state" class="slide level2" data-background-image="../../../media/numbers-on-wooden-spinners.jpg" data-background-opacity="0.3">
 <h2>State</h2>
 <ul>
-<li>The <code>state</code> in a web app is basically the current values of variables being used.</li>
+<li><code>State</code> in a web app is basically the current values of variables being used.</li>
 <li>Will we cover this shortly and how to read and alter state in Streamlit.</li>
 </ul>
 </section>
@@ -506,7 +506,7 @@ Let’s Do Digital Team
 <ul>
 <li>A form on a web page is a structured area that contains fields for users to input and submit data.</li>
 <li>Forms are used to collect user input and can include various types of fields.</li>
-<li>The data entered into a form can be sent to a server for processing, often through a submit button.</li>
+<li>The data entered into a form can be sent to a server for processing, often by pressing a submit button.</li>
 </ul>
 
 <img data-src="../../../media/field-and-submit-button.png" class="quarto-figure quarto-figure-center r-stretch" alt="a field and a submit button from a form"></section></section>
@@ -568,14 +568,14 @@ Let’s Do Digital Team
 <h2>Good practice</h2>
 <ul>
 <li>Instead, pass all the variables you need to classes and functions as arguments.</li>
-<li>This also <strong>makes</strong> it much easier problem solve and test your code later.</li>
+<li>This also <strong>makes</strong> it much easier to problem solve and test your code later.</li>
 </ul>
 
 <img data-src="../../../media/tick-box.jpg" class="quarto-figure quarto-figure-center r-stretch" alt="Streamlit icon"></section>
 <section id="list-comprehension" class="slide level2" data-background-image="../../../media/sticky-notes-on-wall.jpg" data-background-opacity="0.3">
 <h2>List comprehension</h2>
 <ul>
-<li>A quick way to build new lists from other lists or other iterables (e.g., dictionaries).</li>
+<li>A quick way to build new lists from other lists or even dictionaries.</li>
 <li>Can take some time to get used to using these.<br>
 <br>
 [<strong>new_element</strong> for <strong>item</strong> in <strong>iterable</strong> if <strong>condition</strong>]</li>
@@ -658,7 +658,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 </div>
 </section></section>
 <section>
-<section id="streamlit" class="title-slide slide level1 center" data-background-image="../../../media/streamlit.png" data-background-opacity="0.3">
+<section id="streamlit" class="title-slide slide level1 center" data-background-image="../../../media/streamlit.png">
 <h1><span class="hide-title">Streamlit</span></h1>
 
 </section>
@@ -666,6 +666,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <h2>Streamlit</h2>
 <ul>
 <li>As said, we will be using a python web app framework called <code>Streamlit</code> for the frontend.</li>
+<li>Frameworks are a superset of libraries.</li>
 <li>Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).</li>
 </ul>
 </section>
@@ -696,7 +697,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <span id="cb13-2"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
-<li>Checks if the current file is being run as an imported library or directly</li>
+<li>Checks if the current file is being run as an imported library or directly.</li>
 </ul>
 </section>
 <section id="streamlit-methods" class="slide level2">
@@ -719,7 +720,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <span id="cb14-12"><a></a><span class="co"># Or, assign the input field results to a variable</span></span>
 <span id="cb14-13"><a></a>hospital_number <span class="op">=</span> st.text_input(<span class="st">"Hospital number"</span>, <span class="st">"0"</span>, disabled<span class="op">=</span><span class="va">False</span>)</span>
 <span id="cb14-14"><a></a></span>
-<span id="cb14-15"><a></a><span class="co"># Creates a select box, uses lists for selection choices</span></span>
+<span id="cb14-15"><a></a><span class="co"># Creates a select box. Uses lists for selection choices</span></span>
 <span id="cb14-16"><a></a>st.selectbox(<span class="st">"Label for selectbox"</span>, [<span class="st">"first choice"</span>,<span class="st">"second choice"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
@@ -815,11 +816,11 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <p>CMD - C</p>
 </section>
 <section id="nuances-of-streamlit" class="slide level2">
-<h2>Nuances of streamlit</h2>
+<h2>Nuances of Streamlit</h2>
 <ul>
-<li>When you update the code and save, click <strong>Always rerun</strong> (top right) in the browser to automatically refresh on code change.</li>
-<li>Sometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work.</li>
-<li>Streamlit.io reruns the whole script whenever you interact with the browser (eg click something, select something, type something, or press a button).</li>
+<li>When you update code and save, click <strong>Always rerun</strong> (top right) in the browser to automatically refresh on code change.</li>
+<li>Sometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work (likely due to some error in the code).</li>
+<li>Streamlit.io <strong>reruns the whole script</strong> whenever you interact with the browser (eg click something, select something, type something, or press a button).</li>
 </ul>
 </section>
 <section id="nuances-of-streamlit-1" class="slide level2">
@@ -829,13 +830,17 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 </ul>
 
 <img data-src="../../../media/fields-outside-of-form.png" class="quarto-figure quarto-figure-center r-stretch" alt="Screenshot of fields outside of form"></section>
-<section id="nuances-of-streamlit-2" class="slide level2">
+<section id="nuances-of-streamlit-2" class="slide level2" data-background-image="../../../media/laptop-sideways.jpg" data-background-opacity="0.3">
 <h2>Nuances of streamlit</h2>
 <ul>
 <li>Because Streamlit does not allow for dynamic update of fields within forms before submitting.</li>
 </ul>
+</section></section>
+<section>
+<section id="now-lets-get-started" class="title-slide slide level1 center" data-background-image="../../../media/bridge-in-jungle.jpg" data-background-opacity="0.3">
+<h1>Now let’s get started</h1>
 
-<img data-src="../../../media/laptop-sideways.jpg" class="quarto-figure quarto-figure-center r-stretch" alt="Screenshot of fields outside of form"></section>
+</section>
 <section id="you-need-to-have-vs-code-installed" class="slide level2" data-background-image="../../../media/laptop-sideways.jpg" data-background-opacity="0.3">
 <h2>You need to have VS code installed</h2>
 <ul>
@@ -909,19 +914,23 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <section id="activate" class="slide level2">
 <h2>Activate</h2>
 <ul>
-<li>And now activate the virtual environment</li>
+<li>And now activate the virtual environment.</li>
 </ul>
 <p>Mac</p>
-<div class="sourceCode" id="cb23"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a></a><span class="ex">$</span> source env/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb23"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a></a><span class="ex">$</span> source .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br>
 Windows</p>
-<div class="sourceCode" id="cb24"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a></a><span class="ex">$</span> env/Scripts/activate.bat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a></a><span class="ex">$</span> .venv/Scripts/activate.bat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="install-libraries" class="slide level2">
 <h2>Install libraries</h2>
-<div class="sourceCode" id="cb25"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+<div class="sourceCode" id="cb25"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a></a><span class="ex">$</span> pip install black</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>and</p>
-<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>and</p>
+<div class="sourceCode" id="cb27"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="finding-your-way" class="slide level2">
 <h2>Finding your way</h2>
@@ -929,12 +938,12 @@ Windows</p>
 <li>Click inside your terminal window.</li>
 <li>Go to:</li>
 </ul>
-<div class="sourceCode" id="cb27"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a></a><span class="ex">$</span> cd programming_in_health_care/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb28"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb28-1"><a></a><span class="ex">$</span> cd programming_in_health_care/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="secrets" class="slide level2">
 <h2>Secrets</h2>
 <ul>
-<li>To use the <code>Supabase</code> cloud database, you need a URL (Uniform Resource Locator), eg website address and a secret <code>key</code>.</li>
+<li>To use the <code>Supabase</code> cloud database, you need a <code>URL</code> (Uniform Resource Locator), eg website address and a secret <code>key</code>.</li>
 <li>This will then give you access to the the Supabase via its API.</li>
 <li>You will find the url and key in the HackMD file (shared during the module 2 session).</li>
 </ul>
@@ -951,7 +960,7 @@ Windows</p>
 <ul>
 <li>And then run:</li>
 </ul>
-<div class="sourceCode" id="cb28"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb28-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb29-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="this-will-run" class="slide level2">
 <h2>This will run</h2>
@@ -959,15 +968,15 @@ Windows</p>
 <div class="code-with-filename-file">
 <pre><strong>lesson_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb29" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb29-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb29-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
-<span id="cb29-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
-<span id="cb29-4"><a></a></span>
-<span id="cb29-5"><a></a>    <span class="cf">return</span></span>
-<span id="cb29-6"><a></a></span>
-<span id="cb29-7"><a></a></span>
-<span id="cb29-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb29-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb30" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb30-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb30-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
+<span id="cb30-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
+<span id="cb30-4"><a></a></span>
+<span id="cb30-5"><a></a>    <span class="cf">return</span></span>
+<span id="cb30-6"><a></a></span>
+<span id="cb30-7"><a></a></span>
+<span id="cb30-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb30-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And…</p>
 </section>
@@ -981,9 +990,9 @@ Windows</p>
 <li>Use the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.</li>
 <li>For example to change</li>
 </ul>
-<div class="sourceCode" id="cb30"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>to</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb32-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="warning" class="slide level2" data-background-image="../../../media/glowing-red-cone.jpg" data-background-opacity="0.3">
 <h2>Warning!</h2>
@@ -995,8 +1004,8 @@ Windows</p>
 <h2>Have the slides on hand</h2>
 <ul>
 <li>Make sure you have the slides on hand - <code>https://letsdodigital.org/learn/learn-python/module-2/</code></li>
-<li>You will likely need them as you build your digital consent form.</li>
-<li>Recommend doing small changes to code, saving your work, and then checking to see what happens in the browser.</li>
+<li>You will need them as you build your digital consent form.</li>
+<li>We recommend doing small changes to your code, saving your work, and then checking to see what happens in the browser.</li>
 </ul>
 </section>
 <section id="ask" class="slide level2">
@@ -1057,8 +1066,8 @@ Windows</p>
 <h1>Now go!</h1>
 <ul>
 <li>Go join your breakout rooms again.</li>
-<li>You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and with enough help to take you forwards.</li>
-<li>Try writing code in different ways to see if you can get it to work.</li>
+<li>You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and have provided you with great tutors to help you forwards.</li>
+<li>Getting errors? Try writing code in different ways to see if you can get it to work.</li>
 <li>Look up material in the slides.</li>
 <li>Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last).</li>
 </ul>
