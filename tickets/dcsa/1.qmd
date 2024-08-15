@@ -9,6 +9,8 @@ The ultimate aim of the DCSP is to streamline and automate the process of clinic
 
 This webinar showcases a prototype of the DCSP, with input from the Digital Clinical Safety Alliance team and also Dean Mawson, a Clinical Safety Officer, on how this new system can help improve and streamline your safety documentation.
 
+Session chair: **Dr Michelle Durham**
+
 The **Digital Clinical Safety Alliance** team consists of:
 
 * **Mark Bailey** - Locum Respiratory Consultant and Clinician-who-codes
