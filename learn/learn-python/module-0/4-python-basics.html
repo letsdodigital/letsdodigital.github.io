@@ -491,17 +491,43 @@ Let’s Do Digital Team
     4
     5</code></pre>
 </section>
+<section id="control-flow---for-loops-and-breaks" class="slide level2">
+<h2>Control flow - for loops and breaks</h2>
+<ul>
+<li>You can also stop the loop when a condition is met.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>for_loop_break.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb9" data-filename="for_loop_break.py" data-code-line-numbers="7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>list_of_numbers <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>, <span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>]</span>
+<span id="cb9-2"><a></a></span>
+<span id="cb9-3"><a></a><span class="cf">for</span> number <span class="kw">in</span> list_of_numbers:</span>
+<span id="cb9-4"><a></a>    <span class="bu">print</span>(number)</span>
+<span id="cb9-5"><a></a>    <span class="cf">if</span> number <span class="op">==</span> <span class="dv">6</span>:</span>
+<span id="cb9-6"><a></a>        <span class="bu">print</span>(<span class="st">"End"</span>)</span>
+<span id="cb9-7"><a></a>        <span class="cf">break</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    1
+    2
+    3
+    4
+    5
+    6
+    End</code></pre>
+</section>
 <section id="control-flow---while-loops" class="slide level2">
 <h2>Control flow - while loops</h2>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>while_loop.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb9" data-filename="while_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb9-2"><a></a></span>
-<span id="cb9-3"><a></a><span class="cf">while</span> count <span class="op">&lt;</span> <span class="dv">6</span>:</span>
-<span id="cb9-4"><a></a>    <span class="bu">print</span>(count)</span>
-<span id="cb9-5"><a></a>    count <span class="op">=</span> count <span class="op">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11" data-filename="while_loop.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb11-2"><a></a></span>
+<span id="cb11-3"><a></a><span class="cf">while</span> count <span class="op">&lt;</span> <span class="dv">6</span>:</span>
+<span id="cb11-4"><a></a>    <span class="bu">print</span>(count)</span>
+<span id="cb11-5"><a></a>    count <span class="op">=</span> count <span class="op">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    1
@@ -519,11 +545,11 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>colon.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb11" data-filename="colon.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
-<span id="cb11-2"><a></a></span>
-<span id="cb11-3"><a></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
-<span id="cb11-4"><a></a>    <span class="bu">print</span>(count)</span>
-<span id="cb11-5"><a></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13" data-filename="colon.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>count <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb13-2"><a></a></span>
+<span id="cb13-3"><a></a><span class="cf">while</span> count <span class="op">&lt;=</span> <span class="dv">5</span>:</span>
+<span id="cb13-4"><a></a>    <span class="bu">print</span>(count)</span>
+<span id="cb13-5"><a></a>    count <span class="op">+=</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="colons" class="slide level2">
@@ -535,9 +561,9 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>more_colons.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb12" data-filename="more_colons.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a><span class="kw">def</span> i_am_a_function():</span>
-<span id="cb12-2"><a></a>    <span class="bu">print</span>(<span class="st">"hello"</span>)</span>
-<span id="cb12-3"><a></a>    <span class="cf">return</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14" data-filename="more_colons.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="kw">def</span> i_am_a_function():</span>
+<span id="cb14-2"><a></a>    <span class="bu">print</span>(<span class="st">"hello"</span>)</span>
+<span id="cb14-3"><a></a>    <span class="cf">return</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="indexing-lists" class="slide level2">
@@ -549,9 +575,9 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>indexing.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb13" data-filename="indexing.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>a_list <span class="op">=</span> [<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>]</span>
-<span id="cb13-2"><a></a></span>
-<span id="cb13-3"><a></a><span class="bu">print</span>(a_list[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15" data-filename="indexing.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a>a_list <span class="op">=</span> [<span class="st">"a"</span>, <span class="st">"b"</span>, <span class="st">"c"</span>]</span>
+<span id="cb15-2"><a></a></span>
+<span id="cb15-3"><a></a><span class="bu">print</span>(a_list[<span class="dv">0</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    a</code></pre>
@@ -565,9 +591,9 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>indexing.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb15" data-filename="indexing.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a>a_dictionary <span class="op">=</span> {<span class="st">"key 1"</span>: <span class="dv">11</span>, <span class="st">"key 2"</span>: <span class="dv">76</span>}</span>
-<span id="cb15-2"><a></a></span>
-<span id="cb15-3"><a></a><span class="bu">print</span>(a_dictionary[<span class="st">"key 1"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb17" data-filename="indexing.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a>a_dictionary <span class="op">=</span> {<span class="st">"key 1"</span>: <span class="dv">11</span>, <span class="st">"key 2"</span>: <span class="dv">76</span>}</span>
+<span id="cb17-2"><a></a></span>
+<span id="cb17-3"><a></a><span class="bu">print</span>(a_dictionary[<span class="st">"key 1"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    11</code></pre>
@@ -593,12 +619,12 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb17" data-filename="functions.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a></span>
-<span id="cb17-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
-<span id="cb17-3"><a></a></span>
-<span id="cb17-4"><a></a>    <span class="bu">print</span>(argument_1 <span class="op">+</span> argument_2)</span>
-<span id="cb17-5"><a></a></span>
-<span id="cb17-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb19" data-filename="functions.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a></span>
+<span id="cb19-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb19-3"><a></a></span>
+<span id="cb19-4"><a></a>    <span class="bu">print</span>(argument_1 <span class="op">+</span> argument_2)</span>
+<span id="cb19-5"><a></a></span>
+<span id="cb19-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="anatomy-of-a-function-1" class="slide level2">
@@ -607,12 +633,12 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb18" data-filename="functions.py" data-code-line-numbers="4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a></span>
-<span id="cb18-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
-<span id="cb18-3"><a></a></span>
-<span id="cb18-4"><a></a>    <span class="bu">print</span>(argument_1 <span class="op">+</span> argument_2)</span>
-<span id="cb18-5"><a></a></span>
-<span id="cb18-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb20" data-filename="functions.py" data-code-line-numbers="4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a></span>
+<span id="cb20-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb20-3"><a></a></span>
+<span id="cb20-4"><a></a>    <span class="bu">print</span>(argument_1 <span class="op">+</span> argument_2)</span>
+<span id="cb20-5"><a></a></span>
+<span id="cb20-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="anatomy-of-a-function-2" class="slide level2">
@@ -621,12 +647,12 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb19" data-filename="functions.py" data-code-line-numbers="6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a></span>
-<span id="cb19-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
-<span id="cb19-3"><a></a></span>
-<span id="cb19-4"><a></a>    <span class="bu">print</span>(argument_1 <span class="op">+</span> argument_2)</span>
-<span id="cb19-5"><a></a></span>
-<span id="cb19-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb21" data-filename="functions.py" data-code-line-numbers="6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a></a></span>
+<span id="cb21-2"><a></a><span class="kw">def</span> name_of_function(argument_1, argument_2):</span>
+<span id="cb21-3"><a></a></span>
+<span id="cb21-4"><a></a>    <span class="bu">print</span>(argument_1 <span class="op">+</span> argument_2)</span>
+<span id="cb21-5"><a></a></span>
+<span id="cb21-6"><a></a>    <span class="cf">return</span> <span class="st">"Finished"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="inbuilt-functions" class="slide level2">
@@ -638,8 +664,8 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>built_in_functions.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb20" data-filename="built_in_functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="bu">print</span>(<span class="st">"hello world"</span>)</span>
-<span id="cb20-2"><a></a><span class="bu">print</span>(<span class="bu">len</span>([<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb22" data-filename="built_in_functions.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a></a><span class="bu">print</span>(<span class="st">"hello world"</span>)</span>
+<span id="cb22-2"><a></a><span class="bu">print</span>(<span class="bu">len</span>([<span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>]))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    hello world
@@ -652,11 +678,11 @@ Let’s Do Digital Team
 <li>Time for some hands on coding in <code>Lesson 3</code>.</li>
 <li>You need to change directory</li>
 </ul>
-<div class="sourceCode" id="cb22"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a></a><span class="ex">$</span> cd ../lesson_3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb24"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb24-1"><a></a><span class="ex">$</span> cd ../lesson_3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Then run the first exercise:</li>
 </ul>
-<div class="sourceCode" id="cb23"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb23-1"><a></a><span class="ex">$</span> python exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb25"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb25-1"><a></a><span class="ex">$</span> python exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="computers-are-pedantic" class="slide level2 smaller">
 <h2>Computers are pedantic!</h2>

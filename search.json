@@ -798,6 +798,13 @@
     "text": "List comprehension - dictionaries\n\n\nlist_comprehension.py\n\npatients = [\n        {\"name\": \"Alice\", \"hospital_number\": \"H123\", \"age\": 25},\n        {\"name\": \"Bob\", \"hospital_number\": \"H124\", \"age\": 17},\n    ]\n\nnames = [\n    patient[\"name\"]\n    for patient in patients\n    if patient[\"age\"] &gt; 18\n]\n\nprint(names)\n\nOutput\n    Alice"
   },
   {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#convert-to-list",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#convert-to-list",
+    "title": "Building a digital consent form",
+    "section": "Convert to list",
+    "text": "Convert to list\n\nSometimes you need to convert keys of a dictionary to a list:\n\n\n\nlist_function.py\n\npatients = [\n        {\"name\": \"Alice\", \"hospital_number\": \"H123\", \"age\": 25},\n        {\"name\": \"Bob\", \"hospital_number\": \"H124\", \"age\": 17},\n    ]\n\nprint(list(patients.keys()))\n\nOutput\n    ['name', 'hospital_number', 'age']"
+  },
+  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-it-all",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-it-all",
     "title": "Building a digital consent form",
@@ -809,7 +816,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-it-all-1",
     "title": "Building a digital consent form",
     "section": "I want it all",
-    "text": "I want it all\n\n\nlist_comprehension.py\n\npatients = [\n    {\"name\": \"Alice\", \"age\": 25, \"hospital_number\": \"H123\"},\n    {\"name\": \"James\", \"age\": 18, \"hospital_number\": \"H124\"},\n]\n\nall_adults = all(patient[\"age\"] &gt;= 18 for patient in patients)\n\nprint(all_adults)\n\nOutput\n    True"
+    "text": "I want it all\n\n\nall.py\n\npatients = [\n    {\"name\": \"Alice\", \"age\": 25, \"hospital_number\": \"H123\"},\n    {\"name\": \"James\", \"age\": 18, \"hospital_number\": \"H124\"},\n]\n\nall_adults = all(patient[\"age\"] &gt;= 18 for patient in patients)\n\nprint(all_adults)\n\nOutput\n    True"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-all-values",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-all-values",
+    "title": "Building a digital consent form",
+    "section": "I want all values",
+    "text": "I want all values\n\n\nall.py\n\nif all(field != \"\" for field in fields.values()):\n    st.write(\"ok\")"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#lambda",
@@ -844,11 +858,18 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods",
     "title": "Building a digital consent form",
     "section": "Streamlit methods",
-    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Text input field with key and on_change function\nst.text_input(\"label\", key=\"key_1\", on_change=lambda:on_change_function())\n\n# Or, assign the input field results to a variable\nhospital_number = st.text_input(\"Hospital number\", \"0\", disabled=False)\n\n# Creates a select box. Uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
+    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Text input field with key and on_change function\n# \"key_1\" is stored as a key in the session state (described later)\nst.text_input(\"label\", key=\"key_1\", on_change=lambda:on_change_function())\n\n# Or, assign the input field results to a variable\nhospital_number = st.text_input(\"Hospital number\", \"0\", disabled=False)"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-1",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-1",
+    "title": "Building a digital consent form",
+    "section": "Streamlit methods",
+    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# Creates a select box. Uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])\n\n# Create a date field\ndate_of_birth = st.date_input(\"Date of birth\", None)"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-2",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-2",
     "title": "Building a digital consent form",
     "section": "Streamlit methods",
     "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# Create a header (basically larger text)\nst.header(\"A header\")\n\n# Show an error message\nst.error(\"I am an error message\")"
@@ -858,7 +879,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods---forms",
     "title": "Building a digital consent form",
     "section": "Streamlit methods - forms",
-    "text": "Streamlit methods - forms\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# Create a form\nwith st.form()\n    # As many fields as you like, eg\n    st.text_input(\"First name\")\n\n    submitted = st.form_submit_button(\"Submit\")\n\n    if submitted:\n        st.write(\"Button pressed\")"
+    "text": "Streamlit methods - forms\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# Create a form\nwith st.form(\"name_of_form\")\n    # As many fields as you like, eg\n    st.text_input(\"First name\")\n\n    submitted = st.form_submit_button(\"Submit\")\n\n    if submitted:\n        st.write(\"Button pressed\")"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods---forms-1",
@@ -1019,7 +1040,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#virtual-environments",
     "title": "Building a digital consent form",
     "section": "Virtual environments",
-    "text": "Virtual environments\n\ncd into your cloned repository (repo).\nYou now need to create a virtual environment.\n\n$ python -m venv .venv"
+    "text": "Virtual environments\n\nNeeded to stop conflicts with different versions of python libraries across different projects.\ncd into your cloned repository (repo).\nYou now need to create a virtual environment.\n\n$ python -m venv .venv"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#activate",
@@ -1027,6 +1048,13 @@
     "title": "Building a digital consent form",
     "section": "Activate",
     "text": "Activate\n\nAnd now activate the virtual environment.\n\nMac\n$ source .venv/bin/activate\n\nWindows\n$ .venv/Scripts/activate.bat"
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#activate-1",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#activate-1",
+    "title": "Building a digital consent form",
+    "section": "Activate",
+    "text": "Activate\n\nYou should now see (.venv) at the start of the command line to signify that you are in a python virtual environment.\n\n(.venv) @Username/workspace/ $"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#install-libraries",
@@ -1075,7 +1103,14 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#start-the-browser",
     "title": "Building a digital consent form",
     "section": "Start the browser",
-    "text": "Start the browser"
+    "text": "Start the browser\n\nThere will likely be a pop up window to start the browser.\nIf not, press CTRL / CMD and click on one of the new url addresses in the terminal."
+  },
+  {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#follow-the-exercises.",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#follow-the-exercises.",
+    "title": "Building a digital consent form",
+    "section": "Follow the exercises.",
+    "text": "Follow the exercises.\n\nNow follow the instructions in the exercises, starting at exercise 1."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#altering-the-command-to-run",
@@ -4149,6 +4184,13 @@
     "title": "Python basics - 2nd slide deck",
     "section": "Control flow - for loops",
     "text": "Control flow - for loops\n\n\nfor_loop.py\n\nlist_of_numbers = [1, 2, 3, 4, 5]\n\nfor number in list_of_numbers:\n    print(number)\n\nOutput\n    1\n    2\n    3\n    4\n    5"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/4-python-basics.html#control-flow---for-loops-and-breaks",
+    "href": "learn/learn-python/module-0/4-python-basics.html#control-flow---for-loops-and-breaks",
+    "title": "Python basics - 2nd slide deck",
+    "section": "Control flow - for loops and breaks",
+    "text": "Control flow - for loops and breaks\n\nYou can also stop the loop when a condition is met.\n\n\n\nfor_loop_break.py\n\nlist_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]\n\nfor number in list_of_numbers:\n    print(number)\n    if number == 6:\n        print(\"End\")\n        break\n\nOutput\n    1\n    2\n    3\n    4\n    5\n    6\n    End"
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#control-flow---while-loops",
