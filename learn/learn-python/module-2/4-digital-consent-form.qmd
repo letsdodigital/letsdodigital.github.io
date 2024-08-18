@@ -200,6 +200,23 @@ Output
         Alice
 
 
+## Convert to list
+
+* Sometimes you need to convert **keys** of a dictionary to a list:
+
+```{.python filename="list_function.py" code-line-numbers="6"}
+patients = [
+        {"name": "Alice", "hospital_number": "H123", "age": 25},
+        {"name": "Bob", "hospital_number": "H124", "age": 17},
+    ]
+
+print(list(patients.keys()))
+```
+
+Output
+
+        ['name', 'hospital_number', 'age']
+
 ## I want it all {background-image="/media/man-and-large-sundae.jpg" background-opacity="0.3"}
 
 * The `all()` function returns true if all elements in a list pass a certain test.
@@ -210,7 +227,7 @@ Output
 
 ## I want it all
 
-```{.python filename="list_comprehension.py" code-line-numbers="6"}
+```{.python filename="all.py" code-line-numbers="6"}
 patients = [
     {"name": "Alice", "age": 25, "hospital_number": "H123"},
     {"name": "James", "age": 18, "hospital_number": "H124"},
@@ -224,6 +241,14 @@ print(all_adults)
 Output
 
         True
+
+
+## I want all values
+
+```{.python filename="all.py"}
+if all(field != "" for field in fields.values()):
+    st.write("ok")
+```
 
 
 ## Lambda
@@ -273,7 +298,7 @@ if __name__ == "__main__":
 
 ## Streamlit methods
 
-```{.python filename="streamlit_methods.py" code-line-numbers="4,7,10,13,16"}
+```{.python filename="streamlit_methods.py" code-line-numbers="4,7,11,14"}
 import streamlit as st
 
 # A title for the page
@@ -283,13 +308,24 @@ st.title("My first web app")
 st.write("Text to write to browser")
 
 # Text input field with key and on_change function
+# "key_1" is stored as a key in the session state (described later)
 st.text_input("label", key="key_1", on_change=lambda:on_change_function())
 
 # Or, assign the input field results to a variable
 hospital_number = st.text_input("Hospital number", "0", disabled=False)
+```
+
+
+## Streamlit methods
+
+```{.python filename="streamlit_methods.py" code-line-numbers="4,7"}
+import streamlit as st
 
 # Creates a select box. Uses lists for selection choices
 st.selectbox("Label for selectbox", ["first choice","second choice"])
+
+# Create a date field
+date_of_birth = st.date_input("Date of birth", None)
 ```
 
 
@@ -312,7 +348,7 @@ st.error("I am an error message")
 import streamlit as st
 
 # Create a form
-with st.form()
+with st.form("name_of_form")
     # As many fields as you like, eg
     st.text_input("First name")
 
@@ -542,6 +578,7 @@ $ git clone https://github.com/letsdodigital/coding-hands-on
 
 ## Virtual environments
 
+* Needed to stop conflicts with different versions of python libraries across different projects.
 * **cd** into your cloned repository (repo).
 * You now need to create a virtual environment.
 
@@ -563,6 +600,16 @@ Windows
 ```{.bash}
 $ .venv/Scripts/activate.bat
 ```
+
+
+## Activate
+
+* You should now see `(.venv)` at the start of the command line to signify that you are in a python virtual environment.
+
+```{.bash}
+(.venv) @Username/workspace/ $
+```
+
 
 ## Install libraries
 \
@@ -632,7 +679,16 @@ And...
 
 ## Start the browser
 
+* There will likely be a pop up window to start the browser.
+* If not, press CTRL / CMD and click on one of the new url addresses in the terminal.
+
 ![](/media/hello-world-browser.png){fig-align="center" fig-alt="Screen shot of the 'Hello World' output"}
+
+
+
+## Follow the exercises.
+
+* Now follow the instructions in the exercises, starting at exercise 1.
 
 
 ## Altering the command to run
