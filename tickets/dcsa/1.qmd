@@ -9,18 +9,85 @@ The ultimate aim of the DCSP is to streamline and automate the process of clinic
 
 This webinar showcases a prototype of the DCSP, with input from the Digital Clinical Safety Alliance team and also Dean Mawson, a Clinical Safety Officer, on how this new system can help improve and streamline your safety documentation.
 
-Session chair: **Dr Michelle Durham**
+```{=html}
 
-The **Digital Clinical Safety Alliance** team consists of:
+<h3>Chair</h3>
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/michelle-durham.png" alt="picture of Michelle Durham in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Dr Michelle Durham - Clinical Informatics Specialist, Previous Clinical lead at NHS England and GP.
+        </div>
+    </div>
+</div>
 
-* **Mark Bailey** - Locum Respiratory Consultant and Clinician-who-codes
-* **Marcus Baw** - Locum GP and ED doctor and Clinician-who-codes
-* **Grant Vallance** - Information Manager at Oxford University Hospitals NHS Trust
-* **Joe Channing** - Software Engineer at Oxford University Hospitals NHS Foundation Trust
+<h3>Speakers</h3>
 
-**Dean Mawson** - Clinical Director/Founder at DPM Digital Health Consultancy Ltd will be giving his honest feedback about this novel clinical safety documentation prototype and how it would help improve current working practices.
+<strong>Digital Clinical Safety Alliance Team</strong>
+
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/mark-bailey-circle.png" alt="picture of Mark Bailey in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Mark Bailey - Locum Respiratory Consultant and Clinician-who-codes
+        </div>
+    </div>
+</div>
+
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/marcus-baw-circle.png" alt="picture of Marcus Baw in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Marcus Baw - Locum GP and ED doctor and Clinician-who-codes
+        </div>
+    </div>
+</div>
+
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/grant-vallance-circle.png" alt="picture of Grant Vallance in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Grant Vallance - Information Manager at Oxford University Hospitals NHS Trust
+        </div>
+    </div>
+</div>
+
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/joe-channing.png" alt="picture of Joe Channing in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Joe Channing - Software Engineer at Oxford University Hospitals NHS Foundation Trust
+        </div>
+    </div>
+</div>
+
+<strong>DPM Digital Health Consultancy Ltd</strong>
+
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/dean-mawson.png" alt="picture of Dean Mawson in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Dean Mawson - Clinical Director/Founder at DPM Digital Health Consultancy Ltd will be giving his honest feedback about this novel clinical safety documentation prototype and how it would help improve current working practices.
+        </div>
+    </div>
+</div>
+```
+\
 
 **Let's Do Digital** is kindly advertising and hosting this event on behalf of the Digital Clinical Safety Alliance.
+
 
 ## When and where
 
@@ -30,6 +97,7 @@ Online, 2-3pm, on Thursday the 12th of September 2024.
 ```{=html}
 <script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
 ```
+
 
 ## Questions
 
