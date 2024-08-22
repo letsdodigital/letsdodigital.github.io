@@ -578,7 +578,7 @@
     "href": "learn/learn-python/module-2/index.html#chose-a-slide-deck",
     "title": "Module 2 - Let’s take things to the next level",
     "section": "Chose a slide deck",
-    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Process mapping\n\n\n3 - Digital consent form\n\n\n4 - Pit stop\n\n\n5 - Session close"
+    "text": "Chose a slide deck\n\n\n1 - Introduction\n\n\n2 - Process mapping\n\n\n3 - Process mapping conclusion\n\n\n4 - Digital consent form\n\n\n5 - Pit stop\n\n\n6 - Session close"
   },
   {
     "objectID": "learn/learn-python/module-2/index.html#get-coding",
@@ -690,7 +690,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#we-are-going-to-cheat",
     "title": "Building a digital consent form",
     "section": "We are going to cheat",
-    "text": "We are going to cheat\n\nAs we do not have time to build both the front and backend, we have created a cloud database (specifically suprabase) for you to connect to.\nThe “brains” and frontend delivery will be managed by the streamlit server that you will be building.\nA server is basically a computer program that provides you with a web page."
+    "text": "We are going to cheat\n\nAs we do not have time to build both the front and backend, we have created a cloud database (specifically suprbase) for you to connect to.\nThe “brains” and frontend delivery will be managed by the streamlit server that you will be building.\nA server is basically a computer program that provides you with a web page."
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#what-is-a-library",
@@ -777,6 +777,13 @@
     "text": "Good practice\n\nInstead, pass all the variables you need to classes and functions as arguments.\nThis also makes it much easier to problem solve and test your code later."
   },
   {
+    "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#negative-indexing",
+    "href": "learn/learn-python/module-2/4-digital-consent-form.html#negative-indexing",
+    "title": "Building a digital consent form",
+    "section": "Negative indexing",
+    "text": "Negative indexing\n\nIf you want to get the last element in a list, just use -1\n\n\n\nnegative_indexing.py\n\npatients = [\"Alice\", \"Bob\", \"Charlie\", \"David\"]\n\n# Get the last patient in the list using negative indexing\nlast_patient = patients[-1]\n\nprint(\"The last patient is:\", last_patient)\n\n\n\nOutput\n    The last patient is: David"
+  },
+  {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension",
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#list-comprehension",
     "title": "Building a digital consent form",
@@ -823,7 +830,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#i-want-all-values",
     "title": "Building a digital consent form",
     "section": "I want all values",
-    "text": "I want all values\n\n\nall.py\n\nif all(field != \"\" for field in fields.values()):\n    st.write(\"ok\")"
+    "text": "I want all values\n\n\nall.py\n\nfields = {\"HIV\": \"negative\", \"Hepatis B\": \"negative\"}\nif all(field != \"\" for field in fields.values()):\n    st.write(\"ok\")\n\n\n\nOUTPUT\n    ok"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#lambda",
@@ -865,7 +872,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-1",
     "title": "Building a digital consent form",
     "section": "Streamlit methods",
-    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# Creates a select box. Uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])\n\n# Create a date field\ndate_of_birth = st.date_input(\"Date of birth\", None)"
+    "text": "Streamlit methods\n\n\nstreamlit_methods.py\n\nimport streamlit as st\n\n# Creates a select box. Uses lists for selection choices\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])\n\n# Create a date field\ndate_of_birth = st.date_input(\"Date of birth\", None)\n\n# Create a simple button\nst.button(\"Press to refresh the page\")"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#streamlit-methods-2",
@@ -942,7 +949,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#connection",
     "title": "Building a digital consent form",
     "section": "Connection",
-    "text": "Connection\n\nHow to connect to the Supabase database and then query the data.\n\n\n\nsupabase.py\n\nimport streamlit as st\nfrom st_supabase_connection import SupabaseConnection, execute_query\n\nconn = st.connection(\"supabase\", type=SupabaseConnection)\n\ntest_data = {\"test_data\": \"Some test data\"}\n\n# Retrieve data from database\nusers = execute_query(conn.table(\"users\").select(\"*\"), ttl=\"10m\")\n\n# Add data to database\nupdate_result = execute_query(\n        conn.table(\"test_upload\").insert([test_data], count=\"None\")\n    )"
+    "text": "Connection\n\nHow to connect to the Supabase database and then query the data.\n\n\n\nsupabase.py\n\nimport streamlit as st\nfrom st_supabase_connection import SupabaseConnection, execute_query\n\n# Starts a connection to the cloud database on Supabase\nconn = st.connection(\"supabase\", type=SupabaseConnection)\n\n# RETRIEVE data from database\nusers = execute_query(conn.table(\"users\").select(\"*\"), ttl=\"10m\")\n\n# ADD data to database\ntest_data = {\"test_data\": \"Some test data\"}\nupdate_result = execute_query(\n        conn.table(\"test_upload\").insert([test_data], count=\"None\")\n    )"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#database-fields---test_upload",
@@ -1068,7 +1075,7 @@
     "href": "learn/learn-python/module-2/4-digital-consent-form.html#finding-your-way",
     "title": "Building a digital consent form",
     "section": "Finding your way",
-    "text": "Finding your way\n\nClick inside your terminal window.\nGo to:\n\n$ cd programming_in_health_care/module_2/lesson_2"
+    "text": "Finding your way\n\nClick inside your terminal window.\nGo to:\n\n$ cd programming_in_healthcare/module_2/lesson_2"
   },
   {
     "objectID": "learn/learn-python/module-2/4-digital-consent-form.html#secrets",

@@ -443,7 +443,7 @@ Let’s Do Digital Team
 <section id="we-are-going-to-cheat" class="slide level2" data-background-image="../../../media/server-room.jpg" data-background-opacity="0.3">
 <h2>We are going to cheat</h2>
 <ul>
-<li>As we do not have time to build both the front and backend, we have created a cloud database (specifically <code>suprabase</code>) for you to connect to.</li>
+<li>As we do not have time to build both the front and backend, we have created a cloud database (specifically <code>suprbase</code>) for you to connect to.</li>
 <li>The “brains” and frontend delivery will be managed by the <code>streamlit</code> server that you will be building.</li>
 <li>A server is basically a computer program that provides you with a web page.</li>
 </ul>
@@ -572,6 +572,27 @@ Let’s Do Digital Team
 </ul>
 
 <img data-src="../../../media/tick-box.jpg" class="quarto-figure quarto-figure-center r-stretch" alt="Streamlit icon"></section>
+<section id="negative-indexing" class="slide level2">
+<h2>Negative indexing</h2>
+<ul>
+<li>If you want to get the last element in a list, just use <code>-1</code></li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>negative_indexing.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb4" data-filename="negative_indexing.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>patients <span class="op">=</span> [<span class="st">"Alice"</span>, <span class="st">"Bob"</span>, <span class="st">"Charlie"</span>, <span class="st">"David"</span>]</span>
+<span id="cb4-2"><a></a></span>
+<span id="cb4-3"><a></a><span class="co"># Get the last patient in the list using negative indexing</span></span>
+<span id="cb4-4"><a></a>last_patient <span class="op">=</span> patients[<span class="op">-</span><span class="dv">1</span>]</span>
+<span id="cb4-5"><a></a></span>
+<span id="cb4-6"><a></a><span class="bu">print</span>(<span class="st">"The last patient is:"</span>, last_patient)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p><br>
+</p>
+<p>Output</p>
+<pre><code>    The last patient is: David</code></pre>
+</section>
 <section id="list-comprehension" class="slide level2" data-background-image="../../../media/sticky-notes-on-wall.jpg" data-background-opacity="0.3">
 <h2>List comprehension</h2>
 <ul>
@@ -587,11 +608,11 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>list_comprehension.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb4" data-filename="list_comprehension.py" data-code-line-numbers="3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>temperatures <span class="op">=</span> [<span class="fl">36.5</span>, <span class="fl">37.0</span>, <span class="fl">38.5</span>, <span class="fl">39.0</span>, <span class="fl">37.8</span>, <span class="fl">36.8</span>, <span class="fl">39.5</span>]</span>
-<span id="cb4-2"><a></a></span>
-<span id="cb4-3"><a></a>high_temperatures <span class="op">=</span> [temp <span class="cf">for</span> temp <span class="kw">in</span> temperatures <span class="cf">if</span> temp <span class="op">&gt;</span> <span class="dv">38</span>]</span>
-<span id="cb4-4"><a></a></span>
-<span id="cb4-5"><a></a><span class="bu">print</span>(high_temperatures)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6" data-filename="list_comprehension.py" data-code-line-numbers="3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>temperatures <span class="op">=</span> [<span class="fl">36.5</span>, <span class="fl">37.0</span>, <span class="fl">38.5</span>, <span class="fl">39.0</span>, <span class="fl">37.8</span>, <span class="fl">36.8</span>, <span class="fl">39.5</span>]</span>
+<span id="cb6-2"><a></a></span>
+<span id="cb6-3"><a></a>high_temperatures <span class="op">=</span> [temp <span class="cf">for</span> temp <span class="kw">in</span> temperatures <span class="cf">if</span> temp <span class="op">&gt;</span> <span class="dv">38</span>]</span>
+<span id="cb6-4"><a></a></span>
+<span id="cb6-5"><a></a><span class="bu">print</span>(high_temperatures)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    [38.5, 39.0, 39.5]</code></pre>
@@ -602,18 +623,18 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>list_comprehension.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb6" data-filename="list_comprehension.py" data-code-line-numbers="6-10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>patients <span class="op">=</span> [</span>
-<span id="cb6-2"><a></a>        {<span class="st">"name"</span>: <span class="st">"Alice"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H123"</span>, <span class="st">"age"</span>: <span class="dv">25</span>},</span>
-<span id="cb6-3"><a></a>        {<span class="st">"name"</span>: <span class="st">"Bob"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H124"</span>, <span class="st">"age"</span>: <span class="dv">17</span>},</span>
-<span id="cb6-4"><a></a>    ]</span>
-<span id="cb6-5"><a></a></span>
-<span id="cb6-6"><a></a>names <span class="op">=</span> [</span>
-<span id="cb6-7"><a></a>    patient[<span class="st">"name"</span>]</span>
-<span id="cb6-8"><a></a>    <span class="cf">for</span> patient <span class="kw">in</span> patients</span>
-<span id="cb6-9"><a></a>    <span class="cf">if</span> patient[<span class="st">"age"</span>] <span class="op">&gt;</span> <span class="dv">18</span></span>
-<span id="cb6-10"><a></a>]</span>
-<span id="cb6-11"><a></a></span>
-<span id="cb6-12"><a></a><span class="bu">print</span>(names)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb8" data-filename="list_comprehension.py" data-code-line-numbers="6-10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a>patients <span class="op">=</span> [</span>
+<span id="cb8-2"><a></a>        {<span class="st">"name"</span>: <span class="st">"Alice"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H123"</span>, <span class="st">"age"</span>: <span class="dv">25</span>},</span>
+<span id="cb8-3"><a></a>        {<span class="st">"name"</span>: <span class="st">"Bob"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H124"</span>, <span class="st">"age"</span>: <span class="dv">17</span>},</span>
+<span id="cb8-4"><a></a>    ]</span>
+<span id="cb8-5"><a></a></span>
+<span id="cb8-6"><a></a>names <span class="op">=</span> [</span>
+<span id="cb8-7"><a></a>    patient[<span class="st">"name"</span>]</span>
+<span id="cb8-8"><a></a>    <span class="cf">for</span> patient <span class="kw">in</span> patients</span>
+<span id="cb8-9"><a></a>    <span class="cf">if</span> patient[<span class="st">"age"</span>] <span class="op">&gt;</span> <span class="dv">18</span></span>
+<span id="cb8-10"><a></a>]</span>
+<span id="cb8-11"><a></a></span>
+<span id="cb8-12"><a></a><span class="bu">print</span>(names)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    Alice</code></pre>
@@ -627,12 +648,12 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>list_function.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb8" data-filename="list_function.py" data-code-line-numbers="6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a>patients <span class="op">=</span> [</span>
-<span id="cb8-2"><a></a>        {<span class="st">"name"</span>: <span class="st">"Alice"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H123"</span>, <span class="st">"age"</span>: <span class="dv">25</span>},</span>
-<span id="cb8-3"><a></a>        {<span class="st">"name"</span>: <span class="st">"Bob"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H124"</span>, <span class="st">"age"</span>: <span class="dv">17</span>},</span>
-<span id="cb8-4"><a></a>    ]</span>
-<span id="cb8-5"><a></a></span>
-<span id="cb8-6"><a></a><span class="bu">print</span>(<span class="bu">list</span>(patients.keys()))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10" data-filename="list_function.py" data-code-line-numbers="6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>patients <span class="op">=</span> [</span>
+<span id="cb10-2"><a></a>        {<span class="st">"name"</span>: <span class="st">"Alice"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H123"</span>, <span class="st">"age"</span>: <span class="dv">25</span>},</span>
+<span id="cb10-3"><a></a>        {<span class="st">"name"</span>: <span class="st">"Bob"</span>, <span class="st">"hospital_number"</span>: <span class="st">"H124"</span>, <span class="st">"age"</span>: <span class="dv">17</span>},</span>
+<span id="cb10-4"><a></a>    ]</span>
+<span id="cb10-5"><a></a></span>
+<span id="cb10-6"><a></a><span class="bu">print</span>(<span class="bu">list</span>(patients.keys()))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    ['name', 'hospital_number', 'age']</code></pre>
@@ -651,14 +672,14 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>all.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb10" data-filename="all.py" data-code-line-numbers="6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>patients <span class="op">=</span> [</span>
-<span id="cb10-2"><a></a>    {<span class="st">"name"</span>: <span class="st">"Alice"</span>, <span class="st">"age"</span>: <span class="dv">25</span>, <span class="st">"hospital_number"</span>: <span class="st">"H123"</span>},</span>
-<span id="cb10-3"><a></a>    {<span class="st">"name"</span>: <span class="st">"James"</span>, <span class="st">"age"</span>: <span class="dv">18</span>, <span class="st">"hospital_number"</span>: <span class="st">"H124"</span>},</span>
-<span id="cb10-4"><a></a>]</span>
-<span id="cb10-5"><a></a></span>
-<span id="cb10-6"><a></a>all_adults <span class="op">=</span> <span class="bu">all</span>(patient[<span class="st">"age"</span>] <span class="op">&gt;=</span> <span class="dv">18</span> <span class="cf">for</span> patient <span class="kw">in</span> patients)</span>
-<span id="cb10-7"><a></a></span>
-<span id="cb10-8"><a></a><span class="bu">print</span>(all_adults)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12" data-filename="all.py" data-code-line-numbers="6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a>patients <span class="op">=</span> [</span>
+<span id="cb12-2"><a></a>    {<span class="st">"name"</span>: <span class="st">"Alice"</span>, <span class="st">"age"</span>: <span class="dv">25</span>, <span class="st">"hospital_number"</span>: <span class="st">"H123"</span>},</span>
+<span id="cb12-3"><a></a>    {<span class="st">"name"</span>: <span class="st">"James"</span>, <span class="st">"age"</span>: <span class="dv">18</span>, <span class="st">"hospital_number"</span>: <span class="st">"H124"</span>},</span>
+<span id="cb12-4"><a></a>]</span>
+<span id="cb12-5"><a></a></span>
+<span id="cb12-6"><a></a>all_adults <span class="op">=</span> <span class="bu">all</span>(patient[<span class="st">"age"</span>] <span class="op">&gt;=</span> <span class="dv">18</span> <span class="cf">for</span> patient <span class="kw">in</span> patients)</span>
+<span id="cb12-7"><a></a></span>
+<span id="cb12-8"><a></a><span class="bu">print</span>(all_adults)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    True</code></pre>
@@ -669,9 +690,14 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>all.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb12" data-filename="all.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a><span class="cf">if</span> <span class="bu">all</span>(field <span class="op">!=</span> <span class="st">""</span> <span class="cf">for</span> field <span class="kw">in</span> fields.values()):</span>
-<span id="cb12-2"><a></a>    st.write(<span class="st">"ok"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14" data-filename="all.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a>fields <span class="op">=</span> {<span class="st">"HIV"</span>: <span class="st">"negative"</span>, <span class="st">"Hepatis B"</span>: <span class="st">"negative"</span>}</span>
+<span id="cb14-2"><a></a><span class="cf">if</span> <span class="bu">all</span>(field <span class="op">!=</span> <span class="st">""</span> <span class="cf">for</span> field <span class="kw">in</span> fields.values()):</span>
+<span id="cb14-3"><a></a>    st.write(<span class="st">"ok"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
+<p><br>
+</p>
+<p>OUTPUT</p>
+<pre><code>    ok</code></pre>
 </section>
 <section id="lambda" class="slide level2">
 <h2>Lambda</h2>
@@ -683,7 +709,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>lambda.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb13" data-filename="lambda.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>function_a(function_to_call<span class="op">=</span><span class="kw">lambda</span>:function_b(arg_1, arg_2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb16" data-filename="lambda.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a>function_a(function_to_call<span class="op">=</span><span class="kw">lambda</span>:function_b(arg_1, arg_2))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section></section>
 <section>
@@ -706,14 +732,14 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>libraries_1.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb14" data-filename="libraries_1.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="im">import</span> streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb17" data-filename="libraries_1.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a><span class="im">import</span> streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>or as an <code>alias</code></p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>libraries_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb15" data-filename="libraries_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb18" data-filename="libraries_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="who-is-running-what" class="slide level2">
@@ -722,8 +748,8 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>main.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb16" data-filename="main.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb16-2"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb19" data-filename="main.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb19-2"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <ul>
 <li>Checks if the current file is being run as an imported library or directly.</li>
@@ -735,20 +761,20 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb17" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,11,14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb17-2"><a></a></span>
-<span id="cb17-3"><a></a><span class="co"># A title for the page</span></span>
-<span id="cb17-4"><a></a>st.title(<span class="st">"My first web app"</span>)</span>
-<span id="cb17-5"><a></a></span>
-<span id="cb17-6"><a></a><span class="co"># Writes text to the browser</span></span>
-<span id="cb17-7"><a></a>st.write(<span class="st">"Text to write to browser"</span>)</span>
-<span id="cb17-8"><a></a></span>
-<span id="cb17-9"><a></a><span class="co"># Text input field with key and on_change function</span></span>
-<span id="cb17-10"><a></a><span class="co"># "key_1" is stored as a key in the session state (described later)</span></span>
-<span id="cb17-11"><a></a>st.text_input(<span class="st">"label"</span>, key<span class="op">=</span><span class="st">"key_1"</span>, on_change<span class="op">=</span><span class="kw">lambda</span>:on_change_function())</span>
-<span id="cb17-12"><a></a></span>
-<span id="cb17-13"><a></a><span class="co"># Or, assign the input field results to a variable</span></span>
-<span id="cb17-14"><a></a>hospital_number <span class="op">=</span> st.text_input(<span class="st">"Hospital number"</span>, <span class="st">"0"</span>, disabled<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb20" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,11,14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb20-2"><a></a></span>
+<span id="cb20-3"><a></a><span class="co"># A title for the page</span></span>
+<span id="cb20-4"><a></a>st.title(<span class="st">"My first web app"</span>)</span>
+<span id="cb20-5"><a></a></span>
+<span id="cb20-6"><a></a><span class="co"># Writes text to the browser</span></span>
+<span id="cb20-7"><a></a>st.write(<span class="st">"Text to write to browser"</span>)</span>
+<span id="cb20-8"><a></a></span>
+<span id="cb20-9"><a></a><span class="co"># Text input field with key and on_change function</span></span>
+<span id="cb20-10"><a></a><span class="co"># "key_1" is stored as a key in the session state (described later)</span></span>
+<span id="cb20-11"><a></a>st.text_input(<span class="st">"label"</span>, key<span class="op">=</span><span class="st">"key_1"</span>, on_change<span class="op">=</span><span class="kw">lambda</span>:on_change_function())</span>
+<span id="cb20-12"><a></a></span>
+<span id="cb20-13"><a></a><span class="co"># Or, assign the input field results to a variable</span></span>
+<span id="cb20-14"><a></a>hospital_number <span class="op">=</span> st.text_input(<span class="st">"Hospital number"</span>, <span class="st">"0"</span>, disabled<span class="op">=</span><span class="va">False</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="streamlit-methods-1" class="slide level2">
@@ -757,13 +783,16 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb18" data-filename="streamlit_methods.py" data-code-line-numbers="4,7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb18-2"><a></a></span>
-<span id="cb18-3"><a></a><span class="co"># Creates a select box. Uses lists for selection choices</span></span>
-<span id="cb18-4"><a></a>st.selectbox(<span class="st">"Label for selectbox"</span>, [<span class="st">"first choice"</span>,<span class="st">"second choice"</span>])</span>
-<span id="cb18-5"><a></a></span>
-<span id="cb18-6"><a></a><span class="co"># Create a date field</span></span>
-<span id="cb18-7"><a></a>date_of_birth <span class="op">=</span> st.date_input(<span class="st">"Date of birth"</span>, <span class="va">None</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb21" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb21-2"><a></a></span>
+<span id="cb21-3"><a></a><span class="co"># Creates a select box. Uses lists for selection choices</span></span>
+<span id="cb21-4"><a></a>st.selectbox(<span class="st">"Label for selectbox"</span>, [<span class="st">"first choice"</span>,<span class="st">"second choice"</span>])</span>
+<span id="cb21-5"><a></a></span>
+<span id="cb21-6"><a></a><span class="co"># Create a date field</span></span>
+<span id="cb21-7"><a></a>date_of_birth <span class="op">=</span> st.date_input(<span class="st">"Date of birth"</span>, <span class="va">None</span>)</span>
+<span id="cb21-8"><a></a></span>
+<span id="cb21-9"><a></a><span class="co"># Create a simple button</span></span>
+<span id="cb21-10"><a></a>st.button(<span class="st">"Press to refresh the page"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="streamlit-methods-2" class="slide level2">
@@ -772,13 +801,13 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb19" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,10,13,16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb19-2"><a></a></span>
-<span id="cb19-3"><a></a><span class="co"># Create a header (basically larger text)</span></span>
-<span id="cb19-4"><a></a>st.header(<span class="st">"A header"</span>)</span>
-<span id="cb19-5"><a></a></span>
-<span id="cb19-6"><a></a><span class="co"># Show an error message</span></span>
-<span id="cb19-7"><a></a>st.error(<span class="st">"I am an error message"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb22" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,10,13,16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb22-2"><a></a></span>
+<span id="cb22-3"><a></a><span class="co"># Create a header (basically larger text)</span></span>
+<span id="cb22-4"><a></a>st.header(<span class="st">"A header"</span>)</span>
+<span id="cb22-5"><a></a></span>
+<span id="cb22-6"><a></a><span class="co"># Show an error message</span></span>
+<span id="cb22-7"><a></a>st.error(<span class="st">"I am an error message"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="streamlit-methods---forms" class="slide level2">
@@ -787,17 +816,17 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb20" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,8,10,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb20-2"><a></a></span>
-<span id="cb20-3"><a></a><span class="co"># Create a form</span></span>
-<span id="cb20-4"><a></a><span class="cf">with</span> st.form(<span class="st">"name_of_form"</span>)</span>
-<span id="cb20-5"><a></a>    <span class="co"># As many fields as you like, eg</span></span>
-<span id="cb20-6"><a></a>    st.text_input(<span class="st">"First name"</span>)</span>
-<span id="cb20-7"><a></a></span>
-<span id="cb20-8"><a></a>    submitted <span class="op">=</span> st.form_submit_button(<span class="st">"Submit"</span>)</span>
-<span id="cb20-9"><a></a></span>
-<span id="cb20-10"><a></a>    <span class="cf">if</span> submitted:</span>
-<span id="cb20-11"><a></a>        st.write(<span class="st">"Button pressed"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb23" data-filename="streamlit_methods.py" data-code-line-numbers="4,7,8,10,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb23-2"><a></a></span>
+<span id="cb23-3"><a></a><span class="co"># Create a form</span></span>
+<span id="cb23-4"><a></a><span class="cf">with</span> st.form(<span class="st">"name_of_form"</span>)</span>
+<span id="cb23-5"><a></a>    <span class="co"># As many fields as you like, eg</span></span>
+<span id="cb23-6"><a></a>    st.text_input(<span class="st">"First name"</span>)</span>
+<span id="cb23-7"><a></a></span>
+<span id="cb23-8"><a></a>    submitted <span class="op">=</span> st.form_submit_button(<span class="st">"Submit"</span>)</span>
+<span id="cb23-9"><a></a></span>
+<span id="cb23-10"><a></a>    <span class="cf">if</span> submitted:</span>
+<span id="cb23-11"><a></a>        st.write(<span class="st">"Button pressed"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="streamlit-methods---forms-1" class="slide level2">
@@ -813,10 +842,10 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb21" data-filename="streamlit_methods.py" data-code-line-numbers="4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb21-2"><a></a></span>
-<span id="cb21-3"><a></a><span class="co"># Redirect to another page</span></span>
-<span id="cb21-4"><a></a>st.switch_page(<span class="st">"pages/another_page.py"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb24" data-filename="streamlit_methods.py" data-code-line-numbers="4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb24-2"><a></a></span>
+<span id="cb24-3"><a></a><span class="co"># Redirect to another page</span></span>
+<span id="cb24-4"><a></a>st.switch_page(<span class="st">"pages/another_page.py"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="session-state" class="slide level2">
@@ -825,14 +854,14 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>streamlit_session_state.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb22" data-filename="streamlit_session_state.py" data-code-line-numbers="4,7,8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb22-2"><a></a></span>
-<span id="cb22-3"><a></a><span class="co"># Set the session state</span></span>
-<span id="cb22-4"><a></a>st.session_state.a_variable_name <span class="op">=</span> <span class="st">"a_value"</span></span>
-<span id="cb22-5"><a></a></span>
-<span id="cb22-6"><a></a><span class="co"># Clear all of the session variables</span></span>
-<span id="cb22-7"><a></a><span class="cf">for</span> key <span class="kw">in</span> <span class="bu">list</span>(st.session_state.keys()):</span>
-<span id="cb22-8"><a></a>    <span class="kw">del</span> st.session_state[key]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb25" data-filename="streamlit_session_state.py" data-code-line-numbers="4,7,8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb25-2"><a></a></span>
+<span id="cb25-3"><a></a><span class="co"># Set the session state</span></span>
+<span id="cb25-4"><a></a>st.session_state.a_variable_name <span class="op">=</span> <span class="st">"a_value"</span></span>
+<span id="cb25-5"><a></a></span>
+<span id="cb25-6"><a></a><span class="co"># Clear all of the session variables</span></span>
+<span id="cb25-7"><a></a><span class="cf">for</span> key <span class="kw">in</span> <span class="bu">list</span>(st.session_state.keys()):</span>
+<span id="cb25-8"><a></a>    <span class="kw">del</span> st.session_state[key]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="magicenabled-false" class="slide level2">
@@ -844,8 +873,8 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>.streamlit/config.toml</strong></pre>
 </div>
-<div class="sourceCode" id="cb23" data-filename=".streamlit/config.toml" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a></a>[runner]</span>
-<span id="cb23-2"><a></a>magicEnabled <span class="op">=</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb26" data-filename=".streamlit/config.toml" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb26-1"><a></a>[runner]</span>
+<span id="cb26-2"><a></a>magicEnabled <span class="op">=</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Otherwise, the browser will be a little messy with all of your code visible.</p>
 <p><br>
@@ -892,20 +921,20 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>supabase.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb24" data-filename="supabase.py" data-code-line-numbers="4,6,9,12-14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
-<span id="cb24-2"><a></a><span class="im">from</span> st_supabase_connection <span class="im">import</span> SupabaseConnection, execute_query</span>
-<span id="cb24-3"><a></a></span>
-<span id="cb24-4"><a></a>conn <span class="op">=</span> st.connection(<span class="st">"supabase"</span>, <span class="bu">type</span><span class="op">=</span>SupabaseConnection)</span>
-<span id="cb24-5"><a></a></span>
-<span id="cb24-6"><a></a>test_data <span class="op">=</span> {<span class="st">"test_data"</span>: <span class="st">"Some test data"</span>}</span>
-<span id="cb24-7"><a></a></span>
-<span id="cb24-8"><a></a><span class="co"># Retrieve data from database</span></span>
-<span id="cb24-9"><a></a>users <span class="op">=</span> execute_query(conn.table(<span class="st">"users"</span>).select(<span class="st">"*"</span>), ttl<span class="op">=</span><span class="st">"10m"</span>)</span>
-<span id="cb24-10"><a></a></span>
-<span id="cb24-11"><a></a><span class="co"># Add data to database</span></span>
-<span id="cb24-12"><a></a>update_result <span class="op">=</span> execute_query(</span>
-<span id="cb24-13"><a></a>        conn.table(<span class="st">"test_upload"</span>).insert([test_data], count<span class="op">=</span><span class="st">"None"</span>)</span>
-<span id="cb24-14"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb27" data-filename="supabase.py" data-code-line-numbers="5,8,11-14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb27-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<span id="cb27-2"><a></a><span class="im">from</span> st_supabase_connection <span class="im">import</span> SupabaseConnection, execute_query</span>
+<span id="cb27-3"><a></a></span>
+<span id="cb27-4"><a></a><span class="co"># Starts a connection to the cloud database on Supabase</span></span>
+<span id="cb27-5"><a></a>conn <span class="op">=</span> st.connection(<span class="st">"supabase"</span>, <span class="bu">type</span><span class="op">=</span>SupabaseConnection)</span>
+<span id="cb27-6"><a></a></span>
+<span id="cb27-7"><a></a><span class="co"># RETRIEVE data from database</span></span>
+<span id="cb27-8"><a></a>users <span class="op">=</span> execute_query(conn.table(<span class="st">"users"</span>).select(<span class="st">"*"</span>), ttl<span class="op">=</span><span class="st">"10m"</span>)</span>
+<span id="cb27-9"><a></a></span>
+<span id="cb27-10"><a></a><span class="co"># ADD data to database</span></span>
+<span id="cb27-11"><a></a>test_data <span class="op">=</span> {<span class="st">"test_data"</span>: <span class="st">"Some test data"</span>}</span>
+<span id="cb27-12"><a></a>update_result <span class="op">=</span> execute_query(</span>
+<span id="cb27-13"><a></a>        conn.table(<span class="st">"test_upload"</span>).insert([test_data], count<span class="op">=</span><span class="st">"None"</span>)</span>
+<span id="cb27-14"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="database-fields---test_upload" class="slide level2">
@@ -1008,11 +1037,11 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <div class="code-with-filename-file">
 <pre><strong>black_formatting.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb25" data-filename="black_formatting.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb25-1"><a></a>    st.text_input(</span>
-<span id="cb25-2"><a></a>        <span class="st">'Hospital number (eg "HN001")'</span>,</span>
-<span id="cb25-3"><a></a>        key<span class="op">=</span><span class="st">"hospital_number_input"</span>,</span>
-<span id="cb25-4"><a></a>        on_change<span class="op">=</span>on_change_hospital_number(patients, hospital_numbers),</span>
-<span id="cb25-5"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb28" data-filename="black_formatting.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb28-1"><a></a>    st.text_input(</span>
+<span id="cb28-2"><a></a>        <span class="st">'Hospital number (eg "HN001")'</span>,</span>
+<span id="cb28-3"><a></a>        key<span class="op">=</span><span class="st">"hospital_number_input"</span>,</span>
+<span id="cb28-4"><a></a>        on_change<span class="op">=</span>on_change_hospital_number(patients, hospital_numbers),</span>
+<span id="cb28-5"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="python-must-be-installed" class="slide level2">
@@ -1029,7 +1058,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <li>Navigate your terminal to the folder where you want to save the course code in.</li>
 <li>Run the below code:</li>
 </ul>
-<div class="sourceCode" id="cb26"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb26-1"><a></a><span class="ex">$</span> git clone https://github.com/letsdodigital/coding-hands-on</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb29-1"><a></a><span class="ex">$</span> git clone https://github.com/letsdodigital/coding-hands-on</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="virtual-environments" class="slide level2">
 <h2>Virtual environments</h2>
@@ -1038,7 +1067,7 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <li><strong>cd</strong> into your cloned repository (repo).</li>
 <li>You now need to create a virtual environment.</li>
 </ul>
-<div class="sourceCode" id="cb27"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb27-1"><a></a><span class="ex">$</span> python <span class="at">-m</span> venv .venv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a></a><span class="ex">$</span> python <span class="at">-m</span> venv .venv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="activate" class="slide level2">
 <h2>Activate</h2>
@@ -1046,27 +1075,27 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <li>And now activate the virtual environment.</li>
 </ul>
 <p>Mac</p>
-<div class="sourceCode" id="cb28"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb28-1"><a></a><span class="ex">$</span> source .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb31"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a></a><span class="ex">$</span> source .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br>
 Windows</p>
-<div class="sourceCode" id="cb29"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb29-1"><a></a><span class="ex">$</span> .venv/Scripts/activate.bat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb32-1"><a></a><span class="ex">$</span> .venv/Scripts/activate.bat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="activate-1" class="slide level2">
 <h2>Activate</h2>
 <ul>
 <li>You should now see <code>(.venv)</code> at the start of the command line to signify that you are in a python virtual environment.</li>
 </ul>
-<div class="sourceCode" id="cb30"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a></a><span class="kw">(</span><span class="ex">.venv</span><span class="kw">)</span> <span class="ex">@Username/workspace/</span> $</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb33-1"><a></a><span class="kw">(</span><span class="ex">.venv</span><span class="kw">)</span> <span class="ex">@Username/workspace/</span> $</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="install-libraries" class="slide level2">
 <h2>Install libraries</h2>
 <p><br>
 </p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a></a><span class="ex">$</span> pip install black</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb34"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb34-1"><a></a><span class="ex">$</span> pip install black</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>and</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb32-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb35"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb35-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>and</p>
-<div class="sourceCode" id="cb33"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb33-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb36"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb36-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="finding-your-way" class="slide level2">
 <h2>Finding your way</h2>
@@ -1074,7 +1103,7 @@ Windows</p>
 <li>Click inside your terminal window.</li>
 <li>Go to:</li>
 </ul>
-<div class="sourceCode" id="cb34"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb34-1"><a></a><span class="ex">$</span> cd programming_in_health_care/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb37-1"><a></a><span class="ex">$</span> cd programming_in_healthcare/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="secrets" class="slide level2">
 <h2>Secrets</h2>
@@ -1096,7 +1125,7 @@ Windows</p>
 <ul>
 <li>And then run:</li>
 </ul>
-<div class="sourceCode" id="cb35"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb35-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb38-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="this-will-run" class="slide level2">
 <h2>This will run</h2>
@@ -1104,15 +1133,15 @@ Windows</p>
 <div class="code-with-filename-file">
 <pre><strong>lesson_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb36" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb36-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb36-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
-<span id="cb36-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
-<span id="cb36-4"><a></a></span>
-<span id="cb36-5"><a></a>    <span class="cf">return</span></span>
-<span id="cb36-6"><a></a></span>
-<span id="cb36-7"><a></a></span>
-<span id="cb36-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb36-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb39" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb39-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
+<span id="cb39-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
+<span id="cb39-4"><a></a></span>
+<span id="cb39-5"><a></a>    <span class="cf">return</span></span>
+<span id="cb39-6"><a></a></span>
+<span id="cb39-7"><a></a></span>
+<span id="cb39-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb39-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And…</p>
 </section>
@@ -1136,9 +1165,9 @@ Windows</p>
 <li>Use the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.</li>
 <li>For example to change</li>
 </ul>
-<div class="sourceCode" id="cb37"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb37-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb40"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb40-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>to</p>
-<div class="sourceCode" id="cb38"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb38-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb41"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb41-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="warning" class="slide level2" data-background-image="../../../media/glowing-red-cone.jpg" data-background-opacity="0.3">
 <h2>Warning!</h2>
