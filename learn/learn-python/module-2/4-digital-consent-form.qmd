@@ -37,7 +37,7 @@ title-slide-attributes:
 
 ## We are going to cheat {background-image="/media/server-room.jpg" background-opacity="0.3"}
 
-* As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprabase`) for you to connect to.
+* As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprbase`) for you to connect to.
 * The "brains" and frontend delivery will be managed by the `streamlit` server that you will be building.
 * A server is basically a computer program that provides you with a web page.
 
@@ -154,6 +154,27 @@ Output
 ![](/media/tick-box.jpg){fig-align="center" fig-alt="Streamlit icon"}
 
 
+## Negative indexing
+
+* If you want to get the last element in a list, just use `-1`
+
+```{.python filename="negative_indexing.py"}
+patients = ["Alice", "Bob", "Charlie", "David"]
+
+# Get the last patient in the list using negative indexing
+last_patient = patients[-1]
+
+print("The last patient is:", last_patient)
+```
+
+\
+
+Output
+
+        The last patient is: David
+
+
+
 ## List comprehension {background-image="/media/sticky-notes-on-wall.jpg" background-opacity="0.3"}
 
 * A quick way to build new lists from other lists or even dictionaries.
@@ -246,9 +267,15 @@ Output
 ## I want all values
 
 ```{.python filename="all.py"}
+fields = {"HIV": "negative", "Hepatis B": "negative"}
 if all(field != "" for field in fields.values()):
     st.write("ok")
 ```
+\
+
+OUTPUT
+
+        ok
 
 
 ## Lambda
@@ -318,7 +345,7 @@ hospital_number = st.text_input("Hospital number", "0", disabled=False)
 
 ## Streamlit methods
 
-```{.python filename="streamlit_methods.py" code-line-numbers="4,7"}
+```{.python filename="streamlit_methods.py" code-line-numbers="4,7,10"}
 import streamlit as st
 
 # Creates a select box. Uses lists for selection choices
@@ -326,6 +353,9 @@ st.selectbox("Label for selectbox", ["first choice","second choice"])
 
 # Create a date field
 date_of_birth = st.date_input("Date of birth", None)
+
+# Create a simple button
+st.button("Press to refresh the page")
 ```
 
 
@@ -443,18 +473,18 @@ CMD - C
 
 * How to connect to the `Supabase` database and then query the data.
 
-```{.python filename="supabase.py" code-line-numbers="4,6,9,12-14"}
+```{.python filename="supabase.py" code-line-numbers="5,8,11-14"}
 import streamlit as st
 from st_supabase_connection import SupabaseConnection, execute_query
 
+# Starts a connection to the cloud database on Supabase
 conn = st.connection("supabase", type=SupabaseConnection)
 
-test_data = {"test_data": "Some test data"}
-
-# Retrieve data from database
+# RETRIEVE data from database
 users = execute_query(conn.table("users").select("*"), ttl="10m")
 
-# Add data to database
+# ADD data to database
+test_data = {"test_data": "Some test data"}
 update_result = execute_query(
         conn.table("test_upload").insert([test_data], count="None")
     )
@@ -635,7 +665,7 @@ $ pip install st_supabase_connection
 * Go to:
 
 ```{.bash}
-$ cd programming_in_health_care/module_2/lesson_2
+$ cd programming_in_healthcare/module_2/lesson_2
 ```
 
 ## Secrets
