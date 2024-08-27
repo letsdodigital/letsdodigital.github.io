@@ -260,16 +260,15 @@ title: "Agenda 2024"
 </div>
 ```
 
-14:15 – **Building what we need with what we have (open and closed) - a Cystic Fibrosis mini-EPR**
-
+14:15 – – **Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications**
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/nick-bell.png" alt="picture of Nick Bell" class="agenda-image-small">
+            <img src="/media/stef-piatek.png" alt="picture of Stef Piatek" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Nick Bell - Consultant Physician in General, Respiratory and Adult Cystic Fibrosis Medicine at the Bristol Royal Infirmary
+            Stef Piatek - Technical Programme Director, Clinical Research Informatics Unit, University College London Hospitals NHS Foundation Trust & Research Software Engineer in Advanced Research Computing, University College London
         </div>
     </div>
 </div>
@@ -324,20 +323,6 @@ title: "Agenda 2024"
         </div>
         <div class="agenda-text-container">
             Simon Chapman - Paediatric Consultant, King's College London NHS Foundation Trust and Clinician-who-codes
-        </div>
-    </div>
-</div>
-```
-
-15:55 – **Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications**
-```{=html}
-<div class="agenda-container-small">
-    <div class="agenda-row">
-        <div class="agenda-image-container-small">
-            <img src="/media/stef-piatek.png" alt="picture of Stef Piatek" class="agenda-image-small">
-        </div>
-        <div class="agenda-text-container">
-            Stef Piatek - Technical Programme Director, Clinical Research Informatics Unit, University College London Hospitals NHS Foundation Trust & Research Software Engineer in Advanced Research Computing, University College London
         </div>
     </div>
 </div>
