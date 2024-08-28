@@ -18,7 +18,7 @@ This webinar showcases a prototype of the DCSP, with input from the Digital Clin
             <img src="/media/michelle-durham.png" alt="picture of Michelle Durham in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">
-            Dr Michelle Durham - Clinical Informatics Specialist, Previous Clinical lead at NHS England and GP.
+            Dr Michelle Durham - Clinical Informatics Specialist, Previous Clinical lead at NHS England and GP. As one of the pioneers in digital GP health records, Michelle has dedicated her career as a GP to promoting and advocating for the highest levels of clinical excellence within digital programmes, ensuring they are not only useful but also usable and optimally utilised.
         </div>
     </div>
 </div>
