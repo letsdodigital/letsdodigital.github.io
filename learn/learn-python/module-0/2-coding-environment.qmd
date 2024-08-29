@@ -115,7 +115,7 @@ Pro tip:
 
 * Ignore the pop out about extensions you may get in the bottom right of Codespace
 
-![](/media/python-extension.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screenshot of python extensions pop out"}
+![](/media/python-extension.png){fig-alt="Screenshot of python extensions pop out"}
 
 
 ## Get to your first lesson {.smaller}
