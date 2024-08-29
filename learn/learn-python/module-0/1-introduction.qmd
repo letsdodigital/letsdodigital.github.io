@@ -68,6 +68,6 @@ title-slide-attributes:
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-1/2-coding-environment.html" style="color: lightgrey;">Coding environment slides</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-0/2-coding-environment.html" style="color: lightgrey;">Coding environment slides</a>
 </div>
 ```
