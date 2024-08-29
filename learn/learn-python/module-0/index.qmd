@@ -10,7 +10,8 @@ This is the first module of the CWC course, and is designed for those with very 
   <li><a href="1-introduction.html" target="_blank">1 - Introduction</a></li>
   <li><a href="2-coding-environment.html" target="_blank">2 - Coding environment</a></li>
   <li><a href="3-python-basics.html" target="_blank">3 - Python basics</a></li>
-  <li><a href="4-session-close.html" target="_blank">5 - Session close</a></li>
+  <li><a href="4-python-basics.html" target="_blank">4 - Python basics continued</a></li>
+  <li><a href="5-session-close.html" target="_blank">5 - Session close</a></li>
 </ul>
 
 ## Get coding
