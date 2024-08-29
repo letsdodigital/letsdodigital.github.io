@@ -139,6 +139,6 @@ Pro tip:
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-1/3-python-basics.html" style="color: lightgrey;">Python basics</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html" style="color: lightgrey;">Python basics</a>
 </div>
 ```
