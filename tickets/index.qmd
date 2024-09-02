@@ -4,13 +4,6 @@ image: /media/tickets.png
 ---
 
 
-
-
-
-### 29th August 2024
-
-[{{< var coding-series-title >}} - Module 0](programming-in-healthcare/module-0-29-08-24.qmd)
-
 ### 5th September 2024
 
 [{{< var ask-someone-in-digital >}} - {{< var asid-1 >}}](ask-someone-in-digital/1.qmd)
@@ -88,3 +81,8 @@ image: /media/tickets.png
 ### 22nd August 2024
 
 [{{< var coding-series-title >}} - Module 2](programming-in-healthcare/module-2-22-08-24.qmd)
+
+
+### 29th August 2024
+
+[{{< var coding-series-title >}} - Module 0](programming-in-healthcare/module-0-29-08-24.qmd)
