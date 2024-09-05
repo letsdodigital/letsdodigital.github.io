@@ -51,10 +51,7 @@ The first half will be a presentation from the speaker followed by a Q&A.
 
 Online, 2-3pm, on Thursday the 5th of September 2024.
 
-
-```{=html}
-<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
-```
+You can watch the session here [https://www.youtube.com/watch?v=y6QvA6D0iS0](https://www.youtube.com/watch?v=y6QvA6D0iS0).
 
 ## Questions
 
