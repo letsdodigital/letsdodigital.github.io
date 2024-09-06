@@ -1,0 +1,207 @@
+---
+title: "Digital Clinical Safety Platform"
+author: "Digital Clinical Safety Alliance"
+format: revealjs
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/life-guard-boat.jpg
+    data-background-opacity: "0.4"
+---
+
+# Who's who?
+
+```{=html}
+<div class="speaker-container">
+    <div class="speaker-row">
+        <div class="speaker-image-container">
+            <img src="/media/michelle-durham.png" alt="picture of Michelle Durham in a circle" class="speaker-image">
+        </div>
+        <div class="speaker-text-container">
+            <b>Dr Michelle Durham</b> GP and Clinical Informatics Specialist
+        </div>
+    </div>
+</div>
+
+<div class="speaker-container">
+    <div class="speaker-row">
+        <div class="speaker-image-container">
+            <img src="/media/mark-bailey-circle.png" alt="picture of Mark Bailey in a circle" class="speaker-image">
+        </div>
+        <div class="speaker-text-container">
+            <b>Mark Bailey</b> Locum Respiratory Consultant and Clinician-who-codes
+        </div>
+    </div>
+</div>
+
+<div class="speaker-container">
+    <div class="speaker-row">
+        <div class="speaker-image-container">
+            <img src="/media/marcus-baw-circle.png" alt="picture of Marcus Baw in a circle" class="speaker-image">
+        </div>
+        <div class="speaker-text-container">
+            <b>Marcus Baw</b> Locum GP and ED doctor and Clinician-who-codes
+        </div>
+    </div>
+</div>
+
+<div class="speaker-container">
+    <div class="speaker-row">
+        <div class="speaker-image-container">
+            <img src="/media/grant-vallance-circle.png" alt="picture of Grant Vallance in a circle" class="speaker-image">
+        </div>
+        <div class="speaker-text-container">
+            <b>Grant Vallance</b> Information Manager
+        </div>
+    </div>
+</div>
+
+<div class="speaker-container">
+    <div class="speaker-row">
+        <div class="speaker-image-container">
+            <img src="/media/joe-channing.png" alt="picture of Joe Channing in a circle" class="speaker-image">
+        </div>
+        <div class="speaker-text-container">
+            <b>Joe Channing</b> Software Engineer
+        </div>
+    </div>
+</div>
+
+<div class="speaker-container">
+    <div class="speaker-row">
+        <div class="speaker-image-container">
+            <img src="/media/dean-mawson.png" alt="picture of Dean Mawson in a circle" class="speaker-image">
+        </div>
+        <div class="speaker-text-container">
+            <b>Dean Mawson</b> Clinical Director DPM Digital Health Consultancy Ltd
+        </div>
+    </div>
+</div>
+```
+
+
+## Plan
+
+* 2:00 Introductions
+* 2:05 Current Process
+* 2:10 Cookiecutter DCB0129
+* 2:15 Hazards logging in code
+* 2:20 The Digital Clinical Safety Platform
+* 2:35 Feedback from Dean Mawson
+* 2:45 Questions and Answers
+
+# Current Clinical Safety Documentation {background-image="/media/clinical-safety-hazard-log.jpeg" background-opacity="0.4" background-position="top"}
+
+
+## A mixture of everyday office softwares
+
+* Word processor (eg MS Word)
+* Spreadsheet (eg MS Excel)
+* Kanban boards (eg Jira)
+* Process mapping (eg Moqups)
+
+
+# Cookiecutter DCB0129 {background-image="/media/cookie-cutter.jpg" background-opacity="0.2"}
+
+
+## Terminal based 
+
+![](/media/terminal-godot.png){.full-width}
+
+
+# Hazards logging in code {background-image="/media/php-code.jpg" background-opacity="0.2"}
+
+## Joe Channing's Dissertation
+
+* ...
+
+## Standardise Hazards
+
+* Based on built-in exceptions (errors) types in Python.
+* Most programming languages have exceptions types.
+
+## Hazard Types
+
+## Patient demographics related
+
+* WrongPatient
+* WrongDemograhics
+
+## Medication / non-surgical related
+
+* WrongDrug
+* WrongDrugDose
+* DrugDelay
+* NoTreatment
+* WrongAdministrationRoute
+* Allergy
+
+## Surgical related
+
+* WrongSurgicalSite
+* WrongSurgery
+
+## Observations related
+
+* WrongObservation
+* WrongObservationResult
+* WrongObeservationIntepretation
+
+## Investigation related
+
+* RequestNotReceivedActioned
+* WrongInvestigation
+* WrongInvestigationSite
+* WrongDiagnosis
+
+## Referral related
+
+* ReferralNotReceivedActioned
+* WrongReferralType
+
+## Clinical interaction related
+
+* NoClinicalInteraction
+* NoDocumentationOfClinicalInteraction
+* DelayedClinicalInteraction
+* WrongClinicalInteraction
+
+## Data related
+
+* CorruptedData
+* NoAccessToData
+
+## Security related
+
+* DataBreach
+
+## System related
+
+* SystemCrash
+* CommunicationError
+
+## End-user related
+
+* AlarmFatigue
+
+## MISC
+
+* Duplicate
+* Incomplete
+* GeneralHazard
+
+
+# The Digital Clinical Safety Platform {background-image="/media/dcsp.png" background-opacity="0.2"}
+
+* The DCSA formed to create a new system.
+* Streamline and automate safety documentation.
+* Use templates.
+* Adaptable to any safety standard.
+
+
+# Feedback from Dean Mawson {background-image="/media/industrial-inspector.jpg" background-opacity="0.4" background-position="bottom"}
+
+
+# Questions and Answers {background-image="/media/question-mark-on-book.jpg" background-opacity="0.5"}
+
+
+
