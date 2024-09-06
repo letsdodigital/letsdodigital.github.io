@@ -79,8 +79,8 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 ## Working in collaboration with
 
-![](/media/university-of-bristol.svg){width=200 fig-alt="University of Bristol logo"}
-
+| ![](/media/university-of-bristol.svg){width=200 fig-alt="University of Bristol logo"} | ![](/media/mind-the-bleep.png){width=200 fig-alt="Mind the bleep logo"} |
+|:------------------------------------------------------------------------------------:|:---------------------------------------------------------------------:|
 ## Supporters of Let's Do Digital
 
 ```{=html}
