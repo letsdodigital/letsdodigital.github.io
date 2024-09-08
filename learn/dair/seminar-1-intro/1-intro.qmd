@@ -71,16 +71,24 @@ print(break_time(tired=True))
   3. **Level 3** - Project Planning and Management
   4. **Level 4** - Clinical Translation
 
-## Module 1 - Core Python for Images {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Module 2 - Course Introduction {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
 * Seminar content will include:
-  * How images are digitally **represented**
-  * Which **Python packages** are generally used to work with image data
+  * Aims and objectives of the course
+  * Overview of resources to use throughout the course
+  * Clinical applications of programming
+
+## Module 2 - Core Python for Image Processing {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+
+* Seminar content will include:
+  * How images are **digitally represented**
+  * Basics of multiple Python packages
+    * **PIL**, a Python library for working with images
+    * **NumPy**, a  Python library for working with large structured data
 * Workshop content will include:
   * How to open and render **different types** of image data  
-  * Basics of **relevant Python packages** for use later in the course
   
-## Module 2 - Python and DICOM {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Module 3 - Python and DICOM {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
 * Seminar content will include:
   * What the **DICOM standard** is
@@ -90,7 +98,7 @@ print(break_time(tired=True))
   * Opening and **rendering DICOM** with Python
   * **Extracting demographics** from DICOM
 
-## Module 3 - AI for Medicine {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Module 4 - AI for Medicine {background-image="/media/daim/bg1.png" background-opacity="0.4"}
 
 * Seminar content will include:
   * Different types of **"machine learning"**
@@ -98,11 +106,11 @@ print(break_time(tired=True))
   * Discussing **advantages and limitations** of these algorithms
 * Workshop content will include:
   * **Preprocessing data** for training
-  * **Constructing, training, and evaulating** a basic neural network for **pneumonia detection**
+  * **Constructing, training, and evaulating** a basic neural network for **pneumonia detection on CXR**
 
 ## Course Timeline
 
-* TODO (Make this when the updated course layout is better specified)
+* *TODO (Make this when the updated course layout is better specified)*
 
 ## Course Feedback {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
 
@@ -110,6 +118,7 @@ print(break_time(tired=True))
 * Please fill this out at the start and end of the course
 * Please include honest feedback!
 
-## Thank you!
+## Thank you! {background-image="/media/bamboo-woods.jpg" background-opacity="0.4"}
 
 Any questions?
+
