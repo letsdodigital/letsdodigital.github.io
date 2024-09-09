@@ -13,7 +13,8 @@ Code for the coding sessions can be found [here](https://github.com/letsdodigita
 
 ## Session info for students
 
-We will be using hackMD to store information for the session (eg tutor group allocation).
+* We will be using hackMD to store information for the session (eg tutor group allocation).
+* Students need a GitHub account.
 
 
 ## Timings
