@@ -25,7 +25,7 @@ End 10pm
 
 7:00 pm - Open room to students
 
-7:05 pm - Talk - 1-introduction.html
+7:02 pm - Talk - 1-introduction.html
 
 7:10 pm - Talk - 2-coding-environment.html
 
@@ -35,7 +35,11 @@ End 10pm
 
 8:20 pm - Hands-on - lesson_2.py
 
-9:50 pm - Talk - 4-session-close.html
+9:00 pm - Talk - 4-python-basics.html
+
+9:10 pm - Hands-on - lesson_3.py
+
+9:50 pm - Talk - 5-session-close.html
 
 10:00 pm - Close
 

@@ -174,6 +174,47 @@ a_dictionary = {
 }
 ```
 
+## Variables & memory {background-image="/media/empty-parking-lot.jpg" background-opacity="0.2"}
+
+* Variables are stored in the computer's memory (RAM).
+* Memory - think of it as a parking garage with a huge number of parking spaces. 
+* Python manages memory for you (creating, reading, updating, and destroying).
+
+
+## Variables - indexing / key
+
+* You can get a value from a list or dictionary by **indexing** or **specifying a key**, respectively:
+```{.python filename="index_keys.py" code-line-numbers="8,9"}
+a_list = ['a', 'b','c', 'd']
+
+a_dictionary = {
+    "1st key": "1st value",
+    "2nd key": "2nd value",
+}
+
+print(a_list[0])
+print(a_dictionary["1st key"])
+```
+
+Output:
+
+        a
+        1st value
+
+
+## Variables - zero indexing
+
+* Note: lists are **zero indexed**
+```{.python filename="index_keys.py" code-line-numbers="8,9"}
+a_list = ['a', 'b','c', 'd']
+
+print(a_list[0])
+```
+
+Output:
+
+        a
+
 
 ## Spaces
 
@@ -476,15 +517,10 @@ Output
 * At first, this looks like a very complicated output
 * The traceback is printed to the terminal, as such:
 
-
         Traceback (most recent call last):
-            File "/User/a_user/code/error_in_code.py", line 28, in <module>
-                print(fruit_prices.get_price("pear"))
-            File "/User/a_user/code/error_in_code.py", line 21, in get_price
-                return self._price(fruit)
-            File "/User/a_user/code/error_in_code.py", line 24, in _price
-                return self.prices[fruit]
-        KeyError: 'pear'
+            File "/User/a_user/code/error_in_code.py", line 7, in _price
+                print(human_organ_locations["football"])
+        KeyError: 'football'
 
 
 ## The Traceback
@@ -492,27 +528,23 @@ Output
 * When reading a Traceback, alwas read from the last line upwards.
 
         Traceback (most recent call last):
-            File "/User/a_user/code/error_in_code.py", line 7, in <module>
-                print(fruit_prices.get_price("pear"))
-            File "/User/a_user/code/error_in_code.py", line 1, in get_price
-                return self._price(fruit)
-            File "/User/a_user/code/error_in_code.py", line 5, in _price
-                return self.prices[fruit]
-        ==> KeyError: 'pear' <==
+            File "/User/a_user/code/error_in_code.py", line 7, in _price
+                print(human_organ_locations["football"])
+    ==> KeyError: 'football' <==
 
 
 ## Compare the Traceback to the code
 
 * Compare against the code
 
-```{.python filename="functions.py" code-line-numbers="5"}
-def fruit_prices(fruit):
-    # 'pear' key does not exist!
-    fruit_prices = {"apple": 1.55, "banana": 2.44}
+```{.python filename="human_organs.py" code-line-numbers="7"}
+human_organ_locations = {
+    "heart": "chest", 
+    "stomach": "abdomen", 
+    "brain": "head"
+}
 
-    return prices[fruit]
-
-print(fruit_prices("pear"))
+print(human_organ_locations["football"])
 ```
 
 ## Traceback
@@ -565,11 +597,9 @@ $ python exercise_1.py
 * Now go have some fun in your tutor groups with hands-on coding and debugging.
 * Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
 
-
-## Next slides
-
 ```{=html}
 <div class="bottom-right">
     <a href="https://letsdodigital.org/learn/learn-python/module-0/4-python-basics.html" style="color: lightgrey;">Python basics 2nd deck</a>
 </div>
 ```
+
