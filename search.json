@@ -1292,7 +1292,7 @@
     "href": "learn/learn-python/module-0/tutor-notes.html#session-info-for-students",
     "title": "Tutor notes - module 0",
     "section": "Session info for students",
-    "text": "Session info for students\nWe will be using hackMD to store information for the session (eg tutor group allocation)."
+    "text": "Session info for students\n\nWe will be using hackMD to store information for the session (eg tutor group allocation).\nStudents need a GitHub account."
   },
   {
     "objectID": "learn/learn-python/module-0/tutor-notes.html#timings",
@@ -2630,6 +2630,13 @@
     "title": "Python basics - 1st slide deck",
     "section": "Naming conventions",
     "text": "Naming conventions\n\nThere are several naming conventions in python. The convention you need to know about for this module is:\n\nsnake_case - for variables, functions and methods"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#what-is-in-a-code-1",
+    "href": "learn/learn-python/module-0/3-python-basics.html#what-is-in-a-code-1",
+    "title": "Python basics - 1st slide deck",
+    "section": "What is in a code?",
+    "text": "What is in a code?\n\nYou may notice that you can enter values for a variable (and other things) over several lines. This is allowed, but we will not bog you down with the specifics for now.\n\n\n\nhuman_organs.py\n\nhuman_organ_locations = {\n    \"heart\": \"chest\", \n    \"stomach\": \"abdomen\", \n    \"brain\": \"head\"\n}"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#comments",
