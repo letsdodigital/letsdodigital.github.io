@@ -266,8 +266,6 @@ $ python exercise_1.py
 * Now go have some fun in your tutor groups with hands-on coding and debugging.
 * Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
 
-## Next slides
-
 ```{=html}
 <div class="bottom-right">
     <a href="https://letsdodigital.org/learn/learn-python/module-0/5-session-close.html" style="color: lightgrey;">Session close deck</a>
