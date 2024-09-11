@@ -3063,14 +3063,7 @@
     "href": "learn/learn-python/module-0/4-python-basics.html#computers-are-pedantic",
     "title": "Python basics - 2nd slide deck",
     "section": "Computers are pedantic!",
-    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break your code.\nSo watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-0/"
-  },
-  {
-    "objectID": "learn/learn-python/module-0/4-python-basics.html#next-slides",
-    "href": "learn/learn-python/module-0/4-python-basics.html#next-slides",
-    "title": "Python basics - 2nd slide deck",
-    "section": "Next slides",
-    "text": "Next slides\n\n    Session close deck"
+    "text": "Computers are pedantic!\n\nRemember that computers think in True and False, e.g. 1 and 0s. They are literal thinkers.\nEven one character being out of place can break your code.\nSo watch out for that unpaired quotation mark, look out for that space that should not be there, and make sure you match your indentations to your if statements.\nNow go have some fun in your tutor groups with hands-on coding and debugging.\nCome back to these slides to remind yourself of key concepts - https://letsdodigital.org/learn/learn-python/module-0/\n\n\n    Session close deck"
   },
   {
     "objectID": "learn/learn-python/index.html",
@@ -4162,14 +4155,42 @@
     "href": "dcsa/index.html#plan",
     "title": "Digital Clinical Safety Platform",
     "section": "Plan",
-    "text": "Plan\n\n2:00 Introductions\n2:05 Current Process\n2:10 Cookiecutter DCB0129\n2:15 Hazards logging in code\n2:20 The Digital Clinical Safety Platform\n2:35 Feedback from Dean Mawson\n2:45 Questions and Answers"
+    "text": "Plan\n\nIntroductions (done)\nCurrent Process\nCookiecutter DCB0129\nHazards logging in code\nThe Digital Clinical Safety Platform\nFeedback from a user - Dean Mawson\nQuestions and Answers"
+  },
+  {
+    "objectID": "dcsa/index.html#clinical-safety-standards",
+    "href": "dcsa/index.html#clinical-safety-standards",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Clinical safety standards",
+    "text": "Clinical safety standards\n\nIEC 62304\nDCB 0129\nDCB 0160\n…"
   },
   {
     "objectID": "dcsa/index.html#a-mixture-of-everyday-office-softwares",
     "href": "dcsa/index.html#a-mixture-of-everyday-office-softwares",
     "title": "Digital Clinical Safety Platform",
     "section": "A mixture of everyday office softwares",
-    "text": "A mixture of everyday office softwares\n\nWord processor (eg MS Word)\nSpreadsheet (eg MS Excel)\nKanban boards (eg Jira)\nProcess mapping (eg Moqups)"
+    "text": "A mixture of everyday office softwares\n\nWord processor, eg NHS-E Clinical risk management system template\nSpreadsheet, eg NHS-E DCB 0129 Compliance Assessment and NHS-E hazard logs\nKanban boards (eg Jira)\nProcess mapping (eg Moqups)\nHome grown systems"
+  },
+  {
+    "objectID": "dcsa/index.html#overview-of-cookiecutter-dcb0129",
+    "href": "dcsa/index.html#overview-of-cookiecutter-dcb0129",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Overview of Cookiecutter-DCB0129",
+    "text": "Overview of Cookiecutter-DCB0129\n\nCreated by Dr Marcus Baw.\nUsed during clinical safety documentation of the RCPCH Digital Growth Chart APIs."
+  },
+  {
+    "objectID": "dcsa/index.html#overview-of-cookiecutter-dcb0129-1",
+    "href": "dcsa/index.html#overview-of-cookiecutter-dcb0129-1",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Overview of Cookiecutter-DCB0129",
+    "text": "Overview of Cookiecutter-DCB0129\n\nStores safety documentation on GitHub (public or private).\nUses markdown templates to build safety documentations.\nBuilds a static web page of the safety documents.\nThese can be downloaded into a PDF form.\nWebsite served via GitHub Pages.\nAutomatically generate hazard labels via GitHub actions."
+  },
+  {
+    "objectID": "dcsa/index.html#pros-and-cons-of-cookiecutter-dcb0129",
+    "href": "dcsa/index.html#pros-and-cons-of-cookiecutter-dcb0129",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Pros and Cons of Cookiecutter-DCB0129",
+    "text": "Pros and Cons of Cookiecutter-DCB0129\nPros\n\nAutomates a large amount of the documentation process.\nCreates easy to access, open and online documentation.\n\nCons\n\nRequires programming knowledge to setup and change.\nBasic command line interface only."
   },
   {
     "objectID": "dcsa/index.html#terminal-based",
@@ -4179,32 +4200,53 @@
     "text": "Terminal based"
   },
   {
-    "objectID": "dcsa/index.html#joe-channings-dissertation",
-    "href": "dcsa/index.html#joe-channings-dissertation",
+    "objectID": "dcsa/index.html#devsecregops",
+    "href": "dcsa/index.html#devsecregops",
     "title": "Digital Clinical Safety Platform",
-    "section": "Joe Channing’s Dissertation",
-    "text": "Joe Channing’s Dissertation\n\n…"
+    "section": "DevSecRegOps",
+    "text": "DevSecRegOps\nA framework for aiding security and compliance in modern healthcare software development\n\nA dissertation by Joe Channing, May 2023.\nDevelopment-Security-Regulations-Operations Framework.\nTaking DevOps and aligning with security testing and healthcare regulations."
   },
   {
-    "objectID": "dcsa/index.html#standardise-hazards",
-    "href": "dcsa/index.html#standardise-hazards",
+    "objectID": "dcsa/index.html#devsecregops-overview",
+    "href": "dcsa/index.html#devsecregops-overview",
     "title": "Digital Clinical Safety Platform",
-    "section": "Standardise Hazards",
-    "text": "Standardise Hazards\n\nBased on built-in exceptions (errors) types in Python.\nMost programming languages have exceptions types."
+    "section": "DevSecRegOps overview",
+    "text": "DevSecRegOps overview\n\nIntegrating regulatory compliance as part of the continuous integration / continuous deployment workflow.\nEnables compliance to keep up with the fast pace of development seen with DevOps.\nObtain collaboration and integration of software developers in the building of safer software for healthcare.\nHazard logging in code.\nHazards and their mitigations in code are version controlled, which provides a robust audit trail."
   },
   {
-    "objectID": "dcsa/index.html#hazard-types",
-    "href": "dcsa/index.html#hazard-types",
+    "objectID": "dcsa/index.html#hazard-logging-in-code",
+    "href": "dcsa/index.html#hazard-logging-in-code",
     "title": "Digital Clinical Safety Platform",
-    "section": "Hazard Types",
-    "text": "Hazard Types"
+    "section": "Hazard logging in code",
+    "text": "Hazard logging in code"
+  },
+  {
+    "objectID": "dcsa/index.html#cons",
+    "href": "dcsa/index.html#cons",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Cons",
+    "text": "Cons\n\nSafety officers and those working in close collaboration may need to be able to read code.\nTraining of software developers in clinical risk management.\n\nHowever, this is short term pain for long term gain, as we would ultimately be building better and safer systems."
+  },
+  {
+    "objectID": "dcsa/index.html#standardise-hazards-types",
+    "href": "dcsa/index.html#standardise-hazards-types",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Standardise Hazards Types",
+    "text": "Standardise Hazards Types\n\nBased on built-in exceptions (errors) types in Python.\nMost programming languages have exceptions types.\n\nexception KeyError\nexception MemoryError\nexception RuntimeError"
+  },
+  {
+    "objectID": "dcsa/index.html#possible-hazard-types",
+    "href": "dcsa/index.html#possible-hazard-types",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Possible Hazard Types",
+    "text": "Possible Hazard Types\n\nUp for debate…"
   },
   {
     "objectID": "dcsa/index.html#patient-demographics-related",
     "href": "dcsa/index.html#patient-demographics-related",
     "title": "Digital Clinical Safety Platform",
     "section": "Patient demographics related",
-    "text": "Patient demographics related\n\nWrongPatient\nWrongDemograhics"
+    "text": "Patient demographics related\n\nWrongPatient\nWrongDemographics"
   },
   {
     "objectID": "dcsa/index.html#medication-non-surgical-related",
@@ -4277,11 +4319,74 @@
     "text": "End-user related\n\nAlarmFatigue"
   },
   {
-    "objectID": "dcsa/index.html#misc",
-    "href": "dcsa/index.html#misc",
+    "objectID": "dcsa/index.html#miscellaneous",
+    "href": "dcsa/index.html#miscellaneous",
     "title": "Digital Clinical Safety Platform",
-    "section": "MISC",
-    "text": "MISC\n\nDuplicate\nIncomplete\nGeneralHazard"
+    "section": "Miscellaneous",
+    "text": "Miscellaneous\n\nDuplicate\nIncomplete\nGeneralHazard"
+  },
+  {
+    "objectID": "dcsa/index.html#overview",
+    "href": "dcsa/index.html#overview",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Overview",
+    "text": "Overview\n\nThe Digital Clinical Safety Alliance was formed to create a new clinical safety documentation system.\nTakes the best of CookieCutter-DCB0129 and DevSecRegOps.\nStreamline and automate safety documentation.\nEasy to use user-interface.\nUse templates.\nAdaptable to any safety standard.\nAudit trail."
+  },
+  {
+    "objectID": "dcsa/index.html#live-demo",
+    "href": "dcsa/index.html#live-demo",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Live demo",
+    "text": "Live demo"
+  },
+  {
+    "objectID": "dcsa/index.html#over-the-wall",
+    "href": "dcsa/index.html#over-the-wall",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Over the wall",
+    "text": "Over the wall\n\nTraditionally, the team that developed an app, the development team, create said app and then ship the app to the operations team, who then in turn prepare the app for use in production.\nThis was very inefficient, as there was a lot of throwing over a bureaucratic wall, back and forth to fix bugs and make production ready."
+  },
+  {
+    "objectID": "dcsa/index.html#devops-was-born",
+    "href": "dcsa/index.html#devops-was-born",
+    "title": "Digital Clinical Safety Platform",
+    "section": "DevOps was born",
+    "text": "DevOps was born\n\nTo stop this back and forth between teams, the teams were merged together in the DevOps team.\nAnd then the security team was added, and so we have DevSecOps."
+  },
+  {
+    "objectID": "dcsa/index.html#healthcare-needs-regulation",
+    "href": "dcsa/index.html#healthcare-needs-regulation",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Healthcare needs regulation",
+    "text": "Healthcare needs regulation\n\nAs healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:\n\nDevSecRegOps"
+  },
+  {
+    "objectID": "dcsa/index.html#the-full-stack",
+    "href": "dcsa/index.html#the-full-stack",
+    "title": "Digital Clinical Safety Platform",
+    "section": "The Full Stack",
+    "text": "The Full Stack"
+  },
+  {
+    "objectID": "dcsa/index.html#the-full-stack-1",
+    "href": "dcsa/index.html#the-full-stack-1",
+    "title": "Digital Clinical Safety Platform",
+    "section": "The Full Stack",
+    "text": "The Full Stack\n\nNGINX reverse proxy server\nGunicorn WSGI HTTP server\nDjango dynamic site framework\nMaterial for MKDocs static site creator\nPython\nJavascript for additional frontend functionality\nContainerisation (Docker)\nCloud service (DigitalOcean)"
+  },
+  {
+    "objectID": "dcsa/index.html#cicd-pipeline",
+    "href": "dcsa/index.html#cicd-pipeline",
+    "title": "Digital Clinical Safety Platform",
+    "section": "CI/CD pipeline",
+    "text": "CI/CD pipeline\n\nGit version control\nGitHub and GitHub Actions\nNon-main branch testing followed by main branch push to production\nBlack and djLint Linters\nBandit security checker\nMyPy type checking\nPyTest unit & coverage testing\nAutomatic app documentation build\n(Integration testing and further security testing to come)"
+  },
+  {
+    "objectID": "dcsa/index.html#conclusion",
+    "href": "dcsa/index.html#conclusion",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Conclusion",
+    "text": "Conclusion\n\nStreamlined and automated clinical safety documentation\nEasy to use user-interface\nTemplates\nAdaptable to any safety standard\nSafety built in at the code level\nAudit trail"
   },
   {
     "objectID": "conferences/2024/agenda.html",

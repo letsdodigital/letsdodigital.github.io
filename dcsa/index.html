@@ -413,64 +413,141 @@ Digital Clinical Safety Alliance
 <section id="plan" class="slide level2">
 <h2>Plan</h2>
 <ul>
-<li>2:00 Introductions</li>
-<li>2:05 Current Process</li>
-<li>2:10 Cookiecutter DCB0129</li>
-<li>2:15 Hazards logging in code</li>
-<li>2:20 The Digital Clinical Safety Platform</li>
-<li>2:35 Feedback from Dean Mawson</li>
-<li>2:45 Questions and Answers</li>
+<li>Introductions (done)</li>
+<li>Current Process</li>
+<li>Cookiecutter DCB0129</li>
+<li>Hazards logging in code</li>
+<li>The Digital Clinical Safety Platform</li>
+<li>Feedback from a user - Dean Mawson</li>
+<li>Questions and Answers</li>
 </ul>
 </section></section>
 <section>
-<section id="current-clinical-safety-documentation" class="title-slide slide level1 center" data-background-image="../media/clinical-safety-hazard-log.jpeg" data-background-opacity="0.4" data-background-position="top">
+<section id="current-clinical-safety-documentation" class="title-slide slide level1 center" data-background-image="../media/clinical-safety-hazard-log.jpeg" data-background-opacity="0.2" data-background-position="top">
 <h1>Current Clinical Safety Documentation</h1>
 
+</section>
+<section id="clinical-safety-standards" class="slide level2">
+<h2>Clinical safety standards</h2>
+<ul>
+<li>IEC 62304</li>
+<li>DCB 0129</li>
+<li>DCB 0160</li>
+<li>…</li>
+</ul>
 </section>
 <section id="a-mixture-of-everyday-office-softwares" class="slide level2">
 <h2>A mixture of everyday office softwares</h2>
 <ul>
-<li>Word processor (eg MS Word)</li>
-<li>Spreadsheet (eg MS Excel)</li>
+<li>Word processor, eg <a href="https://digital.nhs.uk/services/clinical-safety/documentation#:~:text=Clinical%20risk%20management%20system,DOCX%2068%20KB">NHS-E Clinical risk management system template</a></li>
+<li>Spreadsheet, eg <a href="https://digital.nhs.uk/binaries/content/assets/website-assets/data-and-information/information-standards/standards-and-collections/dcb-0129-compliance-assessment-v5.0.xlsx">NHS-E DCB 0129 Compliance Assessment</a> and <a href="https://digital.nhs.uk/binaries/content/assets/website-assets/services/clinical-safety/clinical_safety_hazard_log_template.xlsx">NHS-E hazard logs</a></li>
 <li>Kanban boards (eg Jira)</li>
 <li>Process mapping (eg Moqups)</li>
+<li>Home grown systems</li>
 </ul>
 </section></section>
 <section>
 <section id="cookiecutter-dcb0129" class="title-slide slide level1 center" data-background-image="../media/cookie-cutter.jpg" data-background-opacity="0.2">
 <h1>Cookiecutter DCB0129</h1>
-
+<p>https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template</p>
+</section>
+<section id="overview-of-cookiecutter-dcb0129" class="slide level2">
+<h2>Overview of Cookiecutter-DCB0129</h2>
+<ul>
+<li>Created by Dr Marcus Baw.</li>
+<li>Used during clinical safety documentation of the RCPCH <strong>Digital Growth Chart</strong> APIs.</li>
+</ul>
+</section>
+<section id="overview-of-cookiecutter-dcb0129-1" class="slide level2">
+<h2>Overview of Cookiecutter-DCB0129</h2>
+<ul>
+<li>Stores safety documentation on <strong>GitHub</strong> (public or private).</li>
+<li>Uses <strong>markdown templates</strong> to build safety documentations.</li>
+<li>Builds a <strong>static web page</strong> of the safety documents.</li>
+<li>These can be <em>downloaded</em> into a PDF form.</li>
+<li>Website served via <strong>GitHub Pages</strong>.</li>
+<li>Automatically generate <strong>hazard labels</strong> via GitHub actions.</li>
+</ul>
+</section>
+<section id="pros-and-cons-of-cookiecutter-dcb0129" class="slide level2">
+<h2>Pros and Cons of Cookiecutter-DCB0129</h2>
+<p><strong>Pros</strong></p>
+<ul>
+<li>Automates a large amount of the documentation process.</li>
+<li>Creates easy to access, open and online documentation.</li>
+</ul>
+<p><strong>Cons</strong></p>
+<ul>
+<li>Requires programming knowledge to setup and change.</li>
+<li>Basic command line interface only.</li>
+</ul>
 </section>
 <section id="terminal-based" class="slide level2">
 <h2>Terminal based</h2>
 
-<img data-src="../media/terminal-godot.png" class="full-width r-stretch"></section></section>
+<img data-src="../media/terminal-godot.png" class="centre-full-image r-stretch"></section></section>
 <section>
 <section id="hazards-logging-in-code" class="title-slide slide level1 center" data-background-image="../media/php-code.jpg" data-background-opacity="0.2">
 <h1>Hazards logging in code</h1>
 
 </section>
-<section id="joe-channings-dissertation" class="slide level2">
-<h2>Joe Channing’s Dissertation</h2>
+<section id="devsecregops" class="slide level2">
+<h2>DevSecRegOps</h2>
+<p><strong>A framework for aiding security and compliance in modern healthcare software development</strong></p>
 <ul>
-<li>…</li>
+<li>A dissertation by Joe Channing, May 2023.</li>
+<li><strong>Dev</strong>elopment-<strong>Sec</strong>urity-<strong>Reg</strong>ulations-<strong>Op</strong>eration<strong>s</strong> Framework.</li>
+<li>Taking DevOps and aligning with security testing and healthcare regulations.</li>
 </ul>
 </section>
-<section id="standardise-hazards" class="slide level2">
-<h2>Standardise Hazards</h2>
+<section id="devsecregops-overview" class="slide level2">
+<h2>DevSecRegOps overview</h2>
+<ul>
+<li><strong>Integrating</strong> regulatory compliance as part of the c<strong>ontinuous integration / continuous deployment</strong> workflow.</li>
+<li>Enables compliance to <strong>keep up</strong> with the fast pace of development seen with DevOps.</li>
+<li>Obtain <strong>collaboration and integration of software developers</strong> in the building of safer software for healthcare.</li>
+<li>Hazard logging in code.</li>
+<li>Hazards and their mitigations in code are version controlled, which provides a robust <strong>audit trail</strong>.</li>
+</ul>
+</section>
+<section id="hazard-logging-in-code" class="slide level2">
+<h2>Hazard logging in code</h2>
+
+<img data-src="../media/hazard-logging-in-code.png" class="centre-full-image-drop r-stretch"></section>
+<section id="cons" class="slide level2">
+<h2>Cons</h2>
+<ul>
+<li>Safety officers and those working in close collaboration may need to be able to read code.</li>
+<li>Training of software developers in clinical risk management.</li>
+</ul>
+<p><strong>However, this is short term pain for long term gain, as we would ultimately be building better and safer systems.</strong></p>
+</section></section>
+<section>
+<section id="hazard-types-in-code" class="title-slide slide level1 center" data-background-image="../media/danger-strong-current.jpg" data-background-opacity="0.2">
+<h1>Hazard Types in Code</h1>
+
+</section>
+<section id="standardise-hazards-types" class="slide level2">
+<h2>Standardise Hazards Types</h2>
 <ul>
 <li>Based on built-in exceptions (errors) types in Python.</li>
 <li>Most programming languages have exceptions types.</li>
 </ul>
+<p><em>exception</em> <strong>KeyError</strong></p>
+<p><em>exception</em> <strong>MemoryError</strong></p>
+<p><em>exception</em> <strong>RuntimeError</strong></p>
 </section>
-<section id="hazard-types" class="slide level2">
-<h2>Hazard Types</h2>
+<section id="possible-hazard-types" class="slide level2">
+<h2>Possible Hazard Types</h2>
+<ul>
+<li>Up for debate…</li>
+</ul>
 </section>
 <section id="patient-demographics-related" class="slide level2">
 <h2>Patient demographics related</h2>
 <ul>
 <li>WrongPatient</li>
-<li>WrongDemograhics</li>
+<li>WrongDemographics</li>
 </ul>
 </section>
 <section id="medication-non-surgical-related" class="slide level2">
@@ -550,29 +627,121 @@ Digital Clinical Safety Alliance
 <li>AlarmFatigue</li>
 </ul>
 </section>
-<section id="misc" class="slide level2">
-<h2>MISC</h2>
+<section id="miscellaneous" class="slide level2">
+<h2>Miscellaneous</h2>
 <ul>
 <li>Duplicate</li>
 <li>Incomplete</li>
 <li>GeneralHazard</li>
 </ul>
 </section></section>
+<section>
 <section id="the-digital-clinical-safety-platform" class="title-slide slide level1 center" data-background-image="../media/dcsp.png" data-background-opacity="0.2">
 <h1>The Digital Clinical Safety Platform</h1>
+
+</section>
+<section id="overview" class="slide level2">
+<h2>Overview</h2>
 <ul>
-<li>The DCSA formed to create a new system.</li>
+<li>The <strong>Digital Clinical Safety Alliance</strong> was formed to create a new clinical safety documentation system.</li>
+<li><strong>Takes the best</strong> of CookieCutter-DCB0129 and DevSecRegOps.</li>
 <li>Streamline and automate safety documentation.</li>
+<li>Easy to use user-interface.</li>
 <li>Use templates.</li>
 <li>Adaptable to any safety standard.</li>
+<li>Audit trail.</li>
 </ul>
 </section>
+<section id="live-demo" class="slide level2" data-background-image="../media/large-screen-presentation-conference.jpg" data-background-opacity="0.6" data-background-position="bottom">
+<h2>Live demo</h2>
+</section></section>
+<section>
+<section id="bringing-all-of-the-players-into-the-same-room" class="title-slide slide level1 center" data-background-image="../media/wall-climbing.jpg" data-background-opacity="0.2" data-background-position="top">
+<h1>Bringing all of the players into the same room</h1>
 
+</section>
+<section id="over-the-wall" class="slide level2" data-background-image="../media/wall-climbing.jpg" data-background-opacity="0.2" data-background-position="top">
+<h2>Over the wall</h2>
+<ul>
+<li>Traditionally, the team that developed an app, the <strong>development</strong> team, create said app and then ship the app to the <strong>operations</strong> team, who then in turn prepare the app for use in production.</li>
+<li>This was very inefficient, as there was a lot of <strong>throwing over a bureaucratic wall</strong>, back and forth to fix bugs and make production ready.</li>
+</ul>
+</section>
+<section id="devops-was-born" class="slide level2">
+<h2>DevOps was born</h2>
+<ul>
+<li>To stop this back and forth between teams, the teams were merged together in the <strong>DevOps</strong> team.</li>
+<li>And then the security team was added, and so we have DevSecOps.</li>
+</ul>
+</section>
+<section id="healthcare-needs-regulation" class="slide level2">
+<h2>Healthcare needs regulation</h2>
+<ul>
+<li>As healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:<br>
+<br>
+<strong>DevSecRegOps</strong></li>
+</ul>
+</section></section>
+<section id="show-hazards-logging-in-code" class="title-slide slide level1 center">
+<h1>Show Hazards logging in code</h1>
+
+</section>
+
+<section>
+<section id="future-features" class="title-slide slide level1 center">
+<h1>Future features</h1>
+<ul>
+<li>Graphical function to draw and manage hazards of a digital process / system.</li>
+<li>Anything else people highlight in the Q&amp;A section today.</li>
+</ul>
+</section>
+<section id="the-full-stack" class="slide level2">
+<h2>The Full Stack</h2>
+
+<img data-src="../media/dcsp-stack-overview.png" class="r-stretch"></section>
+<section id="the-full-stack-1" class="slide level2 smaller">
+<h2>The Full Stack</h2>
+<ul>
+<li>NGINX reverse proxy server</li>
+<li>Gunicorn WSGI HTTP server</li>
+<li>Django dynamic site framework</li>
+<li>Material for MKDocs static site creator</li>
+<li>Python</li>
+<li>Javascript for additional frontend functionality</li>
+<li>Containerisation (Docker)</li>
+<li>Cloud service (DigitalOcean)</li>
+</ul>
+</section>
+<section id="cicd-pipeline" class="slide level2 smaller">
+<h2>CI/CD pipeline</h2>
+<ul>
+<li>Git version control</li>
+<li>GitHub and GitHub Actions</li>
+<li>Non-main branch testing followed by main branch push to production</li>
+<li>Black and djLint Linters</li>
+<li>Bandit security checker</li>
+<li>MyPy type checking</li>
+<li>PyTest unit &amp; coverage testing</li>
+<li>Automatic app documentation build</li>
+<li>(Integration testing and further security testing to come)</li>
+</ul>
+</section></section>
+<section>
 <section id="feedback-from-dean-mawson" class="title-slide slide level1 center" data-background-image="../media/industrial-inspector.jpg" data-background-opacity="0.4" data-background-position="bottom">
 <h1>Feedback from Dean Mawson</h1>
 
 </section>
-
+<section id="conclusion" class="slide level2">
+<h2>Conclusion</h2>
+<ul>
+<li>Streamlined and automated clinical safety documentation</li>
+<li>Easy to use user-interface</li>
+<li>Templates</li>
+<li>Adaptable to any safety standard</li>
+<li>Safety built in at the code level</li>
+<li>Audit trail</li>
+</ul>
+</section></section>
 <section id="questions-and-answers" class="title-slide slide level1 center" data-background-image="../media/question-mark-on-book.jpg" data-background-opacity="0.5">
 <h1>Questions and Answers</h1>
 
