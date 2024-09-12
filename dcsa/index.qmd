@@ -92,7 +92,11 @@ title-slide-attributes:
 
 ## DCSP
 
-![](/media/dcsp-screenshot.png){.centre-full-image-drop alt="Screenshot of the DCSP"}
+![](/media/dcsp-screenshot-overview.png){.centre-full-image-drop alt="Screenshot of the DCSP"}
+
+## DCSP
+
+![](/media/dcsp-screenshot-code.png){.centre-full-image-drop alt="Screenshot of the DCSP"}
 
 
 # Current Clinical Safety Documentation {background-image="/media/clinical-safety-hazard-log.jpeg" background-opacity="0.2" background-position="top"}
