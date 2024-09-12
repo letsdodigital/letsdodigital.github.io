@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../slides.css">
@@ -417,11 +482,16 @@ Digital Clinical Safety Alliance
 <li>Current Process</li>
 <li>Cookiecutter DCB0129</li>
 <li>Hazards logging in code</li>
+<li>Hazard types</li>
 <li>The Digital Clinical Safety Platform</li>
 <li>Feedback from a user - Dean Mawson</li>
 <li>Questions and Answers</li>
 </ul>
-</section></section>
+</section>
+<section id="dcsp" class="slide level2">
+<h2>DCSP</h2>
+
+<img data-src="../media/dcsp-screenshot.png" alt="Screenshot of the DCSP" class="r-stretch"></section></section>
 <section>
 <section id="current-clinical-safety-documentation" class="title-slide slide level1 center" data-background-image="../media/clinical-safety-hazard-log.jpeg" data-background-opacity="0.2" data-background-position="top">
 <h1>Current Clinical Safety Documentation</h1>
@@ -442,10 +512,15 @@ Digital Clinical Safety Alliance
 <li>Word processor, eg <a href="https://digital.nhs.uk/services/clinical-safety/documentation#:~:text=Clinical%20risk%20management%20system,DOCX%2068%20KB">NHS-E Clinical risk management system template</a></li>
 <li>Spreadsheet, eg <a href="https://digital.nhs.uk/binaries/content/assets/website-assets/data-and-information/information-standards/standards-and-collections/dcb-0129-compliance-assessment-v5.0.xlsx">NHS-E DCB 0129 Compliance Assessment</a> and <a href="https://digital.nhs.uk/binaries/content/assets/website-assets/services/clinical-safety/clinical_safety_hazard_log_template.xlsx">NHS-E hazard logs</a></li>
 <li>Kanban boards (eg Jira)</li>
-<li>Process mapping (eg Moqups)</li>
+<li>Process mapping (eg MS Visio, Moqups)</li>
 <li>Home grown systems</li>
 </ul>
 </section></section>
+<section id="and-what-advancements-on-the-above-are-there" class="title-slide slide level1 center">
+<h1>And what advancements on the above are there?</h1>
+
+</section>
+
 <section>
 <section id="cookiecutter-dcb0129" class="title-slide slide level1 center" data-background-image="../media/cookie-cutter.jpg" data-background-opacity="0.2">
 <h1>Cookiecutter DCB0129</h1>
@@ -463,11 +538,27 @@ Digital Clinical Safety Alliance
 <ul>
 <li>Stores safety documentation on <strong>GitHub</strong> (public or private).</li>
 <li>Uses <strong>markdown templates</strong> to build safety documentations.</li>
+<li>Provides <strong>placeholders</strong> for important repetitive, project specific items.</li>
+</ul>
+</section>
+<section id="overview-of-cookiecutter-dcb0129-2" class="slide level2">
+<h2>Overview of Cookiecutter-DCB0129</h2>
+<ul>
 <li>Builds a <strong>static web page</strong> of the safety documents.</li>
 <li>These can be <em>downloaded</em> into a PDF form.</li>
 <li>Website served via <strong>GitHub Pages</strong>.</li>
 <li>Automatically generate <strong>hazard labels</strong> via GitHub actions.</li>
 </ul>
+</section>
+<section id="placeholders" class="slide level2">
+<h2>Placeholders</h2>
+<pre><code>---
+title: Hazard Log
+---
+
+# {{ project_name }} Hazard Log
+
+In keeping with our commitment to transparency and openness, our Hazard Log is publicly visible and managed in GitHub using the Issues feature.</code></pre>
 </section>
 <section id="pros-and-cons-of-cookiecutter-dcb0129" class="slide level2">
 <h2>Pros and Cons of Cookiecutter-DCB0129</h2>
@@ -478,8 +569,8 @@ Digital Clinical Safety Alliance
 </ul>
 <p><strong>Cons</strong></p>
 <ul>
-<li>Requires programming knowledge to setup and change.</li>
-<li>Basic command line interface only.</li>
+<li>Requires “basic” programming knowledge to setup and modify.</li>
+<li>Setup is via command line interface only.</li>
 </ul>
 </section>
 <section id="terminal-based" class="slide level2">
@@ -492,16 +583,17 @@ Digital Clinical Safety Alliance
 
 </section>
 <section id="devsecregops" class="slide level2">
-<h2>DevSecRegOps</h2>
+<h2>DevSecRegOps:</h2>
 <p><strong>A framework for aiding security and compliance in modern healthcare software development</strong></p>
 <ul>
 <li>A dissertation by Joe Channing, May 2023.</li>
 <li><strong>Dev</strong>elopment-<strong>Sec</strong>urity-<strong>Reg</strong>ulations-<strong>Op</strong>eration<strong>s</strong> Framework.</li>
 <li>Taking DevOps and aligning with security testing and healthcare regulations.</li>
+<li><strong>DevSRO</strong> for short.</li>
 </ul>
 </section>
-<section id="devsecregops-overview" class="slide level2">
-<h2>DevSecRegOps overview</h2>
+<section id="devsro-overview" class="slide level2">
+<h2>DevSRO overview</h2>
 <ul>
 <li><strong>Integrating</strong> regulatory compliance as part of the c<strong>ontinuous integration / continuous deployment</strong> workflow.</li>
 <li>Enables compliance to <strong>keep up</strong> with the fast pace of development seen with DevOps.</li>
@@ -513,29 +605,66 @@ Digital Clinical Safety Alliance
 <section id="hazard-logging-in-code" class="slide level2">
 <h2>Hazard logging in code</h2>
 
-<img data-src="../media/hazard-logging-in-code.png" class="centre-full-image-drop r-stretch"></section>
-<section id="cons" class="slide level2">
-<h2>Cons</h2>
+<img data-src="../media/hazard-logging-in-code.png" class="centre-full-image-drop r-stretch" alt="Hazards written in teh docstring of a function"></section>
+<section id="creating-hazard-documentation" class="slide level2">
+<h2>Creating Hazard Documentation</h2>
+
+<img data-src="../media/hazard-output.png" alt="Output from hazard code in a tabular format" class="r-stretch"></section>
+<section id="devsro-pros" class="slide level2">
+<h2>DevSRO Pros</h2>
 <ul>
+<li>Greater collaboration of software developers, operations, and security with the clinical safety team.</li>
+<li>Audit trail of hazards and how they are directly mitigated in the code.</li>
+<li>Safer software.</li>
+</ul>
+</section>
+<section id="devsro-cons" class="slide level2">
+<h2>DevSRO Cons</h2>
+<ul>
+<li>The code base becomes too wordy if all of the hazard material is only kept in the code itself.</li>
 <li>Safety officers and those working in close collaboration may need to be able to read code.</li>
 <li>Training of software developers in clinical risk management.</li>
 </ul>
-<p><strong>However, this is short term pain for long term gain, as we would ultimately be building better and safer systems.</strong></p>
+<p><strong>For the last two points, this is short term pain for long term gain, as we would ultimately be building better and safer systems.</strong></p>
 </section></section>
 <section>
 <section id="hazard-types-in-code" class="title-slide slide level1 center" data-background-image="../media/danger-strong-current.jpg" data-background-opacity="0.2">
 <h1>Hazard Types in Code</h1>
 
 </section>
-<section id="standardise-hazards-types" class="slide level2">
-<h2>Standardise Hazards Types</h2>
+<section id="standardised-hazards-types" class="slide level2">
+<h2>Standardised Hazards Types</h2>
 <ul>
 <li>Based on built-in exceptions (errors) types in Python.</li>
 <li>Most programming languages have exceptions types.</li>
 </ul>
 <p><em>exception</em> <strong>KeyError</strong></p>
+<p><em>exception</em> <strong>ValueError</strong></p>
 <p><em>exception</em> <strong>MemoryError</strong></p>
 <p><em>exception</em> <strong>RuntimeError</strong></p>
+</section>
+<section id="typing-hazards" class="slide level2">
+<h2>Typing hazards</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="kw">def</span> BMI(<span class="va">self</span>, weight: <span class="bu">float</span>, height: <span class="bu">float</span>) <span class="op">-&gt;</span> <span class="bu">float</span>:</span>
+<span id="cb2-2"><a></a>        <span class="co">"""Work out BMI from weight</span></span>
+<span id="cb2-3"><a></a></span>
+<span id="cb2-4"><a></a><span class="co">        Calculate the weight of the patient. Uses metric units</span></span>
+<span id="cb2-5"><a></a></span>
+<span id="cb2-6"><a></a><span class="co">        Args:</span></span>
+<span id="cb2-7"><a></a><span class="co">            weight (float): weight of the patient in kilograms</span></span>
+<span id="cb2-8"><a></a><span class="co">            height (float): height of the patient in meters</span></span>
+<span id="cb2-9"><a></a></span>
+<span id="cb2-10"><a></a><span class="co">        Returns:</span></span>
+<span id="cb2-11"><a></a><span class="co">            float: BMI of the patient</span></span>
+<span id="cb2-12"><a></a></span>
+<span id="cb2-13"><a></a><span class="co">        Raises:</span></span>
+<span id="cb2-14"><a></a><span class="co">            ValueError: wrong weight range</span></span>
+<span id="cb2-15"><a></a><span class="co">            ValueError: wrong height range</span></span>
+<span id="cb2-16"><a></a></span>
+<span id="cb2-17"><a></a><span class="co">        Hazards:</span></span>
+<span id="cb2-18"><a></a><span class="co">            WrongPatient (1): The wrong patient</span></span>
+<span id="cb2-19"><a></a><span class="co">            WrongDemograhics (2): The wrong patient gender</span></span>
+<span id="cb2-20"><a></a><span class="co">        """</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="possible-hazard-types" class="slide level2">
 <h2>Possible Hazard Types</h2>
@@ -644,12 +773,19 @@ Digital Clinical Safety Alliance
 <h2>Overview</h2>
 <ul>
 <li>The <strong>Digital Clinical Safety Alliance</strong> was formed to create a new clinical safety documentation system.</li>
-<li><strong>Takes the best</strong> of CookieCutter-DCB0129 and DevSecRegOps.</li>
-<li>Streamline and automate safety documentation.</li>
+<li><strong>Takes the best</strong> of CookieCutter-DCB0129 and DevSRO.</li>
+<li>Streamlines and automates safety documentation.</li>
 <li>Easy to use user-interface.</li>
 <li>Use templates.</li>
 <li>Adaptable to any safety standard.</li>
 <li>Audit trail.</li>
+</ul>
+</section>
+<section id="static-and-dynamic" class="slide level2">
+<h2>Static and Dynamic</h2>
+<ul>
+<li>The dynamic side helps the user create the clinical safety documentation.</li>
+<li>The static side presents the finalised documents.</li>
 </ul>
 </section>
 <section id="live-demo" class="slide level2" data-background-image="../media/large-screen-presentation-conference.jpg" data-background-opacity="0.6" data-background-position="bottom">
@@ -663,7 +799,7 @@ Digital Clinical Safety Alliance
 <section id="over-the-wall" class="slide level2" data-background-image="../media/wall-climbing.jpg" data-background-opacity="0.2" data-background-position="top">
 <h2>Over the wall</h2>
 <ul>
-<li>Traditionally, the team that developed an app, the <strong>development</strong> team, create said app and then ship the app to the <strong>operations</strong> team, who then in turn prepare the app for use in production.</li>
+<li>Traditionally, the team that developed an app, the <strong>development</strong> team, created said app and then shipped the app to the <strong>operations</strong> team, who then in turn prepared the app for use in production.</li>
 <li>This was very inefficient, as there was a lot of <strong>throwing over a bureaucratic wall</strong>, back and forth to fix bugs and make production ready.</li>
 </ul>
 </section>
@@ -679,17 +815,12 @@ Digital Clinical Safety Alliance
 <ul>
 <li>As healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:<br>
 <br>
-<strong>DevSecRegOps</strong></li>
+<strong>DevSRO</strong></li>
 </ul>
 </section></section>
-<section id="show-hazards-logging-in-code" class="title-slide slide level1 center">
-<h1>Show Hazards logging in code</h1>
-
-</section>
-
 <section>
-<section id="future-features" class="title-slide slide level1 center">
-<h1>Future features</h1>
+<section id="dcsp---future-features" class="title-slide slide level1 center">
+<h1>DCSP - Future features</h1>
 <ul>
 <li>Graphical function to draw and manage hazards of a digital process / system.</li>
 <li>Anything else people highlight in the Q&amp;A section today.</li>
@@ -731,11 +862,11 @@ Digital Clinical Safety Alliance
 <h1>Feedback from Dean Mawson</h1>
 
 </section>
-<section id="conclusion" class="slide level2">
-<h2>Conclusion</h2>
+<section id="dcsp-conclusion" class="slide level2" data-background-image="../media/dcsp.png" data-background-opacity="0.2">
+<h2>DCSP Conclusion</h2>
 <ul>
 <li>Streamlined and automated clinical safety documentation</li>
-<li>Easy to use user-interface</li>
+<li>User-friendly interface</li>
 <li>Templates</li>
 <li>Adaptable to any safety standard</li>
 <li>Safety built in at the code level</li>
@@ -744,6 +875,7 @@ Digital Clinical Safety Alliance
 </section></section>
 <section id="questions-and-answers" class="title-slide slide level1 center" data-background-image="../media/question-mark-on-book.jpg" data-background-opacity="0.5">
 <h1>Questions and Answers</h1>
+<p><a href="mailto:dcsp.information@gmail.com">dcsp.information@gmail.com</a></p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

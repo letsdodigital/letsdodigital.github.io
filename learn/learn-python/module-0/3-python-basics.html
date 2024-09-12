@@ -705,33 +705,18 @@ Let’s Do Digital Team
 <span id="cb15-2"><a></a>variable_b <span class="op">=</span> <span class="st">'I would like to show you "this"'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="f-strings" class="slide level2">
-<h2>f-strings</h2>
-<ul>
-<li>Useful to know</li>
-</ul>
-<div class="code-with-filename">
-<div class="code-with-filename-file">
-<pre><strong>f_string.py</strong></pre>
-</div>
-<div class="sourceCode" id="cb16" data-filename="f_string.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a>age <span class="op">=</span> <span class="dv">25</span></span>
-<span id="cb16-2"><a></a><span class="bu">print</span>(<span class="ss">f"The patient's age is: </span><span class="sc">{</span> age <span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-<p>Output</p>
-<pre><code>    The patient's age is: 25</code></pre>
-</section>
 <section id="add-strings-together" class="slide level2">
 <h2>Add strings together</h2>
 <ul>
-<li>Or you can add strings together like this</li>
+<li>You can add strings together as below</li>
 <li>Note, you cannot <strong>add</strong> an integer to a string in python</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>adding_strings.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb18" data-filename="adding_strings.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a>age <span class="op">=</span> <span class="st">"25"</span></span>
-<span id="cb18-2"><a></a><span class="bu">print</span>(<span class="st">"The patient's age is: "</span> <span class="op">+</span>  age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb16" data-filename="adding_strings.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a>age <span class="op">=</span> <span class="st">"25"</span></span>
+<span id="cb16-2"><a></a><span class="bu">print</span>(<span class="st">"The patient's age is: "</span> <span class="op">+</span>  age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    The patient's age is: 25</code></pre>
@@ -745,14 +730,30 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>using_commas.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb20" data-filename="using_commas.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a>age <span class="op">=</span> <span class="dv">25</span></span>
-<span id="cb20-2"><a></a><span class="bu">print</span>(<span class="st">"The patient's age is:"</span>,  age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb18" data-filename="using_commas.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a></a>age <span class="op">=</span> <span class="dv">25</span></span>
+<span id="cb18-2"><a></a><span class="bu">print</span>(<span class="st">"The patient's age is:"</span>,  age)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>Output</p>
 <pre><code>    The patient's age is: 25</code></pre>
 <ul>
 <li>Note, the print statement when used like this adds a space between the arguments in the print out.</li>
 </ul>
+</section>
+<section id="f-strings" class="slide level2">
+<h2>f-strings</h2>
+<ul>
+<li>A more advanced, but powerful method.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>f_string.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb20" data-filename="f_string.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a>age <span class="op">=</span> <span class="dv">25</span></span>
+<span id="cb20-2"><a></a><span class="bu">print</span>(<span class="ss">f"The patient's age is: </span><span class="sc">{</span> age <span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<p>Output</p>
+<pre><code>    The patient's age is: 25
+    </code></pre>
 </section>
 <section id="indentation" class="slide level2" data-background-image="../../../media/steps-and-child.jpg" data-background-opacity="0.4">
 <h2>Indentation</h2>
@@ -938,8 +939,8 @@ Let’s Do Digital Team
 <p>Output</p>
 <pre><code>    Yes, 2 is in the list</code></pre>
 </section>
-<section id="functions-and-methods" class="slide level2" data-background-image="../../../media/box.jpg" data-background-opacity="0.4">
-<h2>Functions (and methods)</h2>
+<section id="functions" class="slide level2" data-background-image="../../../media/box.jpg" data-background-opacity="0.4">
+<h2>Functions</h2>
 <ul>
 <li>Blocks of reusable code that perform a specific task.</li>
 <li>Help in organising code and making it more modular (code can be reused).</li>

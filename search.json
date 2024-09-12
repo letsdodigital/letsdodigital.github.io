@@ -1299,7 +1299,7 @@
     "href": "learn/learn-python/module-0/tutor-notes.html#timings",
     "title": "Tutor notes - module 0",
     "section": "Timings",
-    "text": "Timings\nStart 7pm End 10pm\n6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality.\n7:00 pm - Open room to students\n7:02 pm - Talk - 1-introduction.html\n7:10 pm - Talk - 2-coding-environment.html\n7:20 pm - Hands-on - lesson_1.py\n8:00 pm - Talk - 3-python-basics.html\n8:20 pm - Hands-on - lesson_2.py\n9:00 pm - Talk - 4-python-basics.html\n9:10 pm - Hands-on - lesson_3.py\n9:50 pm - Talk - 5-session-close.html\n10:00 pm - Close"
+    "text": "Timings\nStart 7pm End 10pm\n6:30 pm - open zoom for tutors and set up breakout rooms. Test all functionality.\n7:00 pm - Open room to students\n7:02 pm - Talk - 1-introduction.html\n7:10 pm - Talk - 2-coding-environment.html\n7:20 pm - Hands-on - lesson_1.py\n8:00 pm - Talk - 3-python-basics.html\n8:20 pm - Hands-on - lesson_2.py\n9:00 pm - Talk - 4-python-basics.html\n9:10 pm - Hands-on - lesson_3.py\n9:55 pm - Talk - 5-session-close.html\n10:00 pm - Close"
   },
   {
     "objectID": "learn/learn-python/module-0/tutor-notes.html#first-hour",
@@ -1775,14 +1775,14 @@
     "href": "tickets/index.html",
     "title": "Let’s Do Digital Events",
     "section": "",
-    "text": "Programming in Healthcare - Module 0 - evening"
+    "text": "Digital Clinical Safety Platform (DCSP) webinar"
   },
   {
     "objectID": "tickets/index.html#previous-events",
     "href": "tickets/index.html#previous-events",
     "title": "Let’s Do Digital Events",
     "section": "Previous events",
-    "text": "Previous events\n\nJuly 2022\nJuly 2022 Quarterly meeting\n\n\nOctober 2022\nOctober 2022 Quarterly meeting\n\n\n13th June 2024\nAsk a Clinician - Insights from a medic\n\n\n27th June 2024\nProgramming in Healthcare - Module 1\n\n\n3rd July 2024\nProgramming in Healthcare - Module 1- Evening course\n\n\n16th of July 2024\nFrontline Insights - Streamlining sleep services and automating outpatient clinic preparation\n\n\n25th July 2024\nAsk a Clinician - Insights from a vascular surgeon\n\n\n1st August 2024\nAsk a Clinician - Insights from a CCIO and pharmacist\n\n\n22nd August 2024\nProgramming in Healthcare - Module 2\n\n\n29th August 2024\nProgramming in Healthcare - Module 0\n\n\n5th September 2024\nAsk someone in digital - Confidentiality, Trust and Usability - Are we ready to erode patient trust for streamlined digital health care?"
+    "text": "Previous events\n\nJuly 2022\nJuly 2022 Quarterly meeting\n\n\nOctober 2022\nOctober 2022 Quarterly meeting\n\n\n13th June 2024\nAsk a Clinician - Insights from a medic\n\n\n27th June 2024\nProgramming in Healthcare - Module 1\n\n\n3rd July 2024\nProgramming in Healthcare - Module 1- Evening course\n\n\n16th of July 2024\nFrontline Insights - Streamlining sleep services and automating outpatient clinic preparation\n\n\n25th July 2024\nAsk a Clinician - Insights from a vascular surgeon\n\n\n1st August 2024\nAsk a Clinician - Insights from a CCIO and pharmacist\n\n\n22nd August 2024\nProgramming in Healthcare - Module 2\n\n\n29th August 2024\nProgramming in Healthcare - Module 0\n\n\n5th September 2024\nAsk someone in digital - Confidentiality, Trust and Usability - Are we ready to erode patient trust for streamlined digital health care?\n\n\n11th September 2024\nProgramming in Healthcare - Module 0 - evening"
   },
   {
     "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html",
@@ -2583,18 +2583,11 @@
     "text": "Using both types of quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'"
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#f-strings",
-    "href": "learn/learn-python/module-0/3-python-basics.html#f-strings",
-    "title": "Python basics - 1st slide deck",
-    "section": "f-strings",
-    "text": "f-strings\n\nUseful to know\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is: { age }\")\n\nOutput\n    The patient's age is: 25"
-  },
-  {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#add-strings-together",
     "href": "learn/learn-python/module-0/3-python-basics.html#add-strings-together",
     "title": "Python basics - 1st slide deck",
     "section": "Add strings together",
-    "text": "Add strings together\n\nOr you can add strings together like this\nNote, you cannot add an integer to a string in python\n\n\n\nadding_strings.py\n\nage = \"25\"\nprint(\"The patient's age is: \" +  age)\n\nOutput\n    The patient's age is: 25"
+    "text": "Add strings together\n\nYou can add strings together as below\nNote, you cannot add an integer to a string in python\n\n\n\nadding_strings.py\n\nage = \"25\"\nprint(\"The patient's age is: \" +  age)\n\nOutput\n    The patient's age is: 25"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#use-a-comma",
@@ -2602,6 +2595,13 @@
     "title": "Python basics - 1st slide deck",
     "section": "Use a comma",
     "text": "Use a comma\n\nOr you can use as separate arguments\n\n\n\nusing_commas.py\n\nage = 25\nprint(\"The patient's age is:\",  age)\n\nOutput\n    The patient's age is: 25\n\nNote, the print statement when used like this adds a space between the arguments in the print out."
+  },
+  {
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#f-strings",
+    "href": "learn/learn-python/module-0/3-python-basics.html#f-strings",
+    "title": "Python basics - 1st slide deck",
+    "section": "f-strings",
+    "text": "f-strings\n\nA more advanced, but powerful method.\n\n\n\nf_string.py\n\nage = 25\nprint(f\"The patient's age is: { age }\")\n\nOutput\n    The patient's age is: 25"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#indentation",
@@ -2702,11 +2702,11 @@
     "text": "More advanced operators\n\nMembership: in   not in\n\n\n\nmembership.py\n\n    a_list = [1,2,3,4,5]\n\n    if 2 in a_list:\n        print(\"Yes, 2 is in the list\")\n\nOutput\n    Yes, 2 is in the list"
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#functions-and-methods",
-    "href": "learn/learn-python/module-0/3-python-basics.html#functions-and-methods",
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#functions",
+    "href": "learn/learn-python/module-0/3-python-basics.html#functions",
     "title": "Python basics - 1st slide deck",
-    "section": "Functions (and methods)",
-    "text": "Functions (and methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular (code can be reused).\nPart of the DRY (don't repeat yourself) philosophy."
+    "section": "Functions",
+    "text": "Functions\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular (code can be reused).\nPart of the DRY (don't repeat yourself) philosophy."
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function",
@@ -3000,7 +3000,7 @@
     "href": "learn/learn-python/module-0/4-python-basics.html#colons",
     "title": "Python basics - 2nd slide deck",
     "section": "Colons",
-    "text": "Colons\n\nThe same goes for functions, methods and classes\n\n\n\nmore_colons.py\n\ndef i_am_a_function():\n    print(\"hello\")\n    return"
+    "text": "Colons\n\nThe same goes for functions.\n\n\n\nmore_colons.py\n\ndef i_am_a_function():\n    print(\"hello\")\n    return"
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#indexing-lists",
@@ -3017,11 +3017,11 @@
     "text": "Dictionary lookup\n\nYou can get a value from a dictionary by providing it with the key you want to look up.\n\n\n\nindexing.py\n\na_dictionary = {\"key 1\": 11, \"key 2\": 76}\n\nprint(a_dictionary[\"key 1\"])\n\nOutput\n    11"
   },
   {
-    "objectID": "learn/learn-python/module-0/4-python-basics.html#functions-and-methods",
-    "href": "learn/learn-python/module-0/4-python-basics.html#functions-and-methods",
+    "objectID": "learn/learn-python/module-0/4-python-basics.html#functions",
+    "href": "learn/learn-python/module-0/4-python-basics.html#functions",
     "title": "Python basics - 2nd slide deck",
-    "section": "Functions (and methods)",
-    "text": "Functions (and methods)\n\nBlocks of reusable code that perform a specific task.\nHelp in organising code and making it more modular.\nPart of the DRY (don't repeat yourself) philosophy.\nA method is just a function, used within a class (a higher organisational entity in python).\nA function:\n\nTakes zero or more input values,\nUndertakes some process, and\nReturns zero or more output values."
+    "section": "Functions",
+    "text": "Functions\n\nReusable organised code. DRY\nA function:\n\nTakes zero or more input values,\nUndertakes some process, and\nReturns zero or more output values."
   },
   {
     "objectID": "learn/learn-python/module-0/4-python-basics.html#anatomy-of-a-function",
@@ -4155,7 +4155,14 @@
     "href": "dcsa/index.html#plan",
     "title": "Digital Clinical Safety Platform",
     "section": "Plan",
-    "text": "Plan\n\nIntroductions (done)\nCurrent Process\nCookiecutter DCB0129\nHazards logging in code\nThe Digital Clinical Safety Platform\nFeedback from a user - Dean Mawson\nQuestions and Answers"
+    "text": "Plan\n\nIntroductions (done)\nCurrent Process\nCookiecutter DCB0129\nHazards logging in code\nHazard types\nThe Digital Clinical Safety Platform\nFeedback from a user - Dean Mawson\nQuestions and Answers"
+  },
+  {
+    "objectID": "dcsa/index.html#dcsp",
+    "href": "dcsa/index.html#dcsp",
+    "title": "Digital Clinical Safety Platform",
+    "section": "DCSP",
+    "text": "DCSP"
   },
   {
     "objectID": "dcsa/index.html#clinical-safety-standards",
@@ -4169,7 +4176,7 @@
     "href": "dcsa/index.html#a-mixture-of-everyday-office-softwares",
     "title": "Digital Clinical Safety Platform",
     "section": "A mixture of everyday office softwares",
-    "text": "A mixture of everyday office softwares\n\nWord processor, eg NHS-E Clinical risk management system template\nSpreadsheet, eg NHS-E DCB 0129 Compliance Assessment and NHS-E hazard logs\nKanban boards (eg Jira)\nProcess mapping (eg Moqups)\nHome grown systems"
+    "text": "A mixture of everyday office softwares\n\nWord processor, eg NHS-E Clinical risk management system template\nSpreadsheet, eg NHS-E DCB 0129 Compliance Assessment and NHS-E hazard logs\nKanban boards (eg Jira)\nProcess mapping (eg MS Visio, Moqups)\nHome grown systems"
   },
   {
     "objectID": "dcsa/index.html#overview-of-cookiecutter-dcb0129",
@@ -4183,14 +4190,28 @@
     "href": "dcsa/index.html#overview-of-cookiecutter-dcb0129-1",
     "title": "Digital Clinical Safety Platform",
     "section": "Overview of Cookiecutter-DCB0129",
-    "text": "Overview of Cookiecutter-DCB0129\n\nStores safety documentation on GitHub (public or private).\nUses markdown templates to build safety documentations.\nBuilds a static web page of the safety documents.\nThese can be downloaded into a PDF form.\nWebsite served via GitHub Pages.\nAutomatically generate hazard labels via GitHub actions."
+    "text": "Overview of Cookiecutter-DCB0129\n\nStores safety documentation on GitHub (public or private).\nUses markdown templates to build safety documentations.\nProvides placeholders for important repetitive, project specific items."
+  },
+  {
+    "objectID": "dcsa/index.html#overview-of-cookiecutter-dcb0129-2",
+    "href": "dcsa/index.html#overview-of-cookiecutter-dcb0129-2",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Overview of Cookiecutter-DCB0129",
+    "text": "Overview of Cookiecutter-DCB0129\n\nBuilds a static web page of the safety documents.\nThese can be downloaded into a PDF form.\nWebsite served via GitHub Pages.\nAutomatically generate hazard labels via GitHub actions."
+  },
+  {
+    "objectID": "dcsa/index.html#placeholders",
+    "href": "dcsa/index.html#placeholders",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Placeholders",
+    "text": "Placeholders\n---\ntitle: Hazard Log\n---\n\n# {{ project_name }} Hazard Log\n\nIn keeping with our commitment to transparency and openness, our Hazard Log is publicly visible and managed in GitHub using the Issues feature."
   },
   {
     "objectID": "dcsa/index.html#pros-and-cons-of-cookiecutter-dcb0129",
     "href": "dcsa/index.html#pros-and-cons-of-cookiecutter-dcb0129",
     "title": "Digital Clinical Safety Platform",
     "section": "Pros and Cons of Cookiecutter-DCB0129",
-    "text": "Pros and Cons of Cookiecutter-DCB0129\nPros\n\nAutomates a large amount of the documentation process.\nCreates easy to access, open and online documentation.\n\nCons\n\nRequires programming knowledge to setup and change.\nBasic command line interface only."
+    "text": "Pros and Cons of Cookiecutter-DCB0129\nPros\n\nAutomates a large amount of the documentation process.\nCreates easy to access, open and online documentation.\n\nCons\n\nRequires “basic” programming knowledge to setup and modify.\nSetup is via command line interface only."
   },
   {
     "objectID": "dcsa/index.html#terminal-based",
@@ -4203,15 +4224,15 @@
     "objectID": "dcsa/index.html#devsecregops",
     "href": "dcsa/index.html#devsecregops",
     "title": "Digital Clinical Safety Platform",
-    "section": "DevSecRegOps",
-    "text": "DevSecRegOps\nA framework for aiding security and compliance in modern healthcare software development\n\nA dissertation by Joe Channing, May 2023.\nDevelopment-Security-Regulations-Operations Framework.\nTaking DevOps and aligning with security testing and healthcare regulations."
+    "section": "DevSecRegOps:",
+    "text": "DevSecRegOps:\nA framework for aiding security and compliance in modern healthcare software development\n\nA dissertation by Joe Channing, May 2023.\nDevelopment-Security-Regulations-Operations Framework.\nTaking DevOps and aligning with security testing and healthcare regulations.\nDevSRO for short."
   },
   {
-    "objectID": "dcsa/index.html#devsecregops-overview",
-    "href": "dcsa/index.html#devsecregops-overview",
+    "objectID": "dcsa/index.html#devsro-overview",
+    "href": "dcsa/index.html#devsro-overview",
     "title": "Digital Clinical Safety Platform",
-    "section": "DevSecRegOps overview",
-    "text": "DevSecRegOps overview\n\nIntegrating regulatory compliance as part of the continuous integration / continuous deployment workflow.\nEnables compliance to keep up with the fast pace of development seen with DevOps.\nObtain collaboration and integration of software developers in the building of safer software for healthcare.\nHazard logging in code.\nHazards and their mitigations in code are version controlled, which provides a robust audit trail."
+    "section": "DevSRO overview",
+    "text": "DevSRO overview\n\nIntegrating regulatory compliance as part of the continuous integration / continuous deployment workflow.\nEnables compliance to keep up with the fast pace of development seen with DevOps.\nObtain collaboration and integration of software developers in the building of safer software for healthcare.\nHazard logging in code.\nHazards and their mitigations in code are version controlled, which provides a robust audit trail."
   },
   {
     "objectID": "dcsa/index.html#hazard-logging-in-code",
@@ -4221,18 +4242,39 @@
     "text": "Hazard logging in code"
   },
   {
-    "objectID": "dcsa/index.html#cons",
-    "href": "dcsa/index.html#cons",
+    "objectID": "dcsa/index.html#creating-hazard-documentation",
+    "href": "dcsa/index.html#creating-hazard-documentation",
     "title": "Digital Clinical Safety Platform",
-    "section": "Cons",
-    "text": "Cons\n\nSafety officers and those working in close collaboration may need to be able to read code.\nTraining of software developers in clinical risk management.\n\nHowever, this is short term pain for long term gain, as we would ultimately be building better and safer systems."
+    "section": "Creating Hazard Documentation",
+    "text": "Creating Hazard Documentation"
   },
   {
-    "objectID": "dcsa/index.html#standardise-hazards-types",
-    "href": "dcsa/index.html#standardise-hazards-types",
+    "objectID": "dcsa/index.html#devsro-pros",
+    "href": "dcsa/index.html#devsro-pros",
     "title": "Digital Clinical Safety Platform",
-    "section": "Standardise Hazards Types",
-    "text": "Standardise Hazards Types\n\nBased on built-in exceptions (errors) types in Python.\nMost programming languages have exceptions types.\n\nexception KeyError\nexception MemoryError\nexception RuntimeError"
+    "section": "DevSRO Pros",
+    "text": "DevSRO Pros\n\nGreater collaboration of software developers, operations, and security with the clinical safety team.\nAudit trail of hazards and how they are directly mitigated in the code.\nSafer software."
+  },
+  {
+    "objectID": "dcsa/index.html#devsro-cons",
+    "href": "dcsa/index.html#devsro-cons",
+    "title": "Digital Clinical Safety Platform",
+    "section": "DevSRO Cons",
+    "text": "DevSRO Cons\n\nThe code base becomes too wordy if all of the hazard material is only kept in the code itself.\nSafety officers and those working in close collaboration may need to be able to read code.\nTraining of software developers in clinical risk management.\n\nFor the last two points, this is short term pain for long term gain, as we would ultimately be building better and safer systems."
+  },
+  {
+    "objectID": "dcsa/index.html#standardised-hazards-types",
+    "href": "dcsa/index.html#standardised-hazards-types",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Standardised Hazards Types",
+    "text": "Standardised Hazards Types\n\nBased on built-in exceptions (errors) types in Python.\nMost programming languages have exceptions types.\n\nexception KeyError\nexception ValueError\nexception MemoryError\nexception RuntimeError"
+  },
+  {
+    "objectID": "dcsa/index.html#typing-hazards",
+    "href": "dcsa/index.html#typing-hazards",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Typing hazards",
+    "text": "Typing hazards\ndef BMI(self, weight: float, height: float) -&gt; float:\n        \"\"\"Work out BMI from weight\n\n        Calculate the weight of the patient. Uses metric units\n\n        Args:\n            weight (float): weight of the patient in kilograms\n            height (float): height of the patient in meters\n\n        Returns:\n            float: BMI of the patient\n\n        Raises:\n            ValueError: wrong weight range\n            ValueError: wrong height range\n\n        Hazards:\n            WrongPatient (1): The wrong patient\n            WrongDemograhics (2): The wrong patient gender\n        \"\"\""
   },
   {
     "objectID": "dcsa/index.html#possible-hazard-types",
@@ -4330,7 +4372,14 @@
     "href": "dcsa/index.html#overview",
     "title": "Digital Clinical Safety Platform",
     "section": "Overview",
-    "text": "Overview\n\nThe Digital Clinical Safety Alliance was formed to create a new clinical safety documentation system.\nTakes the best of CookieCutter-DCB0129 and DevSecRegOps.\nStreamline and automate safety documentation.\nEasy to use user-interface.\nUse templates.\nAdaptable to any safety standard.\nAudit trail."
+    "text": "Overview\n\nThe Digital Clinical Safety Alliance was formed to create a new clinical safety documentation system.\nTakes the best of CookieCutter-DCB0129 and DevSRO.\nStreamlines and automates safety documentation.\nEasy to use user-interface.\nUse templates.\nAdaptable to any safety standard.\nAudit trail."
+  },
+  {
+    "objectID": "dcsa/index.html#static-and-dynamic",
+    "href": "dcsa/index.html#static-and-dynamic",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Static and Dynamic",
+    "text": "Static and Dynamic\n\nThe dynamic side helps the user create the clinical safety documentation.\nThe static side presents the finalised documents."
   },
   {
     "objectID": "dcsa/index.html#live-demo",
@@ -4344,7 +4393,7 @@
     "href": "dcsa/index.html#over-the-wall",
     "title": "Digital Clinical Safety Platform",
     "section": "Over the wall",
-    "text": "Over the wall\n\nTraditionally, the team that developed an app, the development team, create said app and then ship the app to the operations team, who then in turn prepare the app for use in production.\nThis was very inefficient, as there was a lot of throwing over a bureaucratic wall, back and forth to fix bugs and make production ready."
+    "text": "Over the wall\n\nTraditionally, the team that developed an app, the development team, created said app and then shipped the app to the operations team, who then in turn prepared the app for use in production.\nThis was very inefficient, as there was a lot of throwing over a bureaucratic wall, back and forth to fix bugs and make production ready."
   },
   {
     "objectID": "dcsa/index.html#devops-was-born",
@@ -4358,7 +4407,7 @@
     "href": "dcsa/index.html#healthcare-needs-regulation",
     "title": "Digital Clinical Safety Platform",
     "section": "Healthcare needs regulation",
-    "text": "Healthcare needs regulation\n\nAs healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:\n\nDevSecRegOps"
+    "text": "Healthcare needs regulation\n\nAs healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:\n\nDevSRO"
   },
   {
     "objectID": "dcsa/index.html#the-full-stack",
@@ -4382,11 +4431,11 @@
     "text": "CI/CD pipeline\n\nGit version control\nGitHub and GitHub Actions\nNon-main branch testing followed by main branch push to production\nBlack and djLint Linters\nBandit security checker\nMyPy type checking\nPyTest unit & coverage testing\nAutomatic app documentation build\n(Integration testing and further security testing to come)"
   },
   {
-    "objectID": "dcsa/index.html#conclusion",
-    "href": "dcsa/index.html#conclusion",
+    "objectID": "dcsa/index.html#dcsp-conclusion",
+    "href": "dcsa/index.html#dcsp-conclusion",
     "title": "Digital Clinical Safety Platform",
-    "section": "Conclusion",
-    "text": "Conclusion\n\nStreamlined and automated clinical safety documentation\nEasy to use user-interface\nTemplates\nAdaptable to any safety standard\nSafety built in at the code level\nAudit trail"
+    "section": "DCSP Conclusion",
+    "text": "DCSP Conclusion\n\nStreamlined and automated clinical safety documentation\nUser-friendly interface\nTemplates\nAdaptable to any safety standard\nSafety built in at the code level\nAudit trail"
   },
   {
     "objectID": "conferences/2024/agenda.html",
