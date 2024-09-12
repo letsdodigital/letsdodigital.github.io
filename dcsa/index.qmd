@@ -341,10 +341,17 @@ def BMI(self, weight: float, height: float) -> float:
 # The Digital Clinical Safety Platform {background-image="/media/dcsp.png" background-opacity="0.2"}
 
 
-## Overview
+## DCSP Overview
 
 * The **Digital Clinical Safety Alliance** was formed to create a new clinical safety documentation system.
-* **Takes the best** of CookieCutter-DCB0129 and DevSRO.
+* The **Digital Clinical Safety Platform**  (DCSP) **combines the best** of: 
+    * CookieCutter-DCB0129
+    * DevSRO framework
+    * Hazard typing
+
+
+## DCSP Overview
+
 * Streamlines and automates safety documentation.
 * Easy to use user-interface.
 * Use templates.
@@ -352,7 +359,7 @@ def BMI(self, weight: float, height: float) -> float:
 * Audit trail.
 
 
-## Static and dynamic
+## Static and dynamic webpages
 
 * The dynamic side helps the user create the clinical safety documentation.
 * The static side presents the finalised documents.
@@ -381,10 +388,16 @@ def BMI(self, weight: float, height: float) -> float:
 * As healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:
 \
 \
-    **DevSRO**
+   **Dev**elopment-**Sec**urity-**Reg**ulations-**Op**eration Framework
+\
+&nbsp; &#8595; &#8595; &#8595;
+\
+   **DevSRO**
+
+# DCSP - Future features {background-image="/media/road-into-distance.jpg" background-opacity="0.4" background-position="bottom"}
 
 
-# DCSP - Future features
+## DCSP - Future features
 
 * Graphical function to draw and manage hazards of a digital process / system.
 * Anything else people highlight in the Q&A section today.
@@ -392,7 +405,7 @@ def BMI(self, weight: float, height: float) -> float:
 
 ## The full Stack
 
-![](/media/dcsp-stack-overview.png)
+![](/media/dcsp-stack-overview.png){.centre-full-image-drop}
 
 
 ## The full stack {.smaller}
