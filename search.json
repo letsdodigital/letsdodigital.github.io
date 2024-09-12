@@ -4217,8 +4217,8 @@
     "objectID": "dcsa/index.html#pros-and-cons-of-cookiecutter-dcb0129",
     "href": "dcsa/index.html#pros-and-cons-of-cookiecutter-dcb0129",
     "title": "Digital Clinical Safety Platform",
-    "section": "Pros and Cons of Cookiecutter-DCB0129",
-    "text": "Pros and Cons of Cookiecutter-DCB0129\nPros\n\nAutomates a large amount of the documentation process.\nCreates easy to access, open and online documentation.\n\nCons\n\nRequires “basic” programming knowledge to setup and modify.\nSetup is via command line interface only."
+    "section": "Pros and cons of Cookiecutter-DCB0129",
+    "text": "Pros and cons of Cookiecutter-DCB0129\nPros\n\nAutomates a large amount of the documentation process.\nCreates easy to access, open and online documentation.\n\nCons\n\nRequires “basic” programming knowledge to setup and modify.\nSetup is via command line interface only."
   },
   {
     "objectID": "dcsa/index.html#terminal-based",
@@ -4252,29 +4252,29 @@
     "objectID": "dcsa/index.html#creating-hazard-documentation",
     "href": "dcsa/index.html#creating-hazard-documentation",
     "title": "Digital Clinical Safety Platform",
-    "section": "Creating Hazard Documentation",
-    "text": "Creating Hazard Documentation"
+    "section": "Creating hazard documentation",
+    "text": "Creating hazard documentation"
   },
   {
     "objectID": "dcsa/index.html#devsro-pros",
     "href": "dcsa/index.html#devsro-pros",
     "title": "Digital Clinical Safety Platform",
-    "section": "DevSRO Pros",
-    "text": "DevSRO Pros\n\nGreater collaboration of software developers, operations, and security with the clinical safety team.\nAudit trail of hazards and how they are directly mitigated in the code.\nSafer software."
+    "section": "DevSRO pros",
+    "text": "DevSRO pros\n\nGreater collaboration of software developers, operations, and security with the clinical safety team.\nAudit trail of hazards and how they are directly mitigated in the code.\nSafer software."
   },
   {
     "objectID": "dcsa/index.html#devsro-cons",
     "href": "dcsa/index.html#devsro-cons",
     "title": "Digital Clinical Safety Platform",
-    "section": "DevSRO Cons",
-    "text": "DevSRO Cons\n\nThe code base becomes too wordy if all of the hazard material is only kept in the code itself.\nSafety officers and those working in close collaboration may need to be able to read code.\nTraining of software developers in clinical risk management.\n\nFor the last two points, this is short term pain for long term gain, as we would ultimately be building better and safer systems."
+    "section": "DevSRO cons",
+    "text": "DevSRO cons\n\nThe code base becomes too wordy if all of the hazard material is only kept in the code itself.\nSafety officers and those working in close collaboration may need to be able to read code.\nTraining of software developers in clinical risk management.\n\nFor the last two points, this is short term pain for long term gain, as we would ultimately be building better and safer systems."
   },
   {
     "objectID": "dcsa/index.html#standardised-hazards-types",
     "href": "dcsa/index.html#standardised-hazards-types",
     "title": "Digital Clinical Safety Platform",
-    "section": "Standardised Hazards Types",
-    "text": "Standardised Hazards Types\n\nBased on built-in exceptions (errors) types in Python.\nMost programming languages have exceptions types.\n\nexception KeyError\nexception ValueError\nexception MemoryError\nexception RuntimeError"
+    "section": "Standardised hazards types",
+    "text": "Standardised hazards types\n\nBased on built-in exceptions (errors) types in Python.\nMost programming languages have exceptions types.\n\nexception KeyError\nexception ValueError\nexception MemoryError\nexception RuntimeError"
   },
   {
     "objectID": "dcsa/index.html#typing-hazards",
@@ -4287,8 +4287,8 @@
     "objectID": "dcsa/index.html#possible-hazard-types",
     "href": "dcsa/index.html#possible-hazard-types",
     "title": "Digital Clinical Safety Platform",
-    "section": "Possible Hazard Types",
-    "text": "Possible Hazard Types\n\nUp for debate…"
+    "section": "Possible hazard types",
+    "text": "Possible hazard types\n\nUp for debate…"
   },
   {
     "objectID": "dcsa/index.html#patient-demographics-related",
@@ -4385,8 +4385,8 @@
     "objectID": "dcsa/index.html#static-and-dynamic",
     "href": "dcsa/index.html#static-and-dynamic",
     "title": "Digital Clinical Safety Platform",
-    "section": "Static and Dynamic",
-    "text": "Static and Dynamic\n\nThe dynamic side helps the user create the clinical safety documentation.\nThe static side presents the finalised documents."
+    "section": "Static and dynamic",
+    "text": "Static and dynamic\n\nThe dynamic side helps the user create the clinical safety documentation.\nThe static side presents the finalised documents."
   },
   {
     "objectID": "dcsa/index.html#live-demo",
@@ -4420,15 +4420,15 @@
     "objectID": "dcsa/index.html#the-full-stack",
     "href": "dcsa/index.html#the-full-stack",
     "title": "Digital Clinical Safety Platform",
-    "section": "The Full Stack",
-    "text": "The Full Stack"
+    "section": "The full Stack",
+    "text": "The full Stack"
   },
   {
     "objectID": "dcsa/index.html#the-full-stack-1",
     "href": "dcsa/index.html#the-full-stack-1",
     "title": "Digital Clinical Safety Platform",
-    "section": "The Full Stack",
-    "text": "The Full Stack\n\nNGINX reverse proxy server\nGunicorn WSGI HTTP server\nDjango dynamic site framework\nMaterial for MKDocs static site creator\nPython\nJavascript for additional frontend functionality\nContainerisation (Docker)\nCloud service (DigitalOcean)"
+    "section": "The full stack",
+    "text": "The full stack\n\nNGINX reverse proxy server\nGunicorn WSGI HTTP server\nDjango dynamic site framework\nMaterial for MKDocs static site creator\nPython\nJavascript for additional frontend functionality\nContainerisation (Docker)\nCloud service (DigitalOcean)"
   },
   {
     "objectID": "dcsa/index.html#cicd-pipeline",
@@ -4441,8 +4441,8 @@
     "objectID": "dcsa/index.html#dcsp-conclusion",
     "href": "dcsa/index.html#dcsp-conclusion",
     "title": "Digital Clinical Safety Platform",
-    "section": "DCSP Conclusion",
-    "text": "DCSP Conclusion\n\nStreamlined and automated clinical safety documentation\nUser-friendly interface\nTemplates\nAdaptable to any safety standard\nSafety built in at the code level\nAudit trail"
+    "section": "DCSP conclusion",
+    "text": "DCSP conclusion\n\nStreamlined and automated clinical safety documentation\nUser-friendly interface\nTemplates\nAdaptable to any safety standard\nSafety built in at the code level\nAudit trail"
   },
   {
     "objectID": "conferences/2024/agenda.html",
