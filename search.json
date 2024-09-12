@@ -4375,18 +4375,25 @@
     "text": "Miscellaneous\n\nDuplicate\nIncomplete\nGeneralHazard"
   },
   {
-    "objectID": "dcsa/index.html#overview",
-    "href": "dcsa/index.html#overview",
+    "objectID": "dcsa/index.html#dcsp-overview",
+    "href": "dcsa/index.html#dcsp-overview",
     "title": "Digital Clinical Safety Platform",
-    "section": "Overview",
-    "text": "Overview\n\nThe Digital Clinical Safety Alliance was formed to create a new clinical safety documentation system.\nTakes the best of CookieCutter-DCB0129 and DevSRO.\nStreamlines and automates safety documentation.\nEasy to use user-interface.\nUse templates.\nAdaptable to any safety standard.\nAudit trail."
+    "section": "DCSP Overview",
+    "text": "DCSP Overview\n\nThe Digital Clinical Safety Alliance was formed to create a new clinical safety documentation system.\nThe Digital Clinical Safety Platform (DCSP) combines the best of:\n\nCookieCutter-DCB0129\nDevSRO framework\nHazard typing"
   },
   {
-    "objectID": "dcsa/index.html#static-and-dynamic",
-    "href": "dcsa/index.html#static-and-dynamic",
+    "objectID": "dcsa/index.html#dcsp-overview-1",
+    "href": "dcsa/index.html#dcsp-overview-1",
     "title": "Digital Clinical Safety Platform",
-    "section": "Static and dynamic",
-    "text": "Static and dynamic\n\nThe dynamic side helps the user create the clinical safety documentation.\nThe static side presents the finalised documents."
+    "section": "DCSP Overview",
+    "text": "DCSP Overview\n\nStreamlines and automates safety documentation.\nEasy to use user-interface.\nUse templates.\nAdaptable to any safety standard.\nAudit trail."
+  },
+  {
+    "objectID": "dcsa/index.html#static-and-dynamic-webpages",
+    "href": "dcsa/index.html#static-and-dynamic-webpages",
+    "title": "Digital Clinical Safety Platform",
+    "section": "Static and dynamic webpages",
+    "text": "Static and dynamic webpages\n\nThe dynamic side helps the user create the clinical safety documentation.\nThe static side presents the finalised documents."
   },
   {
     "objectID": "dcsa/index.html#live-demo",
@@ -4414,7 +4421,14 @@
     "href": "dcsa/index.html#healthcare-needs-regulation",
     "title": "Digital Clinical Safety Platform",
     "section": "Healthcare needs regulation",
-    "text": "Healthcare needs regulation\n\nAs healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:\n\nDevSRO"
+    "text": "Healthcare needs regulation\n\nAs healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:\n\nDevelopment-Security-Regulations-Operation Framework\n  ↓ ↓ ↓\nDevSRO"
+  },
+  {
+    "objectID": "dcsa/index.html#dcsp---future-features-1",
+    "href": "dcsa/index.html#dcsp---future-features-1",
+    "title": "Digital Clinical Safety Platform",
+    "section": "DCSP - Future features",
+    "text": "DCSP - Future features\n\nGraphical function to draw and manage hazards of a digital process / system.\nAnything else people highlight in the Q&A section today."
   },
   {
     "objectID": "dcsa/index.html#the-full-stack",
