@@ -85,9 +85,15 @@ title-slide-attributes:
 * Current Process
 * Cookiecutter DCB0129
 * Hazards logging in code
+* Hazard types
 * The Digital Clinical Safety Platform
 * Feedback from a user - Dean Mawson
 * Questions and Answers
+
+## DCSP
+
+![](/media/dcsp-screenshot.png){alt="Screenshot of the DCSP"}
+
 
 # Current Clinical Safety Documentation {background-image="/media/clinical-safety-hazard-log.jpeg" background-opacity="0.2" background-position="top"}
 
@@ -104,8 +110,10 @@ title-slide-attributes:
 NHS-E Clinical risk management system template](https://digital.nhs.uk/services/clinical-safety/documentation#:~:text=Clinical%20risk%20management%20system,DOCX%2068%20KB)
 * Spreadsheet, eg [NHS-E DCB 0129 Compliance Assessment](https://digital.nhs.uk/binaries/content/assets/website-assets/data-and-information/information-standards/standards-and-collections/dcb-0129-compliance-assessment-v5.0.xlsx) and [NHS-E hazard logs](https://digital.nhs.uk/binaries/content/assets/website-assets/services/clinical-safety/clinical_safety_hazard_log_template.xlsx)
 * Kanban boards (eg Jira)
-* Process mapping (eg Moqups)
+* Process mapping (eg MS Visio, Moqups)
 * Home grown systems
+
+# And what advancements on the above are there?
 
 
 # Cookiecutter DCB0129 {background-image="/media/cookie-cutter.jpg" background-opacity="0.2"}
@@ -123,11 +131,28 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 
 * Stores safety documentation on **GitHub** (public or private).
 * Uses **markdown templates** to build safety documentations.
+* Provides **placeholders** for important repetitive, project specific items.
+
+
+## Overview of Cookiecutter-DCB0129
+
 * Builds a **static web page** of the safety documents.
 * These can be *downloaded* into a PDF form.
 * Website served via **GitHub Pages**.
 * Automatically generate **hazard labels** via GitHub actions.
 
+
+## Placeholders
+
+```
+---
+title: Hazard Log
+---
+
+# {{ project_name }} Hazard Log
+
+In keeping with our commitment to transparency and openness, our Hazard Log is publicly visible and managed in GitHub using the Issues feature.
+```
 
 ## Pros and Cons of Cookiecutter-DCB0129
 
@@ -138,8 +163,8 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 
 **Cons**
 
-* Requires programming knowledge to setup and change.
-* Basic command line interface only.
+* Requires "basic" programming knowledge to setup and modify.
+* Setup is via command line interface only.
 
 
 ## Terminal based 
@@ -150,15 +175,16 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 # Hazards logging in code {background-image="/media/php-code.jpg" background-opacity="0.2"}
 
 
-## DevSecRegOps
+## DevSecRegOps:
 
 **A framework for aiding security and compliance in modern healthcare software development**
 
 * A dissertation by Joe Channing, May 2023.
 * **Dev**elopment-**Sec**urity-**Reg**ulations-**Op**eration**s** Framework.
 * Taking DevOps and aligning with security testing and healthcare regulations.
+* **DevSRO** for short.
 
-## DevSecRegOps overview
+## DevSRO overview
 
 * **Integrating** regulatory compliance as part of the c**ontinuous integration / continuous deployment** workflow.
 * Enables compliance to **keep up** with the fast pace of development seen with DevOps.
@@ -168,29 +194,69 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 
 ## Hazard logging in code
 
-![](/media/hazard-logging-in-code.png){.centre-full-image-drop}
+![](/media/hazard-logging-in-code.png){.centre-full-image-drop alt="Hazards written in teh docstring of a function"}
 
-## Cons
 
+## Creating Hazard Documentation
+
+![](/media/hazard-output.png){alt="Output from hazard code in a tabular format"}
+
+## DevSRO Pros
+
+* Greater collaboration of software developers, operations, and security with the clinical safety team.
+* Audit trail of hazards and how they are directly mitigated in the code.
+* Safer software.
+
+## DevSRO Cons
+
+* The code base becomes too wordy if all of the hazard material is only kept in the code itself.
 * Safety officers and those working in close collaboration may need to be able to read code.
 * Training of software developers in clinical risk management.
 
-**However, this is short term pain for long term gain, as we would ultimately be building better and safer systems.**
+**For the last two points, this is short term pain for long term gain, as we would ultimately be building better and safer systems.**
 
 
 # Hazard Types in Code {background-image="/media/danger-strong-current.jpg" background-opacity="0.2"}
 
 
-## Standardise Hazards Types
+## Standardised Hazards Types
 
 * Based on built-in exceptions (errors) types in Python.
 * Most programming languages have exceptions types.
 
 *exception* **KeyError**
 
+*exception* **ValueError**
+
 *exception* **MemoryError**
 
 *exception* **RuntimeError**
+
+
+## Typing hazards
+
+```{.python}
+def BMI(self, weight: float, height: float) -> float:
+        """Work out BMI from weight
+
+        Calculate the weight of the patient. Uses metric units
+
+        Args:
+            weight (float): weight of the patient in kilograms
+            height (float): height of the patient in meters
+
+        Returns:
+            float: BMI of the patient
+
+        Raises:
+            ValueError: wrong weight range
+            ValueError: wrong height range
+
+        Hazards:
+            WrongPatient (1): The wrong patient
+            WrongDemograhics (2): The wrong patient gender
+        """
+```
 
 ## Possible Hazard Types
 
@@ -272,12 +338,18 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 ## Overview
 
 * The **Digital Clinical Safety Alliance** was formed to create a new clinical safety documentation system.
-* **Takes the best** of CookieCutter-DCB0129 and DevSecRegOps.
-* Streamline and automate safety documentation.
+* **Takes the best** of CookieCutter-DCB0129 and DevSRO.
+* Streamlines and automates safety documentation.
 * Easy to use user-interface.
 * Use templates.
 * Adaptable to any safety standard.
 * Audit trail.
+
+
+## Static and Dynamic
+
+* The dynamic side helps the user create the clinical safety documentation.
+* The static side presents the finalised documents.
 
 
 ## Live demo {background-image="/media/large-screen-presentation-conference.jpg" background-opacity="0.6" background-position="bottom"}
@@ -288,7 +360,7 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 
 ## Over the wall {background-image="/media/wall-climbing.jpg" background-opacity="0.2" background-position="top"}
 
-* Traditionally, the team that developed an app, the **development** team, create said app and then ship the app to the **operations** team, who then in turn prepare the app for use in production.
+* Traditionally, the team that developed an app, the **development** team, created said app and then shipped the app to the **operations** team, who then in turn prepared the app for use in production.
 * This was very inefficient, as there was a lot of **throwing over a bureaucratic wall**, back and forth to fix bugs and make production ready.
 
 
@@ -303,13 +375,10 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 * As healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:
 \
 \
-    **DevSecRegOps**
+    **DevSRO**
 
 
-# Show Hazards logging in code
-
-
-# Future features
+# DCSP - Future features
 
 * Graphical function to draw and manage hazards of a digital process / system.
 * Anything else people highlight in the Q&A section today.
@@ -347,10 +416,10 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 # Feedback from Dean Mawson {background-image="/media/industrial-inspector.jpg" background-opacity="0.4" background-position="bottom"}
 
 
-## Conclusion
+## DCSP Conclusion {background-image="/media/dcsp.png" background-opacity="0.2"}
 
 * Streamlined and automated clinical safety documentation
-* Easy to use user-interface
+* User-friendly interface
 * Templates
 * Adaptable to any safety standard
 * Safety built in at the code level
@@ -358,5 +427,6 @@ https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 
 # Questions and Answers {background-image="/media/question-mark-on-book.jpg" background-opacity="0.5"}
 
+[dcsp.information@gmail.com](mailto:dcsp.information@gmail.com)
 
 

@@ -40,7 +40,7 @@ End 10pm
 
 9:10 pm - Hands-on - lesson_3.py
 
-9:50 pm - Talk - 5-session-close.html
+9:55 pm - Talk - 5-session-close.html
 
 10:00 pm - Close
 

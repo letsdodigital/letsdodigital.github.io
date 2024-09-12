@@ -145,7 +145,7 @@ while count <= 5:
 
 ## Colons
 
-* The same goes for **functions**, **methods** and **classes**
+* The same goes for **functions**.
 
 ```{.python filename="more_colons.py"}
 def i_am_a_function():
@@ -182,12 +182,9 @@ Output
 
         11
 
-## Functions (and methods) {background-image="/media/box.jpg" background-opacity="0.4"}
+## Functions {background-image="/media/box.jpg" background-opacity="0.4"}
 
-* Blocks of reusable code that perform a specific task. 
-* Help in organising code and making it more modular.
-* Part of the `DRY` (`don't repeat yourself`) philosophy.
-* A `method` is just a function, used within a class (a higher organisational entity in python).
+* Reusable organised code. DRY
 * A function:
     1. Takes zero or more input values,
     2. Undertakes some process, and

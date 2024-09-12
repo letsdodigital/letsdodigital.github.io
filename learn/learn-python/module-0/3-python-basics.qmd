@@ -261,22 +261,9 @@ variable_a = "I want to highlight 'this' word"
 variable_b = 'I would like to show you "this"'
 ```
 
-## f-strings
-
-* Useful to know
-
-```{.python filename="f_string.py"}
-age = 25
-print(f"The patient's age is: { age }")
-```
-
-Output
-
-        The patient's age is: 25
-
 ## Add strings together
 
-* Or you can add strings together like this
+* You can add strings together as below
 * Note, you cannot **add** an integer to a string in python
 
 ```{.python filename="adding_strings.py"}
@@ -303,6 +290,21 @@ Output
         The patient's age is: 25
 
 * Note, the print statement when used like this adds a space between the arguments in the print out.
+
+
+## f-strings
+
+* A more advanced, but powerful method.
+
+```{.python filename="f_string.py"}
+age = 25
+print(f"The patient's age is: { age }")
+```
+
+Output
+
+        The patient's age is: 25
+        
 
 ## Indentation {background-image="/media/steps-and-child.jpg" background-opacity="0.4"}
 
@@ -460,7 +462,7 @@ Output
         Yes, 2 is in the list
 
 
-## Functions (and methods) {background-image="/media/box.jpg" background-opacity="0.4"}
+## Functions {background-image="/media/box.jpg" background-opacity="0.4"}
 
 * Blocks of reusable code that perform a specific task. 
 * Help in organising code and making it more modular (code can be reused).

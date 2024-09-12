@@ -3,12 +3,6 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
-
-### 11th September 2024
-
-[{{< var coding-series-title >}} - Module 0 - evening](programming-in-healthcare/module-0-11-09-24.qmd)
-
-
 ### 12th September 2024
 
 [Digital Clinical Safety Platform (DCSP) webinar](dcsa/1.qmd)
@@ -82,6 +76,12 @@ image: /media/tickets.png
 
 [{{< var coding-series-title >}} - Module 0](programming-in-healthcare/module-0-29-08-24.qmd)
 
+
 ### 5th September 2024
 
 [{{< var ask-someone-in-digital >}} - {{< var asid-1 >}}](ask-someone-in-digital/1.qmd)
+
+
+### 11th September 2024
+
+[{{< var coding-series-title >}} - Module 0 - evening](programming-in-healthcare/module-0-11-09-24.qmd)
