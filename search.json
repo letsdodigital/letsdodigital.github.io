@@ -4431,15 +4431,15 @@
     "text": "DCSP - Future features\n\nGraphical function to draw and manage hazards of a digital process / system.\nAnything else people highlight in the Q&A section today."
   },
   {
-    "objectID": "dcsa/index.html#the-full-stack",
-    "href": "dcsa/index.html#the-full-stack",
+    "objectID": "dcsa/index.html#the-full-stack-1",
+    "href": "dcsa/index.html#the-full-stack-1",
     "title": "Digital Clinical Safety Platform",
     "section": "The full Stack",
     "text": "The full Stack"
   },
   {
-    "objectID": "dcsa/index.html#the-full-stack-1",
-    "href": "dcsa/index.html#the-full-stack-1",
+    "objectID": "dcsa/index.html#the-full-stack-2",
+    "href": "dcsa/index.html#the-full-stack-2",
     "title": "Digital Clinical Safety Platform",
     "section": "The full stack",
     "text": "The full stack\n\nNGINX reverse proxy server\nGunicorn WSGI HTTP server\nDjango dynamic site framework\nMaterial for MKDocs static site creator\nPython\nJavascript for additional frontend functionality\nContainerisation (Docker)\nCloud service (DigitalOcean)"
