@@ -158,7 +158,7 @@ title: Hazard Log
 In keeping with our commitment to transparency and openness, our Hazard Log is publicly visible and managed in GitHub using the Issues feature.
 ```
 
-## Pros and Cons of Cookiecutter-DCB0129
+## Pros and cons of Cookiecutter-DCB0129
 
 **Pros**
 
@@ -188,6 +188,7 @@ In keeping with our commitment to transparency and openness, our Hazard Log is p
 * Taking DevOps and aligning with security testing and healthcare regulations.
 * **DevSRO** for short.
 
+
 ## DevSRO overview
 
 * **Integrating** regulatory compliance as part of the c**ontinuous integration / continuous deployment** workflow.
@@ -196,22 +197,23 @@ In keeping with our commitment to transparency and openness, our Hazard Log is p
 * Hazard logging in code.
 * Hazards and their mitigations in code are version controlled, which provides a robust **audit trail**.
 
+
 ## Hazard logging in code
 
 ![](/media/hazard-logging-in-code.png){.centre-full-image-drop alt="Hazards written in teh docstring of a function"}
 
 
-## Creating Hazard Documentation
+## Creating hazard documentation
 
 ![](/media/hazard-output.png){alt="Output from hazard code in a tabular format"}
 
-## DevSRO Pros
+## DevSRO pros
 
 * Greater collaboration of software developers, operations, and security with the clinical safety team.
 * Audit trail of hazards and how they are directly mitigated in the code.
 * Safer software.
 
-## DevSRO Cons
+## DevSRO cons
 
 * The code base becomes too wordy if all of the hazard material is only kept in the code itself.
 * Safety officers and those working in close collaboration may need to be able to read code.
@@ -220,10 +222,10 @@ In keeping with our commitment to transparency and openness, our Hazard Log is p
 **For the last two points, this is short term pain for long term gain, as we would ultimately be building better and safer systems.**
 
 
-# Hazard Types in Code {background-image="/media/danger-strong-current.jpg" background-opacity="0.2"}
+# Hazard types in code {background-image="/media/danger-strong-current.jpg" background-opacity="0.2"}
 
 
-## Standardised Hazards Types
+## Standardised hazards types
 
 * Based on built-in exceptions (errors) types in Python.
 * Most programming languages have exceptions types.
@@ -262,7 +264,7 @@ def BMI(self, weight: float, height: float) -> float:
         """
 ```
 
-## Possible Hazard Types
+## Possible hazard types
 
 * Up for debate...
 
@@ -350,7 +352,7 @@ def BMI(self, weight: float, height: float) -> float:
 * Audit trail.
 
 
-## Static and Dynamic
+## Static and dynamic
 
 * The dynamic side helps the user create the clinical safety documentation.
 * The static side presents the finalised documents.
@@ -388,12 +390,12 @@ def BMI(self, weight: float, height: float) -> float:
 * Anything else people highlight in the Q&A section today.
 
 
-## The Full Stack
+## The full Stack
 
 ![](/media/dcsp-stack-overview.png)
 
 
-## The Full Stack {.smaller}
+## The full stack {.smaller}
 
 * NGINX reverse proxy server
 * Gunicorn WSGI HTTP server
@@ -420,7 +422,7 @@ def BMI(self, weight: float, height: float) -> float:
 # Feedback from Dean Mawson {background-image="/media/industrial-inspector.jpg" background-opacity="0.4" background-position="bottom"}
 
 
-## DCSP Conclusion {background-image="/media/dcsp.png" background-opacity="0.2"}
+## DCSP conclusion {background-image="/media/dcsp.png" background-opacity="0.2"}
 
 * Streamlined and automated clinical safety documentation
 * User-friendly interface
@@ -429,8 +431,13 @@ def BMI(self, weight: float, height: float) -> float:
 * Safety built in at the code level
 * Audit trail
 
-# Questions and Answers {background-image="/media/question-mark-on-book.jpg" background-opacity="0.5"}
+# Questions and answers {background-image="/media/question-mark-on-book.jpg" background-opacity="0.5"}
 
 [dcsp.information@gmail.com](mailto:dcsp.information@gmail.com)
+
+
+# Sponsor / support the DCSP {background-image="/media/two-cranes.jpg" background-opacity="0.4"}
+
+dcsp.information@gmail.com
 
 
