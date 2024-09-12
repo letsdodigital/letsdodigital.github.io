@@ -403,6 +403,9 @@ def BMI(self, weight: float, height: float) -> float:
 * Anything else people highlight in the Q&A section today.
 
 
+# The full stack {background-image="/media/stack-of-pancakes.jpg" background-opacity="0.4"}
+
+
 ## The full Stack
 
 ![](/media/dcsp-stack-overview.png){.centre-full-image-drop}
