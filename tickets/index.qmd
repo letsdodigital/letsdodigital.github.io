@@ -4,11 +4,6 @@ image: /media/tickets.png
 ---
 
 
-### 13th September 2024
-
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
-
-
 ### 24th October 2024
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
@@ -86,3 +81,8 @@ image: /media/tickets.png
 ### 12th September 2024
 
 [Digital Clinical Safety Platform (DCSP) webinar](dcsa/1.qmd)
+
+
+### 13th September 2024
+
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
