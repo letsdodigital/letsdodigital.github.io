@@ -32,6 +32,15 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 ## Updates
 
+13/09/24 - See the recent Webinar covering the Digital Clinical Safety Platform, hazard logging in code, hazard typing and DevSecRegOps:
+
+```{=html}
+<div style="display: flex; justify-content: center; align-items: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/xzLJkN9NLeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+```
+
+
 ### LinkedIn post on a new handbook for Health Informatics
 
 ```{=html}
