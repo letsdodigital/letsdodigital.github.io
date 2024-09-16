@@ -1,5 +1,5 @@
 ---
-title: "DAIM - Introduction" # "{{< var dair-seminar-0 >}}"
+title: "DAIM - Overview" # "{{< var dair-seminar-0 >}}"
 author: "{{< var author >}}"
 format: revealjs
 logo: /media/ldd-logo.png
@@ -117,6 +117,12 @@ print(break_time(tired=True))
 * We will be asking for course feedback to allow us to refine the course for further cohorts
 * Please fill this out at the start and end of the course
 * Please include honest feedback!
+
+## Note - Terminology {background-image="/media/bamboo-woods.jpg" background-opacity="0.4"}
+
+* We will be using the term **"programming"** in this course to prevent confusion with:
+  * Clinical coding - SNOMED-CT, ICD-10, etc...
+  * Patients coding - crash trollies, etc...
 
 ## Thank you! {background-image="/media/bamboo-woods.jpg" background-opacity="0.4"}
 

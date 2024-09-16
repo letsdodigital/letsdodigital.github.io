@@ -1,0 +1,157 @@
+---
+title: "Core Python for Image Processing" # "{{< var dair-seminar-0 >}}"
+author: "DAIM - Images - Seminar 2"
+format: revealjs
+logo: /media/ldd-logo.png
+---
+
+## Introduction
+
+* Welcome to the second seminar of the **DAIM - Images** course!
+* This seminar will introduce key concepts for image processing in Python.
+* This will prepare you for the first workshop of the course. 
+
+## Learning outcomes
+
+* Recap general uses of image data in clinical settings
+* Understand the basics of digital image representation
+* Understand what an image transform is
+* Understand overviews of two key Python packages (PIL, NumPy)
+
+## What is meant by image processing?
+
+* This refers to **performing operations** on **an image** to **gain information** from it or improve its usefulness.
+* Digitally, an image is defined as a **2D grid of pixels**.
+    * These **pixels contain values** - we will go over the types of value that they usually contain
+* Remember, concepts that work for 2D images also translate down to 1D and up to 3D (and above!)
+    * This is important for **volumetric scans** (CT, MRI)
+
+## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+* How many clinical uses for images can we list?
+* Consider 3D images as well as conventional 2D images.
+
+## Clinical uses for images
+
+* Radiological applications (plain films, ultrasound)
+* Volumetric imaging (MRI, CT)
+* Medical photography
+* Spectrograms from time-varying signals (e.g. EEG)
+
+#
+:::{.r-stack}
+**Part 1 - How computers represent images**
+:::
+
+## What is a pixel?
+
+* A pixel (picture element) is an element on a grid which can take on different types of values.
+* The simplest value that a pixel can take on is an integer value between 0 and 255. 
+    * These are used for shades of greyscale images
+
+![A greyscale pixel and the values it can take on, from black to white](/media/daim/greyscale_pixels.png)
+
+## Is a greyscale pixel always 0 to 255?
+
+* You will often seen this in floating-point format
+    * The numbers will be divided by 255 -> 0.0 to 1.0
+
+![A greyscale pixel with floating point values, from black to white](/media/daim/greyscale_pixels_float.png)
+
+## How about colour representation?
+
+* Pixels each need **3 values** (channels) to represent colour
+    * Red, green, and blue channels (**RGB**)
+    * The higher the number, the brighter the colour in the mix
+
+![Two different colours with the RGB values needed to generate them](/media/daim/rgb_pixels_decimal.png)
+
+## I've seen letters when describing colours?
+
+* Numbers can also be represented in hexadecimal (base-16)
+    * This assigns letters A-F for numbers 10-15
+
+![Two different colours with their hexadecimal RGB values](/media/daim/rgb_pixels_hexadecimal.png)
+
+## RGB Colour Codes
+
+* Using hexadecimal, colors can be elegantly expressed as strings of 6 letters. 
+    * This is usually preceded by a **hash (#)**
+
+![The same colours with their RGB hex colour codes.](/media/daim/rgb_pixels_hexcode.png)
+
+<!--
+Perhaps mention alpha channels in this section
+-->
+
+## Other colour representations
+
+::: {.panel-tabset}
+
+### Representations
+
+* **Hue, saturation, value (HSV)**
+    * **Hue** - the colour represented
+    * **Saturation** - the intensity of the colour
+    * **Value** - how bright/dark the pixel is
+* **Colourmap**
+    * An **integer value** maps to a **specific colour**
+    * e.g. "17" = purple (`#A520F0`)
+
+### Demos
+
+* [**An interactive site**](https://hslpicker.com/#3fb53b) for getting to grips with HSV representation.
+
+:::
+
+## Image dimensions
+
+* The dimensions determine how many pixels are in an image.
+* In  a colour image, 3 values are needed for each pixel (R, G, and B)
+
+![A small image of a cat with the image's overall shape.](/media/daim/cat_dimension.png){width="60%"}
+
+<!--
+Deliberately introducing this notation early (x,y,channels).
+-->
+
+## 5-minute task {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+* If one byte is used for each colour in the image in the previous slide, calculate how many bytes are needed to store the image.
+* How many bytes would it be for a similar colour image that was `2000 x 2000`?
+
+<!--
+* If one byte is used for each colour in the image of the cat, the total storage needed would be:
+    * `3 * 50 * 57 = 8550 bytes - 8.6kB`
+* This is **already a large size** for a such a tiny image
+* We can combat this with **compression algorithms**
+-->
+
+## Compression
+
+* This is the process of **reducing image storage requirements**
+* There are lots of approaches to this process.
+* These methods can be **lossy** or **lossless**
+
+<!--
+Specific compression algorithms (e.g. DCT) are outside the scope of the course.
+-->
+
+## Lossy versus lossless compression
+
+
+::: {.panel-tabset}
+
+### Representations
+
+* **Lossless** compression indicates that all the data in the original image can be recovered
+* **Lossy** compression will only produce an approximation of the original image 
+* This is an important distinction!
+
+### Demos
+
+![An example of an X-ray [from the dataset that we will use later in the course](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data), with lossless and (extreme) lossy compression](/media/daim/compression_comparison.png){width="70%"}
+
+:::
+
+## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}

@@ -21,13 +21,17 @@ An important point to note is that this is **not** designed as a general coding 
 
 A general overview of the course is provided below:
 
-1. Course Introduction - introduction to aims of the course, overview of emergent technology use in medicine and radiology.
-2. DICOM and Python - opening, processing, and rendering DICOM data with Python. Introduction to core concepts for people unfamiliar with digital image representation (bit depth, Houndsfield units, compression, colour-maps, etc.). *Packages: Pydicom*
-3. Datasets and Python - opening, processing and analysing tabular data in Excel format with medical focus. *Packages: Pandas*
-4. 3D Printing for Medicine - introduction to 3D anatomy segmentation and 3D printing workflows. *Software required: Invesalius*
-5. AI for Medicine Part 1 - using Keras within TensorFlow to build a basic binary chest X-ray classifier. *Packages: Pandas, NumPy, TensorFlow*
-6. AI for Medicine Part 2 - how to statistically evaluate the performance of the chest X-ray classifier on test data, and a broad discussion of other types of AI model. *Packages: Pandas, NumPy, TensorFlow*
-7. Closing Session - Course summary, feedback, and suggestions for future work
+-   The course will be split into the following modules:
+    -   Module 1 - Introduction (no workshop)
+    -   Module 2 - Core Python for Image Processing
+        -   This can be stretched over multiple weeks depending on the skills and level of the people on the course
+    -   Module 3 - Python and DICOM
+        -   This will include the coding skills needed to open and use DICOM files
+        -   The workshop will include a mixture of work to do outside a session and tasks to do within a session with a tutor.
+    -   Module 4 - AI for Medicine
+        -   This will be a set of two or more seminars with a long workbook that will be worked through over multiple weeks
+        -   The work in the workbook will be mostly independent.
+    -   Module 5 - Closing (no workshop)
 
 Each course section, aside from introduction and closing sessions, will have a **seminar** and associated **workshop**. The seminars will aim to:
  
