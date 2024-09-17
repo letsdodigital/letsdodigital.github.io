@@ -5,20 +5,22 @@ format: revealjs
 logo: /media/ldd-logo.png
 ---
 
-## Introduction
+## Introduction {background-image="/media/daim/bg_cubes_red.png" background-opacity="0.6"}
 
 * Welcome to the second seminar of the **DAIM - Images** course!
 * This seminar will introduce key concepts for image processing in Python.
 * This will prepare you for the first workshop of the course. 
 
-## Learning outcomes
+## Learning outcomes {background-image="/media/daim/bg_cubes_green.png" background-opacity="0.6"}
+
 
 * Recap general uses of image data in clinical settings
 * Understand the basics of digital image representation
 * Understand what an image transform is
 * Understand overviews of two key Python packages (PIL, NumPy)
 
-## What is meant by image processing?
+## What is meant by image processing? {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
+
 
 * This refers to **performing operations** on **an image** to **gain information** from it or improve its usefulness.
 * Digitally, an image is defined as a **2D grid of pixels**.
@@ -31,7 +33,7 @@ logo: /media/ldd-logo.png
 * How many clinical uses for images can we list?
 * Consider 3D images as well as conventional 2D images.
 
-## Clinical uses for images
+## Clinical uses for images {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
 
 * Radiological applications (plain films, ultrasound)
 * Volumetric imaging (MRI, CT)
@@ -43,7 +45,7 @@ logo: /media/ldd-logo.png
 **Part 1 - How computers represent images**
 :::
 
-## What is a pixel?
+## What is a pixel? 
 
 * A pixel (picture element) is an element on a grid which can take on different types of values.
 * The simplest value that a pixel can take on is an integer value between 0 and 255. 
@@ -84,26 +86,6 @@ logo: /media/ldd-logo.png
 Perhaps mention alpha channels in this section
 -->
 
-## Other colour representations
-
-::: {.panel-tabset}
-
-### Representations
-
-* **Hue, saturation, value (HSV)**
-    * **Hue** - the colour represented
-    * **Saturation** - the intensity of the colour
-    * **Value** - how bright/dark the pixel is
-* **Colourmap**
-    * An **integer value** maps to a **specific colour**
-    * e.g. "17" = purple (`#A520F0`)
-
-### Demos
-
-* [**An interactive site**](https://hslpicker.com/#3fb53b) for getting to grips with HSV representation.
-
-:::
-
 ## Image dimensions
 
 * The dimensions determine how many pixels are in an image.
@@ -127,7 +109,7 @@ Deliberately introducing this notation early (x,y,channels).
 * We can combat this with **compression algorithms**
 -->
 
-## Compression
+## Compression {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 * This is the process of **reducing image storage requirements**
 * There are lots of approaches to this process.
@@ -137,7 +119,7 @@ Deliberately introducing this notation early (x,y,channels).
 Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 -->
 
-## Lossy versus lossless compression
+## Lossy versus lossless compression {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 
 ::: {.panel-tabset}
