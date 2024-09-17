@@ -1,0 +1,59 @@
+---
+title: "Let's Do Digital Community"
+author: "Mark Bailey"
+format: revealjs
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/ldd-logo.png
+    data-background-opacity: "0.4"
+---
+
+## Who Am I? {background-image="/media/man-on-beach.jpg" background-opacity="0.2"}
+
+* Locum Respiratory Doctor
+* Let's Do Digital Community Lead
+
+
+## Who Am I? {background-image="/media/man-on-beach.jpg" background-opacity="0.2"}
+
+* Previous Interim Chair of Council of the Faculty of Clinical Informatics (FCI)
+* Board member of the NHS PyCom (python community)
+* Masters in Digital Leadership from the NHS Digital Leadership Academy, Imperial College London, UK
+* A Clinician-who-codes / Physician Engineer
+
+## What is Digital Health? {background-image="/media/digital-deconstructed.jpg" background-opacity="0.2"}
+
+* "Clinical informatics is the study of information technology and how it can be applied to the healthcare field."
+
+
+## What do we do at Let's Do Digital? {background-image="/media/scaffolding.jpg" background-opacity="0.2"}
+
+* Coding courses
+* Webinars (with recordings)
+* Conference (Let's Talk Digital, 24th October)
+* Mentoring and tutoring
+* Build great digital healthcare solutions
+
+see [www.letsdodigital.org](www.letsdodigital.org).
+
+
+## Essentials of Health Informatics - a Guide{background-image="/media/open-book.jpg" background-opacity="0.2"}
+
+
+## What is it like to be a digital doctor? {background-image="/media/doctor-cartoon.png" background-opacity="0.2"}
+
+
+## How can you get involved? {background-image="/media/queue-up-spiral-stairs.jpg" background-opacity="0.2"}
+
+
+## Nadia's post {background-image="/media/dinner-party-with-drinks.jpg" background-opacity="0.4"}
+
+* Better Than Nothing: developing a resource to support patient care with no time, resource or money
+
+
+## Questions and answers {background-image="/media/question-mark-on-book.jpg" background-opacity="0.5"}
+
+[mark@letsdodigital.com](mailto:mark@letsdodigital.com)
+
+
+
