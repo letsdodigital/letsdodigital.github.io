@@ -24,6 +24,7 @@ title-slide-attributes:
 ## What is Digital Health? {background-image="/media/digital-deconstructed.jpg" background-opacity="0.2"}
 
 * "Clinical informatics is the study of information technology and how it can be applied to the healthcare field."
+* Who here is involved in Digital Healthcare?
 
 
 ## What do we do at Let's Do Digital? {background-image="/media/scaffolding.jpg" background-opacity="0.2"}
@@ -37,13 +38,42 @@ title-slide-attributes:
 see [www.letsdodigital.org](www.letsdodigital.org).
 
 
-## Essentials of Health Informatics - a Guide{background-image="/media/open-book.jpg" background-opacity="0.2"}
+## Essentials of Health Informatics - a Guide {background-image="/media/book-flicking-pages.jpg" background-opacity="0.2"}
+
+* "Oxford Handbook of Clinical Informatics"
+
+
+## Top ten topics (+ 1) {.smaller}
+
+1. Introduction To Clinical Informatics
+1. Data Standards And Interoperability
+1. Usability And User Experience UX In Health IT
+1. Healthcare IT Infrastructure
+1. Clinical Decision Support Systems (CDSS)
+1. Artificial Intelligence And Machine Learning In Healthcare
+1. Clinical Workflow And Process Improvement
+1. Health Data Analytics
+1. Clinical Informatics Leadership And Governance
+1. Regulatory And Policy Issues In Digital Health
+1. Patient Safety And Quality Improvement
+
+## What topics would you like to see? {background-image="/media/book-flicking-pages.jpg" background-opacity="0.2"}
 
 
 ## What is it like to be a digital doctor? {background-image="/media/doctor-cartoon.png" background-opacity="0.2"}
 
+```{=html}
+<div style="text-align: center; font-size: 3em;">
+    <p>😊</p>
+    <p>😢</p>
+    <p>😠</p>
+    <p>😕</p>
+</div>
+```
 
 ## How can you get involved? {background-image="/media/queue-up-spiral-stairs.jpg" background-opacity="0.2"}
+
+* Join the `Let's Do Digital` Community
 
 
 ## Nadia's post {background-image="/media/dinner-party-with-drinks.jpg" background-opacity="0.4"}
