@@ -5,13 +5,13 @@ format: revealjs
 logo: /media/ldd-logo.png
 ---
 
-## Introduction {background-image="/media/daim/bg_cubes_red.png" background-opacity="0.6"}
+## Introduction {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
 * Welcome to the second seminar of the **DAIM - Images** course!
 * This seminar will introduce key concepts for image processing in Python.
 * This will prepare you for the first workshop of the course. 
 
-## Learning outcomes {background-image="/media/daim/bg_cubes_green.png" background-opacity="0.6"}
+## Learning outcomes {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
 
 * Recap general uses of image data in clinical settings
@@ -137,3 +137,126 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 :::
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
+
+#
+:::{.r-stack}
+**Part 2 - What is convolution?**
+:::
+
+## What is convolution? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* **Convolution** is a **common operation** that is used in data processing
+* It involves **"convolving"** a target image with a **kernel**
+* It can be done in **1D** (signals), **2D** (images), and higher dimensions.
+
+## What does it do to an image? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* The change that convolution has on an image **depends on a kernel**
+* Kernels can be designed to produce **different effects**:
+    * Blurring, sharpening, edge detection, etc.
+
+## What is a kernel? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* A kernel is a small grid of numbers that is used in convolution.
+* The **structure** of the kernel affects the output.
+* An **averaging kernel** is shown below in Python.
+
+```python
+kernel = (1.0 / 9.0) * [
+    [1, 1, 1],
+    [1, 1, 1],
+    [1, 1, 1]
+]
+```
+
+## Examples of convolution {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+::: {.panel-tabset}
+
+### Sharpening
+
+::: {#fig-blur layout-ncol=3}
+
+![Normal](/media/daim/normal_cat.png){#fig-norm}
+
+![Blurred](/media/daim/sharp_cat.png){#fig-blur}
+
+```python
+kernel =[
+    [-1, -1, -1],
+    [-1, 9, -1],
+    [-1, -1, -1]
+]
+```
+
+A comparison of convolving an image of a cat with a sharpening kernel.
+
+:::
+
+### Blurring
+
+::: {#fig-blur layout-ncol=3}
+
+![Normal](/media/daim/normal_cat.png){#fig-norm}
+
+![Blurred](/media/daim/blur_cat.png){#fig-blur}
+
+```python
+kernel = [
+    [1, 2, 1],
+    [2, 4, 2],
+    [1, 2, 1]
+]
+kernel *= 1.0 / 16.0
+```
+
+A comparison of convolving an image of a cat with a blurring kernel (3x3 approximated Gaussian).
+
+:::
+
+### Edge detection
+
+::: {#fig-blur layout-ncol=3}
+
+![Normal](/media/daim/normal_cat.png){#fig-norm}
+
+![Edges](/media/daim/sobel_cat.png){#fig-edge}
+
+```python
+kernel = [
+    [-1, -2, -1],
+    [0, 0, 0],
+    [1, 2 ,1]
+]
+```
+
+A comparison of convolving an image of a cat with a edge detection kernel (Sobel operator) in the y-axis (upwards/downwards) direction.
+
+:::
+
+:::
+
+## Why feature convolution in this course? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* Convolution is a key operation in a **convolutional neural network**, a **well-established deep-learning architecture** for analysing images
+* It is also very versatile and is **used in other areas** (e.g. signal processing)
+
+## 5-minute task or break! {background-image="/media/daim/coffee2.png" background-opacity="0.4"}
+
+* What property do all of the `kernel` variables in the **convolution example slide** share?
+
+<!--
+Find a clinical example of convolution?
+-->
+
+#
+:::{.r-stack}
+**Part 3 - What is PIL?**
+:::
+
+
+#
+:::{.r-stack}
+**Part 4 - What is NumPy?**
+:::
+
