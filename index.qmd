@@ -88,8 +88,10 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 ## Working in collaboration with
 
-| ![](/media/university-of-bristol.svg){width=200 fig-alt="University of Bristol logo"} | ![](/media/mind-the-bleep.png){width=200 fig-alt="Mind the bleep logo"} |
-|:------------------------------------------------------------------------------------:|:---------------------------------------------------------------------:|
+![](/media/university-of-bristol.svg){width=200 fig-alt="University of Bristol logo" class="padded-image"}
+![](/media/mind-the-bleep.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
+![](/media/elzware.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
+
 ## Supporters of Let's Do Digital
 
 ```{=html}
@@ -103,7 +105,8 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 <br>
 <div class="supporter-frame">
     <h3>Healthcare group supporters</h3>
-    <br>
+    <!--Elzware (Phil Hall) 20/09/2024-->
+    <p class="sponsors-named">Elzware</p>
     <p class="italic-grey">If you wish to support us, please follow the Sponsor link in the navigation bar above.</p>
 </div>
 ```
