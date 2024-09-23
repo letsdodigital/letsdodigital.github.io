@@ -3,6 +3,9 @@ title: "Let's Do Digital Events"
 image: /media/tickets.png
 ---
 
+::: {.panel-tabset}
+
+## Current Events
 
 ### 24th October 2024
 
@@ -29,18 +32,18 @@ image: /media/tickets.png
 
 ### 13th June 2024
 
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-1 >}}](ask-a-clinician-1.qmd)
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-1 >}}](ask-a-clinician/1.qmd)
 
 
 ### 27th June 2024
 
-[{{< var coding-series-title >}} - Module 1](programming-in-healthcare-module-1-June-2024.qmd)
+[{{< var coding-series-title >}} - Module 1](programming-in-healthcare/module-1-27-06-2024.qmd)
 
 
 ### 3rd July 2024
 
 
-[{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare-module-1-July-2024.qmd)
+[{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare/module-1-03-07-2024.qmd)
 
 
 ### 16th of July 2024
@@ -55,7 +58,7 @@ image: /media/tickets.png
 
 ### 1st August 2024
 
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-3 >}}](ask-a-clinician-3.qmd)
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-3 >}}](ask-a-clinician/3.qmd)
 
 
 ### 22nd August 2024
@@ -86,3 +89,5 @@ image: /media/tickets.png
 ### 13th September 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
+
+:::
