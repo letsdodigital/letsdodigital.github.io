@@ -2,8 +2,6 @@
 title: "Education"
 ---
 
-Available educational resources include:
-
 ## Coding (programmatic)
 
 There are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.
