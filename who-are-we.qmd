@@ -69,6 +69,22 @@ With a background in mentoring and access work that started at University and co
 
 ---
 
+![](/media/abdelrahman-m-saad.png){height=300px fig-align="center" fig-alt="Profile picture of Remon Hanna"}
+
+### Abdelrahman M. Saad (aka Hadi)
+ 
+My name is Abdelrahman M. Saad and I'm a final-year medical student working in the digital health industry.
+
+It's my pleasure to be a mentor for Let's Do Digital. I call myself "The Geeky Med Student" because I'm always exploring new ways to use my skills in data science and AI, as well as my business acumen, to make healthcare smarter.
+
+Currently, I’m working as a Clinical Informatics Specialist at REAP Holding (digital transformation), a Business Developer at Ebers (digital health and VR), and an R&D Specialist at CellClar (bioinformatics and single-cell genomics).
+
+I have a rich background in training over 30 medical trainees, doctors, and students how to code and build their own AI models, from basic computer science and Python programming to advanced machine learning and deep learning. My journey also involves mentoring research teams on AI-related projects and collaborating with teams from Egypt, the USA, and the UK to help publish research papers that stand out in resumes!! 
+
+Whether through clinical research or my entrepreneurial ventures like GeeksHub and the Radiology Intelligence Club, I’m committed to driving the future of medicine. I’m passionate about using AI, advanced analytics, and digital health solutions to improve patient outcomes and tackle the biggest challenges in the medical field. 
+
+---
+
 \
 
 ![](/media/remon-hanna.png){height=300px fig-align="center" fig-alt="Profile picture of Remon Hanna"}
