@@ -55,8 +55,10 @@ logo: /media/ldd-logo.png
 
 ## Is a greyscale pixel always 0 to 255?
 
-* You will often seen this in floating-point format
+* You will often seen this in **floating-point format**
     * The numbers will be divided by 255 -> 0.0 to 1.0
+* They can also be in **Houndsfield units (HU)**
+    * We will discuss this in Module 3.
 
 ![A greyscale pixel with floating point values, from black to white](/media/daim/greyscale_pixels_float.png)
 
@@ -97,11 +99,6 @@ Perhaps mention alpha channels in this section
 Deliberately introducing this notation early (x,y,channels).
 -->
 
-## 5-minute task {background-image="/media/daim/question1.png" background-opacity="0.4"}
-
-* If one byte is used for each colour in the image in the previous slide, calculate how many bytes are needed to store the image.
-* How many bytes would it be for a similar colour image that was `2000 x 2000`?
-
 <!--
 * If one byte is used for each colour in the image of the cat, the total storage needed would be:
     * `3 * 50 * 57 = 8550 bytes - 8.6kB`
@@ -109,9 +106,9 @@ Deliberately introducing this notation early (x,y,channels).
 * We can combat this with **compression algorithms**
 -->
 
-## Compression {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+## How can we reduce the storage space of an image? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
-* This is the process of **reducing image storage requirements**
+* Compression is the process of **reducing image storage requirements**
 * There are lots of approaches to this process.
 * These methods can be **lossy** or **lossless**
 
@@ -130,7 +127,7 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 * **Lossy** compression will only produce an approximation of the original image 
 * This is an important distinction!
 
-### Demos
+### Example
 
 ![An example of an X-ray [from the dataset that we will use later in the course](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data), with lossless and (extreme) lossy compression](/media/daim/compression_comparison.png){width="70%"}
 
@@ -260,3 +257,39 @@ Find a clinical example of convolution?
 **Part 4 - What is NumPy?**
 :::
 
+## NumPy
+
+* NumPy is a Python package
+
+## How does array shape work?
+
+* Arrays can be visualised as rectangular shapes of boxes, depicting the array elements
+
+![Visualisations of the shape of some example NumPy arrays](/media/daim/np_shape_1.png){width="70%"}
+
+## Similar shapes
+
+* These shapes are the same, but the dimensions are structured differently, making the data incompatible for some operations
+
+![Visualisation of the same data with different dimension structure](/media/daim/np_shape_2.png){width="70%"}
+
+## How does this relate to images?
+
+::: {.panel-tabset}
+
+### Explanation
+
+* Collections of images are often represented as NumPy arrays
+* This is the input data format for many machine learning models
+    * Data must be preprocessed into this format before training and testing
+* The shapes of these arrays can be confusing.
+
+### Example
+
+![Visualisation of a NumPy array of cat images with the same resolution with its shape. Note the colour channels.](/media/daim/np_shape_cat.png){width="40%"}
+
+:::
+
+## Thank you! {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+Any questions?

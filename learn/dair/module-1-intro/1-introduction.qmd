@@ -5,14 +5,14 @@ format: revealjs
 logo: /media/ldd-logo.png
 ---
 
-## Introduction {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Introduction {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Welcome to the first seminar of the **Data Analytics in Medicine (DAIM) - Images** course!
 * Today, we will be discussing:
     * The clinical benefits of **learning to work with images**
     * **Programming resources** that you can use throughout the course
 
-## Why programming in medicine? {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Why programming in medicine? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 <!--
 References 
@@ -25,7 +25,7 @@ https://www.nature.com/articles/s41591-021-01614-0
 * **"The usefulness of human–AI collaboration will likely depend on the specifics of the task and the clinical context."** - "AI in health and medicine", in *Nature*
 * Clinicians will be, and should be, **leading the deployment** of these technologies
 
-## Why programming in medicine? {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## Why programming in medicine? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 <!--
 References
@@ -40,14 +40,14 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
 * Most **translational bioengineering** or **informatics** research will use some degree of programming in **Python, MatLab, or R**
 * This skills allows for some degree of work across **clinical** settings and **academia**
 
-## 5-minute open discussion {background-image="/media/daim/bg1.png" background-opacity="0.4"}
+## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
 
 * What is the **top reason** that doctors should learn to program?
 * What are the **disadvantages** of programming for doctors?
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
-## Python Environments
+## Python Environments {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * We will be using **Google Colab** for the workshops of DAIM - Images.
 * Google Colab uses **Jupyter Notebooks** to run Python code
@@ -71,19 +71,19 @@ TODO Use marked-up screenshot of first workshop
 
 ![](/media/daim/colab_cells.png)
 
-## Trying out Google Colab
+## Trying out Google Colab {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * We would recommend testing out Google Colab before the first workshop.
 * The default notebook from Google can be found [here](https://colab.research.google.com/).
 
-## Resources to use  {background-image="/media/python-scales.jpg" background-opacity="0.6" text-align=center}
+## Resources to use  {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * There are multiple resources that programmers often use when trying to solve a particular problem
     * **Code documentation** - reliable and accurate
     * **StackOverflow** - real-world solutions with explanations
     * **Github** - Talk with the developers
 
-## Code documentation {background-image="/media/python-scales.jpg" background-opacity="0.6" text-align=center}
+## Code documentation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Documentation contains information about how to use the code in a library.
 * It should be the first place you go if you **don't understand** how to use a function/class.
@@ -110,7 +110,7 @@ Maybe mention the difference between function and method here.
 
 ![**[A StackOverflow question](https://stackoverflow.com/questions/231767/what-does-the-yield-keyword-do-in-python)** about the `yield` keyword in Python.](/media/daim/stackoverflow_yield.png)
 
-## Github {background-image="/media/python-scales.jpg" background-opacity="0.6" text-align=center}
+## Github{background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * A site where code is developed and hosted
 * Built around **Git repositories**
@@ -129,19 +129,20 @@ Maybe mention the difference between function and method here.
 
 ## Break and Questions! {background-image="/media/daim/coffee2.png" background-opacity="0.6" text-align=center}
 
-## Clinical Considerations {background-image="/media/daim/bg3.png" background-opacity="0.4"}
+## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
 
 * Some data is easier for computers to process than others.
 * How can we make clinical data easier to work with?
 
-## Clinical Considerations {background-image="/media/daim/bg3.png" background-opacity="0.4"}
+## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Standardised data formats
     * This allows for **interoperatibility** between systems and **facilitates research**
     * **DICOM** is a successful example of this.
     * We will be discussing **DICOM** in **Module 2** of this course.
 
-## Clinical Considerations {background-image="/media/daim/bg3.png" background-opacity="0.4"}
+## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Structured data
     * Labelling data consistently
@@ -158,6 +159,6 @@ scan = "CXR"
 * Can you think of other considerations that can make clinical data easier to process?
 * Have you ever encountered any issues with this in your practice?
 
-## Thank you! {background-image="/media/bamboo-woods.jpg" background-opacity="0.4"}
+## Thank you! {background-image="/media/python-scales.jpg" background-opacity="0.4"}
 
 Any questions?
