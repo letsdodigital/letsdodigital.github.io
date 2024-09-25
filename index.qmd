@@ -91,6 +91,7 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 ![](/media/university-of-bristol.svg){width=200 fig-alt="University of Bristol logo" class="padded-image"}
 ![](/media/mind-the-bleep.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
 ![](/media/elzware.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
+![](/media/fedip-logo.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
 
 ## Supporters of Let's Do Digital
 
@@ -99,15 +100,14 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
     <h3>Individual supporters</h3>
     <!--François Taljard 24/04/2024-->
     <p class="sponsors-named">François Taljard</p>
-
-    <p class="italic-grey">If you wish to support us, please follow the Sponsor link in the navigation bar above.</p>
 </div>
 <br>
 <div class="supporter-frame">
     <h3>Healthcare group supporters</h3>
     <!--Elzware (Phil Hall) 20/09/2024-->
     <p class="sponsors-named">Elzware</p>
-    <p class="italic-grey">If you wish to support us, please follow the Sponsor link in the navigation bar above.</p>
+    <!--FEDIP 25/09/2024-->
+    <p class="sponsors-named">FEDIP</p>
 </div>
 ```
 

@@ -28,7 +28,7 @@
 
 .supporter-frame {
     width: calc(100% - 40px);
-    height: 200px;
+    min-height: 200px;
     background-color: #f8f9fa;
     color: black;
     border: 15px solid;

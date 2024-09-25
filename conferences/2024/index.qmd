@@ -86,13 +86,16 @@ Click on the coffee cup or napkin to get a ticket. This is a hybrid event, so yo
 
 ## Call for abstracts
 
-If you wish to submit an abstract to the conference, please email [info@letsdodigital.org](mailto:info@letsdodigital.org) with a 250-300 word abstract of a digital healthcare intervention. Successful abstracts will be show cased on the Let's Do Digital Website and prizes will be awarded for the best posters.
+If you wish to submit an abstract to the conference, please email [info@letsdodigital.org](mailto:info@letsdodigital.org) with a 250-300 word abstract of a digital healthcare intervention. Successful abstracts will be show cased on the Let's Do Digital Website and prizes will be awarded for the best posters. Closing date is the 8th of October.
 
 ## Want to give a presentation?
 
 This year's agenda is now full. If you wish to present at future conferences, then please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
 
-## Sponsorship
+## Sponsors
+
+![](/media/elzware.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
+![](/media/fedip-logo.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
 
 If you wish to sponsor the event, please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
 
