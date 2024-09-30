@@ -609,13 +609,6 @@
     "text": "Upcoming events\n27th June - 3rd June Programming in Healthcare - Module 1\n16th July Frontline Insights - Digitising a sleep service and automating clinic preparation - Andrew Simpson & Sam Inerney\n1st August Ask a clinician - insights from a CCIO and pharmacists - Ramandeep Kaur\nAugust - September Ask a clinician - insights from two GPs - Anita Phung and Dom Main\nSeptember Ask a clinician - insights from a surgeon - Sobath Premaratne\n24th October Let’s Talk Digital Conference - Cheltenham / hybrid\n21st of November Ask a clinician - insights from a solicitor and dentist - Sam Shah"
   },
   {
-    "objectID": "learn/learn-python/module-3/index.html",
-    "href": "learn/learn-python/module-3/index.html",
-    "title": "Module 3 - There is data, data everywhere!",
-    "section": "",
-    "text": "Module 3 is currently being built. We will be looking at data, statistics, machine learning, AI and the like. Watch this space"
-  },
-  {
     "objectID": "learn/learn-python/module-2/1-introduction.html#what-are-we-going-to-cover",
     "href": "learn/learn-python/module-2/1-introduction.html#what-are-we-going-to-cover",
     "title": "Module 2 - Let’s take things to the next level",
@@ -2132,14 +2125,7 @@
     "href": "learn/learn-python/module-0/2-coding-environment.html#lesson-1",
     "title": "Coding environment (and the shell)",
     "section": "Lesson 1",
-    "text": "Lesson 1\n\nMake sure you have a GitHub account.\nJoin your tutor group in the named Zoom break out rooms.\nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
-  },
-  {
-    "objectID": "learn/learn-python/module-0/2-coding-environment.html#break-out-room-button",
-    "href": "learn/learn-python/module-0/2-coding-environment.html#break-out-room-button",
-    "title": "Coding environment (and the shell)",
-    "section": "Break out room button",
-    "text": "Break out room button"
+    "text": "Lesson 1\n\nMake sure you have a GitHub account. \nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
   },
   {
     "objectID": "learn/learn-python/module-0/2-coding-environment.html#codespace-load",
@@ -2160,7 +2146,7 @@
     "href": "learn/learn-python/module-0/2-coding-environment.html#get-to-your-first-lesson",
     "title": "Coding environment (and the shell)",
     "section": "Get to your first lesson",
-    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show that this is the command line):\n\n    $ cd programming_in_healthcare/module_0\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 40 minutes for lesson 1.\n\n\n    Python basics"
+    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show that this is the command line):\n\n    $ cd programming_in_healthcare/module_0\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file. \n\n\n    Python basics"
   },
   {
     "objectID": "services-we-offer.html",
@@ -3623,7 +3609,7 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#variables---indexing-key",
     "title": "Python basics - 1st slide deck",
     "section": "Variables - indexing / key",
-    "text": "Variables - indexing / key\n\nYou can get a value from a list or dictionary by indexing or specifying a key, respectively:\n\n\n\nindex_keys.py\n\na_list = ['a', 'b','c', 'd']\n\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}\n\nprint(a_list[0])\nprint(a_dictionary[\"1st key\"])\n\nOutput:\n    a\n    1st value"
+    "text": "Variables - indexing / key\n\nYou can get a value from a list or dictionary by indexing or specifying a key, respectively:\n\n\n\nindex_keys.py\n\na_list = ['a', 'b', 'c', 'd']\n\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}\n\nprint(a_list[0])\nprint(a_dictionary[\"1st key\"])\n\nOutput:\n    a\n    1st value"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#variables---zero-indexing",
@@ -3637,21 +3623,21 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#spaces",
     "title": "Python basics - 1st slide deck",
     "section": "Spaces",
-    "text": "Spaces\n\nVariables names cannot have spaces, if you add a space, the computer will read this as two separate variables:\n\n\n\nspaces.py\n\nvariable_a = \"I am a variable\"\nvariable b = \"The added space will cause an error\"\n\nSyntax error:\n    Cell In[1], line 2\n        variable b = \"The added space will cause an error\"\n                 ^\n    SyntaxError: invalid syntax"
+    "text": "Spaces\n\nVariables names cannot have spaces, if you add a space, the computer will read this as two separate variables:\n\n\n\nspaces.py\n\nvariable_a = \"I am a variable\"\nvariable b = \"The added space will cause an error\"\n\nSyntax error\n    Cell In[1], line 2\n        variable b = \"The added space will cause an error\"\n                 ^\n    SyntaxError: invalid syntax"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#double-or-single-quotation-marks",
     "href": "learn/learn-python/module-0/3-python-basics.html#double-or-single-quotation-marks",
     "title": "Python basics - 1st slide deck",
     "section": "Double or single quotation marks?",
-    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks.\nIt does not matter which you chose, but be consistent. If you accidentally mix pairs of quotation marks you will get strange errors.\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two double quotation marks\"\nvariable_b = \"I have the wrong matching quotation marks'\nvariable_c = 'Single quotation marks'\n\nOutput\n    File \"file_with_bad_code.py\", line 2\n    variable_b = \"I have the wrong matching quotation marks'\n             ^\n    SyntaxError: unterminated string literal (detected at line 18)\n\nvariable_b’s string causes an error due to unmatching quotation marks."
+    "text": "Double or single quotation marks?\n\nYou will see people using ‘single’ and also “double” quotation marks.\nIt does not matter which you chose, but be consistent. If you accidentally mix pairs of quotation marks you will get strange errors.\n\n\n\nquotation_marks.py\n\nvariable_a = \"All good here with two double quotation marks\"\nvariable_b = \"I have the wrong matching quotation marks'\nvariable_c = 'Single quotation marks'\n\nSyntax error\n    File \"quotation_marks.py\", line 2\n    variable_b = \"I have the wrong matching quotation marks'\n             ^\n    SyntaxError: unterminated string literal (detected at line 18)\n\nvariable_b’s string causes an error due to unmatching quotation marks."
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#using-both-types-of-quotation-marks",
     "href": "learn/learn-python/module-0/3-python-basics.html#using-both-types-of-quotation-marks",
     "title": "Python basics - 1st slide deck",
     "section": "Using both types of quotation marks",
-    "text": "Using both types of quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'"
+    "text": "Using both types of quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'\n\nWill print as\n    I want to highlight 'this' word    \n    I would like to show you \"this\""
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#add-strings-together",
@@ -3714,7 +3700,7 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#comments",
     "title": "Python basics - 1st slide deck",
     "section": "Comments",
-    "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks.\nComments are lines of code not translated by the interpretor."
+    "text": "Comments\n\nComments are useful in explaining what code is supposed to do.\nThey are essential for when you, and others, need to read your code later to problem solve or add to your code (10:1 reading to writing code ratio).\nUse them sparingly, as they can clutter code.\nTry and make variable and function names self-explanatory.\nYou can comment with the hastag or encapsulate with triple quotation marks.\nComments are lines of code not translated by the interpretor."
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#comments-1",
@@ -3770,7 +3756,7 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#more-advanced-operators",
     "title": "Python basics - 1st slide deck",
     "section": "More advanced operators",
-    "text": "More advanced operators\n\nMembership: in   not in\n\n\n\nmembership.py\n\n    a_list = [1,2,3,4,5]\n\n    if 2 in a_list:\n        print(\"Yes, 2 is in the list\")\n\nOutput\n    Yes, 2 is in the list"
+    "text": "More advanced operators\n\nMembership: in and not in\n\n\n\nmembership.py\n\n    a_list = [1,2,3,4,5]\n\n    if 2 in a_list:\n        print(\"Yes, 2 is in the list\")\n\nOutput\n    Yes, 2 is in the list"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#functions",
@@ -3854,7 +3840,7 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#how-to-write",
     "title": "Python basics - 1st slide deck",
     "section": "How to write",
-    "text": "How to write\n\nIt might seem daunting to write code, and you might be wondering where to start.\nThe best way to write code is to just write it.\nThink a little about what you are going to write, but then write down a line of code and run the code. If it work, great! If it did not work, great too! Either way you have learnt something."
+    "text": "How to write\n\nIt might seem daunting to write code, and you might be wondering where to start.\nThe best way to write code is to just write it.\nThink a little about what you are going to write, but then write down a line of code and run the code. If it works, great! If it did not work, great too! Either way you have learnt something."
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#you-got-all-that",
@@ -4429,6 +4415,13 @@
     "title": "Tutor notes - module 2",
     "section": "Answers",
     "text": "Answers\nTBC"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/index.html",
+    "href": "learn/learn-python/module-3/index.html",
+    "title": "Module 3 - There is data, data everywhere!",
+    "section": "",
+    "text": "Module 3 is currently being built. We will be looking at data, statistics, machine learning, AI and the like. Watch this space\n\nJupyter notebook\nOpen files, CSVs\nMultidimensional data 1x7, 2x7, 3D array\nTabular data\nStats, complex data framework\nPandas\nPlotting, PyPlot, numpy, PIL\nReading documentation"
   },
   {
     "objectID": "learn/ask-a-clinician/index.html",
