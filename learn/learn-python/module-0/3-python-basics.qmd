@@ -185,7 +185,7 @@ a_dictionary = {
 
 * You can get a value from a list or dictionary by **indexing** or **specifying a key**, respectively:
 ```{.python filename="index_keys.py" code-line-numbers="8,9"}
-a_list = ['a', 'b','c', 'd']
+a_list = ['a', 'b', 'c', 'd']
 
 a_dictionary = {
     "1st key": "1st value",
@@ -224,7 +224,7 @@ Output:
 variable_a = "I am a variable"
 variable b = "The added space will cause an error"
 ```
-Syntax error:
+Syntax error
 
         Cell In[1], line 2
             variable b = "The added space will cause an error"
@@ -242,9 +242,9 @@ variable_b = "I have the wrong matching quotation marks'
 variable_c = 'Single quotation marks'
 ```
 
-Output
+Syntax error
 
-        File "file_with_bad_code.py", line 2
+        File "quotation_marks.py", line 2
         variable_b = "I have the wrong matching quotation marks'
                  ^
         SyntaxError: unterminated string literal (detected at line 18)
@@ -260,6 +260,12 @@ Output
 variable_a = "I want to highlight 'this' word"
 variable_b = 'I would like to show you "this"'
 ```
+
+Will print as
+
+        I want to highlight 'this' word    
+        I would like to show you "this"    
+
 
 ## Add strings together
 
@@ -380,7 +386,7 @@ human_organ_locations = {
 * Comments are useful in `explaining` what code is supposed to do.
 * They are essential for when you, and others, need to read your code later to problem solve or add to your code (`10:1 reading to writing code ratio`).
 * Use them sparingly, as they can clutter code.
-* Try and make variable and function names self explanatory.
+* Try and make variable and function names self-explanatory.
 * You can comment with the hastag or encapsulate with triple quotation marks.
 * Comments are lines of code not translated by the interpretor.
 
@@ -449,7 +455,7 @@ i_am_a_function_call_that_can_run()
 
 ## More advanced operators {background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
-* Membership: `in   not in`
+* Membership: `in` and `not in`
 ```{.python filename="membership.py"}
     a_list = [1,2,3,4,5]
 
@@ -585,7 +591,7 @@ Syntax error:
 
 * It might seem daunting to write code, and you might be wondering where to start.
 * The best way to write code is to just write it. 
-* Think a little about what you are going to write, but then write down a line of code and run the code. If it work, great! If it did not work, great too! Either way you have learnt something.
+* Think a little about what you are going to write, but then write down a line of code and run the code. If it works, great! If it did not work, great too! Either way you have learnt something.
 
 
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}

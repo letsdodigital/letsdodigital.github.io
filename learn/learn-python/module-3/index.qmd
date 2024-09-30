@@ -4,3 +4,14 @@ title: "{{< var coding-module-3 >}}"
 
 Module 3 is currently being built. We will be looking at data, statistics, machine learning, AI and the like. Watch this space
 
+1. Jupyter notebook
+2. Open files, CSVs
+3. Multidimensional data 1x7, 2x7, 3D array
+4. Tabular data
+5. Stats, complex data framework
+6. Pandas
+7. Plotting, **PyPlot**, numpy, PIL
+8. Reading documentation
+
+
+
