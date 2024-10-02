@@ -616,18 +616,25 @@
     "text": "What is Jupyter Notebook?\n…"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#create-virtual-environment",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#create-virtual-environment",
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-a-codespace-session",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-a-codespace-session",
     "title": "Jupyter Notebook and Markdown",
-    "section": "Create Virtual Environment",
-    "text": "Create Virtual Environment\n$ python -m venv .venv\n$ source .venv/bin/activate\n$ pip install jupyter"
+    "section": "Start up a Codespace session",
+    "text": "Start up a Codespace session"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-jupyter",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-jupyter",
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-codespace-tab",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-codespace-tab",
     "title": "Jupyter Notebook and Markdown",
-    "section": "Start up Jupyter",
-    "text": "Start up Jupyter\n$ jupyter notebook"
+    "section": "Close Codespace tab",
+    "text": "Close Codespace tab"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-up-jupyterlab",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-up-jupyterlab",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Open up JupyterLab",
+    "text": "Open up JupyterLab"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#navigating-jupyter-notebook",
@@ -637,16 +644,16 @@
     "text": "Navigating Jupyter Notebook\n…"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#in-codespace",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#in-codespace",
-    "title": "Jupyter Notebook and Markdown",
+    "objectID": "learn/learn-python/module-3/3-using-files.html#in-codespace",
+    "href": "learn/learn-python/module-3/3-using-files.html#in-codespace",
+    "title": "Using files",
     "section": "In Codespace",
     "text": "In Codespace"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#in-jupyter-notebooks",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#in-jupyter-notebooks",
-    "title": "Jupyter Notebook and Markdown",
+    "objectID": "learn/learn-python/module-3/3-using-files.html#in-jupyter-notebooks",
+    "href": "learn/learn-python/module-3/3-using-files.html#in-jupyter-notebooks",
+    "title": "Using files",
     "section": "In Jupyter Notebooks",
     "text": "In Jupyter Notebooks"
   },
