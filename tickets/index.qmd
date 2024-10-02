@@ -5,6 +5,12 @@ image: /media/tickets.png
 
 ::: {.panel-tabset}
 
+## Self-paced learning
+
+### Module 0 - Programming in Healthcare
+
+[Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
+
 ## Current Events
 
 ### 24th October 2024

@@ -97,6 +97,6 @@ This year's agenda is now full. If you wish to present at future conferences, th
 ![](/media/elzware.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
 ![](/media/fedip-logo.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
 
-If you wish to sponsor the event, please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
+If you wish to sponsor the event, please review our sponsorship packages [here](sponsorship.qmd) or email [info@letsdodigital.org](mailto:info@letsdodigital.org).
 
 
