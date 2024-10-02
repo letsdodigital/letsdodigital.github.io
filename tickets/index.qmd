@@ -11,7 +11,7 @@ image: /media/tickets.png
 
 [Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
-## Current Events
+## Upcoming Events
 
 ### 24th October 2024
 
@@ -21,6 +21,11 @@ image: /media/tickets.png
 ### 6th November 2024
 
 [{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
+
+
+### 27th November 2024
+
+[Introduction to Health Informatics](https://app.medall.org/event-listings/introduction-to-health-informatics) - calling all medical students and junior doctors.
 
 
 ## Previous events
