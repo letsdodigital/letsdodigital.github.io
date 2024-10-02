@@ -620,7 +620,7 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#create-virtual-environment",
     "title": "Jupyter Notebook and Markdown",
     "section": "Create Virtual Environment",
-    "text": "Create Virtual Environment\n$ python -m venv .venv\n$ source .venv/bin/activate"
+    "text": "Create Virtual Environment\n$ python -m venv .venv\n$ source .venv/bin/activate\n$ pip install jupyter"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-jupyter",
