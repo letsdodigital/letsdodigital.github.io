@@ -8,3 +8,31 @@ title-slide-attributes:
     data-background-image: /media/jupyter-notebook-logo.png
     data-background-opacity: "0.1"
 ---
+
+## What is Jupyter Notebook?
+
+...
+
+## Create Virtual Environment
+
+```{.bash}
+$ python -m venv .venv
+$ source .venv/bin/activate
+```
+
+
+## Start up Jupyter
+
+```{.bash}
+$ jupyter notebook
+```
+
+## Navigating Jupyter Notebook
+
+...
+
+# Opening a file
+
+## In Codespace
+
+## In Jupyter Notebooks
