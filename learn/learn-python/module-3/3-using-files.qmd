@@ -8,3 +8,10 @@ title-slide-attributes:
     data-background-image: /media/jupyter-notebook-logo.png
     data-background-opacity: "0.1"
 ---
+
+
+# Opening a file
+
+## In Codespace
+
+## In Jupyter Notebooks
