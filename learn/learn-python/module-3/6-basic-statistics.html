@@ -12,7 +12,7 @@
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Let’s Do Digital Team">
-  <title>Let's Do Digital – Module 3 - There is data, data everywhere!</title>
+  <title>Let's Do Digital – Basic Statistics</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -322,15 +322,15 @@
       margin-right: 0; 
     }
   </style>
-<meta name="twitter:title" content="Module 3 - There is data, data everywhere! – Let’s Do Digital">
+<meta name="twitter:title" content="Basic Statistics – Let’s Do Digital">
 <meta name="twitter:card" content="summary">
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../../../media/hello-in-soup.jpg" data-background-opacity="0.4" class="quarto-title-block center">
-  <h1 class="title">Module 3 - There is data, data everywhere!</h1>
+<section id="title-slide" data-background-image="../../../media/jupyter-notebook-logo.png" data-background-opacity="0.1" class="quarto-title-block center">
+  <h1 class="title">Basic Statistics</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -341,36 +341,41 @@ Let’s Do Digital Team
 </div>
 
 </section>
-<section>
-<section id="introduction" class="title-slide slide level1 center" data-background-image="../../../media/welcome-sign.jpg" data-background-opacity="0.4">
-<h1>Introduction</h1>
+<section id="what-is-scipy" class="slide level2">
+<h2>What is SciPy?</h2>
 <ul>
-<li>Welcome and thank you for joining our course.</li>
-<li>We hope you enjoy the course and find it helpful.</li>
-<li>Please provide feedback at the end of the course, so we can help improve things further.</li>
+<li>SciPy is a Python library for scientific and technical computing</li>
+<li>Built on top of NumPy, making it fast and efficient</li>
+<li>Used for advanced math, statistics, and optimisation</li>
+<li>Essential for scientific research and data analysis</li>
 </ul>
 </section>
-<section id="what-are-we-going-to-cover" class="slide level2" data-background-image="../../../media/whiteboard-flowchart.jpg" data-background-opacity="0.4">
-<h2>What are we going to cover?</h2>
+<section id="key-features-of-scipy" class="slide level2">
+<h2>Key Features of SciPy</h2>
 <ul>
-<li>In this 3 hour session, we are going to cover:
-<ul>
-<li>Jupyter notebook</li>
-<li>Markdown</li>
-<li>Managing data</li>
-<li>Visualising data</li>
-<li>Basic statistics</li>
-</ul></li>
+<li><strong>Linear Algebra</strong>: Solve equations, matrix operations</li>
+<li><strong>Statistics</strong>: Calculate probabilities, run hypothesis tests</li>
+<li><strong>Optimisation</strong>: Find minima/maxima of functions</li>
+<li><strong>Signal Processing</strong>: Analyse and filter data</li>
 </ul>
 </section>
-<section id="lots-to-cover" class="slide level2" data-background-image="../../../media/hopscotch.jpg" data-background-opacity="0.4">
-<h2>Lots to cover</h2>
+<section id="common-scipy-tasks" class="slide level2">
+<h2>Common SciPy Tasks</h2>
 <ul>
-<li>So let’s get started.</li>
+<li>Import SciPy: <code>from scipy import stats, linalg, optimize</code></li>
+<li>Calculate statistics: <code>stats.ttest_ind(data1, data2)</code></li>
+<li>Solve linear equations: <code>linalg.solve(A, B)</code></li>
+<li>Optimise a function: <code>optimize.minimize(func, x0)</code></li>
 </ul>
-<div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-3/2-2-jupyter-notebook-and-markdown.html" style="color: lightgrey;">Jupyter Notebook and Markdown</a>
-</div>
+</section>
+<section id="why-use-scipy" class="slide level2">
+<h2>Why Use SciPy?</h2>
+<ul>
+<li>Powerful for advanced mathematical tasks</li>
+<li>Built for handling large datasets efficiently</li>
+<li>Works seamlessly with NumPy</li>
+<li>Widely used in scientific research, engineering, and data science</li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../../../media/ldd-logo.png" class="slide-logo"></p>
@@ -378,7 +383,7 @@ Let’s Do Digital Team
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
