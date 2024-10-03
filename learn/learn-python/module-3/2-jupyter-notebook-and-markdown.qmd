@@ -11,7 +11,35 @@ title-slide-attributes:
 
 ## What is Jupyter Notebook?
 
-...
+* Jupyter Notebook is an interactive tool for writing and running code
+* Used mostly for Python but supports other languages
+* Combines code, text, and visualizations in one place
+* Widely used for data science, research, and teaching
+
+
+## Key Features of Jupyter Notebook
+
+* Write and execute code in small sections (cells)
+* Mix code with explanations, images, and graphs
+* Easy to visualise data with built-in support for plots
+* Share work with others in a readable format
+
+
+## Common Jupyter Notebook Tasks
+
+* Run a cell: Select it and press `Shift + Enter`
+* Add text: Use Markdown in a new cell and change it to 'Markdown' mode
+* View results instantly: Print or plot results directly in the notebook
+* Save your work: Notebooks are saved as `.ipynb` files
+
+
+## Why Use Jupyter Notebook?
+
+* Great for learning, experimenting, and prototyping
+* Interactive: Run code and see results step by step
+* Easy to combine code with explanations and visuals
+* Ideal for data analysis, machine learning, and teaching
+
 
 ## Start up a Codespace session
 
@@ -23,5 +51,38 @@ title-slide-attributes:
 
 ...
 
-# Markdown
+## What is Markdown?
+
+* Markdown is a simple way to format text
+* You can use it to write headings, lists, and more
+* Useful for adding explanations and notes in Jupyter Notebooks
+* Supports basic formatting without complex code
+
+
+## Key Markdown Elements
+
+* **Headings**: Use `#` for titles (e.g., `# Heading 1`)
+* **Bold/Italic**: Use `**bold**` or `*italic*`
+* **Lists**: Create bullet points with `*` or numbered lists with `1.`
+* **Links/Images**: Use `[text](url)` for links and `![alt text](image_url)` for images
+
+
+## Common Markdown Tasks in Jupyter
+
+* Add a Markdown cell: Change the cell type to 'Markdown'
+* Format text: Type Markdown code and run the cell to see the formatted result
+* Create headings, lists, or add links easily
+* Combine Markdown with code cells to create clean, well-documented notebooks
+
+
+## Why Use Markdown in Jupyter?
+
+* Makes your notebook readable with clear explanations
+* Organise your notebook with sections, lists, and links
+* Perfect for combining code, results, and explanations in one place
+* No need for external software to write documentation
+
+
+## Make a cell ready for Markdown
+
 

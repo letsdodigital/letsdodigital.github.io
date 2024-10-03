@@ -10,7 +10,7 @@ Module 3 is currently being built. Here we look at data and its manipulation. Wa
 4. Tabular data
 5. Stats, complex data framework
 6. Pandas
-7. Plotting, **PyPlot**, numpy, PIL
+7. Plotting, **PyPlot**, scipy, numpy, PIL
 8. Reading documentation
 
 

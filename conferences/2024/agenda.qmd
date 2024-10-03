@@ -97,10 +97,10 @@ title: "Agenda 2024"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/freddie-renyard.png" alt="picture of Freddie Renyard" class="agenda-image-small">
+            <img src="/media/anita-phung-circle.png" alt="picture of Anita Phung" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Freddie Renyard - foundation year 1 doctor and lead for the Let's Do Digital Data Analytics in Radiology course
+            Anita Phung - Portfolio GP | Medical Monitor at Lindus Health | SEL ICB Digital Transformation Clinical Lead
         </div>
     </div>
 </div>
