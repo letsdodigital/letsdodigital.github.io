@@ -28,6 +28,11 @@ image: /media/tickets.png
 [{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
 
 
+### 21st November 2024
+
+[{{< var ask-a-clinician-series-title >}} - {{< var aac-5 >}}](https://letsdodigital.thinkific.com/products/live_events/ask-a-clinician-5)
+
+
 ### 27th November 2024
 
 [Introduction to Health Informatics](https://app.medall.org/event-listings/introduction-to-health-informatics) - calling all medical students and junior doctors.
