@@ -5,34 +5,64 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/hello-in-soup.jpg
-    data-background-opacity: "0.4"
+    data-background-color: "#FEDF8F"
+    data-background-video: "/media/rockpool.mp4"
+    data-background-video-loop: true
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title
+      {
+        color: #ffffff;
+      }
+      #title-slide .subtitle 
+      {
+        color: #ffffff;
+      }
+      .quarto-title-author-name 
+      {
+        color: #ffffff;
+      }
+      </style>
 ---
 
 
-# Introduction {background-image="/media/welcome-sign.jpg" background-opacity="0.4"}
+## Introduction {background-image="/media/welcome-mat-dock.jpg" background-opacity="0.4"}
 
 * Welcome and thank you for joining our course.
 * We hope you enjoy the course and find it helpful.
 * Please provide feedback at the end of the course, so we can help improve things further.
 
 
-## What are we going to cover? {background-image="/media/whiteboard-flowchart.jpg" background-opacity="0.4"}
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
 
-* In this 3 hour session, we are going to cover:
-    * Jupyter notebook
-    * Markdown
-    * Managing data
-    * Visualising data
-    * Basic statistics
+* In this 3 hour session, we are going to cover
 
 
-## Lots to cover {background-image="/media/hopscotch.jpg" background-opacity="0.4"}
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
+
+* Jupyter notebook
+* Markdown
+
+
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
+
+* Managing data
+* Visualising data
+
+
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
+
+* Basic statistics
+* Manipulating images
+
+
+## Lots to cover {background-image="/media/snow-tubing-mid-air.jpg" background-opacity="0.4"}
 
 * So let's get started.
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-3/2-2-jupyter-notebook-and-markdown.html" style="color: lightgrey;">Jupyter Notebook and Markdown</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html" style="color: lightgrey;">Jupyter Notebook and Markdown</a>
 </div>
 ```

@@ -5,9 +5,12 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/jupyter-notebook-logo.png
+    data-background-image: /media/open-notebook.jpg
     data-background-opacity: "0.1"
 ---
+
+# <span class="hide-title">Jupyter Notebook</span> {background-image="/media/jupyter-notebook-logo.png" background-opacity="0.4"}
+
 
 ## What is Jupyter Notebook?
 
@@ -41,15 +44,8 @@ title-slide-attributes:
 * Ideal for data analysis, machine learning, and teaching
 
 
-## Start up a Codespace session
+# Markdown {background-image="/media/markdown.png" background-opacity="0.4"}
 
-## Close Codespace tab
-
-## Open up JupyterLab
-
-## Navigating Jupyter Notebook
-
-...
 
 ## What is Markdown?
 
@@ -86,3 +82,12 @@ title-slide-attributes:
 ## Make a cell ready for Markdown
 
 
+## Start up a Codespace session
+
+## Close Codespace tab
+
+## Open up JupyterLab
+
+## Navigating Jupyter Notebook
+
+...

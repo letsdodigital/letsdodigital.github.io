@@ -1,0 +1,79 @@
+---
+title: "Manipulating Data"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/jupyter-notebook-logo.png
+    data-background-opacity: "0.1"
+---
+
+# Opening a file
+
+## In Codespace
+
+## In Jupyter Notebooks
+
+## What is NumPy?
+
+* NumPy is a Python library for working with numbers and arrays
+* Arrays are like lists but faster and more powerful
+* Great for mathematical and scientific calculations
+* Core tool in data science and machine learning
+
+
+## Key Concepts in NumPy
+
+* **Array**: A grid of values (1D, 2D, or more)
+* Efficient for storing and working with lots of data
+* NumPy makes math operations fast and easy
+* Use NumPy for calculations across whole arrays at once
+
+
+## Common NumPy Tasks
+
+* Create an array: `np.array([1, 2, 3])`
+* Do math: `np.add(arr1, arr2)` or `arr1 + arr2`
+* Reshape arrays: `arr.reshape(2, 3)` (change shape)
+* Find max, min, sum: `arr.max()`, `arr.min()`, `arr.sum()`
+
+
+## Why Use NumPy?
+
+* Very fast and efficient for working with numbers
+* Easy to perform complex calculations
+* Used in data analysis, machine learning, and more
+* Essential for handling large datasets
+
+
+## What is Pandas?
+
+- Pandas is a tool for working with data in Python
+- It helps you organise and analyse data in tables
+- Great for working with spreadsheets or databases
+- Widely used in data science
+
+
+## Key Concepts in Pandas
+
+- **DataFrame**: A table of data (rows and columns)
+- **Series**: A single column of data
+- You can filter, sort, and change the data
+- Easy to read from and write to files like CSVs
+
+
+## Common Pandas Tasks
+
+- Load data from a file: `pd.read_csv('file.csv')`
+- View data: `df.head()` (shows first few rows)
+- Filter data: `df[df['Age'] > 50]`
+- Save data: `df.to_csv('new_file.csv')`
+
+
+## Why Use Pandas?
+
+- Easy to learn and very useful
+- Works well with big datasets
+- Helps you clean and analyse data
+- A key tool for data analysis in Python
