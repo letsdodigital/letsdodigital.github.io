@@ -637,34 +637,6 @@
     "text": "Why Use Jupyter Notebook?\n\nGreat for learning, experimenting, and prototyping\nInteractive: Run code and see results step by step\nEasy to combine code with explanations and visuals\nIdeal for data analysis, machine learning, and teaching"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-a-codespace-session",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-a-codespace-session",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Start up a Codespace session",
-    "text": "Start up a Codespace session"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-codespace-tab",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-codespace-tab",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Close Codespace tab",
-    "text": "Close Codespace tab"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-up-jupyterlab",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-up-jupyterlab",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Open up JupyterLab",
-    "text": "Open up JupyterLab"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#navigating-jupyter-notebook",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#navigating-jupyter-notebook",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Navigating Jupyter Notebook",
-    "text": "Navigating Jupyter Notebook\n…"
-  },
-  {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-markdown",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-markdown",
     "title": "Jupyter Notebook and Markdown",
@@ -700,39 +672,109 @@
     "text": "Make a cell ready for Markdown"
   },
   {
-    "objectID": "learn/learn-python/module-3/6-basic-statistics.html#what-is-scipy",
-    "href": "learn/learn-python/module-3/6-basic-statistics.html#what-is-scipy",
-    "title": "Basic Statistics",
-    "section": "What is SciPy?",
-    "text": "What is SciPy?\n\nSciPy is a Python library for scientific and technical computing\nBuilt on top of NumPy, making it fast and efficient\nUsed for advanced math, statistics, and optimisation\nEssential for scientific research and data analysis"
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-a-codespace-session",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#start-up-a-codespace-session",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Start up a Codespace session",
+    "text": "Start up a Codespace session"
   },
   {
-    "objectID": "learn/learn-python/module-3/6-basic-statistics.html#key-features-of-scipy",
-    "href": "learn/learn-python/module-3/6-basic-statistics.html#key-features-of-scipy",
-    "title": "Basic Statistics",
-    "section": "Key Features of SciPy",
-    "text": "Key Features of SciPy\n\nLinear Algebra: Solve equations, matrix operations\nStatistics: Calculate probabilities, run hypothesis tests\nOptimisation: Find minima/maxima of functions\nSignal Processing: Analyse and filter data"
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-codespace-tab",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-codespace-tab",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Close Codespace tab",
+    "text": "Close Codespace tab"
   },
   {
-    "objectID": "learn/learn-python/module-3/6-basic-statistics.html#common-scipy-tasks",
-    "href": "learn/learn-python/module-3/6-basic-statistics.html#common-scipy-tasks",
-    "title": "Basic Statistics",
-    "section": "Common SciPy Tasks",
-    "text": "Common SciPy Tasks\n\nImport SciPy: from scipy import stats, linalg, optimize\nCalculate statistics: stats.ttest_ind(data1, data2)\nSolve linear equations: linalg.solve(A, B)\nOptimise a function: optimize.minimize(func, x0)"
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-up-jupyterlab",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-up-jupyterlab",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Open up JupyterLab",
+    "text": "Open up JupyterLab"
   },
   {
-    "objectID": "learn/learn-python/module-3/6-basic-statistics.html#why-use-scipy",
-    "href": "learn/learn-python/module-3/6-basic-statistics.html#why-use-scipy",
-    "title": "Basic Statistics",
-    "section": "Why Use SciPy?",
-    "text": "Why Use SciPy?\n\nPowerful for advanced mathematical tasks\nBuilt for handling large datasets efficiently\nWorks seamlessly with NumPy\nWidely used in scientific research, engineering, and data science"
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#navigating-jupyter-notebook",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#navigating-jupyter-notebook",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Navigating Jupyter Notebook",
+    "text": "Navigating Jupyter Notebook\n…"
   },
   {
-    "objectID": "learn/learn-python/module-3/index.html",
-    "href": "learn/learn-python/module-3/index.html",
-    "title": "Module 3 - There is data, data everywhere!",
-    "section": "",
-    "text": "Module 3 is currently being built. Here we look at data and its manipulation. Watch this space\n\nJupyter notebook\nOpen files, CSVs\nMultidimensional data 1x7, 2x7, 3D array\nTabular data\nStats, complex data framework\nPandas\nPlotting, PyPlot, scipy, numpy, PIL\nReading documentation"
+    "objectID": "learn/learn-python/module-3/7-session-close.html#many-thanks",
+    "href": "learn/learn-python/module-3/7-session-close.html#many-thanks",
+    "title": "Session close",
+    "section": "Many thanks",
+    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great addition to your digital health career.\nCould you please complete feedback before you leave.\nPlease do join us for more advanced courses coming out very soon."
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#in-codespace",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#in-codespace",
+    "title": "Manipulating Data",
+    "section": "In Codespace",
+    "text": "In Codespace"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#in-jupyter-notebooks",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#in-jupyter-notebooks",
+    "title": "Manipulating Data",
+    "section": "In Jupyter Notebooks",
+    "text": "In Jupyter Notebooks"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#what-is-numpy",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#what-is-numpy",
+    "title": "Manipulating Data",
+    "section": "What is NumPy?",
+    "text": "What is NumPy?\n\nNumPy is a Python library for working with numbers and arrays\nArrays are like lists but faster and more powerful\nGreat for mathematical and scientific calculations\nCore tool in data science and machine learning"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-numpy",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-numpy",
+    "title": "Manipulating Data",
+    "section": "Key Concepts in NumPy",
+    "text": "Key Concepts in NumPy\n\nArray: A grid of values (1D, 2D, or more)\nEfficient for storing and working with lots of data\nNumPy makes math operations fast and easy\nUse NumPy for calculations across whole arrays at once"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#common-numpy-tasks",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#common-numpy-tasks",
+    "title": "Manipulating Data",
+    "section": "Common NumPy Tasks",
+    "text": "Common NumPy Tasks\n\nCreate an array: np.array([1, 2, 3])\nDo math: np.add(arr1, arr2) or arr1 + arr2\nReshape arrays: arr.reshape(2, 3) (change shape)\nFind max, min, sum: arr.max(), arr.min(), arr.sum()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#why-use-numpy",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#why-use-numpy",
+    "title": "Manipulating Data",
+    "section": "Why Use NumPy?",
+    "text": "Why Use NumPy?\n\nVery fast and efficient for working with numbers\nEasy to perform complex calculations\nUsed in data analysis, machine learning, and more\nEssential for handling large datasets"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas",
+    "title": "Manipulating Data",
+    "section": "What is Pandas?",
+    "text": "What is Pandas?\n\nPandas is a tool for working with data in Python\nIt helps you organise and analyse data in tables\nGreat for working with spreadsheets or databases\nWidely used in data science"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-pandas",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-pandas",
+    "title": "Manipulating Data",
+    "section": "Key Concepts in Pandas",
+    "text": "Key Concepts in Pandas\n\nDataFrame: A table of data (rows and columns)\nSeries: A single column of data\nYou can filter, sort, and change the data\nEasy to read from and write to files like CSVs"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#common-pandas-tasks",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#common-pandas-tasks",
+    "title": "Manipulating Data",
+    "section": "Common Pandas Tasks",
+    "text": "Common Pandas Tasks\n\nLoad data from a file: pd.read_csv('file.csv')\nView data: df.head() (shows first few rows)\nFilter data: df[df['Age'] &gt; 50]\nSave data: df.to_csv('new_file.csv')"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#why-use-pandas",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#why-use-pandas",
+    "title": "Manipulating Data",
+    "section": "Why Use Pandas?",
+    "text": "Why Use Pandas?\n\nEasy to learn and very useful\nWorks well with big datasets\nHelps you clean and analyse data\nA key tool for data analysis in Python"
   },
   {
     "objectID": "learn/learn-python/module-2/tutor-notes.html",
@@ -4543,88 +4585,74 @@
     "text": "Lots to cover\n\nSo let’s get started.\n\n\n    Process mapping"
   },
   {
-    "objectID": "learn/learn-python/module-3/3-using-files.html#in-codespace",
-    "href": "learn/learn-python/module-3/3-using-files.html#in-codespace",
-    "title": "Using files",
-    "section": "In Codespace",
-    "text": "In Codespace"
+    "objectID": "learn/learn-python/module-3/5-basic-statistics.html#what-is-scipy",
+    "href": "learn/learn-python/module-3/5-basic-statistics.html#what-is-scipy",
+    "title": "Basic Statistics",
+    "section": "What is SciPy?",
+    "text": "What is SciPy?\n\nSciPy is a Python library for scientific and technical computing\nBuilt on top of NumPy, making it fast and efficient\nUsed for advanced math, statistics, and optimisation\nEssential for scientific research and data analysis"
   },
   {
-    "objectID": "learn/learn-python/module-3/3-using-files.html#in-jupyter-notebooks",
-    "href": "learn/learn-python/module-3/3-using-files.html#in-jupyter-notebooks",
-    "title": "Using files",
-    "section": "In Jupyter Notebooks",
-    "text": "In Jupyter Notebooks"
+    "objectID": "learn/learn-python/module-3/5-basic-statistics.html#key-features-of-scipy",
+    "href": "learn/learn-python/module-3/5-basic-statistics.html#key-features-of-scipy",
+    "title": "Basic Statistics",
+    "section": "Key Features of SciPy",
+    "text": "Key Features of SciPy\n\nLinear Algebra: Solve equations, matrix operations\nStatistics: Calculate probabilities, run hypothesis tests\nOptimisation: Find minima/maxima of functions\nSignal Processing: Analyse and filter data"
   },
   {
-    "objectID": "learn/learn-python/module-3/7-session-close.html#many-thanks",
-    "href": "learn/learn-python/module-3/7-session-close.html#many-thanks",
-    "title": "Session close",
-    "section": "Many thanks",
-    "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great addition to your digital health career.\nCould you please complete feedback before you leave.\nPlease do join us for more advanced courses coming out very soon."
+    "objectID": "learn/learn-python/module-3/5-basic-statistics.html#common-scipy-tasks",
+    "href": "learn/learn-python/module-3/5-basic-statistics.html#common-scipy-tasks",
+    "title": "Basic Statistics",
+    "section": "Common SciPy Tasks",
+    "text": "Common SciPy Tasks\n\nImport SciPy: from scipy import stats, linalg, optimize\nCalculate statistics: stats.ttest_ind(data1, data2)\nSolve linear equations: linalg.solve(A, B)\nOptimise a function: optimize.minimize(func, x0)"
   },
   {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#what-is-numpy",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#what-is-numpy",
-    "title": "Manipulating Data",
-    "section": "What is NumPy?",
-    "text": "What is NumPy?\n\nNumPy is a Python library for working with numbers and arrays\nArrays are like lists but faster and more powerful\nGreat for mathematical and scientific calculations\nCore tool in data science and machine learning"
+    "objectID": "learn/learn-python/module-3/5-basic-statistics.html#why-use-scipy",
+    "href": "learn/learn-python/module-3/5-basic-statistics.html#why-use-scipy",
+    "title": "Basic Statistics",
+    "section": "Why Use SciPy?",
+    "text": "Why Use SciPy?\n\nPowerful for advanced mathematical tasks\nBuilt for handling large datasets efficiently\nWorks seamlessly with NumPy\nWidely used in scientific research, engineering, and data science"
   },
   {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#key-concepts-in-numpy",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#key-concepts-in-numpy",
-    "title": "Manipulating Data",
-    "section": "Key Concepts in NumPy",
-    "text": "Key Concepts in NumPy\n\nArray: A grid of values (1D, 2D, or more)\nEfficient for storing and working with lots of data\nNumPy makes math operations fast and easy\nUse NumPy for calculations across whole arrays at once"
+    "objectID": "learn/learn-python/module-3/index.html",
+    "href": "learn/learn-python/module-3/index.html",
+    "title": "Module 3 - There is data, data everywhere!",
+    "section": "",
+    "text": "Module 3 is currently being built. Here we look at data and its manipulation. Watch this space\n\nJupyter notebook\nOpen files, CSVs\nMultidimensional data 1x7, 2x7, 3D array\nTabular data\nStats, complex data framework\nPandas\nPlotting, PyPlot, scipy, numpy, PIL\nReading documentation"
   },
   {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#common-numpy-tasks",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#common-numpy-tasks",
-    "title": "Manipulating Data",
-    "section": "Common NumPy Tasks",
-    "text": "Common NumPy Tasks\n\nCreate an array: np.array([1, 2, 3])\nDo math: np.add(arr1, arr2) or arr1 + arr2\nReshape arrays: arr.reshape(2, 3) (change shape)\nFind max, min, sum: arr.max(), arr.min(), arr.sum()"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#why-use-numpy",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#why-use-numpy",
-    "title": "Manipulating Data",
-    "section": "Why Use NumPy?",
-    "text": "Why Use NumPy?\n\nVery fast and efficient for working with numbers\nEasy to perform complex calculations\nUsed in data analysis, machine learning, and more\nEssential for handling large datasets"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#what-is-pandas",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#what-is-pandas",
-    "title": "Manipulating Data",
-    "section": "What is Pandas?",
-    "text": "What is Pandas?\n\nPandas is a tool for working with data in Python\nIt helps you organise and analyse data in tables\nGreat for working with spreadsheets or databases\nWidely used in data science"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#key-concepts-in-pandas",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#key-concepts-in-pandas",
-    "title": "Manipulating Data",
-    "section": "Key Concepts in Pandas",
-    "text": "Key Concepts in Pandas\n\nDataFrame: A table of data (rows and columns)\nSeries: A single column of data\nYou can filter, sort, and change the data\nEasy to read from and write to files like CSVs"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#common-pandas-tasks",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#common-pandas-tasks",
-    "title": "Manipulating Data",
-    "section": "Common Pandas Tasks",
-    "text": "Common Pandas Tasks\n\nLoad data from a file: pd.read_csv('file.csv')\nView data: df.head() (shows first few rows)\nFilter data: df[df['Age'] &gt; 50]\nSave data: df.to_csv('new_file.csv')"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/4-manipulating-data.html#why-use-pandas",
-    "href": "learn/learn-python/module-3/4-manipulating-data.html#why-use-pandas",
-    "title": "Manipulating Data",
-    "section": "Why Use Pandas?",
-    "text": "Why Use Pandas?\n\nEasy to learn and very useful\nWorks well with big datasets\nHelps you clean and analyse data\nA key tool for data analysis in Python"
+    "objectID": "learn/learn-python/module-3/1-introduction.html#introduction",
+    "href": "learn/learn-python/module-3/1-introduction.html#introduction",
+    "title": "Module 3 - There is data, data everywhere!",
+    "section": "Introduction",
+    "text": "Introduction\n\nWelcome and thank you for joining our course.\nWe hope you enjoy the course and find it helpful.\nPlease provide feedback at the end of the course, so we can help improve things further."
   },
   {
     "objectID": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover",
     "href": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover",
     "title": "Module 3 - There is data, data everywhere!",
     "section": "What are we going to cover?",
-    "text": "What are we going to cover?\n\nIn this 3 hour session, we are going to cover:\n\nJupyter notebook\nMarkdown\nManaging data\nVisualising data\nBasic statistics"
+    "text": "What are we going to cover?\n\nIn this 3 hour session, we are going to cover"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-1",
+    "href": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-1",
+    "title": "Module 3 - There is data, data everywhere!",
+    "section": "What are we going to cover?",
+    "text": "What are we going to cover?\n\nJupyter notebook\nMarkdown"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-2",
+    "href": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-2",
+    "title": "Module 3 - There is data, data everywhere!",
+    "section": "What are we going to cover?",
+    "text": "What are we going to cover?\n\nManaging data\nVisualising data"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-3",
+    "href": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-3",
+    "title": "Module 3 - There is data, data everywhere!",
+    "section": "What are we going to cover?",
+    "text": "What are we going to cover?\n\nBasic statistics\nManipulating images"
   },
   {
     "objectID": "learn/learn-python/module-3/1-introduction.html#lots-to-cover",
