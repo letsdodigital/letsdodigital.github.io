@@ -575,7 +575,7 @@ READ AND WRITE ACCESS
 * Go to:
 
 ```{.bash}
-$ cd programming_in_healthcare/module_2/lesson_2
+$ cd programming_in_healthcare/module_2/
 ```
 
 ## Secrets
@@ -666,7 +666,7 @@ $ streamlit run exercise_2.py
 `There is no such thing as a stupid question, only a question left unanswered`
 
 
-# Now go! {.smaller}
+# Now go!
 
 * Go join your breakout rooms again.
 * You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and have provided you with great tutors to help you forwards.
