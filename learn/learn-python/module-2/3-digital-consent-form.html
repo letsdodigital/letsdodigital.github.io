@@ -1001,32 +1001,9 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <section id="you-need-to-have-vs-code-installed" class="slide level2" data-background-image="../../../media/laptop-sideways.jpg" data-background-opacity="0.3">
 <h2>You need to have VS code installed</h2>
 <ul>
-<li>Hopefully you have already installed the <code>VS Code IDE</code> on your own personal machines.</li>
-<li>You have 10 minutes to try and install VS code now if you have not done so already. If no luck, then we will get you to use the <code>Codespace IDE</code> instead.</li>
+<li>We will get you set up on <code>Codespace</code> in your tutor groups.</li>
 </ul>
 </section>
-<section id="we-need-some-extensions" class="slide level2" data-background-image="../../../media/plugs-and-wire.jpg" data-background-opacity="0.3">
-<h2>We need some extensions</h2>
-<ul>
-<li>AKA Plugins.</li>
-<li>Add functionality and features, much like your favourite app store.</li>
-</ul>
-</section>
-<section id="we-need-some-extensions-1" class="slide level2" data-background-image="../../../media/plugs-and-wire.jpg" data-background-opacity="0.3">
-<h2>We need some extensions</h2>
-<ul>
-<li>Python</li>
-<li>Black formatter</li>
-</ul>
-</section>
-<section id="python-extension" class="slide level2">
-<h2><span class="hide-title">Python extension</span></h2>
-
-<img data-src="../../../media/python-extension-vs-code.png" class="centre-full-image r-stretch" alt="screen shot of the VS Code Python extension"></section>
-<section id="black-formatter-extension" class="slide level2">
-<h2><span class="hide-title">Black formatter extension</span></h2>
-
-<img data-src="../../../media/black-formatter-vs-code.png" class="centre-full-image r-stretch" alt="Screen shot of the VS Code Black formatter"></section>
 <section id="formatting" class="slide level2">
 <h2>Formatting</h2>
 <ul>
@@ -1044,66 +1021,13 @@ all(<strong>condition</strong> for <strong>item</strong> in <strong>iterable</st
 <span id="cb28-5"><a></a>    )</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="python-must-be-installed" class="slide level2">
-<h2>Python must be installed</h2>
-<ul>
-<li>You need to make sure you have python installed.</li>
-<li>This should be version 3 or above.</li>
-</ul>
-</section>
-<section id="get-the-code" class="slide level2">
-<h2>Get the code</h2>
-<ul>
-<li>You need to <strong>clone</strong> (basically download) the code for the course from GitHub.</li>
-<li>Navigate your terminal to the folder where you want to save the course code in.</li>
-<li>Run the below code:</li>
-</ul>
-<div class="sourceCode" id="cb29"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb29-1"><a></a><span class="ex">$</span> git clone https://github.com/letsdodigital/coding-hands-on</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="virtual-environments" class="slide level2">
-<h2>Virtual environments</h2>
-<ul>
-<li>Needed to stop conflicts with different versions of python libraries across different projects.</li>
-<li><strong>cd</strong> into your cloned repository (repo).</li>
-<li>You now need to create a virtual environment.</li>
-</ul>
-<div class="sourceCode" id="cb30"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a></a><span class="ex">$</span> python <span class="at">-m</span> venv .venv</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="activate" class="slide level2">
-<h2>Activate</h2>
-<ul>
-<li>And now activate the virtual environment.</li>
-</ul>
-<p>Mac</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb31-1"><a></a><span class="ex">$</span> source .venv/bin/activate</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><br>
-Windows</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb32-1"><a></a><span class="ex">$</span> .venv/Scripts/activate.bat</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="activate-1" class="slide level2">
-<h2>Activate</h2>
-<ul>
-<li>You should now see <code>(.venv)</code> at the start of the command line to signify that you are in a python virtual environment.</li>
-</ul>
-<div class="sourceCode" id="cb33"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb33-1"><a></a><span class="kw">(</span><span class="ex">.venv</span><span class="kw">)</span> <span class="ex">@Username/workspace/</span> $</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
-<section id="install-libraries" class="slide level2">
-<h2>Install libraries</h2>
-<p><br>
-</p>
-<div class="sourceCode" id="cb34"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb34-1"><a></a><span class="ex">$</span> pip install black</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>and</p>
-<div class="sourceCode" id="cb35"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb35-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>and</p>
-<div class="sourceCode" id="cb36"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb36-1"><a></a><span class="ex">$</span> pip install st_supabase_connection</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</section>
 <section id="finding-your-way" class="slide level2">
 <h2>Finding your way</h2>
 <ul>
 <li>Click inside your terminal window.</li>
 <li>Go to:</li>
 </ul>
-<div class="sourceCode" id="cb37"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb37-1"><a></a><span class="ex">$</span> cd programming_in_healthcare/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb29"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb29-1"><a></a><span class="ex">$</span> cd programming_in_healthcare/module_2/lesson_2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="secrets" class="slide level2">
 <h2>Secrets</h2>
@@ -1125,7 +1049,7 @@ Windows</p>
 <ul>
 <li>And then run:</li>
 </ul>
-<div class="sourceCode" id="cb38"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb38-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb30"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb30-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="this-will-run" class="slide level2">
 <h2>This will run</h2>
@@ -1133,15 +1057,15 @@ Windows</p>
 <div class="code-with-filename-file">
 <pre><strong>lesson_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb39" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb39-1"><a></a><span class="kw">def</span> main():</span>
-<span id="cb39-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
-<span id="cb39-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
-<span id="cb39-4"><a></a></span>
-<span id="cb39-5"><a></a>    <span class="cf">return</span></span>
-<span id="cb39-6"><a></a></span>
-<span id="cb39-7"><a></a></span>
-<span id="cb39-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb39-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb31" data-filename="lesson_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb31-1"><a></a><span class="kw">def</span> main():</span>
+<span id="cb31-2"><a></a>    st.title(<span class="st">"Hello"</span>)</span>
+<span id="cb31-3"><a></a>    st.text(<span class="st">"Hello World!"</span>)</span>
+<span id="cb31-4"><a></a></span>
+<span id="cb31-5"><a></a>    <span class="cf">return</span></span>
+<span id="cb31-6"><a></a></span>
+<span id="cb31-7"><a></a></span>
+<span id="cb31-8"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb31-9"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p>And…</p>
 </section>
@@ -1165,9 +1089,9 @@ Windows</p>
 <li>Use the ← and → arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.</li>
 <li>For example to change</li>
 </ul>
-<div class="sourceCode" id="cb40"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb40-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb32"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb32-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>to</p>
-<div class="sourceCode" id="cb41"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb41-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb33"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb33-1"><a></a><span class="ex">$</span> streamlit run exercise_2.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="warning" class="slide level2" data-background-image="../../../media/glowing-red-cone.jpg" data-background-opacity="0.3">
 <h2>Warning!</h2>
