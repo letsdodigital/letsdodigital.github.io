@@ -82,12 +82,50 @@ title-slide-attributes:
 ## Make a cell ready for Markdown
 
 
-## Start up a Codespace session
+# Start up a Codespace session
 
-## Close Codespace tab
+## <span class="hide-title">Codespace light theme</span>
 
-## Open up JupyterLab
+![](/media/codespace-light-theme-1.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace light theme screen shot"}
 
-## Navigating Jupyter Notebook
+
+## <span class="hide-title">Codespace dark theme</span>
+
+![](/media/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace dark theme screen shot"}
+
+
+## <span class="hide-title">Codespace layout</span>
+
+![](/media/codespace-description.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout"}
+
+
+## <span class="hide-title">Codespace what / where?</span>
+
+![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout with areas highlighted"}
+
+
+## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
+
+* AKA Plugins.
+* Add functionality and features, much like your favourite app store.
+
+
+## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
+
+* Python
+* Jupyter
+
+## <span class="hide-title">Python extension</span>
+
+![](/media/python-extension-vs-code.png){.centre-full-image fig-alt="screen shot of the VS Code Python extension"}
+
+
+## <span class="hide-title">Black formatter extension</span>
+
+![](/media/black-formatter-vs-code.png){.centre-full-image fig-alt="Screen shot of the VS Code Black formatter"}
+
+## open lesson 1
+
+## Close terminal
 
 ...

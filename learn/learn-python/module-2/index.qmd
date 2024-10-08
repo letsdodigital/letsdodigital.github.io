@@ -9,10 +9,9 @@ After learning about the basics about coding and the programming language Python
 <ul>
   <li><a href="1-introduction.html" target="_blank">1 - Introduction</a></li>
   <li><a href="2-process-mapping.html" target="_blank">2 - Process mapping</a></li>
-  <li><a href="3-process-mapping-conclusion.html" target="_blank">3 - Process mapping conclusion</a></li>
-  <li><a href="4-digital-consent-form.html" target="_blank">4 - Digital consent form</a></li>
-  <li><a href="5-pit-stop.html" target="_blank">5 - Pit stop</a></li>
-  <li><a href="6-session-close.html" target="_blank">6 - Session close</a></li>
+  <li><a href="3-digital-consent-form.html" target="_blank">3 - Digital consent form</a></li>
+  <li><a href="4-pit-stop.html" target="_blank">4 - Pit stop</a></li>
+  <li><a href="5-session-close.html" target="_blank">5 - Session close</a></li>
 </ul>
 
 

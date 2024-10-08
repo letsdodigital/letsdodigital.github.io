@@ -552,29 +552,7 @@ READ AND WRITE ACCESS
 
 ## You need to have VS code installed {background-image="/media/laptop-sideways.jpg" background-opacity="0.3"}
 
-* Hopefully you have already installed the `VS Code IDE` on your own personal machines. 
-* You have 10 minutes to try and install VS code now if you have not done so already. If no luck, then we will get you to use the `Codespace IDE` instead.
-
-
-## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
-
-* AKA Plugins.
-* Add functionality and features, much like your favourite app store.
-
-
-## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
-
-* Python
-* Black formatter
-
-## <span class="hide-title">Python extension</span>
-
-![](/media/python-extension-vs-code.png){.centre-full-image fig-alt="screen shot of the VS Code Python extension"}
-
-
-## <span class="hide-title">Black formatter extension</span>
-
-![](/media/black-formatter-vs-code.png){.centre-full-image fig-alt="Screen shot of the VS Code Black formatter"}
+* We will get you set up on `Codespace` in your tutor groups.
 
 
 ## Formatting
@@ -590,74 +568,6 @@ READ AND WRITE ACCESS
     )
 ```
 
-## Python must be installed
-
-* You need to make sure you have python installed. 
-* This should be version 3 or above.
-
-## Get the code
-
-* You need to **clone** (basically download) the code for the course from GitHub.
-* Navigate your terminal to the folder where you want to save the course code in.
-* Run the below code:
-
-```{.bash}
-$ git clone https://github.com/letsdodigital/coding-hands-on
-```
-
-
-## Virtual environments
-
-* Needed to stop conflicts with different versions of python libraries across different projects.
-* **cd** into your cloned repository (repo).
-* You now need to create a virtual environment.
-
-```{.bash}
-$ python -m venv .venv
-```
-
-## Activate
-
-* And now activate the virtual environment.
-
-Mac
-```{.bash}
-$ source .venv/bin/activate
-```
-
-\
-Windows
-```{.bash}
-$ .venv/Scripts/activate.bat
-```
-
-
-## Activate
-
-* You should now see `(.venv)` at the start of the command line to signify that you are in a python virtual environment.
-
-```{.bash}
-(.venv) @Username/workspace/ $
-```
-
-
-## Install libraries
-\
-```{.bash}
-$ pip install black
-```
-
-and
-
-```{.bash}
-$ pip install streamlit
-```
-
-and
-
-```{.bash}
-$ pip install st_supabase_connection
-```
 
 ## Finding your way
 

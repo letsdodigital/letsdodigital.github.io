@@ -15,10 +15,11 @@ title-slide-attributes:
 * We hope you enjoy the course and find it helpful.
 * Please provide feedback at the end of the course, so we can help improve things further.
 
+
 ## What are we going to cover? {background-image="/media/whiteboard-flowchart.jpg" background-opacity="0.4"}
 
 * In this 3 hour session, we are going to cover:
-    * Process mapping
+    * Process mapping of consent forms
     * Building a digital consent app
 
 
