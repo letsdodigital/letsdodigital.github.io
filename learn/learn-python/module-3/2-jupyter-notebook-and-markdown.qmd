@@ -120,9 +120,9 @@ title-slide-attributes:
 ![](/media/python-extension-vs-code.png){.centre-full-image fig-alt="screen shot of the VS Code Python extension"}
 
 
-## <span class="hide-title">Black formatter extension</span>
+## <span class="hide-title">Jupyter Notebook extension</span>
 
-![](/media/black-formatter-vs-code.png){.centre-full-image fig-alt="Screen shot of the VS Code Black formatter"}
+![](/media/jupyter-extension.png){.centre-full-image fig-alt="Screen shot of the VS Code Jupyter Extension"}
 
 ## open lesson 1
 

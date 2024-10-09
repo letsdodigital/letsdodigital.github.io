@@ -5,22 +5,16 @@ image: /media/tickets.png
 
 ::: {.panel-tabset}
 
-## Self-paced learning
-
-### Module 0 - Programming in Healthcare
-
-[Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
 ## Upcoming Events
+
+Newly created events are being added to the new [Let's Do Digital event's page](https://letsdodigital.thinkific.com/collections). 
+
+Other events are as below.
 
 ### 24th October 2024
 
 [Let's Talk Digital Conference](/conferences/2024/index.qmd)
-
-
-### 30th October 2024
-
-[{{< var coding-series-title >}} - Module 1 - evening](https://letsdodigital.thinkific.com/products/live_events/module-0-evening-october)
 
 
 ### 6th November 2024
@@ -28,14 +22,15 @@ image: /media/tickets.png
 [{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
 
 
-### 21st November 2024
-
-[{{< var ask-a-clinician-series-title >}} - {{< var aac-5 >}}](https://letsdodigital.thinkific.com/products/live_events/ask-a-clinician-5)
-
-
 ### 27th November 2024
 
 [Introduction to Health Informatics](https://app.medall.org/event-listings/introduction-to-health-informatics) - calling all medical students and junior doctors.
+
+## Self-paced learning
+
+### Module 0 - Programming in Healthcare
+
+[Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
 
 ## Previous events
