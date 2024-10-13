@@ -1,7 +1,9 @@
 ---
 title: "Jupyter Notebook and Markdown"
 author: "{{< var author >}}"
-format: revealjs
+format: 
+    revealjs:
+        code-line-numbers: false
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
@@ -14,26 +16,58 @@ title-slide-attributes:
 
 ## What is Jupyter Notebook?
 
-* Jupyter Notebook is an interactive tool for writing and running code
-* Used mostly for Python but supports other languages
-* Combines code, text, and visualizations in one place
-* Widely used for data science, research, and teaching
+* Jupyter Notebook is an interactive tool for writing and running code.
+* Used mostly for Python but supports other languages.
+* Combines code, text, and visualizations in one place.
+* Widely used for data science, research, and teaching.
 
 
-## Key Features of Jupyter Notebook
+## <span class="hide-title">Jupyter Notebook Interface</span>
 
-* Write and execute code in small sections (cells)
-* Mix code with explanations, images, and graphs
-* Easy to visualise data with built-in support for plots
-* Share work with others in a readable format
+![](/media/jupyter-notebook-screenshot.png){.centre-full-image .bordered-image}
 
 
-## Common Jupyter Notebook Tasks
+## However...
 
-* Run a cell: Select it and press `Shift + Enter`
-* Add text: Use Markdown in a new cell and change it to 'Markdown' mode
-* View results instantly: Print or plot results directly in the notebook
-* Save your work: Notebooks are saved as `.ipynb` files
+* We are going to use `Codespace` with the `Jupyter extension`.
+
+
+## <span class="hide-title">Codespace and Jupyter</span>
+
+![](/media/vs-code-jupyter.png){.centre-full-image-drop}
+
+
+# Key Features of Jupyter Notebook
+
+
+## Write and execute code in cells
+
+![](/media/jupyter-code-run.png){.centre-full-image-drop}
+
+
+## Mix code, explanations, images, and graphs
+
+![](/media/jupyter-text-code-image.png){.centre-full-image-double-drop}
+
+
+## Visualise data
+
+![](/media/jupyter-plotting.png){.centre-full-image-drop}
+
+
+## Share work with others in a readable format.
+
+* Share via GitHub.
+* Share via Google Colab.
+* PDF, HTML, or slides.
+
+
+# Common Jupyter Notebook Tasks
+
+* Run a cell: Select it and press `Shift + Enter`.
+* Add text: Use Markdown in a new cell and change it to 'Markdown' mode.
+* View results instantly: Print or plot results directly in the notebook.
+* Save your work: Notebooks are saved as `.ipynb` files.
 
 
 ## Why Use Jupyter Notebook?
@@ -80,6 +114,126 @@ title-slide-attributes:
 
 
 ## Make a cell ready for Markdown
+
+PICTURE
+
+
+## Headings in markdown
+
+* Use `#` to create headings.
+
+```{.markdown .no-line-numbers}
+# Heading 1
+## Heading 2
+### Heading 3
+```
+
+\
+
+Renders to:
+<div class="render-padding"> 
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+<h3>Heading 3</h3>
+</div>
+
+
+## Comments in markdown
+
+* Use `<!-- -->` to create comments.
+* Same as comments in `html`.
+
+```markdown
+<!-- This is a comment -->
+This is not a comment
+```
+
+\
+
+Renders to:
+<div class="render-padding"> 
+This is not a comment
+</div>
+
+
+## Bold
+
+* Use `**` to make text bold.
+
+```markdown
+**This is bold text**
+```
+\
+
+Renders to:
+<div class="render-padding"> 
+<strong>This is bold text</strong> 
+</div>
+
+
+## Italic
+
+* Use `*` to make text italic.
+
+```{.markdown}
+*This is italic text*
+```
+
+\
+
+Renders to:
+<div class="render-padding"> 
+<em>This is italic text</em>
+</div>
+
+
+## Lists
+
+* Use `*` or `-` to create bullet points.
+
+```{.markdown}
+* Item 1
+* Item 2
+```
+
+\
+
+Renders to:
+<div class="render-padding">
+<ul>
+<li>Item 1</li>
+<li>Item 2</li>
+</ul>
+</div>
+
+
+## Numbered lists
+
+* Use `1.` to create numbered lists.
+
+```{.markdown}
+1. Item 1
+2. Item 2
+```
+
+\
+
+Renders to:
+<div class="render-padding">
+<ol>
+<li>Item 1</li>
+<li>Item 2</li>
+</ol>
+</div>
+
+
+## Open a file in Jupyter
+
+```{.python filename="open_a_file.py"}
+with open('test_text.txt', 'r') as file:
+    content = file.read()
+
+```
 
 
 # Start up a Codespace session
