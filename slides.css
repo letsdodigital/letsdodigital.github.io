@@ -55,6 +55,17 @@
   max-height: 100%;
 }
 
+.centre-full-image-double-drop {
+  position: absolute;
+  top:60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .bottom-right {
   position: fixed;
   bottom: 0;
@@ -121,4 +132,14 @@
 
 .full-width {
   width: 100% !important;
+}
+
+.render-padding {
+    padding-left: 50px;
+    padding-top: 1em;
+}
+
+.bordered-image {
+  border: 1px solid black;
+  border-radius: 10px;
 }

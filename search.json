@@ -2853,7 +2853,7 @@
     "href": "conferences/2024/agenda.html#debate---this-house-believes-that-the-nhs-should-be-using-open-source-wherever-possible",
     "title": "Agenda 2024",
     "section": "12:00 – Debate - This house believes that the NHS should be using open source wherever possible",
-    "text": "12:00 – Debate - This house believes that the NHS should be using open source wherever possible\nChair\n\n    \n        \n            \n        \n        \n            James Freed - Deputy Director, NHS Digital Academy\n        \n    \n\nFor\n\n    \n        \n            \n        \n        \n            Paul Drake - Plastic surgeon, CCIO and clinician-who-codes at East Grinstead Hospital\n        \n    \n\nAgainst\n\n    \n        \n            \n        \n        \n            Geoff Revill - Managing Director, Safe Space One Ltd. Director of the South West Cyber Security Cluster\n        \n    \n\n(2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)"
+    "text": "12:00 – Debate - This house believes that the NHS should be using open source wherever possible\nChair\n\n    \n        \n            \n        \n        \n            James Freed - Deputy Director, NHS Digital Academy\n        \n    \n\nFor\n\n    \n        \n            \n        \n        \n            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust\n        \n    \n\nAgainst\n\n    \n        \n            \n        \n        \n            Geoff Revill - Managing Director, Safe Space One Ltd. Director of the South West Cyber Security Cluster\n        \n    \n\n(2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)"
   },
   {
     "objectID": "conferences/2024/agenda.html#lunch",
@@ -4659,21 +4659,56 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-jupyter-notebook",
     "title": "Jupyter Notebook and Markdown",
     "section": "What is Jupyter Notebook?",
-    "text": "What is Jupyter Notebook?\n\nJupyter Notebook is an interactive tool for writing and running code\nUsed mostly for Python but supports other languages\nCombines code, text, and visualizations in one place\nWidely used for data science, research, and teaching"
+    "text": "What is Jupyter Notebook?\n\nJupyter Notebook is an interactive tool for writing and running code.\nUsed mostly for Python but supports other languages.\nCombines code, text, and visualizations in one place.\nWidely used for data science, research, and teaching."
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#key-features-of-jupyter-notebook",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#key-features-of-jupyter-notebook",
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#jupyter-notebook-interface",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#jupyter-notebook-interface",
     "title": "Jupyter Notebook and Markdown",
-    "section": "Key Features of Jupyter Notebook",
-    "text": "Key Features of Jupyter Notebook\n\nWrite and execute code in small sections (cells)\nMix code with explanations, images, and graphs\nEasy to visualise data with built-in support for plots\nShare work with others in a readable format"
+    "section": "Jupyter Notebook Interface",
+    "text": "Jupyter Notebook Interface"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-jupyter-notebook-tasks",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-jupyter-notebook-tasks",
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#however",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#however",
     "title": "Jupyter Notebook and Markdown",
-    "section": "Common Jupyter Notebook Tasks",
-    "text": "Common Jupyter Notebook Tasks\n\nRun a cell: Select it and press Shift + Enter\nAdd text: Use Markdown in a new cell and change it to ‘Markdown’ mode\nView results instantly: Print or plot results directly in the notebook\nSave your work: Notebooks are saved as .ipynb files"
+    "section": "However…",
+    "text": "However…\n\nWe are going to use Codespace with the Jupyter extension."
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#codespace-and-jupyter",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#codespace-and-jupyter",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Codespace and Jupyter",
+    "text": "Codespace and Jupyter"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#write-and-execute-code-in-cells",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#write-and-execute-code-in-cells",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Write and execute code in cells",
+    "text": "Write and execute code in cells"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#mix-code-explanations-images-and-graphs",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#mix-code-explanations-images-and-graphs",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Mix code, explanations, images, and graphs",
+    "text": "Mix code, explanations, images, and graphs"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#visualise-data",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#visualise-data",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Visualise data",
+    "text": "Visualise data"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#share-work-with-others-in-a-readable-format.",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#share-work-with-others-in-a-readable-format.",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Share work with others in a readable format.",
+    "text": "Share work with others in a readable format.\n\nShare via GitHub.\nShare via Google Colab.\nPDF, HTML, or slides."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-jupyter-notebook",
@@ -4715,7 +4750,56 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#make-a-cell-ready-for-markdown",
     "title": "Jupyter Notebook and Markdown",
     "section": "Make a cell ready for Markdown",
-    "text": "Make a cell ready for Markdown"
+    "text": "Make a cell ready for Markdown\nPICTURE"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#headings-in-markdown",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#headings-in-markdown",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Headings in markdown",
+    "text": "Headings in markdown\n\nUse # to create headings.\n\n# Heading 1\n## Heading 2\n### Heading 3\n\n\nRenders to:\n\n\nHeading 1\n\n\nHeading 2\n\n\nHeading 3"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#comments-in-markdown",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#comments-in-markdown",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Comments in markdown",
+    "text": "Comments in markdown\n\nUse &lt;!-- --&gt; to create comments.\nSame as comments in html.\n\n&lt;!-- This is a comment --&gt;\nThis is not a comment\n\n\nRenders to:\n\nThis is not a comment"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#bold",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#bold",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Bold",
+    "text": "Bold\n\nUse ** to make text bold.\n\n**This is bold text**\n\n\nRenders to:\n\nThis is bold text"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#italic",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#italic",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Italic",
+    "text": "Italic\n\nUse * to make text italic.\n\n*This is italic text*\n\n\nRenders to:\n\nThis is italic text"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#lists",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#lists",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Lists",
+    "text": "Lists\n\nUse * or - to create bullet points.\n\n* Item 1\n* Item 2\n\n\nRenders to:\n\n\n\nItem 1\n\n\nItem 2"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#numbered-lists",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#numbered-lists",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Numbered lists",
+    "text": "Numbered lists\n\nUse 1. to create numbered lists.\n\n1. Item 1\n2. Item 2\n\n\nRenders to:\n\n\n\nItem 1\n\n\nItem 2"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-a-file-in-jupyter",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-a-file-in-jupyter",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Open a file in Jupyter",
+    "text": "Open a file in Jupyter\n\n\nopen_a_file.py\n\nwith open('test_text.txt', 'r') as file:\n    content = file.read()"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#codespace-light-theme",

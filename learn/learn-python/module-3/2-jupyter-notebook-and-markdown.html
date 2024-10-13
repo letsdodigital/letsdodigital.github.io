@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../../../slides.css">
@@ -349,28 +414,59 @@ Let’s Do Digital Team
 <section id="what-is-jupyter-notebook" class="slide level2">
 <h2>What is Jupyter Notebook?</h2>
 <ul>
-<li>Jupyter Notebook is an interactive tool for writing and running code</li>
-<li>Used mostly for Python but supports other languages</li>
-<li>Combines code, text, and visualizations in one place</li>
-<li>Widely used for data science, research, and teaching</li>
+<li>Jupyter Notebook is an interactive tool for writing and running code.</li>
+<li>Used mostly for Python but supports other languages.</li>
+<li>Combines code, text, and visualizations in one place.</li>
+<li>Widely used for data science, research, and teaching.</li>
 </ul>
 </section>
-<section id="key-features-of-jupyter-notebook" class="slide level2">
-<h2>Key Features of Jupyter Notebook</h2>
+<section id="jupyter-notebook-interface" class="slide level2">
+<h2><span class="hide-title">Jupyter Notebook Interface</span></h2>
+
+<img data-src="../../../media/jupyter-notebook-screenshot.png" class="centre-full-image bordered-image r-stretch"></section>
+<section id="however" class="slide level2">
+<h2>However…</h2>
 <ul>
-<li>Write and execute code in small sections (cells)</li>
-<li>Mix code with explanations, images, and graphs</li>
-<li>Easy to visualise data with built-in support for plots</li>
-<li>Share work with others in a readable format</li>
+<li>We are going to use <code>Codespace</code> with the <code>Jupyter extension</code>.</li>
 </ul>
 </section>
-<section id="common-jupyter-notebook-tasks" class="slide level2">
-<h2>Common Jupyter Notebook Tasks</h2>
+<section id="codespace-and-jupyter" class="slide level2">
+<h2><span class="hide-title">Codespace and Jupyter</span></h2>
+
+<img data-src="../../../media/vs-code-jupyter.png" class="centre-full-image-drop r-stretch"></section></section>
+<section>
+<section id="key-features-of-jupyter-notebook" class="title-slide slide level1 center">
+<h1>Key Features of Jupyter Notebook</h1>
+
+</section>
+<section id="write-and-execute-code-in-cells" class="slide level2">
+<h2>Write and execute code in cells</h2>
+
+<img data-src="../../../media/jupyter-code-run.png" class="centre-full-image-drop r-stretch"></section>
+<section id="mix-code-explanations-images-and-graphs" class="slide level2">
+<h2>Mix code, explanations, images, and graphs</h2>
+
+<img data-src="../../../media/jupyter-text-code-image.png" class="centre-full-image-double-drop r-stretch"></section>
+<section id="visualise-data" class="slide level2">
+<h2>Visualise data</h2>
+
+<img data-src="../../../media/jupyter-plotting.png" class="centre-full-image-drop r-stretch"></section>
+<section id="share-work-with-others-in-a-readable-format." class="slide level2">
+<h2>Share work with others in a readable format.</h2>
 <ul>
-<li>Run a cell: Select it and press <code>Shift + Enter</code></li>
-<li>Add text: Use Markdown in a new cell and change it to ‘Markdown’ mode</li>
-<li>View results instantly: Print or plot results directly in the notebook</li>
-<li>Save your work: Notebooks are saved as <code>.ipynb</code> files</li>
+<li>Share via GitHub.</li>
+<li>Share via Google Colab.</li>
+<li>PDF, HTML, or slides.</li>
+</ul>
+</section></section>
+<section>
+<section id="common-jupyter-notebook-tasks" class="title-slide slide level1 center">
+<h1>Common Jupyter Notebook Tasks</h1>
+<ul>
+<li>Run a cell: Select it and press <code>Shift + Enter</code>.</li>
+<li>Add text: Use Markdown in a new cell and change it to ‘Markdown’ mode.</li>
+<li>View results instantly: Print or plot results directly in the notebook.</li>
+<li>Save your work: Notebooks are saved as <code>.ipynb</code> files.</li>
 </ul>
 </section>
 <section id="why-use-jupyter-notebook" class="slide level2">
@@ -425,6 +521,123 @@ Let’s Do Digital Team
 </section>
 <section id="make-a-cell-ready-for-markdown" class="slide level2">
 <h2>Make a cell ready for Markdown</h2>
+<p>PICTURE</p>
+</section>
+<section id="headings-in-markdown" class="slide level2">
+<h2>Headings in markdown</h2>
+<ul>
+<li>Use <code>#</code> to create headings.</li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown no-line-numbers code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu"># Heading 1</span></span>
+<span id="cb1-2"><a aria-hidden="true" tabindex="-1"></a><span class="fu">## Heading 2</span></span>
+<span id="cb1-3"><a aria-hidden="true" tabindex="-1"></a><span class="fu">### Heading 3</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+Renders to:
+<div class="render-padding">
+<h1>
+Heading 1
+</h1>
+<h2>
+Heading 2
+</h2>
+<h3>
+Heading 3
+</h3>
+</div>
+</section>
+<section id="comments-in-markdown" class="slide level2">
+<h2>Comments in markdown</h2>
+<ul>
+<li>Use <code>&lt;!-- --&gt;</code> to create comments.</li>
+<li>Same as comments in <code>html</code>.</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a aria-hidden="true" tabindex="-1"></a><span class="co">&lt;!-- This is a comment --&gt;</span></span>
+<span id="cb2-2"><a aria-hidden="true" tabindex="-1"></a>This is not a comment</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+Renders to:
+<div class="render-padding">
+<p>This is not a comment</p>
+</div>
+</section>
+<section id="bold" class="slide level2">
+<h2>Bold</h2>
+<ul>
+<li>Use <code>**</code> to make text bold.</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a>**This is bold text**</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+Renders to:
+<div class="render-padding">
+<p><strong>This is bold text</strong></p>
+</div>
+</section>
+<section id="italic" class="slide level2">
+<h2>Italic</h2>
+<ul>
+<li>Use <code>*</code> to make text italic.</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a>*This is italic text*</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+Renders to:
+<div class="render-padding">
+<p><em>This is italic text</em></p>
+</div>
+</section>
+<section id="lists" class="slide level2">
+<h2>Lists</h2>
+<ul>
+<li>Use <code>*</code> or <code>-</code> to create bullet points.</li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Item 1</span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Item 2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+Renders to:
+<div class="render-padding">
+<ul>
+<li>
+Item 1
+</li>
+<li>
+Item 2
+</li>
+</ul>
+</div>
+</section>
+<section id="numbered-lists" class="slide level2">
+<h2>Numbered lists</h2>
+<ul>
+<li>Use <code>1.</code> to create numbered lists.</li>
+</ul>
+<div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Item 1</span>
+<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Item 2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><br>
+</p>
+Renders to:
+<div class="render-padding">
+<ol>
+<li>
+Item 1
+</li>
+<li>
+Item 2
+</li>
+</ol>
+</div>
+</section>
+<section id="open-a-file-in-jupyter" class="slide level2">
+<h2>Open a file in Jupyter</h2>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>open_a_file.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb7" data-filename="open_a_file.py"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">'test_text.txt'</span>, <span class="st">'r'</span>) <span class="im">as</span> <span class="bu">file</span>:</span>
+<span id="cb7-2"><a aria-hidden="true" tabindex="-1"></a>    content <span class="op">=</span> <span class="bu">file</span>.read()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 </section></section>
 <section>
 <section id="start-up-a-codespace-session" class="title-slide slide level1 center">
