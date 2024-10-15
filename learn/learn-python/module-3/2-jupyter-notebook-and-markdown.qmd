@@ -62,10 +62,25 @@ title-slide-attributes:
 * PDF, HTML, or slides.
 
 
-# Common Jupyter Notebook Tasks
+## Common Jupyter Notebook Tasks
 
-* Run a cell: Select it and press `Shift + Enter`.
+* Run a cell: Press the `Play` button.
+
+```{=html}
+<div class="image-container-play">
+  <img src="/media/jupyter-play-all-button.png">
+  or 
+  <img src="/media/jupyter-play-button.png">
+</div>
+```
+
+
+## Common Jupyter Notebook Tasks
+
 * Add text: Use Markdown in a new cell and change it to 'Markdown' mode.
+
+![](/media/jupyter-to-markdown.png){.half-width}
+
 * View results instantly: Print or plot results directly in the notebook.
 * Save your work: Notebooks are saved as `.ipynb` files.
 

@@ -143,3 +143,21 @@
   border: 1px solid black;
   border-radius: 10px;
 }
+
+.image-container-play {
+  display: flex;
+  justify-content: center;
+}
+
+.image-container-play img {
+  height: 100px; 
+  margin: 0 5px;
+  object-fit: cover;
+}
+
+.half-width {
+  width: 50% !important;
+  max-width: 50%;
+  height: auto !important;
+  justify-content: center;
+}
