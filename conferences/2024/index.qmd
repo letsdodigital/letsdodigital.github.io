@@ -12,7 +12,7 @@ description: "Thursday 24th October"
 
 ## How to attend on the day
 
-*Information about virtual attendance will be updated here on the day. If you do not see information about a link to the YouTube live stream, please refresh your browser (F5 will do it). In person information can be found on the [maps](maps.qmd) page*
+*Information about virtual attendance will be updated here on the day. If you do not see information about a link to the YouTube live stream, please refresh your browser (F5 will do it). In person information can be found on the [maps](maps.qmd) page*.
 
 
 ## What is Let's Talk Digital?
