@@ -1,8 +1,12 @@
 ---
-title: "Core Python for Image Processing" # "{{< var dair-seminar-0 >}}"
+title: "Core Python for Image Processing"
 author: "DAIM - Images - Seminar 2"
 format: revealjs
 logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes: 
+  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-opacity: "0.6"
 ---
 
 ## Introduction {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
@@ -251,15 +255,26 @@ Find a clinical example of convolution?
 **Part 3 - What is PIL?**
 :::
 
+## Python Imaging Library {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+
+* **Python Imaging Library (PIL)** is a commonly used library that contains useful methods for **opening and processing** images
+* The most commonly used part of the package is the `Image` module.
+    * Other modules contain methods for doing specific image operations, like **filtering** and **enhancement**
+
+```python
+from PIL import Image
+```
 
 #
 :::{.r-stack}
 **Part 4 - What is NumPy?**
 :::
 
-## NumPy
+## NumPy {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
-* NumPy is a Python package
+
+* **NumPy** is a Python package which is used for doing operations on **multidimensional arrays of numbers**
+* This is how images are represented, and so NumPy contains lots of functions which are useful for manipulating images.
 
 ## How does array shape work?
 
@@ -273,7 +288,7 @@ Find a clinical example of convolution?
 
 ![Visualisation of the same data with different dimension structure](/media/daim/np_shape_2.png){width="70%"}
 
-## How does this relate to images?
+## How does this relate to images? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 ::: {.panel-tabset}
 
