@@ -289,10 +289,10 @@ title: "Agenda 2024"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/grant-vallance-circle.png" alt="picture of Grant Vallance" class="agenda-image-small">
+            <img src="/media/alexandre-mathy.png" alt="picture of Alexandre Mathy" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust
+            Alexandre Mathy - Consultant Neurologist at the Great Western Hospital, Oxford University Hospitals and Lead Clinician for the Community Headache Clinic.
         </div>
     </div>
 </div>
