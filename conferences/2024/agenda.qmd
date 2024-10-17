@@ -260,7 +260,7 @@ title: "Agenda 2024"
 </div>
 ```
 
-14:15 – – **Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications**
+14:15 – **Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications**
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
