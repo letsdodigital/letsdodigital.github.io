@@ -76,7 +76,7 @@ title: "Agenda 2024"
             <img src="/media/alexandre-mathy.png" alt="picture of Alexandre Mathy" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Alexandre Mathy - Consultant Neurologist at the Great Western Hospital, Oxford University Hospitals and Lead Clinician for the Community Headache Clinic.
+            Alexandre Mathy - Consultant Neurologist at the Great Western Hospital, Oxford University Hospitals and Lead Clinician for the Community Headache Clinic
         </div>
     </div>
 </div>
@@ -292,13 +292,13 @@ title: "Agenda 2024"
             <img src="/media/alexandre-mathy.png" alt="picture of Alexandre Mathy" class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            Alexandre Mathy - Consultant Neurologist at the Great Western Hospital, Oxford University Hospitals and Lead Clinician for the Community Headache Clinic.
+            Alexandre Mathy - Consultant Neurologist at the Great Western Hospital, Oxford University Hospitals and Lead Clinician for the Community Headache Clinic
         </div>
     </div>
 </div>
 ```
 
-15:25 – **Poster awards**
+15:25 – **Voster (video poster) awards**
 
 15:35 – **MedEd Connect: Transforming Medical Education through Digital Technology**  
 ```{=html}
