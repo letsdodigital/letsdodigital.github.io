@@ -1526,6 +1526,55 @@
     "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show that this is the command line):\n\n    $ cd programming_in_healthcare/module_0\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file. \n\n\n    Python basics"
   },
   {
+    "objectID": "learn/BIFFPE/overview.html",
+    "href": "learn/BIFFPE/overview.html",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "What is front-end development?\nWhy it’s important for modern web applications.\nHTML and CSS: The building blocks of webpages.\nUnderstanding the structure of a basic webpage.\nThe role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).\n\n\n\n\n\n\nSetting up an environment for HTML coding.\nCore HTML structure, the humble &lt;div&gt;.\nHTML expanded: Elements beyond the &lt;div&gt;.\nCSS: Shaping the way HTML looks.\nHealthcare example: Building a simple “About the Clinic” webpage.\n\n\n\n\n\n\nLinks: Navigating between pages and around the web.\nImages: Enhancing the user experience with visuals.\nLists: The backbone of data management and display.\nStyling elements for better user experience.\nHealthcare example: Creating a navigation menu for a medical portal.\n\n\n\n\n\n\nUnderstanding layouts with Flexbox.\nResponsive design using CSS Grid.\nStyling buttons and healthcare forms.\nHealthcare example: Designing a patient form (Part 1): Layout and styling.\n\n\n\n\n\n\nForms: When and why to use forms for user inputs (gathering patient data).\nButtons & Inputs: How to create and style interactive buttons.\nIntroduction to form validation and accessibility.\nHealthcare example: Designing a patient form (Part 2): Form and functionality.\n\n\n\n\n\n\nIntroduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox.\nLoops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
+  },
+  {
+    "objectID": "learn/BIFFPE/overview.html#module-0-what-even-is-a-website",
+    "href": "learn/BIFFPE/overview.html#module-0-what-even-is-a-website",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "What is front-end development?\nWhy it’s important for modern web applications.\nHTML and CSS: The building blocks of webpages.\nUnderstanding the structure of a basic webpage.\nThe role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals)."
+  },
+  {
+    "objectID": "learn/BIFFPE/overview.html#module-1-building-blocks-html-css-essentials",
+    "href": "learn/BIFFPE/overview.html#module-1-building-blocks-html-css-essentials",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "Setting up an environment for HTML coding.\nCore HTML structure, the humble &lt;div&gt;.\nHTML expanded: Elements beyond the &lt;div&gt;.\nCSS: Shaping the way HTML looks.\nHealthcare example: Building a simple “About the Clinic” webpage."
+  },
+  {
+    "objectID": "learn/BIFFPE/overview.html#module-2-foundation-interactivity-links-images-and-lists",
+    "href": "learn/BIFFPE/overview.html#module-2-foundation-interactivity-links-images-and-lists",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "Links: Navigating between pages and around the web.\nImages: Enhancing the user experience with visuals.\nLists: The backbone of data management and display.\nStyling elements for better user experience.\nHealthcare example: Creating a navigation menu for a medical portal."
+  },
+  {
+    "objectID": "learn/BIFFPE/overview.html#module-3-responsive-design-grid-flexbox",
+    "href": "learn/BIFFPE/overview.html#module-3-responsive-design-grid-flexbox",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "Understanding layouts with Flexbox.\nResponsive design using CSS Grid.\nStyling buttons and healthcare forms.\nHealthcare example: Designing a patient form (Part 1): Layout and styling."
+  },
+  {
+    "objectID": "learn/BIFFPE/overview.html#module-4-buttons-forms-interaction-matters",
+    "href": "learn/BIFFPE/overview.html#module-4-buttons-forms-interaction-matters",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "Forms: When and why to use forms for user inputs (gathering patient data).\nButtons & Inputs: How to create and style interactive buttons.\nIntroduction to form validation and accessibility.\nHealthcare example: Designing a patient form (Part 2): Form and functionality."
+  },
+  {
+    "objectID": "learn/BIFFPE/overview.html#module-5-making-websites-move-javascript-101",
+    "href": "learn/BIFFPE/overview.html#module-5-making-websites-move-javascript-101",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "Introduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox.\nLoops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
+  },
+  {
     "objectID": "services-we-offer.html",
     "href": "services-we-offer.html",
     "title": "Services we offer",
@@ -3281,6 +3330,13 @@
     "title": "Let’s Do Digital",
     "section": "How to get involved",
     "text": "How to get involved\nDo you want to get involved in current Let’s Do Digital projects? Do you have a webinar series, course or app that you want to get off the ground with the help of the Let’s Do Digital. Come join us for networking, collaboration and innovation. Email the team at Let’s Do Digital. Better yet, join our forum at Digital Health Discourse."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-0/1-what-is-front-end.html#front-end-an-overview",
+    "href": "learn/BIFFPE/module-0/1-what-is-front-end.html#front-end-an-overview",
+    "title": "Module-0",
+    "section": "Front-end an Overview",
+    "text": "Front-end an Overview\n\nEvery time you interact with a website using a browser such as Chrome or Edge"
   },
   {
     "objectID": "learn/learn-python/module-0/1-introduction.html#introduction",
