@@ -8,7 +8,7 @@ title: "Agenda 2024"
 
 8:30 – **Welcome coffee and tea**
 
-9:30 – **Opening talk**
+9:25 – **Opening talk**
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
