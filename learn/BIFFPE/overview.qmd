@@ -1,0 +1,65 @@
+---
+title: "Building Interactive Front-ends For Patient Engagement"
+author: "Keith Blackwood"
+format: html
+---
+
+# Course Outline
+
+## Module 0: What Even Is a Website?
+
+- **What is front-end development?**
+- Why it’s important for modern web applications.
+- **HTML and CSS**: The building blocks of webpages.
+- Understanding the structure of a basic webpage.
+- The role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).
+
+---
+
+## Module 1: Building Blocks – HTML & CSS Essentials
+
+- Setting up an environment for HTML coding.
+- Core HTML structure, the humble `<div>`.
+- HTML expanded: Elements beyond the `<div>`.
+- **CSS**: Shaping the way HTML looks.
+- **Healthcare example**: Building a simple "About the Clinic" webpage.
+
+---
+
+## Module 2: Foundation Interactivity – Links, Images, and Lists
+
+- **Links**: Navigating between pages and around the web.
+- **Images**: Enhancing the user experience with visuals.
+- **Lists**: The backbone of data management and display.
+- Styling elements for better user experience.
+- **Healthcare example**: Creating a navigation menu for a medical portal.
+
+---
+
+## Module 3: Responsive Design, Grid, Flexbox
+
+- Understanding layouts with **Flexbox**.
+- Responsive design using **CSS Grid**.
+- Styling buttons and healthcare forms.
+- **Healthcare example**: Designing a patient form (Part 1): Layout and styling.
+
+---
+
+## Module 4: Buttons & Forms – Interaction Matters!
+
+- **Forms**: When and why to use forms for user inputs (gathering patient data).
+- **Buttons & Inputs**: How to create and style interactive buttons.
+- Introduction to **form validation** and accessibility.
+- **Healthcare example**: Designing a patient form (Part 2): Form and functionality.
+
+---
+
+## Module 5: Making Websites Move – JavaScript 101
+
+- Introduction to **JavaScript**: Bringing interactivity to websites.
+- Why use JavaScript? The importance of dynamic content and behavior.
+- **Variables** in JavaScript: Storing and manipulation of data.
+- Setting up a **JavaScript testing sandbox**.
+- **Loops** in JavaScript: Automating repetitive tasks.
+- Building our first function: A phone number validator.
+

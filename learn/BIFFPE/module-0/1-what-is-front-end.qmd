@@ -1,0 +1,21 @@
+---
+title: "Module-0"
+author: "Keith Blackwood"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-color: "#0D4848"
+    data-background-video: "/media/waves-on-beach.mp4"
+    data-background-video-loop: true
+---
+
+# What is Front-end Development?
+
+## Front-end an Overview {background-image="/media/denny-muller-JySoEnr-eOg-unsplash.jpg" background-opacity="0.4"}
+
+
+<!-- Photo by <a href="https://unsplash.com/@redaquamedia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Denny Müller</a> on <a href="https://unsplash.com/photos/logo-JySoEnr-eOg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+   -->
+
+Every time you interact with a website using a browser such as Chrome or Edge
