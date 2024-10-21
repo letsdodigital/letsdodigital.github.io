@@ -10,12 +10,53 @@ title-slide-attributes:
     data-background-video-loop: true
 ---
 
-# What is Front-end Development?
-
-## Front-end an Overview {background-image="/media/denny-muller-JySoEnr-eOg-unsplash.jpg" background-opacity="0.4"}
 
 
-<!-- Photo by <a href="https://unsplash.com/@redaquamedia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Denny Müller</a> on <a href="https://unsplash.com/photos/logo-JySoEnr-eOg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-   -->
+## Front-end: An Overview {background-image="/media/denny-muller-JySoEnr-eOg-unsplash.jpg" background-opacity="0.2"}
 
-Every time you interact with a website using a browser such as Chrome or Edge
+* Every time you interact with a website using a browser such as Chrome or Edge, data is displayed onto your screen.
+* Words, pictures, buttons you click, how it looks and what happens all creates a user experience.
+* This is known as a **User Interface**, and is the core of **Front-End development**.
+
+<footer style="position: absolute; bottom: 20px; left: 20px;">
+Photo by <a href="https://unsplash.com/@redaquamedia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Denny Müller</a> on <a href="https://unsplash.com/photos/logo-JySoEnr-eOg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+</footer>
+
+
+## Front-End: An Overview
+
+* Go to this website (to be created) with your browser of choice, right-click, and select 'Inspect'.
+* In the Elements tab, you will see a `<!DOCTYPE html>`, with a `<header>` and `<body>` section. In the `<body>`, you'll notice `<div>`s and `<script>`s are present.
+* This structure represents the core design of a website.
+
+
+## Front-End: An Overview
+
+* **HyperText Markup Language (HTML)** provides structure in the elements, while **Cascading Style Sheets (CSS)** define the layout and design.
+* **JavaScript**, written inside `<script>` tags, adds interactivity, making the page come alive.
+* Together, HTML, CSS, and JavaScript create a highly customizable and interactive **User Experience**.
+
+
+## Why Learn Front-End Design?
+
+* **Front-end is critical to user engagement**.
+* Fast-loading, intuitive, and interactive websites drive up user engagement, reduce user errors, and increase the efficient use of databases.
+* Skilled front-end engineering creates websites that are adaptable across various devices, from phones and tablets to PCs.
+
+
+## What's in This Course
+
+* Explore the basics of front-end design and development.
+* Use **Git Codespaces** to create a simple website using **HTML**.
+* Learn how to style and make the website responsive using **CSS**.
+* After an introduction to **JavaScript**, we'll add interactivity with simple scripts.
+
+
+## Tutor groups
+
+* Tutor groups?
+
+
+## Next Session 
+
+* HTML first steps
