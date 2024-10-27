@@ -1,6 +1,6 @@
 ---
 title: "Core Python for Image Processing"
-author: "DAIM - Images - Seminar 2"
+author: "DAIM Team"
 format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
@@ -305,6 +305,74 @@ from PIL import Image
 
 :::
 
-## Thank you! {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+#
+:::{.r-stack}
+**Quiz questions - NumPy Representation**
+:::
+
+## Example 1 {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+
+::: {.panel-tabset}
+
+### Question 
+
+* A **greyscale image** of an ultrasound scan is opened in NumPy.
+* It is a **square image** with a dimension of 50 pixels.
+* What is its shape?
+
+### Answer
+
+```python
+us_image_shape = (50, 50)
+
+# Practically, greyscale images may have an extra channel when imported...
+us_image_shape = (50, 50, 1)
+```
+
+:::
+
+## Example 2 {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+
+::: {.panel-tabset}
+
+### Question 
+
+* A **colour image** of a dermatofibroma is opened by a dermatology researcher with NumPy.
+* It is a **frame from a video sequence** with **1080p resolution**.
+* What is the shape of the image?
+
+### Answer
+
+```python
+# There are 3 channels for colour and the dimensions of
+# 1080p video are 1920 x 1080.
+derm_image_shape = (1920, 1080, 3)
+```
+
+:::
+
+## Example 3 {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+
+::: {.panel-tabset}
+
+### Question 
+
+* A DAIM course participant is batching **multiple CXR images** together for input into a neural network.
+* The images are **greyscale** and have been cropped to a **square** with a dimension of **256**.
+* There are **16 images** in each batch.
+* What is the shape of the **final batch** array?
+
+### Answer
+
+```python
+# There are 16 images in each batch, and each
+# image is 256 x 256.
+cxr_batch_shape = (16, 256, 256)
+```
+
+:::
+
+
+## Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 Any questions?

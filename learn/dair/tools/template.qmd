@@ -76,6 +76,21 @@ course = "DAIM"
 print(f"{course} is fantastic...")
 ```
 
+
+## Questions {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+
+::: {.panel-tabset}
+
+### Question 
+
+* Question
+
+### Answer
+
+* Answer
+
+:::
+
 ## Further suggestions {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
 
 * Please message the Signal if you can think of **ways to improve** this visual style!
