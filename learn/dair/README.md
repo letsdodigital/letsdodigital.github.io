@@ -1,6 +1,6 @@
 ## Overview
 
-This folder contains the Quarto files for the DAIR seminars.
+This folder contains the Quarto files for the DAIR seminars. The `./tools/template.qmd` file provides a Quarto template for those unfamilar with Quarto to give the course a coherent visual style.
 
 ## Course Introduction
 

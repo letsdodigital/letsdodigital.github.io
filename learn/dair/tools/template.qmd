@@ -1,0 +1,86 @@
+---
+title: "Template for DAIM"
+author: "DAIM Team"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes: 
+  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-opacity: "0.6"
+---
+
+## Introduction {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
+
+* This is a template for the **DAIM - Images** course.
+* Try to keep written information on a slide in **small**, **digestible** chunks.
+* Use **bolding** to make the text **easier to parse.**
+
+## Backgrounds {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
+
+* Use the **red, green and blue** voxel backgrounds.
+* These come in **left** and **right** orientations.
+* They can be found in this directory: `/media/daim/bg_cubes*`
+
+## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+* Use these five-minute discussions to bring more **interactivity** to the seminars
+* **Do not overuse** these.
+    * Freddie is prone to doing this
+* Please use the voxel question mark background
+
+## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
+
+#
+:::{.r-stack}
+**This is an intermediate title slide.**
+:::
+
+## When should I use intermediate title slide?{background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* These should be used to seperate **logical parts** of the seminars
+* This is shown in the curriculum by **indented blocks** of learning points.
+* **Feel free to rearrange** these as appropriate
+
+## Using images {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* The syntax shown here can be used to **display images**
+* All images for the course should be located under `media/daim`
+    * Feel free to create **subdirectories**
+
+![This is a caption.](/media/daim/sharp_cat.png)
+
+<!--
+If you want to leave a comment for presenters or yourself, use HTML comment syntax as shown here!
+-->
+
+## Using multiple slide tabs {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+::: {.panel-tabset}
+
+### Example 1
+
+* These slides are useful for creating **comparisons**.
+
+### Example 2
+
+* I love Quarto.
+
+:::
+
+## Showing code {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* Python code should be shown in **Markdown** syntax.
+
+```python
+course = "DAIM"
+print(f"{course} is fantastic...")
+```
+
+## Further suggestions {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+* Please message the Signal if you can think of **ways to improve** this visual style!
+* Please add examples of **additional slide styles** as you go along
+
+## Thank you! {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
+
+Any questions?

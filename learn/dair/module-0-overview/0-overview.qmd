@@ -9,9 +9,7 @@ title-slide-attributes:
   data-background-opacity: "0.6"
 ---
 
-
 ## Introduction {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
-
 
 * Welcome to the **Data Analytics in Medicine (DAIM)** course!
 * In the coming weeks, we will be covering a range of topics from **basic data visualisation** all the way up to **machine learning**
