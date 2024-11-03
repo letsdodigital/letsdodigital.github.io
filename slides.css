@@ -39,6 +39,17 @@
   color: white;
 }
 
+.full-image-centre {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
 .centre-full-image {
   position: absolute;
   top: 50%;
@@ -48,6 +59,10 @@
   height: auto;
   max-width: 100%;
   max-height: 100%;
+}
+
+.top-55 {
+  top: 55%;
 }
 
 .top-65 {

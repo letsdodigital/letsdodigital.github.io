@@ -21,35 +21,28 @@ title-slide-attributes:
 
 ## What is Pandas?
 
-* Pandas is a tool for working with data in Python
-* It works on 2-dimensional data only called dataframes.
-* It helps you organise and analyse data in tables
-* Great for working with spreadsheets or databases
-* Widely used in data science
-
-
-## Key Concepts in Pandas
-
-* **DataFrame**: A table of data (rows and columns)
-* **Series**: A single column of data
-* You can filter, sort, and change the data
-* Easy to read from and write to files like CSVs
+* Pandas is a library for working with `tabular` data in Python.
+* The 2-dimensional data is stored and manipulated in `dataframes`.
+* It helps you organise and analyse data in tables.
+* Great for working with spreadsheets or databases.
+* Widely used in data science.
 
 
 ## Common Pandas Tasks
 
-* Load data from a file: `pd.read_csv('file.csv')`
-* View data: `df.head()` (shows first few rows)
-* Filter data: `df[df['Age'] > 50]`
-* Save data: `df.to_csv('new_file.csv')`
+* Load data from a file.
+* View data.
+* Edit data.
+* Filter data.
+* Save data back to a file.
 
 
 ## Why Use Pandas?
 
-* Easy to learn and very useful
-* Works well with big datasets
-* Helps you clean and analyse data
-* A key tool for data analysis in Python
+* Easy to learn and very useful.
+* Works well with big datasets.
+* Helps you clean and analyse data.
+* A key tool for data analysis in Python.
 
 
 # <span class="hide-title">Numpy</span>  {background-image="/media/numpy.png" background-opacity="0.4"}
@@ -57,26 +50,18 @@ title-slide-attributes:
 
 ## What is NumPy?
 
-* NumPy is a Python library for working with numbers and arrays
-* Arrays are like lists but faster and more powerful
-* Great for mathematical and scientific calculations
-* Core tool in data science and machine learning
+* NumPy is a Python library for working with datasets using NumPy arrays of different dimensions.
+* Arrays are like lists but faster and more powerful.
+* Great for mathematical and scientific calculations.
+* Core tool in data science and machine learning.
 
 
 ## Key Concepts in NumPy
 
-* **Array**: A grid of values (1D, 2D, or more)
-* Efficient for storing and working with lots of data
-* NumPy makes math operations fast and easy
-* Use NumPy for calculations across whole arrays at once
-
-
-## Common NumPy Tasks
-
-* Create an array: `np.array([1, 2, 3])`
-* Do math: `np.add(arr1, arr2)` or `arr1 + arr2`
-* Reshape arrays: `arr.reshape(2, 3)` (change shape)
-* Find max, min, sum: `arr.max()`, `arr.min()`, `arr.sum()`
+* **NumPy Array**: A grid of values (1D, 2D, or more).
+* Efficient for storing and working with lots of data.
+* NumPy makes math operations fast and easy.
+* Use NumPy for calculations across whole arrays at once.
 
 
 ## Why Use NumPy?
@@ -96,7 +81,7 @@ title-slide-attributes:
 
 * Scipy is a Python library for scientific and technical computing.
 * It builds on NumPy and provides more advanced functions.
-* It can carry out complex mathematical operations and simulations, eg linear algebra and p-value calculations.
+* It can carry out complex mathematical operations and statistics, eg linear algebra and p-value calculations.
 
 
 # Let's Code! {background-image="/media/laptop-coding-coffee.jpg" background-opacity="0.4"}
@@ -136,7 +121,7 @@ df = pd.read_csv('kidney_function.csv')
 * Use the `loc` method.
 * Use `df['Column name']` to select a column.
 * Search for a specific value in this column using `==` and the value.
-* In the second loc argument, specify the column to update.
+* In the second `loc` argument, specify the column to update.
 * Update the value as needed.
 
 ```{.python filename="pandas_update.py"}
@@ -146,9 +131,8 @@ df.loc[df['Date'] == '2022-12-01', 'Stage'] = 5
 
 ## Filtering DataFrames
 
-* Use the `df` DataFrame.
 * Use the `[]` operator to filter rows.
-* Use a condition to filter rows.
+* Use a condition (eg more than >) to filter rows.
 
 ```{.python filename="pandas_filter.py"}
 df_over_55 = df[df['Age'] > 55]
@@ -175,6 +159,20 @@ Output:
         max      5.000000  70.000000   240.000000     150.000000
 
         
+## Splitting DataFrames
+
+* You can split a DataFrame into two or more DataFrames. You just need to define what is the condition to split the data.
+* You can also just return single column values.
+
+```{.python filename="pandas_split.py"}
+hypertension = df_2[df_2['Diagnosis'] == 'Hypertension']['Cholesterol']
+```
+\
+
+* `df_2['Diagnosis'] == 'Hypertension'` finds all rows where the diagnosis is **hypertension**.
+* `['Cholesterol']` returns **only the cholesterol values** for the rows that are returned by the above query.
+
+
 ## Create a NumPy Array
 
 * Import the NumPy library.
@@ -187,18 +185,18 @@ array_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])
 
 array_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],
                       [8, 9, 10, 11, 12, 13, 14]])
-                      
+
 array_3D = np.array([[[1, 2, 3, 4, 5, 6, 7],
                       [8, 9, 10, 11, 12, 13, 14]],
                      [[15, 16, 17, 18, 19, 20, 21],
                       [22, 23, 24, 25, 26, 27, 28]]])
 ```
 
+
 ## Shapes
 
 * The shape of a NumPy array tells you how many elements are in each dimension.
 * Use the `shape` attribute to find the shape of an array.
-* You can have any number of dimensions.
 
 ```{.python filename="numpy_shapes.py"}
 array_2x3 = np.array([[1, 2, 3], [4, 5, 6]])
@@ -214,6 +212,8 @@ Output:
 
 ## Update NumPy Arrays
 
+* Much like normal Python lists.
+
 ```{.python filename="numpy_update.py"}
 array_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])
 array_1x7[0] = 10
@@ -226,11 +226,41 @@ Output:
         [10  2  2  4  1  1  7]
 
 
+## More advanced statistics with Scipy
+
+* An example is the t-score and p-value by using `stats.ttest_ind`.
+
+```{.python filename="scipy_stats.py" code-line-numbers="3"}
+from scipy import stats
+
+t_score, p_value = stats.ttest_ind(hypertension, non_hypertension)
+
+print(f't-score: {t_score}')
+print(f'p-value: {p_value}')
+```
+
+\
+
+Output:
+
+        t-score: 2.5
+        p-value: 0.05
 
 
+## Statistics
+
+**Note:**
+
+* A t-score (or t-statistic) of > 1 implies more than one standard deviation from the mean.
+* A p-value of less than 0.05 is considered statistically significant.
 
 
-## End
+## Now try it yourself!
+
+* Go to the Lesson 2 folder.
+* Open `lesson_2.ipynb`.
+* Don't forget to ask your tutor if you need help.
+* See you in 40 minutes.
 
 ```{=html}
 <div class="bottom-right">

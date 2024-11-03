@@ -1,0 +1,26 @@
+---
+title: "Manipulating images"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/jupyter-notebook-logo.png
+    data-background-opacity: "0.1"
+---
+
+
+## Now try it yourself!
+
+* Go to the Lesson 4 folder.
+* Open `lesson_4.ipynb`.
+* Don't forget to ask your tutor if you need help.
+* See you in 40 minutes.
+
+If you finish lesson 4, you can try your hand at lesson 5.
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/6-session-close.html" style="color: lightgrey;">Session close</a>
+</div>
+```
