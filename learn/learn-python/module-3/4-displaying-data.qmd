@@ -8,3 +8,10 @@ title-slide-attributes:
     data-background-image: /media/jupyter-notebook-logo.png
     data-background-opacity: "0.1"
 ---
+
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/5-basic-statistics.html" style="color: lightgrey;">Basic statistics</a>
+</div>
+```

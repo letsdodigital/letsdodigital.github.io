@@ -40,3 +40,10 @@ title-slide-attributes:
 * Built for handling large datasets efficiently
 * Works seamlessly with NumPy
 * Widely used in scientific research, engineering, and data science
+
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/6-manipulating-images.html" style="color: lightgrey;">Manipulating images</a>
+</div>
+```

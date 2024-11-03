@@ -96,14 +96,14 @@ Pro tip:
 ## Lesson 1 {.smaller}
 
 * Make sure you have a GitHub account.
-<!-- * Join your tutor group in the named `Zoom break out rooms`. -->
+* Join your tutor group in the named `Zoom break out rooms`.
 * Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
 * Click on the `<> Code` button and then the `Codespaces` tab.
 * Click on `Create codespace on main`
 
-<!-- ## <span class="hide-title">Break out room button</span>
+## <span class="hide-title">Break out room button</span>
 
-![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of the breakout room button in Zoom"} -->
+![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of the breakout room button in Zoom"} 
 
 
 ## <span class="hide-title">Codespace load</span>
@@ -133,9 +133,9 @@ Pro tip:
 ```
 
 * Did it work? If so, open up the lesson_1.py file.
-<!-- * Any problems, just ask your tutor for help. 
+* Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 40 minutes for lesson 1. -->
+* We will give you 40 minutes for lesson 1.
 
 ```{=html}
 <div class="bottom-right">

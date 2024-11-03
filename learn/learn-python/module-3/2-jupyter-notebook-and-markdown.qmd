@@ -19,7 +19,17 @@ title-slide-attributes:
 * Jupyter Notebook is an interactive tool for writing and running code.
 * Used mostly for Python but supports other languages.
 * Combines code, text, and visualizations in one place.
-* Widely used for data science, research, and teaching.
+
+
+## Why Use Jupyter Notebook?
+
+* Great for learning, experimenting, and prototyping
+* Interactive: Run code and see results step by step
+* Easy to combine code with explanations and visuals
+* Ideal for data analysis, machine learning, and teaching
+
+
+## What does Jupiter Notebook look like?
 
 
 ## <span class="hide-title">Jupyter Notebook Interface</span>
@@ -62,7 +72,7 @@ title-slide-attributes:
 * PDF, HTML, or slides.
 
 
-## Common Jupyter Notebook Tasks
+## How to run code?
 
 * Run a cell: Press the `Play` button.
 
@@ -77,20 +87,10 @@ title-slide-attributes:
 
 ## Common Jupyter Notebook Tasks
 
-* Add text: Use Markdown in a new cell and change it to 'Markdown' mode.
-
-![](/media/jupyter-to-markdown.png){.half-width}
-
+* Add text to explain code.
+* Run your code.
 * View results instantly: Print or plot results directly in the notebook.
 * Save your work: Notebooks are saved as `.ipynb` files.
-
-
-## Why Use Jupyter Notebook?
-
-* Great for learning, experimenting, and prototyping
-* Interactive: Run code and see results step by step
-* Easy to combine code with explanations and visuals
-* Ideal for data analysis, machine learning, and teaching
 
 
 # Markdown {background-image="/media/markdown.png" background-opacity="0.4"}
@@ -104,22 +104,6 @@ title-slide-attributes:
 * Supports basic formatting without complex code
 
 
-## Key Markdown Elements
-
-* **Headings**: Use `#` for titles (e.g., `# Heading 1`)
-* **Bold/Italic**: Use `**bold**` or `*italic*`
-* **Lists**: Create bullet points with `*` or numbered lists with `1.`
-* **Links/Images**: Use `[text](url)` for links and `![alt text](image_url)` for images
-
-
-## Common Markdown Tasks in Jupyter
-
-* Add a Markdown cell: Change the cell type to 'Markdown'
-* Format text: Type Markdown code and run the cell to see the formatted result
-* Create headings, lists, or add links easily
-* Combine Markdown with code cells to create clean, well-documented notebooks
-
-
 ## Why Use Markdown in Jupyter?
 
 * Makes your notebook readable with clear explanations
@@ -130,7 +114,10 @@ title-slide-attributes:
 
 ## Make a cell ready for Markdown
 
-PICTURE
+* Change a cell to 'Markdown' mode.
+* Add your markdown text to the cell.
+
+![](/media/jupyter-to-markdown.png){.half-width .centre-full-image .top-65}
 
 
 ## Headings in markdown
@@ -173,7 +160,7 @@ This is not a comment
 
 ## Bold
 
-* Use `**` to make text bold.
+* Use `**`**your text**`**` to make text bold.
 
 ```markdown
 **This is bold text**
@@ -188,7 +175,7 @@ Renders to:
 
 ## Italic
 
-* Use `*` to make text italic.
+* Use `*`*your text*`*` to make text italic.
 
 ```{.markdown}
 *This is italic text*
@@ -207,8 +194,8 @@ Renders to:
 * Use `*` or `-` to create bullet points.
 
 ```{.markdown}
-* Item 1
-* Item 2
+* Heart
+* Lungs
 ```
 
 \
@@ -216,8 +203,8 @@ Renders to:
 Renders to:
 <div class="render-padding">
 <ul>
-<li>Item 1</li>
-<li>Item 2</li>
+<li>Heart</li>
+<li>Lungs</li>
 </ul>
 </div>
 
@@ -227,8 +214,8 @@ Renders to:
 * Use `1.` to create numbered lists.
 
 ```{.markdown}
-1. Item 1
-2. Item 2
+1. Lymphatics
+2. Red blood cells
 ```
 
 \
@@ -236,8 +223,8 @@ Renders to:
 Renders to:
 <div class="render-padding">
 <ol>
-<li>Item 1</li>
-<li>Item 2</li>
+<li>Lymphatics</li>
+<li>Red blood cells</li>
 </ol>
 </div>
 
@@ -251,7 +238,26 @@ with open('test_text.txt', 'r') as file:
 ```
 
 
-# Start up a Codespace session
+# Start up a Codespace session{background-image="/media/github-codespaces.png" background-opacity="0.2"}
+
+## First
+
+* Make sure you have a GitHub account.
+* Join your tutor group in the named `Zoom break out rooms`.
+* Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
+* Click on the `<> Code` button and then the `Codespaces` tab.
+* Click on `Create codespace on main`
+
+## <span class="hide-title">Break out room button</span>
+
+![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of the breakout room button in Zoom"} 
+
+
+## <span class="hide-title">Codespace load</span>
+
+![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of Github website with arrows showing how to start up Codespace"}
+
+
 
 ## <span class="hide-title">Codespace light theme</span>
 
@@ -291,10 +297,34 @@ with open('test_text.txt', 'r') as file:
 
 ## <span class="hide-title">Jupyter Notebook extension</span>
 
-![](/media/jupyter-extension.png){.centre-full-image fig-alt="Screen shot of the VS Code Jupyter Extension"}
+![](/media/jupyter-notebook-extension.png){.centre-full-image fig-alt="Screen shot of the VS Code Jupyter Extension"}
 
-## open lesson 1
 
-## Close terminal
+## Ignore this
 
-...
+* Ignore the pop out about extensions you may get in the bottom right of Codespace
+
+![](/media/python-extension.png){fig-alt="Screenshot of python extensions pop out"}
+
+
+## Get to your first lesson {.smaller}
+
+* Change the directory (don't type the `$`. This is just how we show that this is the command line):
+
+```{.bash}
+    $ cd programming_in_healthcare/module_3
+```
+
+* And then open the `lesson_1.ipynb file`. 
+* Run through the exercises within the notebook.
+
+* Any problems, just ask your tutor for help. 
+* **There is no such thing as a stupid question, only the question left unanswered.**
+* We will give you 40 minutes for lesson 1.
+
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/3-manipulating-data.html" style="color: lightgrey;">Manipulating data</a>
+</div>
+```

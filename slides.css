@@ -29,6 +29,12 @@
   text-align: center;
 }
 
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .white h1 {
   color: white;
 }
@@ -43,6 +49,11 @@
   max-width: 100%;
   max-height: 100%;
 }
+
+.top-65 {
+  top: 65%;
+}
+
 
 .centre-full-image-drop {
   position: absolute;
@@ -133,6 +144,7 @@
 .full-width {
   width: 100% !important;
 }
+
 
 .render-padding {
     padding-left: 50px;
