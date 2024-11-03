@@ -1,5 +1,5 @@
 ---
-title: "Pit step - How are you all doing?"
+title: "Pit stop - How are you all doing?"
 subtitle: "Module 2"
 author: "{{< var author >}}"
 format: revealjs

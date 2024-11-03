@@ -676,6 +676,6 @@ $ streamlit run exercise_2.py
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-2/5-pit-stop.html" style="color: lightgrey;">Pit stop</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-2/4-pit-stop.html" style="color: lightgrey;">Pit stop</a>
 </div>
 ```
