@@ -291,7 +291,7 @@
     "href": "learn/learn-python/module-3/5-basic-statistics.html#why-use-scipy",
     "title": "Basic Statistics",
     "section": "Why Use SciPy?",
-    "text": "Why Use SciPy?\n\nPowerful for advanced mathematical tasks\nBuilt for handling large datasets efficiently\nWorks seamlessly with NumPy\nWidely used in scientific research, engineering, and data science"
+    "text": "Why Use SciPy?\n\nPowerful for advanced mathematical tasks\nBuilt for handling large datasets efficiently\nWorks seamlessly with NumPy\nWidely used in scientific research, engineering, and data science\n\n\n    Manipulating images"
   },
   {
     "objectID": "learn/learn-python/module-3/1-introduction.html#introduction",
@@ -1502,7 +1502,14 @@
     "href": "learn/learn-python/module-0/2-coding-environment.html#lesson-1",
     "title": "Coding environment (and the shell)",
     "section": "Lesson 1",
-    "text": "Lesson 1\n\nMake sure you have a GitHub account. \nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
+    "text": "Lesson 1\n\nMake sure you have a GitHub account.\nJoin your tutor group in the named Zoom break out rooms.\nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/2-coding-environment.html#break-out-room-button",
+    "href": "learn/learn-python/module-0/2-coding-environment.html#break-out-room-button",
+    "title": "Coding environment (and the shell)",
+    "section": "Break out room button",
+    "text": "Break out room button"
   },
   {
     "objectID": "learn/learn-python/module-0/2-coding-environment.html#codespace-load",
@@ -1523,7 +1530,7 @@
     "href": "learn/learn-python/module-0/2-coding-environment.html#get-to-your-first-lesson",
     "title": "Coding environment (and the shell)",
     "section": "Get to your first lesson",
-    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show that this is the command line):\n\n    $ cd programming_in_healthcare/module_0\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file. \n\n\n    Python basics"
+    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show that this is the command line):\n\n    $ cd programming_in_healthcare/module_0\n\nAnd then\n\n    $ python lesson_1.py\n\nDid it work? If so, open up the lesson_1.py file.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 40 minutes for lesson 1.\n\n\n    Python basics"
   },
   {
     "objectID": "learn/BIFFPE/overview.html",
@@ -4690,18 +4697,39 @@
     "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great addition to your digital health career.\nCould you please complete feedback before you leave.\nPlease do join us for more advanced courses coming out very soon."
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#in-codespace",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#in-codespace",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#python-data-libraries",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#python-data-libraries",
     "title": "Manipulating Data",
-    "section": "In Codespace",
-    "text": "In Codespace"
+    "section": "Python data libraries",
+    "text": "Python data libraries\n\nPandas\nNumPy\nScipy"
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#in-jupyter-notebooks",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#in-jupyter-notebooks",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas",
     "title": "Manipulating Data",
-    "section": "In Jupyter Notebooks",
-    "text": "In Jupyter Notebooks"
+    "section": "What is Pandas?",
+    "text": "What is Pandas?\n\nPandas is a tool for working with data in Python\nIt works on 2-dimensional data only called dataframes.\nIt helps you organise and analyse data in tables\nGreat for working with spreadsheets or databases\nWidely used in data science"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-pandas",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-pandas",
+    "title": "Manipulating Data",
+    "section": "Key Concepts in Pandas",
+    "text": "Key Concepts in Pandas\n\nDataFrame: A table of data (rows and columns)\nSeries: A single column of data\nYou can filter, sort, and change the data\nEasy to read from and write to files like CSVs"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#common-pandas-tasks",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#common-pandas-tasks",
+    "title": "Manipulating Data",
+    "section": "Common Pandas Tasks",
+    "text": "Common Pandas Tasks\n\nLoad data from a file: pd.read_csv('file.csv')\nView data: df.head() (shows first few rows)\nFilter data: df[df['Age'] &gt; 50]\nSave data: df.to_csv('new_file.csv')"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#why-use-pandas",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#why-use-pandas",
+    "title": "Manipulating Data",
+    "section": "Why Use Pandas?",
+    "text": "Why Use Pandas?\n\nEasy to learn and very useful\nWorks well with big datasets\nHelps you clean and analyse data\nA key tool for data analysis in Python"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#what-is-numpy",
@@ -4729,42 +4757,98 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#why-use-numpy",
     "title": "Manipulating Data",
     "section": "Why Use NumPy?",
-    "text": "Why Use NumPy?\n\nVery fast and efficient for working with numbers\nEasy to perform complex calculations\nUsed in data analysis, machine learning, and more\nEssential for handling large datasets"
+    "text": "Why Use NumPy?\n\nVery fast and efficient for working with numbers.\nEasy to perform complex calculations.\nUsed in data analysis, machine learning, and more.\nEssential for handling large datasets."
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#scipy-1",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#scipy-1",
     "title": "Manipulating Data",
-    "section": "What is Pandas?",
-    "text": "What is Pandas?\n\nPandas is a tool for working with data in Python\nIt helps you organise and analyse data in tables\nGreat for working with spreadsheets or databases\nWidely used in data science"
+    "section": "Scipy",
+    "text": "Scipy\n\nScipy is a Python library for scientific and technical computing.\nIt builds on NumPy and provides more advanced functions.\nIt can carry out complex mathematical operations and simulations, eg linear algebra and p-value calculations."
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-pandas",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-pandas",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#printing-your-variables",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#printing-your-variables",
     "title": "Manipulating Data",
-    "section": "Key Concepts in Pandas",
-    "text": "Key Concepts in Pandas\n\nDataFrame: A table of data (rows and columns)\nSeries: A single column of data\nYou can filter, sort, and change the data\nEasy to read from and write to files like CSVs"
+    "section": "Printing your variables",
+    "text": "Printing your variables\n\n\npandas.py\n\na_variable = 5\n\nprint(a_variable)\n\n# or\n\na_variable\n\n\nOutput:\n    5\n    5"
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#common-pandas-tasks",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#common-pandas-tasks",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#load-data-with-pandas",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#load-data-with-pandas",
     "title": "Manipulating Data",
-    "section": "Common Pandas Tasks",
-    "text": "Common Pandas Tasks\n\nLoad data from a file: pd.read_csv('file.csv')\nView data: df.head() (shows first few rows)\nFilter data: df[df['Age'] &gt; 50]\nSave data: df.to_csv('new_file.csv')"
+    "section": "Load Data with Pandas",
+    "text": "Load Data with Pandas\n\nImport the pandas library.\nLoad data from a file into a DataFrame.\n\n\n\npandas.py\n\nimport pandas as pd\ndf = pd.read_csv('kidney_function.csv')"
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#why-use-pandas",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#why-use-pandas",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#update-data-within-a-dataframe",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#update-data-within-a-dataframe",
     "title": "Manipulating Data",
-    "section": "Why Use Pandas?",
-    "text": "Why Use Pandas?\n\nEasy to learn and very useful\nWorks well with big datasets\nHelps you clean and analyse data\nA key tool for data analysis in Python"
+    "section": "Update Data within a DataFrame",
+    "text": "Update Data within a DataFrame\n\nUse the loc method.\nUse df['Column name'] to select a column.\nSearch for a specific value in this column using == and the value.\nIn the second loc argument, specify the column to update.\nUpdate the value as needed.\n\n\n\npandas_update.py\n\ndf.loc[df['Date'] == '2022-12-01', 'Stage'] = 5"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#filtering-dataframes",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#filtering-dataframes",
+    "title": "Manipulating Data",
+    "section": "Filtering DataFrames",
+    "text": "Filtering DataFrames\n\nUse the df DataFrame.\nUse the [] operator to filter rows.\nUse a condition to filter rows.\n\n\n\npandas_filter.py\n\ndf_over_55 = df[df['Age'] &gt; 55]"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#get-some-statistics",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#get-some-statistics",
+    "title": "Manipulating Data",
+    "section": "Get some statistics",
+    "text": "Get some statistics\n\nYou can get some basic statistics from a Pandas dataframe.\n\n\n\nnumpy_stats.py\n\nprint(df.describe())\n\n\nOutput:\n           Patient_ID        Age  Cholesterol  Glucose Level\n    count    6.000000   6.000000     6.000000       6.000000\n    mean     3.333333  56.666667   208.333333     107.166667\n    std      1.632993   9.309493    20.412415      22.003788\n    min      1.000000  45.000000   180.000000      90.000000\n    25%      2.250000  51.250000   200.000000      95.750000\n    50%      3.500000  55.000000   205.000000      99.000000\n    75%      4.750000  62.500000   217.500000     107.500000\n    max      5.000000  70.000000   240.000000     150.000000"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#create-a-numpy-array",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#create-a-numpy-array",
+    "title": "Manipulating Data",
+    "section": "Create a NumPy Array",
+    "text": "Create a NumPy Array\n\nImport the NumPy library.\nCreate an array from a python list (eg [1, 2, 5, 6]).\n\n\n\nnumpy.py\n\nimport numpy as np\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 14]])\n                      \narray_3D = np.array([[[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 14]],\n                     [[15, 16, 17, 18, 19, 20, 21],\n                      [22, 23, 24, 25, 26, 27, 28]]])"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#shapes",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#shapes",
+    "title": "Manipulating Data",
+    "section": "Shapes",
+    "text": "Shapes\n\nThe shape of a NumPy array tells you how many elements are in each dimension.\nUse the shape attribute to find the shape of an array.\nYou can have any number of dimensions.\n\n\n\nnumpy_shapes.py\n\narray_2x3 = np.array([[1, 2, 3], [4, 5, 6]])\n\nprint(array_2x3.shape)\n\n\nOutput:\n    (2, 3)"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#update-numpy-arrays",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#update-numpy-arrays",
+    "title": "Manipulating Data",
+    "section": "Update NumPy Arrays",
+    "text": "Update NumPy Arrays\n\n\nnumpy_update.py\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\narray_1x7[0] = 10\nprint(array_1x7)\n\n\nOutput:\n    [10  2  2  4  1  1  7]"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#end",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#end",
+    "title": "Manipulating Data",
+    "section": "End",
+    "text": "End\n\n    Displaying data"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-jupyter-notebook",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-jupyter-notebook",
     "title": "Jupyter Notebook and Markdown",
     "section": "What is Jupyter Notebook?",
-    "text": "What is Jupyter Notebook?\n\nJupyter Notebook is an interactive tool for writing and running code.\nUsed mostly for Python but supports other languages.\nCombines code, text, and visualizations in one place.\nWidely used for data science, research, and teaching."
+    "text": "What is Jupyter Notebook?\n\nJupyter Notebook is an interactive tool for writing and running code.\nUsed mostly for Python but supports other languages.\nCombines code, text, and visualizations in one place."
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-jupyter-notebook",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-jupyter-notebook",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Why Use Jupyter Notebook?",
+    "text": "Why Use Jupyter Notebook?\n\nGreat for learning, experimenting, and prototyping\nInteractive: Run code and see results step by step\nEasy to combine code with explanations and visuals\nIdeal for data analysis, machine learning, and teaching"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-does-jupiter-notebook-look-like",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-does-jupiter-notebook-look-like",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "What does Jupiter Notebook look like?",
+    "text": "What does Jupiter Notebook look like?"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#jupyter-notebook-interface",
@@ -4816,25 +4900,18 @@
     "text": "Share work with others in a readable format.\n\nShare via GitHub.\nShare via Google Colab.\nPDF, HTML, or slides."
   },
   {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#how-to-run-code",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#how-to-run-code",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "How to run code?",
+    "text": "How to run code?\n\nRun a cell: Press the Play button.\n\n\n  \n  or"
+  },
+  {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-jupyter-notebook-tasks",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-jupyter-notebook-tasks",
     "title": "Jupyter Notebook and Markdown",
     "section": "Common Jupyter Notebook Tasks",
-    "text": "Common Jupyter Notebook Tasks\n\nRun a cell: Press the Play button.\n\n\n  \n  or"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-jupyter-notebook-tasks-1",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-jupyter-notebook-tasks-1",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Common Jupyter Notebook Tasks",
-    "text": "Common Jupyter Notebook Tasks\n\nAdd text: Use Markdown in a new cell and change it to ‘Markdown’ mode.\n\n\n\nView results instantly: Print or plot results directly in the notebook.\nSave your work: Notebooks are saved as .ipynb files."
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-jupyter-notebook",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-jupyter-notebook",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Why Use Jupyter Notebook?",
-    "text": "Why Use Jupyter Notebook?\n\nGreat for learning, experimenting, and prototyping\nInteractive: Run code and see results step by step\nEasy to combine code with explanations and visuals\nIdeal for data analysis, machine learning, and teaching"
+    "text": "Common Jupyter Notebook Tasks\n\nAdd text to explain code.\nRun your code.\nView results instantly: Print or plot results directly in the notebook.\nSave your work: Notebooks are saved as .ipynb files."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-markdown",
@@ -4842,20 +4919,6 @@
     "title": "Jupyter Notebook and Markdown",
     "section": "What is Markdown?",
     "text": "What is Markdown?\n\nMarkdown is a simple way to format text\nYou can use it to write headings, lists, and more\nUseful for adding explanations and notes in Jupyter Notebooks\nSupports basic formatting without complex code"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#key-markdown-elements",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#key-markdown-elements",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Key Markdown Elements",
-    "text": "Key Markdown Elements\n\nHeadings: Use # for titles (e.g., # Heading 1)\nBold/Italic: Use **bold** or *italic*\nLists: Create bullet points with * or numbered lists with 1.\nLinks/Images: Use [text](url) for links and ![alt text](image_url) for images"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-markdown-tasks-in-jupyter",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#common-markdown-tasks-in-jupyter",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "Common Markdown Tasks in Jupyter",
-    "text": "Common Markdown Tasks in Jupyter\n\nAdd a Markdown cell: Change the cell type to ‘Markdown’\nFormat text: Type Markdown code and run the cell to see the formatted result\nCreate headings, lists, or add links easily\nCombine Markdown with code cells to create clean, well-documented notebooks"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-markdown-in-jupyter",
@@ -4869,7 +4932,7 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#make-a-cell-ready-for-markdown",
     "title": "Jupyter Notebook and Markdown",
     "section": "Make a cell ready for Markdown",
-    "text": "Make a cell ready for Markdown\nPICTURE"
+    "text": "Make a cell ready for Markdown\n\nChange a cell to ‘Markdown’ mode.\nAdd your markdown text to the cell."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#headings-in-markdown",
@@ -4890,28 +4953,28 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#bold",
     "title": "Jupyter Notebook and Markdown",
     "section": "Bold",
-    "text": "Bold\n\nUse ** to make text bold.\n\n**This is bold text**\n\n\nRenders to:\n\nThis is bold text"
+    "text": "Bold\n\nUse **your text** to make text bold.\n\n**This is bold text**\n\n\nRenders to:\n\nThis is bold text"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#italic",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#italic",
     "title": "Jupyter Notebook and Markdown",
     "section": "Italic",
-    "text": "Italic\n\nUse * to make text italic.\n\n*This is italic text*\n\n\nRenders to:\n\nThis is italic text"
+    "text": "Italic\n\nUse *your text* to make text italic.\n\n*This is italic text*\n\n\nRenders to:\n\nThis is italic text"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#lists",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#lists",
     "title": "Jupyter Notebook and Markdown",
     "section": "Lists",
-    "text": "Lists\n\nUse * or - to create bullet points.\n\n* Item 1\n* Item 2\n\n\nRenders to:\n\n\n\nItem 1\n\n\nItem 2"
+    "text": "Lists\n\nUse * or - to create bullet points.\n\n* Heart\n* Lungs\n\n\nRenders to:\n\n\n\nHeart\n\n\nLungs"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#numbered-lists",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#numbered-lists",
     "title": "Jupyter Notebook and Markdown",
     "section": "Numbered lists",
-    "text": "Numbered lists\n\nUse 1. to create numbered lists.\n\n1. Item 1\n2. Item 2\n\n\nRenders to:\n\n\n\nItem 1\n\n\nItem 2"
+    "text": "Numbered lists\n\nUse 1. to create numbered lists.\n\n1. Lymphatics\n2. Red blood cells\n\n\nRenders to:\n\n\n\nLymphatics\n\n\nRed blood cells"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-a-file-in-jupyter",
@@ -4919,6 +4982,27 @@
     "title": "Jupyter Notebook and Markdown",
     "section": "Open a file in Jupyter",
     "text": "Open a file in Jupyter\n\n\nopen_a_file.py\n\nwith open('test_text.txt', 'r') as file:\n    content = file.read()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#first",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#first",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "First",
+    "text": "First\n\nMake sure you have a GitHub account.\nJoin your tutor group in the named Zoom break out rooms.\nGo to the page at https://github.com/letsdodigital/coding-hands-on\nClick on the &lt;&gt; Code button and then the Codespaces tab.\nClick on Create codespace on main"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#break-out-room-button",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#break-out-room-button",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Break out room button",
+    "text": "Break out room button"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#codespace-load",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#codespace-load",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Codespace load",
+    "text": "Codespace load"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#codespace-light-theme",
@@ -4977,18 +5061,18 @@
     "text": "Jupyter Notebook extension"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-lesson-1",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-lesson-1",
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#ignore-this",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#ignore-this",
     "title": "Jupyter Notebook and Markdown",
-    "section": "open lesson 1",
-    "text": "open lesson 1"
+    "section": "Ignore this",
+    "text": "Ignore this\n\nIgnore the pop out about extensions you may get in the bottom right of Codespace"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-terminal",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#close-terminal",
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#get-to-your-first-lesson",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#get-to-your-first-lesson",
     "title": "Jupyter Notebook and Markdown",
-    "section": "Close terminal",
-    "text": "Close terminal\n…"
+    "section": "Get to your first lesson",
+    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show that this is the command line):\n\n    $ cd programming_in_healthcare/module_3\n\nAnd then open the lesson_1.ipynb file.\nRun through the exercises within the notebook.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 40 minutes for lesson 1.\n\n\n    Manipulating data"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#treating-disease-and-debugging-code-are-very-similar",

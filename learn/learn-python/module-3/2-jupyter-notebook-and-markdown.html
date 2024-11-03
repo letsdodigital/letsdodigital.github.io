@@ -417,8 +417,19 @@ Let’s Do Digital Team
 <li>Jupyter Notebook is an interactive tool for writing and running code.</li>
 <li>Used mostly for Python but supports other languages.</li>
 <li>Combines code, text, and visualizations in one place.</li>
-<li>Widely used for data science, research, and teaching.</li>
 </ul>
+</section>
+<section id="why-use-jupyter-notebook" class="slide level2">
+<h2>Why Use Jupyter Notebook?</h2>
+<ul>
+<li>Great for learning, experimenting, and prototyping</li>
+<li>Interactive: Run code and see results step by step</li>
+<li>Easy to combine code with explanations and visuals</li>
+<li>Ideal for data analysis, machine learning, and teaching</li>
+</ul>
+</section>
+<section id="what-does-jupiter-notebook-look-like" class="slide level2">
+<h2>What does Jupiter Notebook look like?</h2>
 </section>
 <section id="jupyter-notebook-interface" class="slide level2">
 <h2><span class="hide-title">Jupyter Notebook Interface</span></h2>
@@ -459,8 +470,8 @@ Let’s Do Digital Team
 <li>PDF, HTML, or slides.</li>
 </ul>
 </section>
-<section id="common-jupyter-notebook-tasks" class="slide level2">
-<h2>Common Jupyter Notebook Tasks</h2>
+<section id="how-to-run-code" class="slide level2">
+<h2>How to run code?</h2>
 <ul>
 <li>Run a cell: Press the <code>Play</code> button.</li>
 </ul>
@@ -470,24 +481,13 @@ Let’s Do Digital Team
   <img src="../../../media/jupyter-play-button.png">
 </div>
 </section>
-<section id="common-jupyter-notebook-tasks-1" class="slide level2">
+<section id="common-jupyter-notebook-tasks" class="slide level2">
 <h2>Common Jupyter Notebook Tasks</h2>
 <ul>
-<li>Add text: Use Markdown in a new cell and change it to ‘Markdown’ mode.</li>
-</ul>
-
-<img data-src="../../../media/jupyter-to-markdown.png" class="half-width r-stretch"><ul>
+<li>Add text to explain code.</li>
+<li>Run your code.</li>
 <li>View results instantly: Print or plot results directly in the notebook.</li>
 <li>Save your work: Notebooks are saved as <code>.ipynb</code> files.</li>
-</ul>
-</section>
-<section id="why-use-jupyter-notebook" class="slide level2">
-<h2>Why Use Jupyter Notebook?</h2>
-<ul>
-<li>Great for learning, experimenting, and prototyping</li>
-<li>Interactive: Run code and see results step by step</li>
-<li>Easy to combine code with explanations and visuals</li>
-<li>Ideal for data analysis, machine learning, and teaching</li>
 </ul>
 </section></section>
 <section>
@@ -504,24 +504,6 @@ Let’s Do Digital Team
 <li>Supports basic formatting without complex code</li>
 </ul>
 </section>
-<section id="key-markdown-elements" class="slide level2">
-<h2>Key Markdown Elements</h2>
-<ul>
-<li><strong>Headings</strong>: Use <code>#</code> for titles (e.g., <code># Heading 1</code>)</li>
-<li><strong>Bold/Italic</strong>: Use <code>**bold**</code> or <code>*italic*</code></li>
-<li><strong>Lists</strong>: Create bullet points with <code>*</code> or numbered lists with <code>1.</code></li>
-<li><strong>Links/Images</strong>: Use <code>[text](url)</code> for links and <code>![alt text](image_url)</code> for images</li>
-</ul>
-</section>
-<section id="common-markdown-tasks-in-jupyter" class="slide level2">
-<h2>Common Markdown Tasks in Jupyter</h2>
-<ul>
-<li>Add a Markdown cell: Change the cell type to ‘Markdown’</li>
-<li>Format text: Type Markdown code and run the cell to see the formatted result</li>
-<li>Create headings, lists, or add links easily</li>
-<li>Combine Markdown with code cells to create clean, well-documented notebooks</li>
-</ul>
-</section>
 <section id="why-use-markdown-in-jupyter" class="slide level2">
 <h2>Why Use Markdown in Jupyter?</h2>
 <ul>
@@ -533,8 +515,12 @@ Let’s Do Digital Team
 </section>
 <section id="make-a-cell-ready-for-markdown" class="slide level2">
 <h2>Make a cell ready for Markdown</h2>
-<p>PICTURE</p>
-</section>
+<ul>
+<li>Change a cell to ‘Markdown’ mode.</li>
+<li>Add your markdown text to the cell.</li>
+</ul>
+
+<img data-src="../../../media/jupyter-to-markdown.png" class="half-width centre-full-image top-65 r-stretch"></section>
 <section id="headings-in-markdown" class="slide level2">
 <h2>Headings in markdown</h2>
 <ul>
@@ -576,7 +562,7 @@ Renders to:
 <section id="bold" class="slide level2">
 <h2>Bold</h2>
 <ul>
-<li>Use <code>**</code> to make text bold.</li>
+<li>Use <code>**</code><strong>your text</strong><code>**</code> to make text bold.</li>
 </ul>
 <div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a aria-hidden="true" tabindex="-1"></a>**This is bold text**</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br>
@@ -589,7 +575,7 @@ Renders to:
 <section id="italic" class="slide level2">
 <h2>Italic</h2>
 <ul>
-<li>Use <code>*</code> to make text italic.</li>
+<li>Use <code>*</code><em>your text</em><code>*</code> to make text italic.</li>
 </ul>
 <div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a aria-hidden="true" tabindex="-1"></a>*This is italic text*</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br>
@@ -604,18 +590,18 @@ Renders to:
 <ul>
 <li>Use <code>*</code> or <code>-</code> to create bullet points.</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Item 1</span>
-<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Item 2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Heart</span>
+<span id="cb5-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Lungs</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br>
 </p>
 Renders to:
 <div class="render-padding">
 <ul>
 <li>
-Item 1
+Heart
 </li>
 <li>
-Item 2
+Lungs
 </li>
 </ul>
 </div>
@@ -625,18 +611,18 @@ Item 2
 <ul>
 <li>Use <code>1.</code> to create numbered lists.</li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Item 1</span>
-<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Item 2</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="ss">1. </span>Lymphatics</span>
+<span id="cb6-2"><a aria-hidden="true" tabindex="-1"></a><span class="ss">2. </span>Red blood cells</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><br>
 </p>
 Renders to:
 <div class="render-padding">
 <ol>
 <li>
-Item 1
+Lymphatics
 </li>
 <li>
-Item 2
+Red blood cells
 </li>
 </ol>
 </div>
@@ -652,9 +638,27 @@ Item 2
 </div>
 </section></section>
 <section>
-<section id="start-up-a-codespace-session" class="title-slide slide level1 center">
+<section id="start-up-a-codespace-session" class="title-slide slide level1 center" data-background-image="../../../media/github-codespaces.png" data-background-opacity="0.2">
 <h1>Start up a Codespace session</h1>
 
+</section>
+<section id="first" class="slide level2">
+<h2>First</h2>
+<ul>
+<li>Make sure you have a GitHub account.</li>
+<li>Join your tutor group in the named <code>Zoom break out rooms</code>.</li>
+<li>Go to the page at <a href="https://github.com/letsdodigital/coding-hands-on">https://github.com/letsdodigital/coding-hands-on</a></li>
+<li>Click on the <code>&lt;&gt; Code</code> button and then the <code>Codespaces</code> tab.</li>
+<li>Click on <code>Create codespace on main</code></li>
+</ul>
+</section>
+<section id="break-out-room-button" class="slide level2">
+<h2><span class="hide-title">Break out room button</span></h2>
+<p><img data-src="../../../media/breakout-room-button.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; " alt="Screen shot of the breakout room button in Zoom"></p>
+</section>
+<section id="codespace-load" class="slide level2">
+<h2><span class="hide-title">Codespace load</span></h2>
+<p><img data-src="../../../media/github-repo-module-1-hands-on.png" class="absolute" style="top: 0px; left: 0px; width: max; height: max; " alt="Screen shot of Github website with arrows showing how to start up Codespace"></p>
 </section>
 <section id="codespace-light-theme" class="slide level2">
 <h2><span class="hide-title">Codespace light theme</span></h2>
@@ -693,13 +697,30 @@ Item 2
 <section id="jupyter-notebook-extension" class="slide level2">
 <h2><span class="hide-title">Jupyter Notebook extension</span></h2>
 
-<img data-src="../../../media/jupyter-extension.png" class="centre-full-image r-stretch" alt="Screen shot of the VS Code Jupyter Extension"></section>
-<section id="open-lesson-1" class="slide level2">
-<h2>open lesson 1</h2>
-</section>
-<section id="close-terminal" class="slide level2">
-<h2>Close terminal</h2>
-<p>…</p>
+<img data-src="../../../media/jupyter-notebook-extension.png" class="centre-full-image r-stretch" alt="Screen shot of the VS Code Jupyter Extension"></section>
+<section id="ignore-this" class="slide level2">
+<h2>Ignore this</h2>
+<ul>
+<li>Ignore the pop out about extensions you may get in the bottom right of Codespace</li>
+</ul>
+
+<img data-src="../../../media/python-extension.png" alt="Screenshot of python extensions pop out" class="r-stretch"></section>
+<section id="get-to-your-first-lesson" class="slide level2 smaller">
+<h2>Get to your first lesson</h2>
+<ul>
+<li>Change the directory (don’t type the <code>$</code>. This is just how we show that this is the command line):</li>
+</ul>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a>    <span class="ex">$</span> cd programming_in_healthcare/module_3</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li><p>And then open the <code>lesson_1.ipynb file</code>.</p></li>
+<li><p>Run through the exercises within the notebook.</p></li>
+<li><p>Any problems, just ask your tutor for help.</p></li>
+<li><p><strong>There is no such thing as a stupid question, only the question left unanswered.</strong></p></li>
+<li><p>We will give you 40 minutes for lesson 1.</p></li>
+</ul>
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/3-manipulating-data.html" style="color: lightgrey;">Manipulating data</a>
+</div>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../../../media/ldd-logo.png" class="slide-logo"></p>
