@@ -5,9 +5,149 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/jupyter-notebook-logo.png
-    data-background-opacity: "0.1"
+    data-background-image: /media/women-at-beach-sunset.jpg
+    data-background-opacity: "0.5"
 ---
+
+
+## Python image library
+
+* Image
+
+
+## Introduction to Image Manipulation
+
+* Image manipulation involves altering or transforming images using various techniques and tools. 
+* This can include resizing, cropping, rotating, adjusting colours, and applying filters.
+
+
+## Loading Images
+
+* To manipulate images, we first need to load them into our environment. 
+* In Python, we can use the `PIL` (also called Pillow) module from `Image`.
+
+
+```{.python filename="images.py" code-line-numbers="1-2"}
+from PIL import Image
+
+import matplotlib.pyplot as plt
+
+img_1 = Image.open('hand-x-ray.jpg')
+
+plt.imshow(img_1)
+
+plt.show()
+```
+
+## Loading Images
+
+* You will also need to use the pyplot module.
+
+
+```{.python filename="images.py" code-line-numbers="3"}
+from PIL import Image
+
+import matplotlib.pyplot as plt
+
+img_1 = Image.open('hand-x-ray.jpg')
+
+plt.imshow(img_1)
+
+plt.show()
+```
+
+
+## Loading Images
+
+* And then open the image file.
+
+
+```{.python filename="images.py" code-line-numbers="5"}
+from PIL import Image
+
+import matplotlib.pyplot as plt
+
+img_1 = Image.open('hand-x-ray.jpg')
+
+plt.imshow(img_1)
+
+plt.show()
+```
+
+## Loading Images {background-image="/media/two-spotlights.jpg" background-opacity="0.4"}
+
+* And then prepare to show the image and then actually show it.
+
+```{.python filename="images.py" code-line-numbers="7-9"}
+from PIL import Image
+
+import matplotlib.pyplot as plt
+
+img_1 = Image.open('hand-x-ray.jpg')
+
+plt.imshow(img_1)
+
+plt.show()
+```
+
+
+## Resizing Images {background-image="/media/two-tape-measures.jpg" background-opacity="0.4"}
+
+* To resize an image, you can use the `resize` method from the `PIL` library.
+* `img_1.resize((width, height))` needs a tuple with the new width and height.
+
+```{.python filename="resize.py"}
+resized_img_1 = img_1.resize((50, 300))
+
+plt.imshow(resized_img_1)
+plt.show()
+```
+
+
+## Cropping Images {background-image="/media/yin-yang-hands.jpg" background-opacity="0.4"}
+
+
+* Define the top-left and bottom-right coordinates of the area you want to crop.
+* Then use the `crop` method from the `PIL` library.
+
+```{.python filename="crop.py"}
+box = (3900, 2900, 6000, 5500)
+
+cropped_img_1 = img_1.crop(box)
+```
+
+
+## Rotate Images {background-image="/media/spirit-level.jpg" background-opacity="0.4"}
+
+* Use the `rotate` method from the `PIL` library to rotate an image.
+* Just provide an angle in degrees.
+
+```{.python filename="rotate.py"}
+rotated_img_2 = img_2.rotate(10)
+```
+
+
+## Inverting Images {background-image="/media/inverted-landscape-glass-sphere.jpg" background-opacity="0.4"}
+
+
+* Invert with the PIL library using the `invert` method.
+
+```{.python filename="rotate.py"}
+from PIL import ImageOps
+
+inverted_img_3 = ImageOps.invert(img_3)
+```
+
+
+## Change file type {background-image="/media/file-cabinets-old.jpg" background-opacity="0.4"}
+
+* Use the `save` method from the `PIL` library to save the image in a different format.
+
+```{.python filename="rotate.py"}
+bmp_filename = 'converted_image_3.bmp'
+
+inverted_img_3.save(bmp_filename)
+```
 
 
 ## Now try it yourself!
@@ -17,7 +157,7 @@ title-slide-attributes:
 * Don't forget to ask your tutor if you need help.
 * See you in 40 minutes.
 
-If you finish lesson 4, you can try your hand at lesson 5.
+If you finish lesson 4 (but no need to rush), you can try your hand at lesson 5.
 
 ```{=html}
 <div class="bottom-right">
