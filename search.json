@@ -266,11 +266,88 @@
     "text": "Many thanks\n\nMany thanks for joining us today.\nWe hope you found today’s session helpful and a great addition to your digital health career.\nCould you please complete feedback before you leave.\nPlease do join us for more advanced courses coming out very soon."
   },
   {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#python-image-library",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#python-image-library",
+    "title": "Manipulating images",
+    "section": "Python image library",
+    "text": "Python image library\n\nImage"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#introduction-to-image-manipulation",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#introduction-to-image-manipulation",
+    "title": "Manipulating images",
+    "section": "Introduction to Image Manipulation",
+    "text": "Introduction to Image Manipulation\n\nImage manipulation involves altering or transforming images using various techniques and tools.\nThis can include resizing, cropping, rotating, adjusting colours, and applying filters."
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#loading-images",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#loading-images",
+    "title": "Manipulating images",
+    "section": "Loading Images",
+    "text": "Loading Images\n\nTo manipulate images, we first need to load them into our environment.\nIn Python, we can use the PIL (also called Pillow) module from Image.\n\n\n\nimages.py\n\nfrom PIL import Image\n\nimport matplotlib.pyplot as plt\n\nimg_1 = Image.open('hand-x-ray.jpg')\n\nplt.imshow(img_1)\n\nplt.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#loading-images-1",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#loading-images-1",
+    "title": "Manipulating images",
+    "section": "Loading Images",
+    "text": "Loading Images\n\nYou will also need to use the pyplot module.\n\n\n\nimages.py\n\nfrom PIL import Image\n\nimport matplotlib.pyplot as plt\n\nimg_1 = Image.open('hand-x-ray.jpg')\n\nplt.imshow(img_1)\n\nplt.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#loading-images-2",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#loading-images-2",
+    "title": "Manipulating images",
+    "section": "Loading Images",
+    "text": "Loading Images\n\nAnd then open the image file.\n\n\n\nimages.py\n\nfrom PIL import Image\n\nimport matplotlib.pyplot as plt\n\nimg_1 = Image.open('hand-x-ray.jpg')\n\nplt.imshow(img_1)\n\nplt.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#loading-images-3",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#loading-images-3",
+    "title": "Manipulating images",
+    "section": "Loading Images",
+    "text": "Loading Images\n\nAnd then prepare to show the image and then actually show it.\n\n\n\nimages.py\n\nfrom PIL import Image\n\nimport matplotlib.pyplot as plt\n\nimg_1 = Image.open('hand-x-ray.jpg')\n\nplt.imshow(img_1)\n\nplt.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#resizing-images",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#resizing-images",
+    "title": "Manipulating images",
+    "section": "Resizing Images",
+    "text": "Resizing Images\n\nTo resize an image, you can use the resize method from the PIL library.\nimg_1.resize((width, height)) needs a tuple with the new width and height.\n\n\n\nresize.py\n\nresized_img_1 = img_1.resize((50, 300))\n\nplt.imshow(resized_img_1)\nplt.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#cropping-images",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#cropping-images",
+    "title": "Manipulating images",
+    "section": "Cropping Images",
+    "text": "Cropping Images\n\nDefine the top-left and bottom-right coordinates of the area you want to crop.\nThen use the crop method from the PIL library.\n\n\n\ncrop.py\n\nbox = (3900, 2900, 6000, 5500)\n\ncropped_img_1 = img_1.crop(box)"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#rotate-images",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#rotate-images",
+    "title": "Manipulating images",
+    "section": "Rotate Images",
+    "text": "Rotate Images\n\nUse the rotate method from the PIL library to rotate an image.\nJust provide an angle in degrees.\n\n\n\nrotate.py\n\nrotated_img_2 = img_2.rotate(10)"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#inverting-images",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#inverting-images",
+    "title": "Manipulating images",
+    "section": "Inverting Images",
+    "text": "Inverting Images\n\nInvert with the PIL library using the invert method.\n\n\n\nrotate.py\n\nfrom PIL import ImageOps\n\ninverted_img_3 = ImageOps.invert(img_3)"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/5-manipulating-images.html#change-file-type",
+    "href": "learn/learn-python/module-3/5-manipulating-images.html#change-file-type",
+    "title": "Manipulating images",
+    "section": "Change file type",
+    "text": "Change file type\n\nUse the save method from the PIL library to save the image in a different format.\n\n\n\nrotate.py\n\nbmp_filename = 'converted_image_3.bmp'\n\ninverted_img_3.save(bmp_filename)"
+  },
+  {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#now-try-it-yourself",
     "href": "learn/learn-python/module-3/5-manipulating-images.html#now-try-it-yourself",
     "title": "Manipulating images",
     "section": "Now try it yourself!",
-    "text": "Now try it yourself!\n\nGo to the Lesson 4 folder.\nOpen lesson_4.ipynb.\nDon’t forget to ask your tutor if you need help.\nSee you in 40 minutes.\n\nIf you finish lesson 4, you can try your hand at lesson 5.\n\n    Session close"
+    "text": "Now try it yourself!\n\nGo to the Lesson 4 folder.\nOpen lesson_4.ipynb.\nDon’t forget to ask your tutor if you need help.\nSee you in 40 minutes.\n\nIf you finish lesson 4 (but no need to rush), you can try your hand at lesson 5.\n\n    Session close"
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#python-data-plotting-library",
@@ -298,11 +375,25 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data",
     "title": "Displaying data",
     "section": "Let’s plot some 1D data",
-    "text": "Let’s plot some 1D data\n\n\npyplot_1d.py\n\nimport matplotlib.pyplot as plot\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\nplot.plot(array_1x7)\nplot.title(\"1x7 Array Visualization\")\nplot.xlabel(\"Index\")\nplot.ylabel(\"Value\")\nplot.show()"
+    "text": "Let’s plot some 1D data\n\n\npyplot_1d.py\n\nimport matplotlib.pyplot as plot\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\nplot.plot(array_1x7)\n\n\n\nplot.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-1",
     "href": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-1",
+    "title": "Displaying data",
+    "section": "Let’s plot some 1D data",
+    "text": "Let’s plot some 1D data"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-2",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-2",
+    "title": "Displaying data",
+    "section": "Let’s plot some 1D data",
+    "text": "Let’s plot some 1D data\n\n\npyplot_1d.py\n\nimport matplotlib.pyplot as plot\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\nplot.plot(array_1x7)\nplot.title(\"1x7 Array Visualization\")\nplot.xlabel(\"Index\")\nplot.ylabel(\"Value\")\nplot.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-3",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-3",
     "title": "Displaying data",
     "section": "Let’s plot some 1D data",
     "text": "Let’s plot some 1D data"
@@ -319,7 +410,7 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data",
     "title": "Displaying data",
     "section": "Plotting 2D data",
-    "text": "Plotting 2D data\n\nHeatmaps are useful\n\n\n\npyplot_2d.py\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 13]])\n\nplot.imshow(array_2x7, cmap='viridis', aspect='auto')\nplot.colorbar()\nplot.title(\"2x7 Array Heatmap\")\nplot.gca().set_yticks(np.arange(array_2x7.shape[0]))\nplot.xlabel(\"Columns\")\nplot.ylabel(\"Rows\")\nplot.show()"
+    "text": "Plotting 2D data\n\nHeatmaps are useful\n\n\n\npyplot_2d.py\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 13]])\n\nplot.imshow(array_2x7)\n\n\n\n\n\nplot.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-1",
@@ -329,15 +420,50 @@
     "text": "Plotting 2D data"
   },
   {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-2",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-2",
+    "title": "Displaying data",
+    "section": "Plotting 2D data",
+    "text": "Plotting 2D data\n\nHeatmaps are useful\n\n\n\npyplot_2d.py\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 13]])\n\nplot.imshow(array_2x7, cmap='viridis', aspect='auto')\nplot.colorbar()\nplot.title(\"2x7 Array Heatmap\")\nplot.gca().set_yticks(np.arange(array_2x7.shape[0]))\nplot.xlabel(\"Columns\")\nplot.ylabel(\"Rows\")\nplot.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-3",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-3",
+    "title": "Displaying data",
+    "section": "Plotting 2D data",
+    "text": "Plotting 2D data"
+  },
+  {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data",
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data",
+    "title": "Displaying data",
+    "section": "Plotting 3D data",
+    "text": "Plotting 3D data\n\nHere is some 3-dimensional data to plot.\n\n\n\npyplot_3d.py\n\narray_3D = np.array([[[0, 80, 2, 3, 4, 5, 6],\n                      [7, 8, 9, 10, 111, 12, 13]],\n                     [[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 122, 13, 14]],\n                     [[15, 16, 17, 18, 19, 20, 21],\n                      [22, 23, 24, 25, 26, 27, 28]]])"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-1",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-1",
+    "title": "Displaying data",
+    "section": "Plotting 3D data",
+    "text": "Plotting 3D data\n\n3D scatter plots are useful\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, cmap='viridis', s=100)\n\n\n\n\n\n\n\n\n\n\n\n\nplot.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-2",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-2",
+    "title": "Displaying data",
+    "section": "Plotting 3D data",
+    "text": "Plotting 3D data"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-3",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-3",
     "title": "Displaying data",
     "section": "Plotting 3D data",
     "text": "Plotting 3D data\n\n3D scatter plots are useful\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, cmap='viridis', s=100)\n\ncbar_ax = fig.add_axes([0.9, 0.15, 0.05, 0.7]) \ncbar = fig.colorbar(sc, ax=ax, cax=cbar_ax, shrink=0.5, aspect=5)\n\nax.set_title('3D Array Visualization')\nax.set_xlabel('Rows')\nax.set_ylabel('Columns')\nax.set_zlabel('Depth')\n\nax.set_xticks(np.arange(array_3D.shape[0]))\nax.set_yticks(np.arange(array_3D.shape[1]))\n\nplot.show()"
   },
   {
-    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-1",
-    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-1",
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-4",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-4",
     "title": "Displaying data",
     "section": "Plotting 3D data",
     "text": "Plotting 3D data"
