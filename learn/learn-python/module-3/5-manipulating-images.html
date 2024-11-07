@@ -505,6 +505,7 @@ Let’s Do Digital Team
 <ul>
 <li>To resize an image, you can use the <code>resize</code> method from the <code>PIL</code> library.</li>
 <li><code>img_1.resize((width, height))</code> needs a tuple with the new width and height.</li>
+<li>This stretches or compresses the image.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -521,6 +522,9 @@ Let’s Do Digital Team
 <ul>
 <li>Define the top-left and bottom-right coordinates of the area you want to crop.</li>
 <li>Then use the <code>crop</code> method from the <code>PIL</code> library.</li>
+<li>This uses pixel coordinates.</li>
+<li>The top-left corner is (0, 0).</li>
+<li>coordinates are x and then y values.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -547,7 +551,7 @@ Let’s Do Digital Team
 <section id="inverting-images" class="slide level2" data-background-image="../../../media/inverted-landscape-glass-sphere.jpg" data-background-opacity="0.4">
 <h2>Inverting Images</h2>
 <ul>
-<li>Invert with the PIL library using the <code>invert</code> method.</li>
+<li>Invert by using the <code>invert</code> method.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -569,7 +573,7 @@ Let’s Do Digital Team
 </div>
 <div class="sourceCode" id="cb9" data-filename="rotate.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>bmp_filename <span class="op">=</span> <span class="st">'converted_image_3.bmp'</span></span>
 <span id="cb9-2"><a></a></span>
-<span id="cb9-3"><a></a>inverted_img_3.save(bmp_filename)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-3"><a></a>img_4.save(bmp_filename)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="now-try-it-yourself" class="slide level2">

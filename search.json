@@ -312,14 +312,14 @@
     "href": "learn/learn-python/module-3/5-manipulating-images.html#resizing-images",
     "title": "Manipulating images",
     "section": "Resizing Images",
-    "text": "Resizing Images\n\nTo resize an image, you can use the resize method from the PIL library.\nimg_1.resize((width, height)) needs a tuple with the new width and height.\n\n\n\nresize.py\n\nresized_img_1 = img_1.resize((50, 300))\n\nplt.imshow(resized_img_1)\nplt.show()"
+    "text": "Resizing Images\n\nTo resize an image, you can use the resize method from the PIL library.\nimg_1.resize((width, height)) needs a tuple with the new width and height.\nThis stretches or compresses the image.\n\n\n\nresize.py\n\nresized_img_1 = img_1.resize((50, 300))\n\nplt.imshow(resized_img_1)\nplt.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#cropping-images",
     "href": "learn/learn-python/module-3/5-manipulating-images.html#cropping-images",
     "title": "Manipulating images",
     "section": "Cropping Images",
-    "text": "Cropping Images\n\nDefine the top-left and bottom-right coordinates of the area you want to crop.\nThen use the crop method from the PIL library.\n\n\n\ncrop.py\n\nbox = (3900, 2900, 6000, 5500)\n\ncropped_img_1 = img_1.crop(box)"
+    "text": "Cropping Images\n\nDefine the top-left and bottom-right coordinates of the area you want to crop.\nThen use the crop method from the PIL library.\nThis uses pixel coordinates.\nThe top-left corner is (0, 0).\ncoordinates are x and then y values.\n\n\n\ncrop.py\n\nbox = (3900, 2900, 6000, 5500)\n\ncropped_img_1 = img_1.crop(box)"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#rotate-images",
@@ -333,14 +333,14 @@
     "href": "learn/learn-python/module-3/5-manipulating-images.html#inverting-images",
     "title": "Manipulating images",
     "section": "Inverting Images",
-    "text": "Inverting Images\n\nInvert with the PIL library using the invert method.\n\n\n\nrotate.py\n\nfrom PIL import ImageOps\n\ninverted_img_3 = ImageOps.invert(img_3)"
+    "text": "Inverting Images\n\nInvert by using the invert method.\n\n\n\nrotate.py\n\nfrom PIL import ImageOps\n\ninverted_img_3 = ImageOps.invert(img_3)"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#change-file-type",
     "href": "learn/learn-python/module-3/5-manipulating-images.html#change-file-type",
     "title": "Manipulating images",
     "section": "Change file type",
-    "text": "Change file type\n\nUse the save method from the PIL library to save the image in a different format.\n\n\n\nrotate.py\n\nbmp_filename = 'converted_image_3.bmp'\n\ninverted_img_3.save(bmp_filename)"
+    "text": "Change file type\n\nUse the save method from the PIL library to save the image in a different format.\n\n\n\nrotate.py\n\nbmp_filename = 'converted_image_3.bmp'\n\nimg_4.save(bmp_filename)"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#now-try-it-yourself",
@@ -4939,7 +4939,7 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#printing-your-variables",
     "title": "Manipulating Data",
     "section": "Printing your variables",
-    "text": "Printing your variables\n\n\npandas.py\n\na_variable = 5\n\nprint(a_variable)\n\n# or\n\na_variable\n\n\nOutput:\n    5\n    5"
+    "text": "Printing your variables\n\n\npandas.py\n\na_variable = 5\n\nprint(a_variable)\n\n# or, if last variable in cell\n\na_variable\n\n\nOutput:\n    5\n    5"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#load-data-with-pandas",
@@ -4953,28 +4953,28 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#update-data-within-a-dataframe",
     "title": "Manipulating Data",
     "section": "Update Data within a DataFrame",
-    "text": "Update Data within a DataFrame\n\nUse the loc method.\nUse df['Column name'] to select a column.\nSearch for a specific value in this column using == and the value.\nIn the second loc argument, specify the column to update.\nUpdate the value as needed.\n\n\n\npandas_update.py\n\ndf.loc[df['Date'] == '2022-12-01', 'Stage'] = 5"
+    "text": "Update Data within a DataFrame\n\nUse the loc method.\nUse patient_data['Column name'] to select a column.\nSearch for a specific value in this column using == and the value.\nIn the second loc argument, specify the column to update.\nUpdate the value as needed.\n\n\n\npandas_update.py\n\npatient_data.loc[patient_data['Date'] == '2022-12-01', 'Stage'] = 5"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#filtering-dataframes",
     "href": "learn/learn-python/module-3/3-manipulating-data.html#filtering-dataframes",
     "title": "Manipulating Data",
     "section": "Filtering DataFrames",
-    "text": "Filtering DataFrames\n\nUse the [] operator to filter rows.\nUse a condition (eg more than &gt;) to filter rows.\n\n\n\npandas_filter.py\n\ndf_over_55 = df[df['Age'] &gt; 55]"
+    "text": "Filtering DataFrames\n\nUse the [] operator to filter rows.\nUse a condition (eg more than &gt;) to filter rows.\n\n\n\npandas_filter.py\n\npatients_over_55 = patient_data[patient_data['Age'] &gt; 55]"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#get-some-statistics",
     "href": "learn/learn-python/module-3/3-manipulating-data.html#get-some-statistics",
     "title": "Manipulating Data",
     "section": "Get some statistics",
-    "text": "Get some statistics\n\nYou can get some basic statistics from a Pandas dataframe.\n\n\n\nnumpy_stats.py\n\nprint(df.describe())\n\n\nOutput:\n           Patient_ID        Age  Cholesterol  Glucose Level\n    count    6.000000   6.000000     6.000000       6.000000\n    mean     3.333333  56.666667   208.333333     107.166667\n    std      1.632993   9.309493    20.412415      22.003788\n    min      1.000000  45.000000   180.000000      90.000000\n    25%      2.250000  51.250000   200.000000      95.750000\n    50%      3.500000  55.000000   205.000000      99.000000\n    75%      4.750000  62.500000   217.500000     107.500000\n    max      5.000000  70.000000   240.000000     150.000000"
+    "text": "Get some statistics\n\nYou can get some basic statistics from a Pandas dataframe.\n\n\n\nnumpy_stats.py\n\nprint(patient_data.describe())\n\n\nOutput:\n           Patient_ID        Age  Cholesterol  Glucose Level\n    count    6.000000   6.000000     6.000000       6.000000\n    mean     3.333333  56.666667   208.333333     107.166667\n    std      1.632993   9.309493    20.412415      22.003788\n    min      1.000000  45.000000   180.000000      90.000000\n    25%      2.250000  51.250000   200.000000      95.750000\n    50%      3.500000  55.000000   205.000000      99.000000\n    75%      4.750000  62.500000   217.500000     107.500000\n    max      5.000000  70.000000   240.000000     150.000000"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#splitting-dataframes",
     "href": "learn/learn-python/module-3/3-manipulating-data.html#splitting-dataframes",
     "title": "Manipulating Data",
     "section": "Splitting DataFrames",
-    "text": "Splitting DataFrames\n\nYou can split a DataFrame into two or more DataFrames. You just need to define what is the condition to split the data.\nYou can also just return single column values.\n\n\n\npandas_split.py\n\nhypertension = df_2[df_2['Diagnosis'] == 'Hypertension']['Cholesterol']\n\n\n\n\ndf_2['Diagnosis'] == 'Hypertension' finds all rows where the diagnosis is hypertension.\n['Cholesterol'] returns only the cholesterol values for the rows that are returned by the above query."
+    "text": "Splitting DataFrames\n\nYou can split a DataFrame into two or more DataFrames. You just need to define what is the condition to split the data.\nYou can also just return single column values.\n\n\n\npandas_split.py\n\nhypertension = patient_data_2[patient_data_2['Diagnosis'] == \n'Hypertension']['Cholesterol']\n\n\n\n\npatient_data_2['Diagnosis'] == 'Hypertension' finds all rows where the diagnosis is hypertension.\n['Cholesterol'] returns only the cholesterol values for the rows that are returned by the above query."
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#create-a-numpy-array",
