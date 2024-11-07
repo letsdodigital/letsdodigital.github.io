@@ -1022,6 +1022,13 @@
     "text": "Ask\n\nPlease please please ask questions of your tutor. That is why they are here.\n\nThere is no such thing as a stupid question, only a question left unanswered"
   },
   {
+    "objectID": "learn/learn-python/module-2/3-digital-consent-form.html#see-the-final-product",
+    "href": "learn/learn-python/module-2/3-digital-consent-form.html#see-the-final-product",
+    "title": "Building a digital consent form",
+    "section": "See the final product",
+    "text": "See the final product\n\nHave a look at what the final product looks like by running the below.\n\n$ streamlit run exercise_0.py\n\nOnce you are happy with how the final product looks and works, you can move on to actually building it with exercise 1.\n\n$ streamlit run exercise_1.py\n\n    Pit stop"
+  },
+  {
     "objectID": "learn/learn-python/module-2/1-introduction.html#what-are-we-going-to-cover",
     "href": "learn/learn-python/module-2/1-introduction.html#what-are-we-going-to-cover",
     "title": "Module 2 - Let’s take things to the next level",
