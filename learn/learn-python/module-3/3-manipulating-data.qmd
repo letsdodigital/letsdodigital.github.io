@@ -94,7 +94,7 @@ a_variable = 5
 
 print(a_variable)
 
-# or
+# or, if last variable in cell
 
 a_variable
 ```
@@ -116,16 +116,17 @@ import pandas as pd
 df = pd.read_csv('kidney_function.csv')
 ```
 
+
 ## Update Data within a DataFrame
 
 * Use the `loc` method.
-* Use `df['Column name']` to select a column.
+* Use `patient_data['Column name']` to select a column.
 * Search for a specific value in this column using `==` and the value.
 * In the second `loc` argument, specify the column to update.
 * Update the value as needed.
 
 ```{.python filename="pandas_update.py"}
-df.loc[df['Date'] == '2022-12-01', 'Stage'] = 5
+patient_data.loc[patient_data['Date'] == '2022-12-01', 'Stage'] = 5
 ```
 
 
@@ -135,7 +136,7 @@ df.loc[df['Date'] == '2022-12-01', 'Stage'] = 5
 * Use a condition (eg more than >) to filter rows.
 
 ```{.python filename="pandas_filter.py"}
-df_over_55 = df[df['Age'] > 55]
+patients_over_55 = patient_data[patient_data['Age'] > 55]
 ```
 
 ## Get some statistics
@@ -143,7 +144,7 @@ df_over_55 = df[df['Age'] > 55]
 * You can get some basic statistics from a Pandas dataframe.
 
 ```{.python filename="numpy_stats.py"}
-print(df.describe())
+print(patient_data.describe())
 ```
 \
 Output:
@@ -165,11 +166,12 @@ Output:
 * You can also just return single column values.
 
 ```{.python filename="pandas_split.py"}
-hypertension = df_2[df_2['Diagnosis'] == 'Hypertension']['Cholesterol']
+hypertension = patient_data_2[patient_data_2['Diagnosis'] == 
+'Hypertension']['Cholesterol']
 ```
 \
 
-* `df_2['Diagnosis'] == 'Hypertension'` finds all rows where the diagnosis is **hypertension**.
+* `patient_data_2['Diagnosis'] == 'Hypertension'` finds all rows where the diagnosis is **hypertension**.
 * `['Cholesterol']` returns **only the cholesterol values** for the rows that are returned by the above query.
 
 

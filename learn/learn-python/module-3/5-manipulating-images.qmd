@@ -95,6 +95,7 @@ plt.show()
 
 * To resize an image, you can use the `resize` method from the `PIL` library.
 * `img_1.resize((width, height))` needs a tuple with the new width and height.
+* This stretches or compresses the image.
 
 ```{.python filename="resize.py"}
 resized_img_1 = img_1.resize((50, 300))
@@ -109,6 +110,9 @@ plt.show()
 
 * Define the top-left and bottom-right coordinates of the area you want to crop.
 * Then use the `crop` method from the `PIL` library.
+* This uses pixel coordinates.
+* The top-left corner is (0, 0).
+* coordinates are x and then y values.
 
 ```{.python filename="crop.py"}
 box = (3900, 2900, 6000, 5500)
@@ -130,7 +134,7 @@ rotated_img_2 = img_2.rotate(10)
 ## Inverting Images {background-image="/media/inverted-landscape-glass-sphere.jpg" background-opacity="0.4"}
 
 
-* Invert with the PIL library using the `invert` method.
+* Invert by using the `invert` method.
 
 ```{.python filename="rotate.py"}
 from PIL import ImageOps
@@ -146,7 +150,7 @@ inverted_img_3 = ImageOps.invert(img_3)
 ```{.python filename="rotate.py"}
 bmp_filename = 'converted_image_3.bmp'
 
-inverted_img_3.save(bmp_filename)
+img_4.save(bmp_filename)
 ```
 
 
