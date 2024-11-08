@@ -65,7 +65,7 @@ title-slide-attributes:
 ![](/media/jupyter-plotting.png){.centre-full-image-drop}
 
 
-## Share work with others in a readable format.
+## Share work with others
 
 * Share via GitHub.
 * Share via Google Colab.
@@ -102,6 +102,7 @@ title-slide-attributes:
 * You can use it to write headings, lists, and more.
 * Useful for adding explanations and notes in Jupyter Notebooks.
 * Supports basic formatting without complex code.
+* It is often used to create web content as a much similar alternative to HTML.
 
 
 ## Why Use Markdown in Jupyter?
@@ -229,10 +230,22 @@ Renders to:
 </div>
 
 
+## Markdown to normal text
+
+* Click the tick when you are ready to render markdown to normal text.
+
+```{=html}
+<div class="image-container-play">
+  <img src="/media/tick-for-complete.png">
+</div>
+```
+
+
+
 ## Open a file in Jupyter
 
 ```{.python filename="open_a_file.py"}
-with open('test_text.txt', 'r') as file:
+with open('your_patient_data.txt', 'r') as file:
     content = file.read()
 
 ```
@@ -309,13 +322,7 @@ with open('test_text.txt', 'r') as file:
 
 ## Get to your first lesson {.smaller}
 
-* Change the directory (don't type the `$`. This is just how we show that this is the command line):
-
-```{.bash}
-    $ cd programming_in_healthcare/module_3
-```
-
-* And then open the `lesson_1.ipynb file`. 
+* Open the `lesson_1.ipynb` file (not the answers file!). 
 * Run through the exercises within the notebook.
 
 * Any problems, just ask your tutor for help. 

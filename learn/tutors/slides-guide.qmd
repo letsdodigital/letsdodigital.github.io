@@ -65,6 +65,7 @@ Variables are stored in the `_variables.yml` file in the root directory.
 
 * Use heading level 1 sparingly or if you need to centre the title vertically.
 
+
 ## Images
 
 * Have the `Let's Do Digital` logo in the top right corner.
@@ -97,9 +98,16 @@ title-slide-attributes:
 * Use the `background-opacity` attribute to control the opacity of the image.
 
 
+### Background image with no title
+
+```{.markdown}
+# <span class="hide-title">A hidden title</span>  {background-image="/media/numpy.png" background-opacity="0.4"}
+```
+
+
 ### Inserted images
 
-* To insert an image, use the following syntax:
+* To insert an image in block form, use the following syntax:
 
 ```{.markdown}
 ![](/media/image.jpg){.a_class_to_alter_image}

@@ -39,19 +39,19 @@ include-in-header:
 * In this 3 hour session, we are going to cover
 
 
-## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
 
 * Jupyter notebook
 * Markdown
 
 
-## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
 
 * Accessing and manipulating data
 * Visualising data
 
 
-## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
 
 * Basic statistics
 * Manipulating images
