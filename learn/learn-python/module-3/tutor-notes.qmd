@@ -1,12 +1,12 @@
 ---
-title: "Tutor notes - module 2"
+title: "Tutor notes - module 3"
 ---
 
 ## Overview
 
-This is the third course for the Programming in Healthcare series. It is for students that have some moderate experience with coding. Hopefully students would have completed the introductory modules 0 and 1.
+This is the fourth course for the Programming in Healthcare series. This is for students that have completed the previous modules and are ready to learn about data manipulation and visualisation. It is also a great course for any student wishing to attend the upcoming Data Analysis in Medicine (DAIM) course.
 
-Hopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teaching they need. As you may know, there is a high attrition rate for people who are learning to code.
+Hopefully you will need to provide less hand holding now than with previous modules. Please be patient with our students, and give them the time and teaching they need. As you may know, there is a high attrition rate for people who are learning to code.
 
 We will be using Codespace from Github as the teaching environment. All students will need to have a Github account (they can create one [here](https://github.com/signup)). It is also recommended to not use a NHS computer, as some IT departments block access to GitHub.
 
@@ -23,6 +23,7 @@ We will be using hackMD to store information for the session (eg tutor group all
 Example timings for evening session.
 
 Start 7pm
+
 End 10pm
 
 6:30 pm - Open zoom for tutors and set up breakout rooms. Test all functionality.
@@ -31,33 +32,25 @@ End 10pm
 
 7:01 pm - Talk - 1-introduction.html
 
-7:10 pm - Talk - 2-coding-environment.html
+7:05 pm - Talk - 2-jupyter-notebook-and-markdown.html
 
-7:15 pm - Talk - 3-python.html
+7:25 pm - Hands-on - lesson_1.ipynb
 
-7:25 pm - Hands-on - lesson_1.py
+7:45 pm - Talk - 3-manipulating-data.html
 
-7:45 pm - Talk - 4-lets-build.html
+8:05 pm - Hands-on - lesson_2.ipynb
 
-7:55 pm - Hands-on - lesson_2.py (& lesson_3.py)
+8:45 pm - Talk - 4-displaying-data.html
 
-9:00 pm - Talk - Short stop to see how everyone is doing
+8:55 pm - Hands-on - lesson_3.ipynb
 
-9:05 pm - Hands-on - back to lesson_2.py (& lesson_3.py)
+9:25 pm - Talk - 5-manipulating-images.html
+
+9:35 pm - Hands-on - lesson_4.ipynb (& lesson_5.ipynb for faster students)
 
 9:50 pm - Talk - 5-session-close.html
 
 10:00 pm - Close
-
-
-## Lesson 1
-
-We will be learning about process mapping and have some hands on work for the students in their tutoring groups.
-
-
-## Lesson 2
-
-For the rest of the module, we will be building a digital consent form.
 
 
 ## Common pit falls
@@ -65,7 +58,3 @@ For the rest of the module, we will be building a digital consent form.
 * **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of the hospital/GP practice network.
 * **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.
 
-
-## Answers
-
-TBC

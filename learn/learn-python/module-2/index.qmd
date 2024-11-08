@@ -30,8 +30,3 @@ Notes for tutors can be found below:
 <ul>
   <li><a href="tutor-notes.html" target="_blank">Tutor notes</a></li>
 </ul>
-
-
-## Feedback
-
-A short feedback survey will be available here at the end of the module.

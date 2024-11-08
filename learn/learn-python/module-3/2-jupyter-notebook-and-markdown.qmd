@@ -320,7 +320,7 @@ with open('test_text.txt', 'r') as file:
 
 * Any problems, just ask your tutor for help. 
 * **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 40 minutes for lesson 1.
+* We will give you 20 minutes for lesson 1.
 
 
 ```{=html}

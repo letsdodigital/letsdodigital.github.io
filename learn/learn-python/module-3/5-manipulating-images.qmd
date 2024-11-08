@@ -159,7 +159,7 @@ img_4.save(bmp_filename)
 * Go to the Lesson 4 folder.
 * Open `lesson_4.ipynb`.
 * Don't forget to ask your tutor if you need help.
-* See you in 40 minutes.
+* See you in 20 minutes.
 
 If you finish lesson 4 (but no need to rush), you can try your hand at lesson 5.
 

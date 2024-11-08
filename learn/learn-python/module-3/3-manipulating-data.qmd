@@ -5,8 +5,8 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/jupyter-notebook-logo.png
-    data-background-opacity: "0.1"
+    data-background-image: /media/magic-card-floating.jpg
+    data-background-opacity: "0.3"
 ---
 
 ## Python data libraries
@@ -113,7 +113,7 @@ Output:
 
 ```{.python filename="pandas.py"}
 import pandas as pd
-df = pd.read_csv('kidney_function.csv')
+patient_kidney_function = pd.read_csv('kidney_function.csv')
 ```
 
 
