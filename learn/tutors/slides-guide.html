@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python virtual environment – Let’s Do Digital</title>
+<title>Slides guide – Let’s Do Digital</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +20,62 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../media/ldd-logo.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/ldd-logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -71,8 +105,9 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
-<meta name="twitter:title" content="Python virtual environment – Let’s Do Digital">
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Slides guide – Let’s Do Digital">
+<meta name="twitter:description" content="">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -83,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Let’s Do Digital</span>
     </a>
   </div>
@@ -94,27 +129,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../learn/index.html"> 
+    <a class="nav-link" href="../../learn/index.html"> 
 <span class="menu-text">Learn</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../conferences/2024/index.html"> 
+    <a class="nav-link" href="../../conferences/2024/index.html"> 
 <span class="menu-text">Conference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../tickets/index.html"> 
+    <a class="nav-link" href="../../tickets/index.html"> 
 <span class="menu-text">Tickets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../posts.html"> 
+    <a class="nav-link" href="../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../services-we-offer.html"> 
+    <a class="nav-link" href="../../services-we-offer.html"> 
 <span class="menu-text">Services we offer</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../who-are-we.html"> 
+    <a class="nav-link" href="../../who-are-we.html"> 
 <span class="menu-text">Who are we</span></a>
   </li>  
 </ul>
@@ -134,8 +169,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#create-a-python-virtual-environment-mac-and-linux" id="toc-create-a-python-virtual-environment-mac-and-linux" class="nav-link active" data-scroll-target="#create-a-python-virtual-environment-mac-and-linux">Create a python virtual environment (mac and linux)</a></li>
-  <li><a href="#to-activate-the-virtual-environment" id="toc-to-activate-the-virtual-environment" class="nav-link" data-scroll-target="#to-activate-the-virtual-environment">To activate the virtual environment</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#file-type" id="toc-file-type" class="nav-link" data-scroll-target="#file-type">File type</a></li>
+  <li><a href="#front-matter" id="toc-front-matter" class="nav-link" data-scroll-target="#front-matter">Front matter</a></li>
+  <li><a href="#variables" id="toc-variables" class="nav-link" data-scroll-target="#variables">Variables</a></li>
+  <li><a href="#titles" id="toc-titles" class="nav-link" data-scroll-target="#titles">Titles</a></li>
+  <li><a href="#images" id="toc-images" class="nav-link" data-scroll-target="#images">Images</a>
+  <ul class="collapse">
+  <li><a href="#first-slide" id="toc-first-slide" class="nav-link" data-scroll-target="#first-slide">First slide</a></li>
+  <li><a href="#background-image" id="toc-background-image" class="nav-link" data-scroll-target="#background-image">Background image</a></li>
+  <li><a href="#inserted-images" id="toc-inserted-images" class="nav-link" data-scroll-target="#inserted-images">Inserted images</a></li>
+  </ul></li>
+  <li><a href="#number-of-bullet-points-per-slide" id="toc-number-of-bullet-points-per-slide" class="nav-link" data-scroll-target="#number-of-bullet-points-per-slide">Number of bullet points per slide</a></li>
+  <li><a href="#punctuation" id="toc-punctuation" class="nav-link" data-scroll-target="#punctuation">Punctuation</a></li>
   </ul>
 </nav>
     </div>
@@ -144,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Python virtual environment</h1>
+<h1 class="title">Slides guide</h1>
 </div>
 
 
@@ -161,13 +207,115 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="create-a-python-virtual-environment-mac-and-linux" class="level2">
-<h2 class="anchored" data-anchor-id="create-a-python-virtual-environment-mac-and-linux">Create a python virtual environment (mac and linux)</h2>
-<pre><code>$ python3 -m venv venv</code></pre>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>We will be using Quarto to render slides and then the reveal.js framework to display them. This guide will help you create slides that are visually appealing, easy to follow and are consistent across the Let’s Do Digital platform.</p>
 </section>
-<section id="to-activate-the-virtual-environment" class="level2">
-<h2 class="anchored" data-anchor-id="to-activate-the-virtual-environment">To activate the virtual environment</h2>
-<pre><code>$ source venv/bin/activate</code></pre>
+<section id="file-type" class="level2">
+<h2 class="anchored" data-anchor-id="file-type">File type</h2>
+<ul>
+<li>Use the <code>.qmd</code> file extension for slides.</li>
+<li>You then write the slides in <code>markdown</code> format.</li>
+</ul>
+</section>
+<section id="front-matter" class="level2">
+<h2 class="anchored" data-anchor-id="front-matter">Front matter</h2>
+<p>Front matter is the metadata at the top of the file. It contains information such as the title, author, format, logo, and CSS file. A template for the front matter for the Let’s Do Digital slides is provided below.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="an">title:</span><span class="co"> "An informative title"</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="an">author:</span><span class="co"> "{{&lt; var author &gt;}}"</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="an">format:</span><span class="co"> revealjs</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="an">logo:</span><span class="co"> /media/ldd-logo.png</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="an">css:</span><span class="co"> /slides.css</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="an">title-slide-attributes:</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="co">    data-background-image: /media/a_picture_or_movie.jpg</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co">    data-background-opacity: "0.5"</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><strong>Notes:</strong></p>
+<ul>
+<li>We are using the <code>reveal.js</code> format for the slides.</li>
+<li>We are using the <code>slides.css</code> file for styling.</li>
+<li>You can have video backgrounds as well, but these do not render well for the audience on Zoom. They can be nice to have for self-paced study recorded videos.</li>
+</ul>
+</section>
+<section id="variables" class="level2">
+<h2 class="anchored" data-anchor-id="variables">Variables</h2>
+<p>Variables in Quarto are very useful for when you need to reuse the same information in multiple places. This is especially useful if the name could potentially be changed at a later time. It is good practice to use variables for course names.</p>
+<p>Variables are inserted using the <code>{{&lt; var variable-name &gt;}}</code> syntax.</p>
+<p>Variables are stored in the <code>_variables.yml</code> file in the root directory.</p>
+</section>
+<section id="titles" class="level2">
+<h2 class="anchored" data-anchor-id="titles">Titles</h2>
+<ul>
+<li>Please use heading levels 1 or 2 for slide titles.</li>
+<li>When you create a new title, this creates a new slide, as below:</li>
+</ul>
+<div class="sourceCode" id="cb2"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># Slide 2</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Bullet point 1</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Bullet point 2</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide 3</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Bullet point 3</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="ss">* </span>Bullet point 4</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Use heading level 1 sparingly or if you need to centre the title vertically.</li>
+</ul>
+</section>
+<section id="images" class="level2">
+<h2 class="anchored" data-anchor-id="images">Images</h2>
+<ul>
+<li>Have the <code>Let's Do Digital</code> logo in the top right corner.</li>
+<li>Use images to break up text and make the slides more visually appealing.</li>
+<li>You can use images in the background as well.</li>
+</ul>
+<section id="first-slide" class="level3">
+<h3 class="anchored" data-anchor-id="first-slide">First slide</h3>
+<ul>
+<li>To add an image to the background of the first slide, you need to add the following to the front matter:</li>
+</ul>
+<div class="sourceCode" id="cb3"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co">---</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co">...</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>title-slide-attributes:</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    data-background-image: /media/women-at-beach-sunset.jpg</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    data-background-opacity: "0.5"</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>---</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="background-image" class="level3">
+<h3 class="anchored" data-anchor-id="background-image">Background image</h3>
+<ul>
+<li>To add an image to the background of a non-first slides, you can use the following syntax:</li>
+</ul>
+<div class="sourceCode" id="cb4"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">## Slide title {background-image="/media/a_picture.jpg" background-opacity="0.4"}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>Use the <code>background-opacity</code> attribute to control the opacity of the image.</li>
+</ul>
+</section>
+<section id="inserted-images" class="level3">
+<h3 class="anchored" data-anchor-id="inserted-images">Inserted images</h3>
+<ul>
+<li>To insert an image, use the following syntax:</li>
+</ul>
+<div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="al">![](/media/image.jpg)</span>{.a_class_to_alter_image}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<ul>
+<li>You can add classes to the image in the curly braces.</li>
+<li>See the <code>slides.css</code> file in the root directory for the available classes, or add your own.</li>
+</ul>
+</section>
+</section>
+<section id="number-of-bullet-points-per-slide" class="level2">
+<h2 class="anchored" data-anchor-id="number-of-bullet-points-per-slide">Number of bullet points per slide</h2>
+<ul>
+<li>Ideally 4-5 bullet points max. There are situations where you may need more, but try to keep it to a minimum.</li>
+<li>Please use the asterisk <code>*</code> for bullet points.</li>
+</ul>
+</section>
+<section id="punctuation" class="level2">
+<h2 class="anchored" data-anchor-id="punctuation">Punctuation</h2>
+<ul>
+<li>Use full stops at the end of sentences, even with bullet points.</li>
+</ul>
 
 
 </section>
@@ -743,32 +891,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../contact.html">
+    <a class="nav-link" href="../../contact.html">
 <p>Contact</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../privacy-policy.html">
+    <a class="nav-link" href="../../privacy-policy.html">
 <p>Privacy Policy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../company-information.html">
+    <a class="nav-link" href="../../company-information.html">
 <p>Company information</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../sponsor.html">
+    <a class="nav-link" href="../../sponsor.html">
 <p>Sponsor us</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../paying-the-team.html">
+    <a class="nav-link" href="../../paying-the-team.html">
 <p>Paying the team</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../eohi/business-case.html">
+    <a class="nav-link" href="../../eohi/business-case.html">
 <p>Essentials of Health Informatics</p>
 </a>
   </li>  

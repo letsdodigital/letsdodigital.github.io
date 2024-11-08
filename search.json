@@ -210,6 +210,76 @@
     "text": "Basics of type annotations using typing module\nType hints for function arguments and return values\nUsing Optional, Union, Tuple, List, etc., for more specific type hints\nUnderstanding type checkers like mypy and integrating them into the development workflow"
   },
   {
+    "objectID": "learn/tutors/webinars.html",
+    "href": "learn/tutors/webinars.html",
+    "title": "Webinars",
+    "section": "",
+    "text": "We use StreamYard for live webinars. There are a few reasons for this, the first is that the layout is more professional and consistent than with other platforms like Zoom. Second, any recordings retain the same layout as the live version.\nExamples of the layout are as below:\nTO BE ADDED"
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html",
+    "href": "learn/tutors/slides-guide.html",
+    "title": "Slides guide",
+    "section": "",
+    "text": "We will be using Quarto to render slides and then the reveal.js framework to display them. This guide will help you create slides that are visually appealing, easy to follow and are consistent across the Let’s Do Digital platform."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#overview",
+    "href": "learn/tutors/slides-guide.html#overview",
+    "title": "Slides guide",
+    "section": "",
+    "text": "We will be using Quarto to render slides and then the reveal.js framework to display them. This guide will help you create slides that are visually appealing, easy to follow and are consistent across the Let’s Do Digital platform."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#file-type",
+    "href": "learn/tutors/slides-guide.html#file-type",
+    "title": "Slides guide",
+    "section": "File type",
+    "text": "File type\n\nUse the .qmd file extension for slides.\nYou then write the slides in markdown format."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#front-matter",
+    "href": "learn/tutors/slides-guide.html#front-matter",
+    "title": "Slides guide",
+    "section": "Front matter",
+    "text": "Front matter\nFront matter is the metadata at the top of the file. It contains information such as the title, author, format, logo, and CSS file. A template for the front matter for the Let’s Do Digital slides is provided below.\n---\ntitle: \"An informative title\"\nauthor: \"{{&lt; var author &gt;}}\"\nformat: revealjs\nlogo: /media/ldd-logo.png\ncss: /slides.css\ntitle-slide-attributes:\n    data-background-image: /media/a_picture_or_movie.jpg\n    data-background-opacity: \"0.5\"\n---\nNotes:\n\nWe are using the reveal.js format for the slides.\nWe are using the slides.css file for styling.\nYou can have video backgrounds as well, but these do not render well for the audience on Zoom. They can be nice to have for self-paced study recorded videos."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#variables",
+    "href": "learn/tutors/slides-guide.html#variables",
+    "title": "Slides guide",
+    "section": "Variables",
+    "text": "Variables\nVariables in Quarto are very useful for when you need to reuse the same information in multiple places. This is especially useful if the name could potentially be changed at a later time. It is good practice to use variables for course names.\nVariables are inserted using the {{&lt; var variable-name &gt;}} syntax.\nVariables are stored in the _variables.yml file in the root directory."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#titles",
+    "href": "learn/tutors/slides-guide.html#titles",
+    "title": "Slides guide",
+    "section": "Titles",
+    "text": "Titles\n\nPlease use heading levels 1 or 2 for slide titles.\nWhen you create a new title, this creates a new slide, as below:\n\n# Slide 2\n\n* Bullet point 1\n* Bullet point 2\n\n## Slide 3\n\n* Bullet point 3\n* Bullet point 4\n\nUse heading level 1 sparingly or if you need to centre the title vertically."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#images",
+    "href": "learn/tutors/slides-guide.html#images",
+    "title": "Slides guide",
+    "section": "Images",
+    "text": "Images\n\nHave the Let's Do Digital logo in the top right corner.\nUse images to break up text and make the slides more visually appealing.\nYou can use images in the background as well.\n\n\nFirst slide\n\nTo add an image to the background of the first slide, you need to add the following to the front matter:\n\n---\n...\ntitle-slide-attributes:\n    data-background-image: /media/women-at-beach-sunset.jpg\n    data-background-opacity: \"0.5\"\n---\n\n\nBackground image\n\nTo add an image to the background of a non-first slides, you can use the following syntax:\n\n## Slide title {background-image=\"/media/a_picture.jpg\" background-opacity=\"0.4\"}\n\nUse the background-opacity attribute to control the opacity of the image.\n\n\n\nInserted images\n\nTo insert an image, use the following syntax:\n\n![](/media/image.jpg){.a_class_to_alter_image}\n\nYou can add classes to the image in the curly braces.\nSee the slides.css file in the root directory for the available classes, or add your own."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#number-of-bullet-points-per-slide",
+    "href": "learn/tutors/slides-guide.html#number-of-bullet-points-per-slide",
+    "title": "Slides guide",
+    "section": "Number of bullet points per slide",
+    "text": "Number of bullet points per slide\n\nIdeally 4-5 bullet points max. There are situations where you may need more, but try to keep it to a minimum.\nPlease use the asterisk * for bullet points."
+  },
+  {
+    "objectID": "learn/tutors/slides-guide.html#punctuation",
+    "href": "learn/tutors/slides-guide.html#punctuation",
+    "title": "Slides guide",
+    "section": "Punctuation",
+    "text": "Punctuation\n\nUse full stops at the end of sentences, even with bullet points."
+  },
+  {
     "objectID": "learn/index.html",
     "href": "learn/index.html",
     "title": "Education",
@@ -238,11 +308,11 @@
     "text": "Syllabus\nInterested in becoming a clinical informatician, view a syllabus in the making here.\nInterested in becoming a clinician-who-codes, view a syllabus in the making here.\nInterested in becoming a coding, view a syllabus in the making here."
   },
   {
-    "objectID": "learn/index.html#coding-cheat-sheets",
-    "href": "learn/index.html#coding-cheat-sheets",
+    "objectID": "learn/index.html#tutors-corner",
+    "href": "learn/index.html#tutors-corner",
     "title": "Education",
-    "section": "Coding cheat sheets",
-    "text": "Coding cheat sheets\nA collection of code and commands."
+    "section": "Tutors’ corner",
+    "text": "Tutors’ corner\nGuides for tutors can be found here."
   },
   {
     "objectID": "learn/ask-a-clinician/index.html",
@@ -466,7 +536,7 @@
     "href": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-2",
     "title": "Module 3 - There is data, data everywhere!",
     "section": "What are we going to cover?",
-    "text": "What are we going to cover?\n\nManaging data\nVisualising data"
+    "text": "What are we going to cover?\n\nAccessing and manipulating data\nVisualising data"
   },
   {
     "objectID": "learn/learn-python/module-3/1-introduction.html#what-are-we-going-to-cover-3",
@@ -2324,27 +2394,6 @@
     "text": "Questions and answers\nmark@letsdodigital.org"
   },
   {
-    "objectID": "cheatsheets/venv.html",
-    "href": "cheatsheets/venv.html",
-    "title": "Python virtual environment",
-    "section": "",
-    "text": "$ python3 -m venv venv"
-  },
-  {
-    "objectID": "cheatsheets/venv.html#create-a-python-virtual-environment-mac-and-linux",
-    "href": "cheatsheets/venv.html#create-a-python-virtual-environment-mac-and-linux",
-    "title": "Python virtual environment",
-    "section": "",
-    "text": "$ python3 -m venv venv"
-  },
-  {
-    "objectID": "cheatsheets/venv.html#to-activate-the-virtual-environment",
-    "href": "cheatsheets/venv.html#to-activate-the-virtual-environment",
-    "title": "Python virtual environment",
-    "section": "To activate the virtual environment",
-    "text": "To activate the virtual environment\n$ source venv/bin/activate"
-  },
-  {
     "objectID": "who-are-we.html",
     "href": "who-are-we.html",
     "title": "Who are we",
@@ -2896,13 +2945,6 @@
     "title": "Sponsor the team",
     "section": "",
     "text": "There is a hard working team behind the Let’s Do Digital name. If you feel we are doing a great job and want to help support us with our projects and teaching courses, then please do consider buying us a coffee:\n\n    \n\n\nA single sponsorship over £50 (UK) or signing up as a member on buymeacoffee.com will get you a place on the wall of our home page for individual supporters for a year.\nFor healthcare groups (eg industry, individual trusts, government) that wish to sponosor the Let’s Do Digital Team, please contact us at info@letsdodigital.org."
-  },
-  {
-    "objectID": "cheatsheets/index.html",
-    "href": "cheatsheets/index.html",
-    "title": "Cheatsheets in coding",
-    "section": "",
-    "text": "A collection of helpful commands and code that I seem to have to search each time I need to use them. I thought I would put these snippets of code and commands in an easy to find place.\n\nvenv"
   },
   {
     "objectID": "conferences/2024/bios.html",
@@ -5058,14 +5100,7 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-jupyter-notebook",
     "title": "Jupyter Notebook and Markdown",
     "section": "Why Use Jupyter Notebook?",
-    "text": "Why Use Jupyter Notebook?\n\nGreat for learning, experimenting, and prototyping\nInteractive: Run code and see results step by step\nEasy to combine code with explanations and visuals\nIdeal for data analysis, machine learning, and teaching"
-  },
-  {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-does-jupiter-notebook-look-like",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-does-jupiter-notebook-look-like",
-    "title": "Jupyter Notebook and Markdown",
-    "section": "What does Jupiter Notebook look like?",
-    "text": "What does Jupiter Notebook look like?"
+    "text": "Why Use Jupyter Notebook?\n\nGreat for learning, experimenting, and prototyping.\nInteractive: Run code and see results step by step.\nEasy to combine code with explanations and visuals.\nIdeal for data analysis, machine learning, and teaching."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#jupyter-notebook-interface",
@@ -5135,14 +5170,14 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-markdown",
     "title": "Jupyter Notebook and Markdown",
     "section": "What is Markdown?",
-    "text": "What is Markdown?\n\nMarkdown is a simple way to format text\nYou can use it to write headings, lists, and more\nUseful for adding explanations and notes in Jupyter Notebooks\nSupports basic formatting without complex code"
+    "text": "What is Markdown?\n\nMarkdown is a simple way to format text.\nYou can use it to write headings, lists, and more.\nUseful for adding explanations and notes in Jupyter Notebooks.\nSupports basic formatting without complex code."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-markdown-in-jupyter",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-markdown-in-jupyter",
     "title": "Jupyter Notebook and Markdown",
     "section": "Why Use Markdown in Jupyter?",
-    "text": "Why Use Markdown in Jupyter?\n\nMakes your notebook readable with clear explanations\nOrganise your notebook with sections, lists, and links\nPerfect for combining code, results, and explanations in one place\nNo need for external software to write documentation"
+    "text": "Why Use Markdown in Jupyter?\n\nMakes your notebook readable with clear explanations.\nOrganise your notebook with sections, lists, and links.\nPerfect for combining code, results, and explanations in one place.\nNo need for external software to write documentation."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#make-a-cell-ready-for-markdown",
@@ -5444,6 +5479,20 @@
     "title": "Ask a Clinician series - Episode 1",
     "section": "Upcoming events",
     "text": "Upcoming events\n27th June - 3rd June Programming in Healthcare - Module 1\n16th July Frontline Insights - Digitising a sleep service and automating clinic preparation - Andrew Simpson & Sam Inerney\n1st August Ask a clinician - insights from a CCIO and pharmacists - Ramandeep Kaur\nAugust - September Ask a clinician - insights from two GPs - Anita Phung and Dom Main\nSeptember Ask a clinician - insights from a surgeon - Sobath Premaratne\n24th October Let’s Talk Digital Conference - Cheltenham / hybrid\n21st of November Ask a clinician - insights from a solicitor and dentist - Sam Shah"
+  },
+  {
+    "objectID": "learn/tutors/self-paced-learning.html",
+    "href": "learn/tutors/self-paced-learning.html",
+    "title": "Self-paced learning",
+    "section": "",
+    "text": "Currently we are using Thinkific to create self-paced learning courses. You can add text, embed your slides, run recordings and quizzes.\nI will add more details here soon."
+  },
+  {
+    "objectID": "learn/tutors/index.html",
+    "href": "learn/tutors/index.html",
+    "title": "Tutors’ corner",
+    "section": "",
+    "text": "Many thanks for helping out as a tutor for Let’s Do Digital. This guide will help you with creating materials for the Let’s Do Digital platform. Click on the links below to access the guides.\n\nSlides guide\nWebinars\nSelf-paced learning"
   },
   {
     "objectID": "learn/syllabus/clinician-who-codes.html",
