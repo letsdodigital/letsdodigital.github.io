@@ -5,8 +5,8 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/jupyter-notebook-logo.png
-    data-background-opacity: "0.1"
+    data-background-image: /media/mountains-in-summer.jpg
+    data-background-opacity: "0.6"
 ---
 
 ## Many thanks {background-image="/media/feedback.jpg" background-opacity="0.3"}

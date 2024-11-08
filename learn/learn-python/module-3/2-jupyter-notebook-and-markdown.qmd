@@ -23,13 +23,13 @@ title-slide-attributes:
 
 ## Why Use Jupyter Notebook?
 
-* Great for learning, experimenting, and prototyping
-* Interactive: Run code and see results step by step
-* Easy to combine code with explanations and visuals
-* Ideal for data analysis, machine learning, and teaching
+* Great for learning, experimenting, and prototyping.
+* Interactive: Run code and see results step by step.
+* Easy to combine code with explanations and visuals.
+* Ideal for data analysis, machine learning, and teaching.
 
 
-## What does Jupiter Notebook look like?
+# What does Jupiter Notebook look like?
 
 
 ## <span class="hide-title">Jupyter Notebook Interface</span>
@@ -98,18 +98,18 @@ title-slide-attributes:
 
 ## What is Markdown?
 
-* Markdown is a simple way to format text
-* You can use it to write headings, lists, and more
-* Useful for adding explanations and notes in Jupyter Notebooks
-* Supports basic formatting without complex code
+* Markdown is a simple way to format text.
+* You can use it to write headings, lists, and more.
+* Useful for adding explanations and notes in Jupyter Notebooks.
+* Supports basic formatting without complex code.
 
 
 ## Why Use Markdown in Jupyter?
 
-* Makes your notebook readable with clear explanations
-* Organise your notebook with sections, lists, and links
-* Perfect for combining code, results, and explanations in one place
-* No need for external software to write documentation
+* Makes your notebook readable with clear explanations.
+* Organise your notebook with sections, lists, and links.
+* Perfect for combining code, results, and explanations in one place.
+* No need for external software to write documentation.
 
 
 ## Make a cell ready for Markdown

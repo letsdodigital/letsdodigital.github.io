@@ -1,0 +1,120 @@
+---
+title: "Slides guide"
+---
+
+## Overview
+
+We will be using Quarto to render slides and then the reveal.js framework to display them. This guide will help you create slides that are visually appealing, easy to follow and are consistent across the Let's Do Digital platform.
+
+
+## File type
+
+* Use the `.qmd` file extension for slides.
+* You then write the slides in `markdown` format.
+
+
+## Front matter
+
+Front matter is the metadata at the top of the file. It contains information such as the title, author, format, logo, and CSS file. A template for the front matter for the Let's Do Digital slides is provided below.
+
+```{.markdown}
+---
+title: "An informative title"
+author: "{{{< var author >}}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-image: /media/a_picture_or_movie.jpg
+    data-background-opacity: "0.5"
+---
+```
+
+**Notes:**
+
+* We are using the `reveal.js` format for the slides.
+* We are using the `slides.css` file for styling.
+* You can have video backgrounds as well, but these do not render well for the audience on Zoom. They can be nice to have for self-paced study recorded videos.
+
+
+## Variables
+
+Variables in Quarto are very useful for when you need to reuse the same information in multiple places. This is especially useful if the name could potentially be changed at a later time. It is good practice to use variables for course names. 
+
+Variables are inserted using the `{{{< var variable-name >}}}` syntax.
+
+Variables are stored in the `_variables.yml` file in the root directory.
+
+
+## Titles
+
+* Please use heading levels 1 or 2 for slide titles.
+* When you create a new title, this creates a new slide, as below:
+
+```{.markdown}
+# Slide 2
+
+* Bullet point 1
+* Bullet point 2
+
+## Slide 3
+
+* Bullet point 3
+* Bullet point 4
+```
+
+* Use heading level 1 sparingly or if you need to centre the title vertically.
+
+## Images
+
+* Have the `Let's Do Digital` logo in the top right corner.
+* Use images to break up text and make the slides more visually appealing.
+* You can use images in the background as well.
+
+
+### First slide
+
+* To add an image to the background of the first slide, you need to add the following to the front matter:
+
+```{.markdown}
+---
+...
+title-slide-attributes:
+    data-background-image: /media/women-at-beach-sunset.jpg
+    data-background-opacity: "0.5"
+---
+```
+
+
+### Background image
+
+* To add an image to the background of a non-first slides, you can use the following syntax:
+
+```{.markdown}
+## Slide title {background-image="/media/a_picture.jpg" background-opacity="0.4"}
+```
+
+* Use the `background-opacity` attribute to control the opacity of the image.
+
+
+### Inserted images
+
+* To insert an image, use the following syntax:
+
+```{.markdown}
+![](/media/image.jpg){.a_class_to_alter_image}
+```
+
+* You can add classes to the image in the curly braces.
+* See the `slides.css` file in the root directory for the available classes, or add your own.
+
+
+## Number of bullet points per slide
+
+* Ideally 4-5 bullet points max. There are situations where you may need more, but try to keep it to a minimum.
+* Please use the asterisk `*` for bullet points.
+
+
+## Punctuation
+
+* Use full stops at the end of sentences, even with bullet points.

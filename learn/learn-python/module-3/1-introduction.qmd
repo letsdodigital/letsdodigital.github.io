@@ -34,7 +34,7 @@ include-in-header:
 * Please provide feedback at the end of the course, so we can help improve things further.
 
 
-## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
 
 * In this 3 hour session, we are going to cover
 
@@ -47,7 +47,7 @@ include-in-header:
 
 ## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.4"}
 
-* Managing data
+* Accessing and manipulating data
 * Visualising data
 
 

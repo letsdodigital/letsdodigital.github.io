@@ -1,0 +1,9 @@
+---
+title: "Webinars"
+---
+
+We use `StreamYard` for live webinars. There are a few reasons for this, the first is that the layout is more professional and consistent than with other platforms like Zoom. Second, any recordings retain the same layout as the live version.
+
+Examples of the layout are as below:
+
+TO BE  ADDED
