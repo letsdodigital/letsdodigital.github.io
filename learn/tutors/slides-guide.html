@@ -178,6 +178,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#first-slide" id="toc-first-slide" class="nav-link" data-scroll-target="#first-slide">First slide</a></li>
   <li><a href="#background-image" id="toc-background-image" class="nav-link" data-scroll-target="#background-image">Background image</a></li>
+  <li><a href="#background-image-with-no-title" id="toc-background-image-with-no-title" class="nav-link" data-scroll-target="#background-image-with-no-title">Background image with no title</a></li>
   <li><a href="#inserted-images" id="toc-inserted-images" class="nav-link" data-scroll-target="#inserted-images">Inserted images</a></li>
   </ul></li>
   <li><a href="#number-of-bullet-points-per-slide" id="toc-number-of-bullet-points-per-slide" class="nav-link" data-scroll-target="#number-of-bullet-points-per-slide">Number of bullet points per slide</a></li>
@@ -292,12 +293,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li>Use the <code>background-opacity</code> attribute to control the opacity of the image.</li>
 </ul>
 </section>
+<section id="background-image-with-no-title" class="level3">
+<h3 class="anchored" data-anchor-id="background-image-with-no-title">Background image with no title</h3>
+<div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu"># &lt;span class="hide-title"&gt;A hidden title&lt;/span&gt;  {background-image="/media/numpy.png" background-opacity="0.4"}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
 <section id="inserted-images" class="level3">
 <h3 class="anchored" data-anchor-id="inserted-images">Inserted images</h3>
 <ul>
-<li>To insert an image, use the following syntax:</li>
+<li>To insert an image in block form, use the following syntax:</li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="al">![](/media/image.jpg)</span>{.a_class_to_alter_image}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode markdown code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="al">![](/media/image.jpg)</span>{.a_class_to_alter_image}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>You can add classes to the image in the curly braces.</li>
 <li>See the <code>slides.css</code> file in the root directory for the available classes, or add your own.</li>

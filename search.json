@@ -263,7 +263,7 @@
     "href": "learn/tutors/slides-guide.html#images",
     "title": "Slides guide",
     "section": "Images",
-    "text": "Images\n\nHave the Let's Do Digital logo in the top right corner.\nUse images to break up text and make the slides more visually appealing.\nYou can use images in the background as well.\n\n\nFirst slide\n\nTo add an image to the background of the first slide, you need to add the following to the front matter:\n\n---\n...\ntitle-slide-attributes:\n    data-background-image: /media/women-at-beach-sunset.jpg\n    data-background-opacity: \"0.5\"\n---\n\n\nBackground image\n\nTo add an image to the background of a non-first slides, you can use the following syntax:\n\n## Slide title {background-image=\"/media/a_picture.jpg\" background-opacity=\"0.4\"}\n\nUse the background-opacity attribute to control the opacity of the image.\n\n\n\nInserted images\n\nTo insert an image, use the following syntax:\n\n![](/media/image.jpg){.a_class_to_alter_image}\n\nYou can add classes to the image in the curly braces.\nSee the slides.css file in the root directory for the available classes, or add your own."
+    "text": "Images\n\nHave the Let's Do Digital logo in the top right corner.\nUse images to break up text and make the slides more visually appealing.\nYou can use images in the background as well.\n\n\nFirst slide\n\nTo add an image to the background of the first slide, you need to add the following to the front matter:\n\n---\n...\ntitle-slide-attributes:\n    data-background-image: /media/women-at-beach-sunset.jpg\n    data-background-opacity: \"0.5\"\n---\n\n\nBackground image\n\nTo add an image to the background of a non-first slides, you can use the following syntax:\n\n## Slide title {background-image=\"/media/a_picture.jpg\" background-opacity=\"0.4\"}\n\nUse the background-opacity attribute to control the opacity of the image.\n\n\n\nBackground image with no title\n# &lt;span class=\"hide-title\"&gt;A hidden title&lt;/span&gt;  {background-image=\"/media/numpy.png\" background-opacity=\"0.4\"}\n\n\nInserted images\n\nTo insert an image in block form, use the following syntax:\n\n![](/media/image.jpg){.a_class_to_alter_image}\n\nYou can add classes to the image in the curly braces.\nSee the slides.css file in the root directory for the available classes, or add your own."
   },
   {
     "objectID": "learn/tutors/slides-guide.html#number-of-bullet-points-per-slide",
@@ -382,7 +382,14 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas",
     "title": "Manipulating Data",
     "section": "What is Pandas?",
-    "text": "What is Pandas?\n\nPandas is a library for working with tabular data in Python.\nThe 2-dimensional data is stored and manipulated in dataframes.\nIt helps you organise and analyse data in tables.\nGreat for working with spreadsheets or databases.\nWidely used in data science."
+    "text": "What is Pandas?\n\nPandas is a library for working with tabular data in Python.\nTabular data is data that is stored in rows and columns, like in a spreadsheet.\nThe 2-dimensional data is stored and manipulated in dataframes."
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas-1",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#what-is-pandas-1",
+    "title": "Manipulating Data",
+    "section": "What is Pandas?",
+    "text": "What is Pandas?\n\nGreat for working with spreadsheets or databases.\nWidely used in data science."
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#common-pandas-tasks",
@@ -403,7 +410,7 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#what-is-numpy",
     "title": "Manipulating Data",
     "section": "What is NumPy?",
-    "text": "What is NumPy?\n\nNumPy is a Python library for working with datasets using NumPy arrays of different dimensions.\nArrays are like lists but faster and more powerful.\nGreat for mathematical and scientific calculations.\nCore tool in data science and machine learning."
+    "text": "What is NumPy?\n\nNumPy is a Python library for working with datasets using NumPy arrays of varying dimensions.\nArrays are like python lists but faster and more powerful.\nGreat for mathematical and scientific calculations.\nCore tool in data science and machine learning."
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-numpy",
@@ -5145,11 +5152,11 @@
     "text": "Visualise data"
   },
   {
-    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#share-work-with-others-in-a-readable-format.",
-    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#share-work-with-others-in-a-readable-format.",
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#share-work-with-others",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#share-work-with-others",
     "title": "Jupyter Notebook and Markdown",
-    "section": "Share work with others in a readable format.",
-    "text": "Share work with others in a readable format.\n\nShare via GitHub.\nShare via Google Colab.\nPDF, HTML, or slides."
+    "section": "Share work with others",
+    "text": "Share work with others\n\nShare via GitHub.\nShare via Google Colab.\nPDF, HTML, or slides."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#how-to-run-code",
@@ -5170,7 +5177,7 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#what-is-markdown",
     "title": "Jupyter Notebook and Markdown",
     "section": "What is Markdown?",
-    "text": "What is Markdown?\n\nMarkdown is a simple way to format text.\nYou can use it to write headings, lists, and more.\nUseful for adding explanations and notes in Jupyter Notebooks.\nSupports basic formatting without complex code."
+    "text": "What is Markdown?\n\nMarkdown is a simple way to format text.\nYou can use it to write headings, lists, and more.\nUseful for adding explanations and notes in Jupyter Notebooks.\nSupports basic formatting without complex code.\nIt is often used to create web content as a much similar alternative to HTML."
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#why-use-markdown-in-jupyter",
@@ -5229,11 +5236,18 @@
     "text": "Numbered lists\n\nUse 1. to create numbered lists.\n\n1. Lymphatics\n2. Red blood cells\n\n\nRenders to:\n\n\n\nLymphatics\n\n\nRed blood cells"
   },
   {
+    "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#markdown-to-normal-text",
+    "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#markdown-to-normal-text",
+    "title": "Jupyter Notebook and Markdown",
+    "section": "Markdown to normal text",
+    "text": "Markdown to normal text\n\nClick the tick when you are ready to render markdown to normal text."
+  },
+  {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-a-file-in-jupyter",
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#open-a-file-in-jupyter",
     "title": "Jupyter Notebook and Markdown",
     "section": "Open a file in Jupyter",
-    "text": "Open a file in Jupyter\n\n\nopen_a_file.py\n\nwith open('test_text.txt', 'r') as file:\n    content = file.read()"
+    "text": "Open a file in Jupyter\n\n\nopen_a_file.py\n\nwith open('your_patient_data.txt', 'r') as file:\n    content = file.read()"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#first",
@@ -5324,7 +5338,7 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#get-to-your-first-lesson",
     "title": "Jupyter Notebook and Markdown",
     "section": "Get to your first lesson",
-    "text": "Get to your first lesson\n\nChange the directory (don’t type the $. This is just how we show that this is the command line):\n\n    $ cd programming_in_healthcare/module_3\n\nAnd then open the lesson_1.ipynb file.\nRun through the exercises within the notebook.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lesson 1.\n\n\n    Manipulating data"
+    "text": "Get to your first lesson\n\nOpen the lesson_1.ipynb file (not the answers file!).\nRun through the exercises within the notebook.\nAny problems, just ask your tutor for help.\nThere is no such thing as a stupid question, only the question left unanswered.\nWe will give you 20 minutes for lesson 1.\n\n\n    Manipulating data"
   },
   {
     "objectID": "learn/ask-a-clinician/ask-a-clinician-1.html#treating-disease-and-debugging-code-are-very-similar",
