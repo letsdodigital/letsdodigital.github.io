@@ -415,7 +415,7 @@ Let’s Do Digital Team
 <section id="what-is-matplotlib.pyplot" class="slide level2">
 <h2>What is matplotlib.pyplot?</h2>
 <ul>
-<li>A library for plotting data in Python.</li>
+<li>A library for plotting data in python.</li>
 <li>It is a powerful tool for creating graphs and charts.</li>
 <li>It is widely used in data science and machine learning.</li>
 <li>It is easy to use and has a wide range of features.</li>
@@ -452,6 +452,12 @@ Let’s Do Digital Team
 <img data-src="../../../media/1d-plot-pyplot-basic.png" class="centre-full-image top-55 r-stretch"></section>
 <section id="lets-plot-some-1d-data-2" class="slide level2">
 <h2>Let’s plot some 1D data</h2>
+<ul>
+<li>We can however improve this plot by adding some labels and a title.</li>
+</ul>
+</section>
+<section id="lets-plot-some-1d-data-3" class="slide level2">
+<h2>Let’s plot some 1D data</h2>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>pyplot_1d.py</strong></pre>
@@ -467,7 +473,7 @@ Let’s Do Digital Team
 <span id="cb2-9"><a></a>plot.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="lets-plot-some-1d-data-3" class="slide level2">
+<section id="lets-plot-some-1d-data-4" class="slide level2">
 <h2>Let’s plot some 1D data</h2>
 
 <img data-src="../../../media/1d-plot-pyplot.png" class="centre-full-image top-55 r-stretch"></section>
@@ -488,7 +494,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>pyplot_2d.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb3" data-filename="pyplot_2d.py" data-code-line-numbers="4,10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>array_2x7 <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
+<div class="sourceCode" id="cb3" data-filename="pyplot_2d.py" data-code-line-numbers="4,10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>array_2x7 <span class="op">=</span> np.array([[<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
 <span id="cb3-2"><a></a>                      [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">13</span>]])</span>
 <span id="cb3-3"><a></a></span>
 <span id="cb3-4"><a></a>plot.imshow(array_2x7)</span>
@@ -507,16 +513,23 @@ Let’s Do Digital Team
 <section id="plotting-2d-data-2" class="slide level2">
 <h2>Plotting 2D data</h2>
 <ul>
+<li>We too we can improve things with this plot.</li>
+<li>Let’s add a colour bar, a title, labels and format the y-axis ticks.</li>
+</ul>
+</section>
+<section id="plotting-2d-data-3" class="slide level2">
+<h2>Plotting 2D data</h2>
+<ul>
 <li>Heatmaps are useful</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>pyplot_2d.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb4" data-filename="pyplot_2d.py" data-code-line-numbers="4-9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>array_2x7 <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
+<div class="sourceCode" id="cb4" data-filename="pyplot_2d.py" data-code-line-numbers="4-9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>array_2x7 <span class="op">=</span> np.array([[<span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
 <span id="cb4-2"><a></a>                      [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">13</span>]])</span>
 <span id="cb4-3"><a></a></span>
-<span id="cb4-4"><a></a>plot.imshow(array_2x7, cmap<span class="op">=</span><span class="st">'viridis'</span>, aspect<span class="op">=</span><span class="st">'auto'</span>)</span>
+<span id="cb4-4"><a></a>plot.imshow(array_2x7, aspect<span class="op">=</span><span class="st">'auto'</span>)</span>
 <span id="cb4-5"><a></a>plot.colorbar()</span>
 <span id="cb4-6"><a></a>plot.title(<span class="st">"2x7 Array Heatmap"</span>)</span>
 <span id="cb4-7"><a></a>plot.gca().set_yticks(np.arange(array_2x7.shape[<span class="dv">0</span>]))</span>
@@ -525,7 +538,7 @@ Let’s Do Digital Team
 <span id="cb4-10"><a></a>plot.show()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="plotting-2d-data-3" class="slide level2">
+<section id="plotting-2d-data-4" class="slide level2">
 <h2>Plotting 2D data</h2>
 
 <img data-src="../../../media/2d-heatmap-pyplot.png" class="centre-full-image top-55 r-stretch"></section>
@@ -549,7 +562,7 @@ Let’s Do Digital Team
 <section id="plotting-3d-data-1" class="slide level2 smaller">
 <h2>Plotting 3D data</h2>
 <ul>
-<li>3D scatter plots are useful</li>
+<li>3D scatter plots are useful.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -561,7 +574,7 @@ Let’s Do Digital Team
 <span id="cb6-4"><a></a>x, y, z <span class="op">=</span> np.indices(array_3D.shape)</span>
 <span id="cb6-5"><a></a>values <span class="op">=</span> array_3D.flatten()</span>
 <span id="cb6-6"><a></a></span>
-<span id="cb6-7"><a></a>sc <span class="op">=</span> ax.scatter(x.flatten(), y.flatten(), z.flatten(), c<span class="op">=</span>values, cmap<span class="op">=</span><span class="st">'viridis'</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb6-7"><a></a>sc <span class="op">=</span> ax.scatter(x.flatten(), y.flatten(), z.flatten(), c<span class="op">=</span>values)</span>
 <span id="cb6-8"><a></a></span>
 <span id="cb6-9"><a></a></span>
 <span id="cb6-10"><a></a></span>
@@ -590,13 +603,13 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>pyplot_3d.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb7" data-filename="pyplot_3d.py" data-code-line-numbers="8-19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>fig <span class="op">=</span> plot.figure()</span>
+<div class="sourceCode" id="cb7" data-filename="pyplot_3d.py" data-code-line-numbers="7-18"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a>fig <span class="op">=</span> plot.figure()</span>
 <span id="cb7-2"><a></a>ax <span class="op">=</span> fig.add_subplot(<span class="dv">111</span>, projection<span class="op">=</span><span class="st">'3d'</span>)</span>
 <span id="cb7-3"><a></a></span>
 <span id="cb7-4"><a></a>x, y, z <span class="op">=</span> np.indices(array_3D.shape)</span>
 <span id="cb7-5"><a></a>values <span class="op">=</span> array_3D.flatten()</span>
 <span id="cb7-6"><a></a></span>
-<span id="cb7-7"><a></a>sc <span class="op">=</span> ax.scatter(x.flatten(), y.flatten(), z.flatten(), c<span class="op">=</span>values, cmap<span class="op">=</span><span class="st">'viridis'</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb7-7"><a></a>sc <span class="op">=</span> ax.scatter(x.flatten(), y.flatten(), z.flatten(), c<span class="op">=</span>values, s<span class="op">=</span><span class="dv">100</span>)</span>
 <span id="cb7-8"><a></a></span>
 <span id="cb7-9"><a></a>cbar_ax <span class="op">=</span> fig.add_axes([<span class="fl">0.9</span>, <span class="fl">0.15</span>, <span class="fl">0.05</span>, <span class="fl">0.7</span>]) </span>
 <span id="cb7-10"><a></a>cbar <span class="op">=</span> fig.colorbar(sc, ax<span class="op">=</span>ax, cax<span class="op">=</span>cbar_ax, shrink<span class="op">=</span><span class="fl">0.5</span>, aspect<span class="op">=</span><span class="dv">5</span>)</span>

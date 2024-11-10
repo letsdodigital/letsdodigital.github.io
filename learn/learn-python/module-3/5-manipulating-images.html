@@ -424,6 +424,7 @@ Let’s Do Digital Team
 <ul>
 <li>To manipulate images, we first need to load them into our environment.</li>
 <li>In Python, we can use the <code>PIL</code> (also called Pillow) module from <code>Image</code>.</li>
+<li>Note we are using <code>imshow()</code> now and not just <code>show()</code>.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -524,7 +525,7 @@ Let’s Do Digital Team
 <li>Then use the <code>crop</code> method from the <code>PIL</code> library.</li>
 <li>This uses pixel coordinates.</li>
 <li>The top-left corner is (0, 0).</li>
-<li>coordinates are x and then y values.</li>
+<li>Coordinates are (new_top_left_x, new_top_left_y, new_bottom_right_x, new_bottom_right_y).</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -551,7 +552,8 @@ Let’s Do Digital Team
 <section id="inverting-images" class="slide level2" data-background-image="../../../media/inverted-landscape-glass-sphere.jpg" data-background-opacity="0.4">
 <h2>Inverting Images</h2>
 <ul>
-<li>Invert by using the <code>invert</code> method.</li>
+<li>Here we can invert the colours of an image.</li>
+<li>Use the <code>invert</code> method.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
@@ -565,6 +567,7 @@ Let’s Do Digital Team
 <section id="change-file-type" class="slide level2" data-background-image="../../../media/file-cabinets-old.jpg" data-background-opacity="0.4">
 <h2>Change file type</h2>
 <ul>
+<li>Specify the new file type in the name and then,</li>
 <li>Use the <code>save</code> method from the <code>PIL</code> library to save the image in a different format.</li>
 </ul>
 <div class="code-with-filename">

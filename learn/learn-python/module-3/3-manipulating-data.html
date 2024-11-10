@@ -472,8 +472,8 @@ Let’s Do Digital Team
 <ul>
 <li><strong>NumPy Array</strong>: A grid of values (1D, 2D, or more).</li>
 <li>Efficient for storing and working with lots of data.</li>
-<li>NumPy makes math operations fast and easy.</li>
-<li>Use NumPy for calculations across whole arrays at once.</li>
+<li>NumPy makes mathematical operations fast and easy.</li>
+<li>Use NumPy for calculations across whole arrays all at once.</li>
 </ul>
 </section>
 <section id="why-use-numpy" class="slide level2">
@@ -490,7 +490,7 @@ Let’s Do Digital Team
 <h1>Scipy</h1>
 
 <img data-src="../../../media/scipy.png" class="r-stretch"></section>
-<section id="scipy-1" class="slide level2">
+<section id="scipy-1" class="slide level2" data-background-image="../../../media/gaussian-like-graph.jpg" data-background-opacity="0.1">
 <h2>Scipy</h2>
 <ul>
 <li>Scipy is a Python library for scientific and technical computing.</li>
@@ -521,6 +521,11 @@ Let’s Do Digital Team
 Output:</p>
 <pre><code>    5
     5</code></pre>
+</section></section>
+<section>
+<section id="pandas-1" class="title-slide slide level1 center">
+<h1>Pandas</h1>
+
 </section>
 <section id="load-data-with-pandas" class="slide level2">
 <h2>Load Data with Pandas</h2>
@@ -533,14 +538,14 @@ Output:</p>
 <pre><strong>pandas.py</strong></pre>
 </div>
 <div class="sourceCode" id="cb3" data-filename="pandas.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
-<span id="cb3-2"><a></a>patient_kidney_function <span class="op">=</span> pd.read_csv(<span class="st">'kidney_function.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-2"><a></a>kidney_function_dataframe <span class="op">=</span> pd.read_csv(<span class="st">'kidney_function.csv'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
-<section id="update-data-within-a-dataframe" class="slide level2">
-<h2>Update Data within a DataFrame</h2>
+<section id="update-data-with-loc" class="slide level2">
+<h2>Update Data with loc</h2>
 <ul>
-<li>Use the <code>loc</code> method.</li>
-<li>Use <code>patient_data['Column name']</code> to select a column.</li>
+<li>Use the <code>loc</code> (location) method.</li>
+<li>Use <code>dataframe_name['column name']</code> to select a column.</li>
 <li>Search for a specific value in this column using <code>==</code> and the value.</li>
 <li>In the second <code>loc</code> argument, specify the column to update.</li>
 <li>Update the value as needed.</li>
@@ -552,17 +557,32 @@ Output:</p>
 <div class="sourceCode" id="cb4" data-filename="pandas_update.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>patient_data.loc[patient_data[<span class="st">'Date'</span>] <span class="op">==</span> <span class="st">'2022-12-01'</span>, <span class="st">'Stage'</span>] <span class="op">=</span> <span class="dv">5</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
+<section id="iloc" class="slide level2">
+<h2>iloc</h2>
+<ul>
+<li>Use <code>iloc</code> (integer location) to select rows and columns by position.</li>
+<li>Use <code>dataframe_name.iloc[row_number, column_number]</code>.</li>
+</ul>
+<div class="code-with-filename">
+<div class="code-with-filename-file">
+<pre><strong>pandas_iloc.py</strong></pre>
+</div>
+<div class="sourceCode" id="cb5" data-filename="pandas_iloc.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>patient_data.iloc[<span class="dv">0</span>, <span class="dv">0</span>] <span class="op">=</span> <span class="dv">22</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
 <section id="filtering-dataframes" class="slide level2">
 <h2>Filtering DataFrames</h2>
 <ul>
+<li>A filter is a condition to select rows from a dataframe.</li>
 <li>Use the <code>[]</code> operator to filter rows.</li>
 <li>Use a condition (eg more than &gt;) to filter rows.</li>
+<li>You can then save this as a new dataframe.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>pandas_filter.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb5" data-filename="pandas_filter.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>patients_over_55 <span class="op">=</span> patient_data[patient_data[<span class="st">'Age'</span>] <span class="op">&gt;</span> <span class="dv">55</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb6" data-filename="pandas_filter.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>patients_over_55 <span class="op">=</span> patient_data[patient_data[<span class="st">'Age'</span>] <span class="op">&gt;</span> <span class="dv">55</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="get-some-statistics" class="slide level2">
@@ -574,7 +594,7 @@ Output:</p>
 <div class="code-with-filename-file">
 <pre><strong>numpy_stats.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb6" data-filename="numpy_stats.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="bu">print</span>(patient_data.describe())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7" data-filename="numpy_stats.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="bu">print</span>(patient_data.describe())</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br>
 Output:</p>
@@ -588,28 +608,33 @@ Output:</p>
     75%      4.750000  62.500000   217.500000     107.500000
     max      5.000000  70.000000   240.000000     150.000000</code></pre>
 </section>
-<section id="splitting-dataframes" class="slide level2">
-<h2>Splitting DataFrames</h2>
+<section id="refining-the-return-results" class="slide level2">
+<h2>Refining the return results</h2>
 <ul>
-<li>You can split a DataFrame into two or more DataFrames. You just need to define what is the condition to split the data.</li>
-<li>You can also just return single column values.</li>
+<li>First, you define filtering condition.</li>
+<li>Next, you state what column you want to return.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>pandas_split.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb8" data-filename="pandas_split.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a>hypertension <span class="op">=</span> patient_data_2[patient_data_2[<span class="st">'Diagnosis'</span>] <span class="op">==</span> </span>
-<span id="cb8-2"><a></a><span class="st">'Hypertension'</span>][<span class="st">'Cholesterol'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb9" data-filename="pandas_split.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>hypertension <span class="op">=</span> patient_data_2[patient_data_2[<span class="st">'Diagnosis'</span>] <span class="op">==</span> </span>
+<span id="cb9-2"><a></a><span class="st">'Hypertension'</span>][<span class="st">'Cholesterol'</span>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br>
 </p>
 <ul>
 <li><code>patient_data_2['Diagnosis'] == 'Hypertension'</code> finds all rows where the diagnosis is <strong>hypertension</strong>.</li>
-<li><code>['Cholesterol']</code> returns <strong>only the cholesterol values</strong> for the rows that are returned by the above query.</li>
+<li><code>['Cholesterol']</code> returns <strong>only the cholesterol values</strong> for the rows that are filtered by the above query.</li>
 </ul>
+</section></section>
+<section>
+<section id="numpy-1" class="title-slide slide level1 center">
+<h1>NumPy</h1>
+
 </section>
-<section id="create-a-numpy-array" class="slide level2">
-<h2>Create a NumPy Array</h2>
+<section id="creating-a-numpy-array" class="slide level2">
+<h2>Creating a NumPy Array</h2>
 <ul>
 <li>Import the NumPy library.</li>
 <li>Create an array from a python list (eg [1, 2, 5, 6]).</li>
@@ -618,17 +643,17 @@ Output:</p>
 <div class="code-with-filename-file">
 <pre><strong>numpy.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb9" data-filename="numpy.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb9-2"><a></a></span>
-<span id="cb9-3"><a></a>array_1x7 <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">7</span>])</span>
-<span id="cb9-4"><a></a></span>
-<span id="cb9-5"><a></a>array_2x7 <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
-<span id="cb9-6"><a></a>                      [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">14</span>]])</span>
-<span id="cb9-7"><a></a></span>
-<span id="cb9-8"><a></a>array_3D <span class="op">=</span> np.array([[[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
-<span id="cb9-9"><a></a>                      [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">14</span>]],</span>
-<span id="cb9-10"><a></a>                     [[<span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">17</span>, <span class="dv">18</span>, <span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>],</span>
-<span id="cb9-11"><a></a>                      [<span class="dv">22</span>, <span class="dv">23</span>, <span class="dv">24</span>, <span class="dv">25</span>, <span class="dv">26</span>, <span class="dv">27</span>, <span class="dv">28</span>]]])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10" data-filename="numpy.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb10-2"><a></a></span>
+<span id="cb10-3"><a></a>array_1x7 <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">7</span>])</span>
+<span id="cb10-4"><a></a></span>
+<span id="cb10-5"><a></a>array_2x7 <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
+<span id="cb10-6"><a></a>                      [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">14</span>]])</span>
+<span id="cb10-7"><a></a></span>
+<span id="cb10-8"><a></a>array_3D <span class="op">=</span> np.array([[[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>, <span class="dv">7</span>],</span>
+<span id="cb10-9"><a></a>                      [<span class="dv">8</span>, <span class="dv">9</span>, <span class="dv">10</span>, <span class="dv">11</span>, <span class="dv">12</span>, <span class="dv">13</span>, <span class="dv">14</span>]],</span>
+<span id="cb10-10"><a></a>                     [[<span class="dv">15</span>, <span class="dv">16</span>, <span class="dv">17</span>, <span class="dv">18</span>, <span class="dv">19</span>, <span class="dv">20</span>, <span class="dv">21</span>],</span>
+<span id="cb10-11"><a></a>                      [<span class="dv">22</span>, <span class="dv">23</span>, <span class="dv">24</span>, <span class="dv">25</span>, <span class="dv">26</span>, <span class="dv">27</span>, <span class="dv">28</span>]]])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="shapes" class="slide level2">
@@ -641,9 +666,9 @@ Output:</p>
 <div class="code-with-filename-file">
 <pre><strong>numpy_shapes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb10" data-filename="numpy_shapes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>array_2x3 <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]])</span>
-<span id="cb10-2"><a></a></span>
-<span id="cb10-3"><a></a><span class="bu">print</span>(array_2x3.shape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11" data-filename="numpy_shapes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>array_2x3 <span class="op">=</span> np.array([[<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>], [<span class="dv">4</span>, <span class="dv">5</span>, <span class="dv">6</span>]])</span>
+<span id="cb11-2"><a></a></span>
+<span id="cb11-3"><a></a><span class="bu">print</span>(array_2x3.shape)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br>
 Output:</p>
@@ -658,29 +683,36 @@ Output:</p>
 <div class="code-with-filename-file">
 <pre><strong>numpy_update.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb12" data-filename="numpy_update.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a>array_1x7 <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">7</span>])</span>
-<span id="cb12-2"><a></a>array_1x7[<span class="dv">0</span>] <span class="op">=</span> <span class="dv">10</span></span>
-<span id="cb12-3"><a></a><span class="bu">print</span>(array_1x7)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13" data-filename="numpy_update.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a>array_1x7 <span class="op">=</span> np.array([<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">7</span>])</span>
+<span id="cb13-2"><a></a>array_1x7[<span class="dv">0</span>] <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb13-3"><a></a><span class="bu">print</span>(array_1x7)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br>
 Output:</p>
 <pre><code>    [10  2  2  4  1  1  7]</code></pre>
+</section></section>
+<section>
+<section id="scipy-2" class="title-slide slide level1 center">
+<h1>Scipy</h1>
+
 </section>
 <section id="more-advanced-statistics-with-scipy" class="slide level2">
 <h2>More advanced statistics with Scipy</h2>
 <ul>
+<li>Here we can use the stats module.</li>
 <li>An example is the t-score and p-value by using <code>stats.ttest_ind</code>.</li>
+<li>Let’s say we have two groups of patients: one with hypertension and one without.</li>
 </ul>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>scipy_stats.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb14" data-filename="scipy_stats.py" data-code-line-numbers="3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
-<span id="cb14-2"><a></a></span>
-<span id="cb14-3"><a></a>t_score, p_value <span class="op">=</span> stats.ttest_ind(hypertension, non_hypertension)</span>
-<span id="cb14-4"><a></a></span>
-<span id="cb14-5"><a></a><span class="bu">print</span>(<span class="ss">f't-score: </span><span class="sc">{</span>t_score<span class="sc">}</span><span class="ss">'</span>)</span>
-<span id="cb14-6"><a></a><span class="bu">print</span>(<span class="ss">f'p-value: </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb15" data-filename="scipy_stats.py" data-code-line-numbers="3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
+<span id="cb15-2"><a></a></span>
+<span id="cb15-3"><a></a>t_score, p_value <span class="op">=</span> stats.ttest_ind(hypertension, non_hypertension)</span>
+<span id="cb15-4"><a></a></span>
+<span id="cb15-5"><a></a><span class="bu">print</span>(<span class="ss">f't-score: </span><span class="sc">{</span>t_score<span class="sc">}</span><span class="ss">'</span>)</span>
+<span id="cb15-6"><a></a><span class="bu">print</span>(<span class="ss">f'p-value: </span><span class="sc">{</span>p_value<span class="sc">}</span><span class="ss">'</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 <p><br>
 </p>

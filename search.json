@@ -417,7 +417,7 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#key-concepts-in-numpy",
     "title": "Manipulating Data",
     "section": "Key Concepts in NumPy",
-    "text": "Key Concepts in NumPy\n\nNumPy Array: A grid of values (1D, 2D, or more).\nEfficient for storing and working with lots of data.\nNumPy makes math operations fast and easy.\nUse NumPy for calculations across whole arrays at once."
+    "text": "Key Concepts in NumPy\n\nNumPy Array: A grid of values (1D, 2D, or more).\nEfficient for storing and working with lots of data.\nNumPy makes mathematical operations fast and easy.\nUse NumPy for calculations across whole arrays all at once."
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#why-use-numpy",
@@ -445,21 +445,28 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#load-data-with-pandas",
     "title": "Manipulating Data",
     "section": "Load Data with Pandas",
-    "text": "Load Data with Pandas\n\nImport the pandas library.\nLoad data from a file into a DataFrame.\n\n\n\npandas.py\n\nimport pandas as pd\npatient_kidney_function = pd.read_csv('kidney_function.csv')"
+    "text": "Load Data with Pandas\n\nImport the pandas library.\nLoad data from a file into a DataFrame.\n\n\n\npandas.py\n\nimport pandas as pd\nkidney_function_dataframe = pd.read_csv('kidney_function.csv')"
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#update-data-within-a-dataframe",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#update-data-within-a-dataframe",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#update-data-with-loc",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#update-data-with-loc",
     "title": "Manipulating Data",
-    "section": "Update Data within a DataFrame",
-    "text": "Update Data within a DataFrame\n\nUse the loc method.\nUse patient_data['Column name'] to select a column.\nSearch for a specific value in this column using == and the value.\nIn the second loc argument, specify the column to update.\nUpdate the value as needed.\n\n\n\npandas_update.py\n\npatient_data.loc[patient_data['Date'] == '2022-12-01', 'Stage'] = 5"
+    "section": "Update Data with loc",
+    "text": "Update Data with loc\n\nUse the loc (location) method.\nUse dataframe_name['column name'] to select a column.\nSearch for a specific value in this column using == and the value.\nIn the second loc argument, specify the column to update.\nUpdate the value as needed.\n\n\n\npandas_update.py\n\npatient_data.loc[patient_data['Date'] == '2022-12-01', 'Stage'] = 5"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#iloc",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#iloc",
+    "title": "Manipulating Data",
+    "section": "iloc",
+    "text": "iloc\n\nUse iloc (integer location) to select rows and columns by position.\nUse dataframe_name.iloc[row_number, column_number].\n\n\n\npandas_iloc.py\n\npatient_data.iloc[0, 0] = 22"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#filtering-dataframes",
     "href": "learn/learn-python/module-3/3-manipulating-data.html#filtering-dataframes",
     "title": "Manipulating Data",
     "section": "Filtering DataFrames",
-    "text": "Filtering DataFrames\n\nUse the [] operator to filter rows.\nUse a condition (eg more than &gt;) to filter rows.\n\n\n\npandas_filter.py\n\npatients_over_55 = patient_data[patient_data['Age'] &gt; 55]"
+    "text": "Filtering DataFrames\n\nA filter is a condition to select rows from a dataframe.\nUse the [] operator to filter rows.\nUse a condition (eg more than &gt;) to filter rows.\nYou can then save this as a new dataframe.\n\n\n\npandas_filter.py\n\npatients_over_55 = patient_data[patient_data['Age'] &gt; 55]"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#get-some-statistics",
@@ -469,18 +476,18 @@
     "text": "Get some statistics\n\nYou can get some basic statistics from a Pandas dataframe.\n\n\n\nnumpy_stats.py\n\nprint(patient_data.describe())\n\n\nOutput:\n           Patient_ID        Age  Cholesterol  Glucose Level\n    count    6.000000   6.000000     6.000000       6.000000\n    mean     3.333333  56.666667   208.333333     107.166667\n    std      1.632993   9.309493    20.412415      22.003788\n    min      1.000000  45.000000   180.000000      90.000000\n    25%      2.250000  51.250000   200.000000      95.750000\n    50%      3.500000  55.000000   205.000000      99.000000\n    75%      4.750000  62.500000   217.500000     107.500000\n    max      5.000000  70.000000   240.000000     150.000000"
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#splitting-dataframes",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#splitting-dataframes",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#refining-the-return-results",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#refining-the-return-results",
     "title": "Manipulating Data",
-    "section": "Splitting DataFrames",
-    "text": "Splitting DataFrames\n\nYou can split a DataFrame into two or more DataFrames. You just need to define what is the condition to split the data.\nYou can also just return single column values.\n\n\n\npandas_split.py\n\nhypertension = patient_data_2[patient_data_2['Diagnosis'] == \n'Hypertension']['Cholesterol']\n\n\n\n\npatient_data_2['Diagnosis'] == 'Hypertension' finds all rows where the diagnosis is hypertension.\n['Cholesterol'] returns only the cholesterol values for the rows that are returned by the above query."
+    "section": "Refining the return results",
+    "text": "Refining the return results\n\nFirst, you define filtering condition.\nNext, you state what column you want to return.\n\n\n\npandas_split.py\n\nhypertension = patient_data_2[patient_data_2['Diagnosis'] == \n'Hypertension']['Cholesterol']\n\n\n\n\npatient_data_2['Diagnosis'] == 'Hypertension' finds all rows where the diagnosis is hypertension.\n['Cholesterol'] returns only the cholesterol values for the rows that are filtered by the above query."
   },
   {
-    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#create-a-numpy-array",
-    "href": "learn/learn-python/module-3/3-manipulating-data.html#create-a-numpy-array",
+    "objectID": "learn/learn-python/module-3/3-manipulating-data.html#creating-a-numpy-array",
+    "href": "learn/learn-python/module-3/3-manipulating-data.html#creating-a-numpy-array",
     "title": "Manipulating Data",
-    "section": "Create a NumPy Array",
-    "text": "Create a NumPy Array\n\nImport the NumPy library.\nCreate an array from a python list (eg [1, 2, 5, 6]).\n\n\n\nnumpy.py\n\nimport numpy as np\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 14]])\n\narray_3D = np.array([[[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 14]],\n                     [[15, 16, 17, 18, 19, 20, 21],\n                      [22, 23, 24, 25, 26, 27, 28]]])"
+    "section": "Creating a NumPy Array",
+    "text": "Creating a NumPy Array\n\nImport the NumPy library.\nCreate an array from a python list (eg [1, 2, 5, 6]).\n\n\n\nnumpy.py\n\nimport numpy as np\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 14]])\n\narray_3D = np.array([[[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 14]],\n                     [[15, 16, 17, 18, 19, 20, 21],\n                      [22, 23, 24, 25, 26, 27, 28]]])"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#shapes",
@@ -501,7 +508,7 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#more-advanced-statistics-with-scipy",
     "title": "Manipulating Data",
     "section": "More advanced statistics with Scipy",
-    "text": "More advanced statistics with Scipy\n\nAn example is the t-score and p-value by using stats.ttest_ind.\n\n\n\nscipy_stats.py\n\nfrom scipy import stats\n\nt_score, p_value = stats.ttest_ind(hypertension, non_hypertension)\n\nprint(f't-score: {t_score}')\nprint(f'p-value: {p_value}')\n\n\n\nOutput:\n    t-score: 2.5\n    p-value: 0.05"
+    "text": "More advanced statistics with Scipy\n\nHere we can use the stats module.\nAn example is the t-score and p-value by using stats.ttest_ind.\nLet’s say we have two groups of patients: one with hypertension and one without.\n\n\n\nscipy_stats.py\n\nfrom scipy import stats\n\nt_score, p_value = stats.ttest_ind(hypertension, non_hypertension)\n\nprint(f't-score: {t_score}')\nprint(f'p-value: {p_value}')\n\n\n\nOutput:\n    t-score: 2.5\n    p-value: 0.05"
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#statistics",
@@ -4869,7 +4876,7 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#what-is-matplotlib.pyplot",
     "title": "Displaying data",
     "section": "What is matplotlib.pyplot?",
-    "text": "What is matplotlib.pyplot?\n\nA library for plotting data in Python.\nIt is a powerful tool for creating graphs and charts.\nIt is widely used in data science and machine learning.\nIt is easy to use and has a wide range of features."
+    "text": "What is matplotlib.pyplot?\n\nA library for plotting data in python.\nIt is a powerful tool for creating graphs and charts.\nIt is widely used in data science and machine learning.\nIt is easy to use and has a wide range of features."
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#matplotlib.pyplot-documentation",
@@ -4897,11 +4904,18 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-2",
     "title": "Displaying data",
     "section": "Let’s plot some 1D data",
-    "text": "Let’s plot some 1D data\n\n\npyplot_1d.py\n\nimport matplotlib.pyplot as plot\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\nplot.plot(array_1x7)\nplot.title(\"1x7 Array Visualization\")\nplot.xlabel(\"Index\")\nplot.ylabel(\"Value\")\nplot.show()"
+    "text": "Let’s plot some 1D data\n\nWe can however improve this plot by adding some labels and a title."
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-3",
     "href": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-3",
+    "title": "Displaying data",
+    "section": "Let’s plot some 1D data",
+    "text": "Let’s plot some 1D data\n\n\npyplot_1d.py\n\nimport matplotlib.pyplot as plot\n\narray_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])\n\nplot.plot(array_1x7)\nplot.title(\"1x7 Array Visualization\")\nplot.xlabel(\"Index\")\nplot.ylabel(\"Value\")\nplot.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-4",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#lets-plot-some-1d-data-4",
     "title": "Displaying data",
     "section": "Let’s plot some 1D data",
     "text": "Let’s plot some 1D data"
@@ -4918,7 +4932,7 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data",
     "title": "Displaying data",
     "section": "Plotting 2D data",
-    "text": "Plotting 2D data\n\nHeatmaps are useful\n\n\n\npyplot_2d.py\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 13]])\n\nplot.imshow(array_2x7)\n\n\n\n\n\nplot.show()"
+    "text": "Plotting 2D data\n\nHeatmaps are useful\n\n\n\npyplot_2d.py\n\narray_2x7 = np.array([[0, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 13]])\n\nplot.imshow(array_2x7)\n\n\n\n\n\nplot.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-1",
@@ -4932,11 +4946,18 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-2",
     "title": "Displaying data",
     "section": "Plotting 2D data",
-    "text": "Plotting 2D data\n\nHeatmaps are useful\n\n\n\npyplot_2d.py\n\narray_2x7 = np.array([[1, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 13]])\n\nplot.imshow(array_2x7, cmap='viridis', aspect='auto')\nplot.colorbar()\nplot.title(\"2x7 Array Heatmap\")\nplot.gca().set_yticks(np.arange(array_2x7.shape[0]))\nplot.xlabel(\"Columns\")\nplot.ylabel(\"Rows\")\nplot.show()"
+    "text": "Plotting 2D data\n\nWe too we can improve things with this plot.\nLet’s add a colour bar, a title, labels and format the y-axis ticks."
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-3",
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-3",
+    "title": "Displaying data",
+    "section": "Plotting 2D data",
+    "text": "Plotting 2D data\n\nHeatmaps are useful\n\n\n\npyplot_2d.py\n\narray_2x7 = np.array([[0, 2, 3, 4, 5, 6, 7],\n                      [8, 9, 10, 11, 12, 13, 13]])\n\nplot.imshow(array_2x7, aspect='auto')\nplot.colorbar()\nplot.title(\"2x7 Array Heatmap\")\nplot.gca().set_yticks(np.arange(array_2x7.shape[0]))\nplot.xlabel(\"Columns\")\nplot.ylabel(\"Rows\")\nplot.show()"
+  },
+  {
+    "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-4",
+    "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-2d-data-4",
     "title": "Displaying data",
     "section": "Plotting 2D data",
     "text": "Plotting 2D data"
@@ -4953,7 +4974,7 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-1",
     "title": "Displaying data",
     "section": "Plotting 3D data",
-    "text": "Plotting 3D data\n\n3D scatter plots are useful\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, cmap='viridis', s=100)\n\n\n\n\n\n\n\n\n\n\n\n\nplot.show()"
+    "text": "Plotting 3D data\n\n3D scatter plots are useful.\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values)\n\n\n\n\n\n\n\n\n\n\n\n\nplot.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-2",
@@ -4967,7 +4988,7 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-3",
     "title": "Displaying data",
     "section": "Plotting 3D data",
-    "text": "Plotting 3D data\n\n3D scatter plots are useful\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, cmap='viridis', s=100)\n\ncbar_ax = fig.add_axes([0.9, 0.15, 0.05, 0.7]) \ncbar = fig.colorbar(sc, ax=ax, cax=cbar_ax, shrink=0.5, aspect=5)\n\nax.set_title('3D Array Visualization')\nax.set_xlabel('Rows')\nax.set_ylabel('Columns')\nax.set_zlabel('Depth')\n\nax.set_xticks(np.arange(array_3D.shape[0]))\nax.set_yticks(np.arange(array_3D.shape[1]))\n\nplot.show()"
+    "text": "Plotting 3D data\n\n3D scatter plots are useful\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, s=100)\n\ncbar_ax = fig.add_axes([0.9, 0.15, 0.05, 0.7]) \ncbar = fig.colorbar(sc, ax=ax, cax=cbar_ax, shrink=0.5, aspect=5)\n\nax.set_title('3D Array Visualization')\nax.set_xlabel('Rows')\nax.set_ylabel('Columns')\nax.set_zlabel('Depth')\n\nax.set_xticks(np.arange(array_3D.shape[0]))\nax.set_yticks(np.arange(array_3D.shape[1]))\n\nplot.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-4",
@@ -5002,7 +5023,7 @@
     "href": "learn/learn-python/module-3/5-manipulating-images.html#loading-images",
     "title": "Manipulating images",
     "section": "Loading Images",
-    "text": "Loading Images\n\nTo manipulate images, we first need to load them into our environment.\nIn Python, we can use the PIL (also called Pillow) module from Image.\n\n\n\nimages.py\n\nfrom PIL import Image\n\nimport matplotlib.pyplot as plt\n\nimg_1 = Image.open('hand-x-ray.jpg')\n\nplt.imshow(img_1)\n\nplt.show()"
+    "text": "Loading Images\n\nTo manipulate images, we first need to load them into our environment.\nIn Python, we can use the PIL (also called Pillow) module from Image.\nNote we are using imshow() now and not just show().\n\n\n\nimages.py\n\nfrom PIL import Image\n\nimport matplotlib.pyplot as plt\n\nimg_1 = Image.open('hand-x-ray.jpg')\n\nplt.imshow(img_1)\n\nplt.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#loading-images-1",
@@ -5037,7 +5058,7 @@
     "href": "learn/learn-python/module-3/5-manipulating-images.html#cropping-images",
     "title": "Manipulating images",
     "section": "Cropping Images",
-    "text": "Cropping Images\n\nDefine the top-left and bottom-right coordinates of the area you want to crop.\nThen use the crop method from the PIL library.\nThis uses pixel coordinates.\nThe top-left corner is (0, 0).\ncoordinates are x and then y values.\n\n\n\ncrop.py\n\nbox = (3900, 2900, 6000, 5500)\n\ncropped_img_1 = img_1.crop(box)"
+    "text": "Cropping Images\n\nDefine the top-left and bottom-right coordinates of the area you want to crop.\nThen use the crop method from the PIL library.\nThis uses pixel coordinates.\nThe top-left corner is (0, 0).\nCoordinates are (new_top_left_x, new_top_left_y, new_bottom_right_x, new_bottom_right_y).\n\n\n\ncrop.py\n\nbox = (3900, 2900, 6000, 5500)\n\ncropped_img_1 = img_1.crop(box)"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#rotate-images",
@@ -5051,14 +5072,14 @@
     "href": "learn/learn-python/module-3/5-manipulating-images.html#inverting-images",
     "title": "Manipulating images",
     "section": "Inverting Images",
-    "text": "Inverting Images\n\nInvert by using the invert method.\n\n\n\nrotate.py\n\nfrom PIL import ImageOps\n\ninverted_img_3 = ImageOps.invert(img_3)"
+    "text": "Inverting Images\n\nHere we can invert the colours of an image.\nUse the invert method.\n\n\n\nrotate.py\n\nfrom PIL import ImageOps\n\ninverted_img_3 = ImageOps.invert(img_3)"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#change-file-type",
     "href": "learn/learn-python/module-3/5-manipulating-images.html#change-file-type",
     "title": "Manipulating images",
     "section": "Change file type",
-    "text": "Change file type\n\nUse the save method from the PIL library to save the image in a different format.\n\n\n\nrotate.py\n\nbmp_filename = 'converted_image_3.bmp'\n\nimg_4.save(bmp_filename)"
+    "text": "Change file type\n\nSpecify the new file type in the name and then,\nUse the save method from the PIL library to save the image in a different format.\n\n\n\nrotate.py\n\nbmp_filename = 'converted_image_3.bmp'\n\nimg_4.save(bmp_filename)"
   },
   {
     "objectID": "learn/learn-python/module-3/5-manipulating-images.html#now-try-it-yourself",
