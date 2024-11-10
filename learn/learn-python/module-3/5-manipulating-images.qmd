@@ -25,6 +25,7 @@ title-slide-attributes:
 
 * To manipulate images, we first need to load them into our environment. 
 * In Python, we can use the `PIL` (also called Pillow) module from `Image`.
+* Note we are using `imshow()` now and not just `show()`.
 
 
 ```{.python filename="images.py" code-line-numbers="1-2"}
@@ -112,7 +113,7 @@ plt.show()
 * Then use the `crop` method from the `PIL` library.
 * This uses pixel coordinates.
 * The top-left corner is (0, 0).
-* coordinates are x and then y values.
+* Coordinates are (new_top_left_x, new_top_left_y, new_bottom_right_x, new_bottom_right_y).
 
 ```{.python filename="crop.py"}
 box = (3900, 2900, 6000, 5500)
@@ -133,8 +134,8 @@ rotated_img_2 = img_2.rotate(10)
 
 ## Inverting Images {background-image="/media/inverted-landscape-glass-sphere.jpg" background-opacity="0.4"}
 
-
-* Invert by using the `invert` method.
+* Here we can invert the colours of an image.
+* Use the `invert` method.
 
 ```{.python filename="rotate.py"}
 from PIL import ImageOps
@@ -145,6 +146,7 @@ inverted_img_3 = ImageOps.invert(img_3)
 
 ## Change file type {background-image="/media/file-cabinets-old.jpg" background-opacity="0.4"}
 
+* Specify the new file type in the name and then,
 * Use the `save` method from the `PIL` library to save the image in a different format.
 
 ```{.python filename="rotate.py"}

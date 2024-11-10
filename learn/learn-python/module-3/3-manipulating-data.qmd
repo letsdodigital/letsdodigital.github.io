@@ -64,8 +64,8 @@ title-slide-attributes:
 
 * **NumPy Array**: A grid of values (1D, 2D, or more).
 * Efficient for storing and working with lots of data.
-* NumPy makes math operations fast and easy.
-* Use NumPy for calculations across whole arrays at once.
+* NumPy makes mathematical operations fast and easy.
+* Use NumPy for calculations across whole arrays all at once.
 
 
 ## Why Use NumPy?
@@ -81,7 +81,8 @@ title-slide-attributes:
 ![](/media/scipy.png)
 
 
-## Scipy
+## Scipy {background-image="/media/gaussian-like-graph.jpg" background-opacity="0.1"}
+
 
 * Scipy is a Python library for scientific and technical computing.
 * It builds on NumPy and provides more advanced functions.
@@ -110,6 +111,9 @@ Output:
         5
 
 
+# Pandas
+
+
 ## Load Data with Pandas
 
 * Import the pandas library.
@@ -117,14 +121,14 @@ Output:
 
 ```{.python filename="pandas.py"}
 import pandas as pd
-patient_kidney_function = pd.read_csv('kidney_function.csv')
+kidney_function_dataframe = pd.read_csv('kidney_function.csv')
 ```
 
 
-## Update Data within a DataFrame
+## Update Data with loc
 
-* Use the `loc` method.
-* Use `patient_data['Column name']` to select a column.
+* Use the `loc` (location) method.
+* Use `dataframe_name['column name']` to select a column.
 * Search for a specific value in this column using `==` and the value.
 * In the second `loc` argument, specify the column to update.
 * Update the value as needed.
@@ -134,14 +138,27 @@ patient_data.loc[patient_data['Date'] == '2022-12-01', 'Stage'] = 5
 ```
 
 
+## iloc
+
+* Use `iloc` (integer location) to select rows and columns by position.
+* Use `dataframe_name.iloc[row_number, column_number]`.
+
+```{.python filename="pandas_iloc.py"}
+patient_data.iloc[0, 0] = 22
+```
+
+
 ## Filtering DataFrames
 
+* A filter is a condition to select rows from a dataframe.
 * Use the `[]` operator to filter rows.
 * Use a condition (eg more than >) to filter rows.
+* You can then save this as a new dataframe.
 
 ```{.python filename="pandas_filter.py"}
 patients_over_55 = patient_data[patient_data['Age'] > 55]
 ```
+
 
 ## Get some statistics
 
@@ -164,10 +181,10 @@ Output:
         max      5.000000  70.000000   240.000000     150.000000
 
         
-## Splitting DataFrames
+## Refining the return results
 
-* You can split a DataFrame into two or more DataFrames. You just need to define what is the condition to split the data.
-* You can also just return single column values.
+* First, you define filtering condition.
+* Next, you state what column you want to return.
 
 ```{.python filename="pandas_split.py"}
 hypertension = patient_data_2[patient_data_2['Diagnosis'] == 
@@ -176,10 +193,13 @@ hypertension = patient_data_2[patient_data_2['Diagnosis'] ==
 \
 
 * `patient_data_2['Diagnosis'] == 'Hypertension'` finds all rows where the diagnosis is **hypertension**.
-* `['Cholesterol']` returns **only the cholesterol values** for the rows that are returned by the above query.
+* `['Cholesterol']` returns **only the cholesterol values** for the rows that are filtered by the above query.
 
 
-## Create a NumPy Array
+# NumPy
+
+
+## Creating a NumPy Array
 
 * Import the NumPy library.
 * Create an array from a python list (eg [1, 2, 5, 6]).
@@ -232,9 +252,14 @@ Output:
         [10  2  2  4  1  1  7]
 
 
+# Scipy
+
+
 ## More advanced statistics with Scipy
 
+* Here we can use the stats module.
 * An example is the t-score and p-value by using `stats.ttest_ind`.
+* Let's say we have two groups of patients: one with hypertension and one without.
 
 ```{.python filename="scipy_stats.py" code-line-numbers="3"}
 from scipy import stats
