@@ -126,3 +126,15 @@ title-slide-attributes:
 ## Punctuation
 
 * Use full stops at the end of sentences, even with bullet points.
+
+
+## Too much text?
+
+* If you have too much text, you can use the `.smaller` class to make the text smaller.
+* You can add classes to the text in the curly braces after the title.
+
+```{.markdown}
+## Slide title {.smaller}
+
+This will be a smaller font size.
+```
