@@ -280,6 +280,13 @@
     "text": "Punctuation\n\nUse full stops at the end of sentences, even with bullet points."
   },
   {
+    "objectID": "learn/tutors/slides-guide.html#too-much-text",
+    "href": "learn/tutors/slides-guide.html#too-much-text",
+    "title": "Slides guide",
+    "section": "Too much text?",
+    "text": "Too much text?\n\nIf you have too much text, you can use the .smaller class to make the text smaller.\nYou can add classes to the text in the curly braces after the title.\n\n## Slide title {.smaller}\n\nThis will be a smaller font size."
+  },
+  {
     "objectID": "learn/index.html",
     "href": "learn/index.html",
     "title": "Education",
