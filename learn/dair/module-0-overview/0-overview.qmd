@@ -1,0 +1,137 @@
+---
+title: "DAIM: Images \n Overview"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes: 
+  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-opacity: "0.6"
+---
+
+## Introduction {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+* Welcome to the **Data Analytics in Medicine (DAIM)** course!
+* In the coming weeks, we will be covering a range of topics from **basic data visualisation** all the way up to **machine learning**
+* Please let one of the team know if you have any **questions** during the course or **any suggestions for improvement**.
+
+## Overall Course Aim {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+
+* To broaden basic Python skills into **fully-fledged**, **practical experience** that can be used to:
+  * Do research
+  * Build new clinical tools
+* And most importantly, to **directly improve patient care**
+
+## Overall Course Philosophy {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+
+* I set up this course as I want to **accelerate the process** of learning to code as a clinician after my own experiences.
+* The massive range of resources online can be **intimidating**.
+* Knowing how to improve can be **difficult**.
+* We want people to leave this course with a **toolkit** to solve **real world clinical problems**.
+* We also want to improve the quality of cross-disciplinary work
+
+## Tips to gain the most from DAIR {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+* **Practice, practice, practice**
+* *Be prepared for frustration!*
+* Finding resources
+  * Documentation
+  * Stack Overflow
+  * GitHub
+
+## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+
+* Questions:
+  * What reasons does everyone have for signing up for this course?
+  * What is the one skill that you are hoping to gain?
+
+## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
+
+<!--
+```python
+def break_time(tired):
+    if tired:
+        return "Coffee!"
+    else:
+        return "We'll get going in 5 mins..."
+
+print(break_time(tired=True))
+```
+-->
+
+## Course breakdown {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* The course is split into multiple modules which each cover a different area.
+* Each module is split into two types of weeks:
+  * **Seminars** - Lecture-style discussions of the topic for the week.
+  * **Workshops** - Workbooks that you will complete with the direct or indirect support of a tutor.
+* The workshops will use **Jupyter Notebooks** within **Google Colab** to deliver the content. 
+
+## Learning Levels {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* We've created a set of learning levels **(LLs)** for this course:
+  1. **Level 1** - Basic Practical Skills (coding skills)
+  2. **Level 2** - Theory (modelling skills)
+  3. **Level 3** - Project Planning and Management
+  4. **Level 4** - Clinical Translation
+
+## Module 2 - Course Introduction {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* Seminar content will include:
+  * Aims and objectives of the course
+  * Overview of resources to use throughout the course
+  * Clinical applications of programming
+
+## Module 2 - Core Python for Image Processing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* Seminar content will include:
+  * How images are **digitally represented**
+  * Basics of multiple Python packages
+    * **PIL**, a Python library for working with images
+    * **NumPy**, a  Python library for working with large structured data
+* Workshop content will include:
+  * How to open and render **different types** of image data  
+  
+## Module 3 - Python and DICOM {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* Seminar content will include:
+  * What the **DICOM standard** is
+  * How computers represent scan data
+  * What **data** is in a DICOM file
+* Workshop content will include:
+  * Opening and **rendering DICOM** with Python
+  * **Extracting demographics** from DICOM
+
+## Module 4 - AI for Medicine {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* Seminar content will include:
+  * Different types of **"machine learning"**
+  * The practical steps needed to take **an idea to a system**
+  * Discussing **advantages and limitations** of these algorithms
+* Workshop content will include:
+  * **Preprocessing data** for training
+  * **Constructing, training, and evaulating** a basic neural network for **pneumonia detection on CXR**
+
+## Course Timeline
+
+* *TODO (Make this when the updated course layout is better specified)*
+
+## Course Feedback {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
+
+* We will be asking for course feedback to allow us to refine the course for further cohorts
+* Please fill this out at the start and end of the course
+* Please include honest feedback!
+
+## Note - Terminology {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
+
+* We will be using the term **"programming"** in this course to prevent confusion with:
+  * Clinical coding - SNOMED-CT, ICD-10, etc...
+  * Patients coding - crash trollies, etc...
+
+## Thank you! {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
+
+Any questions?
+
