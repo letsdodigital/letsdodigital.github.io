@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - "documents/*"
 
 website:
   title: "Let's Do Digital"
