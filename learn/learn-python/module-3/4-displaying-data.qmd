@@ -217,6 +217,6 @@ plot.show()
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-3/5-manipulating-images.html" style="color: lightgrey;">Basic statistics</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/5-manipulating-images.html" style="color: lightgrey;">Manipulating Images</a>
 </div>
 ```

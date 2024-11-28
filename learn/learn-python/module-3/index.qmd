@@ -22,7 +22,7 @@ This module is a must for anyone wishing to attend the upcoming Data Analysis in
 
 The code for this course can be found below
 <ul>
-  <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 2 code</a></li>
+  <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 3 code</a></li>
 </ul>
 
 
