@@ -270,7 +270,7 @@ print(f't-score: {t_score}')
 print(f'p-value: {p_value}')
 ```
 
-\
+---
 
 Output:
 
