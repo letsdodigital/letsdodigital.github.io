@@ -8,23 +8,9 @@ image: /media/tickets.png
 
 ## Upcoming Events
 
-Newly created events are being added to the new [Let's Do Digital event's page](https://letsdodigital.thinkific.com/collections). 
+### 18th December 2024
 
-Other events are as below.
-
-### 24th October 2024
-
-[Let's Talk Digital Conference](/conferences/2024/index.qmd)
-
-
-### 6th November 2024
-
-[{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
-
-
-### 27th November 2024
-
-[Introduction to Health Informatics](https://app.medall.org/event-listings/introduction-to-health-informatics) - calling all medical students and junior doctors.
+[Open source Christmas special webinar! Dr Marcus Baw](https://www.cognitoforms.com/LetsDoDigital1/WebinarRegistration)
 
 ## Self-paced learning
 
@@ -105,5 +91,14 @@ Other events are as below.
 ### 13th September 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
+
+
+### 24th October 2024
+
+[Let's Talk Digital Conference](/conferences/2024/index.qmd)
+
+### 6th November 2024
+
+[{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
 
 :::
