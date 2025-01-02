@@ -1,0 +1,38 @@
+---
+title: "Module-1"
+author: "Keith Blackwood"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-color: "#0D4848"
+    data-background-video: "/media/waves-on-beach.mp4"
+    data-background-video-loop: true
+---
+
+## Setting up and enviroment for HTML coding
+
+* We will be using Github Codespace for our environment
+* Go to https://github.com/codespaces with your navigator of choice (I will be using Chrome)
+* Select the blank template 
+* Select a theme that works for you (I use dark+)
+* I prefer to display the menu bar
+* In the language modueles install HTML CSS Support  
+* JavaScript (ES6) code snippets
+* Prettier
+
+## HTML Emmet boilerplate setup
+
+* Emmet https://emmet.io/ is a popular and powerful toolkit for webdevelopers
+* It's build directly into Codespace and it allows you to rapidly place down commonly used code
+* In this example we will use Emmet to lay the basics of a html page.
+* Create a new file, name it 'index.html'
+* In the file we'll use Emmet, by adding an exlemation mark '!' then press tab
+
+## HTML boilerplate
+
+* This will produce text as the image below, this is known as a HTML boilerplate
+* This contains all the standard HTML5 setup without us needing to 
+
+
+##
