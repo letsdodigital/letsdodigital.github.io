@@ -1561,6 +1561,34 @@
     "text": "# Let's Do Digital - Module [module_number]\n\n## Material\n\nSlides can be found here: \nhttps://letsdodigital.org/learn/learn-python/module-[module_number]\n\n## Hands-on code can be found here:\n\nhttps://github.com/letsdodigital/coding-hands-on\n\n## Github sign up\n\nhttps://github.com/signup\n\nAsk your tutor code specific questions. For questions about the session generally, these can be asked in the general chat.\n\n## Groups\n### 1. [tutor_name_1]\n[student_name_1]\n[student_name_2]\n\n### 2. [tutor_name_2]\n[student_name_3]\n[student_name_4]\n\n## Feedback\nFeedback - please complete at end:\nhttps://www.cognitoforms.com/LetsDoDigital1/ProgrammingInHealthcareCourse"
   },
   {
+    "objectID": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#module-1-building-blocks-html-css-essentials",
+    "href": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#module-1-building-blocks-html-css-essentials",
+    "title": "Module-1",
+    "section": "Module 1: Building Blocks – HTML & CSS Essentials",
+    "text": "Module 1: Building Blocks – HTML & CSS Essentials"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#setting-up-an-environment-for-html-coding",
+    "href": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#setting-up-an-environment-for-html-coding",
+    "title": "Module-1",
+    "section": "Setting up an environment for HTML coding",
+    "text": "Setting up an environment for HTML coding\n## Core HTML structure, the humble\n\n## HTML expanded, elements beyond the\n\n\nCSS, shaping the way HTML looks\n\n\nHealthcare example: Building a simple “About the Clinic” webpage"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#css-shaping-the-way-html-looks",
+    "href": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#css-shaping-the-way-html-looks",
+    "title": "Module-1",
+    "section": "CSS, shaping the way HTML looks",
+    "text": "CSS, shaping the way HTML looks"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#healthcare-example-building-a-simple-about-the-clinic-webpage",
+    "href": "learn/BIFFPE/module-1/0-building-blocks-html-css.html#healthcare-example-building-a-simple-about-the-clinic-webpage",
+    "title": "Module-1",
+    "section": "Healthcare example: Building a simple “About the Clinic” webpage",
+    "text": "Healthcare example: Building a simple “About the Clinic” webpage"
+  },
+  {
     "objectID": "learn/BIFFPE/overview.html",
     "href": "learn/BIFFPE/overview.html",
     "title": "Building Interactive Front-ends For Patient Engagement",
@@ -5584,6 +5612,27 @@
     "title": "Module-0",
     "section": "Next Session",
     "text": "Next Session\n\nHTML first steps"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#setting-up-and-enviroment-for-html-coding",
+    "href": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#setting-up-and-enviroment-for-html-coding",
+    "title": "Module-1",
+    "section": "Setting up and enviroment for HTML coding",
+    "text": "Setting up and enviroment for HTML coding\n\nWe will be using Github Codespace for our environment\nGo to https://github.com/codespaces with your navigator of choice (I will be using Chrome)\nSelect the blank template\nSelect a theme that works for you (I use dark+)\nI prefer to display the menu bar\nIn the language modueles install HTML CSS Support\n\nJavaScript (ES6) code snippets\nPrettier"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#html-emmet-boilerplate-setup",
+    "href": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#html-emmet-boilerplate-setup",
+    "title": "Module-1",
+    "section": "HTML Emmet boilerplate setup",
+    "text": "HTML Emmet boilerplate setup\n\nEmmet https://emmet.io/ is a popular and powerful toolkit for webdevelopers\nIt’s build directly into Codespace and it allows you to rapidly place down commonly used code\nIn this example we will use Emmet to lay the basics of a html page.\nCreate a new file, name it ‘index.html’\nIn the file we’ll use Emmet, by adding an exlemation mark ‘!’ then press tab"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#html-boilerplate",
+    "href": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#html-boilerplate",
+    "title": "Module-1",
+    "section": "HTML boilerplate",
+    "text": "HTML boilerplate\n\nThis will produce text as the image below, this is known as a HTML boilerplate\nThis contains all the standard HTML5 setup without us needing to"
   },
   {
     "objectID": "learn/ask-a-clinician/index.html",
