@@ -15,7 +15,7 @@ Code for the coding sessions can be found [here](https://github.com/letsdodigita
 
 ## Session info for students
 
-We will be using hackMD to store information for the session (eg tutor group allocation).
+We will be using hackMD to store information for the session (eg tutor group allocation). This stops the need to repeatedly copy and paste details into the chat. A markdown template for the HackMD can be found [here](../../hackmd.qmd).
 
 
 ## Timings

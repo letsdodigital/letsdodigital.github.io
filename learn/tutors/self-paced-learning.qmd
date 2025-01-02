@@ -1,0 +1,7 @@
+---
+title: "Self-paced learning"
+---
+
+Currently we are using Thinkific to create self-paced learning courses. You can add text, embed your slides, run recordings and quizzes.
+
+I will add more details here soon.

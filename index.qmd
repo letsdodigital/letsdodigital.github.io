@@ -32,6 +32,9 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 ## Updates
 
+**24/10/24** - DON'T MISS OUT! The 2024 Let's Talk Digital Conference is just around the corner. Register [here](/conferences/2024/index.qmd) to secure your spot.
+
+
 **02/10/24** - We now offer Module 0 of the Programming in Healthcare as a self-paced course. This has been asked for by many that could not attend the live and tutor led sessions. More modules will be available soon in this self-paced format. Register [Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare) for the first module.
 
 **13/09/24** - See the recent Webinar covering the Digital Clinical Safety Platform, hazard logging in code, hazard typing and DevSecRegOps:
@@ -100,6 +103,8 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 ```{=html}
 <div class="supporter-frame">
     <h3>Individual supporters</h3>
+    <!--Anita Phung 25/10/2024-->
+    <p class="sponsors-named">Anita Phung</p>
     <!--François Taljard 24/04/2024-->
     <p class="sponsors-named">François Taljard</p>
 </div>

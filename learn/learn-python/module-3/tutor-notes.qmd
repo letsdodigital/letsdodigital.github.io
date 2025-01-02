@@ -1,0 +1,60 @@
+---
+title: "Tutor notes - module 3"
+---
+
+## Overview
+
+This is the fourth course for the Programming in Healthcare series. This is for students that have completed the previous modules and are ready to learn about data manipulation and visualisation. It is also a great course for any student wishing to attend the upcoming Data Analysis in Medicine (DAIM) course.
+
+Hopefully you will need to provide less hand holding now than with previous modules. Please be patient with our students, and give them the time and teaching they need. As you may know, there is a high attrition rate for people who are learning to code.
+
+We will be using Codespace from Github as the teaching environment. All students will need to have a Github account (they can create one [here](https://github.com/signup)). It is also recommended to not use a NHS computer, as some IT departments block access to GitHub.
+
+Code for the sessions can be found [here](https://github.com/letsdodigital/coding-hands-on).
+
+
+## Session info for students
+
+We will be using hackMD to store information for the session (eg tutor group allocation). This stops the need to repeatedly copy and paste details into the chat. A markdown template for the HackMD can be found [here](../../hackmd.qmd).
+
+
+## Timings
+**Needs updating!**
+Example timings for evening session.
+
+Start 7pm
+
+End 10pm
+
+6:30 pm - Open zoom for tutors and set up breakout rooms. Test all functionality.
+
+7:00 pm - Open room to students
+
+7:01 pm - Talk - 1-introduction.html
+
+7:05 pm - Talk - 2-jupyter-notebook-and-markdown.html
+
+7:25 pm - Hands-on - lesson_1.ipynb
+
+7:45 pm - Talk - 3-manipulating-data.html
+
+8:05 pm - Hands-on - lesson_2.ipynb
+
+8:45 pm - Talk - 4-displaying-data.html
+
+8:55 pm - Hands-on - lesson_3.ipynb
+
+9:25 pm - Talk - 5-manipulating-images.html
+
+9:35 pm - Hands-on - lesson_4.ipynb (& lesson_5.ipynb for faster students)
+
+9:50 pm - Talk - 5-session-close.html
+
+10:00 pm - Close
+
+
+## Common pit falls
+
+* **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of the hospital/GP practice network.
+* **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.
+

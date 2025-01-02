@@ -6,24 +6,16 @@ title: "Tutor notes - module 2"
 
 This is the third course for the Programming in Healthcare series. It is for students that have some moderate experience with coding. Hopefully students would have completed the introductory modules 0 and 1.
 
-Hopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teachings they need. As you may know, there is a high attrition rate for people who are learning to code.
+Hopefully you will need to provide less hand holding now, than with previous modules. Please be patient with our students, and give them the time and teaching they need. As you may know, there is a high attrition rate for people who are learning to code.
 
+We will be using Codespace from Github as the teaching environment. All students will need to have a Github account (they can create one [here](https://github.com/signup)). It is also recommended to not use a NHS computer, as some IT departments block access to GitHub.
 
-## Setup session for students
-
-We will have a **set up session** prior to running the module where we will get **VS Code installed** onto the student's computers. Worse case scenario, where the student cannot install, or does not get around to installing VS Code, they can use **Codespace** instead.
-
-Code for the coding sessions can be found [here](https://github.com/letsdodigital/coding-hands-on).
-
-
-## Setup session for tutors
-
-We will need to teach tutors how to use `Moqups` prior to teaching sessions to able tutors to teach students how to use this process mapping tool.
+Code for the sessions can be found [here](https://github.com/letsdodigital/coding-hands-on).
 
 
 ## Session info for students
 
-We will be using hackMD to store information for the session (eg tutor group allocation).
+We will be using hackMD to store information for the session (eg tutor group allocation). This stops the need to repeatedly copy and paste details into the chat. A markdown template for the HackMD can be found [here](../../hackmd.qmd).
 
 
 ## Timings
@@ -37,7 +29,7 @@ End 10pm
 
 7:00 pm - Open room to students
 
-7:05 pm - Talk - 1-introduction.html
+7:01 pm - Talk - 1-introduction.html
 
 7:10 pm - Talk - 2-coding-environment.html
 

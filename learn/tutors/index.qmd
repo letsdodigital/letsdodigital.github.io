@@ -1,0 +1,9 @@
+---
+title: "Tutors' corner"
+---
+
+Many thanks for helping out as a tutor for Let's Do Digital. This guide will help you with creating materials for the Let's Do Digital platform. Click on the links below to access the guides.
+
+* [Slides guide](slides-guide.qmd)
+* [Webinars](webinars.qmd)
+* [Self-paced learning](self-paced-learning.qmd)

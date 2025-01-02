@@ -20,6 +20,7 @@ Interested in becoming a **clinician-who-codes**, view a syllabus in the making 
 
 Interested in becoming a **coding**, view a syllabus in the making [here](/learn/syllabus/coding.qmd).
 
-## Coding cheat sheets
 
-A [collection](/cheatsheets/index.qmd) of code and commands.
+## Tutors' corner
+
+Guides for tutors can be found [here](tutors/index.qmd).

@@ -1,7 +1,0 @@
----
-title: "Cheatsheets in coding"
----
-
-A collection of helpful commands and code that I seem to have to search each time I need to use them. I thought I would put these snippets of code and commands in an easy to find place.
-
-* [venv](/cheatsheets/venv.qmd)

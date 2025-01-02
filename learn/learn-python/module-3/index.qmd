@@ -2,16 +2,34 @@
 title: "{{< var coding-module-3 >}}"
 ---
 
-Module 3 is currently being built. Here we look at data and its manipulation. Watch this space
+Module 3 looks at data. Specifically you will learn how to use Jupyter Notebooks to access data, interpret it, manipulate it and visualise it. You will also learn how to access and manipulate images. 
 
-1. Jupyter notebook
-2. Open files, CSVs
-3. Multidimensional data 1x7, 2x7, 3D array
-4. Tabular data
-5. Stats, complex data framework
-6. Pandas
-7. Plotting, **PyPlot**, scipy, numpy, PIL
-8. Reading documentation
+This module is a must for anyone wishing to attend the upcoming Data Analysis in Medicine (DAIM) course.
+
+## Chose a slide deck
+
+<ul>
+  <li><a href="1-introduction.html" target="_blank">1 - Introduction</a></li>
+  <li><a href="2-jupyter-notebook-and-markdown.html" target="_blank">2 - Jupyter Notebook and Markdown</a></li>
+  <li><a href="3-manipulating-data.html" target="_blank">3 - Manipulating Data</a></li>
+  <li><a href="4-displaying-data.html" target="_blank">4 - Displaying data</a></li>
+  <li><a href="5-manipulating-images.html" target="_blank">5 - Manipulating images</a></li>
+  <li><a href="6-session-close.html" target="_blank">6 - Session close</a></li>
+</ul>
 
 
+## Get coding
 
+The code for this course can be found below
+<ul>
+  <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 3 code</a></li>
+</ul>
+
+
+## Tutor notes
+
+Notes for tutors can be found below:
+
+<ul>
+  <li><a href="tutor-notes.html" target="_blank">Tutor notes</a></li>
+</ul>

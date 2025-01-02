@@ -8,3 +8,215 @@ title-slide-attributes:
     data-background-image: /media/jupyter-notebook-logo.png
     data-background-opacity: "0.1"
 ---
+
+## Python data plotting library
+
+* matplotlib (specifically `pyplot`)
+
+
+## What is matplotlib.pyplot?
+
+* A library for plotting data in python.
+* It is a powerful tool for creating graphs and charts.
+* It is widely used in data science and machine learning.
+* It is easy to use and has a wide range of features.
+
+## matplotlib.pyplot documentation
+
+* There are many ways to look up how to do things with different python libraries.
+* You can use a internet search engine, [stackoverflow](https://stackoverflow.com/questions/8575062/how-to-show-matplotlib-plots), or the official library documentation, as below:
+
+[https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html](https://matplotlib.org/3.5.3/api/_as_gen/matplotlib.pyplot.html)
+
+## Let's plot some 1D data
+
+```{.python filename="pyplot_1d.py" code-line-numbers="1,5,9"}
+import matplotlib.pyplot as plot
+
+array_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])
+
+plot.plot(array_1x7)
+
+
+
+plot.show()
+```
+
+## Let's plot some 1D data
+
+![](/media/1d-plot-pyplot-basic.png){.centre-full-image .top-55}
+
+
+## Let's plot some 1D data
+
+* We can however improve this plot by adding some labels and a title.
+
+
+## Let's plot some 1D data
+
+```{.python filename="pyplot_1d.py" code-line-numbers="6-8"}
+import matplotlib.pyplot as plot
+
+array_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])
+
+plot.plot(array_1x7)
+plot.title("1x7 Array Visualization")
+plot.xlabel("Index")
+plot.ylabel("Value")
+plot.show()
+```
+
+## Let's plot some 1D data
+
+![](/media/1d-plot-pyplot.png){.centre-full-image .top-55}
+
+
+## Tweaking the plot
+
+* As you can see, there is a lot of details on the 1D plot. 
+* The more dimensions you have, the more tweaking that you will need to do.
+* Hence, we will not go into the minutiae of all of the settings you can change, but we will go through the main process of setting up plots. 
+
+
+## Plotting 2D data
+
+* Heatmaps are useful
+
+```{.python filename="pyplot_2d.py" code-line-numbers="4,10"}
+array_2x7 = np.array([[0, 2, 3, 4, 5, 6, 7],
+                      [8, 9, 10, 11, 12, 13, 13]])
+
+plot.imshow(array_2x7)
+
+
+
+
+
+plot.show()
+```
+
+## Plotting 2D data
+
+![](/media/2d-heatmap-pyplot-basic.png){.centre-full-image .top-55}
+
+
+## Plotting 2D data
+
+* We too we can improve things with this plot. 
+* Let's add a colour bar, a title, labels and format the y-axis ticks.
+
+
+## Plotting 2D data
+
+* Heatmaps are useful
+
+```{.python filename="pyplot_2d.py" code-line-numbers="4-9"}
+array_2x7 = np.array([[0, 2, 3, 4, 5, 6, 7],
+                      [8, 9, 10, 11, 12, 13, 13]])
+
+plot.imshow(array_2x7, aspect='auto')
+plot.colorbar()
+plot.title("2x7 Array Heatmap")
+plot.gca().set_yticks(np.arange(array_2x7.shape[0]))
+plot.xlabel("Columns")
+plot.ylabel("Rows")
+plot.show()
+```
+
+
+## Plotting 2D data
+
+![](/media/2d-heatmap-pyplot.png){.centre-full-image .top-55}
+
+
+## Plotting 3D data
+
+* Here is some 3-dimensional data to plot.
+
+```{.python filename="pyplot_3d.py"}
+array_3D = np.array([[[0, 80, 2, 3, 4, 5, 6],
+                      [7, 8, 9, 10, 111, 12, 13]],
+                     [[1, 2, 3, 4, 5, 6, 7],
+                      [8, 9, 10, 11, 122, 13, 14]],
+                     [[15, 16, 17, 18, 19, 20, 21],
+                      [22, 23, 24, 25, 26, 27, 28]]])
+```
+
+
+## Plotting 3D data {.smaller}
+
+* 3D scatter plots are useful.
+
+```{.python filename="pyplot_3d.py" code-line-numbers="1-7,20"}
+fig = plot.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+x, y, z = np.indices(array_3D.shape)
+values = array_3D.flatten()
+
+sc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values)
+
+
+
+
+
+
+
+
+
+
+
+
+plot.show()
+```
+
+
+## Plotting 3D data
+
+![](/media/3d-scatterplot-pyplot-basic.png){.centre-full-image .top-55}
+
+
+## Plotting 3D data {.smaller}
+
+* 3D scatter plots are useful
+
+```{.python filename="pyplot_3d.py" code-line-numbers="7-18"}
+fig = plot.figure()
+ax = fig.add_subplot(111, projection='3d')
+
+x, y, z = np.indices(array_3D.shape)
+values = array_3D.flatten()
+
+sc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, s=100)
+
+cbar_ax = fig.add_axes([0.9, 0.15, 0.05, 0.7]) 
+cbar = fig.colorbar(sc, ax=ax, cax=cbar_ax, shrink=0.5, aspect=5)
+
+ax.set_title('3D Array Visualization')
+ax.set_xlabel('Rows')
+ax.set_ylabel('Columns')
+ax.set_zlabel('Depth')
+
+ax.set_xticks(np.arange(array_3D.shape[0]))
+ax.set_yticks(np.arange(array_3D.shape[1]))
+
+plot.show()
+```
+
+
+## Plotting 3D data
+
+![](/media/3d-scatterplot-pyplot.png){.centre-full-image .top-55}
+
+## Now try it yourself!
+
+* Go to the Lesson 3 folder.
+* Open `lesson_3.ipynb`.
+* Don't forget to ask your tutor if you need help.
+* See you in 20 minutes.
+
+```{=html}
+<div class="bottom-right">
+    <a href="https://letsdodigital.org/learn/learn-python/module-3/5-manipulating-images.html" style="color: lightgrey;">Manipulating Images</a>
+</div>
+```

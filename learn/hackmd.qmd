@@ -1,0 +1,35 @@
+---
+title: "HackMD - Template"
+---
+
+```
+# Let's Do Digital - Module [module_number]
+
+## Material
+
+Slides can be found here: 
+https://letsdodigital.org/learn/learn-python/module-[module_number]
+
+## Hands-on code can be found here:
+
+https://github.com/letsdodigital/coding-hands-on
+
+## Github sign up
+
+https://github.com/signup
+
+Ask your tutor code specific questions. For questions about the session generally, these can be asked in the general chat.
+
+## Groups
+### 1. [tutor_name_1]
+[student_name_1]
+[student_name_2]
+
+### 2. [tutor_name_2]
+[student_name_3]
+[student_name_4]
+
+## Feedback
+Feedback - please complete at end:
+https://www.cognitoforms.com/LetsDoDigital1/ProgrammingInHealthcareCourse
+```
