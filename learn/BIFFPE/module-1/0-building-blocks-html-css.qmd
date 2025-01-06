@@ -12,12 +12,36 @@ title-slide-attributes:
 
 ## Module 1: Building Blocks – HTML & CSS Essentials 
 
-## Setting up an environment for HTML coding 
+* This section of the project will set you up for building a website
 
-## Core HTML structure, the humble <div> 
+* Together we will build this website: a mock frontend page for a clinc
+
+* We will use a number of HMTL elements to create seperate sections for content, navigation between them, images, links and a front end form. 
+
+## 1. Setting up an environment for HTML coding 
+
+* Before we launch into coding we will setup the coding environment so that you Cascading
+
+* Here we will also learn about version control, commits and push/pull requests, vital for working in development teams
+
+* You will require a Github account for this section
+
+## 2. Core HTML structure, elements and the humble <div> 
+
+* This section will run through the concept of Elements, why they are used, 
+
+* We will focus on the <div> a container element that is vital to structure of modern website development
 
 ## HTML expanded, elements beyond the <div> 
 
+* This section will briefly look over other elements and why it's important to use them
+
+* headings <h1>, text <p>, images <img> links <links> and lists <ol> and <ul> with list items <li> 
+
 ## CSS, shaping the way HTML looks 
 
-## Healthcare example: Building a simple "About the Clinic" webpage 
+* returning to the <div> we will begin to position 
+
+## Healthcare example: Building a simple "About the Clinic" webpage
+
+* This multipart section will be a complete landing page for a fictional clinic, the LDD clinic. 

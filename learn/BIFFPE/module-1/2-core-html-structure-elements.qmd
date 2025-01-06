@@ -1,0 +1,12 @@
+---
+title: "Module-1"
+author: "Keith Blackwood"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-color: "#0D4848"
+    data-background-video: "/media/waves-on-beach.mp4"
+    data-background-video-loop: true
+---
+

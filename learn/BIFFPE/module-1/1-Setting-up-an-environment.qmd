@@ -32,7 +32,12 @@ title-slide-attributes:
 ## HTML boilerplate
 
 * This will produce text as the image below, this is known as a HTML boilerplate
-* This contains all the standard HTML5 setup without us needing to 
+* This contains all the standard HTML5 setup without us needing to fill it in
+* Every HTML5 page has the same base layout;  DOCTYPE and a html element
+* In the html element there is a head and a body
+* Information in the head is read by the browser
+* Information in the body is presented on the page
 
+## HTML boilerplate #2
 
-##
+* in the head there is a
