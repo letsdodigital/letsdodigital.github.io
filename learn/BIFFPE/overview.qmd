@@ -6,7 +6,7 @@ format: html
 
 # Course Outline
 
-## Module 0: What Even Is a Website?
+## Module 0: What Even is a Website?
 
 - **What is front-end development?**
 - Why it’s important for modern web applications.
