@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Keith Blackwood">
 
-<title>Building Interactive Front-ends For Patient Engagement – Let’s Do Digital</title>
+<title>healthcare-example-building-a-simple-webpage – Let's Do Digital</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +23,25 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../media/ldd-logo.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-c75bcb89907db7808f0349b764a1a524.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-b3883a83b6cdceb4314f965facc5c958.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../media/ldd-logo.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-c75bcb89907db7808f0349b764a1a524.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-b3883a83b6cdceb4314f965facc5c958.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -72,8 +71,8 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../../styles.css">
-<meta name="twitter:title" content="Building Interactive Front-ends For Patient Engagement – Let’s Do Digital">
+<link rel="stylesheet" href="../../../styles.css">
+<meta name="twitter:title" content="Let’s Do Digital">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -84,7 +83,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../../index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">Let’s Do Digital</span>
     </a>
   </div>
@@ -95,27 +94,27 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../learn/index.html"> 
+    <a class="nav-link" href="../../../learn/index.html"> 
 <span class="menu-text">Learn</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../conferences/2024/index.html"> 
+    <a class="nav-link" href="../../../conferences/2024/index.html"> 
 <span class="menu-text">Conference</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../tickets/index.html"> 
+    <a class="nav-link" href="../../../tickets/index.html"> 
 <span class="menu-text">Tickets</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../posts.html"> 
+    <a class="nav-link" href="../../../posts.html"> 
 <span class="menu-text">Posts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../services-we-offer.html"> 
+    <a class="nav-link" href="../../../services-we-offer.html"> 
 <span class="menu-text">Services we offer</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../who-are-we.html"> 
+    <a class="nav-link" href="../../../who-are-we.html"> 
 <span class="menu-text">Who are we</span></a>
   </li>  
 </ul>
@@ -130,120 +129,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#course-outline" id="toc-course-outline" class="nav-link active" data-scroll-target="#course-outline">Course Outline</a>
-  <ul class="collapse">
-  <li><a href="#module-0-what-even-is-a-website" id="toc-module-0-what-even-is-a-website" class="nav-link" data-scroll-target="#module-0-what-even-is-a-website">Module 0: What Even is a Website?</a></li>
-  <li><a href="#module-1-building-blocks-html-css-essentials" id="toc-module-1-building-blocks-html-css-essentials" class="nav-link" data-scroll-target="#module-1-building-blocks-html-css-essentials">Module 1: Building Blocks – HTML &amp; CSS Essentials</a></li>
-  <li><a href="#module-2-foundation-interactivity-links-images-and-lists" id="toc-module-2-foundation-interactivity-links-images-and-lists" class="nav-link" data-scroll-target="#module-2-foundation-interactivity-links-images-and-lists">Module 2: Foundation Interactivity – Links, Images, and Lists</a></li>
-  <li><a href="#module-3-responsive-design-grid-flexbox" id="toc-module-3-responsive-design-grid-flexbox" class="nav-link" data-scroll-target="#module-3-responsive-design-grid-flexbox">Module 3: Responsive Design, Grid, Flexbox</a></li>
-  <li><a href="#module-4-buttons-forms-interaction-matters" id="toc-module-4-buttons-forms-interaction-matters" class="nav-link" data-scroll-target="#module-4-buttons-forms-interaction-matters">Module 4: Buttons &amp; Forms – Interaction Matters!</a></li>
-  <li><a href="#module-5-making-websites-move-javascript-101" id="toc-module-5-making-websites-move-javascript-101" class="nav-link" data-scroll-target="#module-5-making-websites-move-javascript-101">Module 5: Making Websites Move – JavaScript 101</a></li>
-  </ul></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Building Interactive Front-ends For Patient Engagement</h1>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
-
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Keith Blackwood </p>
-          </div>
-  </div>
-    
-  
-    
-  </div>
-  
 
 
-</header>
 
-
-<section id="course-outline" class="level1">
-<h1>Course Outline</h1>
-<section id="module-0-what-even-is-a-website" class="level2">
-<h2 class="anchored" data-anchor-id="module-0-what-even-is-a-website">Module 0: What Even is a Website?</h2>
-<ul>
-<li><strong>What is front-end development?</strong></li>
-<li>Why it’s important for modern web applications.</li>
-<li><strong>HTML and CSS</strong>: The building blocks of webpages.</li>
-<li>Understanding the structure of a basic webpage.</li>
-<li>The role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).</li>
-</ul>
-<hr>
-</section>
-<section id="module-1-building-blocks-html-css-essentials" class="level2">
-<h2 class="anchored" data-anchor-id="module-1-building-blocks-html-css-essentials">Module 1: Building Blocks – HTML &amp; CSS Essentials</h2>
-<ul>
-<li>Setting up an environment for HTML coding.</li>
-<li>Core HTML structure, elements and the humble <code>&lt;div&gt;</code>.</li>
-<li>HTML expanded: Elements beyond the <code>&lt;div&gt;</code>.</li>
-<li><strong>CSS</strong>: Shaping the way HTML looks.</li>
-<li><strong>Healthcare example</strong>: Building a simple “About the Clinic” webpage.</li>
-</ul>
-<hr>
-</section>
-<section id="module-2-foundation-interactivity-links-images-and-lists" class="level2">
-<h2 class="anchored" data-anchor-id="module-2-foundation-interactivity-links-images-and-lists">Module 2: Foundation Interactivity – Links, Images, and Lists</h2>
-<ul>
-<li><strong>Links</strong>: Navigating between pages and around the web.</li>
-<li><strong>Images</strong>: Enhancing the user experience with visuals.</li>
-<li><strong>Lists</strong>: The backbone of data management and display.</li>
-<li>Styling elements for better user experience.</li>
-<li><strong>Healthcare example</strong>: Creating a navigation menu for a medical portal.</li>
-</ul>
-<hr>
-</section>
-<section id="module-3-responsive-design-grid-flexbox" class="level2">
-<h2 class="anchored" data-anchor-id="module-3-responsive-design-grid-flexbox">Module 3: Responsive Design, Grid, Flexbox</h2>
-<ul>
-<li>Understanding layouts with <strong>Flexbox</strong>.</li>
-<li>Responsive design using <strong>CSS Grid</strong>.</li>
-<li>Styling buttons and healthcare forms.</li>
-<li><strong>Healthcare example</strong>: Designing a patient form (Part 1): Layout and styling.</li>
-</ul>
-<hr>
-</section>
-<section id="module-4-buttons-forms-interaction-matters" class="level2">
-<h2 class="anchored" data-anchor-id="module-4-buttons-forms-interaction-matters">Module 4: Buttons &amp; Forms – Interaction Matters!</h2>
-<ul>
-<li><strong>Forms</strong>: When and why to use forms for user inputs (gathering patient data).</li>
-<li><strong>Buttons &amp; Inputs</strong>: How to create and style interactive buttons.</li>
-<li>Introduction to <strong>form validation</strong> and accessibility.</li>
-<li><strong>Healthcare example</strong>: Designing a patient form (Part 2): Form and functionality.</li>
-</ul>
-<hr>
-</section>
-<section id="module-5-making-websites-move-javascript-101" class="level2">
-<h2 class="anchored" data-anchor-id="module-5-making-websites-move-javascript-101">Module 5: Making Websites Move – JavaScript 101</h2>
-<ul>
-<li>Introduction to <strong>JavaScript</strong>: Bringing interactivity to websites.</li>
-<li>Why use JavaScript? The importance of dynamic content and behavior.</li>
-<li><strong>Variables</strong> in JavaScript: Storing and manipulation of data.</li>
-<li>Setting up a <strong>JavaScript testing sandbox</strong>.</li>
-<li><strong>Loops</strong> in JavaScript: Automating repetitive tasks.</li>
-<li>Building our first function: A phone number validator.</li>
-</ul>
-
-
-</section>
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -813,32 +709,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../contact.html">
+    <a class="nav-link" href="../../../contact.html">
 <p>Contact</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../privacy-policy.html">
+    <a class="nav-link" href="../../../privacy-policy.html">
 <p>Privacy Policy</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../company-information.html">
+    <a class="nav-link" href="../../../company-information.html">
 <p>Company information</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../sponsor.html">
+    <a class="nav-link" href="../../../sponsor.html">
 <p>Sponsor us</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../paying-the-team.html">
+    <a class="nav-link" href="../../../paying-the-team.html">
 <p>Paying the team</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../eohi/business-case.html">
+    <a class="nav-link" href="../../../eohi/business-case.html">
 <p>Essentials of Health Informatics</p>
 </a>
   </li>  
