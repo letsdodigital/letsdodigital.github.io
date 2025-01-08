@@ -26,11 +26,15 @@ title-slide-attributes:
 
 * You will require a Github account for this section
 
+---
+
 ## 2. Core HTML structure, elements and the humble <div> 
 
-* This section will run through the concept of Elements, why they are used, 
+* This section will run through the concept of Elements, what they are, and when they're used
 
 * We will focus on the <div> a container element that is vital to structure of modern website development
+
+---
 
 ## HTML expanded, elements beyond the <div> 
 
@@ -41,6 +45,8 @@ title-slide-attributes:
 ## CSS, shaping the way HTML looks 
 
 * returning to the <div> we will begin to position 
+
+---
 
 ## Healthcare example: Building a simple "About the Clinic" webpage
 

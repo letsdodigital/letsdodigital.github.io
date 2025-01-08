@@ -19,7 +19,7 @@ format: html
 ## Module 1: Building Blocks – HTML & CSS Essentials
 
 - Setting up an environment for HTML coding.
-- Core HTML structure, the humble `<div>`.
+- Core HTML structure, elements and the humble `<div>`.
 - HTML expanded: Elements beyond the `<div>`.
 - **CSS**: Shaping the way HTML looks.
 - **Healthcare example**: Building a simple "About the Clinic" webpage.

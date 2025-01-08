@@ -52,13 +52,9 @@ Photo by <a href="https://unsplash.com/@redaquamedia?utm_content=creditCopyText&
 ## The role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).
 
 * While back-end development shapes what data is presented, front-end shapes **how** the data is presented.
-
 * Clear, clean front-end design makes it easy for a user to interact with the website. 
-
 * This allows them to easily engage with the website while providing accurate information as required.
-
 * More advanced users, such as a clician can rapidly and efficiently access data to improve productivty.
-
 * Good front-end design feels intuitive to use. This drives up engagement and makes users more willing to parcipiate. 
 
 
