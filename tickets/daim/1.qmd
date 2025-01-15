@@ -1,31 +1,42 @@
 ---
-title: "Data Analytics in Medicine Course"
+title: "Data Analytics in Medicine (DAIM) Course"
 ---
 
 ![](/media/daim-course-logo){height=300px fig-align="center" fig-alt="A computer screen in cartoon form depicting a doctor looking at a chart"}
 
-Data Analytics in Medicine (DAIM) - Images
+Ever wanted to use the data you have been collecting for several years now to help better understand your clinical practice? Do you want to learn how best to collet this data, analyse it and see how clinical practice can be improved? Or perhaps you are just interested in what **machine learning** and **AI** are. If that is the case, this course is for you!
 
-Headline: This course will cover the basics of Python packages that you will need to work with medical images. It is a fantastic opportunity to extend your skills with hands-on workshops and code tasks, with full support from our experienced tutors.
+The **Data Analytics in Medicine (DAIM)** course will cover the fundamentals of the python programming language that you will need to work with medical data and images. This course will examine the wider implications of these skills on clinical work and considerations that must be made when working with data and code in a clinical setting.
 
-Course Structure:
-This course is split into:
-Seminars, where the core theory for each topic will be covered.
-Workshops, where you will gain practical experiences of working with the techniques discussed in the seminar, with support from our tutors.
+The DAIM course builds on the highly successful **Programming in Healthcare** course, and is designed to take you to the next level in your digital healthcare journey. Module 3 of the **Programming in Healthcare** course is a helpful prerequisite to the DAIM course.
 
-The course will cover 5 modules:
-Module 1 - Introduction. Working with the broader concepts required for the course, such code structure and debugging.
-Module 2 - Core Python for Image Processing. Hands-on experience with core Python modules for image analysis (NumPy, PIL) and performing basic image tasks. 
-Module 3 - Python and DICOM. Working with real-life medical imaging in it’s native format, DICOM.
-Module 4 - ML for Medicine. Bringing concepts together for the final, most comprehensive unit, where you will build a neural network to analyse chest X-rays using TensorFlow, a machine learning package.
+The DAIM course is a fantastic opportunity to extend your skills with hands-on workshops and code tasks, with full support from our experienced tutors.
 
-By Clinicians, For Clinicians.
+## Course Structure
 
-This course will examine the wider implications of these skills on clinical work and considerations that must be made when working with data and code in a clinical setting.
+The DAIM course is split into:
+
+**Seminars** where the core theory for each topic will be covered in easy to digest sessions.
+
+**Workshops** where you will gain practical experiences of working with the techniques discussed in the seminar, with support from our experienced tutors, working in small groups.
+
+## Modules
+
+**Module 1 - Introduction** Working with the broader concepts required for the course, such as code structure and debugging.
+
+**Module 2 Core Python for Image Processing** Hands-on experience with core Python modules for image analysis (NumPy, PIL) and performing basic image tasks. 
+
+**Module 3: Python and DICOM.** Working with real-life medical imaging in it’s native format, DICOM.
+
+**Module 4 - Machine learning for Medicine** Bringing concepts together for the final, most comprehensive unit, where you will build a neural network to analyse chest X-rays using TensorFlow, a machine learning package.
+
+## When and where
+
+**Start date and time:** 18:00 UK time, Tuesday the 11th of March 2025.
 
 ## Purchase tickets
 
-Tickets can be purchases [here](https://pay.gocardless.com/BRT0003MPZXZ3VC) (this is under the company name *Bailey Medics Ltd*).
+Tickets can be purchases [here](https://buymeacoffee.com/letsdodigital/e/358550).
 
 
 ## Questions
