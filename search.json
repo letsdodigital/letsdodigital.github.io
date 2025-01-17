@@ -1561,6 +1561,83 @@
     "text": "# Let's Do Digital - Module [module_number]\n\n## Material\n\nSlides can be found here: \nhttps://letsdodigital.org/learn/learn-python/module-[module_number]\n\n## Hands-on code can be found here:\n\nhttps://github.com/letsdodigital/coding-hands-on\n\n## Github sign up\n\nhttps://github.com/signup\n\nAsk your tutor code specific questions. For questions about the session generally, these can be asked in the general chat.\n\n## Groups\n### 1. [tutor_name_1]\n[student_name_1]\n[student_name_2]\n\n### 2. [tutor_name_2]\n[student_name_3]\n[student_name_4]\n\n## Feedback\nFeedback - please complete at end:\nhttps://www.cognitoforms.com/LetsDoDigital1/ProgrammingInHealthcareCourse"
   },
   {
+    "objectID": "learn/BIFFPE/module-5/1-why-use-javascript.html#variables-in-javascript",
+    "href": "learn/BIFFPE/module-5/1-why-use-javascript.html#variables-in-javascript",
+    "title": "Module-5",
+    "section": "Variables in JavaScript",
+    "text": "Variables in JavaScript\n\nVariables are like containers that hold information (data) in your code.\nThis data can be numbers, text, or even more complex data structures.\nJavaScript allows you to:\n\nDeclare variables: Create a named container to store data.\nAssign values: Put data into the container.\nManipulate values: Change the data stored in the container (e.g., perform calculations)."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/1-why-use-javascript.html#example-variables",
+    "href": "learn/BIFFPE/module-5/1-why-use-javascript.html#example-variables",
+    "title": "Module-5",
+    "section": "Example variables",
+    "text": "Example variables\nlet name = \"John\";\nlet age = 25;\nlet isPatient = true;\nlet conditions = [\"diabetes\", \"cataracts\", \"hyperlipidaemia\"];"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/1-why-use-javascript.html#the-role-of-javascript-in-frontend-healthcare-applications.",
+    "href": "learn/BIFFPE/module-5/1-why-use-javascript.html#the-role-of-javascript-in-frontend-healthcare-applications.",
+    "title": "Module-5",
+    "section": "The role of Javascript in frontend healthcare applications.",
+    "text": "The role of Javascript in frontend healthcare applications.\n\nMany modern clinical applications rely heavily on JavaScript for their functionality.\nExamples:\n\nElectronic Health Records (EHRs): Dynamic forms, patient data validation, interactive dashboards.\nTelehealth Platforms: Real-time video conferencing, chat features, remote patient monitoring.\nMedical Imaging Software: Interactive image viewing, annotation tools, 3D visualizations.\nDecision Support Tools: Calculate risk scores, provide treatment recommendations, display interactive charts.\n\nModern JavaScript frameworks like React, Angular, and Vue.js are used to build complex and scalable web applications."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/1-why-use-javascript.html#whats-in-this-module",
+    "href": "learn/BIFFPE/module-5/1-why-use-javascript.html#whats-in-this-module",
+    "title": "Module-5",
+    "section": "What’s in This Module",
+    "text": "What’s in This Module\n\nIntroduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox.\nFollowup module 6:\n\nLoops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/1-why-use-javascript.html#tutor-groups",
+    "href": "learn/BIFFPE/module-5/1-why-use-javascript.html#tutor-groups",
+    "title": "Module-5",
+    "section": "Tutor groups",
+    "text": "Tutor groups\n\nTutor groups:\n\n?"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/1-why-use-javascript.html#next-session",
+    "href": "learn/BIFFPE/module-5/1-why-use-javascript.html#next-session",
+    "title": "Module-5",
+    "section": "Next Session",
+    "text": "Next Session\n\nMore on Javascript"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/2-variables-in-javascript.html#variables-in-javascript",
+    "href": "learn/BIFFPE/module-5/2-variables-in-javascript.html#variables-in-javascript",
+    "title": "Module-5",
+    "section": "Variables in JavaScript",
+    "text": "Variables in JavaScript\n\nVariables are like containers that hold information (data) in your code.\nThis data can be numbers, text, or even more complex data structures.\nJavaScript allows you to:\n\nDeclare variables: Create a named container to store data.\nAssign values: Put data into the container.\nManipulate values: Change the data stored in the container (e.g., perform calculations)."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/2-variables-in-javascript.html#example-variables",
+    "href": "learn/BIFFPE/module-5/2-variables-in-javascript.html#example-variables",
+    "title": "Module-5",
+    "section": "Example variables",
+    "text": "Example variables\nlet name = \"John\";\nlet age = 25;\nlet isPatient = true;\nlet conditions = [\"diabetes\", \"cataracts\", \"hyperlipidaemia\"];"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/2-variables-in-javascript.html#common-data-types",
+    "href": "learn/BIFFPE/module-5/2-variables-in-javascript.html#common-data-types",
+    "title": "Module-5",
+    "section": "Common Data Types:",
+    "text": "Common Data Types:\n\nString: Text enclosed in quotes (e.g., “Hello”, “John Doe”, “AB123”).\nNumber: Numeric values (e.g., 10, 3.14, -5).\nBoolean: Represents true or false values (e.g., a patient’s allergy status, test result).\nArray: Ordered lists of values (e.g., [“37”, “37.5”, “38.5”]).\nObject: Collections of key-value pairs (e.g., {name: “John”, age: 25, isPatient: true}).\nUnderstanding data types helps you write code that works correctly and avoids errors."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/2-variables-in-javascript.html#when-things-go-wrong",
+    "href": "learn/BIFFPE/module-5/2-variables-in-javascript.html#when-things-go-wrong",
+    "title": "Module-5",
+    "section": "When things go wrong",
+    "text": "When things go wrong\n\nType errors: When you try to use a variable of one type in a way that expects a different type.\nSyntax errors: When you write code that doesn’t follow the correct JavaScript syntax.\nRuntime errors: When your code runs, but something unexpected happens.\nLogical errors: When your code runs, but it doesn’t do what you expect."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/2-variables-in-javascript.html#adding-a-string-to-a-number",
+    "href": "learn/BIFFPE/module-5/2-variables-in-javascript.html#adding-a-string-to-a-number",
+    "title": "Module-5",
+    "section": "Adding a string to a number",
+    "text": "Adding a string to a number\nlet age = 25;\nlet ageInYears = age + \" years\";\nconsole.log(ageInYears); // Output: \"25 years\""
+  },
+  {
     "objectID": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#setting-up-and-enviroment-for-html-coding",
     "href": "learn/BIFFPE/module-1/1-Setting-up-an-environment.html#setting-up-and-enviroment-for-html-coding",
     "title": "Module-1",
@@ -1628,7 +1705,7 @@
     "href": "learn/BIFFPE/overview.html",
     "title": "Building Interactive Front-ends For Patient Engagement",
     "section": "",
-    "text": "What is front-end development?\nWhy it’s important for modern web applications.\nHTML and CSS: The building blocks of webpages.\nUnderstanding the structure of a basic webpage.\nThe role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).\n\n\n\n\n\n\nSetting up an environment for HTML coding.\nCore HTML structure, elements and the humble &lt;div&gt;.\nHTML expanded: Elements beyond the &lt;div&gt;.\nCSS: Shaping the way HTML looks.\nHealthcare example: Building a simple “About the Clinic” webpage.\n\n\n\n\n\n\nLinks: Navigating between pages and around the web.\nImages: Enhancing the user experience with visuals.\nLists: The backbone of data management and display.\nStyling elements for better user experience.\nHealthcare example: Creating a navigation menu for a medical portal.\n\n\n\n\n\n\nUnderstanding layouts with Flexbox.\nResponsive design using CSS Grid.\nStyling buttons and healthcare forms.\nHealthcare example: Designing a patient form (Part 1): Layout and styling.\n\n\n\n\n\n\nForms: When and why to use forms for user inputs (gathering patient data).\nButtons & Inputs: How to create and style interactive buttons.\nIntroduction to form validation and accessibility.\nHealthcare example: Designing a patient form (Part 2): Form and functionality.\n\n\n\n\n\n\nIntroduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox.\nLoops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
+    "text": "What is front-end development?\nWhy it’s important for modern web applications.\nHTML and CSS: The building blocks of webpages.\nUnderstanding the structure of a basic webpage.\nThe role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).\n\n\n\n\n\n\nSetting up an environment for HTML coding.\nCore HTML structure, elements and the humble &lt;div&gt;.\nHTML expanded: Elements beyond the &lt;div&gt;.\nCSS: Shaping the way HTML looks.\nHealthcare example: Building a simple “About the Clinic” webpage.\n\n\n\n\n\n\nLinks: Navigating between pages and around the web.\nImages: Enhancing the user experience with visuals.\nLists: The backbone of data management and display.\nStyling elements for better user experience.\nHealthcare example: Creating a navigation menu for a medical portal.\n\n\n\n\n\n\nUnderstanding layouts with Flexbox.\nResponsive design using CSS Grid.\nStyling buttons and healthcare forms.\nHealthcare example: Designing a patient form (Part 1): Layout and styling.\n\n\n\n\n\n\nForms: When and why to use forms for user inputs (gathering patient data).\nButtons & Inputs: How to create and style interactive buttons.\nIntroduction to form validation and accessibility.\nHealthcare example: Designing a patient form (Part 2): Form and functionality.\n\n\n\n\n\n\nIntroduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox.\n\n\n\n\n\n\nLoops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
   },
   {
     "objectID": "learn/BIFFPE/overview.html#module-0-what-even-is-a-website",
@@ -1670,7 +1747,14 @@
     "href": "learn/BIFFPE/overview.html#module-5-making-websites-move-javascript-101",
     "title": "Building Interactive Front-ends For Patient Engagement",
     "section": "",
-    "text": "Introduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox.\nLoops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
+    "text": "Introduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox."
+  },
+  {
+    "objectID": "learn/BIFFPE/overview.html#module-6-loops-functions-automating-tasks",
+    "href": "learn/BIFFPE/overview.html#module-6-loops-functions-automating-tasks",
+    "title": "Building Interactive Front-ends For Patient Engagement",
+    "section": "",
+    "text": "Loops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
   },
   {
     "objectID": "learn/syllabus/clinician-who-codes.html",
@@ -5696,6 +5780,90 @@
     "title": "Module-0",
     "section": "Next Session",
     "text": "Next Session\n\nHTML first steps"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/0-what-is-javascript.html#module-5-making-websites-move---javascript-101",
+    "href": "learn/BIFFPE/module-5/0-what-is-javascript.html#module-5-making-websites-move---javascript-101",
+    "title": "Module-5",
+    "section": "Module 5: Making Websites Move - JavaScript 101",
+    "text": "Module 5: Making Websites Move - JavaScript 101\n\nJavaScript is a programming language that adds interactivity to websites.\nIt allows elements on a webpage to move, respond to user actions, and change dynamically.\nThink of it as the “brain” behind the visual elements of a website."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/0-what-is-javascript.html#why-javascript-is-important-for-web-applications.",
+    "href": "learn/BIFFPE/module-5/0-what-is-javascript.html#why-javascript-is-important-for-web-applications.",
+    "title": "Module-5",
+    "section": "Why JavaScript is important for web applications.",
+    "text": "Why JavaScript is important for web applications.\n\nStatic websites: Display information but don’t allow for much user interaction.\nDynamic websites: Provide a more engaging and personalized user experience.\nJavaScript enables:\n\nUser logins and personalized content\nReal-time updates (e.g., chat applications, live data feeds)\nInteractive forms and data validation\nAnimations and visual effects"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/0-what-is-javascript.html#html-css-and-javascript-the-building-blocks-of-webpages.",
+    "href": "learn/BIFFPE/module-5/0-what-is-javascript.html#html-css-and-javascript-the-building-blocks-of-webpages.",
+    "title": "Module-5",
+    "section": "HTML, CSS AND JAVASCRIPT: The building blocks of webpages.",
+    "text": "HTML, CSS AND JAVASCRIPT: The building blocks of webpages.\n\nHTML provides the structure of the webpage.\nCSS provides the layout and design.\nJavaScript adds interactivity, making the page come alive.\nThe combination of all three allows for a highly customizable and interactive User Experience.\nThink of it as different systems within a car, each with their own purpose."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/0-what-is-javascript.html#the-role-of-javascript-in-frontend-healthcare-applications.",
+    "href": "learn/BIFFPE/module-5/0-what-is-javascript.html#the-role-of-javascript-in-frontend-healthcare-applications.",
+    "title": "Module-5",
+    "section": "The role of Javascript in frontend healthcare applications.",
+    "text": "The role of Javascript in frontend healthcare applications.\n\nMany modern clinical applications rely heavily on JavaScript for their functionality.\nExamples:\n\nElectronic Health Records (EHRs): Dynamic forms, patient data validation, interactive dashboards.\nTelehealth Platforms: Real-time video conferencing, chat features, remote patient monitoring.\nMedical Imaging Software: Interactive image viewing, annotation tools, 3D visualizations.\nDecision Support Tools: Calculate risk scores, provide treatment recommendations, display interactive charts.\n\nModern JavaScript frameworks like React, Angular, and Vue.js are used to build complex and scalable web applications."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/0-what-is-javascript.html#whats-in-this-module",
+    "href": "learn/BIFFPE/module-5/0-what-is-javascript.html#whats-in-this-module",
+    "title": "Module-5",
+    "section": "What’s in This Module",
+    "text": "What’s in This Module\n\nIntroduction to JavaScript: Bringing interactivity to websites.\nWhy use JavaScript? The importance of dynamic content and behavior.\nVariables in JavaScript: Storing and manipulation of data.\nSetting up a JavaScript testing sandbox.\nFollowup module 6:\n\nLoops in JavaScript: Automating repetitive tasks.\nBuilding our first function: A phone number validator."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/0-what-is-javascript.html#tutor-groups",
+    "href": "learn/BIFFPE/module-5/0-what-is-javascript.html#tutor-groups",
+    "title": "Module-5",
+    "section": "Tutor groups",
+    "text": "Tutor groups\n\nTutor groups:\n\n?"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/0-what-is-javascript.html#next-session",
+    "href": "learn/BIFFPE/module-5/0-what-is-javascript.html#next-session",
+    "title": "Module-5",
+    "section": "Next Session",
+    "text": "Next Session\n\nWhy use Javascript"
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#what-is-a-sandbox",
+    "href": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#what-is-a-sandbox",
+    "title": "Module-5",
+    "section": "What is a sandbox?",
+    "text": "What is a sandbox?\n\nA JavaScript sandbox is a safe environment to write and test your code without affecting a live website.\nPopular options include:\n\nCodePen: (www.codepen.io) - User-friendly interface with live preview.\nJS Bin: (www.jsbin.com) - Minimalist environment for focused coding.\nBrowser Console: (In your web browser’s developer tools) - Quick and readily available."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#elements-of-a-sandbox",
+    "href": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#elements-of-a-sandbox",
+    "title": "Module-5",
+    "section": "Elements of a sandbox",
+    "text": "Elements of a sandbox\n\nEditor: Where you write your code.\nConsole: Where you see the output of your code.\nFiles: Where you can manage your files.\nSettings: Where you can manage your settings."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#how-to-use-a-sandbox",
+    "href": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#how-to-use-a-sandbox",
+    "title": "Module-5",
+    "section": "How to use a sandbox",
+    "text": "How to use a sandbox\n\nWrite your code in the editor.\nClick run to see the output in the console.\nSave your code to a file.\nShare your code with others."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#hands-on",
+    "href": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#hands-on",
+    "title": "Module-5",
+    "section": "Hands-on",
+    "text": "Hands-on\n\nOpen a sandbox.\nWrite some code.\nSee the output in the console.\nSave your code to a file.\nShare your code with others."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#code",
+    "href": "learn/BIFFPE/module-5/3-setting-up-javascript-sandbox.html#code",
+    "title": "Module-5",
+    "section": "Code",
+    "text": "Code\n\nShare CodePen link with attendees.\nAsk them to open the link and try it out."
   },
   {
     "objectID": "learn/ask-a-clinician/index.html",
