@@ -60,6 +60,11 @@ format: html
 - Why use JavaScript? The importance of dynamic content and behavior.
 - **Variables** in JavaScript: Storing and manipulation of data.
 - Setting up a **JavaScript testing sandbox**.
+
+---
+
+## Module 6: Loops & Functions – Automating Tasks
+
 - **Loops** in JavaScript: Automating repetitive tasks.
 - Building our first function: A phone number validator.
 
