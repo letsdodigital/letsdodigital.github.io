@@ -46,7 +46,6 @@ Photo by <a href="https://unsplash.com/@redaquamedia?utm_content=creditCopyText&
 * In the Elements tab, you will see a `<!DOCTYPE html>`, with a `<header>` and `<body>` section. In the `<body>`, you'll notice `<div>`s and `<script>`s are present.
 * This structure represents the core design of a website.
 
-
 ---
 
 ## The role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).
