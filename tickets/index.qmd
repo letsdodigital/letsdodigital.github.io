@@ -8,9 +8,9 @@ image: /media/tickets.png
 
 ## Upcoming Events
 
-### 18th December 2024
+### 11th March 2025
 
-[Open source Christmas special webinar! Dr Marcus Baw](https://www.cognitoforms.com/LetsDoDigital1/WebinarRegistration)
+[Data Analytics in Medicine (DAIM) Course](daim/1.qmd)
 
 ## Self-paced learning
 
@@ -113,5 +113,9 @@ image: /media/tickets.png
 ### 28th of November 2024
 
 [Mind the Bleep & Let's Do Digital: Introduction to Health Informatics](https://youtu.be/4-zSptSep2k)
+
+### 18th December 2024
+
+[Open source Christmas special webinar! Dr Marcus Baw](https://youtube.com/live/UwVBfJrRSss)
 
 :::

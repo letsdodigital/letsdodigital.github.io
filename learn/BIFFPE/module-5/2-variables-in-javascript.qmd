@@ -1,0 +1,61 @@
+---
+title: "Module-5"
+author: "David Tang"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-color: "#0D4848"
+---
+
+## Variables in JavaScript
+
+* Variables are like containers that hold information (data) in your code.
+* This data can be numbers, text, or even more complex data structures.
+* JavaScript allows you to:
+    * Declare variables: Create a named container to store data.
+    * Assign values: Put data into the container.
+    * Manipulate values: Change the data stored in the container (e.g., perform calculations).
+
+---
+
+## Example variables
+
+```javascript
+let name = "John";
+let age = 25;
+let isPatient = true;
+let conditions = ["diabetes", "cataracts", "hyperlipidaemia"];
+```
+
+---
+
+## Common Data Types:
+
+* String: Text enclosed in quotes (e.g., "Hello", "John Doe", "AB123").
+* Number: Numeric values (e.g., 10, 3.14, -5).
+* Boolean: Represents true or false values (e.g., a patient's allergy status, test result).
+* Array: Ordered lists of values (e.g., ["37", "37.5", "38.5"]).
+* Object: Collections of key-value pairs (e.g., {name: "John", age: 25, isPatient: true}).
+* Understanding data types helps you write code that works correctly and avoids errors.
+
+---
+
+## When things go wrong
+
+* Type errors: When you try to use a variable of one type in a way that expects a different type.
+* Syntax errors: When you write code that doesn't follow the correct JavaScript syntax.
+* Runtime errors: When your code runs, but something unexpected happens.
+* Logical errors: When your code runs, but it doesn't do what you expect.
+
+---
+
+## Adding a string to a number
+
+```javascript
+let age = 25;
+let ageInYears = age + " years";
+console.log(ageInYears); // Output: "25 years"
+```
+
+---

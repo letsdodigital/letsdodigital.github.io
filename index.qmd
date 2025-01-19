@@ -32,37 +32,7 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 ## Updates
 
-**24/10/24** - DON'T MISS OUT! The 2024 Let's Talk Digital Conference is just around the corner. Register [here](/conferences/2024/index.qmd) to secure your spot.
-
-
-**02/10/24** - We now offer Module 0 of the Programming in Healthcare as a self-paced course. This has been asked for by many that could not attend the live and tutor led sessions. More modules will be available soon in this self-paced format. Register [Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare) for the first module.
-
-**13/09/24** - See the recent Webinar covering the Digital Clinical Safety Platform, hazard logging in code, hazard typing and DevSecRegOps:
-
-```{=html}
-<div style="display: flex; justify-content: center; align-items: center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/xzLJkN9NLeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-```
-
-
-### LinkedIn post on a new handbook for Health Informatics
-
-```{=html}
-<div style="display: flex; justify-content: center; align-items: center;">
-    <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7204555744388468736" height="1256" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-</div>
-```
-
-**24/06/24** - Module 2 of the popular **Programming in Healthcare** course is now open. Learn more advanced programming skills and build your very own **digital consent form**. Register [here](/tickets/programming-in-healthcare/module-2-22-08-24.qmd)
-
-**23/04/24** - Registration for this year's **Let's Talk Digital Conference** is now open. Sign up [here](/conferences/2024/index.qmd).
-
-**19/04/24** - We have had lots of interest for an evening coding session. So we built one. See details [here](/tickets/programming-in-healthcare-module-1-July-2024.qmd).
-
-**18/04/24** -  Tickets are also open for the first (of many) of the "Ask a Clinician" series. Find out more [here](/tickets/ask-a-clinician-1.qmd).
-
-**18/04/24** - Our first **{{< var coding-series-title >}} course** is now open to registration. Please find further details about the course and registration [here](/tickets/programming-in-healthcare-module-1-June-2024.qmd).
+**15/01/25** - Take your clinical practice to the next level! Join the Data Analytics in Medicine (DAIM) course to: Learn Python for medical data & imaging. Explore machine learning & AI in healthcare. Gain hands-on coding skills with expert support. See the tickets section above to book your place now!
 
 
 ## What the Let's Do Digital Community is saying
