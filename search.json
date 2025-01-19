@@ -5779,7 +5779,21 @@
     "href": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#html-elements",
     "title": "2-core-html-structure-elements",
     "section": "HTML Elements",
-    "text": "HTML Elements"
+    "text": "HTML Elements\n\nHTML elements are the foundation of all content on websites.\nElements are wrapped in tags, which use angle brackets (&lt;&gt;).\nMany elements have closing tags (e.g., &lt;/&gt;), allowing content to be added between the tags to be displayed.\nThe most common elements are headings, paragraphs, and divs."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#headings-and-paragraphs",
+    "href": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#headings-and-paragraphs",
+    "title": "2-core-html-structure-elements",
+    "section": "Headings and paragraphs",
+    "text": "Headings and paragraphs\n\nHeading and paragraph elements are designed to contain text\n\nHello World!\n\nthe structure of these elements\nBy wrapping text in element tags, you make it easier for screen readers to know the layout.\nIt’s also makes styling easier."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#div-elements",
+    "href": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#div-elements",
+    "title": "2-core-html-structure-elements",
+    "section": "Div elements",
+    "text": "Div elements\n\nDivs are used to contain content on a website\nDivs are best thought of as boxes, in these boxes we put in other content, such as headings and text.\nThen we can position the div and the content will move with it\nDivs are also useful for positioning elements inside them\nAdding elements to divs is known as nesting"
   },
   {
     "objectID": "learn/BIFFPE/module-1/3-css-shaping-the-way-html-looks.html#css-cascading-style-sheets-the-partner-to-html",
