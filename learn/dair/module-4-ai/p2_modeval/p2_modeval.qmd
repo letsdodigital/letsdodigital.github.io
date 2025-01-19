@@ -1,0 +1,591 @@
+---
+title: "Evaluate Classifier"
+author: "Teddy HLA"
+format: revealjs
+---
+
+## You fitted a model now what?
+
+* What do you do next?
+    + Depends on why you are building it for.
+* Consider
+    + how do we get people to use this model
+    + how do we generalise the findings to other datasets
+    + how do we have it approved by peers and by medico-legally 
+
+---
+
+## Learning Objectives
+
+* Why evaluate model and understand key metrics
+* Appreciate evaluation of regression tasks and transfer to classification tasks
+* Understand pros and cons of each metrics
+* Understand limitations of each metrics
+* More specifically, understand
+    + mean
+    + variance
+    + standard deviation
+    + standard error
+    + model deviance
+
+---
+
+## Task
+
+You are a botanist. You are interested in iris flowers and in particular its *petal width*
++ You want to build a model that can predict width.
++ Your helpful colleagues have collected some data. 
+
+![](media/petalwidth.png)
+
+---
+
+## Theoretical: Why evaluate models?
+
+* Models are not truth
+    + they help us apporoximate real world.
+
+* As a good scientist, you should have a **healthy** skepticism of your hypotheses
+* In extension, you should be skeptical of models you fitted.
+* Ergo, **null hypothesis**
+
+---
+
+## Null hypothesis and Model Evaluation: parallels
+
+* Hypothesis testing: is our finding 'by chance'
+    + Null Hypothesis: we are trying to prove us wrong.
+    + Scientific process: we start from null hypothesis
+* Similarly, we will start from evaluating **naive** model
+    + We will compare our models against **naive** models.
+* This allow us to *generalise* our model findings.
+
+---
+
+## Why is generalisation important?
+
+* Generalisation is efficient
+    + same for your own brain and for your code
+    + generalisation allow wider applicability
+    + e.g., dogs = 4 legged creature with a tail and likes to bark
+    + means you can transfer to all instances of dogs not just your pet
++ Saves you to memorise class animalDog vs. Dog0, Dog1, Dog2, etc...
+
+---
+
+## Generalisation in models
+
+* This means your model findings are not **memorised** by the model
+* This means your model findings are *applicable* in other settings.
+* It works in external data that is unseen.
+
+---
+
+## A good model?
+
+* A good model for one setting is different from others.
+    + e.g., screening test for cancer vs. confirmation test.
+* A good model is generalisable and thus, applicable.
+
+---
+
+## Refresher: regression vs. classification
+
+* Regression: 
+
+$$
+y = mx+c
+$$
+
++ Y is a continuous variable,
++ in classical statistics, it is called 'linear model(LM)'
+
+* Classification
+    + when y is a binary variable i.e, 0 or 1.
+    + in classifical statistics, generalised linear model (GLM)
+
+---
+
+## Theory: Residuals
+
+* Difference between **true value** and **predicted value** is called residual.
+    + residual can be positive or negative.
+* Here the dotted lines are residuals.
+
+![](media/residuals.png)
+
+* Common sense: the worse your model the bigger your residuals would be.
+    + what is the worst model? 
+
+---
+
+## Naive model
+
+* Worst model is your naive model. 
+    + mean of y saves you having to do the study to measure 'age'.
+    + mean of y will have the largest residual.
+    + in statistics that is your null model.
+
+* For regression, therefore you want a model that has a smallest residual. 
+    + but how small?
+
+---
+
+## Saturated Model
+
+* What is a saturated model?
+* A theoretical model where there are as many estimated parameters as data points.
+* i.e., if you have 5 pairs of measurements for 5 variables.
+    + and you use all 5, that is a saturated model.
+
+
+---
+
+## Overfitting
+
+* worst model: i.e., mean model = very biased
+* "saturated" model: i.e., model with 0 residuals = very variant. 
+    + Why do you not want this?
+
+    + ans: generalisability
+
+* "saturated" model means it is overfitted. 
+    + in LM, it is an interpolated model.
+
+* Therefore ,you want somewhere between naive model and saturated model
+
+---
+
+## Naive vs. Optimal vs. Saturated model
+
+![](media/null.png)
+
+---
+
+## Metrics for Regression 
+
+1. Absolute Error, where $y_i$ is actual value and $y_p$ is predicted value.
+
+$$
+AE = |y_i - y_p|
+$$
+
+2. Mean Absolute Error, MAE 
+
+$$
+MAE = \frac{1}{n} * AE
+$$
+
+3. Mean Squared Error, MSE
+
+$$
+MSE = \frac{1}{n} * \sum_{i=1}^{n}(y_i - y_p)^2
+$$
+
+* looks scary but you take AE and square them (why?)
+* for each value of data from i=1 to n 
+* then divide by sample size
+
+4. Root Mean Squared Error, RMSE
+
+$$
+RMSE = \sqrt{MSE}
+$$
+
+5. Coefficient of Determination 
+
+$$
+R^2 = \frac{Sum of Squared Residuals}{Sum of Squares Total}
+$$
+
+---
+
+## Summary: Regression metrics
+
+* Mean Absolute Error = mean absolute differences 
+
+* Mean Squared Error = measures the variance of the residuals.
+
+* Root Mean Squared Error = measures standard deviation of the residuals
+
+* R-squared (value between 0 and 1) = how much variation in y is explained by your model.
+
+* adjusted R-squared = because R^2 will go up with more variables i.e., overfit. adjusted R^2 penalises for having more predictor variables
+
+---
+
+## Now, Classification
+
+* Residuals --> Deviance
+    + residual is specific to when y is continuous.
+    + deviance is a generalised term for residual.
+
+* Deviance quantifies the difference between model and observations.
+
+* Here y is 0 or 1. 
+    + recall: LM $ y= mx+c $
+
+---
+
+## Optional: Linear -- Logistic Regression
+
+Converting y = 0 or 1 --> means talking probability. 
+Let's call this probability p(x)
+p(x) = [0,1] $ 0<= x <= 1$
+
+* A detour into odds vs. likelihood vs. probability
+
+---
+
+## Odds to the resuce
+
+* Odds vs probability
+* Example: a horse race, your horse, 4 wins and 6 loses out of 10 race.
+
+    + What is the odds of winning?
+    + What is the probiability of winning?
+
+--- 
+
+## 4 wins, 6 loses out of 10 games
+
+Odds of winning = 4 to 6 or 2:3 
+Probability of winning = 4 out of (4+6) = 4/10 = 0.4
+
+* they are related via 
+$$
+Probability = \frac{Odds}{1+Odds}
+$$
+
+Proof: 
+$$
+P = \frac{2/3}{1+2/3} = \frac{2/3}{3/3+ 2/3} = \frac{2/3}{5/3} = 2/3 * 3/5 = 2/5 = 0.4
+$$
+
+## Odds and Probability
+
+$$
+Odds = \frac{Probability}{1- Probability}
+$$ 
+
+Now that we know odds and probability are related how do we solve Logistic Regression where y is a probability.
+$$
+y = mx + c , 0 <=  y <= 1
+$$
+
+---
+
+##  need to title
+
+Lets convert LHS 'y' to odds.
+
+$$
+\frac{probability}{1-probability} = mx + c 
+$$
+
+Odds by definition is > 0 and can be any positive numbers. 
+
+so lets take a log. (Why?)
+* Log does 2 things well
+    + it converts odds of less than 1 to negative numbers, because log of 0 < x < 1 is always negative.
+    + it falltes the square curve of odds.
+
+---
+
+## 
+
+$$
+y = mx + c
+p(x) = mx + c 
+\frac{p(x)}{1-p(x)} = mx + c
+$$
+
+Take log to both sides
+$$
+logit(\frac{p(x)}{1-p(x)}) = mx + c 
+$$
+
+But, we want p(x) !, lets take an exponent!
+
+---
+
+## 
+
+$$
+\frac{p(x)}{1-p(x)} = e^{(mx + c)}
+$$
+
+$$
+p(x) = (1-p(x)) * e^{(mx+c)}
+$$
+
+$$
+p(x) = e^{mx+c} - p(x)(e^{mx+c})
+p(x) + p(x)(e^{mx+c})= e^{mx+c}
+p(x) (1 + e^{mx+c}) = e^{mx+c}
+$$
+
+## 
+
+$$
+p(x) = \frac{e^{mx+c}}{1+e^{mx+c}}
+$$
+
+where we write z = mx+c 
+
+$$
+p(x) = \frac{e^z}{1+e^z} 
+$$
+
+---
+
+## You now know
+
+* Odds vs. Probability and the link
+* GLM formula for P(x) 
+
+Next,
+* in regression, residuals conceptualises difference between prediction and true value.
+* we know that deviance is a generalised term for residual.
+
+* what is a MSE in classification?
+
+---
+
+## Log Loss
+
+Log loss -- can roughly think of it as MSE.
+
+Log Loss is linked to likelihood function.
+ Log loss = -1 * log of likelihood function
+
+---
+
+## Likelihood
+
+![](media/model.png)
+
+---
+
+## Likelihood, Logloss, Deviance.
+
+* We want to minimise 'deviance'
+* Deviance = 2 * n * log loss 
+Thus, log loss minimisation = deviance minimisation.
+Maximum likelihood estimation = statistics
+Minimising Log loss = machine learning
+
+Potatoe = potatoe
+
+---
+
+## Main Take Home:
+
+In regression, we use MSE, RMSE
+In classification, we use log loss.
+
+This is the key most important metric. The rest are just derivatives.
+
+---
+
+## Note on Cross Entropy Loss
+
+We have binary classification 
+
+Now what do we do if we have multi class classification.
+
+Instead of yes / no, we have 'car vs cat vs dog.'
+
+Here we generalise log loss -> cross entropy loss.
+
+---
+
+## Other Metrics
+
+1. Confusion Matrix
+    a). accuracy
+    b). Precision
+    c). Recall
+    d). F1 score
+    e). Sensitivity and Specificity
+
+2. ROC curve
+    a). Area under AUC or C-index
+    b). Youdens Index
+
+3. Log Loss
+
+4. Brier Score
+
+5. Cohen's Kappa
+
+--- 
+
+## Confusion Matrix
+
+||Model Predicted as 1| Model Predicted as 0|
+|----|-----|-----|
+|True value is 1|A|B|
+|True value is 0|C|D|
+
+Total sample size = A + B + C + D
+
+Total Cases = A + B 
+
+Total not-cases = C + D
+
+Prevalence = total cases / total sample size
+
+True Positivie = A 
+
+True Negative = D 
+
+False Positive = C 
+
+False Negative = B
+
+---
+
+## Worked Example
+
+||Model = 1 | Model =  0|
+|----|-----|-----|
+|True = 1 |80|30|
+|True = 0|20|40|
+
+Total Sample size = 
+
+Total Cases
+
+Prevalence
+
+True Positive
+
+True Negative
+
+False Positive 
+
+False Negativie 
+
+Sensitivity
+
+Specificity
+
+---
+
+## Confusion Matrix to
+||Model = 1 | Model =  0|
+|----|-----|-----|
+|True = 1 |80|30|
+|True = 0|20|40|
+
+Accuracy = TP + TN / P + N = 
+
+Recall = True Positive Rate TPR = TP / TP + FN = 
+
+Precision = Positive Predictive Value = TP / TP + FP = 
+
+F1 score = precision * recall / precision + recall
+
+--- 
+
+## Truth
+
+- i never remember them,
+- i work it out each time. 
+- i have a code that i wrote that works .
+
+---
+
+## Brier Score
+
+* similar concept as MSE
+* similar concept as log loss
+* is a quadratic error measure.
+
+So everything is magnified.
+
+---
+
+## Why is brier score better than accuracy? 
+
+Accuracy depends on what is classified correctly?
+Say, imbalance dataset with n = 100, case = 10 and 90 = normal.
+Model assign everyone as ‘normal’. I.e., all model outputs = 0. 
+Accuracy 
+= TP + TN  / (P+N) = 0+90/(10+90) 
+= 90%! 
+
+---
+
+## ROC curve: AUC
+
+Sensitivty and Specificity is a trade off 
+AURC =  c-index
+You want a sensitive test 
+You want to minimise probability that a true negative will test positive 
+
+Youden index = optimal cut off for sensitivity and specificity. 
+AUC ROC < 0.5 = worse than gussing. 
+AUC ROC ~ 0.9 / 1 = perfect classifier
+
+--- 
+
+## On Gaming AUC
+
+- AUC is a rank statistic 
+- So you cant really compare and test out AUC like Log loss
+- statistically frown upon, ML community does its own thing
+
+--- 
+
+## Validating models
+
+* you now know how to fit models
+* you now know how to evaluate the models 
+* what do you evaluate it on?
+* GOLD STANDARD: external data set.
+
+* short of that; we will split data into training and test set.
+
+---
+
+## Train Test Split
+
+* Training dataset and test should receive all treatments
+* Test set is basically an unseen data for your model.
+* You will report performance on test set
+* Test set most closely resembles external independent dataset.
+* But, ***data leakage***
+
+---
+
+## What is data leakage?
+
+* Data leakage is where you have ridiculously good results.
+* It is a false discovery.
+* Data leakage can happen for many reasons but one example
+    + you treat training and test data with the max values of the entire dataset. 
+    + This somehow biases the test dataset and it causes 
+* Example 2: Future information is somehow leaked in a training dataset. 
+    + Lets say you are building a model that can predict patient receiving a surgery or not.
+    + Lets say all sick patients who got antibiotics got surgery
+    + Somehow you included antibiotics in your training dataset. It will cause leakage. 
+
+* ****NOTE*** leakage can sometimes be very difficult to detect.
+
+---
+
+## Assuming no leakage
+
+* Test set is untouched.
+* Test set should be split right at the begining
+* Data transformation / engineering processes should be encapsulated in a reproducible manner and applied seperately to train and test sets.
+
+---
+
+## 
+
+
+---
+## References and Reading List
