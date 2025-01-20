@@ -5786,14 +5786,21 @@
     "href": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#headings-and-paragraphs",
     "title": "2-core-html-structure-elements",
     "section": "Headings and paragraphs",
-    "text": "Headings and paragraphs\n\nHeading and paragraph elements are designed to contain text\n\nHello World!\n\nthe structure of these elements\nBy wrapping text in element tags, you make it easier for screen readers to know the layout.\nIt’s also makes styling easier."
+    "text": "Headings and paragraphs\n\nHeading and paragraph elements are designed to contain text.\nExample structure:\n\nHello World!\n\nWrapping text in element tags improves accessibility by helping screen readers understand the layout.\nIt also simplifies styling."
   },
   {
     "objectID": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#div-elements",
     "href": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#div-elements",
     "title": "2-core-html-structure-elements",
     "section": "Div elements",
-    "text": "Div elements\n\nDivs are used to contain content on a website\nDivs are best thought of as boxes, in these boxes we put in other content, such as headings and text.\nThen we can position the div and the content will move with it\nDivs are also useful for positioning elements inside them\nAdding elements to divs is known as nesting"
+    "text": "Div elements\n\nDivs are used to contain content on a website.\nThink of divs as boxes that hold other content, such as headings and text.\nPositioning the div also positions its content, making layout management easier.\nDivs are particularly useful for grouping and positioning nested elements.\nAdding elements inside divs is called nesting."
+  },
+  {
+    "objectID": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#putting-it-all-together",
+    "href": "learn/BIFFPE/module-1/2-core-html-structure-elements.html#putting-it-all-together",
+    "title": "2-core-html-structure-elements",
+    "section": "Putting it all Together",
+    "text": "Putting it all Together\n\nNesting divs"
   },
   {
     "objectID": "learn/BIFFPE/module-1/3-css-shaping-the-way-html-looks.html#css-cascading-style-sheets-the-partner-to-html",
