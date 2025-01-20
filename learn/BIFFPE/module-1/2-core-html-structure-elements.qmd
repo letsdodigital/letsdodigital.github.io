@@ -13,32 +13,25 @@ title-slide-attributes:
 ## HTML Elements 
 
 * HTML elements are the foundation of all content on websites.
-
 * Elements are wrapped in tags, which use angle brackets (<>).
-
 * Many elements have closing tags (e.g., </>), allowing content to be added between the tags to be displayed.
-
 * The most common elements are headings, paragraphs, and divs.
-
 
 ## Headings and paragraphs
 
-* Heading and paragraph elements are designed to contain text
-
-* <h1>Hello World!</h1> the structure of these elements
-
-* By wrapping text in element tags, you make it easier for screen readers to know the layout.
-
-* It's also makes styling easier.
+* Heading and paragraph elements are designed to contain text.
+* Example structure: <h1>Hello World!</h1>
+* Wrapping text in element tags improves accessibility by helping screen readers understand the layout.
+* It also simplifies styling.
 
 ## Div elements
 
-* Divs are used to contain content on a website
+* Divs are used to contain content on a website.
+* Think of divs as boxes that hold other content, such as headings and text.
+* Positioning the div also positions its content, making layout management easier.
+* Divs are particularly useful for grouping and positioning nested elements.
+* Adding elements inside divs is called nesting.
 
-* Divs are best thought of as boxes, in these boxes we put in other content, such as headings and text.
+## Putting it all Together
 
-* Then we can position the div and the content will move with it
-
-* Divs are also useful for positioning elements inside them
-
-* Adding elements to divs is known as nesting
+* Nesting divs 
