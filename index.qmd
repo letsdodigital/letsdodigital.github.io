@@ -32,6 +32,8 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 ## Updates
 
+**21/01/25** - We are excited to announce our 3rd series of the Programming in healthcare course. We have had some amazing feedback from our previous cohorts and we are looking forward to welcoming new participants. The course will cover Python programming and its use in healthcare. Register now to secure your spot by clicking the ticket link above!
+
 **15/01/25** - Take your clinical practice to the next level! Join the Data Analytics in Medicine (DAIM) course to: Learn Python for medical data & imaging. Explore machine learning & AI in healthcare. Gain hands-on coding skills with expert support. See the tickets section above to book your place now!
 
 
