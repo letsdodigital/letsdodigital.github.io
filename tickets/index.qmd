@@ -8,6 +8,10 @@ image: /media/tickets.png
 
 ## Upcoming Events
 
+### 12th Feb - 5th March January 2025
+
+[Programming in Healthcare Module 0-3](https://letsdodigital.thinkific.com/collections)
+
 ### 11th March 2025
 
 [Data Analytics in Medicine (DAIM) Course](daim/1.qmd)
