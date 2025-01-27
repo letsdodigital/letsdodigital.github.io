@@ -4,7 +4,7 @@ author: "Teddy HLA"
 format: revealjs
 ---
 
-## Module 4 Learning Objectives
+## Module 4 Learning Objectives {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Appreciate machine learning vs. AI
 - Understand the high-level steps needed to train a statistical model
@@ -13,7 +13,7 @@ format: revealjs
 
 ---
 
-## Scenario 1
+## Scenario 1 {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - You are a *GP*.
 - You use an AI-based clinical decision support (CDS) tool to help manage patients with "breast lump" presentations.
@@ -23,7 +23,7 @@ format: revealjs
 
 ---
 
-## Scenario 2
+## Scenario 2 {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - You are a *clinical lead* for your organization.
 - You want to improve pathways for acutely unwell patients.
@@ -36,7 +36,7 @@ format: revealjs
 
 ---
 
-## Big Data, Machine Learning, and Artificial Intelligence
+## Big Data, Machine Learning, and Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Big data → ML/AI
 - The six **Vs** of big data: **volume**, **variety**, **velocity**, **veracity**, **value**, and **variability**
@@ -44,7 +44,7 @@ format: revealjs
 
 ---
 
-## Machine Learning vs. Artificial Intelligence
+## Machine Learning vs. Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Four types of machine learning:
   - Supervised learning
@@ -57,33 +57,33 @@ format: revealjs
 
 ---
 
-## Machine Learning Process
+## Machine Learning Process {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](mleng.jpg)
+![](/media/daim/module_4/mleng.jpg)
 
 ---
 
-## Complexity of the Model
+## Complexity of the Model {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 * In ML, you need to trade off between **bias** and **variance**:
   + Very biased model = assuming everyone is sick
   + High variant model = responding to every noise
 
-![](biasvariance.jpg)
+![](/media/daim/module_4/biasvariance.jpg)
 
 ---
 
-## Appreciate
+## Appreciate {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](aimlstats.jpg)
-
----
-
-![](mleng.jpg)
+![](/media/daim/module_4/aimlstats.jpg)
 
 ---
 
-## MLOps : steps in ML
+![](/media/daim/module_4/mleng.jpg)
+
+---
+
+## MLOps : steps in ML {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Get the data, Train the model, Evaluate the model!
 - WIN :
@@ -95,7 +95,7 @@ format: revealjs
 
 ---
 
-## Machine Learning and Philosophy of Learning
+## Machine Learning and Philosophy of Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - **Learning?** Why do we learn?
 - Difference between learning and memorizing
@@ -104,7 +104,7 @@ format: revealjs
 
 ---
 
-## Learning vs. Memorizing 
+## Learning vs. Memorizing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 Using an example of **adding and the symbol +**:
 
@@ -118,7 +118,7 @@ Using an example of **adding and the symbol +**:
 
 ---
 
-## What does learning mean for a computer?
+## What does learning mean for a computer? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 $$
 Y = f(x)
@@ -130,29 +130,45 @@ $$
 
 ---
 
-## Machine Learning Process
+## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](mleng.jpg)
+- A common analogy is one of a ball rolling down a hill.
+- The height of the hill (z) represents the loss function, and the two other directions (x, y) are model parameters
+
+## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- The "ball" (the model) rolls down the hill to find the value of the two values that minimises the loss.
+- This is called **gradient descent**.
+
+## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- The animation demonstrates the process for 2 parameters (x, y) in 2D.
+- Machine learning models have **100,000s** of parameters.
+- It's difficult to visualise a ball rolling around in a million dimensional space!
+
+## Machine Learning Process {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+![](/media/daim/module_4/mleng.jpg)
 
 ---
 
-## Complexity of Model
+## Complexity of Model {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - In ML, trade-offs exist between **bias** and **variance**:
   - A **very biased model** may assume everyone is sick
   - A **high variance model** may respond to every noise
 
-![](biasvariance.jpg)
+![](/media/daim/module_4/biasvariance.jpg)
 
 ---
 
-## Appreciating AI, ML, and Statistics
+## Appreciating AI, ML, and Statistics {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](aimlstats.jpg)
+![](/media/daim/module_4/aimlstats.jpg)
 
 ---
 
-## The MLOps Lifecycle
+## The MLOps Lifecycle {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - **MLOps** = Machine Learning + Operations
 - Key stages include:
@@ -162,7 +178,7 @@ $$
 
 ---
 
-## Evaluate Your Model: How?
+## Evaluate Your Model: How? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Validation is key to model reliability:
   - **Training set validation** = marking your own homework!
@@ -171,7 +187,7 @@ $$
 
 ---
 
-## Understanding Data Leakage
+## Understanding Data Leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 Example of data leakage in Chest X-Ray (CXR) data:
 
@@ -179,20 +195,20 @@ Example of data leakage in Chest X-Ray (CXR) data:
   - Sicker patients often get **AP films** and are placed in **resus**
   - The model might "cheat" by detecting **resus environment** instead of pneumonia itself
 
-![](chest.jpg)
+![](/media/daim/module_4/chest.jpg)
 
 ---
 
-## Gold Standards in Medical AI
+## Gold Standards in Medical AI {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Refer to [this BMJ article on standards](https://www.bmj.com/content/384/bmj-2023-074821)
 - Also, see [related BMJ content](https://www.bmj.com/content/384/bmj-2023-074819)
 
-![](extvali.jpg)
+![](/media/daim/module_4/extvali.jpg)
 
 ---
 
-## Ethics of AI
+## Ethics of AI {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - The ethics of AI/ML are complex:
   - Should generative AI models (like ChatGPT) be allowed in research writing?
@@ -204,38 +220,39 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 ---
 
-## Examples of 'Bad' AI
+## Examples of 'Bad' AI {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - "AI Gaydar Paper" (Wang 2018)
 
-![](aigaydar.jpg)
+![](/media/daim/module_4/aigaydar.jpg)
 
 ---
 
-## How Do We ~~Do Good~~ *Stop Bad* AI?
+## How Do We ~~Do Good~~ *Stop Bad* AI? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Recognize inherent biases and discrimination
 - Assume bias is present, then find and address it
 - Maximize individual autonomy and privacy
 - Reproducibility and transparency are crucial
 
-![](turingway.jpg)
+![](/media/daim/module_4/turingway.jpg)
 
 ---
 
-## Even if AI is Good?
+## Even if AI is Good? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](inequality.jpeg){#fig-inequality}
+
+![](/media/daim/module_4/inequality.jpeg){#fig-inequality}
 
 **NHS app and deprivation:** See [this study](https://informatics.bmj.com/content/30/1/e100809)
 
 ---
 
-## Reproducibility: An Analogy
+## Reproducibility: An Analogy  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ::: {#fig-elephants layout-ncol=2}
 
-![](kitchen.jpg){#fig-kitchen}
+![](/media/daim/module_4/kitchen.jpg){#fig-kitchen}
 
 ![](recipe.jpg){#fig-recipe}
 
@@ -245,7 +262,7 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 ---
 
-## Reproducibility: Important Questions
+## Reproducibility: Important Questions  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - What type of oven?
 - What mode: fan or gas?
@@ -256,29 +273,32 @@ In ML: consider details like **Python version** and **framework**
 
 ---
 
-## Real-Life Example
+## Real-Life Example  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](neupane_table1.png)
+
+![](/media/daim/module_4/neupane_table1.png)
 
 **Different OSs parse data differently**  
 Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (2019)
 
 ---
 
-## Reproducibility Analogy
+## Reproducibility Analogy  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](repro.jpg)
+
+![](/media/daim/module_4/repro.jpg)
 
 ---
 
-## How to Make Research Reproducible
+## How to Make Research Reproducible  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
 
 - Aim for reproducibility, even if it’s challenging at first
 - Visit [RAPS with R](https://raps-with-r.dev/) for reproducibility principles
 
 ---
 
-## Scenario 1 Revisited
+## Scenario 1 Revisited  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - You are a *GP*. 
 - You use an AI-based clinical decision support (CDS) tool to help manage patients with "breast lump" presentations.
@@ -289,7 +309,7 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ---
 
-### Scenario 1: Critical Questions
+### Scenario 1: Critical Questions  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Was the AI CDS trained on both male and female images?
 - Were patients under 18 included in the training set?
@@ -299,7 +319,7 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ---
 
-## Scenario 2 Revisited
+## Scenario 2 Revisited {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - You are a *clinical lead* for your organization.
 - Your goal is to improve pathways for acutely unwell patients.
@@ -313,7 +333,8 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ---
 
-### Scenario 2: Considerations
+### Scenario 2: Considerations {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
 
 - **Nurses**:
   - Would they provide versatility and fill in during staff shortages?
@@ -327,18 +348,19 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ---
 
-## A Word on Technical Debt
+## A Word on Technical Debt {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
 
 - Even Google has significant technical debt
 - The NHS may have even more due to legacy systems and infrastructure
 
 - **Reference**: [Google’s Technical Debt Paper](https://research.google.com/pubs/archive/43146.pdf)
 
-![](dependency_2x.png)
+![](/media/daim/module_4/dependency_2x.png)
 
 ---
 
-## Summary of Key Concepts
+## Summary of Key Concepts {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - **ML vs. AI**:
   - ML models remain on your computer; AI models are deployable.
@@ -351,14 +373,15 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ---
 
-## Further Reading and Resources
+## Further Reading and Resources {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
 
 - For reproducibility guidelines, see [The Turing Way](https://the-turing-way.netlify.app/)
 - More on big data ethics: [Data Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework)
 
 ---
 
-## Discussion and Q&A
+## Discussion and Q&A {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
 - Let’s discuss any remaining questions on ML/AI in clinical applications!
 
