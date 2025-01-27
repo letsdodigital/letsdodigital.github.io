@@ -1,0 +1,36 @@
+---
+title: "Ask a Clinician - Episode 5"
+---
+
+## The Radiologist's Eye: Insights into Neuroradiology
+Exploring the unseen – a journey into the brain, spine, and head & neck.
+
+![](/media/string-in-brain.jpg){height=300px fig-align="center" fig-alt="String like structures forming a head"}
+
+Are you a data scientist, software engineer, AI developer, or UX designer working with medical imaging or radiology data? Perhaps you’ve asked yourself, "How does a radiologist approach an imaging study? Why does it take time to generate a report? What challenges exist in AI-driven imaging workflows?" Or even, "Why does the system sometimes flag things that aren’t there?"
+
+This is the fifth webinar in the **Ask a Clinician series** from the Let’s Do Digital Team. If you’ve ever wanted to understand the mind of a radiologist or dive into the intersection of medical imaging and clinical AI, this webinar is for you.
+
+Join us as Tilak Das, Consultant Neuroradiologist, Clinical AI Lead, and award-winning educator, shares his expertise on how radiologists interpret imaging data, tackle complex diagnostic cases, and leverage AI to advance patient care.
+
+## Webinar Structure
+
+Chair: Mark Bailey, Let's Do Digital Community Lead
+
+Speaker: Tilak Das, Consultant Neuroradiologist and Clinical AI Lead
+
+The first half will be presentations from our two presentors, followed by a Q&A.
+
+## When and where
+
+Online, 6-7pm UK time, on Thursday the 13th of February.
+
+## Register now
+
+```{=html}
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
+```
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
