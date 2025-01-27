@@ -1,0 +1,166 @@
+---
+title: "AI: Making an ML Model"
+author: "DAIM Team"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes: 
+  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-opacity: "0.6"
+---
+
+
+## Module 4: Part 1 Learning Objectives {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Appreciate machine learning vs. AI
+- Understand the high-level steps needed to train a statistical model
+- Rationale for "verifying your model findings" and how to use a test set
+- Understand dataset bias and clinical factors
+
+---
+
+## What is machine learning?
+
+* TODO Understand what machine learning is at a broad level (LL2)
+
+## Big Data, Machine Learning, and Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Big data → ML/AI
+- The six **Vs** of big data: **volume**, **variety**, **velocity**, **veracity**, **value**, and **variability**
+- I would like to add **vulnerability**
+
+## Machine Learning vs. Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Different types of machine learning:
+  - Supervised learning / Unsupervised learning
+  - Deep Learning
+  - Reinforcement Learning
+- Rule of thumb:
+  - If the model only lives on your computer, it’s a **ML model**.
+  - If it's deployed for clinician use, it’s **AI**.
+
+## Appreciate {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+![](/media/daim/module_4/aimlstats.jpg)
+
+**Right??**
+
+# Supervised / Unsupervised Learning
+
+* TODO Understand the difference between supervised and unsupervised learning (LL2)
+
+## What steps are needed to train a machine learning model?
+
+* TODO
+
+## Machine Learning Process {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+![](/media/daim/module_4/mleng.jpg)
+
+---
+
+## MLOps : steps in ML {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Get the data, Train the model, Evaluate the model!
+- WIN :
+- Getting the data onto your computer
+- Train the model on your computer
+- Show to your boss, publish!  
+
+## The MLOps Lifecycle {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- **MLOps** = Machine Learning + Operations
+- Key stages include:
+  - **ETL pipeline**: Extract, Transform, and Load data
+  - **Train the model**: Run computations to optimize model performance
+  - **Deploy the model**: Serve it to users in real-time, with continuous deployment
+
+## How do you split up a dataset?
+
+* TODO - Understanding the importance of splitting the data into training, testing, and validation datasets (LL2)
+
+## Bias in a clinical dataset
+
+* TODO - Understand dataset bias and clincial factors that can confound a dataset (LL4)
+* TODO - Use examples to demonstrate clinical bias (LL4)
+* TODO - Be able to list clinical uses for ML (LL4)
+
+## Data preprocessing 
+
+* TODO Data preprocessing
+    -   Understand considerations that must be made when standardising image data for model input (image size, image dimensions, contrast, brightness) (LL2)
+    -   Understand the importance of data augmentation when training (LL2)
+    -   Be able to name common data augmentation techniques (shearing, rotation, stretching, elastic deformation in medical imaging datasets) (LL2)
+    -   Understand how these concepts apply to other types of data (e.g. time-series data) (LL2)
+
+## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
+
+## The workshop task
+
+* TODO Be able to relate the aims of the example task (Pneumonia detection task) (LL4)
+
+## Machine Learning and Philosophy of Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- **Learning?** Why do we learn?
+- Difference between learning and memorizing
+- What does it mean mathematically?
+- What does training mean for you and for a machine learning model?
+
+## Learning vs. Memorizing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+Using an example of **adding and the symbol +**:
+
+- You learn to add and use the symbol **+**
+- This allows you to *generalize* rather than memorizing specific sums, like `1002 + 2003 = 3005`
+- You *train* by practicing simple exercises like `1 + 1 = 2`
+- Your teacher corrects if you get `1 + 1 = 3`
+- You are then examined on new material to ensure you can generalize and apply your learnings
+
+- **Similarly:** You use a **training dataset** to train the model so it can *learn* and apply in a **general** context.
+
+## What does learning mean for a computer? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+$$
+Y = f(x)
+$$
+
+- Find function **f(x)** given a set of variables (**x**) and their outcomes (**Y**) using a training dataset
+  - **Loss function** = similar to making mistakes on training
+  - **Optimizer** = acts like a teacher, with the goal to minimize the loss function
+
+## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- A common analogy is one of a ball rolling down a hill.
+- The height of the hill (z) represents the loss function, and the two other directions (x, y) are model parameters
+
+## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- The "ball" (the model) rolls down the hill to find the value of the two values that minimises the loss.
+- This is called **gradient descent**.
+
+## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- The animation demonstrates the process for 2 parameters (x, y) in 2D.
+- Machine learning models have **100,000s** of parameters.
+- It's difficult to visualise a ball rolling around in a million dimensional space!
+
+## Model Architecture and Training
+
+- TODO Model architecture and training
+    -   TODO Understand why ML frameworks exist in the Python ecosystem (TensorFlow, PyTorch) and what they allow the user to do (LL2)
+    -   TODO Understand the inputs and outputs of a neural network (LL2)
+    -   TODO Understand the difference between a convolutional layer and dense layer at a broad level (LL2)
+    -   TODO Understand what an epoch of training is (LL2)
+    -   TODO Understand why data needs to be batched when training a network (LL3)
+    -   TODO Understand what a sigmoid layer is and why it is used for probabilistic outputs (LL2)
+
+# Hyperparameters
+
+-   TODO Hyperparameters
+    -   TODO Understand what a hyperparameter is (LL2)
+    -   TODO How a hyper-parameter effects model output (LL2)
+    -   TODO Understand that hyperparameters can be tuned (LL2)
+    
+## Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+
+Any questions?
