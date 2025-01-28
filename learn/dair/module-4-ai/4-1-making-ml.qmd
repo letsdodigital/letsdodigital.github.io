@@ -31,13 +31,36 @@ title-slide-attributes:
 
 ## Machine Learning vs. Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
+- There are no set, global definitions for either term!
+- Machine learning often refers to a **specific subset of statistical algorithms**
+    - Artificial neural networks
+    - Decision trees
+    - Support vector machines
+    - And more - **it is a loose category**
+
+## Machine Learning vs. Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
 - Different types of machine learning:
-  - Supervised learning / Unsupervised learning
-  - Deep Learning
-  - Reinforcement Learning
-- Rule of thumb:
-  - If the model only lives on your computer, it’s a **ML model**.
-  - If it's deployed for clinician use, it’s **AI**.
+    - Supervised learning
+    - Unsupervised learning
+    - Reinforcement Learning
+- Deep Learning refers to neural networks with **multiple layers**
+    - We will be building one in the workshop
+
+## Supervised / Unsupervised Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Supervised learning uses **labelled data**.
+    - For instance, a radiologist has **labelled** CT head studies with different types of **intracranial haemorrhage**, and the **ML system learns** which scans contain which type of haemorrhage. 
+
+TODO: find image
+
+## Supervised / Unsupervised Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Unsupervised learning uses **unlabelled data**
+    - For instance, an ML system is given a series of **normal chest radiographs** and learns how best to **compress and uncompress** them.
+    - This is known as an **autoencoder.**
+
+TODO: find image
 
 ## Appreciate {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -45,27 +68,26 @@ title-slide-attributes:
 
 **Right??**
 
-# Supervised / Unsupervised Learning
+#
+:::{.r-stack}
+**How to train an ML model**
+:::
 
-* TODO Understand the difference between supervised and unsupervised learning (LL2)
+## What steps are needed to train a machine learning model? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-## What steps are needed to train a machine learning model?
-
-* TODO
+- **Collecting** or **identifying** a dataset
+- **Partitioning** a dataset into groups 
+- **Preprocessing** your dataset
+- Designing the **architecture** of the model
+- **Training** the model
+- **Evaluating** the model
+- **Deploying** the model
 
 ## Machine Learning Process {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ![](/media/daim/module_4/mleng.jpg)
 
----
-
-## MLOps : steps in ML {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
-- Get the data, Train the model, Evaluate the model!
-- WIN :
-- Getting the data onto your computer
-- Train the model on your computer
-- Show to your boss, publish!  
+--- 
 
 ## The MLOps Lifecycle {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -77,7 +99,11 @@ title-slide-attributes:
 
 ## How do you split up a dataset?
 
-* TODO - Understanding the importance of splitting the data into training, testing, and validation datasets (LL2)
+- A dataset is typically split into three parts
+    1. **Training data** (training the model)
+    2. **Testing data** (testing the model after training)
+    3. **Validation data** (testing the model during training)
+- The reasons for this will be discussed over the course of these two seminars.
 
 ## Bias in a clinical dataset
 
@@ -85,13 +111,48 @@ title-slide-attributes:
 * TODO - Use examples to demonstrate clinical bias (LL4)
 * TODO - Be able to list clinical uses for ML (LL4)
 
+#
+:::{.r-stack}
+**How to preprocess data for an ML model?**
+:::
+
 ## Data preprocessing 
 
-* TODO Data preprocessing
-    -   Understand considerations that must be made when standardising image data for model input (image size, image dimensions, contrast, brightness) (LL2)
-    -   Understand the importance of data augmentation when training (LL2)
-    -   Be able to name common data augmentation techniques (shearing, rotation, stretching, elastic deformation in medical imaging datasets) (LL2)
-    -   Understand how these concepts apply to other types of data (e.g. time-series data) (LL2)
+- **Data preprocessing** refers to **optimising the data** in your dataset **for the model** that you have chosen to train.
+- Different models have different formats which the data must be in
+- Data is usually passed to the model as a NumPy array
+    - You may see these referred to as **tensors**
+
+## What kind of NumPy Array?
+
+- This will depend on the type of data being used.
+- For **images**, it is likely to be an image with certain:
+    - **Dimensions** (e.g. `256 x 256`)
+    - **Number of channels** (e.g. 1 or 3)
+- We will **explore this further** in the workshop.
+
+## What is data augmentation?
+
+- Often, datasets are **small** and machine learning models need a **large amount of data** to be robust to **natural variations**.
+- This includes changes in **brightness**, **contrast**, **rotation**, etc.
+- This can be simulated in a dataset by varying these parameters for each image.
+
+## Example of data augmentation
+
+TODO create figure demonstrating modifying brightness, rotation and contrast for a chest radiograph.
+
+## Going further than this...
+
+- In imaging, further data augmentation techniques can be applied to **simulate anatomical variation**
+- For instance, **elastic deformation**
+- **Subtle image distortion** to **simulate** data acquired from a **different patient**.
+
+TODO find image
+
+## Data augmentation
+
+- There are many **more techniques** that can be applied to extend a small dataset
+- There are more techniques for **other types of data** (e.g. time series data).
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
