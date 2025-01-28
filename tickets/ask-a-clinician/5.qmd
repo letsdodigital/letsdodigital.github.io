@@ -1,5 +1,6 @@
 ---
 title: "Ask a Clinician - Episode 5"
+image: "/media/string-in-brain.jpg"
 ---
 
 ## The Radiologist's Eye: Insights into Neuroradiology
