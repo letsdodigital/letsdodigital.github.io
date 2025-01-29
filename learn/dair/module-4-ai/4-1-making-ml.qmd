@@ -139,7 +139,7 @@ TODO: find image
 
 ## Example of data augmentation
 
-TODO create figure demonstrating modifying brightness, rotation and contrast for a chest radiograph.
+![Examples of different data augementation techniques.](/media/daim/module_4/data_aug.png)
 
 ## Going further than this...
 
@@ -158,9 +158,12 @@ TODO find image
 
 ## The workshop task
 
-* TODO Be able to relate the aims of the example task (Pneumonia detection task) (LL4)
+* In the workshop, we will be building a **machine learning system** to predict **pneumonia** on chest XR.
+* This will demonstrate the process of training a model on a dataset.
+* The technique is a cornerstone of **building neural networks** that **interpret images**
+    * It is *not* cutting edge, but will demonstrate **first principles**.
 
-## Machine Learning and Philosophy of Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Machine Learning and Philosophy of Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
 - **Learning?** Why do we learn?
 - Difference between learning and memorizing
@@ -182,17 +185,22 @@ Using an example of **adding and the symbol +**:
 ## What does learning mean for a computer? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 $$
-Y = f(x)
+Y = f(x_1, x_2, x_3, ...)
 $$
 
-- Find function **f(x)** given a set of variables (**x**) and their outcomes (**Y**) using a training dataset
-  - **Loss function** = similar to making mistakes on training
-  - **Optimizer** = acts like a teacher, with the goal to minimize the loss function
+- Find the set of variables (**x1**, etc.) and that minimises the outcome measure (**Y**) of a function (**f(x)**)
+    - **Variables** - the weights, biases, and other parameters of your network
+    - **f(x)** - the loss function, which tells the model how incorrect it is by calculating the loss (**Y**)
+
+## What does learning mean for a computer? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- How do we know how to change the variables?
+    - **Optimizer** = acts like a teacher, with the goal to minimize the loss function
 
 ## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - A common analogy is one of a ball rolling down a hill.
-- The height of the hill (z) represents the loss function, and the two other directions (x, y) are model parameters
+- The height of the hill (z) represents the loss (error), and the two other directions (x1, x2) are model parameters
 
 ## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -201,27 +209,135 @@ $$
 
 ## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- The animation demonstrates the process for 2 parameters (x, y) in 2D.
+- The animation demonstrates the process for 2 parameters (x1, x2) in 2D.
 - Machine learning models have **100,000s** of parameters.
 - It's difficult to visualise a ball rolling around in a million dimensional space!
 
-## Model Architecture and Training
+## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
-- TODO Model architecture and training
-    -   TODO Understand why ML frameworks exist in the Python ecosystem (TensorFlow, PyTorch) and what they allow the user to do (LL2)
-    -   TODO Understand the inputs and outputs of a neural network (LL2)
-    -   TODO Understand the difference between a convolutional layer and dense layer at a broad level (LL2)
-    -   TODO Understand what an epoch of training is (LL2)
-    -   TODO Understand why data needs to be batched when training a network (LL3)
-    -   TODO Understand what a sigmoid layer is and why it is used for probabilistic outputs (LL2)
+#
+:::{.r-stack}
+**How do we create an ML model?**
+:::
 
-# Hyperparameters
+## Creating an ML model {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
--   TODO Hyperparameters
-    -   TODO Understand what a hyperparameter is (LL2)
-    -   TODO How a hyper-parameter effects model output (LL2)
-    -   TODO Understand that hyperparameters can be tuned (LL2)
+- Many ML algorithms are designed and trained with **frameworks** within **Python**
+- **Frameworks** are Python **packages** that allow for simplified use of high-level **network building blocks**.
+    - This saves the user from dealing with **low-level** details.
+    - This is called **abstraction**.
+- Popular frameworks include **TensorFlow** and **PyTorch**.
+
+## What are these "building blocks"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Various **layers** are used to build a neural network.
+- A layer is a set of **neurons** with inputs/outputs and **parameters** which can be **learned**.
+- For simple networks, layers are connected to each other **sequentially.**
+- The presence of multiple layers is where the term **deep learning** originates.
+
+## What types of layer are there? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- **Dense layer**
+    - This is the **most common** layer.
+    - Consists of neurons that are connected to **every** neuron in the preceding and subsequent layer (hence **Dense**)
+- Therefore they take up lots of memory and computing power!
+    - Think about how **the number of connections grows between neurons** as the number increases.
+
+## Dense layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+TODO image of a Dense layer
+
+## Convolutional layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Convolutional layers involve convolving a kernel with the input image
+    - Look back to **module 1** for a refresher.
+- However, the **parameters** of the kernel are **learned**
+- **Multiple different kernels** are used in the layer to **evaluate different aspects**
+- As convolution uses the **same kernel** for the **whole image**, they have **fewer parameters** than Dense layers.
+
+<!--
+- E.g. If the pathology in the image is large and lumpy, the parameters in the kernels  might resemble the **blurring kernel** from module 1 as this will highlight large shapes and ignore small details.
+-->
+
+## Convolutional layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+TODO image of a convolutional layer
+
+## Pooling layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Pooling layers **reduce the size** of the image through the network
+- This is often done by a factor of 2 e.g. (`(256, 256, 3)` to `(128, 128, 3)`)
+- This allows for the model to "shed" **less important**, fine detail **information** 
+
+## Why do we need to reduce the image size throughout the network? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- When images are connected to Dense layers, they are flattened.
+    - e.g. `(256, 256)` to `(65536)`
+- Even **small images** will result in **huge** networks, as **all neurons** between Dense layers are **connected**
+    - `(256, 256)` to a Dense layer with 256 neurons: 16.8 million parameters!
+
+## What are the inputs to the network? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- The input to neural networks which process images will be an **image**.
+    - The image will have a fixed resolution and number of channels
+    - e.g. (`(128, 128, 3)`)
+
+## What are the outputs? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- The output will **vary** depending on the **type of network**:
+    - Probabilities that certain features are present (e.g. pneumonia)
+    - A processed image, showing the locations of objects/features
+        - This is called **semantic segmentation**
+    - It can even be the same image!
+        - This is an **autoencoder** which is used for **compression**.
+- The **architecture** will affect the **desired output**.
+
+#
+:::{.r-stack}
+**How to train an ML model?**
+:::
+
+## Batches of data {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Data is fed to the network in **batches**
+    - A **batch** is a **collection** of datapoints e.g. 16 images
+- The overall direction to **change** the network parameters is established after asking the **network** to **predict** each batch item
+- This gradually minimises the **loss** and therefore the **error** of the network
+
+## Epochs of training {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- After a certain number of **batches** are fed to the network, an **epoch** of training has been completed.
+- The network is then usually evaluated on the **validation** dataset.
+- *Repeat...* until a **set number** of epochs has been completed 
+
+## The process of training {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+TODO image of loss against epoch index showing the learning process.
+
+## What is a hyperparameter? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- **Hyperparameters** determine **how your network learns** and the **network structure**.
+- Any **parameter** that **cannot be modified** by the network optimiser during training can be seen as a **hyperparameter**
+- **Tuning hyperparameters** is **important** for extracting the **best performance** from your network.
+
+## What is a hyperparameter? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Examples include:
+    - The number of **neurons** in each layer
+    - The number of **kernels** in a convolutional layer
+    - The **learning rate** of the network
     
-## Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+## Conclusion{background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- We have covered a **lot of information** in this lecture.
+- **We will recap** nearly all of it during the **workshop**.
+
+## Further resources {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Further resources
+    - 3Blue1Brown's series on [the basics of neural networks](https://www.youtube.com/watch?v=aircAruvnKk)
+    - TODO add further items=
+
+## Thank you! {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 Any questions?
