@@ -1,0 +1,45 @@
+---
+title: "Ask a Clinician - Episode 6 - Insights from the Field Hospital and Beyond"
+image: "/media/field-hospital.jpg"
+---
+
+## The Radiologist's Eye: Insights into Neuroradiology
+Join us for the next Let's Do Digital webinar, where we sit down with Jill Winters, Director of 111 & CAS at Totally Group, to explore the realities of clinical decision-making, digital transformation in healthcare, and leadership in high-pressure environments.
+
+![](/media/field-hospital.jpg){height=300px fig-align="center" fig-alt="Drawing of a field hospital"}
+
+Jill brings a unique perspective shaped by a career spanning both military and civilian healthcare. From overseeing urgent and emergency care (UEC) services to leading teams through complex operational challenges, she has been at the forefront of ensuring resilience in NHS 111 and Clinical Assessment Services (CAS). Her work has played a pivotal role in delivering UEC recovery strategies, ensuring service continuity, and maintaining high standards of patient safety.
+
+As a healthcare leader and mentor, Jill is a strong advocate for inclusive leadership and workforce development. Her dedication to fostering diversity and belonging has helped shape more inclusive, effective healthcare environments—demonstrated by top inclusivity scores in staff surveys under her leadership.
+
+In this session, we’ll explore:
+
+- The realities of clinical decision-making in high-pressure environments
+- How digital transformation is reshaping urgent and emergency care
+- The challenges of healthcare leadership and fostering an inclusive workplace
+- Lessons from military and civilian healthcare—what can the NHS learn?
+- Your questions! A dedicated Q&A session where you can ask Jill about leadership, digital health, and the future of patient care.
+
+Don't miss this opportunity to gain real-world insights from a clinician and leader who has navigated some of healthcare’s toughest challenges.
+
+## Webinar Structure
+
+Chair: Mary Amanuel - Data Scientist @NHS. Co-founder @NHS.pycom. Open Source Advocate. Poetry Trustee.
+
+Speaker: Jill Winter.
+
+The first half will be presentations from our two presentors, followed by a Q&A.
+
+## When and where
+
+Online, 6-7pm UK time, on Thursday the 6th of March.
+
+## Register now
+
+```{=html}
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
+```
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
