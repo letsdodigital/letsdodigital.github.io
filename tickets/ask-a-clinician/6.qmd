@@ -3,7 +3,6 @@ title: "Ask a Clinician - Episode 6 - Insights from the Field Hospital and Beyon
 image: "/media/field-hospital.jpg"
 ---
 
-## The Radiologist's Eye: Insights into Neuroradiology
 Join us for the next Let's Do Digital webinar, where we sit down with Jill Winters, Director of 111 & CAS at Totally Group, to explore the realities of clinical decision-making, digital transformation in healthcare, and leadership in high-pressure environments.
 
 ![](/media/field-hospital.jpg){height=300px fig-align="center" fig-alt="Drawing of a field hospital"}
