@@ -22,10 +22,17 @@ image: /media/tickets.png
 [Ask A Clinician: Insights from the Field Hospital and Beyond 
 ](ask-a-clinician/6.qmd)
 
-
 ### 11th March 2025
 
 [Data Analytics in Medicine (DAIM) Course](daim/1.qmd)
+
+### 10th April 2025
+
+[Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare](ask-a-clinician/7.qmd)
+
+### 1st May 2025
+
+[Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation](ask-someone-in-digital/2.qmd)
 
 ## Self-paced learning
 

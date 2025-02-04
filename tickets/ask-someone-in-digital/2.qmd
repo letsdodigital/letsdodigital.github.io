@@ -1,0 +1,34 @@
+---
+title: "Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation"
+image: /media/hand-over-a-rose.jpg
+---
+
+Join us for the next Ask Someone in Digital webinar, featuring Daniela Valdés, a Turing Fellow, AI scientist, and digital transformation leader with a career spanning healthcare, consulting, and executive leadership.
+
+![](/media/hand-over-a-rose.jpg){height=300px fig-align="center" fig-alt="Picture of arms from two separate people, one handing a rose to the other"}
+
+Daniela has worked with Deloitte, the World Bank, and the NHS, bringing AI, machine learning, and automation into organisations to drive meaningful change.
+
+Currently pursuing a PhD in AI and Leadership, Daniela is passionate about using data-driven insights, kind leadership, and digital strategy to support healthcare transformation. With experience as CEO, Chief Officer, and Associate Director of Digital Health, she understands the challenges of integrating AI into real-world healthcare settings and has a track record of leading digital innovation while fostering diverse and inclusive teams.
+
+In this session, Daniela will share her experiences navigating AI strategy, governance, and digital healthcare innovation, offering insights into how soft influence + hard data can transform organisations. This is an excellent opportunity to learn from her expertise and ask your own questions about the future of AI in healthcare.
+
+## Webinar structure
+
+Chair: Mark Bailey - Let's Do Digital Community Lead.
+
+Speaker: Daniela Valdés - Turing Fellow, AI Scientist, and Digital Transformation Leader.
+
+The first half will be presentations from our two presentors, followed by a Q&A.
+
+## When and where
+
+Online, 6-7pm, on Thursday the 1st of May.
+
+```{=html}
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
+```
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).
