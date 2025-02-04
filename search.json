@@ -3822,296 +3822,268 @@
     "text": "There is a hard working team behind the Let’s Do Digital name. If you feel we are doing a great job and want to help support us with our projects and teaching courses, then please do consider buying us a coffee:\n\n    \n\n\nA single sponsorship over £50 (UK) or signing up as a member on buymeacoffee.com will get you a place on the wall of our home page for individual supporters for a year.\nFor healthcare groups (eg industry, individual trusts, government) that wish to sponosor the Let’s Do Digital Team, please contact us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html",
-    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html",
-    "title": "Programming in Healthcare - Module 0 - evening",
+    "objectID": "tickets/ask-someone-in-digital/1.html",
+    "href": "tickets/ask-someone-in-digital/1.html",
+    "title": "Ask someone in Digital - Episode 1",
     "section": "",
-    "text": "Please join us for the module 0 of Programming in Healthcare. We had some amazing feedback from module 1, but a few students mentioned it would be great to have a more basic level module in programming. Hence, we have created module 0.\nModule 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command and how to program the basics. The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
+    "text": "In the digital age, the balance between cybersecurity and usability in health systems is more crucial than ever. Geoff Revill will, in this webinar, delve into the delicate interplay between patient trust, clinician trust, and the security measures necessary to protect digital health information. Geoff will contrast the traditional trust norms in face-to-face clinician-patient engagements with the current digital realities, exploring how digital security models align or conflict with societal expectations.\nKey discussion points will include:\n\nThe impact of increased cybersecurity on system usability and the inherent trade-offs.\nTrust points in digital systems and their correlation with real-world trust dynamics.\nThe often overlooked conflict between trust expectations in digital health solutions and the pursuit of user-friendly systems.\nReal-world examples and implementation challenges, focusing on how aligning digital trust models with real-world expectations can introduce barriers to adoption.\n\nGeoff’s aim is to engage all those involved in the patient journey in a conversation about where they see the balance points between trust and usability, and whether we are prepared to compromise patient trust for faster, cheaper, and more efficient digital health systems.\nDon’t miss this opportunity to explore the future of digital health systems and their impact on trust and usability."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#course-structure",
-    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#course-structure",
-    "title": "Programming in Healthcare - Module 0 - evening",
-    "section": "Course structure",
-    "text": "Course structure\nWe will have a mixture of talks to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with around 4 students per tutor."
+    "objectID": "tickets/ask-someone-in-digital/1.html#section",
+    "href": "tickets/ask-someone-in-digital/1.html#section",
+    "title": "Ask someone in Digital - Episode 1",
+    "section": "",
+    "text": "In the digital age, the balance between cybersecurity and usability in health systems is more crucial than ever. Geoff Revill will, in this webinar, delve into the delicate interplay between patient trust, clinician trust, and the security measures necessary to protect digital health information. Geoff will contrast the traditional trust norms in face-to-face clinician-patient engagements with the current digital realities, exploring how digital security models align or conflict with societal expectations.\nKey discussion points will include:\n\nThe impact of increased cybersecurity on system usability and the inherent trade-offs.\nTrust points in digital systems and their correlation with real-world trust dynamics.\nThe often overlooked conflict between trust expectations in digital health solutions and the pursuit of user-friendly systems.\nReal-world examples and implementation challenges, focusing on how aligning digital trust models with real-world expectations can introduce barriers to adoption.\n\nGeoff’s aim is to engage all those involved in the patient journey in a conversation about where they see the balance points between trust and usability, and whether we are prepared to compromise patient trust for faster, cheaper, and more efficient digital health systems.\nDon’t miss this opportunity to explore the future of digital health systems and their impact on trust and usability."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#when-and-where",
-    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#when-and-where",
-    "title": "Programming in Healthcare - Module 0 - evening",
+    "objectID": "tickets/ask-someone-in-digital/1.html#webinar-structure",
+    "href": "tickets/ask-someone-in-digital/1.html#webinar-structure",
+    "title": "Ask someone in Digital - Episode 1",
+    "section": "Webinar structure",
+    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Emma Davis - Clinical Lead - CSO - Shared Care Records - PRSB & GP\n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Geoff Revill - Managing Director, Safe Space One Ltd. Director of the South West Cyber Security Cluster\n        \n    \n\nThe first half will be a presentation from the speaker followed by a Q&A."
+  },
+  {
+    "objectID": "tickets/ask-someone-in-digital/1.html#when-and-where",
+    "href": "tickets/ask-someone-in-digital/1.html#when-and-where",
+    "title": "Ask someone in Digital - Episode 1",
     "section": "When and where",
-    "text": "When and where\nOnline, Wednesday 11th September, 7-10 pm, on Zoom."
+    "text": "When and where\nOnline, 2-3pm, on Thursday the 5th of September 2024.\nYou can watch the session here https://www.youtube.com/watch?v=y6QvA6D0iS0."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#topics-covered",
-    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#topics-covered",
-    "title": "Programming in Healthcare - Module 0 - evening",
-    "section": "Topics covered",
-    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and gently take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (eg add these two things. Make x equal to 3)\nFunctions (hey function, calculate the square root of 9)\nError handling (you were trying to do what!)"
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#purchase-tickets",
-    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#purchase-tickets",
-    "title": "Programming in Healthcare - Module 0 - evening",
-    "section": "Purchase tickets",
-    "text": "Purchase tickets"
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#questions",
-    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#questions",
-    "title": "Programming in Healthcare - Module 0 - evening",
+    "objectID": "tickets/ask-someone-in-digital/1.html#questions",
+    "href": "tickets/ask-someone-in-digital/1.html#questions",
+    "title": "Ask someone in Digital - Episode 1",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html",
-    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html",
-    "title": "Programming in Healthcare - Module 2",
+    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html",
+    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html",
+    "title": "Programming in Healthcare - Module 2 - evening",
     "section": "",
-    "text": "You now have the basics from Module 1. Time to progress your programming skills. In this module we get you to build a digital consent form. It is not as hard as it sounds. We will take you through how to process map a current paper based consent form, and then create a process map for a much better (and faster) digital form. We small group teaching with tutors to help you through each step of the building and learning process."
+    "text": "You now have the basics from Module 1. Time to progress your programming skills. In this evening session module we get you to build a digital consent form. It is not as hard as it sounds. We will take you through how to process map a current paper based consent form, and then create a process map for a much better (and faster) digital form. We small group teaching with tutors to help you through each step of the building and learning process."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#course-structure",
-    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#course-structure",
-    "title": "Programming in Healthcare - Module 2",
+    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#course-structure",
+    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#course-structure",
+    "title": "Programming in Healthcare - Module 2 - evening",
     "section": "Course structure",
     "text": "Course structure\nWe will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away. We will have break out rooms for the hands on coding sessions, with around 4 students per tutor."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#when-and-where",
-    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#when-and-where",
-    "title": "Programming in Healthcare - Module 2",
+    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#when-and-where",
+    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#when-and-where",
+    "title": "Programming in Healthcare - Module 2 - evening",
     "section": "When and where",
-    "text": "When and where\nOnline, Thursday 22nd August, 2-5 pm, on Zoom."
+    "text": "When and where\nOnline, Wednesday 6th November, 7-10 pm, on Zoom."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#topics-covered",
-    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#topics-covered",
-    "title": "Programming in Healthcare - Module 2",
+    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#topics-covered",
+    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#topics-covered",
+    "title": "Programming in Healthcare - Module 2 - evening",
     "section": "Topics covered",
     "text": "Topics covered\nMoving to slightly more advanced programming skills, but with very much small group teaching the whole way with well paced hands on sessions, topics you will learning include:\n\nProcess mapping\nWeb app architecture\nFrontend and backend design\nUse of more advanced python code"
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#purchase-tickets",
-    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#purchase-tickets",
-    "title": "Programming in Healthcare - Module 2",
+    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#purchase-tickets",
+    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#purchase-tickets",
+    "title": "Programming in Healthcare - Module 2 - evening",
     "section": "Purchase tickets",
     "text": "Purchase tickets"
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#questions",
-    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#questions",
-    "title": "Programming in Healthcare - Module 2",
+    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#questions",
+    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#questions",
+    "title": "Programming in Healthcare - Module 2 - evening",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html",
-    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html",
-    "title": "Programming in Healthcare - Module 1 - Evening course",
+    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html",
+    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html",
+    "title": "Programming in Healthcare - Module 1",
     "section": "",
     "text": "Please join us for the first of many coding courses in healthcare that the Let’s Do Digital team will be running. This course is open to anyone but has been designed for those working or interested in digital healthcare / clinical informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#course-structure",
-    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#course-structure",
-    "title": "Programming in Healthcare - Module 1 - Evening course",
+    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#course-structure",
+    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#course-structure",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Course structure",
     "text": "Course structure\nWe now have 11 tutors and 41 potential students signed up (on the mailing list) for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#when-and-where",
-    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#when-and-where",
-    "title": "Programming in Healthcare - Module 1 - Evening course",
+    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#when-and-where",
+    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#when-and-where",
+    "title": "Programming in Healthcare - Module 1",
     "section": "When and where",
-    "text": "When and where\nOnline, Wednesday 3rd July, 7-10 pm, on Zoom."
+    "text": "When and where\nOnline, Thursday 27th June, 2-5 pm, on Zoom."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#topics-covered",
-    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#topics-covered",
-    "title": "Programming in Healthcare - Module 1 - Evening course",
+    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#topics-covered",
+    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#topics-covered",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Topics covered",
     "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (add these two things. Make x equal to 3)\nFunctions (hay function, calculate the square root of 9)\nError handling (you were trying to do what!)\nWeb apps\nMedical calculators"
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#purchase-tickets",
-    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#purchase-tickets",
-    "title": "Programming in Healthcare - Module 1 - Evening course",
+    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#purchase-tickets",
+    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#purchase-tickets",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Purchase tickets",
-    "text": "Purchase tickets\nTicket sales are now closed."
+    "text": "Purchase tickets\nNow closed.\nA recording of the session will be available shortly."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#questions",
-    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#questions",
-    "title": "Programming in Healthcare - Module 1 - Evening course",
+    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#questions",
+    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#questions",
+    "title": "Programming in Healthcare - Module 1",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/frontline-insights/1.html",
-    "href": "tickets/frontline-insights/1.html",
-    "title": "Frontline Insights - episode 1",
+    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#many-thanks",
+    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#many-thanks",
+    "title": "Programming in Healthcare - Module 1",
+    "section": "Many thanks",
+    "text": "Many thanks\nMany thanks to\nDr Kim Pramanik (https://www.linkedin.com/in/drkimpramanik/)\nFor providing the Let’s Do Digital team with access to her Zoom account to enable this course to run virtually."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html",
+    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html",
+    "title": "Programming in Healthcare - Module 0",
     "section": "",
-    "text": "We have a very exciting webinar ready and waiting for you, especially for those computer geeks out there!\n\n\n\n\n\nIn this first of many webinars from the Frontline Insights series from the Let’s Do Digital team, we are excited to hear from Andrew Simpson, Clinical Scientist at South Tees Hospital NHS Foundation Trust and Sam McInerney, Oncology registrar at the Beatson Cancer Centre and founder of DoctorsThatCode.com.\nAndrew will show us how Internet of Things (IoT), blood sweat and tears and a department that is open to innovation brought together both hardware and software to automate the heavy workload at the sleep department in South Tees.\nSam will give us the low down on how he successfully used robotic process automation to streamline the detailed clinic preparation that is required of oncology clinic outpatients.\nAndrew is a HCPC registered Clinical Scientist in Medical Physics & Clinical Engineering, specialising in Clinical Measurement, Clinical Engineering & Computing. Andrew has implemented an array of digital solutions to improve healthcare management. Andrew is also the British Computer Society Teesside and District Branch Chair.\nSam is the founder of DoctorsThatCode.com, a very interesting and informative blog series. He is an up and coming clinician-who-codes, and uses his dual speciality skills to improve the care he gives as a oncology registrar in Scotland."
+    "text": "Please join us for the module 0 of Programming in Healthcare. We had some amazing feedback from module 1, but a few students mentioned it would be great to have a more basic level module in programming. Hence, we have created module 0.\nModule 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command and how to program the basics. The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
   },
   {
-    "objectID": "tickets/frontline-insights/1.html#section",
-    "href": "tickets/frontline-insights/1.html#section",
-    "title": "Frontline Insights - episode 1",
-    "section": "",
-    "text": "We have a very exciting webinar ready and waiting for you, especially for those computer geeks out there!\n\n\n\n\n\nIn this first of many webinars from the Frontline Insights series from the Let’s Do Digital team, we are excited to hear from Andrew Simpson, Clinical Scientist at South Tees Hospital NHS Foundation Trust and Sam McInerney, Oncology registrar at the Beatson Cancer Centre and founder of DoctorsThatCode.com.\nAndrew will show us how Internet of Things (IoT), blood sweat and tears and a department that is open to innovation brought together both hardware and software to automate the heavy workload at the sleep department in South Tees.\nSam will give us the low down on how he successfully used robotic process automation to streamline the detailed clinic preparation that is required of oncology clinic outpatients.\nAndrew is a HCPC registered Clinical Scientist in Medical Physics & Clinical Engineering, specialising in Clinical Measurement, Clinical Engineering & Computing. Andrew has implemented an array of digital solutions to improve healthcare management. Andrew is also the British Computer Society Teesside and District Branch Chair.\nSam is the founder of DoctorsThatCode.com, a very interesting and informative blog series. He is an up and coming clinician-who-codes, and uses his dual speciality skills to improve the care he gives as a oncology registrar in Scotland."
+    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#course-structure",
+    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#course-structure",
+    "title": "Programming in Healthcare - Module 0",
+    "section": "Course structure",
+    "text": "Course structure\nWe will have a mixture of talks to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with around 4 students per tutor."
   },
   {
-    "objectID": "tickets/frontline-insights/1.html#webinar-structure",
-    "href": "tickets/frontline-insights/1.html#webinar-structure",
-    "title": "Frontline Insights - episode 1",
-    "section": "Webinar structure",
-    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Remon Hanna, Doctor &  Head of data @ MedTech\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Andrew Simpson, Clinical Scientist, South Tees Hospital NHS Foundation Trust.\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Sam McInerney Beatson Cancer Centre and founder of DoctorsThatCode.com, \n        \n    \n\nTwo 20 minute presentations followed by a Q&A."
-  },
-  {
-    "objectID": "tickets/frontline-insights/1.html#when-and-where",
-    "href": "tickets/frontline-insights/1.html#when-and-where",
-    "title": "Frontline Insights - episode 1",
+    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#when-and-where",
+    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#when-and-where",
+    "title": "Programming in Healthcare - Module 0",
     "section": "When and where",
-    "text": "When and where\nYouTube streaming, 2-3pm, on Tuesday the 16th of July."
+    "text": "When and where\nOnline, Thursday 29th August, 2-5 pm, on Zoom."
   },
   {
-    "objectID": "tickets/frontline-insights/1.html#tickets-and-coffees",
-    "href": "tickets/frontline-insights/1.html#tickets-and-coffees",
-    "title": "Frontline Insights - episode 1",
-    "section": "Tickets and coffees",
-    "text": "Tickets and coffees\nTicket sales are now closed.\nYou can watch the recording here."
+    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#topics-covered",
+    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#topics-covered",
+    "title": "Programming in Healthcare - Module 0",
+    "section": "Topics covered",
+    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and gently take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (eg add these two things. Make x equal to 3)\nFunctions (hey function, calculate the square root of 9)\nError handling (you were trying to do what!)"
   },
   {
-    "objectID": "tickets/frontline-insights/1.html#questions",
-    "href": "tickets/frontline-insights/1.html#questions",
-    "title": "Frontline Insights - episode 1",
-    "section": "Questions",
-    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
-  },
-  {
-    "objectID": "tickets/daim/1.html",
-    "href": "tickets/daim/1.html",
-    "title": "Data Analytics in Medicine (DAIM) Course",
-    "section": "",
-    "text": "Ever wanted to use the data you have been collecting for several years now to help better understand your clinical practice? Do you want to learn how best to collet this data, analyse it and see how clinical practice can be improved? Or perhaps you are just interested in what machine learning and AI are. If that is the case, this course is for you!\nThe Data Analytics in Medicine (DAIM) course will cover the fundamentals of the python programming language that you will need to work with medical data and images. This course will examine the wider implications of these skills on clinical work and considerations that must be made when working with data and code in a clinical setting.\nThe DAIM course builds on the highly successful Programming in Healthcare course, and is designed to take you to the next level in your digital healthcare journey. Module 3 of the Programming in Healthcare course is a helpful prerequisite to the DAIM course.\nThe DAIM course is a fantastic opportunity to extend your skills with hands-on workshops and code tasks, with full support from our experienced tutors."
-  },
-  {
-    "objectID": "tickets/daim/1.html#course-structure",
-    "href": "tickets/daim/1.html#course-structure",
-    "title": "Data Analytics in Medicine (DAIM) Course",
-    "section": "Course Structure",
-    "text": "Course Structure\nThe DAIM course is split into:\nSeminars where the core theory for each topic will be covered in easy to digest sessions.\nWorkshops where you will gain practical experiences of working with the techniques discussed in the seminar, with support from our experienced tutors, working in small groups."
-  },
-  {
-    "objectID": "tickets/daim/1.html#modules",
-    "href": "tickets/daim/1.html#modules",
-    "title": "Data Analytics in Medicine (DAIM) Course",
-    "section": "Modules",
-    "text": "Modules\nModule 1 - Introduction Working with the broader concepts required for the course, such as code structure and debugging.\nModule 2 Core Python for Image Processing Hands-on experience with core Python modules for image analysis (NumPy, PIL) and performing basic image tasks.\nModule 3: Python and DICOM. Working with real-life medical imaging in it’s native format, DICOM.\nModule 4 - Machine learning for Medicine Bringing concepts together for the final, most comprehensive unit, where you will build a neural network to analyse chest X-rays using TensorFlow, a machine learning package."
-  },
-  {
-    "objectID": "tickets/daim/1.html#when-and-where",
-    "href": "tickets/daim/1.html#when-and-where",
-    "title": "Data Analytics in Medicine (DAIM) Course",
-    "section": "When and where",
-    "text": "When and where\nStart date and time: 18:00 UK time, Tuesday the 11th of March 2025."
-  },
-  {
-    "objectID": "tickets/daim/1.html#purchase-tickets",
-    "href": "tickets/daim/1.html#purchase-tickets",
-    "title": "Data Analytics in Medicine (DAIM) Course",
+    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#purchase-tickets",
+    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#purchase-tickets",
+    "title": "Programming in Healthcare - Module 0",
     "section": "Purchase tickets",
-    "text": "Purchase tickets\nTickets can be purchases here."
+    "text": "Purchase tickets"
   },
   {
-    "objectID": "tickets/daim/1.html#questions",
-    "href": "tickets/daim/1.html#questions",
-    "title": "Data Analytics in Medicine (DAIM) Course",
+    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#questions",
+    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#questions",
+    "title": "Programming in Healthcare - Module 0",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/ask-a-clinician/5.html",
-    "href": "tickets/ask-a-clinician/5.html",
-    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
+    "objectID": "tickets/dcsa/1.html",
+    "href": "tickets/dcsa/1.html",
+    "title": "Digital Clinical Safety Platform (DCSP) webinar",
     "section": "",
-    "text": "Exploring the unseen – a journey into the brain, spine, and head & neck.\n\n\n\n\n\nAre you a data scientist, software engineer, AI developer, or UX designer working with medical imaging or radiology data? Perhaps you’ve asked yourself, “How does a radiologist approach an imaging study? Why does it take time to generate a report? What challenges exist in AI-driven imaging workflows?” Or even, “Why does the system sometimes flag things that aren’t there?”\nThis is the fifth webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you’ve ever wanted to understand the mind of a radiologist or dive into the intersection of medical imaging and clinical AI, this webinar is for you.\nJoin us as Tilak Das, Consultant Neuroradiologist, Clinical AI Lead, and award-winning educator, shares his expertise on how radiologists interpret imaging data, tackle complex diagnostic cases, and leverage AI to advance patient care."
+    "text": "The ultimate aim of the DCSP is to streamline and automate the process of clinical safety documentation of digital systems used in healthcare. This work has initially focused on the UK DCB0129 and DCB0160 safety standards, but the DCSP is not limited to this set of standards or locality. The DCSP is designed to ingrain and also simplify the documentation and thought processes around improved clinical safety from the level of the digital system’s code, through the Clinical Safety Officer and their team, and all the way up to upper management.\nThis webinar showcases a prototype of the DCSP, with input from the Digital Clinical Safety Alliance team and also Dean Mawson, a Clinical Safety Officer, on how this new system can help improve and streamline your safety documentation.\nLet’s Do Digital is kindly advertising and hosting this event on behalf of the Digital Clinical Safety Alliance."
   },
   {
-    "objectID": "tickets/ask-a-clinician/5.html#the-radiologists-eye-insights-into-neuroradiology",
-    "href": "tickets/ask-a-clinician/5.html#the-radiologists-eye-insights-into-neuroradiology",
-    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
-    "section": "",
-    "text": "Exploring the unseen – a journey into the brain, spine, and head & neck.\n\n\n\n\n\nAre you a data scientist, software engineer, AI developer, or UX designer working with medical imaging or radiology data? Perhaps you’ve asked yourself, “How does a radiologist approach an imaging study? Why does it take time to generate a report? What challenges exist in AI-driven imaging workflows?” Or even, “Why does the system sometimes flag things that aren’t there?”\nThis is the fifth webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you’ve ever wanted to understand the mind of a radiologist or dive into the intersection of medical imaging and clinical AI, this webinar is for you.\nJoin us as Tilak Das, Consultant Neuroradiologist, Clinical AI Lead, and award-winning educator, shares his expertise on how radiologists interpret imaging data, tackle complex diagnostic cases, and leverage AI to advance patient care."
+    "objectID": "tickets/dcsa/1.html#when-and-where",
+    "href": "tickets/dcsa/1.html#when-and-where",
+    "title": "Digital Clinical Safety Platform (DCSP) webinar",
+    "section": "When and where",
+    "text": "When and where\nOnline, 2-3pm, on Thursday the 12th of September 2024.\nView the recording on YouTube.\nSlides can be found here."
   },
   {
-    "objectID": "tickets/ask-a-clinician/5.html#webinar-structure",
-    "href": "tickets/ask-a-clinician/5.html#webinar-structure",
-    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
+    "objectID": "tickets/dcsa/1.html#questions",
+    "href": "tickets/dcsa/1.html#questions",
+    "title": "Digital Clinical Safety Platform (DCSP) webinar",
+    "section": "Questions",
+    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "tickets/index.html",
+    "href": "tickets/index.html",
+    "title": "Let’s Do Digital Events",
+    "section": "",
+    "text": "Upcoming EventsSelf-paced learningPrevious events\n\n\n\n12th Feb - 5th March January 2025\nProgramming in Healthcare Module 0-3\n\n\n13th February 2025\nAsk a Clinician - The Radiologist’s Eye: Insights into Neuroradiology\n\n\n3rd of Mach 2025\nAsk A Clinician: Insights from the Field Hospital and Beyond\n\n\n11th March 2025\nData Analytics in Medicine (DAIM) Course\n\n\n10th April 2025\nAsk A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare\n\n\n1st May 2025\nAsk someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation\n\n\n\n\nModule 0 - Programming in Healthcare\nRegister here\n\n\n\n\n31st March 2022\nLet’s Talk Digital Conference 2022\n\n\nJuly 2022\nJuly 2022 Quarterly meeting\n\n\nOctober 2022\nOctober 2022 Quarterly meeting\n\n\n20th June 2023\nLet’s Talk Digital Conference 2023\n\n\n13th June 2024\nAsk a Clinician - Insights from a medic\n\n\n27th June 2024\nProgramming in Healthcare - Module 1\n\n\n3rd July 2024\nProgramming in Healthcare - Module 1- Evening course\n\n\n16th of July 2024\nFrontline Insights - Streamlining sleep services and automating outpatient clinic preparation\n\n\n25th July 2024\nAsk a Clinician - Insights from a vascular surgeon\n\n\n1st August 2024\nAsk a Clinician - Insights from a CCIO and pharmacist\n\n\n22nd August 2024\nProgramming in Healthcare - Module 2\n\n\n29th August 2024\nProgramming in Healthcare - Module 0\n\n\n5th September 2024\nAsk someone in digital - Confidentiality, Trust and Usability - Are we ready to erode patient trust for streamlined digital health care?\n\n\n11th September 2024\nProgramming in Healthcare - Module 0 - evening\n\n\n12th September 2024\nDigital Clinical Safety Platform (DCSP) webinar\n\n\n13th September 2024\nAsk a Clinician - Insights from two GPs\n\n\n24th October 2024\nLet’s Talk Digital Conference 2024\n\n\n6th November 2024\nProgramming in Healthcare - Module 2 - evening\n\n\n28th of November 2024\nMind the Bleep & Let’s Do Digital: Introduction to Health Informatics\n\n\n18th December 2024\nOpen source Christmas special webinar! Dr Marcus Baw"
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/4.html",
+    "href": "tickets/ask-a-clinician/4.html",
+    "title": "Ask a clinician - episode 4",
+    "section": "",
+    "text": "Are you a computer programmer, data analyst, UX designer, cybersecurity expert, or anyone else who works with healthcare data? Have you ever wondered why certain decisions are made in clinical settings that seem to complicate your carefully designed systems? Or perhaps you’re curious about the real-world challenges faced by GPs and clinical informaticians?\nJoin us for an enlightening session in the “Ask a Clinician” series from the Let’s Do Digital Team. In this webinar, Anita Phung and Dom Main will share their unique perspectives as both GPs and clinical informaticians.\nAnita Phung is a Portfolio GP, Medical Monitor at Lindus Health, and SEL ICB Digital Transformation Clinical Lead. With over 10 years of clinical experience in the NHS, combined with her work in pharmaceutical medicine and health tech startups, Anita brings a wealth of knowledge in digital health and health optimisation. She’s passionate about building better digital systems and providing education in digital health. Anita’s personal achievements, such as completing the 10-day silent meditation retreat Vipassana and the 500-mile Camino de Santiago hike, reflect her dedication to introspection and inspiration. She loves efficiency, creativity, and streamlining processes, and she’s eager to connect and help where she can.\nDom Main is a Clinical Engineer at Healthtech-1 and an NHS GP with 18 years of experience. Starting his career as a theatre orderly, Dom has seen firsthand how existing NHS systems can hinder good patient care. Motivated to change this, he’s on a mission to automate routine admin tasks in primary care. With a background in Physics and Philosophy, Dom quickly realised the significant impact of General Practice. Now, at Healthtech-1, he focuses on engineering and product development to help the NHS tackle administrative burdens and improve software solutions.\nIn this webinar, Anita and Dom will discuss their thought processes, workflows, and the challenges they face. If you’ve ever wanted to ask clinicians, “What were you thinking?” or understand their work better, this is the perfect opportunity. Don’t miss out on this chance to gain valuable insights from two experts dedicated to transforming healthcare through digital innovation."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/4.html#section",
+    "href": "tickets/ask-a-clinician/4.html#section",
+    "title": "Ask a clinician - episode 4",
+    "section": "",
+    "text": "Are you a computer programmer, data analyst, UX designer, cybersecurity expert, or anyone else who works with healthcare data? Have you ever wondered why certain decisions are made in clinical settings that seem to complicate your carefully designed systems? Or perhaps you’re curious about the real-world challenges faced by GPs and clinical informaticians?\nJoin us for an enlightening session in the “Ask a Clinician” series from the Let’s Do Digital Team. In this webinar, Anita Phung and Dom Main will share their unique perspectives as both GPs and clinical informaticians.\nAnita Phung is a Portfolio GP, Medical Monitor at Lindus Health, and SEL ICB Digital Transformation Clinical Lead. With over 10 years of clinical experience in the NHS, combined with her work in pharmaceutical medicine and health tech startups, Anita brings a wealth of knowledge in digital health and health optimisation. She’s passionate about building better digital systems and providing education in digital health. Anita’s personal achievements, such as completing the 10-day silent meditation retreat Vipassana and the 500-mile Camino de Santiago hike, reflect her dedication to introspection and inspiration. She loves efficiency, creativity, and streamlining processes, and she’s eager to connect and help where she can.\nDom Main is a Clinical Engineer at Healthtech-1 and an NHS GP with 18 years of experience. Starting his career as a theatre orderly, Dom has seen firsthand how existing NHS systems can hinder good patient care. Motivated to change this, he’s on a mission to automate routine admin tasks in primary care. With a background in Physics and Philosophy, Dom quickly realised the significant impact of General Practice. Now, at Healthtech-1, he focuses on engineering and product development to help the NHS tackle administrative burdens and improve software solutions.\nIn this webinar, Anita and Dom will discuss their thought processes, workflows, and the challenges they face. If you’ve ever wanted to ask clinicians, “What were you thinking?” or understand their work better, this is the perfect opportunity. Don’t miss out on this chance to gain valuable insights from two experts dedicated to transforming healthcare through digital innovation."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/4.html#people-and-structure",
+    "href": "tickets/ask-a-clinician/4.html#people-and-structure",
+    "title": "Ask a clinician - episode 4",
+    "section": "People and structure",
+    "text": "People and structure\nChair\n\n    \n        \n            \n        \n        \n            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust\n    \n\nSpeakers\n\n    \n        \n            \n        \n        \n            Dom Main – GP and Clinical Engineer at Healthtech1\n        \n    \n\n\n    \n        \n            \n        \n        \n            Anita Phung - Portfolio GP | Medical Monitor at Lindus Health | SEL ICB Digital Transformation Clinical Lead\n        \n    \n\nThe first half will be presentations from our two presentors, followed by a Q&A."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/4.html#when-and-where",
+    "href": "tickets/ask-a-clinician/4.html#when-and-where",
+    "title": "Ask a clinician - episode 4",
+    "section": "When and where",
+    "text": "When and where\nOnline, 2-3pm, on Friday the 13th of September.\nRecording of the event can be found here."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/4.html#questions",
+    "href": "tickets/ask-a-clinician/4.html#questions",
+    "title": "Ask a clinician - episode 4",
+    "section": "Questions",
+    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/7.html",
+    "href": "tickets/ask-a-clinician/7.html",
+    "title": "Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare",
+    "section": "",
+    "text": "Join us for the next Ask A Clinician webinar, featuring Anders Thurin, a clinical physiologist from Sweden with a deep interest in medical informatics and the use of routinely collected data to support clinical decisions and reporting.\nWith extensive experience in terminology, standards, and the computer representation of medical concepts, Anders has dedicated much of his career to improving structured documentation and interoperability in healthcare. His day-to-day work focuses on vascular diagnostics and ultrasonography, particularly quantifying venous disease and enhancing computer-supported documentation and reporting.\nIn this session, Anders will share insights into Sweden’s approach to digital healthcare, discussing how data, standards, and technology are shaping clinical practice, diagnostics, and patient care. This will be an excellent opportunity to explore how digital health strategies differ across healthcare systems and what lessons can be learned from Sweden’s experience."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/7.html#webinar-structure",
+    "href": "tickets/ask-a-clinician/7.html#webinar-structure",
+    "title": "Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare",
     "section": "Webinar Structure",
-    "text": "Webinar Structure\nChair: Mark Bailey, Let’s Do Digital Community Lead\nSpeaker: Tilak Das, Consultant Neuroradiologist and Clinical AI Lead\nThe first half will be presentations from our two presentors, followed by a Q&A."
+    "text": "Webinar Structure\nChair: Mark Bailey - Let’s Do Digital Community Lead.\nSpeaker: Anders Thurin - Clinical Physiologist and Informatician, Sweden.\nThe first half will be presentations from our two presentors, followed by a Q&A."
   },
   {
-    "objectID": "tickets/ask-a-clinician/5.html#when-and-where",
-    "href": "tickets/ask-a-clinician/5.html#when-and-where",
-    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
+    "objectID": "tickets/ask-a-clinician/7.html#when-and-where",
+    "href": "tickets/ask-a-clinician/7.html#when-and-where",
+    "title": "Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare",
     "section": "When and where",
-    "text": "When and where\nOnline, 6-7pm UK time, on Thursday the 13th of February."
+    "text": "When and where\nOnline, 6-7pm UK time, on Thursday the 10th of April."
   },
   {
-    "objectID": "tickets/ask-a-clinician/5.html#register-now",
-    "href": "tickets/ask-a-clinician/5.html#register-now",
-    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
+    "objectID": "tickets/ask-a-clinician/7.html#register-now",
+    "href": "tickets/ask-a-clinician/7.html#register-now",
+    "title": "Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare",
     "section": "Register now",
     "text": "Register now"
   },
   {
-    "objectID": "tickets/ask-a-clinician/5.html#questions",
-    "href": "tickets/ask-a-clinician/5.html#questions",
-    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
-    "section": "Questions",
-    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
-  },
-  {
-    "objectID": "tickets/ask-a-clinician/3.html",
-    "href": "tickets/ask-a-clinician/3.html",
-    "title": "Ask a clinician - episode 3",
-    "section": "",
-    "text": "In the world of healthcare data, bridging the gap between clinical practice and digital solutions can often seem like an insurmountable challenge. Have you ever encountered a situation where clinical input in the Electronic Patient Record (EPR) left you baffled? You meticulously designed and implemented a system, only to find a doctor entering ‘TBC’ in a crucial field. What drives these decisions? What are the underlying factors influencing a clinician’s interaction with digital tools?\nThis is the second webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you have ever wanted to ask a CCIO or pharmacist about their thought processes, workflows, workloads, or just, “What the hell were you thinking?”, this is the webinar for you.\nJoin us as Ramandeep, an enthusiastic individual, passionate about digital transformation and innovation explains how a CCIO and pharmacist thinks, works, and, somehow, messes up your data. Ramandeep’s passion stems from her first role as an EPMA Pharmacist in 2014, and she is currently the Group Chief Clinical Information Officer at University Hospitals of Northamptonshire. She has completed the Digital Health.London Pioneer Fellowship Programme and Cohort 4 of the NHS Digital Health Leadership Academy. She is proud to currently be an Advisory Panel member on the CCIO Digital Health Network, a member of the BCS, RPS, Shuri Network & UKCPA."
-  },
-  {
-    "objectID": "tickets/ask-a-clinician/3.html#section",
-    "href": "tickets/ask-a-clinician/3.html#section",
-    "title": "Ask a clinician - episode 3",
-    "section": "",
-    "text": "In the world of healthcare data, bridging the gap between clinical practice and digital solutions can often seem like an insurmountable challenge. Have you ever encountered a situation where clinical input in the Electronic Patient Record (EPR) left you baffled? You meticulously designed and implemented a system, only to find a doctor entering ‘TBC’ in a crucial field. What drives these decisions? What are the underlying factors influencing a clinician’s interaction with digital tools?\nThis is the second webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you have ever wanted to ask a CCIO or pharmacist about their thought processes, workflows, workloads, or just, “What the hell were you thinking?”, this is the webinar for you.\nJoin us as Ramandeep, an enthusiastic individual, passionate about digital transformation and innovation explains how a CCIO and pharmacist thinks, works, and, somehow, messes up your data. Ramandeep’s passion stems from her first role as an EPMA Pharmacist in 2014, and she is currently the Group Chief Clinical Information Officer at University Hospitals of Northamptonshire. She has completed the Digital Health.London Pioneer Fellowship Programme and Cohort 4 of the NHS Digital Health Leadership Academy. She is proud to currently be an Advisory Panel member on the CCIO Digital Health Network, a member of the BCS, RPS, Shuri Network & UKCPA."
-  },
-  {
-    "objectID": "tickets/ask-a-clinician/3.html#webinar-structure",
-    "href": "tickets/ask-a-clinician/3.html#webinar-structure",
-    "title": "Ask a clinician - episode 3",
-    "section": "Webinar structure",
-    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Alex Cheung, Senior Manager NHS England and Community Engagement for AnalystX.\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Ramandeep Kaur, Pharmacist and Group Chief Clinical Information Officer at University Hospitals of Northamptonshire\n        \n    \n\nThe first half will be a presentation of insights from a CCIO and pharmacist, followed by a Q&A."
-  },
-  {
-    "objectID": "tickets/ask-a-clinician/3.html#when-and-where",
-    "href": "tickets/ask-a-clinician/3.html#when-and-where",
-    "title": "Ask a clinician - episode 3",
-    "section": "When and where",
-    "text": "When and where\nOnline, 2-3pm, on Thursday the 1st August."
-  },
-  {
-    "objectID": "tickets/ask-a-clinician/3.html#webinar-recording",
-    "href": "tickets/ask-a-clinician/3.html#webinar-recording",
-    "title": "Ask a clinician - episode 3",
-    "section": "Webinar recording",
-    "text": "Webinar recording\nYou can now watch the recording here."
-  },
-  {
-    "objectID": "tickets/ask-a-clinician/3.html#questions",
-    "href": "tickets/ask-a-clinician/3.html#questions",
-    "title": "Ask a clinician - episode 3",
+    "objectID": "tickets/ask-a-clinician/7.html#questions",
+    "href": "tickets/ask-a-clinician/7.html#questions",
+    "title": "Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
@@ -4480,233 +4452,324 @@
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/ask-a-clinician/4.html",
-    "href": "tickets/ask-a-clinician/4.html",
-    "title": "Ask a clinician - episode 4",
+    "objectID": "tickets/ask-a-clinician/3.html",
+    "href": "tickets/ask-a-clinician/3.html",
+    "title": "Ask a clinician - episode 3",
     "section": "",
-    "text": "Are you a computer programmer, data analyst, UX designer, cybersecurity expert, or anyone else who works with healthcare data? Have you ever wondered why certain decisions are made in clinical settings that seem to complicate your carefully designed systems? Or perhaps you’re curious about the real-world challenges faced by GPs and clinical informaticians?\nJoin us for an enlightening session in the “Ask a Clinician” series from the Let’s Do Digital Team. In this webinar, Anita Phung and Dom Main will share their unique perspectives as both GPs and clinical informaticians.\nAnita Phung is a Portfolio GP, Medical Monitor at Lindus Health, and SEL ICB Digital Transformation Clinical Lead. With over 10 years of clinical experience in the NHS, combined with her work in pharmaceutical medicine and health tech startups, Anita brings a wealth of knowledge in digital health and health optimisation. She’s passionate about building better digital systems and providing education in digital health. Anita’s personal achievements, such as completing the 10-day silent meditation retreat Vipassana and the 500-mile Camino de Santiago hike, reflect her dedication to introspection and inspiration. She loves efficiency, creativity, and streamlining processes, and she’s eager to connect and help where she can.\nDom Main is a Clinical Engineer at Healthtech-1 and an NHS GP with 18 years of experience. Starting his career as a theatre orderly, Dom has seen firsthand how existing NHS systems can hinder good patient care. Motivated to change this, he’s on a mission to automate routine admin tasks in primary care. With a background in Physics and Philosophy, Dom quickly realised the significant impact of General Practice. Now, at Healthtech-1, he focuses on engineering and product development to help the NHS tackle administrative burdens and improve software solutions.\nIn this webinar, Anita and Dom will discuss their thought processes, workflows, and the challenges they face. If you’ve ever wanted to ask clinicians, “What were you thinking?” or understand their work better, this is the perfect opportunity. Don’t miss out on this chance to gain valuable insights from two experts dedicated to transforming healthcare through digital innovation."
+    "text": "In the world of healthcare data, bridging the gap between clinical practice and digital solutions can often seem like an insurmountable challenge. Have you ever encountered a situation where clinical input in the Electronic Patient Record (EPR) left you baffled? You meticulously designed and implemented a system, only to find a doctor entering ‘TBC’ in a crucial field. What drives these decisions? What are the underlying factors influencing a clinician’s interaction with digital tools?\nThis is the second webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you have ever wanted to ask a CCIO or pharmacist about their thought processes, workflows, workloads, or just, “What the hell were you thinking?”, this is the webinar for you.\nJoin us as Ramandeep, an enthusiastic individual, passionate about digital transformation and innovation explains how a CCIO and pharmacist thinks, works, and, somehow, messes up your data. Ramandeep’s passion stems from her first role as an EPMA Pharmacist in 2014, and she is currently the Group Chief Clinical Information Officer at University Hospitals of Northamptonshire. She has completed the Digital Health.London Pioneer Fellowship Programme and Cohort 4 of the NHS Digital Health Leadership Academy. She is proud to currently be an Advisory Panel member on the CCIO Digital Health Network, a member of the BCS, RPS, Shuri Network & UKCPA."
   },
   {
-    "objectID": "tickets/ask-a-clinician/4.html#section",
-    "href": "tickets/ask-a-clinician/4.html#section",
-    "title": "Ask a clinician - episode 4",
+    "objectID": "tickets/ask-a-clinician/3.html#section",
+    "href": "tickets/ask-a-clinician/3.html#section",
+    "title": "Ask a clinician - episode 3",
     "section": "",
-    "text": "Are you a computer programmer, data analyst, UX designer, cybersecurity expert, or anyone else who works with healthcare data? Have you ever wondered why certain decisions are made in clinical settings that seem to complicate your carefully designed systems? Or perhaps you’re curious about the real-world challenges faced by GPs and clinical informaticians?\nJoin us for an enlightening session in the “Ask a Clinician” series from the Let’s Do Digital Team. In this webinar, Anita Phung and Dom Main will share their unique perspectives as both GPs and clinical informaticians.\nAnita Phung is a Portfolio GP, Medical Monitor at Lindus Health, and SEL ICB Digital Transformation Clinical Lead. With over 10 years of clinical experience in the NHS, combined with her work in pharmaceutical medicine and health tech startups, Anita brings a wealth of knowledge in digital health and health optimisation. She’s passionate about building better digital systems and providing education in digital health. Anita’s personal achievements, such as completing the 10-day silent meditation retreat Vipassana and the 500-mile Camino de Santiago hike, reflect her dedication to introspection and inspiration. She loves efficiency, creativity, and streamlining processes, and she’s eager to connect and help where she can.\nDom Main is a Clinical Engineer at Healthtech-1 and an NHS GP with 18 years of experience. Starting his career as a theatre orderly, Dom has seen firsthand how existing NHS systems can hinder good patient care. Motivated to change this, he’s on a mission to automate routine admin tasks in primary care. With a background in Physics and Philosophy, Dom quickly realised the significant impact of General Practice. Now, at Healthtech-1, he focuses on engineering and product development to help the NHS tackle administrative burdens and improve software solutions.\nIn this webinar, Anita and Dom will discuss their thought processes, workflows, and the challenges they face. If you’ve ever wanted to ask clinicians, “What were you thinking?” or understand their work better, this is the perfect opportunity. Don’t miss out on this chance to gain valuable insights from two experts dedicated to transforming healthcare through digital innovation."
+    "text": "In the world of healthcare data, bridging the gap between clinical practice and digital solutions can often seem like an insurmountable challenge. Have you ever encountered a situation where clinical input in the Electronic Patient Record (EPR) left you baffled? You meticulously designed and implemented a system, only to find a doctor entering ‘TBC’ in a crucial field. What drives these decisions? What are the underlying factors influencing a clinician’s interaction with digital tools?\nThis is the second webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you have ever wanted to ask a CCIO or pharmacist about their thought processes, workflows, workloads, or just, “What the hell were you thinking?”, this is the webinar for you.\nJoin us as Ramandeep, an enthusiastic individual, passionate about digital transformation and innovation explains how a CCIO and pharmacist thinks, works, and, somehow, messes up your data. Ramandeep’s passion stems from her first role as an EPMA Pharmacist in 2014, and she is currently the Group Chief Clinical Information Officer at University Hospitals of Northamptonshire. She has completed the Digital Health.London Pioneer Fellowship Programme and Cohort 4 of the NHS Digital Health Leadership Academy. She is proud to currently be an Advisory Panel member on the CCIO Digital Health Network, a member of the BCS, RPS, Shuri Network & UKCPA."
   },
   {
-    "objectID": "tickets/ask-a-clinician/4.html#people-and-structure",
-    "href": "tickets/ask-a-clinician/4.html#people-and-structure",
-    "title": "Ask a clinician - episode 4",
-    "section": "People and structure",
-    "text": "People and structure\nChair\n\n    \n        \n            \n        \n        \n            Grant Vallance - Information Manager, Oxford University Hospitals NHS Trust\n    \n\nSpeakers\n\n    \n        \n            \n        \n        \n            Dom Main – GP and Clinical Engineer at Healthtech1\n        \n    \n\n\n    \n        \n            \n        \n        \n            Anita Phung - Portfolio GP | Medical Monitor at Lindus Health | SEL ICB Digital Transformation Clinical Lead\n        \n    \n\nThe first half will be presentations from our two presentors, followed by a Q&A."
+    "objectID": "tickets/ask-a-clinician/3.html#webinar-structure",
+    "href": "tickets/ask-a-clinician/3.html#webinar-structure",
+    "title": "Ask a clinician - episode 3",
+    "section": "Webinar structure",
+    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Alex Cheung, Senior Manager NHS England and Community Engagement for AnalystX.\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Ramandeep Kaur, Pharmacist and Group Chief Clinical Information Officer at University Hospitals of Northamptonshire\n        \n    \n\nThe first half will be a presentation of insights from a CCIO and pharmacist, followed by a Q&A."
   },
   {
-    "objectID": "tickets/ask-a-clinician/4.html#when-and-where",
-    "href": "tickets/ask-a-clinician/4.html#when-and-where",
-    "title": "Ask a clinician - episode 4",
+    "objectID": "tickets/ask-a-clinician/3.html#when-and-where",
+    "href": "tickets/ask-a-clinician/3.html#when-and-where",
+    "title": "Ask a clinician - episode 3",
     "section": "When and where",
-    "text": "When and where\nOnline, 2-3pm, on Friday the 13th of September.\nRecording of the event can be found here."
+    "text": "When and where\nOnline, 2-3pm, on Thursday the 1st August."
   },
   {
-    "objectID": "tickets/ask-a-clinician/4.html#questions",
-    "href": "tickets/ask-a-clinician/4.html#questions",
-    "title": "Ask a clinician - episode 4",
+    "objectID": "tickets/ask-a-clinician/3.html#webinar-recording",
+    "href": "tickets/ask-a-clinician/3.html#webinar-recording",
+    "title": "Ask a clinician - episode 3",
+    "section": "Webinar recording",
+    "text": "Webinar recording\nYou can now watch the recording here."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/3.html#questions",
+    "href": "tickets/ask-a-clinician/3.html#questions",
+    "title": "Ask a clinician - episode 3",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/index.html",
-    "href": "tickets/index.html",
-    "title": "Let’s Do Digital Events",
+    "objectID": "tickets/ask-a-clinician/5.html",
+    "href": "tickets/ask-a-clinician/5.html",
+    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
     "section": "",
-    "text": "Upcoming EventsSelf-paced learningPrevious events\n\n\n\n12th Feb - 5th March January 2025\nProgramming in Healthcare Module 0-3\n\n\n13th February 2025\nAsk a Clinician - The Radiologist’s Eye: Insights into Neuroradiology\n\n\n3rd of Mach 2025\nAsk A Clinician: Insights from the Field Hospital and Beyond\n\n\n11th March 2025\nData Analytics in Medicine (DAIM) Course\n\n\n\n\nModule 0 - Programming in Healthcare\nRegister here\n\n\n\n\n31st March 2022\nLet’s Talk Digital Conference 2022\n\n\nJuly 2022\nJuly 2022 Quarterly meeting\n\n\nOctober 2022\nOctober 2022 Quarterly meeting\n\n\n20th June 2023\nLet’s Talk Digital Conference 2023\n\n\n13th June 2024\nAsk a Clinician - Insights from a medic\n\n\n27th June 2024\nProgramming in Healthcare - Module 1\n\n\n3rd July 2024\nProgramming in Healthcare - Module 1- Evening course\n\n\n16th of July 2024\nFrontline Insights - Streamlining sleep services and automating outpatient clinic preparation\n\n\n25th July 2024\nAsk a Clinician - Insights from a vascular surgeon\n\n\n1st August 2024\nAsk a Clinician - Insights from a CCIO and pharmacist\n\n\n22nd August 2024\nProgramming in Healthcare - Module 2\n\n\n29th August 2024\nProgramming in Healthcare - Module 0\n\n\n5th September 2024\nAsk someone in digital - Confidentiality, Trust and Usability - Are we ready to erode patient trust for streamlined digital health care?\n\n\n11th September 2024\nProgramming in Healthcare - Module 0 - evening\n\n\n12th September 2024\nDigital Clinical Safety Platform (DCSP) webinar\n\n\n13th September 2024\nAsk a Clinician - Insights from two GPs\n\n\n24th October 2024\nLet’s Talk Digital Conference 2024\n\n\n6th November 2024\nProgramming in Healthcare - Module 2 - evening\n\n\n28th of November 2024\nMind the Bleep & Let’s Do Digital: Introduction to Health Informatics\n\n\n18th December 2024\nOpen source Christmas special webinar! Dr Marcus Baw"
+    "text": "Exploring the unseen – a journey into the brain, spine, and head & neck.\n\n\n\n\n\nAre you a data scientist, software engineer, AI developer, or UX designer working with medical imaging or radiology data? Perhaps you’ve asked yourself, “How does a radiologist approach an imaging study? Why does it take time to generate a report? What challenges exist in AI-driven imaging workflows?” Or even, “Why does the system sometimes flag things that aren’t there?”\nThis is the fifth webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you’ve ever wanted to understand the mind of a radiologist or dive into the intersection of medical imaging and clinical AI, this webinar is for you.\nJoin us as Tilak Das, Consultant Neuroradiologist, Clinical AI Lead, and award-winning educator, shares his expertise on how radiologists interpret imaging data, tackle complex diagnostic cases, and leverage AI to advance patient care."
   },
   {
-    "objectID": "tickets/dcsa/1.html",
-    "href": "tickets/dcsa/1.html",
-    "title": "Digital Clinical Safety Platform (DCSP) webinar",
+    "objectID": "tickets/ask-a-clinician/5.html#the-radiologists-eye-insights-into-neuroradiology",
+    "href": "tickets/ask-a-clinician/5.html#the-radiologists-eye-insights-into-neuroradiology",
+    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
     "section": "",
-    "text": "The ultimate aim of the DCSP is to streamline and automate the process of clinical safety documentation of digital systems used in healthcare. This work has initially focused on the UK DCB0129 and DCB0160 safety standards, but the DCSP is not limited to this set of standards or locality. The DCSP is designed to ingrain and also simplify the documentation and thought processes around improved clinical safety from the level of the digital system’s code, through the Clinical Safety Officer and their team, and all the way up to upper management.\nThis webinar showcases a prototype of the DCSP, with input from the Digital Clinical Safety Alliance team and also Dean Mawson, a Clinical Safety Officer, on how this new system can help improve and streamline your safety documentation.\nLet’s Do Digital is kindly advertising and hosting this event on behalf of the Digital Clinical Safety Alliance."
+    "text": "Exploring the unseen – a journey into the brain, spine, and head & neck.\n\n\n\n\n\nAre you a data scientist, software engineer, AI developer, or UX designer working with medical imaging or radiology data? Perhaps you’ve asked yourself, “How does a radiologist approach an imaging study? Why does it take time to generate a report? What challenges exist in AI-driven imaging workflows?” Or even, “Why does the system sometimes flag things that aren’t there?”\nThis is the fifth webinar in the Ask a Clinician series from the Let’s Do Digital Team. If you’ve ever wanted to understand the mind of a radiologist or dive into the intersection of medical imaging and clinical AI, this webinar is for you.\nJoin us as Tilak Das, Consultant Neuroradiologist, Clinical AI Lead, and award-winning educator, shares his expertise on how radiologists interpret imaging data, tackle complex diagnostic cases, and leverage AI to advance patient care."
   },
   {
-    "objectID": "tickets/dcsa/1.html#when-and-where",
-    "href": "tickets/dcsa/1.html#when-and-where",
-    "title": "Digital Clinical Safety Platform (DCSP) webinar",
+    "objectID": "tickets/ask-a-clinician/5.html#webinar-structure",
+    "href": "tickets/ask-a-clinician/5.html#webinar-structure",
+    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
+    "section": "Webinar Structure",
+    "text": "Webinar Structure\nChair: Mark Bailey, Let’s Do Digital Community Lead\nSpeaker: Tilak Das, Consultant Neuroradiologist and Clinical AI Lead\nThe first half will be presentations from our two presentors, followed by a Q&A."
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/5.html#when-and-where",
+    "href": "tickets/ask-a-clinician/5.html#when-and-where",
+    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
     "section": "When and where",
-    "text": "When and where\nOnline, 2-3pm, on Thursday the 12th of September 2024.\nView the recording on YouTube.\nSlides can be found here."
+    "text": "When and where\nOnline, 6-7pm UK time, on Thursday the 13th of February."
   },
   {
-    "objectID": "tickets/dcsa/1.html#questions",
-    "href": "tickets/dcsa/1.html#questions",
-    "title": "Digital Clinical Safety Platform (DCSP) webinar",
+    "objectID": "tickets/ask-a-clinician/5.html#register-now",
+    "href": "tickets/ask-a-clinician/5.html#register-now",
+    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
+    "section": "Register now",
+    "text": "Register now"
+  },
+  {
+    "objectID": "tickets/ask-a-clinician/5.html#questions",
+    "href": "tickets/ask-a-clinician/5.html#questions",
+    "title": "Ask a Clinician - Episode 5 - Insights into Neuroradiology",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html",
-    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html",
-    "title": "Programming in Healthcare - Module 0",
+    "objectID": "tickets/daim/1.html",
+    "href": "tickets/daim/1.html",
+    "title": "Data Analytics in Medicine (DAIM) Course",
     "section": "",
-    "text": "Please join us for the module 0 of Programming in Healthcare. We had some amazing feedback from module 1, but a few students mentioned it would be great to have a more basic level module in programming. Hence, we have created module 0.\nModule 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command and how to program the basics. The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
+    "text": "Ever wanted to use the data you have been collecting for several years now to help better understand your clinical practice? Do you want to learn how best to collet this data, analyse it and see how clinical practice can be improved? Or perhaps you are just interested in what machine learning and AI are. If that is the case, this course is for you!\nThe Data Analytics in Medicine (DAIM) course will cover the fundamentals of the python programming language that you will need to work with medical data and images. This course will examine the wider implications of these skills on clinical work and considerations that must be made when working with data and code in a clinical setting.\nThe DAIM course builds on the highly successful Programming in Healthcare course, and is designed to take you to the next level in your digital healthcare journey. Module 3 of the Programming in Healthcare course is a helpful prerequisite to the DAIM course.\nThe DAIM course is a fantastic opportunity to extend your skills with hands-on workshops and code tasks, with full support from our experienced tutors."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#course-structure",
-    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#course-structure",
-    "title": "Programming in Healthcare - Module 0",
-    "section": "Course structure",
-    "text": "Course structure\nWe will have a mixture of talks to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with around 4 students per tutor."
+    "objectID": "tickets/daim/1.html#course-structure",
+    "href": "tickets/daim/1.html#course-structure",
+    "title": "Data Analytics in Medicine (DAIM) Course",
+    "section": "Course Structure",
+    "text": "Course Structure\nThe DAIM course is split into:\nSeminars where the core theory for each topic will be covered in easy to digest sessions.\nWorkshops where you will gain practical experiences of working with the techniques discussed in the seminar, with support from our experienced tutors, working in small groups."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#when-and-where",
-    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#when-and-where",
-    "title": "Programming in Healthcare - Module 0",
+    "objectID": "tickets/daim/1.html#modules",
+    "href": "tickets/daim/1.html#modules",
+    "title": "Data Analytics in Medicine (DAIM) Course",
+    "section": "Modules",
+    "text": "Modules\nModule 1 - Introduction Working with the broader concepts required for the course, such as code structure and debugging.\nModule 2 Core Python for Image Processing Hands-on experience with core Python modules for image analysis (NumPy, PIL) and performing basic image tasks.\nModule 3: Python and DICOM. Working with real-life medical imaging in it’s native format, DICOM.\nModule 4 - Machine learning for Medicine Bringing concepts together for the final, most comprehensive unit, where you will build a neural network to analyse chest X-rays using TensorFlow, a machine learning package."
+  },
+  {
+    "objectID": "tickets/daim/1.html#when-and-where",
+    "href": "tickets/daim/1.html#when-and-where",
+    "title": "Data Analytics in Medicine (DAIM) Course",
     "section": "When and where",
-    "text": "When and where\nOnline, Thursday 29th August, 2-5 pm, on Zoom."
+    "text": "When and where\nStart date and time: 18:00 UK time, Tuesday the 11th of March 2025."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#topics-covered",
-    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#topics-covered",
-    "title": "Programming in Healthcare - Module 0",
-    "section": "Topics covered",
-    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and gently take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (eg add these two things. Make x equal to 3)\nFunctions (hey function, calculate the square root of 9)\nError handling (you were trying to do what!)"
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#purchase-tickets",
-    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#purchase-tickets",
-    "title": "Programming in Healthcare - Module 0",
+    "objectID": "tickets/daim/1.html#purchase-tickets",
+    "href": "tickets/daim/1.html#purchase-tickets",
+    "title": "Data Analytics in Medicine (DAIM) Course",
     "section": "Purchase tickets",
-    "text": "Purchase tickets"
+    "text": "Purchase tickets\nTickets can be purchases here."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-0-29-08-24.html#questions",
-    "href": "tickets/programming-in-healthcare/module-0-29-08-24.html#questions",
-    "title": "Programming in Healthcare - Module 0",
+    "objectID": "tickets/daim/1.html#questions",
+    "href": "tickets/daim/1.html#questions",
+    "title": "Data Analytics in Medicine (DAIM) Course",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html",
-    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html",
-    "title": "Programming in Healthcare - Module 1",
+    "objectID": "tickets/frontline-insights/1.html",
+    "href": "tickets/frontline-insights/1.html",
+    "title": "Frontline Insights - episode 1",
+    "section": "",
+    "text": "We have a very exciting webinar ready and waiting for you, especially for those computer geeks out there!\n\n\n\n\n\nIn this first of many webinars from the Frontline Insights series from the Let’s Do Digital team, we are excited to hear from Andrew Simpson, Clinical Scientist at South Tees Hospital NHS Foundation Trust and Sam McInerney, Oncology registrar at the Beatson Cancer Centre and founder of DoctorsThatCode.com.\nAndrew will show us how Internet of Things (IoT), blood sweat and tears and a department that is open to innovation brought together both hardware and software to automate the heavy workload at the sleep department in South Tees.\nSam will give us the low down on how he successfully used robotic process automation to streamline the detailed clinic preparation that is required of oncology clinic outpatients.\nAndrew is a HCPC registered Clinical Scientist in Medical Physics & Clinical Engineering, specialising in Clinical Measurement, Clinical Engineering & Computing. Andrew has implemented an array of digital solutions to improve healthcare management. Andrew is also the British Computer Society Teesside and District Branch Chair.\nSam is the founder of DoctorsThatCode.com, a very interesting and informative blog series. He is an up and coming clinician-who-codes, and uses his dual speciality skills to improve the care he gives as a oncology registrar in Scotland."
+  },
+  {
+    "objectID": "tickets/frontline-insights/1.html#section",
+    "href": "tickets/frontline-insights/1.html#section",
+    "title": "Frontline Insights - episode 1",
+    "section": "",
+    "text": "We have a very exciting webinar ready and waiting for you, especially for those computer geeks out there!\n\n\n\n\n\nIn this first of many webinars from the Frontline Insights series from the Let’s Do Digital team, we are excited to hear from Andrew Simpson, Clinical Scientist at South Tees Hospital NHS Foundation Trust and Sam McInerney, Oncology registrar at the Beatson Cancer Centre and founder of DoctorsThatCode.com.\nAndrew will show us how Internet of Things (IoT), blood sweat and tears and a department that is open to innovation brought together both hardware and software to automate the heavy workload at the sleep department in South Tees.\nSam will give us the low down on how he successfully used robotic process automation to streamline the detailed clinic preparation that is required of oncology clinic outpatients.\nAndrew is a HCPC registered Clinical Scientist in Medical Physics & Clinical Engineering, specialising in Clinical Measurement, Clinical Engineering & Computing. Andrew has implemented an array of digital solutions to improve healthcare management. Andrew is also the British Computer Society Teesside and District Branch Chair.\nSam is the founder of DoctorsThatCode.com, a very interesting and informative blog series. He is an up and coming clinician-who-codes, and uses his dual speciality skills to improve the care he gives as a oncology registrar in Scotland."
+  },
+  {
+    "objectID": "tickets/frontline-insights/1.html#webinar-structure",
+    "href": "tickets/frontline-insights/1.html#webinar-structure",
+    "title": "Frontline Insights - episode 1",
+    "section": "Webinar structure",
+    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Remon Hanna, Doctor &  Head of data @ MedTech\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Andrew Simpson, Clinical Scientist, South Tees Hospital NHS Foundation Trust.\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Sam McInerney Beatson Cancer Centre and founder of DoctorsThatCode.com, \n        \n    \n\nTwo 20 minute presentations followed by a Q&A."
+  },
+  {
+    "objectID": "tickets/frontline-insights/1.html#when-and-where",
+    "href": "tickets/frontline-insights/1.html#when-and-where",
+    "title": "Frontline Insights - episode 1",
+    "section": "When and where",
+    "text": "When and where\nYouTube streaming, 2-3pm, on Tuesday the 16th of July."
+  },
+  {
+    "objectID": "tickets/frontline-insights/1.html#tickets-and-coffees",
+    "href": "tickets/frontline-insights/1.html#tickets-and-coffees",
+    "title": "Frontline Insights - episode 1",
+    "section": "Tickets and coffees",
+    "text": "Tickets and coffees\nTicket sales are now closed.\nYou can watch the recording here."
+  },
+  {
+    "objectID": "tickets/frontline-insights/1.html#questions",
+    "href": "tickets/frontline-insights/1.html#questions",
+    "title": "Frontline Insights - episode 1",
+    "section": "Questions",
+    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html",
+    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html",
+    "title": "Programming in Healthcare - Module 1 - Evening course",
     "section": "",
     "text": "Please join us for the first of many coding courses in healthcare that the Let’s Do Digital team will be running. This course is open to anyone but has been designed for those working or interested in digital healthcare / clinical informatics. Module 1 is designed for those with little to no knowledge in coding. We will gently take you through what the command line is, how to run a command, how to program the basics, and even build your own web app (it is not as hard as you think). The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#course-structure",
-    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#course-structure",
-    "title": "Programming in Healthcare - Module 1",
+    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#course-structure",
+    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#course-structure",
+    "title": "Programming in Healthcare - Module 1 - Evening course",
     "section": "Course structure",
     "text": "Course structure\nWe now have 11 tutors and 41 potential students signed up (on the mailing list) for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#when-and-where",
-    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#when-and-where",
-    "title": "Programming in Healthcare - Module 1",
+    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#when-and-where",
+    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#when-and-where",
+    "title": "Programming in Healthcare - Module 1 - Evening course",
     "section": "When and where",
-    "text": "When and where\nOnline, Thursday 27th June, 2-5 pm, on Zoom."
+    "text": "When and where\nOnline, Wednesday 3rd July, 7-10 pm, on Zoom."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#topics-covered",
-    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#topics-covered",
-    "title": "Programming in Healthcare - Module 1",
+    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#topics-covered",
+    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#topics-covered",
+    "title": "Programming in Healthcare - Module 1 - Evening course",
     "section": "Topics covered",
     "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (add these two things. Make x equal to 3)\nFunctions (hay function, calculate the square root of 9)\nError handling (you were trying to do what!)\nWeb apps\nMedical calculators"
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#purchase-tickets",
-    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#purchase-tickets",
-    "title": "Programming in Healthcare - Module 1",
+    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#purchase-tickets",
+    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#purchase-tickets",
+    "title": "Programming in Healthcare - Module 1 - Evening course",
     "section": "Purchase tickets",
-    "text": "Purchase tickets\nNow closed.\nA recording of the session will be available shortly."
+    "text": "Purchase tickets\nTicket sales are now closed."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#questions",
-    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#questions",
-    "title": "Programming in Healthcare - Module 1",
+    "objectID": "tickets/programming-in-healthcare/module-1-03-07-2024.html#questions",
+    "href": "tickets/programming-in-healthcare/module-1-03-07-2024.html#questions",
+    "title": "Programming in Healthcare - Module 1 - Evening course",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-1-27-06-2024.html#many-thanks",
-    "href": "tickets/programming-in-healthcare/module-1-27-06-2024.html#many-thanks",
-    "title": "Programming in Healthcare - Module 1",
-    "section": "Many thanks",
-    "text": "Many thanks\nMany thanks to\nDr Kim Pramanik (https://www.linkedin.com/in/drkimpramanik/)\nFor providing the Let’s Do Digital team with access to her Zoom account to enable this course to run virtually."
-  },
-  {
-    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html",
-    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html",
-    "title": "Programming in Healthcare - Module 2 - evening",
+    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html",
+    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html",
+    "title": "Programming in Healthcare - Module 2",
     "section": "",
-    "text": "You now have the basics from Module 1. Time to progress your programming skills. In this evening session module we get you to build a digital consent form. It is not as hard as it sounds. We will take you through how to process map a current paper based consent form, and then create a process map for a much better (and faster) digital form. We small group teaching with tutors to help you through each step of the building and learning process."
+    "text": "You now have the basics from Module 1. Time to progress your programming skills. In this module we get you to build a digital consent form. It is not as hard as it sounds. We will take you through how to process map a current paper based consent form, and then create a process map for a much better (and faster) digital form. We small group teaching with tutors to help you through each step of the building and learning process."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#course-structure",
-    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#course-structure",
-    "title": "Programming in Healthcare - Module 2 - evening",
+    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#course-structure",
+    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#course-structure",
+    "title": "Programming in Healthcare - Module 2",
     "section": "Course structure",
     "text": "Course structure\nWe will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away. We will have break out rooms for the hands on coding sessions, with around 4 students per tutor."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#when-and-where",
-    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#when-and-where",
-    "title": "Programming in Healthcare - Module 2 - evening",
+    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#when-and-where",
+    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#when-and-where",
+    "title": "Programming in Healthcare - Module 2",
     "section": "When and where",
-    "text": "When and where\nOnline, Wednesday 6th November, 7-10 pm, on Zoom."
+    "text": "When and where\nOnline, Thursday 22nd August, 2-5 pm, on Zoom."
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#topics-covered",
-    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#topics-covered",
-    "title": "Programming in Healthcare - Module 2 - evening",
+    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#topics-covered",
+    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#topics-covered",
+    "title": "Programming in Healthcare - Module 2",
     "section": "Topics covered",
     "text": "Topics covered\nMoving to slightly more advanced programming skills, but with very much small group teaching the whole way with well paced hands on sessions, topics you will learning include:\n\nProcess mapping\nWeb app architecture\nFrontend and backend design\nUse of more advanced python code"
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#purchase-tickets",
-    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#purchase-tickets",
-    "title": "Programming in Healthcare - Module 2 - evening",
+    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#purchase-tickets",
+    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#purchase-tickets",
+    "title": "Programming in Healthcare - Module 2",
     "section": "Purchase tickets",
     "text": "Purchase tickets"
   },
   {
-    "objectID": "tickets/programming-in-healthcare/module-2-06-10-24.html#questions",
-    "href": "tickets/programming-in-healthcare/module-2-06-10-24.html#questions",
-    "title": "Programming in Healthcare - Module 2 - evening",
+    "objectID": "tickets/programming-in-healthcare/module-2-22-08-24.html#questions",
+    "href": "tickets/programming-in-healthcare/module-2-22-08-24.html#questions",
+    "title": "Programming in Healthcare - Module 2",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
   {
-    "objectID": "tickets/ask-someone-in-digital/1.html",
-    "href": "tickets/ask-someone-in-digital/1.html",
-    "title": "Ask someone in Digital - Episode 1",
+    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html",
+    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html",
+    "title": "Programming in Healthcare - Module 0 - evening",
     "section": "",
-    "text": "In the digital age, the balance between cybersecurity and usability in health systems is more crucial than ever. Geoff Revill will, in this webinar, delve into the delicate interplay between patient trust, clinician trust, and the security measures necessary to protect digital health information. Geoff will contrast the traditional trust norms in face-to-face clinician-patient engagements with the current digital realities, exploring how digital security models align or conflict with societal expectations.\nKey discussion points will include:\n\nThe impact of increased cybersecurity on system usability and the inherent trade-offs.\nTrust points in digital systems and their correlation with real-world trust dynamics.\nThe often overlooked conflict between trust expectations in digital health solutions and the pursuit of user-friendly systems.\nReal-world examples and implementation challenges, focusing on how aligning digital trust models with real-world expectations can introduce barriers to adoption.\n\nGeoff’s aim is to engage all those involved in the patient journey in a conversation about where they see the balance points between trust and usability, and whether we are prepared to compromise patient trust for faster, cheaper, and more efficient digital health systems.\nDon’t miss this opportunity to explore the future of digital health systems and their impact on trust and usability."
+    "text": "Please join us for the module 0 of Programming in Healthcare. We had some amazing feedback from module 1, but a few students mentioned it would be great to have a more basic level module in programming. Hence, we have created module 0.\nModule 0 is open to anyone, but has been designed for those working or interested in digital healthcare / clinical informatics. Module 0 is designed for those with no prior knowledge in coding. We will gently take you through what the command line is, how to run a command and how to program the basics. The programming language we will be using is Python. Python is a well-respected programming language that is very versatile. You can build simple programs at one end and run data analysis, machine learning/AI, and build extensive web apps at the other."
   },
   {
-    "objectID": "tickets/ask-someone-in-digital/1.html#section",
-    "href": "tickets/ask-someone-in-digital/1.html#section",
-    "title": "Ask someone in Digital - Episode 1",
-    "section": "",
-    "text": "In the digital age, the balance between cybersecurity and usability in health systems is more crucial than ever. Geoff Revill will, in this webinar, delve into the delicate interplay between patient trust, clinician trust, and the security measures necessary to protect digital health information. Geoff will contrast the traditional trust norms in face-to-face clinician-patient engagements with the current digital realities, exploring how digital security models align or conflict with societal expectations.\nKey discussion points will include:\n\nThe impact of increased cybersecurity on system usability and the inherent trade-offs.\nTrust points in digital systems and their correlation with real-world trust dynamics.\nThe often overlooked conflict between trust expectations in digital health solutions and the pursuit of user-friendly systems.\nReal-world examples and implementation challenges, focusing on how aligning digital trust models with real-world expectations can introduce barriers to adoption.\n\nGeoff’s aim is to engage all those involved in the patient journey in a conversation about where they see the balance points between trust and usability, and whether we are prepared to compromise patient trust for faster, cheaper, and more efficient digital health systems.\nDon’t miss this opportunity to explore the future of digital health systems and their impact on trust and usability."
+    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#course-structure",
+    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#course-structure",
+    "title": "Programming in Healthcare - Module 0 - evening",
+    "section": "Course structure",
+    "text": "Course structure\nWe will have a mixture of talks to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don’t even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with around 4 students per tutor."
   },
   {
-    "objectID": "tickets/ask-someone-in-digital/1.html#webinar-structure",
-    "href": "tickets/ask-someone-in-digital/1.html#webinar-structure",
-    "title": "Ask someone in Digital - Episode 1",
-    "section": "Webinar structure",
-    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Emma Davis - Clinical Lead - CSO - Shared Care Records - PRSB & GP\n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Geoff Revill - Managing Director, Safe Space One Ltd. Director of the South West Cyber Security Cluster\n        \n    \n\nThe first half will be a presentation from the speaker followed by a Q&A."
-  },
-  {
-    "objectID": "tickets/ask-someone-in-digital/1.html#when-and-where",
-    "href": "tickets/ask-someone-in-digital/1.html#when-and-where",
-    "title": "Ask someone in Digital - Episode 1",
+    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#when-and-where",
+    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#when-and-where",
+    "title": "Programming in Healthcare - Module 0 - evening",
     "section": "When and where",
-    "text": "When and where\nOnline, 2-3pm, on Thursday the 5th of September 2024.\nYou can watch the session here https://www.youtube.com/watch?v=y6QvA6D0iS0."
+    "text": "When and where\nOnline, Wednesday 11th September, 7-10 pm, on Zoom."
   },
   {
-    "objectID": "tickets/ask-someone-in-digital/1.html#questions",
-    "href": "tickets/ask-someone-in-digital/1.html#questions",
-    "title": "Ask someone in Digital - Episode 1",
+    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#topics-covered",
+    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#topics-covered",
+    "title": "Programming in Healthcare - Module 0 - evening",
+    "section": "Topics covered",
+    "text": "Topics covered\nThe below topics may sound extensive and “out worldly” to the novice, but do not worry. We will show you exactly what each concept entails and gently take you through worked examples to better understand and utilise each one.\n\nThe terminal (the black window where you type in commands)\nSyntax (the coding grammar)\nVariables (where you store things)\nComments (stuff to read later when you have no idea what the code is supposed to do)\nControl flow (if this then that)\nExpressions and operators (eg add these two things. Make x equal to 3)\nFunctions (hey function, calculate the square root of 9)\nError handling (you were trying to do what!)"
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#purchase-tickets",
+    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#purchase-tickets",
+    "title": "Programming in Healthcare - Module 0 - evening",
+    "section": "Purchase tickets",
+    "text": "Purchase tickets"
+  },
+  {
+    "objectID": "tickets/programming-in-healthcare/module-0-11-09-24.html#questions",
+    "href": "tickets/programming-in-healthcare/module-0-11-09-24.html#questions",
+    "title": "Programming in Healthcare - Module 0 - evening",
+    "section": "Questions",
+    "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
+  },
+  {
+    "objectID": "tickets/ask-someone-in-digital/2.html",
+    "href": "tickets/ask-someone-in-digital/2.html",
+    "title": "Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation",
+    "section": "",
+    "text": "Join us for the next Ask Someone in Digital webinar, featuring Daniela Valdés, a Turing Fellow, AI scientist, and digital transformation leader with a career spanning healthcare, consulting, and executive leadership.\nDaniela has worked with Deloitte, the World Bank, and the NHS, bringing AI, machine learning, and automation into organisations to drive meaningful change.\nCurrently pursuing a PhD in AI and Leadership, Daniela is passionate about using data-driven insights, kind leadership, and digital strategy to support healthcare transformation. With experience as CEO, Chief Officer, and Associate Director of Digital Health, she understands the challenges of integrating AI into real-world healthcare settings and has a track record of leading digital innovation while fostering diverse and inclusive teams.\nIn this session, Daniela will share her experiences navigating AI strategy, governance, and digital healthcare innovation, offering insights into how soft influence + hard data can transform organisations. This is an excellent opportunity to learn from her expertise and ask your own questions about the future of AI in healthcare."
+  },
+  {
+    "objectID": "tickets/ask-someone-in-digital/2.html#webinar-structure",
+    "href": "tickets/ask-someone-in-digital/2.html#webinar-structure",
+    "title": "Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation",
+    "section": "Webinar structure",
+    "text": "Webinar structure\nChair: Mark Bailey - Let’s Do Digital Community Lead.\nSpeaker: Daniela Valdés - Turing Fellow, AI Scientist, and Digital Transformation Leader.\nThe first half will be presentations from our two presentors, followed by a Q&A."
+  },
+  {
+    "objectID": "tickets/ask-someone-in-digital/2.html#when-and-where",
+    "href": "tickets/ask-someone-in-digital/2.html#when-and-where",
+    "title": "Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation",
+    "section": "When and where",
+    "text": "When and where\nOnline, 6-7pm, on Thursday the 1st of May."
+  },
+  {
+    "objectID": "tickets/ask-someone-in-digital/2.html#questions",
+    "href": "tickets/ask-someone-in-digital/2.html#questions",
+    "title": "Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation",
     "section": "Questions",
     "text": "Questions\nHave questions about the course or anything else Let’s Do Digital related, email us at info@letsdodigital.org."
   },
