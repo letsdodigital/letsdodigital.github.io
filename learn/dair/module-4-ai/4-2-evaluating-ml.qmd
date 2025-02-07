@@ -5,7 +5,7 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes: 
-  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-image: /media/daim/bg_cubes_red.png
   data-background-opacity: "0.6"
 ---
 
@@ -187,7 +187,6 @@ $$
 
 ## Mean absolute error (MAE) {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-
 - Divide the sum of the differences between each **prediction** and the **actual value** by the **number of predictions**.
 
 $$
@@ -221,7 +220,11 @@ $$
 
 * adjusted R-squared = because R^2 will go up with more variables i.e., overfit. adjusted R^2 penalises for having more predictor variables
 
----
+#
+:::{.r-stack}
+**Moving to classification**
+:::
+
 
 ## Moving to classification {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -288,188 +291,162 @@ $$
 * Usually defaults to **0.5**
     * This is what we see when Keras shows us the **accuracy** of our model
 
-## Confusion Matrix
+## Confusion Matrix {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-||Model Predicted as 1| Model Predicted as 0|
+||Model Predicted as *Yes*| Model Predicted as *No*|
 |----|-----|-----|
-|True value is 1|A|B|
-|True value is 0|C|D|
+|True value is *Yes*|A|B|
+|True value is *No*|C|D|
+
+True Positives = A 
+
+True Negatives = D 
+
+False Positives = C 
+
+False Negatives = B
+
+## Confusion Matrix {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+||Model Predicted as *Yes*| Model Predicted as *No*|
+|----|-----|-----|
+|True value is *Yes*|A|B|
+|True value is *No*|C|D|
 
 Total sample size = A + B + C + D
 
-Total Cases = A + B 
+Total cases = A + B 
 
 Total not-cases = C + D
 
 Prevalence = total cases / total sample size
 
-True Positivie = A 
-
-True Negative = D 
-
-False Positive = C 
-
-False Negative = B
-
----
-
-## Worked Example
+## Exercise {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ||Model = 1 | Model =  0|
 |----|-----|-----|
 |True = 1 |80|30|
 |True = 0|20|40|
 
-Total Sample size = 
+* Work out the following:
+    * Total Sample size, Total Cases, Prevalence
+    * Accuracy
 
-Total Cases
+## There are more metrics beyond accuracy... {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-Prevalence
+* What are the limitations with accuracy?
+* Other metrics give us a more **holistic** assessment of how the classifier works:
+    * Precision, specificity, recall/sensitivity
 
-True Positive
+## Exercise - going further {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-True Negative
-
-False Positive 
-
-False Negativie 
-
-Sensitivity
-
-Specificity
-
----
-
-## Confusion Matrix to
 ||Model = 1 | Model =  0|
 |----|-----|-----|
 |True = 1 |80|30|
 |True = 0|20|40|
 
-Accuracy = TP + TN / P + N = 
+Precision = Positive Predictive Value = 
 
-Recall = True Positive Rate TPR = TP / TP + FN = 
+Recall = True Positive Rate =
 
-Precision = Positive Predictive Value = TP / TP + FP = 
+Specificity = True Negative Rate = 
 
-F1 score = precision * recall / precision + recall
+## Balancing evaluation
 
---- 
+* The F1 score
+    * The **(harmonic) mean average** of the precision and recall.
+    * Nothing to do with cars or UK resident doctors.
+* Gives an idea of the **overall predictive performance** of the classifier.
 
+## Exercise - going even further {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-## Other Metrics
+||Model = 1 | Model =  0|
+|----|-----|-----|
+|True = 1 |80|30|
+|True = 0|20|40|
 
-1. Confusion Matrix
-    a). accuracy
-    b). Precision
-    c). Recall
-    d). F1 score
-    e). Sensitivity and Specificity
+F1 score = precision * recall / precision + recall = 
 
-2. ROC curve
-    a). Area under AUC or C-index
-    b). Youdens Index
+## What happens if we change the threshold? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-3. Log Loss
+* As discussed earlier, many models predict **probabilities** which are **continuous** values
+    * Classification relies on **discrete**, **binary** predictions (Yes/No)
 
-4. Brier Score
+## What happens if we change the threshold? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-5. Cohen's Kappa
+* How can we evaluate how the prediction of the model changes as we **modify the threshold** for detection?
+* This works for clinical metrics too - what level of procalcitonin best predicts bacterial infection?
 
---- 
+## Area under Curve
 
-## Truth
+* Sensitivty and Specificity is a trade off 
+* If you plot the Sensitivty against the Specificity for different thresholds, a **receiver-operator curve (ROC)** can be generated.
+* The area under this curve is the **AUC**
+* 0.5 indicates **random guessing**, and 1.0 is **perfect classification performance**.
 
-- i never remember them,
-- i work it out each time. 
-- i have a code that i wrote that works .
+## Example of AUC curve {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
----
+![An ROC curve which shows the classification performance for blood different infection markers for predicting serious bacterial infection (SBI) in febrile infants. *Milcent K, Faesch S, Gras-Le Guen C, et al. Use of Procalcitonin Assays to Predict Serious Bacterial Infection in Young Febrile Infants. JAMA Pediatr. 2016;170(1):62–69. doi:10.1001/jamapediatrics.2015.3210*](/media/daim/module_4/milcent_et_al_ROC.png)
 
-## Brier Score
+# Youden index {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-* similar concept as MSE
-* similar concept as log loss
-* is a quadratic error measure.
+* The Youden index is the optimal cut off for balancing sensitivity and specificity. 
 
-So everything is magnified.
+* TODO find example image of ROC with this annotated.
 
----
+#
+:::{.r-stack}
+**Putting it all together**
+:::
 
-## Why is brier score better than accuracy? 
+## Evaluating models {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-Accuracy depends on what is classified correctly?
-Say, imbalance dataset with n = 100, case = 10 and 90 = normal.
-Model assign everyone as ‘normal’. I.e., all model outputs = 0. 
-Accuracy 
-= TP + TN  / (P+N) = 0+90/(10+90) 
-= 90%! 
+* You now know how to **fit** models
+* You now know how to **evaluate** the models 
+* What do you **evaluate** it on?
+    * The gold standard is an **external data set**.
+* Short of that:
+    * we will split data into training and test set.
 
----
+## Train-Test Split {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-## ROC curve: AUC
+* Training dataset and test should receive the same treatments
+* Test set is **unseen data** for your model.
+* You will **report performance** on test set
+* Test set most closely **resembles** an external independent dataset.
+    * But, ***data leakage***
 
-Sensitivty and Specificity is a trade off 
-AURC =  c-index
-You want a sensitive test 
-You want to minimise probability that a true negative will test positive 
+## What is data leakage? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-Youden index = optimal cut off for sensitivity and specificity. 
-AUC ROC < 0.5 = worse than gussing. 
-AUC ROC ~ 0.9 / 1 = perfect classifier
-
---- 
-
-## On Gaming AUC
-
-- AUC is a rank statistic 
-- So you cant really compare and test out AUC like Log loss
-- statistically frown upon, ML community does its own thing
-
---- 
-
-## Validating models
-
-* you now know how to fit models
-* you now know how to evaluate the models 
-* what do you evaluate it on?
-* GOLD STANDARD: external data set.
-
-* short of that; we will split data into training and test set.
-
----
-
-## Train Test Split
-
-* Training dataset and test should receive all treatments
-* Test set is basically an unseen data for your model.
-* You will report performance on test set
-* Test set most closely resembles external independent dataset.
-* But, ***data leakage***
-
----
-
-## What is data leakage?
-
-* Data leakage is where you have ridiculously good results.
+* Data leakage is where you have **ridiculously good results**.
 * It is a false discovery.
-* Data leakage can happen for many reasons but one example
+* Data leakage can happen for many reasons.
+
+## Examples of data leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
+
+* Example 1
     + you treat training and test data with the max values of the entire dataset. 
-    + This somehow biases the test dataset and it causes 
+    + This somehow biases the test dataset and it causes
+* TODO clarify examples with clinical information
+
+## Examples of data leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
+
 * Example 2: Future information is somehow leaked in a training dataset. 
     + Lets say you are building a model that can predict patient receiving a surgery or not.
     + Lets say all sick patients who got antibiotics got surgery
     + Somehow you included antibiotics in your training dataset. It will cause leakage. 
+* TODO clarify examples with clinical information
 
-* ****NOTE*** leakage can sometimes be very difficult to detect.
+* **NOTE**: Data leakage can sometimes be **very difficult** to detect.
 
 ## Understanding Data Leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 Example of data leakage in Chest X-Ray (CXR) data:
 
-- Suppose a model is trained to detect pneumonia
+- Suppose a model is trained to detect pneumonia on resus scans
   - Sicker patients often get **AP films** and are placed in **resus**
   - The model might "cheat" by detecting **resus environment** instead of pneumonia itself
+  - Real scans may not have the AP sticker, and the model will fail in a real-world environment
 
 ![](/media/daim/module_4/chest.jpg)
 
@@ -486,7 +463,6 @@ Example of data leakage in Chest X-Ray (CXR) data:
     -   TODO How to deal with multicollinearity (LL2)
     -   TODO How to deal with missing data and sensitivity analysis (LL2)
 
-
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
 ## Extending the workshop task
@@ -498,8 +474,12 @@ Example of data leakage in Chest X-Ray (CXR) data:
 -  TODO Be able to discuss the uses, advantages, and disadvantages of more modern approaches to machine learning (stable diffusion, large language models) (LL2) (LL4)
 
 
-
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
+
+#
+:::{.r-stack}
+**Practical and Ethical Considerations**
+:::
 
 ## Scenario 1 {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -513,50 +493,43 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 - You are a *clinical lead* for your organization.
 - You want to improve pathways for acutely unwell patients.
-- You have a **100,000 GBP** budget for this.
+- You have a **£100,000** budget for this.
 - Your team presents two options:
   - Option 1: Recruit **two specialist nurses**
   - Option 2: Deploy an **AI-based CDS and risk management system**
 
 ## Gold Standards in Medical AI {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Refer to [this BMJ article on standards](https://www.bmj.com/content/384/bmj-2023-074821)
-- Also, see [related BMJ content](https://www.bmj.com/content/384/bmj-2023-074819)
-
 ![](/media/daim/module_4/extvali.jpg)
 
----
+- Refer to [this BMJ article on standards](https://www.bmj.com/content/384/bmj-2023-074821)
+- Also, see [related BMJ content](https://www.bmj.com/content/384/bmj-2023-074819)
 
 ## Ethics of AI {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - The ethics of AI/ML are complex:
-  - Should generative AI models (like ChatGPT) be allowed in research writing?
-  - Should clinical judgments rely on AI recommendations?
+  - Should **generative AI models** (like ChatGPT) be allowed in research writing?
+  - Should clinical judgments **factor in** AI recommendations?
 
 - **AI/ML don’t always get it right**, but neither do humans
-  - Does AI/ML need to be better than humans?
-  - Which humans: FY1 or an average consultant?
-
----
+  - Does AI/ML need to be **better** than humans?
+  - **Which humans?** FY1 or an average consultant?
 
 ## Examples of 'Bad' AI {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- "AI Gaydar Paper" (Wang 2018)
+- Read the abstract of [this paper (Wang 2018)](https://pubmed.ncbi.nlm.nih.gov/29389215/)
+- Is this an ethical use of image processing machine learning systems?
 
 ![](/media/daim/module_4/aigaydar.jpg)
 
----
-
 ## How Do We ~~Do Good~~ *Stop Bad* AI? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Recognize inherent biases and discrimination
-- Assume bias is present, then find and address it
-- Maximize individual autonomy and privacy
-- Reproducibility and transparency are crucial
+- Recognize inherent **biases** and **discrimination**
+- **Assume bias is present**, then **find** and **address** it
+- Maximize **individual autonomy** and **privacy**
+- **Reproducibility** and **transparency** are crucial
 
 ![](/media/daim/module_4/turingway.jpg)
-
----
 
 ## Even if AI is Good? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -564,7 +537,6 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 **NHS app and deprivation:** See [this study](https://informatics.bmj.com/content/30/1/e100809)
 
----
 
 ## Reproducibility: An Analogy  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -572,13 +544,11 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 ![](/media/daim/module_4/kitchen.jpg){#fig-kitchen}
 
-![](recipe.jpg){#fig-recipe}
+![](/media/daim/module_4/recipe.jpg){#fig-recipe}
 
 **Kitchen and Recipe**
 
 :::
-
----
 
 ## Reproducibility: Important Questions  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -587,12 +557,11 @@ Example of data leakage in Chest X-Ray (CXR) data:
 - Which oil: olive oil or rapeseed?
 - Type of milk?
 
-In ML: consider details like **Python version** and **framework**
-
----
+In ML: consider:
+* **Technical** details like **Python version** and **framework**
+* Clinical details like **film projection** and **sample types**
 
 ## Real-Life Example  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
 
 ![](/media/daim/module_4/neupane_table1.png)
 
@@ -603,18 +572,19 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ## Reproducibility Analogy  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-
 ![](/media/daim/module_4/repro.jpg)
 
 ---
 
 ## How to Make Research Reproducible  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-
-- Aim for reproducibility, even if it’s challenging at first
+- **Aim for reproducibility**, even if it is **challenging** at first
 - Visit [RAPS with R](https://raps-with-r.dev/) for reproducibility principles
 
----
+#
+:::{.r-stack}
+**Revisiting the scenarios**
+:::
 
 ## Scenario 1 Revisited  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -625,8 +595,6 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 - **Question**: Should you *trust* the model's recommendations for this patient?
 
----
-
 ### Scenario 1: Critical Questions  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Was the AI CDS trained on both male and female images?
@@ -634,8 +602,6 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 - Is the model optimized for **sensitivity** or **specificity**?
 - What does your clinical judgment suggest?
 - What are the local governance policies regarding AI use?
-
----
 
 ## Scenario 2 Revisited {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -649,10 +615,7 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 - **Question**: Which option would you choose?
 
----
-
 ### Scenario 2: Considerations {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
 
 - **Nurses**:
   - Would they provide versatility and fill in during staff shortages?
@@ -664,40 +627,23 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
   - If AI flags deterioration, can your pathways respond effectively?
   - AI offers scalability and continuous availability, but what if it fails?
 
----
+#
+:::{.r-stack}
+**Conclusion**
+:::
 
-## A Word on Technical Debt {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## What we have covered {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-
-- Even Google has significant technical debt
-- The NHS may have even more due to legacy systems and infrastructure
-
-- **Reference**: [Google’s Technical Debt Paper](https://research.google.com/pubs/archive/43146.pdf)
-
-![](/media/daim/module_4/dependency_2x.png)
-
----
-
-## Summary of Key Concepts {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
-- **ML vs. AI**:
-  - ML models remain on your computer; AI models are deployable.
-- **MLOps Workflow**:
-  - Extract, Transform, Load → Train models → Serve and Evaluate.
-- **Model Evaluation**:
-  - Test model outputs on an independent test set for validation.
-- **AI Ethics and Reproducibility**:
-  - Prioritize transparency, address biases, and ensure reproducibility in AI applications.
-
----
+* Today, we have covered:
+    * The basics of **regression** and **classification**
+    * Comprehensively **evaluating** binary classifiers
+    * **Ethical** and **practical** considerations of AI in clinical settings
+* We will delve into these further in the **second part** of the **workshop**.
 
 ## Further Reading and Resources {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-
 - For reproducibility guidelines, see [The Turing Way](https://the-turing-way.netlify.app/)
 - More on big data ethics: [Data Ethics Framework](https://www.gov.uk/government/publications/data-ethics-framework)
-
----
 
 ## Discussion and Q&A {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
