@@ -1,0 +1,93 @@
+---
+title: "Closing Session"
+author: "DAIM Team"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes: 
+  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-opacity: "0.6"
+---
+
+
+## Closing Session {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
+
+* This is the end of **DAIM - Images** course!
+* What did you learn?
+* What are your immediate thoughts? 
+
+## Refresher Core Learning outcomes
+
+* Understand how computers process image.
+* Understand how computers **learn**
+* Diving deep into DICM vs. other image formats
+* Understand types of machine learning
+* Understand the trade-off's in machine learning / AI models.
+
+## The Recipe
+
+* **Coding skills** : You need not just ability to code but ability to troubleshoot, learn multiple languages. e.g., SQL, C#, Rust or improved fluency in Python
+* **Theory**: PhD in Maths is not necessary (can be helpful to an extent!) but need to understand it's all matrix operations.
+* **Project Management Skills**: Time management, customer management, agile working skilsl, communication skills
+* **Clinical Translation**: You either possess domain knowledge or you work with people with domina knowledge
+
+## My personal opinion
+
+* You need all 4 of them. You may want to specialise into one of them 
+* You may want to do most of the coding -> ML engineer. 
+* Theory and Building models -> ML practitioner / data scientist 
+* Project Mananger: might not even need coding skills 
+* Clinical Translation: might be a doctor who understand how AI works and help procure right solution for NHS. 
+
+## What do you want to do next?
+
+* Sky is the limit! (In no particular order)
+
+* **Machine Learning Engineer** : perhaps give yourself dedicated time to learn more theory & start building, will require data science x Engineering skills. 
+* What do ML Engs do: translate real world data and real world models to "production"
+* Skills: Fluency in Python, SQL, Docker Deployment, Networking, Optimising 
+
+
+* **Machine Learning Practitioner** : find an area of interest, join a research team.
+* What do ML Practitioners do: may involve in data cleaning, building models, help visualise 
+* Skills: may chose to specialise into structured data (mainly tabular data) or unstructured data (images) or natural language processing (NLP)
+
+* **Clinician with AI knowledge** : No extra steps but read more. Find flaws. Think how could this AI model fail and how it could fool you.
+
+## Getting involved! 
+
+* [Clinical Informatics Fellowship](https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-25-0148)
+* [Fellowship in Clinical Artifical Intelligence](https://www.aicentre.co.uk/fellowship)
+* Datathon and Hackathons: Kaggle
+* Work on projects: your own idea or part of research team 
+* Free open access data: e.g., [UCI](https://archive.ics.uci.edu/)
+
+## Learn more!
+
+* Coursera, Udemy, Youtube, Codeacademy, Datacamp...
+* Books
+* ChatGPT 
+    I admit I use ChatGPT but ChatGPT doesnt improve your skill. There is no shortcut!
+    :)
+
+## Books 
+
+* Structured Data: 
+    ISLR, Sklearn, Statistics for Data Science
+* Image Data:
+    Recommend Pytorch 
+* Deep Learning with Python by Francois Chollet
+* Mastering Pytorch by Ashish Ranjan Jha
+* Deep Learning with PyTorch by Eli Stevens
+* Fluent Python by Luciano Ramalho
+
+## Build, Build, Build!
+
+We know it is hard to do alongside medicine / job. 
+But you got this.
+
+## Stay in touch!
+
+It is a friendly and exciting community.
+
+## Thank you 
