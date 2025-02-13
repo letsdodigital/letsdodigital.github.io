@@ -4,7 +4,7 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#F6D499"
+    data-background-color: "#FFFFFF"
     data-background-image: /media/earth-at-night.jpg
 include-in-header:
   - text: |
