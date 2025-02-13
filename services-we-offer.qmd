@@ -29,6 +29,10 @@ Do you need help engaging with key stakeholders in your next digital health impl
 
 We provide a professional service to help you realise your dream healthcare app. We can help you navigate the need of the clinician in your app, get user-experience right and build a working prototype or even production ready solution of your new digital health app.
 
+## Overview
+
+Slides covering our services are available [here](presentation.qmd).
+
 
 ## Contact us
 

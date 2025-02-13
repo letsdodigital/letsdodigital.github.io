@@ -1,0 +1,122 @@
+---
+title: Let's Do Digital Community
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+    data-background-color: "#F6D499"
+    data-background-image: /media/earth-at-night.jpg
+include-in-header:
+  - text: |
+      <style>
+      #title-slide .title
+      {
+        color: #ffffff;
+      }
+      #title-slide .subtitle 
+      {
+        color: #ffffff;
+      }
+      .quarto-title-author-name 
+      {
+        color: #ffffff;
+      }
+      </style>
+---
+
+## Our Mission {background-image="media/long-road.jpg" background-opacity="0.5"}
+
+- Educate healthcare professionals in all aspects of **digital health**.
+- Provide **mentoring & tutoring** to aspiring informaticians.
+- Develop **prototypes & full-scale healthcare apps**.
+- Engage **key stakeholders** in digital transformation.
+
+---
+
+## Education Services {background-image="media/classroom.jpg" background-opacity="0.3"}
+
+
+- Programming in Healthcare course.
+- Machine Learning for Healthcare Professionals.
+- AI in Healthcare.
+- Frontend Development for Clinicians.
+- Customized Digital Health Training for institutions.
+
+---
+
+## Mentoring & Tutoring {background-image="media/one-on-one-at-window.jpg" background-opacity="0.5"}
+
+- **One-on-one mentoring** for career progression in informatics.
+- **Coding support** for healthcare professionals learning Python and javascript (essential programming languages for modern healthcare).
+- **Tutoring on digital transformation topics**.
+
+---
+
+## Live events - Annual conference {background-image="media/filled-conference-room.jpg" background-opacity="0.3"}
+
+**Let's Talk Digital Conference**
+
+- Focus on learning from frontline innovation and implementation.
+- **Open Source, Standards, Learning, and Data**.
+- Industry leaders discussing **digital transformation**.
+- CPD-accredited event by **The Federation for Informatics Professionals in Health and Care**.
+
+---
+
+## Live events - Webinar Series {background-image="media/microphone-and-computer.jpg" background-opacity="0.3"}
+
+- **Ask a Clinician** series for healthcare tech professionals.
+- **Ask Someone in Digital** series - hear from those with digital expertise, working in the field of health.
+- **Clinical Safety in Digital Healthcare** - hear from the team on the much needed project on automation and standardisation of clinical safety in digital healthcare (see the [DCSP](https://youtube.com/live/xzLJkN9NLeU)).
+
+---
+
+## Digital Health App Development {background-image="media/app-screen.jpg" background-opacity="0.3"}
+
+- **Prototype & Production-Ready Solutions**
+- Supporting clinicians in building **effective** digital health tools
+- Developing **open-source frameworks** for healthcare applications.
+- Guidance on clinical safety, data protection, and regulatory compliance.
+
+---
+
+## The Essentials of Health Informatics Handbook {background-image="media/open-book-from-side.jpg" background-opacity="0.3"}
+
+- **Community-driven open-source project**.
+- Covers **core and advanced topics in clinical informatics**.
+- Includes insights from **leading experts & webinars**.
+- Springboard webinars get you right into learning these essential healthcare topics.
+
+---
+
+## A selection of our expert digital health team {background-image="media/hands-together.jpg" background-opacity="0.3"}
+
+- **Mark Bailey** - Founder, clinician, informatician.
+- **Basil Bekdash** - Paediatric surgeon, data expert.
+- **Alex Brown** - Paediatric registrar.
+- **Keith Blackwood** - Software developer and PhD in Tissue Engineering.
+- **Aparna Ghosh** - GP & clinical lecturer.
+- **Abdelrahman M. Saad** - Medical student, AI specialist.
+
+---
+
+## Open Source & Community Engagement {background-image="media/come-in-we-are-open.jpg" background-opacity="0.3"}
+
+- **Encouraging collaboration** on digital health projects.
+- **Building digital tools** that are **transparent, modular, & safe**.
+- Engaging with **NHS England & Open Source Communities**.
+
+---
+
+## Get Involved {background-image="media/open-door-way.jpg" background-opacity="0.3"}
+
+- Join our courses & webinars.
+- Contribute to the Essentials of Health Informatics Handbook.
+- Partner with us on digital health projects.
+- Contact us: **info@letsdodigital.org**.
+
+---
+
+## Thank You! {background-image="media/beach.jpg" background-opacity="0.3"}
+
+### Let's Build the Future of Digital Health Together!
