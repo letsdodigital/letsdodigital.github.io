@@ -1,0 +1,7 @@
+---
+title: "Posters 2024"
+---
+
+{{< include _navbar.qmd >}}
+
+We are currently putting out a call for posters. These will be displayed here once a judging panel has accepted them.

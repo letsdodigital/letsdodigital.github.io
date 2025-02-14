@@ -1,0 +1,53 @@
+---
+title: "Let's Talk Digital Conference - 2025"
+description: "September 2025"
+image: "/media/reading-a-book.jpg"
+---
+
+{{< include _navbar.qmd >}}
+
+```{=html}
+<img src="/media/reading-a-book.jpg" class="img-fluid d-block mx-auto max-300px" alt="Bronze lettering on a wooden placard">
+```
+\
+
+**Education, education, education! **
+
+The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Conference, with an important theme of education in digital healthcare. We have an amazing line of of speakers and chairs, who will provide you with a range of exciting and educational case studies and also great innovation learnings from the frontline.
+
+## Feedback from last year's conference
+
+**What did you enjoy about the conference?**
+
+* The openness of the people talking about real problems and trying to address them.
+* There was a good variety in topics and speakers. I liked hearing about real people who took an idea and built a product or implemented a change.
+* The live feed worked really well. It was engaging and it helped me feel part of the conference despite attending virtually. Thanks to the team that made it happen.
+* Really great chance to introduce myself to a new group of like-minded people, as I start out in a new direction in my career. Lively and enlightening debate session and follow-up discussion.
+
+**Tell us one thing you learnt or took away from the conference?**
+
+* The importance of the collaborative approach to developing apps and systems, having system coders and clinical staff (and end users too) both providing their particular expertise to the task is vital for accuracy and usability, and all having a mutual respect for each other's skills.
+* There are good ways and less good ways to innovate. The challenge is differentiating them and meetings where a frank and open discourse can occur are essential for this.
+* Getting patient participation is very valuable, and can help develop the system/process.
+
+
+## Register now!
+
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="13"></script>
+
+## Submit abstract
+
+Have you got a great idea or project that you would like to share with the digital community? Then why not submit an abstract for a presentation at the conference. We are looking for a range of topics from digital health, open source, open standards, open learning and open data. Please submit your abstract via email at [info@letsdodigital.org](mailto:info@letsdodigital.org).
+
+## Want to give a presentation?
+
+This year's agenda is now full. If you wish to present at future conferences, then please email [info@letsdodigital.org](mailto:info@letsdodigital.org).
+
+## Sponsors
+
+![](/media/elzware.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
+![](/media/fedip-logo.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
+
+If you wish to sponsor the event, please review our sponsorship packages [here](sponsorship.qmd) or email [info@letsdodigital.org](mailto:info@letsdodigital.org).
+
+

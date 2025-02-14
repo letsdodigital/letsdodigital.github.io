@@ -1,0 +1,13 @@
+```{=html}
+<div class="d-flex flex-column flex-md-row justify-content-md-between">
+    <div class="p-2"><a href="index.html">2025 Conference</a></div>
+    <div class="p-2"><a href="agenda.html">Agenda</a></div>
+    <div class="p-2"><a href="bios.html">Bios</a></div>
+    <div class="p-2"><a href="posters.html">Posters</a></div>
+    <div class="p-2"><a href="maps.html">Maps</a></div>
+    <div class="p-2"><a href="organising-committee.html">Organising Committee</a></div>
+    <div class="p-2"><a href="../all-conferences.html">Previous conferences</a></div>
+</div>
+```
+
+---
