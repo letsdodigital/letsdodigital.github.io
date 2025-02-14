@@ -1,0 +1,36 @@
+---
+title: "Maps 2024"
+---
+
+{{< include _navbar.qmd >}}
+
+The conference will likely be booked for September 2025 at:
+
+> The Painswick Centre<br>
+> Bisley Street<br>
+> Painswick<br>
+> Stroud<br>
+> Gloucestershire<br>
+> GL6 6QQ
+
+![](/media/painswick-centre.png){height=300px fig-align="center" fig-alt="Painswick centre"}
+
+This will be a hybrid event, so you can always join us online. However, we highly recommend joining us in person for greater networking and collaboration.
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2468.085184247846!2d-2.195045923901327!3d51.786329290289125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48710ee33a8d2a79%3A0x94c5df87e47bd983!2sThe%20Painswick%20Centre!5e0!3m2!1sen!2suk!4v1739522470709!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+
+**Parking:** The parking at the Painswick centre is very limited. There is free parking at `Stamages Lane Car Park` (see the above map).
+
+**Train:** The nearest train station is `Stroud`, which is a 10-minute taxi ride away. Alternatively you can travel to `Cheltenham Spa` and take a taxi from there.
+
+**Taxis:** If you want to book a taxi, we recommend using `Starline Taxis` from either Stroud or Cheltenham Spa. You can book them on [01242 250250](tel:01242250250). There are taxi ranks at Cheltenham Spa Station. The Stroud taxi ramp is a 1 minute walk into the town centre from the station, opposite Starbucks (see map below).
+
+```{=html}
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.316245673886!2d-2.221181223903973!3d51.745540493279265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48710d4dde6840b3%3A0x8bef52931c3c1100!2sStarbucks!5e0!3m2!1sen!2suk!4v1739522946759!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+```
+
+**Bus:** You can catch the 66 gold or 166 from Stroud to Painswick, which leaves every hour. You can catch the 66 gold, 10 and 166 or 10 and M11 from Cheltenham Spa to Painswick.
+
+**Accommodation:** There is a range of accommodation in Painswick, Stroud and Cheltenham. Please book early to get the best rates and locations.
