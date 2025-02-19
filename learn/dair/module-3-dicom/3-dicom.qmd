@@ -80,7 +80,7 @@ title-slide-attributes:
 **Image Representation in DICOM**
 :::
 
-## Reminder {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Reminder {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 ::: {.panel-tabset}
 
@@ -97,7 +97,7 @@ title-slide-attributes:
 
 :::
 
-## Houndsfield Units {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Houndsfield Units {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 ::: {.panel-tabset}
 
@@ -115,14 +115,14 @@ title-slide-attributes:
 
 :::
 
-## Why is this important for programming?  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Why is this important for programming?  {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Houndsfield units are **quantitative** - they measure a **physical property**
 * Houndsfield units are typically represented as 12-bit or 16-bit integers. 
 * As previously mentioned, **most images are 8-bit**
     * How can we visualise CT scans?
 
-## Windowing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Windowing {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 ::: {.panel-tabset}
 
@@ -155,7 +155,7 @@ title-slide-attributes:
 **The DICOM Standard**
 :::
 
-## What is DICOM? {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
+## What is DICOM? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * **DICOM (Digital Imaging and Communications in Medicine)** is a standard for storing and transmitting medical images.
 * It was developed to ensure **interoperability** between medical imaging devices.
@@ -164,7 +164,7 @@ title-slide-attributes:
 * DICOM includes more data **about the image itself**.
     * This is called **metadata**.
 
-## Metadata {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
+## Metadata {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Other formats (JPEG, PNG) have metadata
     * DICOM's metadata is **more extensive**
@@ -172,14 +172,14 @@ title-slide-attributes:
     * The patient's name, referring hospital, patient sex etc.
     * Paramaters of image aquisition such as slice thickness, protocol, position of patient etc. 
 
-## Other features of DICOM {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
+## Other features of DICOM {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * A key part of DICOM is **standardization** allowing a common framework for managing, storing, and sharing medical images across different devices and platforms
     * This allows for integration into electronic health records and PACS (Picture Archive Communication System)
 * Support for **lossless compression** 
     * Medical images can be compressed without losing valuable scan information
 
-## Examples {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Examples {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 ::: {.panel-tabset}
 
@@ -198,7 +198,7 @@ title-slide-attributes:
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
-## Value representation {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Value representation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Each item of **data** in a DICOM file has a **value representation**
     * This is its **datatype**
@@ -253,11 +253,16 @@ title-slide-attributes:
 | **Data Storage**         | Typically does not provide significant storage capabilities. | Provides extensive, scalable data storage solutions.     |
 | **Image Management**     | Limited to individual or small sets of images.      | Manages large volumes of images across multiple modalities. |
 | **Integration**          | Basic integration with imaging devices.             | Integrates with various imaging modalities and hospital information systems. |
+
+## What is the difference between PACS and DICOM viewers? {.smaller}
+
+| Feature/Aspect           | DICOM Viewers                                       | PACS (Picture Archive and Communication Systems)         |
+|--------------------------|------------------------------------------------------|-----------------------------------------------------------|
 | **Collaboration**        | Limited to local use, minimal sharing capabilities. | Facilitates remote access, sharing, and collaborative analysis. |
 | **Accessibility**        | Often standalone or desktop-based applications.     | Web-based or server-based with multi-user access.         |
 | **Cost**                 | Generally more affordable or free.                  | Higher cost due to advanced features and infrastructure.  |
 | **Advanced Tools**       | Basic tools for image adjustments and measurements. | Advanced diagnostic tools and analytics for image review. |
-| **Use Case**             | Suitable for individual practitioners or small practices needing basic image review. | Ideal for hospitals, large clinics, and healthcare networks that require comprehensive image management. |
+| **Use Case**             | Suitable for individuals needing basic image review. | Ideal for hospitals that require comprehensive image management. |
 
 ## Python Packages {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 

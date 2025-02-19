@@ -1,0 +1,101 @@
+---
+title: "DAIM: Images \n Closing Seminar"
+author: "{{< var author >}}"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes: 
+  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-opacity: "0.6"
+---
+
+## Introduction {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+- **Welcome** to the closing seminar of the **Data Analytics in Medicine - Images** course.
+- Today will be a **short session** where we will
+    - **Discuss** what has been covered
+    - **Explore** ways to extend your knowledge further
+
+## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+- **Module 1 - Overview**
+- Here we covered the **overall structure** of the course and introduced the **tools** we would be using
+
+## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+- What worked **well** in this unit?
+- What would you suggest to **improve** this unit?
+
+## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+- **Module 2 - Introduction to images**
+- Here we covered:
+    - The **basics** of how images are represented **digitally**
+    - **Common image operations** such as **convolution**
+
+## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+- What worked **well** in this unit?
+- Was the workshop pitched at an **appropriate level of difficulty**?
+- What would you suggest to **improve** this unit?
+
+## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+- **Module 3 - DICOM**
+- Here we covered:
+    - The **basics** of how medical images are represented **digitally**
+    - The **metadata** that is associated with medical images, and how to **extract** it
+
+## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+- What worked **well** in this unit?
+- Was the workshop pitched at an **appropriate level of difficulty**?
+- What would you suggest to **improve** this unit?
+
+## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+- **Module 4 - AI**
+- Here we covered:
+    - The basics of **neural networks**
+    - How to **build** and **evaluate** a binary classifier
+    - **Clinical considerations** for medical AI systems
+
+## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+
+- What worked **well** in this unit?
+- Was the workshop pitched at an **appropriate level of difficulty**?
+- What would you suggest to **improve** this unit?
+
+#
+:::{.r-stack}
+**Extending each module**
+:::
+
+## Further material for module 2
+
+## Further material for module 3
+
+## Further material for module 4 {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+ 
+* Try adapting a **different** model to the **same** dataset
+* [Kaggle](https://www.kaggle.com/) runs competitions for machine learning tasks
+    * There is a **wealth** of **openly-available** datasets to work with on this site.
+* Further examples could include:
+    * Adapting [this model (variational autoencoder)](https://keras.io/examples/generative/vae/) to generate **artificial** chest XRs
+
+#
+:::{.r-stack}
+**Conclusions**
+:::
+
+## Final thoughts
+
+* Programming is like riding a bike
+* **Practice** and **making mistakes** is the best way to learn
+* Take on projects that **you are interested in** and **develop your skills** whilst completing them.
+
+## Thank you {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
+* **Thank you for joining the course!**
+* We hope that this course has given you the **skills** to **move forwards** with **programming** in different settings in the future
+* Please **reach out** if you have any **further questions** about the course.
