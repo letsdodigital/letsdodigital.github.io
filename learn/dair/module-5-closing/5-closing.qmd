@@ -9,93 +9,85 @@ title-slide-attributes:
   data-background-opacity: "0.6"
 ---
 
-## Introduction {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-- **Welcome** to the closing seminar of the **Data Analytics in Medicine - Images** course.
-- Today will be a **short session** where we will
-    - **Discuss** what has been covered
-    - **Explore** ways to extend your knowledge further
+## Closing Session {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
-## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+* This is the end of **DAIM - Images** course!
+* What did you learn?
+* What are your immediate thoughts? 
 
-- **Module 1 - Overview**
-- Here we covered the **overall structure** of the course and introduced the **tools** we would be using
+## Refresher Core Learning outcomes
 
-## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+* Understand how computers process image.
+* Understand how computers **learn**
+* Diving deep into DICM vs. other image formats
+* Understand types of machine learning
+* Understand the trade-off's in machine learning / AI models.
 
-- What worked **well** in this unit?
-- What would you suggest to **improve** this unit?
+## The Recipe
 
-## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+* **Coding skills** : You need not just ability to code but ability to troubleshoot, learn multiple languages. e.g., SQL, C#, Rust or improved fluency in Python
+* **Theory**: PhD in Maths is not necessary (can be helpful to an extent!) but need to understand it's all matrix operations.
+* **Project Management Skills**: Time management, customer management, agile working skilsl, communication skills
+* **Clinical Translation**: You either possess domain knowledge or you work with people with domina knowledge
 
-- **Module 2 - Introduction to images**
-- Here we covered:
-    - The **basics** of how images are represented **digitally**
-    - **Common image operations** such as **convolution**
+## My personal opinion
 
-## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+* You need all 4 of them. You may want to specialise into one of them 
+* You may want to do most of the coding -> ML engineer. 
+* Theory and Building models -> ML practitioner / data scientist 
+* Project Mananger: might not even need coding skills 
+* Clinical Translation: might be a doctor who understand how AI works and help procure right solution for NHS. 
 
-- What worked **well** in this unit?
-- Was the workshop pitched at an **appropriate level of difficulty**?
-- What would you suggest to **improve** this unit?
+## What do you want to do next?
 
-## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+* Sky is the limit! (In no particular order)
 
-- **Module 3 - DICOM**
-- Here we covered:
-    - The **basics** of how medical images are represented **digitally**
-    - The **metadata** that is associated with medical images, and how to **extract** it
+* **Machine Learning Engineer** : perhaps give yourself dedicated time to learn more theory & start building, will require data science x Engineering skills. 
+* What do ML Engs do: translate real world data and real world models to "production"
+* Skills: Fluency in Python, SQL, Docker Deployment, Networking, Optimising 
 
-## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
 
-- What worked **well** in this unit?
-- Was the workshop pitched at an **appropriate level of difficulty**?
-- What would you suggest to **improve** this unit?
+* **Machine Learning Practitioner** : find an area of interest, join a research team.
+* What do ML Practitioners do: may involve in data cleaning, building models, help visualise 
+* Skills: may chose to specialise into structured data (mainly tabular data) or unstructured data (images) or natural language processing (NLP)
 
-## What we have covered {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+* **Clinician with AI knowledge** : No extra steps but read more. Find flaws. Think how could this AI model fail and how it could fool you.
 
-- **Module 4 - AI**
-- Here we covered:
-    - The basics of **neural networks**
-    - How to **build** and **evaluate** a binary classifier
-    - **Clinical considerations** for medical AI systems
+## Getting involved! 
 
-## Discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
+* [Clinical Informatics Fellowship](https://beta.jobs.nhs.uk/candidate/jobadvert/C9309-25-0148)
+* [Fellowship in Clinical Artifical Intelligence](https://www.aicentre.co.uk/fellowship)
+* Datathon and Hackathons: Kaggle
+* Work on projects: your own idea or part of research team 
+* Free open access data: e.g., [UCI](https://archive.ics.uci.edu/)
 
-- What worked **well** in this unit?
-- Was the workshop pitched at an **appropriate level of difficulty**?
-- What would you suggest to **improve** this unit?
+## Learn more!
 
-#
-:::{.r-stack}
-**Extending each module**
-:::
+* Coursera, Udemy, Youtube, Codeacademy, Datacamp...
+* Books
+* ChatGPT 
+    I admit I use ChatGPT but ChatGPT doesnt improve your skill. There is no shortcut!
+    :)
 
-## Further material for module 2
+## Books 
 
-## Further material for module 3
+* Structured Data: 
+    ISLR, Sklearn, Statistics for Data Science
+* Image Data:
+    Recommend Pytorch 
+* Deep Learning with Python by Francois Chollet
+* Mastering Pytorch by Ashish Ranjan Jha
+* Deep Learning with PyTorch by Eli Stevens
+* Fluent Python by Luciano Ramalho
 
-## Further material for module 4 {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
- 
-* Try adapting a **different** model to the **same** dataset
-* [Kaggle](https://www.kaggle.com/) runs competitions for machine learning tasks
-    * There is a **wealth** of **openly-available** datasets to work with on this site.
-* Further examples could include:
-    * Adapting [this model (variational autoencoder)](https://keras.io/examples/generative/vae/) to generate **artificial** chest XRs
+## Build, Build, Build!
 
-#
-:::{.r-stack}
-**Conclusions**
-:::
+We know it is hard to do alongside medicine / job. 
+But you got this.
 
-## Final thoughts
+## Stay in touch!
 
-* Programming is like riding a bike
-* **Practice** and **making mistakes** is the best way to learn
-* Take on projects that **you are interested in** and **develop your skills** whilst completing them.
+It is a friendly and exciting community.
 
-## Thank you {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
-
-* **Thank you for joining the course!**
-* We hope that this course has given you the **skills** to **move forwards** with **programming** in different settings in the future
-* Please **reach out** if you have any **further questions** about the course.
+## Thank you 
