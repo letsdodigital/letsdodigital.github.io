@@ -131,10 +131,17 @@ Maybe mention the difference between function and method here.
 
 ![**[A GitHub issue](https://github.com/numpy/numpy/issues/27251)** on the NumPy codebase.](/media/daim/github_issue.png)
 
+## Writing Python
+
+* As you start to write more complex code, **readability is vital**
+* In general, you should aim to use **one** of the following when naming variables, etc.
+    * Snake-casing e.g. `data_analytics_in_medicine`
+    * Camel-casing e.g. `dataAnalyticsInMedicine`
+* [More style guidelines can be found here (PEP 8)](https://peps.python.org/pep-0008/)
+
 ## Break and Questions! {background-image="/media/daim/coffee2.png" background-opacity="0.6" text-align=center}
 
 ## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
-
 
 * Some data is easier for computers to process than others.
 * How can we make clinical data easier to work with?
