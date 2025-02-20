@@ -18,19 +18,19 @@ title-slide-attributes:
 ## Learning outcomes {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
 
-* Recap general uses of image data in clinical settings
-* Understand the basics of digital image representation
-* Understand what an image transform is
-* Understand overviews of two key Python packages (PIL, NumPy)
+* Recap general uses of image data in clinical settings.
+* Understand the basics of digital image representation.
+* Understand what an image transform is.
+* Understand overviews of two key Python packages (PIL, NumPy).
 
 ## What is meant by image processing? {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
 
 * This refers to **performing operations** on **an image** to **gain information** from it or improve its usefulness.
 * Digitally, an image is defined as a **2D grid of pixels**.
-    * These **pixels contain values** - we will go over the types of value that they usually contain
+    * These **pixels contain values** - we will go over the types of value that they usually contain.
 * Remember, concepts that work for 2D images also translate down to 1D and up to 3D (and above!)
-    * This is important for **volumetric scans** (CT, MRI)
+    * This is important for **volumetric scans** (CT, MRI).
 
 ## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
 
@@ -53,38 +53,38 @@ title-slide-attributes:
 
 * A pixel (picture element) is an element on a grid which can take on different types of values.
 * The simplest value that a pixel can take on is an integer value between 0 and 255. 
-    * These are used for shades of greyscale images
+    * These are used for shades of greyscale images.
 
-![A greyscale pixel and the values it can take on, from black to white](/media/daim/greyscale_pixels.png)
+![A greyscale pixel and the values it can take on, from black to white.](/media/daim/greyscale_pixels.png)
 
 ## Is a greyscale pixel always 0 to 255?
 
-* You will often seen this in **floating-point format**
-    * The numbers will be divided by 255 -> 0.0 to 1.0
-* They can also be in **Houndsfield units (HU)**
+* You will often seen this in **floating-point format**.
+    * The numbers will be divided by 255 -> 0.0 to 1.0.
+* They can also be in **Houndsfield units (HU)**.
     * We will discuss this in Module 3.
 
-![A greyscale pixel with floating point values, from black to white](/media/daim/greyscale_pixels_float.png)
+![A greyscale pixel with floating point values, from black to white.](/media/daim/greyscale_pixels_float.png)
 
 ## How about colour representation?
 
-* Pixels each need **3 values** (channels) to represent colour
-    * Red, green, and blue channels (**RGB**)
-    * The higher the number, the brighter the colour in the mix
+* Pixels each need **3 values** (channels) to represent colour.
+    * Red, green, and blue channels (**RGB**).
+    * The higher the number, the brighter the colour in the mix.
 
-![Two different colours with the RGB values needed to generate them](/media/daim/rgb_pixels_decimal.png)
+![Two different colours with the RGB values needed to generate them.](/media/daim/rgb_pixels_decimal.png)
 
 ## I've seen letters when describing colours?
 
-* Numbers can also be represented in hexadecimal (base-16)
-    * This assigns letters A-F for numbers 10-15
+* Numbers can also be represented in hexadecimal (base-16).
+    * This assigns letters A-F for numbers 10-15.
 
-![Two different colours with their hexadecimal RGB values](/media/daim/rgb_pixels_hexadecimal.png)
+![Two different colours with their hexadecimal RGB values.](/media/daim/rgb_pixels_hexadecimal.png)
 
 ## RGB Colour Codes
 
 * Using hexadecimal, colors can be elegantly expressed as strings of 6 letters. 
-    * This is usually preceded by a **hash (#)**
+    * This is usually preceded by a **hash (#)**.
 
 ![The same colours with their RGB hex colour codes.](/media/daim/rgb_pixels_hexcode.png)
 
@@ -95,7 +95,7 @@ Perhaps mention alpha channels in this section
 ## Image dimensions
 
 * The dimensions determine how many pixels are in an image.
-* In  a colour image, 3 values are needed for each pixel (R, G, and B)
+* In a colour image, 3 values are needed for each pixel (R, G, and B).
 
 ![A small image of a cat with the image's overall shape.](/media/daim/cat_dimension.png){width="60%"}
 
@@ -112,9 +112,9 @@ Deliberately introducing this notation early (x,y,channels).
 
 ## How can we reduce the storage space of an image? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
-* Compression is the process of **reducing image storage requirements**
+* Compression is the process of **reducing image storage requirements**.
 * There are lots of approaches to this process.
-* These methods can be **lossy** or **lossless**
+* These methods can be **lossy** or **lossless**.
 
 <!--
 Specific compression algorithms (e.g. DCT) are outside the scope of the course.
@@ -127,13 +127,13 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 
 ### Representations
 
-* **Lossless** compression indicates that all the data in the original image can be recovered
-* **Lossy** compression will only produce an approximation of the original image 
+* **Lossless** compression indicates that all the data in the original image can be recovered.
+* **Lossy** compression will only produce an approximation of the original image.
 * This is an important distinction!
 
 ### Example
 
-![An example of an X-ray [from the dataset that we will use later in the course](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data), with lossless and (extreme) lossy compression](/media/daim/compression_comparison.png){width="70%"}
+![An example of an X-ray [from the dataset that we will use later in the course](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data), with lossless and (extreme) lossy compression.](/media/daim/compression_comparison.png){width="70%"}
 
 :::
 
@@ -146,13 +146,13 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 
 ## What is convolution? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
 
-* **Convolution** is a **common operation** that is used in data processing
-* It involves **"convolving"** a target image with a **kernel**
+* **Convolution** is a **common operation** that is used in data processing.
+* It involves **"convolving"** a target image with a **kernel**.
 * It can be done in **1D** (signals), **2D** (images), and higher dimensions.
 
 ## What does it do to an image? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
 
-* The change that convolution has on an image **depends on a kernel**
+* The change that convolution has on an image **depends on a kernel**.
 * Kernels can be designed to produce **different effects**:
     * Blurring, sharpening, edge detection, etc.
 
@@ -239,8 +239,8 @@ A comparison of convolving an image of a cat with a edge detection kernel (Sobel
 
 ## Why feature convolution in this course? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
 
-* Convolution is a key operation in a **convolutional neural network**, a **well-established deep-learning architecture** for analysing images
-* It is also very versatile and is **used in other areas** (e.g. signal processing)
+* Convolution is a key operation in a **convolutional neural network**, a **well-established deep-learning architecture** for analysing images.
+* It is also very versatile and is **used in other areas** (e.g. signal processing).
 
 ## 5-minute task or break! {background-image="/media/daim/coffee2.png" background-opacity="0.4"}
 
@@ -257,9 +257,9 @@ Find a clinical example of convolution?
 
 ## Python Imaging Library {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
-* **Python Imaging Library (PIL)** is a commonly used library that contains useful methods for **opening and processing** images
+* **Python Imaging Library (PIL)** is a commonly used library that contains useful methods for **opening and processing** images.
 * The most commonly used part of the package is the `Image` module.
-    * Other modules contain methods for doing specific image operations, like **filtering** and **enhancement**
+    * Other modules contain methods for doing specific image operations, like **filtering** and **enhancement**.
 
 ```python
 from PIL import Image
@@ -273,20 +273,20 @@ from PIL import Image
 ## NumPy {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 
-* **NumPy** is a Python package which is used for doing operations on **multidimensional arrays of numbers**
+* **NumPy** is a Python package which is used for doing operations on **multidimensional arrays of numbers**.
 * This is how images are represented, and so NumPy contains lots of functions which are useful for manipulating images.
 
 ## How does array shape work?
 
-* Arrays can be visualised as rectangular shapes of boxes, depicting the array elements
+* Arrays can be visualised as rectangular collections of boxes, depicting the array elements.
 
 ![Visualisations of the shape of some example NumPy arrays](/media/daim/np_shape_1.png){width="70%"}
 
 ## Similar shapes
 
-* These shapes are the same, but the dimensions are structured differently, making the data incompatible for some operations
+* These shapes are the same, but the dimensions are structured differently, making the data incompatible for some operations.
 
-![Visualisation of the same data with different dimension structure](/media/daim/np_shape_2.png){width="70%"}
+![Visualisation of the same data with different dimension structure.](/media/daim/np_shape_2.png){width="70%"}
 
 ## How does this relate to images? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
@@ -294,9 +294,10 @@ from PIL import Image
 
 ### Explanation
 
-* Collections of images are often represented as NumPy arrays
-* This is the input data format for many machine learning models
-    * Data must be preprocessed into this format before training and testing
+* Collections of images are often represented as NumPy arrays.
+* This is the input data format for many machine learning models.
+<!-- TODO: make sure to explain what is training and testing here -->
+    * Data must be preprocessed into this format before `training` and `testing`.
 * The shapes of these arrays can be confusing.
 
 ### Example
@@ -376,3 +377,5 @@ cxr_batch_shape = (16, 256, 256)
 ## Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 Any questions?
+
+<!-- TODO: say what is coming up in the next module, to keep people excited for more. -->

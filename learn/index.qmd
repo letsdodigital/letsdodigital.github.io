@@ -2,24 +2,17 @@
 title: "Education"
 ---
 
-## Coding (programmatic)
+## Programming in Healthcare Course
 
 There are so many programming languages to choose from. We could argue for hours about which would be best to learn as a beginner in healthcare. Python is a very popular language that provides powerful tools to build healthcare apps, conduct data analysis, and even implement machine learning. Below, we provide you with resources to learn this very versatile language.
 
-* [Learn to code in python](learn-python/index.qmd)
+* [Programming in Healthcare slides](learn-python/index.qmd)
 
-## Ask a clinician
+## Data Analytics in Medicine (DAIM) Course
 
-The slides from the first webinar of this series can be found [here](ask-a-clinician/index.qmd).
+Do you want to learn about all things AI? If so, this is the fundamental course for you. Covering image manipulation and machine learning in the context of healthcare.  Register for the course [here](/tickets/). The slides for this course can be found below.
 
-## Syllabus
-
-Interested in becoming a **clinical informatician**, view a syllabus in the making [here](/learn/syllabus/clinical-informatician.qmd).
-
-Interested in becoming a **clinician-who-codes**, view a syllabus in the making [here](/learn/syllabus/clinician-who-codes.qmd).
-
-Interested in becoming a **coding**, view a syllabus in the making [here](/learn/syllabus/coding.qmd).
-
+* [Data Analytics in Medicine slides](daim/index.qmd)
 
 ## Tutors' corner
 

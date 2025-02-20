@@ -1,0 +1,22 @@
+---
+title: "Data Analytics in Medicine"
+---
+
+Welcome to the Data Analytics in Medicine course. Please find slides for this imagine manipulation, machine learning and AI course below.
+
+## Modules
+
+<ul>
+  <li><a href="module-0/0-overview.html" target="_blank">Module 0 - Overview</a></li>
+  <li><a href="module-1/1-introduction.html" target="_blank">Module 1 - Introduction</a></li>
+  <li><a href="module-2/2-images.html" target="_blank">Module 2 - Image</a></li>
+  <li><a href="module-3/3-dicom.html" target="_blank">Module 3 - DICOM</a></li>
+  <li><a href="module-4/4-ai.html" target="_blank">Module 4 - AI</a></li>
+  <li><a href="module-5/5-closing.html" target="_blank">Module 5 - Finalising</a></li>
+</ul>
+
+## Tools
+
+<ul>
+  <li><a href="tools/template.html" target="_blank">Tools</a></li>
+</ul>

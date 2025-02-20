@@ -12,8 +12,8 @@ title-slide-attributes:
 ## Introduction {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
 * Today's module will cover **the DICOM format**.
-* We will also recap important information from previous seminars
-* This will prepare you for the **DICOM coding workshop**
+* We will also recap important information from previous seminars.
+* This will prepare you for the **DICOM coding workshop**.
 
 #
 :::{.r-stack}
@@ -32,24 +32,24 @@ title-slide-attributes:
 
 ### Example
 
-![Visualisation of different array shapes](/media/daim/np_shape_1.png)
+![Visualisation of different array shapes](/media/daim/np_shape_1.png){height=400px}
 
 :::
 
 ## Why use NumPy arrays for medical images?  {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
-* NumPy is built on top of **C**
-    * Computations much faster than in Python computations
-* NumPy arrays consume **less space in memory** than Python lists
-* NumPy is also **fast** because it uses **broadcasting** 
+* NumPy is built on top of **C**.
+    * Computations are much faster than in Python computations.
+* NumPy arrays consume **less space in memory** than Python lists.
+* NumPy is also **fast** because it uses **broadcasting**.
 
-## Broadcasting {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
+## Broadcasting {.smaller background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
 ::: {.panel-tabset}
 
 ### Definition
 
-> Broadcasting is the ability to perform computations on or using arrays without the need to use for loops even if arrays are not of the same exact shape
+> Broadcasting is the ability to perform computations on or using arrays without the need to use for loops even if arrays are not of the same exact shape.
 
 ### Rules
 
@@ -64,15 +64,17 @@ title-slide-attributes:
 
 :::
 
+
+<!-- TODO: repeat this slide but with the answer showing -->
 ## Question {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6" text-align=center}
 
 * Considering the rules of broadcasting, which would yield an error and which is compatible?
 
-```
-(2,1), (1,) ---> 
-(5,5,3), (2,5,3) -->
-(5,5,3), (5,3) -->
-(3,3,4), (4,)-->
+```{.python}
+    (2,1), (1,) ---> 
+    (5,5,3), (2,5,3) -->
+    (5,5,3), (5,3) -->
+    (3,3,4), (4,)-->
 ```
 
 #
@@ -103,23 +105,23 @@ title-slide-attributes:
 
 ### Explanation
 
-* Used in **X-ray imaging** (plain films, CT scans)
-* They describe a **physical property**
-    * The **attentuation of x-rays** through different structures
-* **Water** is used as a reference point at **0 HU (Hounsfield Units)** 
+* Used in **X-ray imaging** (plain films, CT scans).
+* They describe a **physical property**.
+    * The **attentuation of x-rays** through different structures.
+* **Water** is used as a reference point at **0 HU (Hounsfield Units)** .
     * Materials that **attenuate X-rays more** will have a **higher value**, and vice versa.
 
 ### Hounsfield
 
-![In the early 1970s, **Sir Godfrey Newbold Hounsfield** , a British electrical engineer presented the world with Hounsfield Units which he won the **Nobel Prize** for several years later. ](/media/daim/module_3/image8.jpg)
+![In the early 1970s, **Sir Godfrey Newbold Hounsfield** , a British electrical engineer presented the world with Hounsfield Units which he won the **Nobel Prize** for several years later.](/media/daim/module_3/image8.jpg){height=300px}
 
 :::
 
 ## Why is this important for programming?  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-* Houndsfield units are **quantitative** - they measure a **physical property**
+* Houndsfield units are **quantitative** - they measure a **physical property**.
 * Houndsfield units are typically represented as 12-bit or 16-bit integers. 
-* As previously mentioned, **most images are 8-bit**
+* As previously mentioned, **most images are 8-bit**.
     * How can we visualise CT scans?
 
 ## Windowing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
@@ -159,25 +161,25 @@ title-slide-attributes:
 
 * **DICOM (Digital Imaging and Communications in Medicine)** is a standard for storing and transmitting medical images.
 * It was developed to ensure **interoperability** between medical imaging devices.
-    * CT, MRI **(stored as 3D images)**
+    * CT and MRI **(stored as 3D images)**
     * X-ray and ultrasound **(stored as 2D images)**
 * DICOM includes more data **about the image itself**.
     * This is called **metadata**.
 
 ## Metadata {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
 
-* Other formats (JPEG, PNG) have metadata
-    * DICOM's metadata is **more extensive**
+* Other formats (JPEG, PNG) have metadata.
+    * DICOM's metadata is **more extensive**.
 * The metadata can include:
-    * The patient's name, referring hospital, patient sex etc.
-    * Paramaters of image aquisition such as slice thickness, protocol, position of patient etc. 
+    * The patient's name, referring hospital, gender, etc.
+    * Parameters of image acquisition such as slice thickness, protocol, position of patient, etc. 
 
 ## Other features of DICOM {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
 
-* A key part of DICOM is **standardization** allowing a common framework for managing, storing, and sharing medical images across different devices and platforms
-    * This allows for integration into electronic health records and PACS (Picture Archive Communication System)
-* Support for **lossless compression** 
-    * Medical images can be compressed without losing valuable scan information
+* A key part of DICOM is **standardisation**, allowing a common framework for managing, storing, and sharing medical images across different devices and platforms.
+    * This allows for integration into electronic health records and PACS (Picture Archive Communication System).
+* Support for **lossless compression**.
+    * Medical images can be compressed without losing valuable scan information.
 
 ## Examples {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -185,10 +187,12 @@ title-slide-attributes:
 
 ### Example 1
 
+<!-- TODO: this one looks like lung windows -->
 ![An animation of a CT scan.](/media/daim/module_3/dicom_slices.gif)
 
 ### Lung Example
 
+<!-- I have no idea what window this is, but it is way too overexposed -->
 ![An animation of a lung-windowed CT scan.](/media/daim/module_3/lung_windowed_slices.gif)
 
 ### Soft Tissue Example
@@ -200,10 +204,10 @@ title-slide-attributes:
 
 ## Value representation {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-* Each item of **data** in a DICOM file has a **value representation**
+* Each item of **data** in a DICOM file has a **value representation**.
     * This is its **datatype**
 * Common datatypes in Python include integers, strings, floats, etc.
-* DICOM's **value representations** are more elaborate
+* DICOM's **value representations** are more elaborate.
 * These are important so that the programmer knows how to **interpret** data in the file.
 
 ## Examples of value representations {.smaller}
@@ -245,8 +249,9 @@ title-slide-attributes:
 * **Image Viewing**: Provides user-friendly interfaces for clinicians to access and analyze images.
 * **Image Distribution**: Facilitates the transfer of images and associated data across multiple locations, enabling remote diagnostics and consultations.
 
-## What is the difference between PACS and DICOM viewers? {.smaller}
+## What is the difference between PACS and DICOM viewers? 
 
+<div style="font-size: 18px;">
 | Feature/Aspect           | DICOM Viewers                                       | PACS (Picture Archive and Communication Systems)         |
 |--------------------------|------------------------------------------------------|-----------------------------------------------------------|
 | **Primary Function**     | Allows viewing and basic manipulation of DICOM images. | Comprehensive system for storing, retrieving, and distributing medical images. |
@@ -258,10 +263,10 @@ title-slide-attributes:
 | **Cost**                 | Generally more affordable or free.                  | Higher cost due to advanced features and infrastructure.  |
 | **Advanced Tools**       | Basic tools for image adjustments and measurements. | Advanced diagnostic tools and analytics for image review. |
 | **Use Case**             | Suitable for individual practitioners or small practices needing basic image review. | Ideal for hospitals, large clinics, and healthcare networks that require comprehensive image management. |
-
+</div>
 ## Python Packages {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* **Python** can be used to interact with DICOM files
+* **Python** can be used to interact with DICOM files.
 * The library that we will be using in this course is **pydicom**.
     * This package can be used to open and extract **image data**.
     * This package also allows users to view **metadata**.
@@ -293,8 +298,8 @@ import pydicom
 
 ## Isotropic vs. Non-Isotropic Voxels {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
  
-* Isotropic voxels have **equal dimensions**, e.g. 1 mm × 1 mm × 1 mm
-* Non-isotropic voxels do not have **square** dimensions, e.g. 1mm × 1mm × 2mm
+* Isotropic voxels have **equal dimensions**, e.g. 1 mm × 1 mm × 1 mm.
+* Non-isotropic voxels do not have **square** dimensions, e.g. 1mm × 1mm × 2mm.
 
 ![Example plot showing different voxel dimensions.](/media/daim/module_3/voxels.JPG)
 
@@ -322,31 +327,31 @@ import pydicom
 
 ## Displaying an image {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* **Sections** of an image can be displayed.
-* These can correspond to the **x, y, and z imaging dimensions**
+* **Sections** of an image can be displayed instead.
+* These can correspond to the **x, y, and z imaging dimensions**.
     * Coronal, sagittal and axial planes
-* In Python, these can be extracted by **array slicing**
+* In Python, these can be extracted by **array slicing**.
 * What happens if you want a **different angle** of your imaging plane?
 
-![Scrolling down the z-axis (axially) in a thoracic CT scan](/media/daim/module_3/dicom_slices2.gif)
+![Scrolling down the z-axis (axially) in a thoracic CT scan.](/media/daim/module_3/dicom_slices2.gif)
 
 ## Interpolation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Interpolation is a method used to estimate an unknown value between two known values. 
-* In medical imaging, it can be used to estimate intermediate values between voxels
+* In medical imaging, it can be used to estimate intermediate values between voxels.
     * This can be useful if you want to section the volume at an **angle**.
 
 ## Segmentation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* Segmentation is **pixel-level classification** where each pixel is classified to belong to a **certain class**
+* Segmentation is **pixel-level classification** where each pixel is classified to belong to a **certain class**.
     * **e.g. is this pixel part of the liver?**
-* This can be useful in many settings including automated image analysis and object rendering 
+* This can be useful in many settings including automated image analysis and object rendering.
 
 ![Segmentation of the liver and other vessels.](/media/daim/module_3/3dsegmentation.JPG)
 
 ## Maximum Intensity Projection (MIP) {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* **Maximum Intensity Projection (MIP)** is a method used to visualize 3D volumetric data
+* **Maximum Intensity Projection (MIP)** is a method used to visualize 3D volumetric data.
 * It projects the highest intensity values along each line of sight onto a 2D plane.
 * Often used in **positron emission tomography (PET) imaging**.
 
@@ -355,3 +360,5 @@ import pydicom
 # Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 Any questions?
+
+<!-- TODO: mention what is coming up next -->
