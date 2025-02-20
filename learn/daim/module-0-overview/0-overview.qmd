@@ -16,7 +16,7 @@ include-in-header:
       }
       </style>
 ---
-
+<!-- TODO: is this slide deck part of module 0 / 1 ? If so, perhaps put module 0/1 in the title slide -->
 ## Introduction {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 * Welcome to the **Data Analytics in Medicine (DAIM)** course!
@@ -54,10 +54,19 @@ include-in-header:
   * Stack Overflow forum
   * GitHub code
 
+<!-- TODO: Moved this before coffee break so people have some talking points -->
+## Course breakdown {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* The course is split into multiple modules which each cover a different area.
+* Each module is split into:
+  * **Seminars** - Lecture-style talks and discussions of the topic for the week.
+  * **Workshops** - Practical exercises via `Workbooks` to gain hands-on experience, guided by direct or indirect support of our experienced tutors.
+* The workshops will use **Jupyter Notebooks** within **Google Colab** to deliver the content. 
+
 ## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
 
 * Questions:
-  * What reasons does everyone have for signing up for this course?
+  * What incentive did you have for signing up for this course?
   * What is the one skill that you are hoping to gain?
 
 <!-- TODO: I feel this is much too early for a break, you are only 10 mins into your talk -->
@@ -75,14 +84,8 @@ print(break_time(tired=True))
 ```
 -->
 
-## Course breakdown {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-* The course is split into multiple modules which each cover a different area.
-* Each module is split into two types of weeks:
-  * **Seminars** - Lecture-style discussions of the topic for the week.
-  * **Workshops** - Workbooks that you will complete with the direct or indirect support of a tutor.
-* The workshops will use **Jupyter Notebooks** within **Google Colab** to deliver the content. 
-
+<!-- TODO: You will need to expand on these learning levels. Why do we have them, what are they and how can students and tutors utilise them to help students. -->
 ## Learning Levels {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 * We've created a set of learning levels **(LLs)** for this course:
@@ -91,6 +94,7 @@ print(break_time(tired=True))
   3. **Level 3** - Project Planning and Management
   4. **Level 4** - Clinical Translation
 
+<!-- Where is module 0 and 1? Please explain to audience, as you suddenly jump to module 2 -->
 ## Module 2 - Course Introduction {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 * Seminar content will include:
@@ -102,16 +106,17 @@ print(break_time(tired=True))
 
 * Seminar content will include:
   * How images are **digitally represented**.
+  <!-- TODO: make sure you tell the audience what a library is -->
   * Basics of multiple Python packages.
     * **PIL**, a Python library for working with images.
     * **NumPy**, a  Python library for working with large structured data.
 * Workshop content will include:
-  * How to open and render **different types** of image data.
+  * How to access and render **different types** of image data.
   
 ## Module 3 - Python and DICOM {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 * Seminar content will include:
-  * What the **DICOM standard** is
+  * What the **DICOM standard** is (think X-rays and CTs)
   * How computers represent scan data
   * What **data** is in a DICOM file
 * Workshop content will include:
@@ -122,11 +127,11 @@ print(break_time(tired=True))
 
 * Seminar content will include:
   * Different types of **"machine learning"**
-  * The practical steps needed to take **an idea to a system**
+  * The practical steps needed to take **an idea to reality**
   * Discussing **advantages and limitations** of these algorithms
 * Workshop content will include:
-  * **Preprocessing data** for training.
-  * **Constructing, training, and evaulating** a basic neural network for **pneumonia detection on CXR**.
+  * **Preprocessing data** for training
+  * **Constructing, training, and evaulating** a basic neural network for **pneumonia detection on CXR**
 
 ## Course Timeline
 
@@ -136,7 +141,7 @@ print(break_time(tired=True))
 
 * We will be asking for course feedback to allow us to refine the course for further cohorts.
 * Please fill this out at the start and end of the course.
-* Please include honest feedback!
+* Please include honest feedback! Only with honest feedback can we further improve this course.
 
 ## Note - Terminology {background-image="/media/daim/bg_cubes_green_right.png" background-opacity="0.6"}
 
