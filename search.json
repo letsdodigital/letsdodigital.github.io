@@ -2688,11 +2688,18 @@
     "text": "Tips to gain the most from DAIM\n\nPractice, practice, practice\nUnfortunately, there will be times when learning to code can get a little frustrating. But remember, we are here to help you through these hurdles.\nFinding resources\n\nCode documentation\nStack Overflow forum\nGitHub code"
   },
   {
+    "objectID": "learn/daim/module-0-overview/0-overview.html#course-breakdown",
+    "href": "learn/daim/module-0-overview/0-overview.html#course-breakdown",
+    "title": "Data Analytics in Medicine (DAIM)",
+    "section": "Course breakdown",
+    "text": "Course breakdown\n\nThe course is split into multiple modules which each cover a different area.\nEach module is split into:\n\nSeminars - Lecture-style talks and discussions of the topic for the week.\nWorkshops - Practical exercises via Workbooks to gain hands-on experience, guided by direct or indirect support of our experienced tutors.\n\nThe workshops will use Jupyter Notebooks within Google Colab to deliver the content."
+  },
+  {
     "objectID": "learn/daim/module-0-overview/0-overview.html#minute-open-discussion",
     "href": "learn/daim/module-0-overview/0-overview.html#minute-open-discussion",
     "title": "Data Analytics in Medicine (DAIM)",
     "section": "5-minute open discussion",
-    "text": "5-minute open discussion\n\nQuestions:\n\nWhat reasons does everyone have for signing up for this course?\nWhat is the one skill that you are hoping to gain?"
+    "text": "5-minute open discussion\n\nQuestions:\n\nWhat incentive did you have for signing up for this course?\nWhat is the one skill that you are hoping to gain?"
   },
   {
     "objectID": "learn/daim/module-0-overview/0-overview.html#break",
@@ -2700,13 +2707,6 @@
     "title": "Data Analytics in Medicine (DAIM)",
     "section": "Break!",
     "text": "Break!"
-  },
-  {
-    "objectID": "learn/daim/module-0-overview/0-overview.html#course-breakdown",
-    "href": "learn/daim/module-0-overview/0-overview.html#course-breakdown",
-    "title": "Data Analytics in Medicine (DAIM)",
-    "section": "Course breakdown",
-    "text": "Course breakdown\n\nThe course is split into multiple modules which each cover a different area.\nEach module is split into two types of weeks:\n\nSeminars - Lecture-style discussions of the topic for the week.\nWorkshops - Workbooks that you will complete with the direct or indirect support of a tutor.\n\nThe workshops will use Jupyter Notebooks within Google Colab to deliver the content."
   },
   {
     "objectID": "learn/daim/module-0-overview/0-overview.html#learning-levels",
@@ -2727,21 +2727,21 @@
     "href": "learn/daim/module-0-overview/0-overview.html#module-2---core-python-for-image-processing",
     "title": "Data Analytics in Medicine (DAIM)",
     "section": "Module 2 - Core Python for Image Processing",
-    "text": "Module 2 - Core Python for Image Processing\n\nSeminar content will include:\n\nHow images are digitally represented.\nBasics of multiple Python packages.\n\nPIL, a Python library for working with images.\nNumPy, a Python library for working with large structured data.\n\n\nWorkshop content will include:\n\nHow to open and render different types of image data."
+    "text": "Module 2 - Core Python for Image Processing\n\nSeminar content will include:\n\nHow images are digitally represented. \nBasics of multiple Python packages.\n\nPIL, a Python library for working with images.\nNumPy, a Python library for working with large structured data.\n\n\nWorkshop content will include:\n\nHow to access and render different types of image data."
   },
   {
     "objectID": "learn/daim/module-0-overview/0-overview.html#module-3---python-and-dicom",
     "href": "learn/daim/module-0-overview/0-overview.html#module-3---python-and-dicom",
     "title": "Data Analytics in Medicine (DAIM)",
     "section": "Module 3 - Python and DICOM",
-    "text": "Module 3 - Python and DICOM\n\nSeminar content will include:\n\nWhat the DICOM standard is\nHow computers represent scan data\nWhat data is in a DICOM file\n\nWorkshop content will include:\n\nOpening and rendering DICOM with Python\nExtracting demographics from DICOM"
+    "text": "Module 3 - Python and DICOM\n\nSeminar content will include:\n\nWhat the DICOM standard is (think X-rays and CTs)\nHow computers represent scan data\nWhat data is in a DICOM file\n\nWorkshop content will include:\n\nOpening and rendering DICOM with Python\nExtracting demographics from DICOM"
   },
   {
     "objectID": "learn/daim/module-0-overview/0-overview.html#module-4---ai-for-medicine",
     "href": "learn/daim/module-0-overview/0-overview.html#module-4---ai-for-medicine",
     "title": "Data Analytics in Medicine (DAIM)",
     "section": "Module 4 - AI for Medicine",
-    "text": "Module 4 - AI for Medicine\n\nSeminar content will include:\n\nDifferent types of “machine learning”\nThe practical steps needed to take an idea to a system\nDiscussing advantages and limitations of these algorithms\n\nWorkshop content will include:\n\nPreprocessing data for training.\nConstructing, training, and evaulating a basic neural network for pneumonia detection on CXR."
+    "text": "Module 4 - AI for Medicine\n\nSeminar content will include:\n\nDifferent types of “machine learning”\nThe practical steps needed to take an idea to reality\nDiscussing advantages and limitations of these algorithms\n\nWorkshop content will include:\n\nPreprocessing data for training\nConstructing, training, and evaulating a basic neural network for pneumonia detection on CXR"
   },
   {
     "objectID": "learn/daim/module-0-overview/0-overview.html#course-timeline",
@@ -2755,7 +2755,7 @@
     "href": "learn/daim/module-0-overview/0-overview.html#course-feedback",
     "title": "Data Analytics in Medicine (DAIM)",
     "section": "Course Feedback",
-    "text": "Course Feedback\n\nWe will be asking for course feedback to allow us to refine the course for further cohorts.\nPlease fill this out at the start and end of the course.\nPlease include honest feedback!"
+    "text": "Course Feedback\n\nWe will be asking for course feedback to allow us to refine the course for further cohorts.\nPlease fill this out at the start and end of the course.\nPlease include honest feedback! Only with honest feedback can we further improve this course."
   },
   {
     "objectID": "learn/daim/module-0-overview/0-overview.html#note---terminology",
