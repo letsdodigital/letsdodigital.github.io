@@ -44,7 +44,7 @@ jobs:
         with:
           token: ${{ secrets.PAT }}
           commit-message: "Automated changes from CI/CD pipeline"
-          branch: "ci-cd-changes"
+          branch: "pull-request-for-${{ github.base_ref}}"
           title: "Automated changes from CI/CD pipeline"
           body: "This PR contains automated changes from the CI/CD pipeline."
           base: main
