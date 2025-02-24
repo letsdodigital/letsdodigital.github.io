@@ -7,8 +7,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.40">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-48ffa3e5b9d089919c6712c39e5b00f2.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.41">
 
   <meta name="author" content="DAIM Team">
   <title>Let's Do Digital – Core Python for Image Processing</title>
@@ -95,7 +95,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-bbe7401fe57d4b791b917637bb662036.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
   <link rel="stylesheet" href="../../../slides.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -218,10 +218,10 @@ DAIM Team
 <section id="learning-outcomes" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6">
 <h2>Learning outcomes</h2>
 <ul>
-<li>Recap general uses of image data in clinical settings</li>
-<li>Understand the basics of digital image representation</li>
-<li>Understand what an image transform is</li>
-<li>Understand overviews of two key Python packages (PIL, NumPy)</li>
+<li>Recap general uses of image data in clinical settings.</li>
+<li>Understand the basics of digital image representation.</li>
+<li>Understand what an image transform is.</li>
+<li>Understand overviews of two key Python packages (PIL, NumPy).</li>
 </ul>
 </section>
 <section id="what-is-meant-by-image-processing" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6">
@@ -230,11 +230,11 @@ DAIM Team
 <li>This refers to <strong>performing operations</strong> on <strong>an image</strong> to <strong>gain information</strong> from it or improve its usefulness.</li>
 <li>Digitally, an image is defined as a <strong>2D grid of pixels</strong>.
 <ul>
-<li>These <strong>pixels contain values</strong> - we will go over the types of value that they usually contain</li>
+<li>These <strong>pixels contain values</strong> - we will go over the types of value that they usually contain.</li>
 </ul></li>
 <li>Remember, concepts that work for 2D images also translate down to 1D and up to 3D (and above!)
 <ul>
-<li>This is important for <strong>volumetric scans</strong> (CT, MRI)</li>
+<li>This is important for <strong>volumetric scans</strong> (CT, MRI).</li>
 </ul></li>
 </ul>
 </section>
@@ -267,52 +267,52 @@ DAIM Team
 <li>A pixel (picture element) is an element on a grid which can take on different types of values.</li>
 <li>The simplest value that a pixel can take on is an integer value between 0 and 255.
 <ul>
-<li>These are used for shades of greyscale images</li>
+<li>These are used for shades of greyscale images.</li>
 </ul></li>
 </ul>
 
-<img data-src="../../../media/daim/greyscale_pixels.png" class="r-stretch quarto-figure-center"><p class="caption">A greyscale pixel and the values it can take on, from black to white</p></section>
+<img data-src="../../../media/daim/greyscale_pixels.png" class="r-stretch quarto-figure-center"><p class="caption">A greyscale pixel and the values it can take on, from black to white.</p></section>
 <section id="is-a-greyscale-pixel-always-0-to-255" class="slide level2">
 <h2>Is a greyscale pixel always 0 to 255?</h2>
 <ul>
-<li>You will often seen this in <strong>floating-point format</strong>
+<li>You will often seen this in <strong>floating-point format</strong>.
 <ul>
-<li>The numbers will be divided by 255 -&gt; 0.0 to 1.0</li>
+<li>The numbers will be divided by 255 -&gt; 0.0 to 1.0.</li>
 </ul></li>
-<li>They can also be in <strong>Houndsfield units (HU)</strong>
+<li>They can also be in <strong>Houndsfield units (HU)</strong>.
 <ul>
 <li>We will discuss this in Module 3.</li>
 </ul></li>
 </ul>
 
-<img data-src="../../../media/daim/greyscale_pixels_float.png" class="r-stretch quarto-figure-center"><p class="caption">A greyscale pixel with floating point values, from black to white</p></section>
+<img data-src="../../../media/daim/greyscale_pixels_float.png" class="r-stretch quarto-figure-center"><p class="caption">A greyscale pixel with floating point values, from black to white.</p></section>
 <section id="how-about-colour-representation" class="slide level2">
 <h2>How about colour representation?</h2>
 <ul>
-<li>Pixels each need <strong>3 values</strong> (channels) to represent colour
+<li>Pixels each need <strong>3 values</strong> (channels) to represent colour.
 <ul>
-<li>Red, green, and blue channels (<strong>RGB</strong>)</li>
-<li>The higher the number, the brighter the colour in the mix</li>
+<li>Red, green, and blue channels (<strong>RGB</strong>).</li>
+<li>The higher the number, the brighter the colour in the mix.</li>
 </ul></li>
 </ul>
 
-<img data-src="../../../media/daim/rgb_pixels_decimal.png" class="r-stretch quarto-figure-center"><p class="caption">Two different colours with the RGB values needed to generate them</p></section>
+<img data-src="../../../media/daim/rgb_pixels_decimal.png" class="r-stretch quarto-figure-center"><p class="caption">Two different colours with the RGB values needed to generate them.</p></section>
 <section id="ive-seen-letters-when-describing-colours" class="slide level2">
 <h2>I’ve seen letters when describing colours?</h2>
 <ul>
-<li>Numbers can also be represented in hexadecimal (base-16)
+<li>Numbers can also be represented in hexadecimal (base-16).
 <ul>
-<li>This assigns letters A-F for numbers 10-15</li>
+<li>This assigns letters A-F for numbers 10-15.</li>
 </ul></li>
 </ul>
 
-<img data-src="../../../media/daim/rgb_pixels_hexadecimal.png" class="r-stretch quarto-figure-center"><p class="caption">Two different colours with their hexadecimal RGB values</p></section>
+<img data-src="../../../media/daim/rgb_pixels_hexadecimal.png" class="r-stretch quarto-figure-center"><p class="caption">Two different colours with their hexadecimal RGB values.</p></section>
 <section id="rgb-colour-codes" class="slide level2">
 <h2>RGB Colour Codes</h2>
 <ul>
 <li>Using hexadecimal, colors can be elegantly expressed as strings of 6 letters.
 <ul>
-<li>This is usually preceded by a <strong>hash (#)</strong></li>
+<li>This is usually preceded by a <strong>hash (#)</strong>.</li>
 </ul></li>
 </ul>
 
@@ -324,7 +324,7 @@ Perhaps mention alpha channels in this section
 <h2>Image dimensions</h2>
 <ul>
 <li>The dimensions determine how many pixels are in an image.</li>
-<li>In a colour image, 3 values are needed for each pixel (R, G, and B)</li>
+<li>In a colour image, 3 values are needed for each pixel (R, G, and B).</li>
 </ul>
 
 <!--
@@ -340,9 +340,9 @@ Deliberately introducing this notation early (x,y,channels).
 <section id="how-can-we-reduce-the-storage-space-of-an-image" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
 <h2>How can we reduce the storage space of an image?</h2>
 <ul>
-<li>Compression is the process of <strong>reducing image storage requirements</strong></li>
+<li>Compression is the process of <strong>reducing image storage requirements</strong>.</li>
 <li>There are lots of approaches to this process.</li>
-<li>These methods can be <strong>lossy</strong> or <strong>lossless</strong></li>
+<li>These methods can be <strong>lossy</strong> or <strong>lossless</strong>.</li>
 </ul>
 <!--
 Specific compression algorithms (e.g. DCT) are outside the scope of the course.
@@ -355,8 +355,8 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 <div class="tab-content">
 <div id="tabset-1-1">
 <ul>
-<li><strong>Lossless</strong> compression indicates that all the data in the original image can be recovered</li>
-<li><strong>Lossy</strong> compression will only produce an approximation of the original image</li>
+<li><strong>Lossless</strong> compression indicates that all the data in the original image can be recovered.</li>
+<li><strong>Lossy</strong> compression will only produce an approximation of the original image.</li>
 <li>This is an important distinction!</li>
 </ul>
 </div>
@@ -364,7 +364,7 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="../../../media/daim/compression_comparison.png" style="width:70.0%"></p>
-<figcaption>An example of an X-ray <a href="https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data">from the dataset that we will use later in the course</a>, with lossless and (extreme) lossy compression</figcaption>
+<figcaption>An example of an X-ray <a href="https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data">from the dataset that we will use later in the course</a>, with lossless and (extreme) lossy compression.</figcaption>
 </figure>
 </div>
 </div>
@@ -384,15 +384,15 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 <section id="what-is-convolution" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.4">
 <h2>What is convolution?</h2>
 <ul>
-<li><strong>Convolution</strong> is a <strong>common operation</strong> that is used in data processing</li>
-<li>It involves <strong>“convolving”</strong> a target image with a <strong>kernel</strong></li>
+<li><strong>Convolution</strong> is a <strong>common operation</strong> that is used in data processing.</li>
+<li>It involves <strong>“convolving”</strong> a target image with a <strong>kernel</strong>.</li>
 <li>It can be done in <strong>1D</strong> (signals), <strong>2D</strong> (images), and higher dimensions.</li>
 </ul>
 </section>
 <section id="what-does-it-do-to-an-image" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.4">
 <h2>What does it do to an image?</h2>
 <ul>
-<li>The change that convolution has on an image <strong>depends on a kernel</strong></li>
+<li>The change that convolution has on an image <strong>depends on a kernel</strong>.</li>
 <li>Kernels can be designed to produce <strong>different effects</strong>:
 <ul>
 <li>Blurring, sharpening, edge detection, etc.</li>
@@ -556,8 +556,8 @@ Figure&nbsp;3: A comparison of convolving an image of a cat with a edge detectio
 <section id="why-feature-convolution-in-this-course" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.4">
 <h2>Why feature convolution in this course?</h2>
 <ul>
-<li>Convolution is a key operation in a <strong>convolutional neural network</strong>, a <strong>well-established deep-learning architecture</strong> for analysing images</li>
-<li>It is also very versatile and is <strong>used in other areas</strong> (e.g.&nbsp;signal processing)</li>
+<li>Convolution is a key operation in a <strong>convolutional neural network</strong>, a <strong>well-established deep-learning architecture</strong> for analysing images.</li>
+<li>It is also very versatile and is <strong>used in other areas</strong> (e.g.&nbsp;signal processing).</li>
 </ul>
 </section>
 <section id="minute-task-or-break" class="slide level2" data-background-image="../../../media/daim/coffee2.png" data-background-opacity="0.4">
@@ -579,10 +579,10 @@ Find a clinical example of convolution?
 <section id="python-imaging-library" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
 <h2>Python Imaging Library</h2>
 <ul>
-<li><strong>Python Imaging Library (PIL)</strong> is a commonly used library that contains useful methods for <strong>opening and processing</strong> images</li>
+<li><strong>Python Imaging Library (PIL)</strong> is a commonly used library that contains useful methods for <strong>opening and processing</strong> images.</li>
 <li>The most commonly used part of the package is the <code>Image</code> module.
 <ul>
-<li>Other modules contain methods for doing specific image operations, like <strong>filtering</strong> and <strong>enhancement</strong></li>
+<li>Other modules contain methods for doing specific image operations, like <strong>filtering</strong> and <strong>enhancement</strong>.</li>
 </ul></li>
 </ul>
 <div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="im">from</span> PIL <span class="im">import</span> Image</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -597,24 +597,24 @@ Find a clinical example of convolution?
 <section id="numpy" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
 <h2>NumPy</h2>
 <ul>
-<li><strong>NumPy</strong> is a Python package which is used for doing operations on <strong>multidimensional arrays of numbers</strong></li>
+<li><strong>NumPy</strong> is a Python package which is used for doing operations on <strong>multidimensional arrays of numbers</strong>.</li>
 <li>This is how images are represented, and so NumPy contains lots of functions which are useful for manipulating images.</li>
 </ul>
 </section>
 <section id="how-does-array-shape-work" class="slide level2">
 <h2>How does array shape work?</h2>
 <ul>
-<li>Arrays can be visualised as rectangular shapes of boxes, depicting the array elements</li>
+<li>Arrays can be visualised as rectangular collections of boxes, depicting the array elements.</li>
 </ul>
 
 <img data-src="../../../media/daim/np_shape_1.png" style="width:70.0%" class="r-stretch quarto-figure-center"><p class="caption">Visualisations of the shape of some example NumPy arrays</p></section>
 <section id="similar-shapes" class="slide level2">
 <h2>Similar shapes</h2>
 <ul>
-<li>These shapes are the same, but the dimensions are structured differently, making the data incompatible for some operations</li>
+<li>These shapes are the same, but the dimensions are structured differently, making the data incompatible for some operations.</li>
 </ul>
 
-<img data-src="../../../media/daim/np_shape_2.png" style="width:70.0%" class="r-stretch quarto-figure-center"><p class="caption">Visualisation of the same data with different dimension structure</p></section>
+<img data-src="../../../media/daim/np_shape_2.png" style="width:70.0%" class="r-stretch quarto-figure-center"><p class="caption">Visualisation of the same data with different dimension structure.</p></section>
 <section id="how-does-this-relate-to-images" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
 <h2>How does this relate to images?</h2>
 <div class="panel-tabset">
@@ -622,10 +622,10 @@ Find a clinical example of convolution?
 <div class="tab-content">
 <div id="tabset-3-1">
 <ul>
-<li>Collections of images are often represented as NumPy arrays</li>
-<li>This is the input data format for many machine learning models
+<li>Collections of images are often represented as NumPy arrays.</li>
+<li>This is the input data format for many machine learning models. <!-- TODO: make sure to explain what is training and testing here -->
 <ul>
-<li>Data must be preprocessed into this format before training and testing</li>
+<li>Data must be preprocessed into this format before <code>training</code> and <code>testing</code>.</li>
 </ul></li>
 <li>The shapes of these arrays can be confusing.</li>
 </ul>
@@ -713,6 +713,7 @@ Find a clinical example of convolution?
 <section id="thank-you" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
 <h2>Thank you!</h2>
 <p>Any questions?</p>
+<!-- TODO: say what is coming up in the next module, to keep people excited for more. -->
 
 
 </section></section>
