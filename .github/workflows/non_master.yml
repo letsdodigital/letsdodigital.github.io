@@ -46,3 +46,10 @@ jobs:
           git checkout main
           git merge --no-ff "${GITHUB_REF#refs/heads/}"
           git push origin main
+      
+      - name: Trigger main branch workflow
+        run: |
+          curl -XPOST -u "${{ secrets.GH_USERNAME }}:${{ secrets.PAT }}" \
+          -H "Accept: application/vnd.github.everest-preview+json" \
+          "https://api.github.com/repos/digital-clinical-safety-alliance/digital-clinical-safety-platform/dispatches" \
+          -d '{"event_type": "trigger-main"}'
