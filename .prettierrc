@@ -1,0 +1,20 @@
+{
+  "overrides": [
+    {
+      "files": "*.qmd",
+      "options": {
+        "parser": "markdown"
+      }
+    },
+    {
+      "files": ["*.js", "*.ts"],
+      "options": {
+        "parser": "typescript",
+        "semi": true,
+        "trailingComma": "none",
+        "singleQuote": true,
+        "printWidth": 80
+      }
+    }
+  ]
+}

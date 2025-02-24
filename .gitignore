@@ -3,3 +3,4 @@
 _site
 /.luarc.json
 .venv
+node_modules/
