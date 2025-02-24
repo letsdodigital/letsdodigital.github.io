@@ -51,5 +51,5 @@ jobs:
         run: |
           curl -XPOST -u "${{ secrets.GH_USERNAME }}:${{ secrets.PAT }}" \
           -H "Accept: application/vnd.github.everest-preview+json" \
-          "https://api.github.com/repos/digital-clinical-safety-alliance/digital-clinical-safety-platform/dispatches" \
+          "https://api.github.com/repos/letsdodigital/letsdodigital.github.io/dispatches" \
           -d '{"event_type": "trigger-main"}'
