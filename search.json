@@ -1110,7 +1110,7 @@
     "href": "learn/learn-python/module-1/4-lets-build.html#streamlit-methods",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Streamlit methods",
-    "text": "Streamlit methods\n\n\nstreamlit methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Creates a text input field\n# `step` is the increment for + - buttons\nst.number_input(\"Label of input box\", step=1) \n\n# Creates a select box\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
+    "text": "Streamlit methods\n\n\nstreamlit methods.py\n\nimport streamlit as st\n\n# A title for the page\nst.title(\"My first web app\")\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Creates a text input field\n# `step` is the increment for + - buttons\nst.number_input(\"Label of input box\", step=1)\n\n# Creates a select box\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
   },
   {
     "objectID": "learn/learn-python/module-1/4-lets-build.html#streamlit-methods-1",
@@ -1235,8 +1235,8 @@
     "objectID": "learn/learn-python/module-0/3-python-basics.html#how-do-computers-think-2",
     "href": "learn/learn-python/module-0/3-python-basics.html#how-do-computers-think-2",
     "title": "Python basics - 1st slide deck",
-    "section": "How do computers think?",
-    "text": "How do computers think?\n\nAs modern computers communicate in binary form, they are said to be digital.\nThe processor reads these binary instructions.\nEach instruction results in either a True (1) or False (0) output.\nHence, the output is also in binary."
+    "section": "How do computers think? 2",
+    "text": "How do computers think? 2\n\nAs modern computers communicate in binary form, they are said to be digital.\nThe processor reads these binary instructions.\nEach instruction results in either a True (1) or False (0) output.\nHence, the output is also in binary."
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#so-how-do-we-communicate-with-computers",
@@ -1295,11 +1295,11 @@
     "text": "How is code read by the computer?\n\nAll code is read sequentially, one line after another.\n\n\n\nreading_code.py\n\nprint(\"I am the first line of code read by the computer\")\nprint(\"I am the second line read by the computer\")\nprint(\"Guess what, I am the third line read by the computer\")\n\nOutput\n    I am the first line of code read by the computer\n    I am the second line read by the computer\n    Guess what, I am the third line read by the computer"
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#how-is-code-read-by-the-computer-1",
-    "href": "learn/learn-python/module-0/3-python-basics.html#how-is-code-read-by-the-computer-1",
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#how-is-code-read-by-the-computer-2",
+    "href": "learn/learn-python/module-0/3-python-basics.html#how-is-code-read-by-the-computer-2",
     "title": "Python basics - 1st slide deck",
-    "section": "How is code read by the computer?",
-    "text": "How is code read by the computer?\n\nThis might make your head spin.\n\n\n\nreading_code.py\n\ndef i_am_a_function():\n    print(\"I am a line inside a function\")\n\nprint(\"I am printed first\")\ni_am_a_function()\n\nOutput\n    I am printed first\n    I am a line inside a function"
+    "section": "How is code read by the computer 2?",
+    "text": "How is code read by the computer 2?\n\nThis might make your head spin.\n\n\n\nreading_code.py\n\ndef i_am_a_function():\n    print(\"I am a line inside a function\")\n\nprint(\"I am printed first\")\ni_am_a_function()\n\nOutput\n    I am printed first\n    I am a line inside a function"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#variables",
@@ -1309,11 +1309,11 @@
     "text": "Variables\n\nA single variable is a contained space in the computer’s memory.\nSimple in-built variables include:\n\n\n\nvariables_simple.py\n\na_string = \"I am a string\"\n\nan_integer = 11\n\na_float = 8.04\n\na_boolean = True"
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#variables-1",
-    "href": "learn/learn-python/module-0/3-python-basics.html#variables-1",
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#variables-2",
+    "href": "learn/learn-python/module-0/3-python-basics.html#variables-2",
     "title": "Python basics - 1st slide deck",
-    "section": "Variables",
-    "text": "Variables\n\nMore complex variables include:\n\n\n\nvariables_more_complex.py\n\na_list = [\"first element of list\", \"second element of list\"]\n\nanother_list = [1, 5, 3, 6]\n\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}"
+    "section": "Variables 2",
+    "text": "Variables 2\n\nMore complex variables include:\n\n\n\nvariables_more_complex.py\n\na_list = [\"first element of list\", \"second element of list\"]\n\nanother_list = [1, 5, 3, 6]\n\na_dictionary = {\n    \"1st key\": \"1st value\",\n    \"2nd key\": \"2nd value\",\n}"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#variables-memory",
@@ -1355,7 +1355,7 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#using-both-types-of-quotation-marks",
     "title": "Python basics - 1st slide deck",
     "section": "Using both types of quotation marks",
-    "text": "Using both types of quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'\n\nWill print as\n    I want to highlight 'this' word    \n    I would like to show you \"this\""
+    "text": "Using both types of quotation marks\n\nYou can embed quotation marks within each other\n\n\n\nquotation_marks.py\n\nvariable_a = \"I want to highlight 'this' word\"\nvariable_b = 'I would like to show you \"this\"'\n\nWill print as\n    I want to highlight 'this' word\n    I would like to show you \"this\""
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#add-strings-together",
@@ -1396,8 +1396,8 @@
     "objectID": "learn/learn-python/module-0/3-python-basics.html#indentation-2",
     "href": "learn/learn-python/module-0/3-python-basics.html#indentation-2",
     "title": "Python basics - 1st slide deck",
-    "section": "Indentation",
-    "text": "Indentation\n\nLet’s say a drug has been prescribed and given\n\n\n\nindentation.py\n\nif drug_prescribed == True:\n    if drug_given == True:\n        print(\"Drug has been prescribed and given to the patient\")\n    else:\n        print(\"Drug has been prescribed but not given\")\nelse:\n    print(\"Drug has not been prescribed\")\n\n    print(\"Drug round complete!\")\n\nOutput\n    Drug has been prescribed and given to the patient"
+    "section": "Indentation 2",
+    "text": "Indentation 2\n\nLet’s say a drug has been prescribed and given\n\n\n\nindentation.py\n\nif drug_prescribed == True:\n    if drug_given == True:\n        print(\"Drug has been prescribed and given to the patient\")\n    else:\n        print(\"Drug has been prescribed but not given\")\nelse:\n    print(\"Drug has not been prescribed\")\n\n    print(\"Drug round complete!\")\n\nOutput\n    Drug has been prescribed and given to the patient"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#naming-conventions",
@@ -1407,11 +1407,11 @@
     "text": "Naming conventions\n\nThere are several naming conventions in python. The convention you need to know about for this module is:\n\nsnake_case - for variables, functions and methods"
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#what-is-in-a-code-1",
-    "href": "learn/learn-python/module-0/3-python-basics.html#what-is-in-a-code-1",
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#what-is-in-a-code-2",
+    "href": "learn/learn-python/module-0/3-python-basics.html#what-is-in-a-code-2",
     "title": "Python basics - 1st slide deck",
-    "section": "What is in a code?",
-    "text": "What is in a code?\n\nYou may notice that you can enter values for a variable (and other things) over several lines. This is allowed, but we will not bog you down with the specifics for now.\n\n\n\nhuman_organs.py\n\nhuman_organ_locations = {\n    \"heart\": \"chest\", \n    \"stomach\": \"abdomen\", \n    \"brain\": \"head\"\n}"
+    "section": "What is in a code 2?",
+    "text": "What is in a code 2?\n\nYou may notice that you can enter values for a variable (and other things) over several lines. This is allowed, but we will not bog you down with the specifics for now.\n\n\n\nhuman_organs.py\n\nhuman_organ_locations = {\n    \"heart\": \"chest\",\n    \"stomach\": \"abdomen\",\n    \"brain\": \"head\"\n}"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#comments",
@@ -1431,15 +1431,15 @@
     "objectID": "learn/learn-python/module-0/3-python-basics.html#comments-2",
     "href": "learn/learn-python/module-0/3-python-basics.html#comments-2",
     "title": "Python basics - 1st slide deck",
-    "section": "Comments",
-    "text": "Comments\n\n\ncomments.py\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE DOUBLE QUOTATION MARKS\n\"\"\""
+    "section": "Comments 2",
+    "text": "Comments 2\n\n\ncomments.py\n\n\"\"\" Double quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE DOUBLE QUOTATION MARKS\n\"\"\""
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#comment",
-    "href": "learn/learn-python/module-0/3-python-basics.html#comment",
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#comments-3",
+    "href": "learn/learn-python/module-0/3-python-basics.html#comments-3",
     "title": "Python basics - 1st slide deck",
-    "section": "Comment",
-    "text": "Comment\n\n\ncomments.py\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE SINGLE QUOTATION MARKS\n'''"
+    "section": "Comments 3",
+    "text": "Comments 3\n\n\ncomments.py\n\n''' Single quotation mark multiline comment\n    Here is some more of the comment\n    ALWAYS MAKE SURE YOU HAVE CLOSING TRIPLE SINGLE QUOTATION MARKS\n'''"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#to-uncomment",
@@ -1453,21 +1453,21 @@
     "href": "learn/learn-python/module-0/3-python-basics.html#basic-operators",
     "title": "Python basics - 1st slide deck",
     "section": "Basic operators",
-    "text": "Basic operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\nAssign =\nx = \"a string\""
-  },
-  {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#basic-operators-1",
-    "href": "learn/learn-python/module-0/3-python-basics.html#basic-operators-1",
-    "title": "Python basics - 1st slide deck",
-    "section": "Basic operators",
-    "text": "Basic operators\n\nArithmetic:\n\n+ plus (eg x = 3 + 5)\n- minus\n* multiply\n/ divide"
+    "text": "Basic operators\n\nOperators manipulate and compare data (which are stored in variables). Operator types include:\nAssign = x = \"a string\""
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#basic-operators-2",
     "href": "learn/learn-python/module-0/3-python-basics.html#basic-operators-2",
     "title": "Python basics - 1st slide deck",
-    "section": "Basic operators",
-    "text": "Basic operators\n\nComparison:\n\n== compare (eg if x == 8)\n&gt; greater than\n&lt; less than"
+    "section": "Basic operators 2",
+    "text": "Basic operators 2\n\nArithmetic:\n\n+ plus (eg x = 3 + 5)\n- minus\n* multiply\n/ divide"
+  },
+  {
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#basic-operators-3",
+    "href": "learn/learn-python/module-0/3-python-basics.html#basic-operators-3",
+    "title": "Python basics - 1st slide deck",
+    "section": "Basic operators 3",
+    "text": "Basic operators 3\n\nComparison:\n\n== compare (eg if x == 8)\n&gt; greater than\n&lt; less than"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#more-advanced-operators",
@@ -1491,18 +1491,18 @@
     "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-1",
-    "href": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-1",
-    "title": "Python basics - 1st slide deck",
-    "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
-  },
-  {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-2",
     "href": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-2",
     "title": "Python basics - 1st slide deck",
-    "section": "Anatomy of a function",
-    "text": "Anatomy of a function\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
+    "section": "Anatomy of a function 2",
+    "text": "Anatomy of a function 2\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
+  },
+  {
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-3",
+    "href": "learn/learn-python/module-0/3-python-basics.html#anatomy-of-a-function-3",
+    "title": "Python basics - 1st slide deck",
+    "section": "Anatomy of a function 3",
+    "text": "Anatomy of a function 3\n\n\nfunctions.py\n\n\ndef name_of_function(argument_1, argument_2):\n\n    print(argument_1 + argument_2)\n\n    return \"Finished\""
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#inbuilt-functions",
@@ -1526,18 +1526,18 @@
     "text": "The Traceback\n\nAt first, this looks like a very complicated output\nThe traceback is printed to the terminal, as such:\n  Traceback (most recent call last):\n      File \"/User/a_user/code/error_in_code.py\", line 7, in _price\n          print(human_organ_locations[\"football\"])\n  KeyError: 'football'"
   },
   {
-    "objectID": "learn/learn-python/module-0/3-python-basics.html#the-traceback-1",
-    "href": "learn/learn-python/module-0/3-python-basics.html#the-traceback-1",
+    "objectID": "learn/learn-python/module-0/3-python-basics.html#the-traceback-2",
+    "href": "learn/learn-python/module-0/3-python-basics.html#the-traceback-2",
     "title": "Python basics - 1st slide deck",
-    "section": "The Traceback",
-    "text": "The Traceback\n\nWhen reading a Traceback, alwas read from the last line upwards.\n  Traceback (most recent call last):\n      File \"/User/a_user/code/error_in_code.py\", line 7, in _price\n          print(human_organ_locations[\"football\"])\n==&gt; KeyError: ‘football’ &lt;=="
+    "section": "The Traceback 2",
+    "text": "The Traceback 2\n\nWhen reading a Traceback, alwas read from the last line upwards.\n  Traceback (most recent call last):\n      File \"/User/a_user/code/error_in_code.py\", line 7, in _price\n          print(human_organ_locations[\"football\"])\n==&gt; KeyError: ‘football’ &lt;=="
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#compare-the-traceback-to-the-code",
     "href": "learn/learn-python/module-0/3-python-basics.html#compare-the-traceback-to-the-code",
     "title": "Python basics - 1st slide deck",
     "section": "Compare the Traceback to the code",
-    "text": "Compare the Traceback to the code\n\nCompare against the code\n\n\n\nhuman_organs.py\n\nhuman_organ_locations = {\n    \"heart\": \"chest\", \n    \"stomach\": \"abdomen\", \n    \"brain\": \"head\"\n}\n\nprint(human_organ_locations[\"football\"])"
+    "text": "Compare the Traceback to the code\n\nCompare against the code\n\n\n\nhuman_organs.py\n\nhuman_organ_locations = {\n    \"heart\": \"chest\",\n    \"stomach\": \"abdomen\",\n    \"brain\": \"head\"\n}\n\nprint(human_organ_locations[\"football\"])"
   },
   {
     "objectID": "learn/learn-python/module-0/3-python-basics.html#traceback",
@@ -2545,7 +2545,7 @@
     "href": "learn/daim/module-1/1-introduction.html#using-google-colab",
     "title": "DAIM Seminar 1 Introduction",
     "section": "Using Google Colab",
-    "text": "Using Google Colab\n\nA notebook consists of cells.\n\nCode cells\nMarkdown cells \n\nWhen you run the first line of code, the kernel starts.\nVariables persist between cells:"
+    "text": "Using Google Colab\n\nA notebook consists of cells. _ Code cells _ Markdown cells \nWhen you run the first line of code, the kernel starts.\nVariables persist between cells:"
   },
   {
     "objectID": "learn/daim/module-1/1-introduction.html#trying-out-google-colab",
@@ -3560,14 +3560,14 @@
     "href": "posts/2024-08-01-time-to-deliver-top-ten-topics/index.html",
     "title": "Time to deliver, top ten topics",
     "section": "",
-    "text": "So now starts the hard work\n\n\n\n\n\nAs promised, here are the results from the top 10 topics for the Essentials in Health Informatics guide (as described here). Of 42 topics, we had 35 votes. The top ten topics voted for are as below. Trefor Roscoe and me have almost completed the line up of speakers (authors) for the webinars and chapters. We will be delivering these topics as paid-for-webinars, with the teachings from these webinars going towards writing the free to use and online Essentials in Health Informatics guide.\n\n\n\nScore\nTopic\nVotes\n\n\n\n\n—\nIntroduction To Clinical Informatics\n23\n\n\n1\nData Standards And Interoperability\n25\n\n\n2\nUsability And User Experience UX In Health IT\n21\n\n\n3\nHealthcare IT Infrastructure\n16\n\n\n4\nClinical Decision Support Systems (CDSS)\n16\n\n\n5\nArtificial Intelligence And Machine Learning In Healthcare\n15\n\n\n6\nClinical Workflow And Process Improvement\n14\n\n\n7\nHealth Data Analytics\n12\n\n\n8\nClinical Informatics Leadership And Governance\n12\n\n\n9\nRegulatory And Policy Issues In Digital Health\n10\n\n\n10\nPatient Safety And Quality Improvement\n10\n\n\n\nTrefor and me have also worked up a business case for this project. If interested in attending the webinars, reading the guide, or even sponsoring this project, do have a look here."
+    "text": "So now starts the hard work\n\n\n\n\n\nAs promised, here are the results from the top 10 topics for the Essentials in Health Informatics guide (as described here). Of 42 topics, we had 35 votes. The top ten topics voted for are as below. Trefor Roscoe and me have almost completed the line up of speakers (authors) for the webinars and chapters. We will be delivering these topics as paid-for-webinars, with the teachings from these webinars going towards writing the free to use and online Essentials in Health Informatics guide.\n\n\n\n\n\n\n\n\nScore\nTopic\nVotes\n\n\n\n\n—\nIntroduction To Clinical Informatics\n23\n\n\n1\nData Standards And Interoperability\n25\n\n\n2\nUsability And User Experience UX In Health IT\n21\n\n\n3\nHealthcare IT Infrastructure\n16\n\n\n4\nClinical Decision Support Systems (CDSS)\n16\n\n\n5\nArtificial Intelligence And Machine Learning In Healthcare\n15\n\n\n6\nClinical Workflow And Process Improvement\n14\n\n\n7\nHealth Data Analytics\n12\n\n\n8\nClinical Informatics Leadership And Governance\n12\n\n\n9\nRegulatory And Policy Issues In Digital Health\n10\n\n\n10\nPatient Safety And Quality Improvement\n10\n\n\n\nTrefor and me have also worked up a business case for this project. If interested in attending the webinars, reading the guide, or even sponsoring this project, do have a look here."
   },
   {
     "objectID": "posts/2024-04-10-why-a-coding-course-and-why-now/index.html",
     "href": "posts/2024-04-10-why-a-coding-course-and-why-now/index.html",
     "title": "Why a coding course and why now?",
     "section": "",
-    "text": "I guess the short answer is, why not!\nThe long answer is, a little bit more complicated.\n\n\n\n\n\nSo for those of you who know me, you will know I am very passionate about digital health. I cannot really explain why. I think it is because it combines two things that I am really interested in: medicine and computers. I have been playing with computers my whole life, learned how to code in 2013 with an Arduino Uno, and I have never looked back. I got into medicine via a very convoluted route. I started in chemistry, then medicinal chemistry, and then worked in the pharmaceutical industry for a while, where I then realised I wanted to be prescribing drugs and treating patients rather than testing drugs in a lab.\nMy journey, like most, in digital health has been very\nc\no\nl\no\nu\nr\nf\nu\nl. I have built and implemented several different digital systems to automate routine, repetitive clinical tasks, and I have built systems to streamline workflows and reduce workflows. I even managed a small team of computer science students to build a prototype to help manage lung cancer treatment pathways. \n All along the way, I came across several obstacles. You are probably familiar with them:\n\nDifficulty in finding the right people to talk to.\nThe people in digital that you need to engage with have little time for “novel” ideas.\nThe people in digital actually block your “digital transformation” project.\nClinicians have no time to engage in your project.\nYou yourself have no time for the project.\nThere is no funding for the project.\nYou try and make changes at the national level, i.e., the Faculty of Clinical Informatics, and then said entity fails (yes, this happened to me!).\nAnd in some cases, you just don’t understand what is feasible with digital or how “digital” actually works.\n\nThere are of course many more!\nIt is the last bullet point that really made me realise something. A lot of clinicians I talk to, even ones that have an interest in digital healthcare, know very little about “digital” itself and how it works. It is apparent that the digital literacy across the clinical workforce is below par. How are you to understand how a “digital transformation” project is going to save you time, effort, and money, when you don’t even understand how a computer “thinks”? How can you imagine what a computer can do for you, with its ultrafast processors, if you don’t know that it thinks in yes and no questions and answers, in ones and zeros? So I started thinking, why not start building a course, a series of modules, to help my peers and anyone else interested, to better understand digital healthcare? In fact, I want to build the digital healthcare course that I would have wanted to pay money for and study when I entered this space back in 2017.\nSomeone asked me yesterday, why start with such a basic coding course, why start with the coding language Python? Why charge for the course when there are so many other programming courses out there for a fraction of the price and offer more extensive learnings? It was a good question. It is one that I have thought myself. The answer is community.\nI recently watched a YouTube video on a Dungeons and Dragons game (D&D) which has been going on for 40 years. The dungeon master said something very interesting. He said he had kept long-term relationships going by this D&D game. He said that the D&D game was the “plank” to help people meet up and keep the relationships going. This “plank” was what kept his community together. I wish to recreate the same with the Let’s Do Digital community.\nThis brings me on to another passion of mine, agile methodologies, or fail fast and learn fast. I have always thought of these concepts as trial and error, that is until reading up on other names for it. So I thought, let’s build a course for those interested in digital health, be they clinical or not, and start with solid foundations, and build on top of those. I have always learnt from first principles, and I hope others who join our courses and community do to, although I fully realise there is a breath of learning practices out there. Coding seems to be the most fundamental of digital specialties. Much like Maths is fundamental to Physics, which is fundamental to Biology which is fundamental to Psychology and so on. Having recently tutored on another coding course, it was apparent that most people in healthcare need to be shown the fundamentals of coding before they could even really grasp what a function is, a class, a web app, or even what is AI. And hence, our first course showing people the basics of coding.\nNow if this first course goes well, I envision creating further courses, building up on complexity. This would initially build up the “students” coding knowledge, but then moving on to more high-level clinical informatics topics like infrastructure, interoperability, data structures, data analysis, safety standards and so on.\nThen you may ask, why charge for such a course? Well, there are several reasons. The first is, me, and my team of tutors, are doing this all in our spare time. We have lives outside of digital health. We have families, bills to pay, and full-time jobs. I myself find time merely out of stubbornness to try and improve digital healthcare. I gave a lot of my time away for free last year, working as the Interim Chair of Council for the Faculty of Clinical Informatics. I had dropped a large portion of my paid work to enable this. My bank account was worryingly in the red for most of last summer. I feel a lot of people passionate about digital healthcare, and good digital healthcare for that matter, give a lot of their time for free to make digital happen in the NHS (and globally). I do think we should be paid for our time. And this course is more than just me running it. We have 11 tutors signed up to give their time and expertise to help you learn the fundamentals of coding. Perhaps I have pitched the ticket price too high, perhaps not. Time will tell. But, as of writing this blog, we have already had 4 people sign up for the course. I only advertised it at 10 am on Tuesday, the 9th of April on social media.\nSo, I guess what I am trying to say is this. I think we need a course to help people learn about all things digital and clinical. I think we should start it here. I am ready to take on the journey of creating such a course and its associated community. Are you ready to be involved? If so please sign up here."
+    "text": "I guess the short answer is, why not!\nThe long answer is, a little bit more complicated.\n\n\n\n\n\nSo for those of you who know me, you will know I am very passionate about digital health. I cannot really explain why. I think it is because it combines two things that I am really interested in: medicine and computers. I have been playing with computers my whole life, learned how to code in 2013 with an Arduino Uno, and I have never looked back. I got into medicine via a very convoluted route. I started in chemistry, then medicinal chemistry, and then worked in the pharmaceutical industry for a while, where I then realised I wanted to be prescribing drugs and treating patients rather than testing drugs in a lab.\nMy journey, like most, in digital health has been very\nc\no\nl\no\nu\nr\nf\nu\nl. I have built and implemented several different digital systems to automate routine, repetitive clinical tasks, and I have built systems to streamline workflows and reduce workflows. I even managed a small team of computer science students to build a prototype to help manage lung cancer treatment pathways.\n All along the way, I came across several obstacles. You are probably familiar with them:\n\nDifficulty in finding the right people to talk to.\nThe people in digital that you need to engage with have little time for “novel” ideas.\nThe people in digital actually block your “digital transformation” project.\nClinicians have no time to engage in your project.\nYou yourself have no time for the project.\nThere is no funding for the project.\nYou try and make changes at the national level, i.e., the Faculty of Clinical Informatics, and then said entity fails (yes, this happened to me!).\nAnd in some cases, you just don’t understand what is feasible with digital or how “digital” actually works.\n\nThere are of course many more!\nIt is the last bullet point that really made me realise something. A lot of clinicians I talk to, even ones that have an interest in digital healthcare, know very little about “digital” itself and how it works. It is apparent that the digital literacy across the clinical workforce is below par. How are you to understand how a “digital transformation” project is going to save you time, effort, and money, when you don’t even understand how a computer “thinks”? How can you imagine what a computer can do for you, with its ultrafast processors, if you don’t know that it thinks in yes and no questions and answers, in ones and zeros? So I started thinking, why not start building a course, a series of modules, to help my peers and anyone else interested, to better understand digital healthcare? In fact, I want to build the digital healthcare course that I would have wanted to pay money for and study when I entered this space back in 2017.\nSomeone asked me yesterday, why start with such a basic coding course, why start with the coding language Python? Why charge for the course when there are so many other programming courses out there for a fraction of the price and offer more extensive learnings? It was a good question. It is one that I have thought myself. The answer is community.\nI recently watched a YouTube video on a Dungeons and Dragons game (D&D) which has been going on for 40 years. The dungeon master said something very interesting. He said he had kept long-term relationships going by this D&D game. He said that the D&D game was the “plank” to help people meet up and keep the relationships going. This “plank” was what kept his community together. I wish to recreate the same with the Let’s Do Digital community.\nThis brings me on to another passion of mine, agile methodologies, or fail fast and learn fast. I have always thought of these concepts as trial and error, that is until reading up on other names for it. So I thought, let’s build a course for those interested in digital health, be they clinical or not, and start with solid foundations, and build on top of those. I have always learnt from first principles, and I hope others who join our courses and community do to, although I fully realise there is a breath of learning practices out there. Coding seems to be the most fundamental of digital specialties. Much like Maths is fundamental to Physics, which is fundamental to Biology which is fundamental to Psychology and so on. Having recently tutored on another coding course, it was apparent that most people in healthcare need to be shown the fundamentals of coding before they could even really grasp what a function is, a class, a web app, or even what is AI. And hence, our first course showing people the basics of coding.\nNow if this first course goes well, I envision creating further courses, building up on complexity. This would initially build up the “students” coding knowledge, but then moving on to more high-level clinical informatics topics like infrastructure, interoperability, data structures, data analysis, safety standards and so on.\nThen you may ask, why charge for such a course? Well, there are several reasons. The first is, me, and my team of tutors, are doing this all in our spare time. We have lives outside of digital health. We have families, bills to pay, and full-time jobs. I myself find time merely out of stubbornness to try and improve digital healthcare. I gave a lot of my time away for free last year, working as the Interim Chair of Council for the Faculty of Clinical Informatics. I had dropped a large portion of my paid work to enable this. My bank account was worryingly in the red for most of last summer. I feel a lot of people passionate about digital healthcare, and good digital healthcare for that matter, give a lot of their time for free to make digital happen in the NHS (and globally). I do think we should be paid for our time. And this course is more than just me running it. We have 11 tutors signed up to give their time and expertise to help you learn the fundamentals of coding. Perhaps I have pitched the ticket price too high, perhaps not. Time will tell. But, as of writing this blog, we have already had 4 people sign up for the course. I only advertised it at 10 am on Tuesday, the 9th of April on social media.\nSo, I guess what I am trying to say is this. I think we need a course to help people learn about all things digital and clinical. I think we should start it here. I am ready to take on the journey of creating such a course and its associated community. Are you ready to be involved? If so please sign up here."
   },
   {
     "objectID": "posts/2024-07-02-topics-for-first-10-essentials-of-health-informatics-webinars/index.html",
@@ -4260,7 +4260,7 @@
     "href": "learn/daim/module-3/3-dicom.html#question",
     "title": "Module 3 - DICOM",
     "section": "Question",
-    "text": "Question\n\nConsidering the rules of broadcasting, which would yield an error and which is compatible?\n\n    (2,1), (1,) ---&gt; \n    (5,5,3), (2,5,3) --&gt;\n    (5,5,3), (5,3) --&gt;\n    (3,3,4), (4,)--&gt;"
+    "text": "Question\n\nConsidering the rules of broadcasting, which would yield an error and which is compatible?\n\n    (2,1), (1,) ---&gt;\n    (5,5,3), (2,5,3) --&gt;\n    (5,5,3), (5,3) --&gt;\n    (3,3,4), (4,)--&gt;"
   },
   {
     "objectID": "learn/daim/module-3/3-dicom.html#reminder",
@@ -4757,7 +4757,7 @@
     "href": "learn/daim/module-2/2-images.html#how-does-this-relate-to-images",
     "title": "Core Python for Image Processing",
     "section": "How does this relate to images?",
-    "text": "How does this relate to images?\n\nExplanationExample\n\n\n\nCollections of images are often represented as NumPy arrays.\nThis is the input data format for many machine learning models. \n\nData must be preprocessed into this format before training and testing.\n\nThe shapes of these arrays can be confusing.\n\n\n\n\n\n\nVisualisation of a NumPy array of cat images with the same resolution with its shape. Note the colour channels."
+    "text": "How does this relate to images?\n\nExplanationExample\n\n\n\nCollections of images are often represented as NumPy arrays.\nThis is the input data format for many machine learning models.  * Data must be preprocessed into this format before training and testing.\nThe shapes of these arrays can be confusing.\n\n\n\n\n\n\nVisualisation of a NumPy array of cat images with the same resolution with its shape. Note the colour channels."
   },
   {
     "objectID": "learn/daim/module-2/2-images.html#example-1-1",
@@ -5163,7 +5163,7 @@
     "href": "learn/hackmd.html",
     "title": "HackMD - Template",
     "section": "",
-    "text": "# Let's Do Digital - Module [module_number]\n\n## Material\n\nSlides can be found here: \nhttps://letsdodigital.org/learn/learn-python/module-[module_number]\n\n## Hands-on code can be found here:\n\nhttps://github.com/letsdodigital/coding-hands-on\n\n## Github sign up\n\nhttps://github.com/signup\n\nAsk your tutor code specific questions. For questions about the session generally, these can be asked in the general chat.\n\n## Groups\n### 1. [tutor_name_1]\n[student_name_1]\n[student_name_2]\n\n### 2. [tutor_name_2]\n[student_name_3]\n[student_name_4]\n\n## Feedback\nFeedback - please complete at end:\nhttps://www.cognitoforms.com/LetsDoDigital1/ProgrammingInHealthcareCourse"
+    "text": "# Let's Do Digital - Module [module_number]\n\n## Material\n\nSlides can be found here:\nhttps://letsdodigital.org/learn/learn-python/module-[module_number]\n\n## Hands-on code can be found here:\n\nhttps://github.com/letsdodigital/coding-hands-on\n\n## Github sign up\n\nhttps://github.com/signup\n\nAsk your tutor code specific questions. For questions about the session generally, these can be asked in the general chat.\n\n## Groups\n### 1. [tutor_name_1]\n[student_name_1]\n[student_name_2]\n\n### 2. [tutor_name_2]\n[student_name_3]\n[student_name_4]\n\n## Feedback\nFeedback - please complete at end:\nhttps://www.cognitoforms.com/LetsDoDigital1/ProgrammingInHealthcareCourse"
   },
   {
     "objectID": "learn/syllabus/clinical-informatician.html",
@@ -5310,7 +5310,7 @@
     "href": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#comments-in-markdown",
     "title": "Jupyter Notebook and Markdown",
     "section": "Comments in markdown",
-    "text": "Comments in markdown\n\nUse &lt;!-- --&gt; to create comments.\nSame as comments in html.\n\n&lt;!-- This is a comment --&gt;\nThis is not a comment\n\n\nRenders to:\n\nThis is not a comment"
+    "text": "Comments in markdown\n\nUse &lt;!-- --&gt; to create comments.\nSame as comments in html.\n\n&lt;!-- This is a comment --&gt;\n\nThis is not a comment\n\n\nRenders to:\n\nThis is not a comment"
   },
   {
     "objectID": "learn/learn-python/module-3/2-jupyter-notebook-and-markdown.html#bold",
@@ -5555,7 +5555,7 @@
     "href": "learn/learn-python/module-3/3-manipulating-data.html#refining-the-return-results",
     "title": "Manipulating Data",
     "section": "Refining the return results",
-    "text": "Refining the return results\n\nFirst, you define filtering condition.\nNext, you state what column you want to return.\n\n\n\npandas_split.py\n\nhypertension = patient_data_2[patient_data_2['Diagnosis'] == \n'Hypertension']['Cholesterol']\n\n\n\n\npatient_data_2['Diagnosis'] == 'Hypertension' finds all rows where the diagnosis is hypertension.\n['Cholesterol'] returns only the cholesterol values for the rows that are filtered by the above query."
+    "text": "Refining the return results\n\nFirst, you define filtering condition.\nNext, you state what column you want to return.\n\n\n\npandas_split.py\n\nhypertension = patient_data_2[patient_data_2['Diagnosis'] ==\n'Hypertension']['Cholesterol']\n\n\n\n\npatient_data_2['Diagnosis'] == 'Hypertension' finds all rows where the diagnosis is hypertension.\n['Cholesterol'] returns only the cholesterol values for the rows that are filtered by the above query."
   },
   {
     "objectID": "learn/learn-python/module-3/3-manipulating-data.html#creating-a-numpy-array",
@@ -5723,7 +5723,7 @@
     "href": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-3",
     "title": "Displaying data",
     "section": "Plotting 3D data",
-    "text": "Plotting 3D data\n\n3D scatter plots are useful\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, s=100)\n\ncbar_ax = fig.add_axes([0.9, 0.15, 0.05, 0.7]) \ncbar = fig.colorbar(sc, ax=ax, cax=cbar_ax, shrink=0.5, aspect=5)\n\nax.set_title('3D Array Visualization')\nax.set_xlabel('Rows')\nax.set_ylabel('Columns')\nax.set_zlabel('Depth')\n\nax.set_xticks(np.arange(array_3D.shape[0]))\nax.set_yticks(np.arange(array_3D.shape[1]))\n\nplot.show()"
+    "text": "Plotting 3D data\n\n3D scatter plots are useful\n\n\n\npyplot_3d.py\n\nfig = plot.figure()\nax = fig.add_subplot(111, projection='3d')\n\nx, y, z = np.indices(array_3D.shape)\nvalues = array_3D.flatten()\n\nsc = ax.scatter(x.flatten(), y.flatten(), z.flatten(), c=values, s=100)\n\ncbar_ax = fig.add_axes([0.9, 0.15, 0.05, 0.7])\ncbar = fig.colorbar(sc, ax=ax, cax=cbar_ax, shrink=0.5, aspect=5)\n\nax.set_title('3D Array Visualization')\nax.set_xlabel('Rows')\nax.set_ylabel('Columns')\nax.set_zlabel('Depth')\n\nax.set_xticks(np.arange(array_3D.shape[0]))\nax.set_yticks(np.arange(array_3D.shape[1]))\n\nplot.show()"
   },
   {
     "objectID": "learn/learn-python/module-3/4-displaying-data.html#plotting-3d-data-4",
@@ -5814,7 +5814,7 @@
     "href": "learn/learn-python/module-1-original/4-lets-build.html#streamlit-methods",
     "title": "🎵 Do you want to build a web app? 🎵",
     "section": "Streamlit methods",
-    "text": "Streamlit methods\n\n\nstreamlit methods.py\n\nimport streamlit as st\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Creates a text input field\n# `step` is the increment for + - buttons\nst.number_input(\"Label of input box\", step=1) \n\n# Creates a select box\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
+    "text": "Streamlit methods\n\n\nstreamlit methods.py\n\nimport streamlit as st\n\n# Writes text to the browser\nst.write(\"Text to write to browser\")\n\n# Creates a text input field\n# `step` is the increment for + - buttons\nst.number_input(\"Label of input box\", step=1)\n\n# Creates a select box\nst.selectbox(\"Label for selectbox\", [\"first choice\",\"second choice\"])"
   },
   {
     "objectID": "learn/learn-python/module-1-original/4-lets-build.html#magicenabled-false",
@@ -6010,7 +6010,7 @@
     "href": "learn/learn-python/module-1-original/3-python-basics.html#comments-1",
     "title": "Python basics",
     "section": "Comments",
-    "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules as well (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        int: the sum of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n    \n    return x"
+    "text": "Comments\n\nYou will also come across something called docstrings. These are basically comments associated with functions / methods and classes.\nYou will see them associated with modules as well (at the top of files).\n\n\n\ndocstrings.py\n\ndef i_am_function(args1, args2):\n    \"\"\"A concise title\n\n    A description of the function.\n\n    Args:\n        args1: I am the first argument to the function.\n        args2: I am the second argument to the function.\n    Returns:\n        int: the sum of the 2 provided arguments.\n    \"\"\"\n\n    x = args1 + args2\n\n    return x"
   },
   {
     "objectID": "learn/learn-python/module-1-original/3-python-basics.html#basic-operators",
@@ -6409,14 +6409,14 @@
     "href": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-1",
     "href": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-1",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python.html#naming-conventions",
@@ -6430,7 +6430,7 @@
     "href": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-2",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python.html#creating-an-instance-of-the-class",
@@ -6444,7 +6444,7 @@
     "href": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-3",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\nWhen you create an instance of a class (aka object) the __init__ method is automatically called.\nRemember, a method is just a function inside a class."
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\nWhen you create an instance of a class (aka object) the __init__ method is automatically called.\nRemember, a method is just a function inside a class."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python.html#creating-an-instance-of-the-class-1",
@@ -6458,14 +6458,14 @@
     "href": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-4",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\n37.5 is set as the temperature argument.\n80 is set as the heart_rate argument."
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()\n\n\n37.5 is set as the temperature argument.\n80 is set as the heart_rate argument."
   },
   {
     "objectID": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-5",
     "href": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-5",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python.html#one-needs-to-know-oneself",
@@ -6479,7 +6479,7 @@
     "href": "learn/learn-python/module-1/3-python.html#anatomy-of-a-class-6",
     "title": "Python",
     "section": "Anatomy of a class",
-    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n    \n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
+    "text": "Anatomy of a class\n\n\nclasses.py\n\n\nclass VitalSigns:\n    def __init__(self, temperature, heart_rate):\n        self.temperature = temperature\n        self.heart_rate = heart_rate\n\n    def display(self):\n        print(f\"Temperature: {self.temperature}°C\")\n        print(f\"Heart Rate: {self.heart_rate} bpm\")\n\npatient_1_vitals = VitalSigns(37.5, 80)\n\npatient_1_vitals.display()"
   },
   {
     "objectID": "learn/learn-python/module-1/3-python.html#the-dot-operator",
@@ -6941,7 +6941,14 @@
     "href": "who-are-we.html",
     "title": "Who are we",
     "section": "",
-    "text": "A collection of people passionate about making better digital healthcare and education a reality.\n\n\n\n\n\n\nMark Bailey\nMark is the main curator of the Let’s Do Digital Website and lead for the Let’s Do Digital community. He is a locum respiratory consultant and clinician-who-codes. He is passionate about helping others learn about clinical informatics, be they general public, patient or healthcare staff, and he is also passionate about building amazing, useful, friendly and safe clinical apps.\n\n\n\nMentors and tutors\n\n\n\n\n\n\n\n\n\nBasil Bekdash\nWithout portfolio but always chasing the data and trying to make sense of chaos and/or complexity.\nA paediatric surgeon by background but very happy to join anyone at the interfaces or outside domains, looking for commonalities obvious and otherwise.\nClinical Safety Officer and a clinical lead for a multi-sector (acute, mental health, community, transport) specialist provider for children and young people for around 3yrs as of now and general champion of the littlest guys which we all once used to be. Children may not be little adults but adults are big children being a principle we could follow quite broadly in data and informatics terms but probably more broadly in health and care.\nTechnically literate but not especially adept though that’s where the team work comes in.\n\n\n\n\n\n\n\n\n\n\n\n\nAlex Brown\nPaediatric registrar.\n\n\n\n\n\n\n\n\n\n\n\n\nKeith Blackwood\nKeith holds a PhD in Tissue Engineering and has completed a Postdoc in Biofabrication. He worked in the medical devices industry before transitioning into a role as a Technology Transfer Officer at the University of Cambridge. With a unique combination of scientific expertise and industry experience, Keith now focuses on providing coding solutions, leveraging his background in medical devices to develop clean, efficient, and practical code for healthcare applications.\n\n\n\n\n\n\n\n\n\n\n\n\nHaroon Chughtai\n\n\n\n\n\n\n\n\n\n\n\n\nAparna Ghosh\nAparna is a GP and clinical lecturer working in North London. She graduated with a BA in Medical Sciences from the University of Oxford and an MBBS from University College London. She started coding as a hobby and is currently assisting with the digital transformation of her local food bank.\nWith a background in mentoring and access work that started at University and continues today, she’s enthusiastic about helping others find roles and opportunities that suit them.\n\n\n\n\n\n\n\n\n\n\n\n\nAbdelrahman M. Saad (aka Hadi)\nMy name is Abdelrahman M. Saad and I’m a final-year medical student working in the digital health industry.\nIt’s my pleasure to be a mentor for Let’s Do Digital. I call myself “The Geeky Med Student” because I’m always exploring new ways to use my skills in data science and AI, as well as my business acumen, to make healthcare smarter.\nCurrently, I’m working as a Clinical Informatics Specialist at REAP Holding (digital transformation), a Business Developer at Ebers (digital health and VR), and an R&D Specialist at CellClar (bioinformatics and single-cell genomics).\nI have a rich background in training over 30 medical trainees, doctors, and students how to code and build their own AI models, from basic computer science and Python programming to advanced machine learning and deep learning. My journey also involves mentoring research teams on AI-related projects and collaborating with teams from Egypt, the USA, and the UK to help publish research papers that stand out in resumes!!\nWhether through clinical research or my entrepreneurial ventures like GeeksHub and the Radiology Intelligence Club, I’m committed to driving the future of medicine. I’m passionate about using AI, advanced analytics, and digital health solutions to improve patient outcomes and tackle the biggest challenges in the medical field.\n\n\n\n\n\n\n\n\n\n\n\n\nRemon Hanna\nDoctor & Head of data, MedTech\n\n\n\n\n\n\n\n\n\n\n\n\nMichael Kriger\n\n\n\n\n\n\n\n\n\n\n\n\nDom Main\n\n\n\n\n\n\n\n\n\n\n\n\nAlexandre Mathy\n\n\n\n\n\n\n\n\n\n\n\n\nSam McInerney\nSam, a medical oncology doctor at the Beatson in Glasgow, is also a PhD student at the University of Edinburgh. His research focuses on integrating AI and electronic patient-reported outcomes (ePROMS) into the cancer patient pathway.\nA life-long coder, before pursuing medicine Sam did a first degree in computer science and developed a keen interest in AI and neural networks. Following his degree he worked for several years in London’s investment banking industry, specializing in low-latency, ultra-high-performance trading systems.\nSam graduated from St George’s University in London in 2006 after undertaking a graduate entry program into medicine, where Sam’s passion for building software carried over to his work in the NHS. Sam has built several applications since including an IOS app for clinical geneticists called ‘The Genetic Counselling App’ and most recently a system to automate clinic preparation. Additionally, Sam founded DoctorsThatCode.com, a platform that offers tutorials and a blog space to keep up with the rapid advancements in AI and its implementation within healthcare.\n\n\n\n\n\n\n\n\n\n\n\n\nAnita Phung\nGP and Clinical Informatician\n\n\n\n\n\n\n\n\n\n\n\n\nFreddie Renyard\nFreddie is a fifth year medical student from the University of Bristol and intercalated bioengineering graduate from Imperial College London who is starting an Academic Foundation Post in Oxford soon.\nHe is passionate about using new technologies to enhance patient care. He is currently working with the Neurocomputing Lab in Erasmus MC, Rotterdam, where he is accelerating neural simulations to improve our understanding of the brain.\nHe also has experience in computer engineering and has completed industry and academic internships. During his time with the Particle Physics group at Bristol, he looked into ways that new particle physics hardware could be used in clinical care.\nFreddie is interested in improving clinician knowledge about digital technologies. He’s currently working on a course for clinicians to help them work with medical and radiological data: stay tuned for updates!\n\n\n\n\n\n\n\n\n\n\n\n\nGrant Vallance\n\n\n\n\n\n\n\n\n\n\n\n\nMathew Vithayathil\n\n\n\n\n\n\n\n\n\n\n\n\nNik Walne\n\n\n\n\n\n\n\n\n\n\n\n\nChris Wilson\nChris is a GP and Urgent Care doctor in Northern Ireland. He graduated from Queen’s University Belfast in 2006.\nHe has worked with the Royal College of General Practitioners (RCGP) on their Diabetes Quality Improvement Toolkit and been an expedition and diving medic in Madagascar.\nChris started to learn coding in 2015 and developed an interest in clinical informatics. He is a member of the British Computer Society and an independent iOS developer.\nChris also works part time for a London-based company that makes electronic health record and data platform software used in sub-Sarahan Africa and the Middle East."
+    "text": "A collection of people passionate about making better digital healthcare and education a reality."
+  },
+  {
+    "objectID": "who-are-we.html#mentors-and-tutors",
+    "href": "who-are-we.html#mentors-and-tutors",
+    "title": "Who are we",
+    "section": "Mentors and tutors",
+    "text": "Mentors and tutors\n\n\n\n\n\n\n\n\n\nBasil Bekdash\nWithout portfolio but always chasing the data and trying to make sense of chaos and/or complexity.\nA paediatric surgeon by background but very happy to join anyone at the interfaces or outside domains, looking for commonalities obvious and otherwise.\nClinical Safety Officer and a clinical lead for a multi-sector (acute, mental health, community, transport) specialist provider for children and young people for around 3yrs as of now and general champion of the littlest guys which we all once used to be. Children may not be little adults but adults are big children being a principle we could follow quite broadly in data and informatics terms but probably more broadly in health and care.\nTechnically literate but not especially adept though that’s where the team work comes in.\n\n\n\n\n\n\n\n\n\n\n\n\nAlex Brown\nPaediatric registrar.\n\n\n\n\n\n\n\n\n\n\n\n\nKeith Blackwood\nKeith holds a PhD in Tissue Engineering and has completed a Postdoc in Biofabrication. He worked in the medical devices industry before transitioning into a role as a Technology Transfer Officer at the University of Cambridge. With a unique combination of scientific expertise and industry experience, Keith now focuses on providing coding solutions, leveraging his background in medical devices to develop clean, efficient, and practical code for healthcare applications.\n\n\n\n\n\n\n\n\n\n\n\n\nHaroon Chughtai\n\n\n\n\n\n\n\n\n\n\n\n\nAparna Ghosh\nAparna is a GP and clinical lecturer working in North London. She graduated with a BA in Medical Sciences from the University of Oxford and an MBBS from University College London. She started coding as a hobby and is currently assisting with the digital transformation of her local food bank.\nWith a background in mentoring and access work that started at University and continues today, she’s enthusiastic about helping others find roles and opportunities that suit them.\n\n\n\n\n\n\n\n\n\n\n\n\nAbdelrahman M. Saad (aka Hadi)\nMy name is Abdelrahman M. Saad and I’m a final-year medical student working in the digital health industry.\nIt’s my pleasure to be a mentor for Let’s Do Digital. I call myself “The Geeky Med Student” because I’m always exploring new ways to use my skills in data science and AI, as well as my business acumen, to make healthcare smarter.\nCurrently, I’m working as a Clinical Informatics Specialist at REAP Holding (digital transformation), a Business Developer at Ebers (digital health and VR), and an R&D Specialist at CellClar (bioinformatics and single-cell genomics).\nI have a rich background in training over 30 medical trainees, doctors, and students how to code and build their own AI models, from basic computer science and Python programming to advanced machine learning and deep learning. My journey also involves mentoring research teams on AI-related projects and collaborating with teams from Egypt, the USA, and the UK to help publish research papers that stand out in resumes!!\nWhether through clinical research or my entrepreneurial ventures like GeeksHub and the Radiology Intelligence Club, I’m committed to driving the future of medicine. I’m passionate about using AI, advanced analytics, and digital health solutions to improve patient outcomes and tackle the biggest challenges in the medical field.\n\n\n\n\n\n\n\n\n\n\n\n\nRemon Hanna\nDoctor & Head of data, MedTech\n\n\n\n\n\n\n\n\n\n\n\n\nMichael Kriger\n\n\n\n\n\n\n\n\n\n\n\n\nDom Main\n\n\n\n\n\n\n\n\n\n\n\n\nAlexandre Mathy\n\n\n\n\n\n\n\n\n\n\n\n\nSam McInerney\nSam, a medical oncology doctor at the Beatson in Glasgow, is also a PhD student at the University of Edinburgh. His research focuses on integrating AI and electronic patient-reported outcomes (ePROMS) into the cancer patient pathway.\nA life-long coder, before pursuing medicine Sam did a first degree in computer science and developed a keen interest in AI and neural networks. Following his degree he worked for several years in London’s investment banking industry, specializing in low-latency, ultra-high-performance trading systems.\nSam graduated from St George’s University in London in 2006 after undertaking a graduate entry program into medicine, where Sam’s passion for building software carried over to his work in the NHS. Sam has built several applications since including an IOS app for clinical geneticists called ‘The Genetic Counselling App’ and most recently a system to automate clinic preparation. Additionally, Sam founded DoctorsThatCode.com, a platform that offers tutorials and a blog space to keep up with the rapid advancements in AI and its implementation within healthcare.\n\n\n\n\n\n\n\n\n\n\n\n\nAnita Phung\nGP and Clinical Informatician\n\n\n\n\n\n\n\n\n\n\n\n\nFreddie Renyard\nFreddie is a fifth year medical student from the University of Bristol and intercalated bioengineering graduate from Imperial College London who is starting an Academic Foundation Post in Oxford soon.\nHe is passionate about using new technologies to enhance patient care. He is currently working with the Neurocomputing Lab in Erasmus MC, Rotterdam, where he is accelerating neural simulations to improve our understanding of the brain.\nHe also has experience in computer engineering and has completed industry and academic internships. During his time with the Particle Physics group at Bristol, he looked into ways that new particle physics hardware could be used in clinical care.\nFreddie is interested in improving clinician knowledge about digital technologies. He’s currently working on a course for clinicians to help them work with medical and radiological data: stay tuned for updates!\n\n\n\n\n\n\n\n\n\n\n\n\nGrant Vallance\n\n\n\n\n\n\n\n\n\n\n\n\nMathew Vithayathil\n\n\n\n\n\n\n\n\n\n\n\n\nNik Walne\n\n\n\n\n\n\n\n\n\n\n\n\nChris Wilson\nChris is a GP and Urgent Care doctor in Northern Ireland. He graduated from Queen’s University Belfast in 2006.\nHe has worked with the Royal College of General Practitioners (RCGP) on their Diabetes Quality Improvement Toolkit and been an expedition and diving medic in Madagascar.\nChris started to learn coding in 2015 and developed an interest in clinical informatics. He is a member of the British Computer Society and an independent iOS developer.\nChris also works part time for a London-based company that makes electronic health record and data platform software used in sub-Sarahan Africa and the Middle East."
   },
   {
     "objectID": "presentations/bob.html#who-am-i",
@@ -7319,7 +7326,7 @@
     "href": "tickets/frontline-insights/1.html#webinar-structure",
     "title": "Frontline Insights - episode 1",
     "section": "Webinar structure",
-    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Remon Hanna, Doctor &  Head of data @ MedTech\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Andrew Simpson, Clinical Scientist, South Tees Hospital NHS Foundation Trust.\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Sam McInerney Beatson Cancer Centre and founder of DoctorsThatCode.com, \n        \n    \n\nTwo 20 minute presentations followed by a Q&A."
+    "text": "Webinar structure\n\n    \n        \n            \n        \n        \n            Chair: Remon Hanna, Doctor &  Head of data @ MedTech\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Andrew Simpson, Clinical Scientist, South Tees Hospital NHS Foundation Trust.\n        \n    \n\n\n    \n        \n            \n        \n        \n            Speaker: Sam McInerney Beatson Cancer Centre and founder of DoctorsThatCode.com,\n        \n    \n\nTwo 20 minute presentations followed by a Q&A."
   },
   {
     "objectID": "tickets/frontline-insights/1.html#when-and-where",
