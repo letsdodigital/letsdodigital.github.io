@@ -35,18 +35,42 @@ jobs:
       - name: run CI CD tasks
         run: bash cicd.sh
       
-      - name: Configure Git
-        run: |
-          git config --global user.email "quarto-github-actions-publish@example.com"
-          git config --global user.name "Quarto GHA Workflow Runner"
+      # - name: Configure Git
+      #   run: |
+      #     git config --global user.email "quarto-github-actions-publish@example.com"
+      #     git config --global user.name "Quarto GHA Workflow Runner"
 
-      - name: Create Pull Request
-        uses: peter-evans/create-pull-request@v7
+      # - name: Create Pull Request
+      #   uses: peter-evans/create-pull-request@v7
+      #   with:
+      #     token: ${{ secrets.PAT }}
+      #     commit-message: "Automated changes from CI/CD pipeline"
+      #     branch: "pull-request-for-${{ github.ref_name }}"
+      #     title: "Automated changes from CI/CD pipeline"
+      #     body: "This PR contains automated changes from the CI/CD pipeline."
+      #     base: main
+
+  create_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create Pull Request using GitHub Script
+        uses: actions/github-script@v6
         with:
-          token: ${{ secrets.PAT }}
-          commit-message: "Automated changes from CI/CD pipeline"
-          branch: "pull-request-for-${{ github.ref_name }}"
-          title: "Automated changes from CI/CD pipeline"
-          body: "This PR contains automated changes from the CI/CD pipeline."
-          base: main
+          script: |
+            // Extract the branch name from the GitHub context
+            const branchName = process.env.GITHUB_REF.replace('refs/heads/', '');
+            const baseBranch = "main";  // Change to your target branch if needed
+            const title = `PR: Review changes from ${branchName}`;
+            const body = "This pull request was created automatically to review the changes from the recent commit.";
+            
+            // Create the pull request using the GitHub API
+            const { data: pullRequest } = await github.pulls.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              head: branchName,
+              base: baseBranch,
+              title: title,
+              body: body,
+            });
+            console.log("Pull Request URL:", pullRequest.html_url);
       
