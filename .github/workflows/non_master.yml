@@ -5,6 +5,7 @@ on:
     branches-ignore:
       - master 
       - main
+      - "pull-request-for-*"
 
 permissions:
   contents: write
@@ -39,17 +40,13 @@ jobs:
           git config --global user.email "quarto-github-actions-publish@example.com"
           git config --global user.name "Quarto GHA Workflow Runner"
 
-      - name: Push to main branch
-        env:
-          github_token: ${{ secrets.PAT }}
-        run: |
-          git checkout main
-          git merge --no-ff "${GITHUB_REF#refs/heads/}"
-          git push origin main
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.PAT }}
+          commit-message: "Automated changes from CI/CD pipeline"
+          branch: "pull-request-for-${{ github.ref_name }}"
+          title: "Automated changes from CI/CD pipeline"
+          body: "This PR contains automated changes from the CI/CD pipeline."
+          base: main
       
-      - name: Trigger main branch workflow
-        run: |
-          curl -XPOST -u "${{ secrets.GH_USERNAME }}:${{ secrets.PAT }}" \
-          -H "Accept: application/vnd.github.everest-preview+json" \
-          "https://api.github.com/repos/letsdodigital/letsdodigital.github.io/dispatches" \
-          -d '{"event_type": "trigger-main"}'
