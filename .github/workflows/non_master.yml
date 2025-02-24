@@ -1,4 +1,4 @@
-name: cicd_non_main_master
+name: Non-Main Tasks
 
 on:
   push:
