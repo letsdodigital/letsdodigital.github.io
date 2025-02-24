@@ -12,7 +12,6 @@ This is the second webinar in the **{{< var ask-a-clinician-series-title >}}** s
 
 Join us as Ramandeep, an enthusiastic individual, passionate about digital transformation and innovation explains how a CCIO and pharmacist thinks, works, and, somehow, messes up your data. Ramandeep's passion stems from her first role as an EPMA Pharmacist in 2014, and she is currently the Group Chief Clinical Information Officer at University Hospitals of Northamptonshire. She has completed the Digital Health.London Pioneer Fellowship Programme and Cohort 4 of the NHS Digital Health Leadership Academy. She is proud to currently be an Advisory Panel member on the CCIO Digital Health Network, a member of the BCS, RPS, Shuri Network & UKCPA.
 
-
 ## Webinar structure
 
 ```{=html}
@@ -40,16 +39,13 @@ Join us as Ramandeep, an enthusiastic individual, passionate about digital trans
 
 The first half will be a presentation of insights from a CCIO and pharmacist, followed by a Q&A.
 
-
 ## When and where
 
 Online, 2-3pm, on Thursday the 1st August.
 
-
 ## Webinar recording
 
 You can now watch the recording [here](https://youtube.com/live/jw_9zOJoeLM?feature=share).
-
 
 ## Questions
 

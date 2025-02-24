@@ -8,7 +8,7 @@ categories: [Education] # self-defined categories
 image: /media/graduation-cap.jpeg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -16,11 +16,11 @@ comments:
 
 I have just had a fantastic meeting with my colleagues at Gloucestershire University. We have been lucky enough to have 5 new MSc students join the University to study by research the new health tech course. This is very exciting news, and I look forward to hearing about their work soon. Interesting areas they will cover include:
 
-* Gamification for helping patients with mental health issues
-* Table top games for mental health and social interactions
-* Radiology
-* Health care network security
-* Using technology to help manage dyslexia in complicated health procedures
+- Gamification for helping patients with mental health issues
+- Table top games for mental health and social interactions
+- Radiology
+- Health care network security
+- Using technology to help manage dyslexia in complicated health procedures
 
 I look forward to talking more with the students and for people to hear more about their amazing work. I hope to get some, if not all, of the students to the next Let’s Do Digital quarterly meeting in Feb/March 2023.
 

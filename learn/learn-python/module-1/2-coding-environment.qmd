@@ -6,44 +6,39 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/egg-shells.jpg
-    data-background-opacity: "0.5"
+  data-background-image: /media/egg-shells.jpg
+  data-background-opacity: "0.5"
 ---
 
 # The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
-
 ## Today's hands-on sessions {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
-* We will be using the GitHub `Codespace` development environment.
-* This is a browser based version of the well known desktop `VS Code` development environment.
-
+- We will be using the GitHub `Codespace` development environment.
+- This is a browser based version of the well known desktop `VS Code` development environment.
 
 ## <span class="hide-title">Codespace what / where?</span>
 
 ![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout with highlighted areas"}
 
-
 # Useful terminal (shell) commands
 
 ![](/media/the-shell.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of terminal in Codespace"}
 
-
 ## Using the terminal {.smaller}
 
-* Also called the `command line interface` (`CLI`) or the `shell`.
+- Also called the `command line interface` (`CLI`) or the `shell`.
 
 Steps:
 
-* `Select the terminal` (aka click on it).
-* `Type in your command` (this needs to be typed out **exactly**).
-* `Press enter` to run the command.
-
+- `Select the terminal` (aka click on it).
+- `Type in your command` (this needs to be typed out **exactly**).
+- `Press enter` to run the command.
 
 ## Arrow keys
 
-* If you want to run a previously run command, you can select it with the &#8593; and 
-&#8595; arrow keys on the keyboard.
+- If you want to run a previously run command, you can select it with the &#8593; and
+  &#8595; arrow keys on the keyboard.
 
 ```{.bash}
 $ cd module_1
@@ -51,10 +46,9 @@ Press ↑
 $ cd programming_in_healthcare
 ```
 
-
 ## Tab
 
-* You can use the tab key to autocomplete a file or folder name
+- You can use the tab key to autocomplete a file or folder name
 
 ```{.bash}
 $ cd prog
@@ -62,12 +56,11 @@ Press TAB
 $ cd programming_in_healthcare
 ```
 
-
 ## Altering the command line
 
-* Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). 
-* Then make any corrections with the backspace and keyboard as needed.
-* For example, to change
+- Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor).
+- Then make any corrections with the backspace and keyboard as needed.
+- For example, to change
 
 ```{.bash}
 $ streamlit run exercise_1.py
@@ -79,32 +72,29 @@ to
 $ streamlit run exercise_2.py
 ```
 
-
 ## List files and folders command
 
-* The `ls` command.
+- The `ls` command.
 
 ![](/media/command-ls.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of 'ls' being run in terminal"}
 
-
 ## Change directory command
 
-* The `cd` command.
-* `cd ..` takes you back to the previous (parent) folder.
+- The `cd` command.
+- `cd ..` takes you back to the previous (parent) folder.
 
 ![](/media/command-cd.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of 'cd' being run in the terminal"}
 
 ## Where am I?
 
-* `pwd` is the `print working directory` command.
+- `pwd` is the `print working directory` command.
 
 ![](/media/command-pwd.png){.bordered fig-align="center" width="max" height="max" fig-alt="Screen shot of 'pwd' being run in the terminal"}
 
-
 ## Review
 
-* You will be using the above commands in the hands-on sessions. 
-* Come back to these slides if you need to refresh your memory.
+- You will be using the above commands in the hands-on sessions.
+- Come back to these slides if you need to refresh your memory.
 
 ## Python slides
 

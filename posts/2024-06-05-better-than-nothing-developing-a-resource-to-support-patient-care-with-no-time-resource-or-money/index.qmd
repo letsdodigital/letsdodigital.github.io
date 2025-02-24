@@ -2,13 +2,13 @@
 title: "Better Than Nothing: developing a resource to support patient care with no time, resource or money"
 description: "An Integrated Care Board Story"
 author:
- - name: Nadia Kuftinoff
+  - name: Nadia Kuftinoff
 date: 2024-06-05
 categories: [blog]
 image: /media/dinner-party-with-drinks.jpg
 draft: false
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -25,17 +25,17 @@ Financial constraints have always existed – half of one of my residentials for
 My <abbr title="Integrated Care Board">ICB</abbr> had adopted SharePoint as part of another project, and I was nothing short of astounded at what my teammates had managed to achieve. This wasn’t your back of Teams document library, oh no. This was a living, breathing intranet site which, not long after its launch, teams across the ICB adopted at pace. They designed their own pages, added their own content, asked for more pages, tiptoed with curiosity into the art of the possible and pretty soon didn’t really need the Digital Delivery team’s help at all – the dream of <abbr title="Business As Usual">BAU</abbr> realised. Bliss!
 
 Some Practices had their own SharePoint sites set up for them as well, which was admittedly a tad more clunky – perhaps as you might expect given how we were trying to recreate another solution. There was a lot of engagement, a lot of co-design and a lot of moments of despair, partially because the version of SharePoint we use in the NHS environment isn’t the all singing, all dancing SharePoint you read about on the Microsoft support forums rendering the guidance utterly redundant and throwing you out in the cold, but believe me my team wrangled with it tirelessly until it was as fit for purpose as could be.
-Now I’d had next to nothing to do with this project initially, but I eventually barge in with a problem to solve and some sparky ideas on how to solve it. 
+Now I’d had next to nothing to do with this project initially, but I eventually barge in with a problem to solve and some sparky ideas on how to solve it.
 
 ## Let’s dive right in.
 
-So there’s this website. Picture it if you will. It looks all right, nothing fancy, but you can navigate around it easily enough. There’s a search bar. Nothing out of the ordinary. What makes it precious, however, is its content – clinical advice and guidance for medicines, protocols, local pathways, and referral information. Oodles of really helpful documents. My understanding was that this was used predominantly in general practice, and a bit of secondary care, but by and large a historic tool developed by the CCG. 
+So there’s this website. Picture it if you will. It looks all right, nothing fancy, but you can navigate around it easily enough. There’s a search bar. Nothing out of the ordinary. What makes it precious, however, is its content – clinical advice and guidance for medicines, protocols, local pathways, and referral information. Oodles of really helpful documents. My understanding was that this was used predominantly in general practice, and a bit of secondary care, but by and large a historic tool developed by the CCG.
 
-Your mission, should you choose to accept it: **the contract is going to run out, there’s absolutely no money to replace it but everyone wants to keep it**. 
+Your mission, should you choose to accept it: **the contract is going to run out, there’s absolutely no money to replace it but everyone wants to keep it**.
 
 ## What could go wrong?
 
-Digital get drafted in because, well, it’s a website, and websites live in laptops on the internet. It was the first project I was assigned to manage at the ICB and I was excited to conduct some user research in the early Spring, cobble together a request for information from suppliers and present findings back to stakeholders to take things from there. 
+Digital get drafted in because, well, it’s a website, and websites live in laptops on the internet. It was the first project I was assigned to manage at the ICB and I was excited to conduct some user research in the early Spring, cobble together a request for information from suppliers and present findings back to stakeholders to take things from there.
 
 Lovely stuff, what could go wrong? I’ll tell you what, and I cannot emphasise these words enough: nearly everything!
 
@@ -45,12 +45,11 @@ Time was ticking and I was no closer to solving the problem than I was on day on
 
 ## Stakeholders
 
-The first port of call was stakeholder engagement. “Good luck,” I was told by someone who introduced me to some key contacts, and she meant it. I set about working on the best presentation of my life, which included designing the SharePoint page to allow for some visualisation of the solution I was proposing. I wrote out my vision, I included timelines, the scope of my plan, the limitations and the benefits, the risks, you name it I did it. I blew the metaphorical doors off the hinges going into those meetings and, slightly agog, everyone gave me a thumbs up to proceed. 
+The first port of call was stakeholder engagement. “Good luck,” I was told by someone who introduced me to some key contacts, and she meant it. I set about working on the best presentation of my life, which included designing the SharePoint page to allow for some visualisation of the solution I was proposing. I wrote out my vision, I included timelines, the scope of my plan, the limitations and the benefits, the risks, you name it I did it. I blew the metaphorical doors off the hinges going into those meetings and, slightly agog, everyone gave me a thumbs up to proceed.
 
 ## Let's have a look
 
 The fun part commenced immediately – designing the actual SharePoint site. I needed it to be a near identical match to the existing homepage of the website because I wanted it to be instantly recognisable. If you’d used the website before, you’d have no problem navigating the SharePoint site. Fortunately, this was the easiest part of the whole thing. Take a look:
-
 
 ![](/media/better-than-nothing-website.png){width=500px fig-align="center" fig-alt="Screen shot of ClinOx website page 1"}
 
@@ -76,19 +75,18 @@ Lots of other bumps in the road ensued and it took a lot of grit and determinati
 
 I said that "testing absolutely everyone’s patience" statement one day to my Deputy CIO, who I consider a knowledgeable and compassionate leader who doesn’t deserve the high blood pressure I cause him. “What are you talking about??” he asked me, exasperated. “If it wasn’t for you, this entire thing wouldn’t even exist!” And that, miraculously, reached a part of my mind I’d thrown asunder while caught up in the whirlwind of **Sorting The Thing Out and Getting The Thing Done**. For all the annoyances of what I’d done, I’d also brought something really valuable into being, and worked my socks off to win hearts and minds along the way. I don’t like to toot my own trumpet so here’s some feedback from some very kind people.
 
-* “I have had positive feedback from your meetings” – Deputy Director 
-* “I know how much work you’ve been putting into this” – Senior Transformation Manager 
-* “I know this SharePoint has been a huge nightmare but we are really grateful for what you have been doing to try to sort things out for everyone” – Lead Pharmacist 
-* “Incredibly useful for my daily practice” – GP Medical Officer, RAF 
-* “I can only imagine the incredibly HUGE task of what you’re doing! Thanks so much for all your help, really appreciate it” – GP Pharmacy technician 
-* “Regardless of the issues, I think you should be proud of yourself for creating such a great repository” – Specialist Registrar 
+- “I have had positive feedback from your meetings” – Deputy Director
+- “I know how much work you’ve been putting into this” – Senior Transformation Manager
+- “I know this SharePoint has been a huge nightmare but we are really grateful for what you have been doing to try to sort things out for everyone” – Lead Pharmacist
+- “Incredibly useful for my daily practice” – GP Medical Officer, RAF
+- “I can only imagine the incredibly HUGE task of what you’re doing! Thanks so much for all your help, really appreciate it” – GP Pharmacy technician
+- “Regardless of the issues, I think you should be proud of yourself for creating such a great repository” – Specialist Registrar
 
-> So what difference does it make, when one person working in digital health sets their mind to doing something? What impact can an individual have? 
+> So what difference does it make, when one person working in digital health sets their mind to doing something? What impact can an individual have?
 
-I eventually stopped diminishing this project. “It’s only a SharePoint page” I’d say, even when it was never really just that. It was a huge undertaking to ensure that clinicians had the right documents at the right time to support patient care. It was long days for months on end to help open the resource up beyond general practice, beyond community and secondary care, beyond even the footprint of my ICB. It was an opportunity for me to learn and grow and come up with innovative ways of doing things that no one has done before. 
+I eventually stopped diminishing this project. “It’s only a SharePoint page” I’d say, even when it was never really just that. It was a huge undertaking to ensure that clinicians had the right documents at the right time to support patient care. It was long days for months on end to help open the resource up beyond general practice, beyond community and secondary care, beyond even the footprint of my ICB. It was an opportunity for me to learn and grow and come up with innovative ways of doing things that no one has done before.
 
 Certainly, that is better than nothing.
-
 
 ## Join us
 

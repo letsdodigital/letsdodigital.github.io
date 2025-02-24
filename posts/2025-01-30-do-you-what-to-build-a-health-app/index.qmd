@@ -2,17 +2,17 @@
 title: "Do you want to build a health app?"
 description: "Or rather, how would you build a health app?"
 author:
- - name: Mark Bailey
+  - name: Mark Bailey
 date: 2025-01-30
 categories: [blog]
 image: /media/app.jpg
 draft: false
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
-> "The nice thing about standards is that there are so many of them to choose from" 
+> "The nice thing about standards is that there are so many of them to choose from"
 
 <div style="text-align: right; font-size: small;">1989 Andrew Tanenbaum, computer scientist and author of Computer Networks.</div>
 
@@ -20,7 +20,7 @@ comments:
 
 ![](/media/app.jpg){height=400px fig-align="center" fig-alt="The word 'App' outlined and background filled with red pen."}
 
-The [Let's Do Digital Team](https://letsdodigital.org/who-are-we.html) have been kindly asked by a few individuals and companies to build for them different versions of healthcare apps. We are more than happy to take this on. But starting the work on these projects got me thinking, can we build a modular **base** that all other digital healthcare apps can use but with **modular** components to get the functionality needed? It has been wish of mine to build something like this for a while, with a backend for all patient data that any app could utilise. I mean, patient data is patient data right? The patient still has a blood pressure reading if they are at home, a GP practice or in hospital. The same goes for red blood cell count, breathing tests, home address, next of kin, past medical history, physical examination, mental state and so on. Even medical note taking and assessment is basically the same, no matter what clinical speciality you are in. You talk to the patient,examine them, write something down and form a plan. People seem to debate me on **the patient is the patient and so is their data**. These opposing opinions would say that different settings document and assess things differently, and so "in fact" patient data is not always the same. 
+The [Let's Do Digital Team](https://letsdodigital.org/who-are-we.html) have been kindly asked by a few individuals and companies to build for them different versions of healthcare apps. We are more than happy to take this on. But starting the work on these projects got me thinking, can we build a modular **base** that all other digital healthcare apps can use but with **modular** components to get the functionality needed? It has been wish of mine to build something like this for a while, with a backend for all patient data that any app could utilise. I mean, patient data is patient data right? The patient still has a blood pressure reading if they are at home, a GP practice or in hospital. The same goes for red blood cell count, breathing tests, home address, next of kin, past medical history, physical examination, mental state and so on. Even medical note taking and assessment is basically the same, no matter what clinical speciality you are in. You talk to the patient,examine them, write something down and form a plan. People seem to debate me on **the patient is the patient and so is their data**. These opposing opinions would say that different settings document and assess things differently, and so "in fact" patient data is not always the same.
 
 I would argue that if you stop and try and think like a patient, think about how they **want to** and **should** interact with services when it comes to their well being and how **the patient themselves** interact with services across the healthcare system, they, as a patient, never change. It is only how the different systems **decide** to interact with the patient that changes. So why not build systems that mimic this `patient reality`, rather than the somewhat **artificially segmented system** that is the NHS and social care. The latter is a global issue by the way!
 

@@ -6,4 +6,4 @@ We use `StreamYard` for live webinars. There are a few reasons for this, the fir
 
 Examples of the layout are as below:
 
-TO BE  ADDED
+TO BE ADDED

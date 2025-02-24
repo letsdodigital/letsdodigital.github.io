@@ -2,7 +2,7 @@
 title: "{{< var coding-module-3 >}}"
 ---
 
-Module 3 looks at data. Specifically you will learn how to use Jupyter Notebooks to access data, interpret it, manipulate it and visualise it. You will also learn how to access and manipulate images. 
+Module 3 looks at data. Specifically you will learn how to use Jupyter Notebooks to access data, interpret it, manipulate it and visualise it. You will also learn how to access and manipulate images.
 
 This module is a must for anyone wishing to attend the upcoming Data Analysis in Medicine (DAIM) course.
 
@@ -17,14 +17,13 @@ This module is a must for anyone wishing to attend the upcoming Data Analysis in
   <li><a href="6-session-close.html" target="_blank">6 - Session close</a></li>
 </ul>
 
-
 ## Get coding
 
 The code for this course can be found below
+
 <ul>
   <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 3 code</a></li>
 </ul>
-
 
 ## Tutor notes
 

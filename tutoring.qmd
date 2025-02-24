@@ -4,16 +4,13 @@ title: "Tutoring"
 
 At Let's Do Digital, we are dedicated to empowering individuals and organisations in the field of digital healthcare through tutoring. Our mission is to provide the knowledge, support, and guidance necessary to excel in the digital age of healthcare.
 
-
 ## Personalised tutoring
 
 Our tutoring services are tailored to meet the unique needs of each learner. Whether you are a healthcare professional seeking to enhance your digital skills or a student eager to understand the latest healthcare technologies, our experienced tutors are here to help. We offer comprehensive insights on a wide range of topics, ensuring that you gain the expertise required to succeed in the digital healthcare landscape.
 
-
 ## Price
 
 This is a paid for service. Please [email us](mailto:info@letsdodigital.org) for further details.
-
 
 ## Why choose Let's Do Digital?
 
@@ -25,11 +22,9 @@ This is a paid for service. Please [email us](mailto:info@letsdodigital.org) for
 
 **Supportive Community:** Join a network of like-minded individuals and professionals who are passionate about digital healthcare. Benefit from shared experiences and collective growth.
 
-
 ## Our mentors and tutors
 
 Please see out [mentors and tutors](who-are-we.qmd) page.
-
 
 ## Contact us
 

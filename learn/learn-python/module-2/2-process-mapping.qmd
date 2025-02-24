@@ -6,34 +6,30 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/map-south-america.jpg
-    data-background-opacity: "0.4"
+  data-background-image: /media/map-south-america.jpg
+  data-background-opacity: "0.4"
 ---
 
 ## What is process mapping?
 
-* Can be undertaking in a very elaborate and complicated fashion.
-* However, at its core, you draw a flow chart that describes a process, either current, or a new one imagined.
+- Can be undertaking in a very elaborate and complicated fashion.
+- However, at its core, you draw a flow chart that describes a process, either current, or a new one imagined.
 
 ![](/media/toothbrush-process-map.png){fig-align="center" width="max" height="max" fig-alt="Process map of how to use a tooth brush"}
 
-
 ## Why do process mapping?
 
-* Can be used to excess and badly!
-* But, it is a good tool to help think about the current problem and to help explain the current issues. 
-* Can help you form your new process. It can also give you a step by step guide to building your new digital implementation.
-* However, beware, `digitising a bad process does not suddenly make a process better!`
-
+- Can be used to excess and badly!
+- But, it is a good tool to help think about the current problem and to help explain the current issues.
+- Can help you form your new process. It can also give you a step by step guide to building your new digital implementation.
+- However, beware, `digitising a bad process does not suddenly make a process better!`
 
 ## Where do process mapping? {background-image="/media/fibre-optics.jpg" background-opacity="0.3"}
 
-* You can do this on paper.
-* There are several digital process mapping tools like Microsoft `Visio` or `Moqups`.
-
+- You can do this on paper.
+- There are several digital process mapping tools like Microsoft `Visio` or `Moqups`.
 
 # Correct consent form process
-
 
 ## <span class="hide-title">Current process</span>
 
@@ -49,8 +45,8 @@ title-slide-attributes:
 
 ## Digital is not always the answer
 
-* Sometimes the answer is just doing things differently to enable better. 
-* Don't think `Digital Transformation`, think:
+- Sometimes the answer is just doing things differently to enable better.
+- Don't think `Digital Transformation`, think:
 
 ```{=html}
 <div align="center">
@@ -60,12 +56,11 @@ Transformation to improve current processes, with the aid of Digital, if appropr
 </div>
 ```
 
-
 ## We can spend a long time {background-image="/media/construction-site.jpg" background-opacity="0.2"}
 
-* We could spend a long time talking about process mapping, and finding the best way to undertake a task.
-* We could do a separate course on this if there is interest.
-* However, let's get building...
+- We could spend a long time talking about process mapping, and finding the best way to undertake a task.
+- We could do a separate course on this if there is interest.
+- However, let's get building...
 
 ```{=html}
 <div class="bottom-right">

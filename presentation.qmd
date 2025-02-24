@@ -4,8 +4,8 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#FFFFFF"
-    data-background-image: /media/earth-at-night.jpg
+  data-background-color: "#FFFFFF"
+  data-background-image: /media/earth-at-night.jpg
 include-in-header:
   - text: |
       <style>
@@ -34,7 +34,6 @@ include-in-header:
 ---
 
 ## Education Services {background-image="media/classroom.jpg" background-opacity="0.3"}
-
 
 - Programming in Healthcare course.
 - Machine Learning for Healthcare Professionals.

@@ -17,6 +17,7 @@ This is the first module of the CWC course, and is designed for those with very 
 ## Get coding
 
 The code for this course can be found below
+
 <ul>
   <li><a href="https://github.com/letsdodigital/coding-hands-on" target="_blank">Module 1 code</a></li>
 </ul>

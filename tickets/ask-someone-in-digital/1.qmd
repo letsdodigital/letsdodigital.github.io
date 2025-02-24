@@ -11,10 +11,10 @@ In the digital age, the balance between cybersecurity and usability in health sy
 
 Key discussion points will include:
 
-* The impact of increased cybersecurity on system usability and the inherent trade-offs.
-* Trust points in digital systems and their correlation with real-world trust dynamics.
-* The often overlooked conflict between trust expectations in digital health solutions and the pursuit of user-friendly systems.
-* Real-world examples and implementation challenges, focusing on how aligning digital trust models with real-world expectations can introduce barriers to adoption.
+- The impact of increased cybersecurity on system usability and the inherent trade-offs.
+- Trust points in digital systems and their correlation with real-world trust dynamics.
+- The often overlooked conflict between trust expectations in digital health solutions and the pursuit of user-friendly systems.
+- Real-world examples and implementation challenges, focusing on how aligning digital trust models with real-world expectations can introduce barriers to adoption.
 
 Geoff's aim is to engage all those involved in the patient journey in a conversation about where they see the balance points between trust and usability, and whether we are prepared to compromise patient trust for faster, cheaper, and more efficient digital health systems.
 
@@ -45,7 +45,6 @@ Don't miss this opportunity to explore the future of digital health systems and 
 ```
 
 The first half will be a presentation from the speaker followed by a Q&A.
-
 
 ## When and where
 

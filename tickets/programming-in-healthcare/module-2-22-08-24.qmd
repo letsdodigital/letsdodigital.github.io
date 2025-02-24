@@ -9,22 +9,20 @@ You now have the basics from Module 1. Time to progress your programming skills.
 
 ## Course structure
 
- We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away. We will have break out rooms for the hands on coding sessions, with around 4 students per tutor.
-
+We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away. We will have break out rooms for the hands on coding sessions, with around 4 students per tutor.
 
 ## When and where
 
 Online, Thursday 22^nd^ August, 2-5 pm, on Zoom.
 
-
 ## Topics covered
 
 Moving to slightly more advanced programming skills, but with very much small group teaching the whole way with well paced hands on sessions, topics you will learning include:
 
-* Process mapping
-* Web app architecture
-* Frontend and backend design
-* Use of more advanced python code
+- Process mapping
+- Web app architecture
+- Frontend and backend design
+- Use of more advanced python code
 
 ## Purchase tickets
 
@@ -41,7 +39,6 @@ Moving to slightly more advanced programming skills, but with very much small gr
 </stripe-buy-button>
 </div>
 ```
-
 
 ## Questions
 

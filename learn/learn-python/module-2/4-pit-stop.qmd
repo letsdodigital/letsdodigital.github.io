@@ -6,15 +6,15 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/signature-on-form.jpg
-    data-background-opacity: "0.4"
+  data-background-image: /media/signature-on-form.jpg
+  data-background-opacity: "0.4"
 ---
 
 # Pit stop
 
-* Half way through
-* How is it going? 
-* What are people getting stuck on?
+- Half way through
+- How is it going?
+- What are people getting stuck on?
 
 ```{=html}
 <div class="bottom-right">

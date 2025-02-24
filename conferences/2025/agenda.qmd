@@ -9,6 +9,7 @@ title: "Agenda 2024"
 8:30 – **Welcome coffee and tea**
 
 9:25 – **Opening talk**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -27,6 +28,7 @@ title: "Agenda 2024"
 ## 9:35 – Morning session 1 - One big headache
 
 9:35 – **Chair**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -40,7 +42,8 @@ title: "Agenda 2024"
 </div>
 ```
 
-9:40 – **The patient's perspective**  
+9:40 – **The patient's perspective**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -54,7 +57,8 @@ title: "Agenda 2024"
 </div>
 ```
 
-9:50 – **Better than nothing - a case study of limitations developing a resource sharing hub for primary and secondary care**  
+9:50 – **Better than nothing - a case study of limitations developing a resource sharing hub for primary and secondary care**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -68,7 +72,8 @@ title: "Agenda 2024"
 </div>
 ```
 
-10:00 – **Migr.AI.ne: Using convolutional neural networks and LLMs to process patient diaries**  
+10:00 – **Migr.AI.ne: Using convolutional neural networks and LLMs to process patient diaries**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -93,6 +98,7 @@ title: "Agenda 2024"
 ## 11:05 – Morning session 2 - We need to do things better
 
 11:05 – **Chair**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -106,7 +112,7 @@ title: "Agenda 2024"
 </div>
 ```
 
-11:10 – **Blind digital transformation and the problem with Digital Paper**  
+11:10 – **Blind digital transformation and the problem with Digital Paper**
 
 ```{=html}
 <div class="agenda-container-small">
@@ -121,7 +127,8 @@ title: "Agenda 2024"
 </div>
 ```
 
-11:20  – **Clinical Scientist in Clinical Bioinformatics – the ignored recommendation of the Topol Review**  
+11:20 – **Clinical Scientist in Clinical Bioinformatics – the ignored recommendation of the Topol Review**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -136,6 +143,7 @@ title: "Agenda 2024"
 ```
 
 11:30 – **Clinical Digital Manifesto**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -166,6 +174,7 @@ title: "Agenda 2024"
 ## 12:00 – Debate - This house believes that the NHS should be using open source wherever possible
 
 **Chair**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -180,6 +189,7 @@ title: "Agenda 2024"
 ```
 
 **For**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -194,6 +204,7 @@ title: "Agenda 2024"
 ```
 
 **Against**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -215,10 +226,10 @@ title: "Agenda 2024"
 
 \
 
-
 ## 13:50 – Afternoon session 1 - Build with what you have got!
 
 13:50 – **Chair**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -232,7 +243,8 @@ title: "Agenda 2024"
 </div>
 ```
 
-13:55 – **Games, cheatsheets and the NHS**  
+13:55 – **Games, cheatsheets and the NHS**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -246,7 +258,8 @@ title: "Agenda 2024"
 </div>
 ```
 
-14:05 – **Digital Innovation at Oxford University Hospital**  
+14:05 – **Digital Innovation at Oxford University Hospital**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -261,6 +274,7 @@ title: "Agenda 2024"
 ```
 
 14:15 – **Building and open-sourcing a near real-time clinical research database, enabling dashboards and machine learning applications**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -285,6 +299,7 @@ title: "Agenda 2024"
 ## 15:20 – Afternoon session 2 - For the little ones
 
 15:20 – **Chair**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -300,7 +315,8 @@ title: "Agenda 2024"
 
 15:25 – **Voster (video poster) awards**
 
-15:35 – **MedEd Connect: Transforming Medical Education through Digital Technology**  
+15:35 – **MedEd Connect: Transforming Medical Education through Digital Technology**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
@@ -315,6 +331,7 @@ title: "Agenda 2024"
 ```
 
 15:45 – **Digital Growth Charts**
+
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">

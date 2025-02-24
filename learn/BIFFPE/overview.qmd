@@ -67,4 +67,3 @@ format: html
 
 - **Loops** in JavaScript: Automating repetitive tasks.
 - Building our first function: A phone number validator.
-

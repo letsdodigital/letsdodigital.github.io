@@ -14,16 +14,13 @@ At Let's Do Digital, we offer a wide range of services. Whether you are looking 
 
 **Essentials of Health Informatics:** We are in the process of building this essential guide in Digital Health. This will be an open source and online resource, to help the novice and even the advanced practitioner master Digital Health. Further details will be available shortly.
 
-
 <!-- ## Learnings
 
 At Let's Do Digital, we are actively engaging with frontline clinicians to help build digital solutions that just make healthcare better. We are currently building out our new resource highlighting great digital innovation at the frontline. Look out for **Unlocked - Spotlight on Frontline Digital Health**. -->
 
-
 ## Stakeholder engagement
 
 Do you need help engaging with key stakeholders in your next digital health implementation? Our team have several members with experience in taking forward your new digital health idea and getting the end-user input to create a product fit for purpose. Email us for further details.
-
 
 ## Prototyping and Production ready Digital Health Apps
 
@@ -32,7 +29,6 @@ We provide a professional service to help you realise your dream healthcare app.
 ## Overview
 
 Slides covering our services are available [here](presentation.qmd).
-
 
 ## Contact us
 

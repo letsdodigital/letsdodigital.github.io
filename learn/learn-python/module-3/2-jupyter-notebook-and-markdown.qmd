@@ -1,129 +1,111 @@
 ---
 title: "Jupyter Notebook and Markdown"
 author: "{{< var author >}}"
-format: 
-    revealjs:
-        code-line-numbers: false
+format:
+  revealjs:
+    code-line-numbers: false
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/open-notebook.jpg
-    data-background-opacity: "0.1"
+  data-background-image: /media/open-notebook.jpg
+  data-background-opacity: "0.1"
 ---
 
 # <span class="hide-title">Jupyter Notebook</span> {background-image="/media/jupyter-notebook-logo.png" background-opacity="0.4"}
 
-
 ## What is Jupyter Notebook?
 
-* Jupyter Notebook is an interactive tool for writing and running code.
-* Used mostly for Python but supports other languages.
-* Combines code, text, and visualizations in one place.
-
+- Jupyter Notebook is an interactive tool for writing and running code.
+- Used mostly for Python but supports other languages.
+- Combines code, text, and visualizations in one place.
 
 ## Why Use Jupyter Notebook?
 
-* Great for learning, experimenting, and prototyping.
-* Interactive: Run code and see results step by step.
-* Easy to combine code with explanations and visuals.
-* Ideal for data analysis, machine learning, and teaching.
-
+- Great for learning, experimenting, and prototyping.
+- Interactive: Run code and see results step by step.
+- Easy to combine code with explanations and visuals.
+- Ideal for data analysis, machine learning, and teaching.
 
 # What does Jupiter Notebook look like?
-
 
 ## <span class="hide-title">Jupyter Notebook Interface</span>
 
 ![](/media/jupyter-notebook-screenshot.png){.centre-full-image .bordered-image}
 
-
 ## However...
 
-* We are going to use `Codespace` with the `Jupyter extension`.
-
+- We are going to use `Codespace` with the `Jupyter extension`.
 
 ## <span class="hide-title">Codespace and Jupyter</span>
 
 ![](/media/vs-code-jupyter.png){.centre-full-image-drop}
 
-
 # Key Features of Jupyter Notebook
-
 
 ## Write and execute code in cells
 
 ![](/media/jupyter-code-run.png){.centre-full-image-drop}
 
-
 ## Mix code, explanations, images, and graphs
 
 ![](/media/jupyter-text-code-image.png){.centre-full-image-double-drop}
-
 
 ## Visualise data
 
 ![](/media/jupyter-plotting.png){.centre-full-image-drop}
 
-
 ## Share work with others
 
-* Share via GitHub.
-* Share via Google Colab.
-* PDF, HTML, or slides.
-
+- Share via GitHub.
+- Share via Google Colab.
+- PDF, HTML, or slides.
 
 ## How to run code?
 
-* Run a cell: Press the `Play` button.
+- Run a cell: Press the `Play` button.
 
 ```{=html}
 <div class="image-container-play">
   <img src="/media/jupyter-play-all-button.png">
-  or 
+  or
   <img src="/media/jupyter-play-button.png">
 </div>
 ```
 
-
 ## Common Jupyter Notebook Tasks
 
-* Add text to explain code.
-* Run your code.
-* View results instantly: Print or plot results directly in the notebook.
-* Save your work: Notebooks are saved as `.ipynb` files.
-
+- Add text to explain code.
+- Run your code.
+- View results instantly: Print or plot results directly in the notebook.
+- Save your work: Notebooks are saved as `.ipynb` files.
 
 # Markdown {background-image="/media/markdown.png" background-opacity="0.4"}
 
-
 ## What is Markdown?
 
-* Markdown is a simple way to format text.
-* You can use it to write headings, lists, and more.
-* Useful for adding explanations and notes in Jupyter Notebooks.
-* Supports basic formatting without complex code.
-* It is often used to create web content as a much similar alternative to HTML.
-
+- Markdown is a simple way to format text.
+- You can use it to write headings, lists, and more.
+- Useful for adding explanations and notes in Jupyter Notebooks.
+- Supports basic formatting without complex code.
+- It is often used to create web content as a much similar alternative to HTML.
 
 ## Why Use Markdown in Jupyter?
 
-* Makes your notebook readable with clear explanations.
-* Organise your notebook with sections, lists, and links.
-* Perfect for combining code, results, and explanations in one place.
-* No need for external software to write documentation.
-
+- Makes your notebook readable with clear explanations.
+- Organise your notebook with sections, lists, and links.
+- Perfect for combining code, results, and explanations in one place.
+- No need for external software to write documentation.
 
 ## Make a cell ready for Markdown
 
-* Change a cell to 'Markdown' mode.
-* Add your markdown text to the cell.
+- Change a cell to 'Markdown' mode.
+- Add your markdown text to the cell.
 
 ![](/media/jupyter-to-markdown.png){.half-width .centre-full-image .top-65}
 
-
 ## Headings in markdown
 
-* Use `#` to create headings.
+- Use `#` to create headings.
 
 ```{.markdown .no-line-numbers}
 # Heading 1
@@ -134,49 +116,51 @@ title-slide-attributes:
 \
 
 Renders to:
+
 <div class="render-padding"> 
 <h1>Heading 1</h1>
 <h2>Heading 2</h2>
 <h3>Heading 3</h3>
 </div>
 
-
 ## Comments in markdown
 
-* Use `<!-- -->` to create comments.
-* Same as comments in `html`.
+- Use `<!-- -->` to create comments.
+- Same as comments in `html`.
 
 ```markdown
 <!-- This is a comment -->
+
 This is not a comment
 ```
 
 \
 
 Renders to:
+
 <div class="render-padding"> 
 This is not a comment
 </div>
 
-
 ## Bold
 
-* Use `**`**your text**`**` to make text bold.
+- Use `**`**your text**`**` to make text bold.
 
 ```markdown
 **This is bold text**
 ```
+
 \
 
 Renders to:
+
 <div class="render-padding"> 
 <strong>This is bold text</strong> 
 </div>
 
-
 ## Italic
 
-* Use `*`*your text*`*` to make text italic.
+- Use `*`_your text_`*` to make text italic.
 
 ```{.markdown}
 *This is italic text*
@@ -185,14 +169,14 @@ Renders to:
 \
 
 Renders to:
+
 <div class="render-padding"> 
 <em>This is italic text</em>
 </div>
 
-
 ## Lists
 
-* Use `*` or `-` to create bullet points.
+- Use `*` or `-` to create bullet points.
 
 ```{.markdown}
 * Heart
@@ -202,6 +186,7 @@ Renders to:
 \
 
 Renders to:
+
 <div class="render-padding">
 <ul>
 <li>Heart</li>
@@ -209,10 +194,9 @@ Renders to:
 </ul>
 </div>
 
-
 ## Numbered lists
 
-* Use `1.` to create numbered lists.
+- Use `1.` to create numbered lists.
 
 ```{.markdown}
 1. Lymphatics
@@ -222,6 +206,7 @@ Renders to:
 \
 
 Renders to:
+
 <div class="render-padding">
 <ol>
 <li>Lymphatics</li>
@@ -229,18 +214,15 @@ Renders to:
 </ol>
 </div>
 
-
 ## Markdown to normal text
 
-* Click the tick when you are ready to render markdown to normal text.
+- Click the tick when you are ready to render markdown to normal text.
 
 ```{=html}
 <div class="image-container-play">
   <img src="/media/tick-for-complete.png">
 </div>
 ```
-
-
 
 ## Open a file in Jupyter
 
@@ -250,85 +232,72 @@ with open('your_patient_data.txt', 'r') as file:
 
 ```
 
-
 # Start up a Codespace session{background-image="/media/github-codespaces.png" background-opacity="0.2"}
 
 ## First
 
-* Make sure you have a GitHub account.
-* Join your tutor group in the named `Zoom break out rooms`.
-* Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
-* Click on the `<> Code` button and then the `Codespaces` tab.
-* Click on `Create codespace on main`
+- Make sure you have a GitHub account.
+- Join your tutor group in the named `Zoom break out rooms`.
+- Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
+- Click on the `<> Code` button and then the `Codespaces` tab.
+- Click on `Create codespace on main`
 
 ## <span class="hide-title">Break out room button</span>
 
-![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of the breakout room button in Zoom"} 
-
+![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of the breakout room button in Zoom"}
 
 ## <span class="hide-title">Codespace load</span>
 
 ![](/media/github-repo-module-1-hands-on.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of Github website with arrows showing how to start up Codespace"}
 
-
-
 ## <span class="hide-title">Codespace light theme</span>
 
 ![](/media/codespace-light-theme-1.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace light theme screen shot"}
-
 
 ## <span class="hide-title">Codespace dark theme</span>
 
 ![](/media/codespace-dark-theme.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace dark theme screen shot"}
 
-
 ## <span class="hide-title">Codespace layout</span>
 
 ![](/media/codespace-description.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout"}
-
 
 ## <span class="hide-title">Codespace what / where?</span>
 
 ![](/media/codespace-what-where.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Codespace layout with areas highlighted"}
 
+## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
+
+- AKA Plugins.
+- Add functionality and features, much like your favourite app store.
 
 ## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
 
-* AKA Plugins.
-* Add functionality and features, much like your favourite app store.
-
-
-## We need some extensions {background-image="/media/plugs-and-wire.jpg" background-opacity="0.3"}
-
-* Python
-* Jupyter
+- Python
+- Jupyter
 
 ## <span class="hide-title">Python extension</span>
 
 ![](/media/python-extension-vs-code.png){.centre-full-image fig-alt="screen shot of the VS Code Python extension"}
 
-
 ## <span class="hide-title">Jupyter Notebook extension</span>
 
 ![](/media/jupyter-notebook-extension.png){.centre-full-image fig-alt="Screen shot of the VS Code Jupyter Extension"}
 
-
 ## Ignore this
 
-* Ignore the pop out about extensions you may get in the bottom right of Codespace
+- Ignore the pop out about extensions you may get in the bottom right of Codespace
 
 ![](/media/python-extension.png){fig-alt="Screenshot of python extensions pop out"}
 
-
 ## Get to your first lesson {.smaller}
 
-* Open the `lesson_1.ipynb` file (not the answers file!). 
-* Run through the exercises within the notebook.
+- Open the `lesson_1.ipynb` file (not the answers file!).
+- Run through the exercises within the notebook.
 
-* Any problems, just ask your tutor for help. 
-* **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 20 minutes for lesson 1.
-
+- Any problems, just ask your tutor for help.
+- **There is no such thing as a stupid question, only the question left unanswered.**
+- We will give you 20 minutes for lesson 1.
 
 ```{=html}
 <div class="bottom-right">

@@ -23,4 +23,3 @@ Many thanks for our sponsors:
 ![](/media/fci-logo.png){ fig-align="center" fig-alt="FCI logo with pixelated face" style="padding: 20px;"}
 
 :::
-

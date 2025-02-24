@@ -7,27 +7,24 @@ logo: /media/ldd-logo.png
 css: /slides.css
 ---
 
+## Mutability
+
+- `Mutability` is the ability of a variable to be changed.
+- As strange as it sounds, in python, some variables cannot be changed.
+- If you update an `immutable` variable, the variable is created again from scratch.
 
 ## Mutability
 
-* `Mutability` is the ability of a variable to be changed.
-* As strange as it sounds, in python, some variables cannot be changed.
-* If you update an `immutable` variable, the variable is created again from scratch. 
-
-
-## Mutability
-
-* `Immutable` variables include:
-    * booleans
-    * integers
-    * floats
-    * strings
-    * tuples
-
+- `Immutable` variables include:
+  - booleans
+  - integers
+  - floats
+  - strings
+  - tuples
 
 ## Mutability
 
-* Don't trust me? Try this:
+- Don't trust me? Try this:
 
 ```{.python filename="immutable_integer.py"}
 x = 10
@@ -44,21 +41,18 @@ Output
         4463277792
         4463277952
 
-
 ## Mutable variables
 
-* And a list of mutable variable types include:
-    * lists
-    * dictionaries
-    * classes
-
+- And a list of mutable variable types include:
+  - lists
+  - dictionaries
+  - classes
 
 ## Scope
 
-* In most programming languages, a variable has `scope`.
-* `Scope` defines where a variable can be read and altered.
-* `Scope` is determined by where a variable is originally defined.
-
+- In most programming languages, a variable has `scope`.
+- `Scope` defines where a variable can be read and altered.
+- `Scope` is determined by where a variable is originally defined.
 
 ## Scope example
 
@@ -82,10 +76,9 @@ Output
 
 ## Global keyword
 
-* To make a variable accessible inside your function or class, you can use the `global` keyword.
-* Using `global` allows you to reassign any variable.
-* Technically you do not need to use `global` if you are only updating (eg adding elements) mutable variables (eg lists and dictionaries).
-
+- To make a variable accessible inside your function or class, you can use the `global` keyword.
+- Using `global` allows you to reassign any variable.
+- Technically you do not need to use `global` if you are only updating (eg adding elements) mutable variables (eg lists and dictionaries).
 
 ## Scope example - global
 

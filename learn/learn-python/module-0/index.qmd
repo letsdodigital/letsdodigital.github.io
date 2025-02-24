@@ -24,7 +24,6 @@ The code for this course can be found below:
 
 You can copy or fork the above code. During teaching sessions, a development (teaching) environment will be set up for you.
 
-
 ## Tutor notes
 
 Notes for tutors can be found below:

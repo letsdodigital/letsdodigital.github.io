@@ -8,7 +8,7 @@ categories: [Webinar] # self-defined categories
 image: /media/ldd-informatics-hub.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -16,9 +16,9 @@ comments:
 
 Confirmed line up for 21/10/22
 
-* Chair: Adam Dangoor, CCIO BRI
-* Jo Chambers, SWAG patient representative – Doing Digital – A Patient and Engineering Perspective
-* Paul Atkinson, Gloucestershire ICS CCIO – The New Gloucestershire ICS Digital Strategy
-* Tracie Miles, Associate Director of Nursing and Midwifery, NHS South West Genomic Medicine Service Alliance – Breast Cancer Genes and Me – A Digital Patient Empowerment Project
+- Chair: Adam Dangoor, CCIO BRI
+- Jo Chambers, SWAG patient representative – Doing Digital – A Patient and Engineering Perspective
+- Paul Atkinson, Gloucestershire ICS CCIO – The New Gloucestershire ICS Digital Strategy
+- Tracie Miles, Associate Director of Nursing and Midwifery, NHS South West Genomic Medicine Service Alliance – Breast Cancer Genes and Me – A Digital Patient Empowerment Project
 
 Tickets at [EventBrite](https://www.eventbrite.co.uk/e/lets-do-digital-quarterly-event-october-2022-tickets-407605859097)

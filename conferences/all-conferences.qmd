@@ -2,8 +2,7 @@
 title: "Let's Talk Digital Conferences"
 ---
 
-
-* [2025 - Let's Talk Digital Conference - theme: education](2025/)
-* [2024 - Let's Talk Digital Conference - theme: open source](2024/)
-* [2023 - Let's Talk Digital Conference - theme: should clinicians code](2023/)
-* [2022 - Let's Talk Digital Conference - theme: innovation at the frontline](2022/)
+- [2025 - Let's Talk Digital Conference - theme: education](2025/)
+- [2024 - Let's Talk Digital Conference - theme: open source](2024/)
+- [2023 - Let's Talk Digital Conference - theme: should clinicians code](2023/)
+- [2022 - Let's Talk Digital Conference - theme: innovation at the frontline](2022/)

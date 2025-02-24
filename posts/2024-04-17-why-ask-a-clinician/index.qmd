@@ -8,7 +8,7 @@ categories: [blog]
 image: /media/canyon-with-speech-bubbles.png
 draft: false
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -32,23 +32,23 @@ After a bit of wandering around the conference venue, I found [James Freed](http
 
 So there I was, with a big idea about teaching clinical matters to non-clinicians. I started to think about which disease I should teach first, should I talk about anatomy, should I talk about "what is health" and "what is disease"? I eventually thought it was best to ask those that were likely to want to sit in on this webinar series. So I asked the [NHS-R](https://nhsrcommunity.com/) and [NHS PyCom](https://nhs-pycom.net/) folk, people I know well, via their respective Slack channels. These are the topics I got back:
 
-* How to best display data/results of analysis.
-* How would we identifying datasets, like pneumonia on X-rays, or ROCT eye scans would be helpful for coders who want to explore the application of deep learning to medical data.
-* Items like sourcing the data, the issues with medical data, how to deal with paucity, etc.
-* Structured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?
-* How to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?
-* NEWS2, PEWS, MEWS, MEOWS. What are they, how are they different, which are new and which might soon be replaced? Can their data be useful analytically and clinically after the patient has been discharged?
-* Clinical coding from a clinician's perspective. How is this best tought to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?
-* How could we do better together?
-* What, from a clinician's perspective, are the top 3-5 missed opportunities relating to analytical use of data, that would most significantly improve the situation for you, your patients, or the NHS generally?
-* Clinical data entry  - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get "clinically coded", how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?
-* Usability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it's way into clinical software systems?
-* When is a dashboard useful vs superfluous? A lot of data analysis applications seem to culminate in dashboards - what are some good/bad examples of clinical dashboards?
-* Decision support tools and software as a medical device - aware of warnings like "this information is for guidance only and not intended to replace a diagnosis from a trained clinician" are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?
-* Known pitfalls for machine learning on medical data might be useful.
-* I would be interested in learning a bit more about popular acronyms (and what they mean). Also a bit about their day-to-day from the operational side of things.
+- How to best display data/results of analysis.
+- How would we identifying datasets, like pneumonia on X-rays, or ROCT eye scans would be helpful for coders who want to explore the application of deep learning to medical data.
+- Items like sourcing the data, the issues with medical data, how to deal with paucity, etc.
+- Structured data input vs. free text. How to reach busy clinicians and close the loop to reduce the quantity of free text, and increase use of structured data?
+- How to communicate that data quality starts at the data input stage - what messaging would be most effective at reaching clinicians?
+- NEWS2, PEWS, MEWS, MEOWS. What are they, how are they different, which are new and which might soon be replaced? Can their data be useful analytically and clinically after the patient has been discharged?
+- Clinical coding from a clinician's perspective. How is this best tought to clinicians? What rules do clinicians apply to help ensure that notes are accurately coded (ie. services receive appropriate ICD10 and OPCS4 codes, so that accurate HRG and TFC codes can be grouped), earning the service tariff (or block) income?
+- How could we do better together?
+- What, from a clinician's perspective, are the top 3-5 missed opportunities relating to analytical use of data, that would most significantly improve the situation for you, your patients, or the NHS generally?
+- Clinical data entry - overview of environments for data entry - e.g. in my head I imagine a trolley on a ward where patient notes are updated - what are the real-life data entry points, when does this information get "clinically coded", how often is it checked, when does it get rolled up into an e.g. SUS submission or when does it hit EMIS/TPP data centres?
+- Usability - what is the status quo of e.g. EPRs - some talk of waiting 15 minutes to login etc. How much of best practice UX (e.g. from consumer land) make it's way into clinical software systems?
+- When is a dashboard useful vs superfluous? A lot of data analysis applications seem to culminate in dashboards - what are some good/bad examples of clinical dashboards?
+- Decision support tools and software as a medical device - aware of warnings like "this information is for guidance only and not intended to replace a diagnosis from a trained clinician" are used to avoid needing to get through SaMD regs - in reality, how reliant are clinical teams on unregulated software products?
+- Known pitfalls for machine learning on medical data might be useful.
+- I would be interested in learning a bit more about popular acronyms (and what they mean). Also a bit about their day-to-day from the operational side of things.
 
-Well done if you read all of them. 
+Well done if you read all of them.
 
 As you can see, there is a wide range of topics, however, not really the stuff I learned about at medical school. The above bullet points are more practical questions rather than academic; stuff that you learn and interact with by just being a doctor and doing the day job. So I had a rethink. I decided to start with something I know well, and would be a good place to start a new series. So instead of "here is Prof Mark, telling you about how many times the airways divide in your lungs" (24 by the way), the series is now named "{{< var ask-a-clinician-series-title >}}" and the first episode will be about "{{< var aac-1 >}}".
 

@@ -3,12 +3,10 @@ title: "Let's Do Digital community values"
 draft: true
 ---
 
-Perhaps it is too early to be setting down values for the **Let's Do Digital** team and its community. Perhaps not. 
+Perhaps it is too early to be setting down values for the **Let's Do Digital** team and its community. Perhaps not.
 
-# Learn
+## Learn
 
+## Collaborate
 
-# Collaborate
-
-
-# Build
+## Build

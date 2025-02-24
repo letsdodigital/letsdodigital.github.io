@@ -5,18 +5,16 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#0D4848"
-    data-background-video: "/media/waves-on-beach.mp4"
-    data-background-video-loop: true
+  data-background-color: "#0D4848"
+  data-background-video: "/media/waves-on-beach.mp4"
+  data-background-video-loop: true
 ---
-
-
 
 ## Module 0: What Even is a Website? {background-image="/media/denny-muller-JySoEnr-eOg-unsplash.jpg" background-opacity="0.2"}
 
-* Every time you interact with a website using a browser such as Chrome or Edge, data is displayed onto your screen.
-* Words, pictures, buttons you click, how it looks and what happens all creates a user experience.
-* This is known as a **User Interface**, and is the core of **Front-End development**.
+- Every time you interact with a website using a browser such as Chrome or Edge, data is displayed onto your screen.
+- Words, pictures, buttons you click, how it looks and what happens all creates a user experience.
+- This is known as a **User Interface**, and is the core of **Front-End development**.
 
 <footer style="position: absolute; bottom: 20px; left: 20px;">
 Photo by <a href="https://unsplash.com/@redaquamedia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Denny Müller</a> on <a href="https://unsplash.com/photos/logo-JySoEnr-eOg?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
@@ -26,55 +24,52 @@ Photo by <a href="https://unsplash.com/@redaquamedia?utm_content=creditCopyText&
 
 ## Why it’s important for modern web applications.
 
-* **Front-end is critical to user engagement**.
-* Fast-loading, intuitive, and interactive websites drive up user engagement, reduce user errors, and increase the efficient use of databases.
-* Skilled front-end engineering creates websites that are adaptable across various devices, from phones and tablets to PCs.
+- **Front-end is critical to user engagement**.
+- Fast-loading, intuitive, and interactive websites drive up user engagement, reduce user errors, and increase the efficient use of databases.
+- Skilled front-end engineering creates websites that are adaptable across various devices, from phones and tablets to PCs.
 
 ---
 
 ## **HTML and CSS**: The building blocks of webpages.
 
-* **HyperText Markup Language (HTML)** provides structure with elements, while **Cascading Style Sheets (CSS)** define the layout and design.
-* **JavaScript**, written inside `<script>` tags, adds interactivity, making the page come alive.
-* Together, HTML, CSS, and JavaScript create a highly customizable and interactive **User Experience**.
+- **HyperText Markup Language (HTML)** provides structure with elements, while **Cascading Style Sheets (CSS)** define the layout and design.
+- **JavaScript**, written inside `<script>` tags, adds interactivity, making the page come alive.
+- Together, HTML, CSS, and JavaScript create a highly customizable and interactive **User Experience**.
 
 ---
 
 ## Understanding the structure of a basic webpage.
 
-* Go to this website (to be created) with your browser of choice, right-click, and select 'Inspect'.
-* In the Elements tab, you will see a `<!DOCTYPE html>`, with a `<header>` and `<body>` section. In the `<body>`, you'll notice `<div>`s and `<script>`s are present.
-* This structure represents the core design of a website.
+- Go to this website (to be created) with your browser of choice, right-click, and select 'Inspect'.
+- In the Elements tab, you will see a `<!DOCTYPE html>`, with a `<header>` and `<body>` section. In the `<body>`, you'll notice `<div>`s and `<script>`s are present.
+- This structure represents the core design of a website.
 
 ---
 
 ## The role of front-end development in healthcare applications (e.g., patient interfaces, healthcare portals).
 
-* While back-end development shapes what data is presented, front-end shapes **how** the data is presented.
-* Clear, clean front-end design makes it easy for a user to interact with the website. 
-* This allows them to easily engage with the website while providing accurate information as required.
-* More advanced users, such as a clician can rapidly and efficiently access data to improve productivty.
-* Good front-end design feels intuitive to use. This drives up engagement and makes users more willing to parcipiate. 
-
+- While back-end development shapes what data is presented, front-end shapes **how** the data is presented.
+- Clear, clean front-end design makes it easy for a user to interact with the website.
+- This allows them to easily engage with the website while providing accurate information as required.
+- More advanced users, such as a clician can rapidly and efficiently access data to improve productivty.
+- Good front-end design feels intuitive to use. This drives up engagement and makes users more willing to parcipiate.
 
 ## What's in This Course
 
-* Section 1 will introduce HTML and CSS
-* Explore the basics of front-end design and development.
-* Use **Git Codespaces** to create a simple website using **HTML**.
-* Learn how to style and make the website responsive using **CSS**.
-* Produce a static frontpage for a clinic, that will be responsive. 
+- Section 1 will introduce HTML and CSS
+- Explore the basics of front-end design and development.
+- Use **Git Codespaces** to create a simple website using **HTML**.
+- Learn how to style and make the website responsive using **CSS**.
+- Produce a static frontpage for a clinic, that will be responsive.
 
-* Section 2 will introduce JavaScript
-* Learn the basics of JavaScript, test knowledge on a number of small programming problems.
-* After the introduction,, we'll add interactivity to websites with simple scripts.
-
+- Section 2 will introduce JavaScript
+- Learn the basics of JavaScript, test knowledge on a number of small programming problems.
+- After the introduction,, we'll add interactivity to websites with simple scripts.
 
 ## Tutor groups
 
-* Tutor groups?
+- Tutor groups?
 
+## Next Session
 
-## Next Session 
-
-* HTML first steps
+- HTML first steps

@@ -36,7 +36,6 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 **15/01/25** - Take your clinical practice to the next level! Join the Data Analytics in Medicine (DAIM) course to: Learn Python for medical data & imaging. Explore machine learning & AI in healthcare. Gain hands-on coding skills with expert support. See the tickets section above to book your place now!
 
-
 ## What the Let's Do Digital Community is saying
 
 ```{=html}
@@ -92,5 +91,5 @@ description: "Join the Let's Do Digital community to learn, collaborate, and inn
 
 ## How to get involved
 
-Do you want to get involved in current Let's Do Digital projects? Do you have a webinar series, course or app that you want to get off the ground with the help of the Let's Do Digital. Come join us for networking, collaboration and innovation. Email the team at 
+Do you want to get involved in current Let's Do Digital projects? Do you have a webinar series, course or app that you want to get off the ground with the help of the Let's Do Digital. Come join us for networking, collaboration and innovation. Email the team at
 [Let's Do Digital](mailto:info@letsdodigital.org). Better yet, join our forum at [Digital Health Discourse](https://discourse.digitalhealth.net/g/lets-do-digital).

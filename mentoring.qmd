@@ -4,16 +4,13 @@ title: "Mentoring"
 
 At Let's Do Digital, we are dedicated to empowering individuals and organisations in the field of digital healthcare through personalised mentoring. Our mission is to provide the support and guidance necessary to excel in the digital age of healthcare.
 
-
 ## Expert mentoring
 
 Our mentoring programme connects you with seasoned professionals who provide valuable insights and guidance. Whether you're looking to navigate your career in digital healthcare, implement new technologies in your practice, or gain a deeper understanding of industry trends, our mentors are committed to supporting your journey. With their extensive experience, the Let's Do Digital mentoring and tutoring team offer practical advice and strategic direction to help you achieve your goals.
 
-
 ## No cost to you
 
 This is a free service. If you wish to make a donation to the Let's Do Digital Team, you can do so [here](https://buymeacoffee.com/letsdodigital).
-
 
 ## Why choose Let's Do Digital?
 
@@ -21,11 +18,9 @@ This is a free service. If you wish to make a donation to the Let's Do Digital T
 
 **Supportive Community:** Join a network of like-minded individuals and professionals who are passionate about digital healthcare. Benefit from shared experiences and collective growth.
 
-
 ## Our mentors and tutors
 
 Please see out [mentors and tutors](who-are-we.qmd) page.
-
 
 ## Contact us
 

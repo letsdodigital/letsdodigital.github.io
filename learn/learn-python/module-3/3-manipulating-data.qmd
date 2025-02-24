@@ -5,92 +5,78 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/magic-card-floating.jpg
-    data-background-opacity: "0.3"
+  data-background-image: /media/magic-card-floating.jpg
+  data-background-opacity: "0.3"
 ---
 
 ## Python data libraries
 
-* Pandas
-* NumPy
-* Scipy
-
+- Pandas
+- NumPy
+- Scipy
 
 # <span class="hide-title">Pandas</span> {background-image="/media/pandas.png" background-opacity="0.4"}
 
-
 ## What is Pandas? {background-image="/media/spreadsheet.jpg" background-opacity="0.2"}
 
-* `Pandas` is a library for working with `tabular` data in Python.
-* Tabular data is data that is stored in rows and columns, like in a spreadsheet.
-* The 2-dimensional data is stored and manipulated in `dataframes`.
-
+- `Pandas` is a library for working with `tabular` data in Python.
+- Tabular data is data that is stored in rows and columns, like in a spreadsheet.
+- The 2-dimensional data is stored and manipulated in `dataframes`.
 
 ## What is Pandas?
 
-* Great for working with spreadsheets or databases.
-* Widely used in data science.
-
+- Great for working with spreadsheets or databases.
+- Widely used in data science.
 
 ## Common Pandas Tasks {background-image="/media/magnetic-numbers.jpg" background-opacity="0.2"}
 
-* Load data from a file.
-* View data.
-* Edit data.
-* Filter data.
-* Save data back to a file.
-
+- Load data from a file.
+- View data.
+- Edit data.
+- Filter data.
+- Save data back to a file.
 
 ## Why Use Pandas?
 
-* Easy to learn and very useful.
-* Works well with big datasets.
-* Helps you clean and analyse data.
-* A key tool for data analysis in Python.
+- Easy to learn and very useful.
+- Works well with big datasets.
+- Helps you clean and analyse data.
+- A key tool for data analysis in Python.
 
-
-# <span class="hide-title">Numpy</span>  {background-image="/media/numpy.png" background-opacity="0.4"}
-
+# <span class="hide-title">Numpy</span> {background-image="/media/numpy.png" background-opacity="0.4"}
 
 ## What is NumPy? {background-image="/media/3d-data.webp" background-opacity="0.2"}
 
-* `NumPy` is a Python library for working with datasets using `NumPy arrays` of varying dimensions.
-* Arrays are like python `lists` but faster and more powerful.
-* Great for mathematical and scientific calculations.
-* Core tool in data science and machine learning.
-
+- `NumPy` is a Python library for working with datasets using `NumPy arrays` of varying dimensions.
+- Arrays are like python `lists` but faster and more powerful.
+- Great for mathematical and scientific calculations.
+- Core tool in data science and machine learning.
 
 ## Key Concepts in NumPy
 
-* **NumPy Array**: A grid of values (1D, 2D, or more).
-* Efficient for storing and working with lots of data.
-* NumPy makes mathematical operations fast and easy.
-* Use NumPy for calculations across whole arrays all at once.
-
+- **NumPy Array**: A grid of values (1D, 2D, or more).
+- Efficient for storing and working with lots of data.
+- NumPy makes mathematical operations fast and easy.
+- Use NumPy for calculations across whole arrays all at once.
 
 ## Why Use NumPy?
 
-* Very fast and efficient for working with numbers.
-* Easy to perform complex calculations.
-* Used in data analysis, machine learning, and more.
-* Essential for handling large datasets.
-
+- Very fast and efficient for working with numbers.
+- Easy to perform complex calculations.
+- Used in data analysis, machine learning, and more.
+- Essential for handling large datasets.
 
 # Scipy
 
 ![](/media/scipy.png)
 
-
 ## Scipy {background-image="/media/gaussian-like-graph.jpg" background-opacity="0.1"}
 
-
-* Scipy is a Python library for scientific and technical computing.
-* It builds on NumPy and provides more advanced functions.
-* It can carry out complex mathematical operations and statistics, eg linear algebra and p-value calculations.
-
+- Scipy is a Python library for scientific and technical computing.
+- It builds on NumPy and provides more advanced functions.
+- It can carry out complex mathematical operations and statistics, eg linear algebra and p-value calculations.
 
 # Let's Code! {background-image="/media/laptop-coding-coffee.jpg" background-opacity="0.4"}
-
 
 ## Printing your variables
 
@@ -110,63 +96,58 @@ Output:
         5
         5
 
-
 # Pandas
-
 
 ## Load Data with Pandas
 
-* Import the pandas library.
-* Load data from a file into a `DataFrame`.
+- Import the pandas library.
+- Load data from a file into a `DataFrame`.
 
 ```{.python filename="pandas.py"}
 import pandas as pd
 kidney_function_dataframe = pd.read_csv('kidney_function.csv')
 ```
 
-
 ## Update Data with loc
 
-* Use the `loc` (location) method.
-* Use `dataframe_name['column name']` to select a column.
-* Search for a specific value in this column using `==` and the value.
-* In the second `loc` argument, specify the column to update.
-* Update the value as needed.
+- Use the `loc` (location) method.
+- Use `dataframe_name['column name']` to select a column.
+- Search for a specific value in this column using `==` and the value.
+- In the second `loc` argument, specify the column to update.
+- Update the value as needed.
 
 ```{.python filename="pandas_update.py"}
 patient_data.loc[patient_data['Date'] == '2022-12-01', 'Stage'] = 5
 ```
 
-
 ## iloc
 
-* Use `iloc` (integer location) to select rows and columns by position.
-* Use `dataframe_name.iloc[row_number, column_number]`.
+- Use `iloc` (integer location) to select rows and columns by position.
+- Use `dataframe_name.iloc[row_number, column_number]`.
 
 ```{.python filename="pandas_iloc.py"}
 patient_data.iloc[0, 0] = 22
 ```
 
-
 ## Filtering DataFrames
 
-* A filter is a condition to select rows from a dataframe.
-* Use the `[]` operator to filter rows.
-* Use a condition (eg more than >) to filter rows.
-* You can then save this as a new dataframe.
+- A filter is a condition to select rows from a dataframe.
+- Use the `[]` operator to filter rows.
+- Use a condition (eg more than >) to filter rows.
+- You can then save this as a new dataframe.
 
 ```{.python filename="pandas_filter.py"}
 patients_over_55 = patient_data[patient_data['Age'] > 55]
 ```
 
-
 ## Get some statistics
 
-* You can get some basic statistics from a Pandas dataframe.
+- You can get some basic statistics from a Pandas dataframe.
 
 ```{.python filename="numpy_stats.py"}
 print(patient_data.describe())
 ```
+
 \
 Output:
 
@@ -180,29 +161,27 @@ Output:
         75%      4.750000  62.500000   217.500000     107.500000
         max      5.000000  70.000000   240.000000     150.000000
 
-        
 ## Refining the return results
 
-* First, you define filtering condition.
-* Next, you state what column you want to return.
+- First, you define filtering condition.
+- Next, you state what column you want to return.
 
 ```{.python filename="pandas_split.py"}
-hypertension = patient_data_2[patient_data_2['Diagnosis'] == 
+hypertension = patient_data_2[patient_data_2['Diagnosis'] ==
 'Hypertension']['Cholesterol']
 ```
+
 \
 
-* `patient_data_2['Diagnosis'] == 'Hypertension'` finds all rows where the diagnosis is **hypertension**.
-* `['Cholesterol']` returns **only the cholesterol values** for the rows that are filtered by the above query.
-
+- `patient_data_2['Diagnosis'] == 'Hypertension'` finds all rows where the diagnosis is **hypertension**.
+- `['Cholesterol']` returns **only the cholesterol values** for the rows that are filtered by the above query.
 
 # NumPy
 
-
 ## Creating a NumPy Array
 
-* Import the NumPy library.
-* Create an array from a python list (eg [1, 2, 5, 6]).
+- Import the NumPy library.
+- Create an array from a python list (eg [1, 2, 5, 6]).
 
 ```{.python filename="numpy.py"}
 import numpy as np
@@ -218,11 +197,10 @@ array_3D = np.array([[[1, 2, 3, 4, 5, 6, 7],
                       [22, 23, 24, 25, 26, 27, 28]]])
 ```
 
-
 ## Shapes
 
-* The shape of a NumPy array tells you how many elements are in each dimension.
-* Use the `shape` attribute to find the shape of an array.
+- The shape of a NumPy array tells you how many elements are in each dimension.
+- Use the `shape` attribute to find the shape of an array.
 
 ```{.python filename="numpy_shapes.py"}
 array_2x3 = np.array([[1, 2, 3], [4, 5, 6]])
@@ -235,10 +213,9 @@ Output:
 
         (2, 3)
 
-
 ## Update NumPy Arrays
 
-* Much like normal Python lists.
+- Much like normal Python lists.
 
 ```{.python filename="numpy_update.py"}
 array_1x7 = np.array([1, 2, 2, 4, 1, 1, 7])
@@ -251,15 +228,13 @@ Output:
 
         [10  2  2  4  1  1  7]
 
-
-# Scipy
-
+# Scipy 2
 
 ## More advanced statistics with Scipy
 
-* Here we can use the stats module.
-* An example is the t-score and p-value by using `stats.ttest_ind`.
-* Let's say we have two groups of patients: one with hypertension and one without.
+- Here we can use the stats module.
+- An example is the t-score and p-value by using `stats.ttest_ind`.
+- Let's say we have two groups of patients: one with hypertension and one without.
 
 ```{.python filename="scipy_stats.py" code-line-numbers="3"}
 from scipy import stats
@@ -277,21 +252,19 @@ Output:
         t-score: 2.5
         p-value: 0.05
 
-
 ## Statistics
 
 **Note:**
 
-* A t-score (or t-statistic) of > 1 implies more than one standard deviation from the mean.
-* A p-value of less than 0.05 is considered statistically significant.
-
+- A t-score (or t-statistic) of > 1 implies more than one standard deviation from the mean.
+- A p-value of less than 0.05 is considered statistically significant.
 
 ## Now try it yourself!
 
-* Go to the Lesson 2 folder.
-* Open `lesson_2.ipynb`.
-* Don't forget to ask your tutor if you need help.
-* See you in 40 minutes.
+- Go to the Lesson 2 folder.
+- Open `lesson_2.ipynb`.
+- Don't forget to ask your tutor if you need help.
+- See you in 40 minutes.
 
 ```{=html}
 <div class="bottom-right">

@@ -8,7 +8,7 @@ categories: [Pilot] # self-defined categories
 image: /media/spiritum-duo-logo.png
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 

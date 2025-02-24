@@ -5,50 +5,50 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#0D4848"
+  data-background-color: "#0D4848"
 ---
 
-## What is a sandbox? 
+## What is a sandbox?
 
-* A JavaScript sandbox is a safe environment to write and test your code without affecting a live website.
-* Popular options include:
-    * CodePen: (www.codepen.io) - User-friendly interface with live preview.
-    * JS Bin: (www.jsbin.com) - Minimalist environment for focused coding.
-    * Browser Console: (In your web browser's developer tools) - Quick and readily available.
+- A JavaScript sandbox is a safe environment to write and test your code without affecting a live website.
+- Popular options include:
+  - CodePen: (www.codepen.io) - User-friendly interface with live preview.
+  - JS Bin: (www.jsbin.com) - Minimalist environment for focused coding.
+  - Browser Console: (In your web browser's developer tools) - Quick and readily available.
 
 ---
 
 ## Elements of a sandbox
 
-* Editor: Where you write your code.
-* Console: Where you see the output of your code.
-* Files: Where you can manage your files.
-* Settings: Where you can manage your settings.
+- Editor: Where you write your code.
+- Console: Where you see the output of your code.
+- Files: Where you can manage your files.
+- Settings: Where you can manage your settings.
 
 ---
 
 ## How to use a sandbox
 
-* Write your code in the editor.
-* Click run to see the output in the console.
-* Save your code to a file.
-* Share your code with others.
+- Write your code in the editor.
+- Click run to see the output in the console.
+- Save your code to a file.
+- Share your code with others.
 
 ---
 
 ## Hands-on
 
-* Open a sandbox.
-* Write some code.
-* See the output in the console.
-* Save your code to a file.
-* Share your code with others.
+- Open a sandbox.
+- Write some code.
+- See the output in the console.
+- Save your code to a file.
+- Share your code with others.
 
 ---
 
 ## Code
 
-* Share CodePen link with attendees.
-* Ask them to open the link and try it out.
+- Share CodePen link with attendees.
+- Ask them to open the link and try it out.
 
 ---

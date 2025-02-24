@@ -10,16 +10,13 @@ Please join us for the first of many coding courses in healthcare that the **Let
 
 We now have 11 tutors and 41 potential students signed up (on the mailing list) for the event. We will have a mixture of presentations to introduce you to the topics of the module followed by hands on sessions, getting you coding straight away (you don't even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with 4-6 students per tutor.
 
-
 ## When and where
 
 Online, Wednesday 3^rd^ July, 7-10 pm, on Zoom.
 
-
 ## Topics covered
 
 The below topics may sound extensive and "out worldly" to the novice, but do not worry. We will show you exactly what each concept entails and take you through worked examples to better understand and utilise each one.
-
 
 - The terminal (the black window where you type in commands)
 - Syntax (the coding grammar)
@@ -32,11 +29,9 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
 - Web apps
 - Medical calculators
 
-
 ## Purchase tickets
 
 Ticket sales are now closed.
-
 
 ## Questions
 

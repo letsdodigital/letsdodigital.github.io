@@ -6,8 +6,8 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#F6D499"
-    data-background-image: /media/python-scales.jpg
+  data-background-color: "#F6D499"
+  data-background-image: /media/python-scales.jpg
 ---
 
 ## We will be using Python
@@ -16,16 +16,14 @@ title-slide-attributes:
 
 ## The Python programming language {background-image="/media/python-logo.png" background-opacity="0.3"}
 
-* A programming language interpreted and compiled at runtime.
-* Its syntax emphasises readability and simplicity. 
-* It utilising indentation for code structuring.
-* Widely used for web development, data analysis, AI / machine learning, and automation.
-
+- A programming language interpreted and compiled at runtime.
+- Its syntax emphasises readability and simplicity.
+- It utilising indentation for code structuring.
+- Widely used for web development, data analysis, AI / machine learning, and automation.
 
 ## Reminder of the basics
 
-* If you want a reminder of python basics, please visit the `module 0` slides at [https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html](https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html).
-
+- If you want a reminder of python basics, please visit the `module 0` slides at [https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html](https://letsdodigital.org/learn/learn-python/module-0/3-python-basics.html).
 
 ## A function
 
@@ -43,10 +41,9 @@ Output
         Hello World!
         Woo Hoo!
 
-
 ## Error handling
 
-* You can raise errors with `raise`
+- You can raise errors with `raise`
 
 ```{.python filename="raise_error.py"}
 raise_error = True
@@ -55,7 +52,7 @@ if raise_error == True:
     raise ValueError("An error has been raised!")
 ```
 
-* Other types include:
+- Other types include:
 
         TypeError
         ZeroDivisionError
@@ -79,15 +76,12 @@ Output
 
         Conversion failed. Please enter a valid number.
 
-
 # Class, please sit down! {background-image="/media/cartoon-classroom.png" background-opacity="0.2"}
-
 
 ## Classes
 
-* Much like functions are used to simplify reusable code, `classes` are used to organise code at a higher level.
-* Classes are used to store `attributes` and `actions` of real life objects.
-
+- Much like functions are used to simplify reusable code, `classes` are used to organise code at a higher level.
+- Classes are used to store `attributes` and `actions` of real life objects.
 
 ## Anatomy of a class
 
@@ -97,7 +91,7 @@ class VitalSigns:
     def __init__(self, temperature, heart_rate):
         self.temperature = temperature
         self.heart_rate = heart_rate
-    
+
     def display(self):
         print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
@@ -115,7 +109,7 @@ class VitalSigns:
     def __init__(self, temperature, heart_rate):
         self.temperature = temperature
         self.heart_rate = heart_rate
-    
+
     def display(self):
         print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
@@ -125,14 +119,12 @@ patient_1_vitals = VitalSigns(37.5, 80)
 patient_1_vitals.display()
 ```
 
-
 ## Naming conventions
 
-* Variables, functions and methods
-    * `snake_case`
-* Classes
-    * `CamelCase`
-
+- Variables, functions and methods
+  - `snake_case`
+- Classes
+  - `CamelCase`
 
 ## Anatomy of a class
 
@@ -142,7 +134,7 @@ class VitalSigns:
     def __init__(self, temperature, heart_rate):
         self.temperature = temperature
         self.heart_rate = heart_rate
-    
+
     def display(self):
         print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
@@ -156,10 +148,9 @@ patient_1_vitals.display()
 
 `patient_1_vitals = VitalSigns(37.5, 80)`
 
-* This line of code creates an instance of the `VitalSigns` class.
-* Essentially you have created a VitalSigns `object`.
-* Classes are an example of `object oriented programming`.
-
+- This line of code creates an instance of the `VitalSigns` class.
+- Essentially you have created a VitalSigns `object`.
+- Classes are an example of `object oriented programming`.
 
 ## Anatomy of a class
 
@@ -169,7 +160,7 @@ class VitalSigns:
     def __init__(self, temperature, heart_rate):
         self.temperature = temperature
         self.heart_rate = heart_rate
-    
+
     def display(self):
         print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
@@ -179,9 +170,8 @@ patient_1_vitals = VitalSigns(37.5, 80)
 patient_1_vitals.display()
 ```
 
-* When you create an instance of a class (aka object) the `__init__` method is **automatically** called.
-* Remember, a method is just a function inside a class.
-
+- When you create an instance of a class (aka object) the `__init__` method is **automatically** called.
+- Remember, a method is just a function inside a class.
 
 ## Creating an instance of the class
 
@@ -189,8 +179,7 @@ patient_1_vitals.display()
 patient_1_vitals = VitalSigns(37.5, 80)
 ```
 
-* You have passed `37.5` and `80` as arguments.
-
+- You have passed `37.5` and `80` as arguments.
 
 ## Anatomy of a class
 
@@ -200,7 +189,7 @@ class VitalSigns:
     def __init__(self, temperature, heart_rate):
         self.temperature = temperature
         self.heart_rate = heart_rate
-    
+
     def display(self):
         print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
@@ -210,9 +199,8 @@ patient_1_vitals = VitalSigns(37.5, 80)
 patient_1_vitals.display()
 ```
 
-* `37.5` is set as the `temperature` argument.
-* `80` is set as the `heart_rate` argument.
-
+- `37.5` is set as the `temperature` argument.
+- `80` is set as the `heart_rate` argument.
 
 ## Anatomy of a class
 
@@ -222,7 +210,7 @@ class VitalSigns:
     def __init__(self, temperature, heart_rate):
         self.temperature = temperature
         self.heart_rate = heart_rate
-    
+
     def display(self):
         print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
@@ -232,14 +220,12 @@ patient_1_vitals = VitalSigns(37.5, 80)
 patient_1_vitals.display()
 ```
 
-
 ## One needs to know oneself
 
-* `self` refers to the `instance` of the class that you have just created, eg **patient_1_vitals**.
-* `self` allows the object you have created to keep track of its own data.
-* `self` is ALWAYS passed as an argument to methods of a class. 
-* `self` is ALWAYS the first argument to methods in a class.
-
+- `self` refers to the `instance` of the class that you have just created, eg **patient_1_vitals**.
+- `self` allows the object you have created to keep track of its own data.
+- `self` is ALWAYS passed as an argument to methods of a class.
+- `self` is ALWAYS the first argument to methods in a class.
 
 ## Anatomy of a class
 
@@ -249,7 +235,7 @@ class VitalSigns:
     def __init__(self, temperature, heart_rate):
         self.temperature = temperature
         self.heart_rate = heart_rate
-    
+
     def display(self):
         print(f"Temperature: {self.temperature}°C")
         print(f"Heart Rate: {self.heart_rate} bpm")
@@ -259,20 +245,19 @@ patient_1_vitals = VitalSigns(37.5, 80)
 patient_1_vitals.display()
 ```
 
-
 ## The dot operator
 
 `patient_1_vitals.display()`
 
-* It may look strange, but the `.` (dot) in between **patient_1_vitals** and **display()** is basically just a way to get data or use a method of a class.
-* So in the instance above, you are basically saying:
+- It may look strange, but the `.` (dot) in between **patient_1_vitals** and **display()** is basically just a way to get data or use a method of a class.
+- So in the instance above, you are basically saying:
 
-    "For the **patient_1_vitals** instance that I have created, please run the **display()** method."
-    
-* Remember, a method is just a function inside a class.
+  "For the **patient_1_vitals** instance that I have created, please run the **display()** method."
 
+- Remember, a method is just a function inside a class.
 
 ## The final output
+
 ```{.python code-line-numbers="8,9"}
 
 class VitalSigns:
@@ -295,28 +280,24 @@ Output:
         Temperature: 37.5°C
         Heart Rate: 80 bpm
 
-# Libraries  {background-image="/media/large-library.jpg" background-opacity="0.3"}
-
+# Libraries {background-image="/media/large-library.jpg" background-opacity="0.3"}
 
 ## Libraries
 
-* Libraries are amazing. They will save you a lot of time and effort.
-* Libraries are basically a collection of organised code that someone else (usually a group of people) has already written.
-* You can use the functionality in these libraries within your own code.
-
+- Libraries are amazing. They will save you a lot of time and effort.
+- Libraries are basically a collection of organised code that someone else (usually a group of people) has already written.
+- You can use the functionality in these libraries within your own code.
 
 ## Safety {background-image="/media/tree-cutting.jpg" background-opacity="0.2"}
 
-
-* Of course, not every library is created equally. Some libraries are written better than others.
-* This is very important to realise when you are looking to get consistent functionality from a library.
-* Hence, choosing the wrong library, which could be poorly written, could affect patient care.
-* We will talk about safety and code in future modules.
-
+- Of course, not every library is created equally. Some libraries are written better than others.
+- This is very important to realise when you are looking to get consistent functionality from a library.
+- Hence, choosing the wrong library, which could be poorly written, could affect patient care.
+- We will talk about safety and code in future modules.
 
 ## Installing libraries {background-image="/media/cut-apples.jpg" background-opacity="0.2"}
 
-* This is very easy, just use `pip`
+- This is very easy, just use `pip`
 
 ```{.bash}
 $ pip install streamlit
@@ -324,8 +305,8 @@ $ pip install streamlit
 
 ## Preinstalled libraries
 
-* There are a large collection of preinstalled libraries in python, so you will not need to use `pip` to install them.
-* eg
+- There are a large collection of preinstalled libraries in python, so you will not need to use `pip` to install them.
+- eg
 
         os
         random
@@ -333,17 +314,15 @@ $ pip install streamlit
         math
         json
 
-
 ## Modules {background-image="/media/book-flicking-pages.jpg" background-opacity="0.2"}
 
-* Modules are collections of code, which can be part of higher organisation levels, for example libraries.
-* Hence, you can think of a module as a single book in a physical library.
-
+- Modules are collections of code, which can be part of higher organisation levels, for example libraries.
+- Hence, you can think of a module as a single book in a physical library.
 
 ## Importing modules
 
-* People say "import that library".
-* In fact, they are `importing a module`.
+- People say "import that library".
+- In fact, they are `importing a module`.
 
 ```{.python filename="import.py" code-line-numbers="2"}
 
@@ -364,41 +343,36 @@ now = datetime.datetime.now()
 print(now)
 ```
 
-* You use the `dot operator` to access the sub-modules, classes, methods and attributes within the imported module.
-
+- You use the `dot operator` to access the sub-modules, classes, methods and attributes within the imported module.
 
 ## How to write
 
-* It might seem daunting to write code, and you might be wondering where to start.
-* The best way to write code is to just write it. 
-* Think a little about what you are going to write, but then write down a line of code and run the code. If it work, great! If it did not work, great too! Either way you have learnt something.
-
+- It might seem daunting to write code, and you might be wondering where to start.
+- The best way to write code is to just write it.
+- Think a little about what you are going to write, but then write down a line of code and run the code. If it work, great! If it did not work, great too! Either way you have learnt something.
 
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
-* Now it is your turn.
-* Time for some hands on coding in `Lesson 1`.
-
+- Now it is your turn.
+- Time for some hands on coding in `Lesson 1`.
 
 ## Computers are pedantic! {.smaller}
 
-* **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
-* Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
-* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
-
+- **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers.
+- Even one character being out of place can break an entire code base. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
+- Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-1/](https://letsdodigital.org/learn/learn-python/module-1/)
 
 ## Lesson 1
 
-* Make sure you have a GitHub account.
-* Join your tutor group in the named `Zoom break out rooms`.
-* Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
-* Click on the `<> Code` button and then the `Codespaces` tab.
-* Click on `Create codespace on main`
+- Make sure you have a GitHub account.
+- Join your tutor group in the named `Zoom break out rooms`.
+- Go to the page at [https://github.com/letsdodigital/coding-hands-on](https://github.com/letsdodigital/coding-hands-on)
+- Click on the `<> Code` button and then the `Codespaces` tab.
+- Click on `Create codespace on main`
 
 ## <span class="hide-title">Break out room button</span>
 
 ![](/media/breakout-room-button.png){.absolute top=0 left=0 width="max" height="max" fig-alt="Screen shot of break out room button in Zoom"}
-
 
 ## <span class="hide-title">Codespace load</span>
 
@@ -406,29 +380,28 @@ print(now)
 
 ## Ignore this
 
-* Ignore the pop out about extensions you may get in the bottom right of Codespace
+- Ignore the pop out about extensions you may get in the bottom right of Codespace
 
 ![](/media/python-extension.png fig-alt="Screen shot of python extension pop out")
 
-
 ## Get to your first lesson {.smaller}
 
-* Change the directory (don't type the `$`. This is just how we show this is the command line):
+- Change the directory (don't type the `$`. This is just how we show this is the command line):
 
 ```{.bash}
     $ cd programming_in_healthcare/module_1/lesson_1
 ```
 
-* And then
+- And then
 
 ```{.bash}
     $ python exercise_1.py
 ```
 
-* Did it work? If so, open up the exercise_1.py file.
-* Any problems, just ask your tutor for help. 
-* **There is no such thing as a stupid question, only the question left unanswered.**
-* We will give you 20 minutes for lesson 1.
+- Did it work? If so, open up the exercise_1.py file.
+- Any problems, just ask your tutor for help.
+- **There is no such thing as a stupid question, only the question left unanswered.**
+- We will give you 20 minutes for lesson 1.
 
 ```{=html}
 <div class="bottom-right">

@@ -4,8 +4,8 @@ author: "Digital Clinical Safety Alliance"
 format: revealjs
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/life-guard-boat.jpg
-    data-background-opacity: "0.4"
+  data-background-image: /media/life-guard-boat.jpg
+  data-background-opacity: "0.4"
 ---
 
 # Who's who?
@@ -78,17 +78,16 @@ title-slide-attributes:
 </div>
 ```
 
-
 ## Plan
 
-* Introductions (done)
-* Current Process
-* Cookiecutter DCB0129
-* Hazards logging in code
-* Hazard types
-* The Digital Clinical Safety Platform
-* Feedback from a user - Dean Mawson
-* Questions and Answers
+- Introductions (done)
+- Current Process
+- Cookiecutter DCB0129
+- Hazards logging in code
+- Hazard types
+- The Digital Clinical Safety Platform
+- Feedback from a user - Dean Mawson
+- Questions and Answers
 
 ## DCSP
 
@@ -98,53 +97,47 @@ title-slide-attributes:
 
 ![](/media/dcsp-screenshot-code.png){.centre-full-image-drop alt="Screenshot of the DCSP"}
 
-
 # Current Clinical Safety Documentation {background-image="/media/clinical-safety-hazard-log.jpeg" background-opacity="0.2" background-position="top"}
 
 ## Clinical safety standards
 
-* IEC 62304
-* DCB 0129
-* DCB 0160
-* ...
+- IEC 62304
+- DCB 0129
+- DCB 0160
+- ...
 
 ## A mixture of everyday office softwares
 
-* Word processor, eg [
-NHS-E Clinical risk management system template](https://digital.nhs.uk/services/clinical-safety/documentation#:~:text=Clinical%20risk%20management%20system,DOCX%2068%20KB)
-* Spreadsheet, eg [NHS-E DCB 0129 Compliance Assessment](https://digital.nhs.uk/binaries/content/assets/website-assets/data-and-information/information-standards/standards-and-collections/dcb-0129-compliance-assessment-v5.0.xlsx) and [NHS-E hazard logs](https://digital.nhs.uk/binaries/content/assets/website-assets/services/clinical-safety/clinical_safety_hazard_log_template.xlsx)
-* Kanban boards (eg Jira)
-* Process mapping (eg MS Visio, Moqups)
-* Home grown systems
+- Word processor, eg [
+  NHS-E Clinical risk management system template](https://digital.nhs.uk/services/clinical-safety/documentation#:~:text=Clinical%20risk%20management%20system,DOCX%2068%20KB)
+- Spreadsheet, eg [NHS-E DCB 0129 Compliance Assessment](https://digital.nhs.uk/binaries/content/assets/website-assets/data-and-information/information-standards/standards-and-collections/dcb-0129-compliance-assessment-v5.0.xlsx) and [NHS-E hazard logs](https://digital.nhs.uk/binaries/content/assets/website-assets/services/clinical-safety/clinical_safety_hazard_log_template.xlsx)
+- Kanban boards (eg Jira)
+- Process mapping (eg MS Visio, Moqups)
+- Home grown systems
 
 # And what advancements on the above are there?
-
 
 # Cookiecutter DCB0129 {background-image="/media/cookie-cutter.jpg" background-opacity="0.2"}
 
 https://github.com/digital-clinical-safety-alliance/dcb0129-mkdocs-template
 
+## Overview of Cookiecutter-DCB0129
+
+- Created by Dr Marcus Baw.
+- Used during clinical safety documentation of the RCPCH **Digital Growth Chart** APIs.
 
 ## Overview of Cookiecutter-DCB0129
 
-* Created by Dr Marcus Baw.
-* Used during clinical safety documentation of the RCPCH **Digital Growth Chart** APIs.
-
-
-## Overview of Cookiecutter-DCB0129
-
-* Stores safety documentation on **GitHub** (public or private).
-* Uses **markdown templates** to build safety documentations.
-* Provides **placeholders** for important repetitive, project specific items.
-
+- Stores safety documentation on **GitHub** (public or private).
+- Uses **markdown templates** to build safety documentations.
+- Provides **placeholders** for important repetitive, project specific items.
 
 ## Overview of Cookiecutter-DCB0129
 
-* Builds a **static web page** of the safety documents.
-* These can be *downloaded* into a PDF form.
-* Website served via **GitHub Pages**.
-* Automatically generate **hazard labels** via GitHub actions.
-
+- Builds a **static web page** of the safety documents.
+- These can be _downloaded_ into a PDF form.
+- Website served via **GitHub Pages**.
+- Automatically generate **hazard labels** via GitHub actions.
 
 ## Placeholders
 
@@ -162,46 +155,40 @@ In keeping with our commitment to transparency and openness, our Hazard Log is p
 
 **Pros**
 
-* Automates a large amount of the documentation process.
-* Creates easy to access, open and online documentation.
+- Automates a large amount of the documentation process.
+- Creates easy to access, open and online documentation.
 
 **Cons**
 
-* Requires "basic" programming knowledge to setup and modify.
-* Setup is via command line interface only.
+- Requires "basic" programming knowledge to setup and modify.
+- Setup is via command line interface only.
 
-
-## Terminal based 
+## Terminal based
 
 ![](/media/terminal-godot.png){.centre-full-image}
 
-
 # Hazards logging in code {background-image="/media/php-code.jpg" background-opacity="0.2"}
-
 
 ## DevSecRegOps:
 
 **A framework for aiding security and compliance in modern healthcare software development**
 
-* A dissertation by Joe Channing, May 2023.
-* **Dev**elopment-**Sec**urity-**Reg**ulations-**Op**eration**s** Framework.
-* Taking DevOps and aligning with security testing and healthcare regulations.
-* **DevSRO** for short.
-
+- A dissertation by Joe Channing, May 2023.
+- **Dev**elopment-**Sec**urity-**Reg**ulations-**Op**eration**s** Framework.
+- Taking DevOps and aligning with security testing and healthcare regulations.
+- **DevSRO** for short.
 
 ## DevSRO overview
 
-* **Integrating** regulatory compliance as part of the c**ontinuous integration / continuous deployment** workflow.
-* Enables compliance to **keep up** with the fast pace of development seen with DevOps.
-* Obtain **collaboration and integration of software developers** in the building of safer software for healthcare.
-* Hazard logging in code.
-* Hazards and their mitigations in code are version controlled, which provides a robust **audit trail**.
-
+- **Integrating** regulatory compliance as part of the c**ontinuous integration / continuous deployment** workflow.
+- Enables compliance to **keep up** with the fast pace of development seen with DevOps.
+- Obtain **collaboration and integration of software developers** in the building of safer software for healthcare.
+- Hazard logging in code.
+- Hazards and their mitigations in code are version controlled, which provides a robust **audit trail**.
 
 ## Hazard logging in code
 
 ![](/media/hazard-logging-in-code.png){.centre-full-image-drop alt="Hazards written in teh docstring of a function"}
-
 
 ## Creating hazard documentation
 
@@ -209,35 +196,32 @@ In keeping with our commitment to transparency and openness, our Hazard Log is p
 
 ## DevSRO pros
 
-* Greater collaboration of software developers, operations, and security with the clinical safety team.
-* Audit trail of hazards and how they are directly mitigated in the code.
-* Safer software.
+- Greater collaboration of software developers, operations, and security with the clinical safety team.
+- Audit trail of hazards and how they are directly mitigated in the code.
+- Safer software.
 
 ## DevSRO cons
 
-* The code base becomes too wordy if all of the hazard material is only kept in the code itself.
-* Safety officers and those working in close collaboration may need to be able to read code.
-* Training of software developers in clinical risk management.
+- The code base becomes too wordy if all of the hazard material is only kept in the code itself.
+- Safety officers and those working in close collaboration may need to be able to read code.
+- Training of software developers in clinical risk management.
 
 **For the last two points, this is short term pain for long term gain, as we would ultimately be building better and safer systems.**
 
-
 # Hazard types in code {background-image="/media/danger-strong-current.jpg" background-opacity="0.2"}
-
 
 ## Standardised hazards types
 
-* Based on built-in exceptions (errors) types in Python.
-* Most programming languages have exceptions types.
+- Based on built-in exceptions (errors) types in Python.
+- Most programming languages have exceptions types.
 
-*exception* **KeyError**
+_exception_ **KeyError**
 
-*exception* **ValueError**
+_exception_ **ValueError**
 
-*exception* **MemoryError**
+_exception_ **MemoryError**
 
-*exception* **RuntimeError**
-
+_exception_ **RuntimeError**
 
 ## Typing hazards
 
@@ -266,194 +250,175 @@ def BMI(self, weight: float, height: float) -> float:
 
 ## Possible hazard types
 
-* Up for debate...
-
+- Up for debate...
 
 ## Patient demographics related
 
-* WrongPatient
-* WrongDemographics
+- WrongPatient
+- WrongDemographics
 
 ## Medication / non-surgical related
 
-* WrongDrug
-* WrongDrugDose
-* DrugDelay
-* NoTreatment
-* WrongAdministrationRoute
-* Allergy
+- WrongDrug
+- WrongDrugDose
+- DrugDelay
+- NoTreatment
+- WrongAdministrationRoute
+- Allergy
 
 ## Surgical related
 
-* WrongSurgicalSite
-* WrongSurgery
+- WrongSurgicalSite
+- WrongSurgery
 
 ## Observations related
 
-* WrongObservation
-* WrongObservationResult
-* WrongObeservationIntepretation
+- WrongObservation
+- WrongObservationResult
+- WrongObeservationIntepretation
 
 ## Investigation related
 
-* RequestNotReceivedActioned
-* WrongInvestigation
-* WrongInvestigationSite
-* WrongDiagnosis
+- RequestNotReceivedActioned
+- WrongInvestigation
+- WrongInvestigationSite
+- WrongDiagnosis
 
 ## Referral related
 
-* ReferralNotReceivedActioned
-* WrongReferralType
+- ReferralNotReceivedActioned
+- WrongReferralType
 
 ## Clinical interaction related
 
-* NoClinicalInteraction
-* NoDocumentationOfClinicalInteraction
-* DelayedClinicalInteraction
-* WrongClinicalInteraction
+- NoClinicalInteraction
+- NoDocumentationOfClinicalInteraction
+- DelayedClinicalInteraction
+- WrongClinicalInteraction
 
 ## Data related
 
-* CorruptedData
-* NoAccessToData
+- CorruptedData
+- NoAccessToData
 
 ## Security related
 
-* DataBreach
+- DataBreach
 
 ## System related
 
-* SystemCrash
-* CommunicationError
+- SystemCrash
+- CommunicationError
 
 ## End-user related
 
-* AlarmFatigue
+- AlarmFatigue
 
 ## Miscellaneous
 
-* Duplicate
-* Incomplete
-* GeneralHazard
-
+- Duplicate
+- Incomplete
+- GeneralHazard
 
 # The Digital Clinical Safety Platform {background-image="/media/dcsp.png" background-opacity="0.2"}
 
+## DCSP Overview
+
+- The **Digital Clinical Safety Alliance** was formed to create a new clinical safety documentation system.
+- The **Digital Clinical Safety Platform** (DCSP) **combines the best** of:
+  - CookieCutter-DCB0129
+  - DevSRO framework
+  - Hazard typing
 
 ## DCSP Overview
 
-* The **Digital Clinical Safety Alliance** was formed to create a new clinical safety documentation system.
-* The **Digital Clinical Safety Platform**  (DCSP) **combines the best** of: 
-    * CookieCutter-DCB0129
-    * DevSRO framework
-    * Hazard typing
-
-
-## DCSP Overview
-
-* Streamlines and automates safety documentation.
-* Easy to use user-interface.
-* Use templates.
-* Adaptable to any safety standard.
-* Audit trail.
-
+- Streamlines and automates safety documentation.
+- Easy to use user-interface.
+- Use templates.
+- Adaptable to any safety standard.
+- Audit trail.
 
 ## Static and dynamic webpages
 
-* The dynamic side helps the user create the clinical safety documentation.
-* The static side presents the finalised documents.
-
+- The dynamic side helps the user create the clinical safety documentation.
+- The static side presents the finalised documents.
 
 ## Live demo {background-image="/media/large-screen-presentation-conference.jpg" background-opacity="0.6" background-position="bottom"}
 
-
 # Bringing all of the players into the same room {background-image="/media/wall-climbing.jpg" background-opacity="0.2" background-position="top"}
-
 
 ## Over the wall {background-image="/media/wall-climbing.jpg" background-opacity="0.2" background-position="top"}
 
-* Traditionally, the team that developed an app, the **development** team, created said app and then shipped the app to the **operations** team, who then in turn prepared the app for use in production.
-* This was very inefficient, as there was a lot of **throwing over a bureaucratic wall**, back and forth to fix bugs and make production ready.
-
+- Traditionally, the team that developed an app, the **development** team, created said app and then shipped the app to the **operations** team, who then in turn prepared the app for use in production.
+- This was very inefficient, as there was a lot of **throwing over a bureaucratic wall**, back and forth to fix bugs and make production ready.
 
 ## DevOps was born
 
-* To stop this back and forth between teams, the teams were merged together in the **DevOps** team. 
-* And then the security team was added, and so we have DevSecOps.
-
+- To stop this back and forth between teams, the teams were merged together in the **DevOps** team.
+- And then the security team was added, and so we have DevSecOps.
 
 ## Healthcare needs regulation
 
-* As healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:
-\
-\
+- As healthcare is tightly regulated, regulation should also be incorporated into the DevOps team, alongside security:
+  \
+  \
    **Dev**elopment-**Sec**urity-**Reg**ulations-**Op**eration Framework
-\
-&nbsp; &#8595; &#8595; &#8595;
-\
+  \
+  &nbsp; &#8595; &#8595; &#8595;
+  \
    **DevSRO**
 
 # DCSP - Future features {background-image="/media/road-into-distance.jpg" background-opacity="0.4" background-position="bottom"}
 
-
 ## DCSP - Future features
 
-* Graphical function to draw and manage hazards of a digital process / system.
-* Anything else people highlight in the Q&A section today.
-
+- Graphical function to draw and manage hazards of a digital process / system.
+- Anything else people highlight in the Q&A section today.
 
 # The full stack {background-image="/media/stack-of-pancakes.jpg" background-opacity="0.4"}
-
 
 ## The full Stack
 
 ![](/media/dcsp-stack-overview.png){.centre-full-image-drop}
 
-
 ## The full stack {.smaller}
 
-* NGINX reverse proxy server
-* Gunicorn WSGI HTTP server
-* Django dynamic site framework
-* Material for MKDocs static site creator
-* Python
-* Javascript for additional frontend functionality
-* Containerisation (Docker)
-* Cloud service (DigitalOcean)
+- NGINX reverse proxy server
+- Gunicorn WSGI HTTP server
+- Django dynamic site framework
+- Material for MKDocs static site creator
+- Python
+- Javascript for additional frontend functionality
+- Containerisation (Docker)
+- Cloud service (DigitalOcean)
 
 ## CI/CD pipeline {.smaller}
 
-* Git version control
-* GitHub and GitHub Actions
-* Non-main branch testing followed by main branch push to production
-* Black and djLint Linters
-* Bandit security checker
-* MyPy type checking
-* PyTest unit & coverage testing 
-* Automatic app documentation build
-* (Integration testing and further security testing to come)
-
+- Git version control
+- GitHub and GitHub Actions
+- Non-main branch testing followed by main branch push to production
+- Black and djLint Linters
+- Bandit security checker
+- MyPy type checking
+- PyTest unit & coverage testing
+- Automatic app documentation build
+- (Integration testing and further security testing to come)
 
 # Feedback from Dean Mawson {background-image="/media/industrial-inspector.jpg" background-opacity="0.4" background-position="bottom"}
 
-
 ## DCSP conclusion {background-image="/media/dcsp.png" background-opacity="0.2"}
 
-* Streamlined and automated clinical safety documentation
-* User-friendly interface
-* Templates
-* Adaptable to any safety standard
-* Safety built in at the code level
-* Audit trail
+- Streamlined and automated clinical safety documentation
+- User-friendly interface
+- Templates
+- Adaptable to any safety standard
+- Safety built in at the code level
+- Audit trail
 
 # Questions and answers {background-image="/media/question-mark-on-book.jpg" background-opacity="0.5"}
 
 [dcsp.information@gmail.com](mailto:dcsp.information@gmail.com)
 
-
 # Sponsor / support the DCSP {background-image="/media/two-cranes.jpg" background-opacity="0.4"}
 
 dcsp.information@gmail.com
-
-

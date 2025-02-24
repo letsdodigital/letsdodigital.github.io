@@ -5,70 +5,63 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#0D4848"
-    data-background-video: "/media/waves-on-beach.mp4"
-    data-background-video-loop: true
+  data-background-color: "#0D4848"
+  data-background-video: "/media/waves-on-beach.mp4"
+  data-background-video-loop: true
 ---
-
 
 ## Introduction {background-image="/media/welcome-sign.jpg" background-opacity="0.4"}
 
-* Welcome and thank you for joining our course.
-* We hope you enjoy the course and find it helpful.
-* There are plans for further, more advanced courses, in the near future.
-* Please provide feedback at the end of the course, so we can help improve things further.
-
+- Welcome and thank you for joining our course.
+- We hope you enjoy the course and find it helpful.
+- There are plans for further, more advanced courses, in the near future.
+- Please provide feedback at the end of the course, so we can help improve things further.
 
 ## The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
-* We will explore the development (teaching) environment.
-* Get you connected to the development environment.
-* Get you running some common command line functions in `Lesson 1`.
-
+- We will explore the development (teaching) environment.
+- Get you connected to the development environment.
+- Get you running some common command line functions in `Lesson 1`.
 
 ## Python Basics {.smaller}
 
-* How do we communicate with computers.
-* Introduction to the python programming language.
-* Learn about:
-    * Syntax
-    * Variables
-    * Operators
-    * Control flow
-    * Functions
-    * Error handling
-* Then get you programming in `Lesson 2`.
-
+- How do we communicate with computers.
+- Introduction to the python programming language.
+- Learn about:
+  - Syntax
+  - Variables
+  - Operators
+  - Control flow
+  - Functions
+  - Error handling
+- Then get you programming in `Lesson 2`.
 
 ## Build an app
 
-* If you are doing well, and have completed all of lesson 1 and 2, you can build a clinical calculator app.
+- If you are doing well, and have completed all of lesson 1 and 2, you can build a clinical calculator app.
 
 ![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max"}
 
-
 ## Why learn to code? {.smaller background-image="/media/why.jpg" background-opacity="0.2"}
 
-* We learn biology and anatomy at university to better understand and practice clinical medicine. Why don't we learn the base subject to better understand and practice digital medicine?
-* Of course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.
-* However, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects.
-* Also, how can you be expected to understand how AI and large language models work if you don't understand the basics of how computers think?
-
+- We learn biology and anatomy at university to better understand and practice clinical medicine. Why don't we learn the base subject to better understand and practice digital medicine?
+- Of course not all clinicians should be expected to have extensive knowledge in coding and digital health; that would take clinicians away from the front line, and also clinicians are expensive coders.
+- However, having a small number of subject matter experts in both disciplines can be highly advantageous to implementing better and safer digital health projects.
+- Also, how can you be expected to understand how AI and large language models work if you don't understand the basics of how computers think?
 
 ## How can you use your coding skills in health care?
 
-* Data analytics
-* Building apps
-* Interoperability
-* Automate routine tasks
-* Help lead a software development team with knowledge of both digital and clinical aspects.
+- Data analytics
+- Building apps
+- Interoperability
+- Automate routine tasks
+- Help lead a software development team with knowledge of both digital and clinical aspects.
 
-
-* Indeed, anything digital
+- Indeed, anything digital
 
 ## Tutor groups {background-image="/media/teacher-and-blackboard.jpg" background-opacity="0.6"}
 
-* Has everyone been placed in a tutor group?
+- Has everyone been placed in a tutor group?
 
 ## Off we go to the shell {background-image="/media/horses-galloping.jpg" background-opacity="0.6"}
 

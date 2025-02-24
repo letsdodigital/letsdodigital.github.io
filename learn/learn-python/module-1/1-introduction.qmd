@@ -5,41 +5,37 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#0D4848"
-    data-background-video: "/media/waves-on-beach.mp4"
-    data-background-video-loop: true
+  data-background-color: "#0D4848"
+  data-background-video: "/media/waves-on-beach.mp4"
+  data-background-video-loop: true
 ---
-
 
 ## Introduction {background-image="/media/welcome-sign.jpg" background-opacity="0.4"}
 
-* Welcome and thank you for joining our course.
-* We hope you enjoy the course and find it helpful.
-* Please provide feedback at the end of the course, so we can help improve things further.
-
+- Welcome and thank you for joining our course.
+- We hope you enjoy the course and find it helpful.
+- Please provide feedback at the end of the course, so we can help improve things further.
 
 ## The coding environment {background-image="/media/bamboo-woods.jpg" background-opacity="0.2"}
 
-* `Module 0` covered the coding environment and the basics of python coding.
-* We will quickly cover them again.
-
+- `Module 0` covered the coding environment and the basics of python coding.
+- We will quickly cover them again.
 
 ## 1st section - Python Programming
 
-* Here we will get you doing some slightly more advanced python topics.
+- Here we will get you doing some slightly more advanced python topics.
 
 ![](/media/python-logo.png){ fig-align="center" width="max" height="max" fig-alt="Python logo"}
 
-
 ## 2nd section - Build an app
 
-* In this section we will be building a clinical calculator app.
+- In this section we will be building a clinical calculator app.
 
 ![](/media/egfr-web-app.png){ fig-align="center" width="max" height="max" fig-alt="Webpage of eGFR app"}
 
 ## Tutor groups {background-image="/media/teacher-and-blackboard.jpg" background-opacity="0.6"}
 
-* Everyone should have an assigned tutor group. If not, please do speak up.
+- Everyone should have an assigned tutor group. If not, please do speak up.
 
 ## Off we go to the shell {background-image="/media/horses-galloping.jpg" background-opacity="0.6"}
 

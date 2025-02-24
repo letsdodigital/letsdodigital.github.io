@@ -5,20 +5,20 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#0D4848"
-    data-background-video: "/media/waves-on-beach.mp4"
-    data-background-video-loop: true
+  data-background-color: "#0D4848"
+  data-background-video: "/media/waves-on-beach.mp4"
+  data-background-video-loop: true
 ---
 
 ## CSS Cascading Style Sheets, the partner to HTML
 
-* Elements in HTML allow for structure, but just using HTML elements is extermely limited.
-* HTML5 allows for styling Elements directly in the HTML file, a method known as "inline styling"
-* While effective, HTML was never intended to rely on inline styling
-* If every element needs complete styling, then HTML files become filled with lots of repeatitive style. Modern websites can have over a 100 elements. 
-* Cascading Style Sheets(CSS) were designed as a compliment to html, they are generally loaded in the head element.
-* CSS allows for styling multiple elements with a single line
+- Elements in HTML allow for structure, but just using HTML elements is extermely limited.
+- HTML5 allows for styling Elements directly in the HTML file, a method known as "inline styling"
+- While effective, HTML was never intended to rely on inline styling
+- If every element needs complete styling, then HTML files become filled with lots of repeatitive style. Modern websites can have over a 100 elements.
+- Cascading Style Sheets(CSS) were designed as a compliment to html, they are generally loaded in the head element.
+- CSS allows for styling multiple elements with a single line
 
 ## Basic CSS styling
 
-* CSS can interact with html elements at the 
+- CSS can interact with html elements at the

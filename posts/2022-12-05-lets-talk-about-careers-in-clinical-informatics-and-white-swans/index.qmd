@@ -8,13 +8,14 @@ categories: [Careers] # self-defined categories
 image: /media/need-a-job.jpeg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
 ![](/media/need-a-job.jpeg){width=100% fig-alt="Need a job written on a torn piece of cardboard, held up by someone siting behind the card."}
 
 ## Let’s Talk About Careers in Clinical Informatics and White Swans
+
 So I am not one to write blogs about my thoughts, mainly just updates on meetings I am hosting. Today things are different! Let’s talk about careers and swans.
 
 As many of you may know, I am a council member of the Faculty of Clinical Informatics (FCI). A fair number of you will know that we had our member’s conference on the 1st of December in London. This was a fantastic meeeting, with lots of great talks about the new FCI strategy, great projects happening across the UK and also a great session about good digital innovation (something close to my heart). It was lovely to meet up with friends and colleagues, and plan for the future ahead.
@@ -30,6 +31,7 @@ What I realised when I spoke to Anita Phung, Michael Kriger and Alistair Cannon 
 Now, let’s talk about clinicians-who-code. There is no exact definition for this, and I have had many conversation about improving on the name. What I have settled for is:
 
 ::: {.callout-note}
+
 ## Clinician-who-codes
 
 Someone that understands, in deepth, the clinical area being studied and the coding language that is needed to provide great digital innovation to said clinical area. One does not need a formal clinical qualification to satisfy the "clinical" part of this name.

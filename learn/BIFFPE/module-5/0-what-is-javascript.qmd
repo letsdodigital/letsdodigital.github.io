@@ -5,68 +5,67 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#0D4848"
+  data-background-color: "#0D4848"
 ---
 
 ## Module 5: Making Websites Move - JavaScript 101 {background-image="/media/denny-muller-JySoEnr-eOg-unsplash.jpg" background-opacity="0.2"}
 
-* JavaScript is a programming language that adds interactivity to websites.
-* It allows elements on a webpage to move, respond to user actions, and change dynamically.
-* Think of it as the "brain" behind the visual elements of a website.
+- JavaScript is a programming language that adds interactivity to websites.
+- It allows elements on a webpage to move, respond to user actions, and change dynamically.
+- Think of it as the "brain" behind the visual elements of a website.
 
 ---
 
 ## Why JavaScript is important for web applications.
 
-* Static websites: Display information but don't allow for much user interaction.
-* Dynamic websites: Provide a more engaging and personalized user experience.
-* JavaScript enables:
-    * User logins and personalized content
-    * Real-time updates (e.g., chat applications, live data feeds)
-    * Interactive forms and data validation
-    * Animations and visual effects
+- Static websites: Display information but don't allow for much user interaction.
+- Dynamic websites: Provide a more engaging and personalized user experience.
+- JavaScript enables:
+  - User logins and personalized content
+  - Real-time updates (e.g., chat applications, live data feeds)
+  - Interactive forms and data validation
+  - Animations and visual effects
 
 ---
 
 ## **HTML, CSS AND JAVASCRIPT**: The building blocks of webpages.
 
-* HTML provides the structure of the webpage.
-* CSS provides the layout and design.
-* JavaScript adds interactivity, making the page come alive.
-* The combination of all three allows for a highly customizable and interactive **User Experience**.
-* Think of it as different systems within a car, each with their own purpose.
+- HTML provides the structure of the webpage.
+- CSS provides the layout and design.
+- JavaScript adds interactivity, making the page come alive.
+- The combination of all three allows for a highly customizable and interactive **User Experience**.
+- Think of it as different systems within a car, each with their own purpose.
 
 ---
 
-
 ## The role of Javascript in frontend healthcare applications.
 
-* Many modern clinical applications rely heavily on JavaScript for their functionality.
-* Examples:
-    * Electronic Health Records (EHRs): Dynamic forms, patient data validation, interactive dashboards.
-    * Telehealth Platforms: Real-time video conferencing, chat features, remote patient monitoring.
-    * Medical Imaging Software: Interactive image viewing, annotation tools, 3D visualizations.
-    * Decision Support Tools: Calculate risk scores, provide treatment recommendations, display interactive charts.
-* Modern JavaScript frameworks like React, Angular, and Vue.js are used to build complex and scalable web applications.
+- Many modern clinical applications rely heavily on JavaScript for their functionality.
+- Examples:
+  - Electronic Health Records (EHRs): Dynamic forms, patient data validation, interactive dashboards.
+  - Telehealth Platforms: Real-time video conferencing, chat features, remote patient monitoring.
+  - Medical Imaging Software: Interactive image viewing, annotation tools, 3D visualizations.
+  - Decision Support Tools: Calculate risk scores, provide treatment recommendations, display interactive charts.
+- Modern JavaScript frameworks like React, Angular, and Vue.js are used to build complex and scalable web applications.
 
 ---
 
 ## What's in This Module
 
-* Introduction to **JavaScript**: Bringing interactivity to websites.
-* Why use JavaScript? The importance of dynamic content and behavior.
-* **Variables** in JavaScript: Storing and manipulation of data.
-* Setting up a **JavaScript testing sandbox**.
+- Introduction to **JavaScript**: Bringing interactivity to websites.
+- Why use JavaScript? The importance of dynamic content and behavior.
+- **Variables** in JavaScript: Storing and manipulation of data.
+- Setting up a **JavaScript testing sandbox**.
 
-* Followup module 6:
-    * **Loops** in JavaScript: Automating repetitive tasks.
-    * Building our first function: A phone number validator.
+- Followup module 6:
+  - **Loops** in JavaScript: Automating repetitive tasks.
+  - Building our first function: A phone number validator.
 
 ## Tutor groups
 
-* Tutor groups:
-    * ?
+- Tutor groups:
+  - ?
 
-## Next Session 
+## Next Session
 
-* Why use Javascript
+- Why use Javascript

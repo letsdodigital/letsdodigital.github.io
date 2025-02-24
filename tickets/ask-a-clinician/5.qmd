@@ -4,6 +4,7 @@ image: "/media/string-in-brain.jpg"
 ---
 
 ## The Radiologist's Eye: Insights into Neuroradiology
+
 Exploring the unseen – a journey into the brain, spine, and head & neck.
 
 ![](/media/string-in-brain.jpg){height=300px fig-align="center" fig-alt="String like structures forming a head"}

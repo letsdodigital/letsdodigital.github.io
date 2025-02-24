@@ -5,13 +5,13 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/mountains-in-summer.jpg
-    data-background-opacity: "0.6"
+  data-background-image: /media/mountains-in-summer.jpg
+  data-background-opacity: "0.6"
 ---
 
 ## Many thanks {background-image="/media/feedback.jpg" background-opacity="0.3"}
 
-* Many thanks for joining us today.
-* We hope you found today's session helpful and a great addition to your digital health career.
-* Could you please complete feedback before you leave.
-* Please do join us for more advanced courses coming out very soon.
+- Many thanks for joining us today.
+- We hope you found today's session helpful and a great addition to your digital health career.
+- Could you please complete feedback before you leave.
+- Please do join us for more advanced courses coming out very soon.

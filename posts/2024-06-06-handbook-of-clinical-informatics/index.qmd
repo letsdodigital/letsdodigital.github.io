@@ -2,13 +2,13 @@
 title: "Handbook of Clinical Informatics"
 description: "The best way to eat an elephant is one bite at a time!"
 author:
- - name: Mark Bailey
+  - name: Mark Bailey
 date: 2024-06-06
 categories: [blog]
 image: /media/information-and-wisdom.jpeg
 draft: false
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -16,11 +16,11 @@ There is so much information out there on the web about “digital health”, bu
 
 ![](/media/information-and-wisdom.jpeg){height=400px fig-align="center" fig-alt="Cinema sign with the words We are drowning in information while starving for wisdom"}
 
-I am curious about something and would greatly appreciate feedback from anyone that is happy to give it, no matter how “out there” it may be. 
+I am curious about something and would greatly appreciate feedback from anyone that is happy to give it, no matter how “out there” it may be.
 
-For a few year’s now, I have wanted to have and use the “Oxford Handbook of Clinicial Informatics”. This does not exists of course, but I have benefited tremendously from other Oxford Handbooks. They are concise, well planned out, accurate and get you the facts that you need fast for the speciality you are currently doing. Pretty much my whole med school year’s was focused on leaning the pages of the Oxford Handbook of Clinical Medicine. I was addicted to the Respiratory one whilst progressing in Respiratory Medicine. I still look at it from time to time. 
+For a few year’s now, I have wanted to have and use the “Oxford Handbook of Clinicial Informatics”. This does not exists of course, but I have benefited tremendously from other Oxford Handbooks. They are concise, well planned out, accurate and get you the facts that you need fast for the speciality you are currently doing. Pretty much my whole med school year’s was focused on leaning the pages of the Oxford Handbook of Clinical Medicine. I was addicted to the Respiratory one whilst progressing in Respiratory Medicine. I still look at it from time to time.
 
-So I would like to write this handbook that I am so critically missing. I would like to the write the Clincial Informatics Handbook. This would not however be an Oxford hard copy handbook, but an online, open source version of it, that anyone could use for free. The only issue with this is how do I pay for my time to write this “Let’s Do Digital Handbook of Clincial Informatics”? 
+So I would like to write this handbook that I am so critically missing. I would like to the write the Clincial Informatics Handbook. This would not however be an Oxford hard copy handbook, but an online, open source version of it, that anyone could use for free. The only issue with this is how do I pay for my time to write this “Let’s Do Digital Handbook of Clincial Informatics”?
 
 I have been wondering if I could build the handbook in stages. I could prepare and give webinars of different topics, and for each topic, place the materials into the ever expanding Handbook. Each webinar would ask the attendees for a nominal fee (something like £4-9).
 

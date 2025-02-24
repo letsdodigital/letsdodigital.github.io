@@ -5,7 +5,6 @@ image: /media/tickets.png
 
 ::: {.panel-tabset}
 
-
 ## Upcoming Events
 
 ### 12th Feb - 5th March January 2025
@@ -16,10 +15,9 @@ image: /media/tickets.png
 
 [Ask a Clinician - The Radiologist's Eye: Insights into Neuroradiology](ask-a-clinician/5.qmd)
 
-
 ### 3rd of Mach 2025
 
-[Ask A Clinician: Insights from the Field Hospital and Beyond 
+[Ask A Clinician: Insights from the Field Hospital and Beyond
 ](ask-a-clinician/6.qmd)
 
 ### 11th March 2025
@@ -40,7 +38,6 @@ image: /media/tickets.png
 
 [Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
-
 ## Previous events
 
 ### 31st March 2022
@@ -51,7 +48,6 @@ image: /media/tickets.png
 
 [July 2022 Quarterly meeting](https://www.youtube.com/watch?v=x6-jPJxEqp8&list=PLv5yR6DkBB8rWE4m482wj5rqMK2k9NtyH)
 
-
 ### October 2022
 
 [October 2022 Quarterly meeting](https://www.youtube.com/watch?v=Ke-UhqCRRlU&list=PLv5yR6DkBB8rWE4m482wj5rqMK2k9NtyH)
@@ -60,77 +56,61 @@ image: /media/tickets.png
 
 [Let's Talk Digital Conference 2023](/conferences/2023/index.qmd)
 
-
 ### 13th June 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-1 >}}](ask-a-clinician/1.qmd)
-
 
 ### 27th June 2024
 
 [{{< var coding-series-title >}} - Module 1](programming-in-healthcare/module-1-27-06-2024.qmd)
 
-
 ### 3rd July 2024
 
-
 [{{< var coding-series-title >}} - Module 1- Evening course](programming-in-healthcare/module-1-03-07-2024.qmd)
-
 
 ### 16th of July 2024
 
 [{{< var frontline-insights-title >}} - {{< var fi-1 >}}](frontline-insights/1.qmd)
 
-
 ### 25th July 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-2 >}}](ask-a-clinician/2.qmd)
-
 
 ### 1st August 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-3 >}}](ask-a-clinician/3.qmd)
 
-
 ### 22nd August 2024
 
 [{{< var coding-series-title >}} - Module 2](programming-in-healthcare/module-2-22-08-24.qmd)
-
 
 ### 29th August 2024
 
 [{{< var coding-series-title >}} - Module 0](programming-in-healthcare/module-0-29-08-24.qmd)
 
-
 ### 5th September 2024
 
 [{{< var ask-someone-in-digital >}} - {{< var asid-1 >}}](ask-someone-in-digital/1.qmd)
-
 
 ### 11th September 2024
 
 [{{< var coding-series-title >}} - Module 0 - evening](programming-in-healthcare/module-0-11-09-24.qmd)
 
-
 ### 12th September 2024
 
 [Digital Clinical Safety Platform (DCSP) webinar](dcsa/1.qmd)
-
 
 ### 13th September 2024
 
 [{{< var ask-a-clinician-series-title >}} - {{< var aac-4 >}}](ask-a-clinician/4.qmd)
 
-
 ### 24th October 2024
 
 [Let's Talk Digital Conference 2024](/conferences/2024/index.qmd)
 
-
 ### 6th November 2024
 
 [{{< var coding-series-title >}} - Module 2 - evening](programming-in-healthcare/module-2-06-10-24.qmd)
-
 
 ### 28th of November 2024
 

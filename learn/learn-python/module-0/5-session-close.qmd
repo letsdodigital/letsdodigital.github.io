@@ -6,8 +6,8 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/tree-and-sunset.jpg
-    data-background-opacity: "1"
+  data-background-image: /media/tree-and-sunset.jpg
+  data-background-opacity: "1"
 include-in-header:
   - text: |
       <style>
@@ -28,7 +28,7 @@ include-in-header:
 
 ## Many thanks {background-image="/media/feedback.jpg" background-opacity="0.3"}
 
-* Many thanks for joining us today.
-* We hope you found today's session helpful and a great start to programming in healthcare.
-* Could you please complete feedback before you leave.
-* Please join us for more advanced modules here [https://letsdodigital.org/tickets/](https://letsdodigital.org/tickets/)
+- Many thanks for joining us today.
+- We hope you found today's session helpful and a great start to programming in healthcare.
+- Could you please complete feedback before you leave.
+- Please join us for more advanced modules here [https://letsdodigital.org/tickets/](https://letsdodigital.org/tickets/)

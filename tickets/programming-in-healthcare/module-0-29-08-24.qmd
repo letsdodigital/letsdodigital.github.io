@@ -13,16 +13,13 @@ Module 0 is open to anyone, but has been designed for those working or intereste
 
 We will have a mixture of talks to introduce you to the topics of the module followed by hands on sessions in small groups with tutors. We will be getting you coding straight away (you don't even need a coding environment on your computer, as we will be using a browser based solution). We will have break out rooms for the hands on coding sessions, with around 4 students per tutor.
 
-
 ## When and where
 
 Online, Thursday 29^th^ August, 2-5 pm, on Zoom.
 
-
 ## Topics covered
 
 The below topics may sound extensive and "out worldly" to the novice, but do not worry. We will show you exactly what each concept entails and gently take you through worked examples to better understand and utilise each one.
-
 
 - The terminal (the black window where you type in commands)
 - Syntax (the coding grammar)
@@ -32,7 +29,6 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
 - Expressions and operators (eg add these two things. Make x equal to 3)
 - Functions (hey function, calculate the square root of 9)
 - Error handling (you were trying to do what!)
-
 
 ## Purchase tickets
 
@@ -48,7 +44,6 @@ The below topics may sound extensive and "out worldly" to the novice, but do not
 </stripe-buy-button>
 </div>
 ```
-
 
 ## Questions
 

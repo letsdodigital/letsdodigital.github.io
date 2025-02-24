@@ -7,7 +7,7 @@ title: "HackMD - Template"
 
 ## Material
 
-Slides can be found here: 
+Slides can be found here:
 https://letsdodigital.org/learn/learn-python/module-[module_number]
 
 ## Hands-on code can be found here:

@@ -2,13 +2,13 @@
 title: "Topics for the first 10 Essentials of Health Informatics Webinars"
 description: "You need to start somewhere"
 author:
- - name: Mark Bailey
+  - name: Mark Bailey
 date: 2024-07-02
 categories: [blog]
 image: /media/green-cross-in-wire-jungle.jpg
 draft: false
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 

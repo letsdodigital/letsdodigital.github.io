@@ -8,7 +8,7 @@ categories: [blog] # self-defined categories
 image: /media/glasses-and-code.jpg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -30,19 +30,20 @@ My journey, like most, in digital health has been very
 <span style="color: indigo;">r</span>
 <span style="color: violet;">f</span>
 <span style="color: red;">u</span>
-<span style="color: orange;">l</span>. I have built and implemented several different digital systems to automate routine, repetitive clinical tasks, and I have built systems to streamline workflows and reduce workflows. I even managed a small team of computer science students to build a prototype to help manage lung cancer treatment pathways. 
+<span style="color: orange;">l</span>. I have built and implemented several different digital systems to automate routine, repetitive clinical tasks, and I have built systems to streamline workflows and reduce workflows. I even managed a small team of computer science students to build a prototype to help manage lung cancer treatment pathways.
 ```
+
 </br>
 All along the way, I came across several obstacles. You are probably familiar with them:
 
-* Difficulty in finding the right people to talk to.
-* The people in digital that you need to engage with have little time for "novel" ideas.
-* The people in digital actually block your "digital transformation" project.
-* Clinicians have no time to engage in your project.
-* You yourself have no time for the project.
-* There is no funding for the project.
-* You try and make changes at the national level, i.e., the Faculty of Clinical Informatics, and then said entity fails (yes, this [happened](https://www.digitalhealth.net/2023/07/fci-described-as-a-greek-tragedy/) to me!).
-* And in some cases, you just don't understand what is feasible with digital or how "digital" actually works.
+- Difficulty in finding the right people to talk to.
+- The people in digital that you need to engage with have little time for "novel" ideas.
+- The people in digital actually block your "digital transformation" project.
+- Clinicians have no time to engage in your project.
+- You yourself have no time for the project.
+- There is no funding for the project.
+- You try and make changes at the national level, i.e., the Faculty of Clinical Informatics, and then said entity fails (yes, this [happened](https://www.digitalhealth.net/2023/07/fci-described-as-a-greek-tragedy/) to me!).
+- And in some cases, you just don't understand what is feasible with digital or how "digital" actually works.
 
 There are of course many more!
 

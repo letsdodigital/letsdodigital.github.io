@@ -6,7 +6,6 @@ title: "Organising Committee 2024"
 
 The organising committee for the 2024 conference includes:
 
-
 ![](/media/mark-bailey.jpeg){height=300px fig-align="center" fig-alt="Profile picture of "}
 
 ## Dr Mark A Bailey- Chief Conference Organiser
@@ -44,6 +43,5 @@ The organising committee for the 2024 conference includes:
 \
 
 ![](/media/alex-brown.png){height=300px fig-align="center" fig-alt="Profile picture of Alex Brown"}
-
 
 ## Dr Alex Brown

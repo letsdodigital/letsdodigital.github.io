@@ -5,9 +5,9 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#FEDF8F"
-    data-background-video: "/media/rockpool.mp4"
-    data-background-video-loop: true
+  data-background-color: "#FEDF8F"
+  data-background-video: "/media/rockpool.mp4"
+  data-background-video-loop: true
 include-in-header:
   - text: |
       <style>
@@ -26,40 +26,34 @@ include-in-header:
       </style>
 ---
 
-
 ## Introduction {background-image="/media/welcome-mat-dock.jpg" background-opacity="0.4"}
 
-* Welcome and thank you for joining our course.
-* We hope you enjoy the course and find it helpful.
-* Please provide feedback at the end of the course, so we can help improve things further.
-
-
-## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
-
-* In this 3 hour session, we are going to cover
-
+- Welcome and thank you for joining our course.
+- We hope you enjoy the course and find it helpful.
+- Please provide feedback at the end of the course, so we can help improve things further.
 
 ## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
 
-* Jupyter notebook
-* Markdown
-
+- In this 3 hour session, we are going to cover
 
 ## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
 
-* Accessing and manipulating data
-* Visualising data
-
+- Jupyter notebook
+- Markdown
 
 ## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
 
-* Basic statistics
-* Manipulating images
+- Accessing and manipulating data
+- Visualising data
 
+## What are we going to cover? {background-image="/media/row-of-archways.jpg" background-opacity="0.8"}
+
+- Basic statistics
+- Manipulating images
 
 ## Lots to cover {background-image="/media/snow-tubing-mid-air.jpg" background-opacity="0.4"}
 
-* So let's get started.
+- So let's get started.
 
 ```{=html}
 <div class="bottom-right">

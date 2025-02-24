@@ -12,7 +12,6 @@ This is the first webinar of many in the "Ask a Clinician" series from the Letâ€
 
 Join us as Dr Mark Bailey, Locum Respiratory Consultant and Clinician-who-codes, explains how a medic thinks, works, and, somehow, messes up your data.
 
-
 ## Webinar structure
 
 **Chair:** Simon Latimer, Dermatology Systems Manager, University Hospitals Sussex, NHS Foundation Trust.
@@ -21,13 +20,11 @@ Join us as Dr Mark Bailey, Locum Respiratory Consultant and Clinician-who-codes,
 
 The first half will be a presentation of the medical clinical decision making process, followed by a Q&A.
 
-
 ## When and where
 
 Online, 2-3pm, on Thursday the 13th of June.
 
 Link for the live YouTube stream is [here](https://www.youtube.com/live/dPr6W62DGeA?si=FhgQnDEJtV-4sgPZ)
-
 
 ## Tickets and coffees
 
@@ -62,7 +59,6 @@ Click on the coffee cup or napkin to get a ticket.
     </div>
 </div>
 ```
-
 
 ## Questions
 

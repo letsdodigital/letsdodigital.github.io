@@ -6,15 +6,13 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#F6D499"
-    data-background-image: /media/python-scales.jpg
+  data-background-color: "#F6D499"
+  data-background-image: /media/python-scales.jpg
 ---
-
 
 # <span style="font-size: smaller;">OK, so you can create variables, change them and compare them. What next?</span> {background-image="/media/river-close-up.jpg" background-opacity="0.4"}
 
-
-## Control flow - if statements 
+## Control flow - if statements
 
 ```{.python filename="if_statement.py"}
 patient_allergy = "amoxicillin"
@@ -33,7 +31,7 @@ Output
 
         Patient is allergic to penicillins
 
-## Control flow - if statements 
+## Control flow - if statements
 
 ```{.python filename="if_statement.py"}
 patient_allergy = "tazocin"
@@ -52,7 +50,7 @@ Output
 
         Patient is allergic to penicillins
 
-## Control flow - if statements 
+## Control flow - if statements
 
 ```{.python filename="if_statement.py"}
 patient_allergy = "clarithromycin"
@@ -72,6 +70,7 @@ Output
         Patient is allergic to other antibiotics
 
 ## Control flow - for loops
+
 ```{.python filename="for_loop.py"}
 list_of_numbers = [1, 2, 3, 4, 5]
 
@@ -87,10 +86,9 @@ Output
         4
         5
 
-
 ## Control flow - for loops and breaks
 
-* You can also stop the loop when a condition is met.
+- You can also stop the loop when a condition is met.
 
 ```{.python filename="for_loop_break.py" code-line-numbers="7"}
 list_of_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
@@ -130,10 +128,9 @@ Output
         4
         5
 
-
 ## Colons, look out for the colons
 
-* All **if**, **while** and **for** statements must end with a colon
+- All **if**, **while** and **for** statements must end with a colon
 
 ```{.python filename="colon.py"}
 count = 1
@@ -145,7 +142,7 @@ while count <= 5:
 
 ## Colons
 
-* The same goes for **functions**.
+- The same goes for **functions**.
 
 ```{.python filename="more_colons.py"}
 def i_am_a_function():
@@ -153,10 +150,9 @@ def i_am_a_function():
     return
 ```
 
-
 ## Indexing lists
 
-* Indexing in python starts at `0`.
+- Indexing in python starts at `0`.
 
 ```{.python filename="indexing.py"}
 a_list = ["a", "b", "c"]
@@ -170,7 +166,7 @@ Output
 
 ## Dictionary lookup
 
-* You can get a `value` from a dictionary by providing it with the `key` you want to look up.
+- You can get a `value` from a dictionary by providing it with the `key` you want to look up.
 
 ```{.python filename="indexing.py"}
 a_dictionary = {"key 1": 11, "key 2": 76}
@@ -184,12 +180,11 @@ Output
 
 ## Functions {background-image="/media/box.jpg" background-opacity="0.4"}
 
-* Reusable organised code. DRY
-* A function:
-    1. Takes zero or more input values,
-    2. Undertakes some process, and
-    3. Returns zero or more output values.
-
+- Reusable organised code. DRY
+- A function:
+  1. Takes zero or more input values,
+  2. Undertakes some process, and
+  3. Returns zero or more output values.
 
 ## Anatomy of a function
 
@@ -226,7 +221,8 @@ def name_of_function(argument_1, argument_2):
 
 ## Inbuilt functions
 
-* There are some functions that are already built into python, eg
+- There are some functions that are already built into python, eg
+
 ```{.python filename="built_in_functions.py"}
 print("hello world")
 print(len([0,1,2,3,4]))
@@ -238,30 +234,29 @@ Output
         hello world
         5
 
-
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
-* Now it is your turn.
-* Time for some hands on coding in `Lesson 3`.
-* You need to change directory
+- Now it is your turn.
+- Time for some hands on coding in `Lesson 3`.
+- You need to change directory
 
 ```{.bash}
 $ cd ../lesson_3
 ```
 
-* Then run the first exercise:
+- Then run the first exercise:
 
 ```{.bash}
 $ python exercise_1.py
 ```
 
-## Computers are pedantic!  {.smaller}
+## Computers are pedantic! {.smaller}
 
-* **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
-* Even one character being out of place can break your code. 
-* So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
-* Now go have some fun in your tutor groups with hands-on coding and debugging.
-* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
+- **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers.
+- Even one character being out of place can break your code.
+- So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
+- Now go have some fun in your tutor groups with hands-on coding and debugging.
+- Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
 
 ```{=html}
 <div class="bottom-right">

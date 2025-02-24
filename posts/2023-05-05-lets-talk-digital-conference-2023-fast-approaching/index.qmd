@@ -8,7 +8,7 @@ categories: [Conference]
 image: /media/blank-picture-frame.jpeg
 draft: false # setting this to `true` will prevent your post from appearing on your listing page until you're ready!
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -20,18 +20,18 @@ Great speakers, get guests and great collaboration.
 
 Confirmed speakers include:
 
-* **Matimba Swama** – Swarm technology, University of Bristol
-* **Prof Joe McDonald** – Clinical Informatics overview, MD of several med tech companies and guru CCIO
-* **Sophie Brooks** – eHandover sheet –  NHS Midwife, NHS Clinical Entrepreneur and CCOO of Lister 
-* **Kevin Monk** – AI for clinical rota management, CEO SARDJV
-* **Grant Vallance** – Information Manager, Oxford University Hospital NHS Foundation Trust – Haematological Homegrown digital solutions
-* **Mark Wardle** – neurologist and CCIO at Cardiff Hospital and clinician-who-code
-* **Marcus Baw** – locum GP, ED doctor and clinician-who-codes
-* **Harold Thimbleby** – Professor of Computer Sciences, author of Fix IT
-* **Dr Majid Kazmi** –  Digital Cancer care – Careology
-* **Dom Main and Anita Chung** – automation in primary care, both GPs
-* **Andrea Preston** – patient cancer management apps
-* **Mark Bailey** – Interim Chair of Council, Faculty of Clinical Informatics, Locum respiratory, sleep and digital doctor, QVHNFT
+- **Matimba Swama** – Swarm technology, University of Bristol
+- **Prof Joe McDonald** – Clinical Informatics overview, MD of several med tech companies and guru CCIO
+- **Sophie Brooks** – eHandover sheet – NHS Midwife, NHS Clinical Entrepreneur and CCOO of Lister
+- **Kevin Monk** – AI for clinical rota management, CEO SARDJV
+- **Grant Vallance** – Information Manager, Oxford University Hospital NHS Foundation Trust – Haematological Homegrown digital solutions
+- **Mark Wardle** – neurologist and CCIO at Cardiff Hospital and clinician-who-code
+- **Marcus Baw** – locum GP, ED doctor and clinician-who-codes
+- **Harold Thimbleby** – Professor of Computer Sciences, author of Fix IT
+- **Dr Majid Kazmi** – Digital Cancer care – Careology
+- **Dom Main and Anita Chung** – automation in primary care, both GPs
+- **Andrea Preston** – patient cancer management apps
+- **Mark Bailey** – Interim Chair of Council, Faculty of Clinical Informatics, Locum respiratory, sleep and digital doctor, QVHNFT
 
 Agenda and speaker bios soon to follow.
 
@@ -43,8 +43,6 @@ If you would like us to host your poster at the conference, please submit a 250 
 
 Many thanks for our two sponsors, Gloucestershire University and SWAG Cancer Alliance
 
-
-
 ::: {layout-ncol=2}
 
 ![](/media/gloucestershire-university-logo.png){ fig-align="center" fig-alt="Gloucestershire University Logo with up arrow and name all in bold"}
@@ -52,4 +50,3 @@ Many thanks for our two sponsors, Gloucestershire University and SWAG Cancer All
 ![](/media/swag-logo.png){ fig-align="center" fig-alt="Somerset, Wiltshite, Avon and Gloucestershire Cancer Alliance in text, along with NHS logo"}
 
 :::
-

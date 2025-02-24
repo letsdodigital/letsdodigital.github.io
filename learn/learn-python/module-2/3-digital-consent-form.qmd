@@ -6,100 +6,86 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/signature-on-form.jpg
-    data-background-opacity: "0.4"
+  data-background-image: /media/signature-on-form.jpg
+  data-background-opacity: "0.4"
 ---
 
 # Lesson 2 - Let's build a digital consent app
 
-
 ## Eager to get started? {background-image="/media/lady-a-start-line.jpg" background-opacity="0.2"}
 
-* Don't worry, we will get you coding soon.
-* However, it is probably a good idea to make sure you are familiar with all of the concepts you need to build a `digital consent form`.
-
+- Don't worry, we will get you coding soon.
+- However, it is probably a good idea to make sure you are familiar with all of the concepts you need to build a `digital consent form`.
 
 ## So what are we going to build exactly? {background-image="/media/house-blue-print.jpg" background-opacity="0.4"}
 
-* A web based digital healthcare app.
-* This needs both a frontend and a backend.
-    * Frontend - what you see and interact with.
-    * Backend - the brains (in most cases) and data storage of your app.
-
+- A web based digital healthcare app.
+- This needs both a frontend and a backend.
+  - Frontend - what you see and interact with.
+  - Backend - the brains (in most cases) and data storage of your app.
 
 ## What is a web browser? {background-image="/media/droplets-on-web.jpg" background-opacity="0.4"}
 
-* You highly likely use these every day (Explorer, Chrome, Safari).
-* A web browser is a software program that allows a user to locate, access, display and interact with a web page.
-* The main languages used in creating the "raw" webpage are HTML and javascript. 
-* You can use frameworks in other languages to then create these "raw" webpages. In our case a python framework called `streamlit`.
-
+- You highly likely use these every day (Explorer, Chrome, Safari).
+- A web browser is a software program that allows a user to locate, access, display and interact with a web page.
+- The main languages used in creating the "raw" webpage are HTML and javascript.
+- You can use frameworks in other languages to then create these "raw" webpages. In our case a python framework called `streamlit`.
 
 ## We are going to cheat {background-image="/media/server-room.jpg" background-opacity="0.3"}
 
-* As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprbase`) for you to connect to.
-* The "brains" and frontend delivery will be managed by the `streamlit` server that you will be building.
-* A server is basically a computer program that provides you with a web page.
-
+- As we do not have time to build both the front and backend, we have created a cloud database (specifically `suprbase`) for you to connect to.
+- The "brains" and frontend delivery will be managed by the `streamlit` server that you will be building.
+- A server is basically a computer program that provides you with a web page.
 
 ## What is a library? {background-image="/media/book-open-in-library.jpg" background-opacity="0.3"}
 
-
-* You will be using different libraries in this build.
-* A library is basically a collection of code that provides set functionality.
-* You need to first `install` libraries and then `import` to use them.
-* See [module 1](https://letsdodigital.org/learn/learn-python/module-1/) for an overview.
-
+- You will be using different libraries in this build.
+- A library is basically a collection of code that provides set functionality.
+- You need to first `install` libraries and then `import` to use them.
+- See [module 1](https://letsdodigital.org/learn/learn-python/module-1/) for an overview.
 
 ## What is an API? {background-image="/media/three-rotary-dial-phones.jpg" background-opacity="0.3"}
 
-* An `application process interface` (`API`) is a means for computer programs to communicate with each other.
-* These communicating programs can be on the same computer, over networks or even the internet.
-* You will be using the `supabase python library` to connect to the `supabase database` via its `API`.
-
+- An `application process interface` (`API`) is a means for computer programs to communicate with each other.
+- These communicating programs can be on the same computer, over networks or even the internet.
+- You will be using the `supabase python library` to connect to the `supabase database` via its `API`.
 
 ## Data in a database {background-image="/media/database-paperbased-with-girl-at-desk.jpg" background-opacity="0.3"}
 
-* Much like a spreadsheet, data is stored in a database in `tables`.
-* You `query` tables in the database to get data.
-* Queries in streamlit return **all data** from a table.
-* You can then use standard python data manipulation to retrieve the data you need.
-
+- Much like a spreadsheet, data is stored in a database in `tables`.
+- You `query` tables in the database to get data.
+- Queries in streamlit return **all data** from a table.
+- You can then use standard python data manipulation to retrieve the data you need.
 
 ## State {background-image="/media/numbers-on-wooden-spinners.jpg" background-opacity="0.3"}
 
-* `State` in a web app is basically the current values of variables being used.
-* Will we cover this shortly and how to read and alter state in Streamlit.
-
+- `State` in a web app is basically the current values of variables being used.
+- Will we cover this shortly and how to read and alter state in Streamlit.
 
 ## Fields
 
-* A field on a web page is an element that you can interact with and input data.
-* Common types of fields include **text boxes**, **radio buttons**, **checkboxes**, **dropdown menus**, and **buttons**.
-* Fields are typically used in `forms` to collect user input.
+- A field on a web page is an element that you can interact with and input data.
+- Common types of fields include **text boxes**, **radio buttons**, **checkboxes**, **dropdown menus**, and **buttons**.
+- Fields are typically used in `forms` to collect user input.
 
 ![](/media/two-fields.png){fig-align="center" fig-alt="Two fields from a web page"}
 
-
 ## Fields - some key facts
 
-* There are many different attributes that you can alter for each field on a webpage. These include:
-    * **labels** - the label you see on the web page.
-    * **keys** - how you reference a field in code.
-    * **on_change** - a function to run when the value of a field changes.
-
+- There are many different attributes that you can alter for each field on a webpage. These include:
+  - **labels** - the label you see on the web page.
+  - **keys** - how you reference a field in code.
+  - **on_change** - a function to run when the value of a field changes.
 
 ## Web Page Forms
 
-* A form on a web page is a structured area that contains fields for users to input and submit data.
-* Forms are used to collect user input and can include various types of fields.
-* The data entered into a form can be sent to a server for processing, often by pressing a submit button.
+- A form on a web page is a structured area that contains fields for users to input and submit data.
+- Forms are used to collect user input and can include various types of fields.
+- The data entered into a form can be sent to a server for processing, often by pressing a submit button.
 
 ![](/media/field-and-submit-button.png){fig-align="center" fig-alt="a field and a submit button from a form"}
 
-
 # Python specific concepts {background-image="/media/python-logo.png" background-opacity="0.3"}
-
 
 ## Anatomy of a function
 
@@ -113,10 +99,9 @@ def name_of_function(argument_1, argument_2):
 
 ## Scope {background-image="/media/telescope.jpg" background-opacity="0.2"}
 
-* In most programming languages, a variable has `scope`.
-* `Scope` defines where a variable can be read and altered.
-* `Scope` is determined by where a variable was originally defined.
-
+- In most programming languages, a variable has `scope`.
+- `Scope` defines where a variable can be read and altered.
+- `Scope` is determined by where a variable was originally defined.
 
 ## Scope example
 
@@ -138,25 +123,22 @@ Output
                       ^^^^^^^^^^^^
         NameError: name 'patient_name' is not defined.
 
-
 ## Bad practice
 
-* You can use the **global** keyword to get variables into scope, but this is bad practice and best avoided.
+- You can use the **global** keyword to get variables into scope, but this is bad practice and best avoided.
 
 ![](/media/red-hand.png){fig-align="center" fig-alt="Streamlit icon"}
 
-
 ## Good practice
 
-* Instead, pass all the variables you need to classes and functions as arguments.
-* This also **makes** it much easier to problem solve and test your code later.
+- Instead, pass all the variables you need to classes and functions as arguments.
+- This also **makes** it much easier to problem solve and test your code later.
 
 ![](/media/tick-box.jpg){fig-align="center" fig-alt="Streamlit icon"}
 
-
 ## Negative indexing
 
-* If you want to get the last element in a list, just use `-1`
+- If you want to get the last element in a list, just use `-1`
 
 ```{.python filename="negative_indexing.py"}
 patients = ["Alice", "Bob", "Charlie", "David"]
@@ -173,16 +155,13 @@ Output
 
         The last patient is: David
 
-
-
 ## List comprehension {background-image="/media/sticky-notes-on-wall.jpg" background-opacity="0.3"}
 
-* A quick way to build new lists from other lists or even dictionaries.
-* Can take some time to get used to using these.
-\
-\
-    [**new_element** for **item** in **iterable** if **condition**]
-
+- A quick way to build new lists from other lists or even dictionaries.
+- Can take some time to get used to using these.
+  \
+  \
+   [**new_element** for **item** in **iterable** if **condition**]
 
 ## List comprehension
 
@@ -197,7 +176,6 @@ print(high_temperatures)
 Output
 
         [38.5, 39.0, 39.5]
-
 
 ## List comprehension - dictionaries
 
@@ -220,10 +198,9 @@ Output
 
         Alice
 
-
 ## Convert to list
 
-* Sometimes you need to convert **keys** of a dictionary to a list:
+- Sometimes you need to convert **keys** of a dictionary to a list:
 
 ```{.python filename="list_function.py" code-line-numbers="6"}
 patients = [
@@ -240,11 +217,10 @@ Output
 
 ## I want it all {background-image="/media/man-and-large-sundae.jpg" background-opacity="0.3"}
 
-* The `all()` function returns true if all elements in a list pass a certain test.
-\
-\
-    all(**condition** for **item** in **iterable**)
-
+- The `all()` function returns true if all elements in a list pass a certain test.
+  \
+  \
+   all(**condition** for **item** in **iterable**)
 
 ## I want it all
 
@@ -263,7 +239,6 @@ Output
 
         True
 
-
 ## I want all values
 
 ```{.python filename="all.py"}
@@ -271,32 +246,29 @@ fields = {"HIV": "negative", "Hepatis B": "negative"}
 if all(field != "" for field in fields.values()):
     st.write("ok")
 ```
+
 \
 
 OUTPUT
 
         ok
 
-
 ## Lambda
 
-* We can use lambda to return a reference to a function rather than directly calling the function.
-* It is useful when you want to pass a function with its own arguments as an argument to another function.
+- We can use lambda to return a reference to a function rather than directly calling the function.
+- It is useful when you want to pass a function with its own arguments as an argument to another function.
 
 ```{.python filename="lambda.py"}
 function_a(function_to_call=lambda:function_b(arg_1, arg_2))
 ```
 
-
 # <span class="hide-title">Streamlit</span>{background-image="/media/streamlit.png"}
-
 
 ## Streamlit
 
-* As said, we will be using a python web app framework called `Streamlit` for the frontend.
-* Frameworks are a superset of libraries.
-* Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
-
+- As said, we will be using a python web app framework called `Streamlit` for the frontend.
+- Frameworks are a superset of libraries.
+- Frameworks are great, as someone else has done most of the heavy coding to make it easier for you to carry out a task (in this case building a web app).
 
 ## Module import
 
@@ -312,7 +284,6 @@ or as an `alias`
 import streamlit as st
 ```
 
-
 ## Who is running what?
 
 ```{.python filename="main.py"}
@@ -320,8 +291,7 @@ if __name__ == "__main__":
     main()
 ```
 
-* Checks if the current file is being run as an imported library or directly.
-
+- Checks if the current file is being run as an imported library or directly.
 
 ## Streamlit methods
 
@@ -342,7 +312,6 @@ st.text_input("label", key="key_1", on_change=lambda:on_change_function())
 hospital_number = st.text_input("Hospital number", "0", disabled=False)
 ```
 
-
 ## Streamlit methods
 
 ```{.python filename="streamlit_methods.py" code-line-numbers="4,7,10"}
@@ -358,7 +327,6 @@ date_of_birth = st.date_input("Date of birth", None)
 st.button("Press to refresh the page")
 ```
 
-
 ## Streamlit methods
 
 ```{.python filename="streamlit_methods.py" code-line-numbers="4,7,10,13,16"}
@@ -370,7 +338,6 @@ st.header("A header")
 # Show an error message
 st.error("I am an error message")
 ```
-
 
 ## Streamlit methods - forms
 
@@ -388,13 +355,11 @@ with st.form("name_of_form")
         st.write("Button pressed")
 ```
 
-
 ## Streamlit methods - forms
 
-* Note the curved border around Streamlit forms.
+- Note the curved border around Streamlit forms.
 
 ![](/media/form-on-streamlit.png){fig-align="center" fig-alt="Screenshot of a form in Streamlit"}
-
 
 ## Streamlit methods - change page
 
@@ -404,7 +369,6 @@ import streamlit as st
 # Redirect to another page
 st.switch_page("pages/another_page.py")
 ```
-
 
 ## Session state
 
@@ -419,10 +383,9 @@ for key in list(st.session_state.keys()):
     del st.session_state[key]
 ```
 
-
 ## magicEnabled = false
 
-* We have turned **off** a feature in Streamlit that shows all of your code in the browser using:
+- We have turned **off** a feature in Streamlit that shows all of your code in the browser using:
 
 ```{.python filename=".streamlit/config.toml" code-line-numbers="2"}
 [runner]
@@ -434,44 +397,37 @@ Otherwise, the browser will be a little messy with all of your code visible.
 \
 (See .streamlit/config.toml file if interested)
 
-
 ## Stopping a running program {background-image="/media/stop-sign-with-man.jpg" background-opacity="0.3"}
 
 CTRL - C
 
-or 
+or
 
 CMD - C
 
-
 ## Nuances of Streamlit
 
-* When you update code and save, click **Always rerun** (top right) in the browser to automatically refresh on code change.
-* Sometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work (likely due to some error in the code).
-* Streamlit.io **reruns the whole script** whenever you interact with the browser (eg click something, select something, type something, or press a button).
-
+- When you update code and save, click **Always rerun** (top right) in the browser to automatically refresh on code change.
+- Sometimes you need to manually refresh the browser or even restart Streamlit to get certain codes changes to work (likely due to some error in the code).
+- Streamlit.io **reruns the whole script** whenever you interact with the browser (eg click something, select something, type something, or press a button).
 
 ## Nuances of streamlit
 
-* Why the text field and selectbox outside of the form (in lesson 2)?
-
+- Why the text field and selectbox outside of the form (in lesson 2)?
 
 ![](/media/fields-outside-of-form.png){fig-align="center" fig-alt="Screenshot of fields outside of form"}
 
-
 ## Nuances of streamlit {background-image="/media/laptop-sideways.jpg" background-opacity="0.3"}
 
-* Because Streamlit does not allow for dynamic update of fields within forms before submitting.
-
+- Because Streamlit does not allow for dynamic update of fields within forms before submitting.
 
 # <span class="hide-title">Supabase</span>
 
 ![](/media/supabase-logo-wordmark--light.png){fig-align="center" fig-alt="Screenshot of fields outside of form"}
 
-
 ## Connection
 
-* How to connect to the `Supabase` database and then query the data.
+- How to connect to the `Supabase` database and then query the data.
 
 ```{.python filename="supabase.py" code-line-numbers="5,8,11-14"}
 import streamlit as st
@@ -490,75 +446,67 @@ update_result = execute_query(
     )
 ```
 
-
 ## Database fields - test_upload
 
 READ AND WRITE ACCESS
 
-* id
-* test_data
-* created_at
-
+- id
+- test_data
+- created_at
 
 ## Database fields - consent_types
 
 READ ONLY
 
-* id
-* created_at
-* type
-* full_description
-* intended_benefits
-* potential_risks
-
+- id
+- created_at
+- type
+- full_description
+- intended_benefits
+- potential_risks
 
 ## Database fields - patient_demographics
 
 READ ONLY
 
-* id
-* created_at
-* first_name
-* last_name
-* hospital_number **(HN001 - HN050)**
-* date_of_birth
-* email
-
+- id
+- created_at
+- first_name
+- last_name
+- hospital_number **(HN001 - HN050)**
+- date_of_birth
+- email
 
 ## Database fields - users
 
 READ ONLY
 
-* id
-* created_at
-* user_name
-* first_name
-* last_name
-
+- id
+- created_at
+- user_name
+- first_name
+- last_name
 
 ## Database fields - submitted consents
 
 READ AND WRITE ACCESS
 
-* id
-* created_at
-* patient_id
-* consent_type_id
-* user_id
-
+- id
+- created_at
+- patient_id
+- consent_type_id
+- user_id
 
 # Now let's get started {background-image="/media/bridge-in-jungle.jpg" background-opacity="0.3"}
 
-
 ## You need to have VS code installed {background-image="/media/laptop-sideways.jpg" background-opacity="0.3"}
 
-* We will get you set up on `Codespace` in your tutor groups.
-
+- We will get you set up on `Codespace` in your tutor groups.
 
 ## Formatting
 
-* You may notice strange line dropping in VScode when you save. This is the Black formatter making your code conform to standards.
-* Black, as standard, makes code max 88 characters long, where possible.
+- You may notice strange line dropping in VScode when you save. This is the Black formatter making your code conform to standards.
+- Black, as standard, makes code max 88 characters long, where possible.
 
 ```{.python filename="black_formatting.py"}
     st.text_input(
@@ -568,11 +516,10 @@ READ AND WRITE ACCESS
     )
 ```
 
-
 ## Finding your way
 
-* Click inside your terminal window.
-* Go to:
+- Click inside your terminal window.
+- Go to:
 
 ```{.bash}
 $ cd programming_in_healthcare/module_2/
@@ -580,25 +527,22 @@ $ cd programming_in_healthcare/module_2/
 
 ## Secrets
 
-* To use the `Supabase` cloud database, you need a `URL` (Uniform Resource Locator), eg website address and a secret `key`.
-* This will then give you access to the the Supabase via its API.
-* You will find the url and key in the HackMD file (shared during the module 2 session).
-
+- To use the `Supabase` cloud database, you need a `URL` (Uniform Resource Locator), eg website address and a secret `key`.
+- This will then give you access to the the Supabase via its API.
+- You will find the url and key in the HackMD file (shared during the module 2 session).
 
 ## Secrets
 
-* Create a copy of the **.streamlit/secrets_example.toml** file and rename it **.streamlit/secrets.toml**.
-* Add the URL and API key from HackMD to this new file.
-
+- Create a copy of the **.streamlit/secrets_example.toml** file and rename it **.streamlit/secrets.toml**.
+- Add the URL and API key from HackMD to this new file.
 
 ## And then run
 
-* And then run:
+- And then run:
 
 ```{.bash}
 $ streamlit run exercise_1.py
 ```
-
 
 ## This will run
 
@@ -616,25 +560,21 @@ if __name__ == "__main__":
 
 And...
 
-
 ## Start the browser
 
-* There will likely be a pop up window to start the browser.
-* If not, press CTRL / CMD and click on one of the new url addresses in the terminal.
+- There will likely be a pop up window to start the browser.
+- If not, press CTRL / CMD and click on one of the new url addresses in the terminal.
 
 ![](/media/hello-world-browser.png){fig-align="center" fig-alt="Screen shot of the 'Hello World' output"}
 
-
-
 ## Follow the exercises.
 
-* Now follow the instructions in the exercises, starting at exercise 1.
-
+- Now follow the instructions in the exercises, starting at exercise 1.
 
 ## Altering the command to run
 
-* Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.
-* For example to change
+- Use the &#8592; and &#8594; arrows to move the cursor on the terminal line (the mouse does not allow you to move the cursor). Then make any corrections with backspace and keystrokes as needed.
+- For example to change
 
 ```{.bash}
 $ streamlit run exercise_1.py
@@ -646,43 +586,39 @@ to
 $ streamlit run exercise_2.py
 ```
 
-
 ## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
 
-* You are building an educational program. This is NOT to be used with real patients!
-
+- You are building an educational program. This is NOT to be used with real patients!
 
 ## Have the slides on hand {background-image="/media/old-style-slides.jpg" background-opacity="0.2"}
 
-* Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
-* You will need them as you build your digital consent form.
-* We recommend doing small changes to your code, saving your work, and then checking to see what happens in the browser.
-
+- Make sure you have the slides on hand - `https://letsdodigital.org/learn/learn-python/module-2/`
+- You will need them as you build your digital consent form.
+- We recommend doing small changes to your code, saving your work, and then checking to see what happens in the browser.
 
 ## Ask
 
-* Please please please ask questions of your tutor. That is why they are here.
+- Please please please ask questions of your tutor. That is why they are here.
 
 `There is no such thing as a stupid question, only a question left unanswered`
 
-
 # Now go!
 
-* Go join your breakout rooms again.
-* You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and have provided you with great tutors to help you forwards.
-* Getting errors? Try writing code in different ways to see if you can get it to work.
-* Look up material in the slides.
-* Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last).
+- Go join your breakout rooms again.
+- You may find it frustrating when code does not work straight away. However this is how you learn. We have tried to make the exercises easy to follow and have provided you with great tutors to help you forwards.
+- Getting errors? Try writing code in different ways to see if you can get it to work.
+- Look up material in the slides.
+- Worse case scenario, look at the answers, which are basically in the following exercise (but keep this cheat to last).
 
 ## See the final product
 
-* Have a look at what the final product looks like by running the below.
+- Have a look at what the final product looks like by running the below.
 
 ```{.bash}
 $ streamlit run exercise_0.py
 ```
 
-* Once you are happy with how the final product looks and works, you can move on to actually building it with exercise 1.
+- Once you are happy with how the final product looks and works, you can move on to actually building it with exercise 1.
 
 ```{.bash}
 $ streamlit run exercise_1.py

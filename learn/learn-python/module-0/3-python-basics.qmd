@@ -6,78 +6,70 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-color: "#F6D499"
-    data-background-image: /media/python-scales.jpg
+  data-background-color: "#F6D499"
+  data-background-image: /media/python-scales.jpg
 ---
-
 
 ## What are computers? {background-image="/media/yes-no-hands.jpg" background-opacity="0.3"}
 
-* At its core, a computer is essentially a device that answers simple `true-false questions`.
-* It answers these simple questions very very quickly.
-* By asking the computer millions of these true-false questions, it can calculate answers to very complex questions.
-
+- At its core, a computer is essentially a device that answers simple `true-false questions`.
+- It answers these simple questions very very quickly.
+- By asking the computer millions of these true-false questions, it can calculate answers to very complex questions.
 
 ## How do computers think? {.smaller background-image="/media/old-computer.jpg" background-opacity="0.3"}
 
-* Confused by the last statement? Let me expand...
-* Computers have lots of components to enable them to work. 
-    * Screen to show you its output. 
-    * Keyboard and mouse to allow you to communicate with the computer.
-    * Inside the computer's chassis:
-        * Hard drives
-        * Memory sticks
-        * Fans
-        * Power supplies
-        * Motherboards
-        * Processors
-* The processor of a computer is where all of the `thinking` takes place.
-
-
-## How do computers think? {background-image="/media/old-computer.jpg" background-opacity="0.3"}
-
-* The processor is where these `true-false questions` are undertaken.
-* The processor receives instructions in `binary` form. 
-* Binary is basically a string of `1`s and `0`s (eg 01001011).
-* A `1` can be considered `True`
-* A `0` can be considered `False`
-
+- Confused by the last statement? Let me expand...
+- Computers have lots of components to enable them to work.
+  - Screen to show you its output.
+  - Keyboard and mouse to allow you to communicate with the computer.
+  - Inside the computer's chassis:
+    - Hard drives
+    - Memory sticks
+    - Fans
+    - Power supplies
+    - Motherboards
+    - Processors
+- The processor of a computer is where all of the `thinking` takes place.
 
 ## How do computers think? {background-image="/media/old-computer.jpg" background-opacity="0.3"}
 
-* As modern computers communicate in binary form, they are said to be `digital`.
-* The processor reads these binary instructions.
-* Each instruction results in either a `True` (1) or `False` (0) `output`.
-* Hence, the `output` is also in binary.
+- The processor is where these `true-false questions` are undertaken.
+- The processor receives instructions in `binary` form.
+- Binary is basically a string of `1`s and `0`s (eg 01001011).
+- A `1` can be considered `True`
+- A `0` can be considered `False`
 
+## How do computers think? 2 {background-image="/media/old-computer.jpg" background-opacity="0.3"}
+
+- As modern computers communicate in binary form, they are said to be `digital`.
+- The processor reads these binary instructions.
+- Each instruction results in either a `True` (1) or `False` (0) `output`.
+- Hence, the `output` is also in binary.
 
 ## So how do we communicate with computers?{background-image="/media/digital-self.jpg" background-opacity="0.3"}
 
-* So computers listen, think and talk in binary.
-* We need a method to communicate with them, enabling us to get them to do what we want them to do.
-* This is where programming languages come into play.
-
+- So computers listen, think and talk in binary.
+- We need a method to communicate with them, enabling us to get them to do what we want them to do.
+- This is where programming languages come into play.
 
 ## Programming languages {.smaller background-image="/media/syntax-hard.jpg" background-opacity="0.2"}
 
-* There are over 9000 programming languages, but much less than this in routine use.
-* A programming language is written in *somewhat* of a human readable form (depends on the language).
-* Popular languages include:
-    * Javascript
-    * C++
-    * Go
-    * Java
-    * Swift
-    * R
-    * Python
-
+- There are over 9000 programming languages, but much less than this in routine use.
+- A programming language is written in _somewhat_ of a human readable form (depends on the language).
+- Popular languages include:
+  - Javascript
+  - C++
+  - Go
+  - Java
+  - Swift
+  - R
+  - Python
 
 ## Translation {background-image="/media/keyboard-of-flags.jpg" background-opacity="0.2"}
 
-* When you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into `1`s and `0`s which the computer can then read and act upon.
+- When you have written your code in your favourite programming language, a software program (called the interpreter or compiler) reads your code and translates it into `1`s and `0`s which the computer can then read and act upon.
 
 # <span style="font-size: smaller;">OK, so you can write some code. What do you put in the code? How do you tell the computer what to do?</span> {background-image="/media/barren-land.jpg" background-opacity="0.4"}
-
 
 ## We will be learning python
 
@@ -85,34 +77,32 @@ title-slide-attributes:
 
 ## The Python programming language{background-image="/media/python-logo.png" background-opacity="0.3"}
 
-* A language that is read by the computer and turned into `1`s and `0`s at **runtime**.
-* Its syntax emphasises readability and simplicity
-* It utilising **indentation** for code structuring.
-* Widely used for **web development**, **data analysis**, **AI / machine learning**, and **automation**.
-
+- A language that is read by the computer and turned into `1`s and `0`s at **runtime**.
+- Its syntax emphasises readability and simplicity
+- It utilising **indentation** for code structuring.
+- Widely used for **web development**, **data analysis**, **AI / machine learning**, and **automation**.
 
 ## Where to code?
 
-* There are many **integrated development environments (IDEs)** for the python programming language.
-* An IDE is basically a very fancy text editor where you write code, and run it (along with some other fancy stuff).
-* There are several IDEs for python, two popular ones are VS Code and Pycharm.
-* We will be using an online version of VS Code (called `Codespace`), so you do not need to install anything on your computer.
+- There are many **integrated development environments (IDEs)** for the python programming language.
+- An IDE is basically a very fancy text editor where you write code, and run it (along with some other fancy stuff).
+- There are several IDEs for python, two popular ones are VS Code and Pycharm.
+- We will be using an online version of VS Code (called `Codespace`), so you do not need to install anything on your computer.
 
 ## What is in a code?
 
-* You need different elements in your code to be able to tell the computer what to do. These include:
-    * Variables
-    * Operators
-    * Expressions
-    * Flow control
-    * Functions
-    * Error handling
-    * More advanced functionalities
-
+- You need different elements in your code to be able to tell the computer what to do. These include:
+  - Variables
+  - Operators
+  - Expressions
+  - Flow control
+  - Functions
+  - Error handling
+  - More advanced functionalities
 
 ## How is code read by the computer?
 
-* All code is read sequentially, one line after another.
+- All code is read sequentially, one line after another.
 
 ```{.python filename="reading_code.py"}
 print("I am the first line of code read by the computer")
@@ -126,9 +116,9 @@ Output
         I am the second line read by the computer
         Guess what, I am the third line read by the computer
 
-## How is code read by the computer?
+## How is code read by the computer 2?
 
-* This might make your head spin.
+- This might make your head spin.
 
 ```{.python filename="reading_code.py"}
 def i_am_a_function():
@@ -143,11 +133,10 @@ Output
         I am printed first
         I am a line inside a function
 
-
 ## Variables
 
-* A single variable is a contained space in the computer's memory.
-* Simple in-built variables include:
+- A single variable is a contained space in the computer's memory.
+- Simple in-built variables include:
 
 ```{.python filename="variables_simple.py"}
 a_string = "I am a string"
@@ -159,10 +148,10 @@ a_float = 8.04
 a_boolean = True
 ```
 
+## Variables 2
 
-## Variables
+- More complex variables include:
 
-* More complex variables include:
 ```{.python filename="variables_more_complex.py"}
 a_list = ["first element of list", "second element of list"]
 
@@ -176,14 +165,14 @@ a_dictionary = {
 
 ## Variables & memory {background-image="/media/empty-parking-lot.jpg" background-opacity="0.2"}
 
-* Variables are stored in the computer's memory (RAM).
-* Memory - think of it as a parking garage with a huge number of parking spaces. 
-* Python manages memory for you (creating, reading, updating, and destroying).
-
+- Variables are stored in the computer's memory (RAM).
+- Memory - think of it as a parking garage with a huge number of parking spaces.
+- Python manages memory for you (creating, reading, updating, and destroying).
 
 ## Variables - indexing / key
 
-* You can get a value from a list or dictionary by **indexing** or **specifying a key**, respectively:
+- You can get a value from a list or dictionary by **indexing** or **specifying a key**, respectively:
+
 ```{.python filename="index_keys.py" code-line-numbers="8,9"}
 a_list = ['a', 'b', 'c', 'd']
 
@@ -201,10 +190,10 @@ Output:
         a
         1st value
 
-
 ## Variables - zero indexing
 
-* Note: lists are **zero indexed**
+- Note: lists are **zero indexed**
+
 ```{.python filename="index_keys.py" code-line-numbers="8,9"}
 a_list = ['a', 'b','c', 'd']
 
@@ -215,15 +204,15 @@ Output:
 
         a
 
-
 ## Spaces
 
-* Variables names **cannot have spaces**, if you add a space, the computer will read this as two separate variables:
+- Variables names **cannot have spaces**, if you add a space, the computer will read this as two separate variables:
 
 ```{.python filename="spaces.py"}
 variable_a = "I am a variable"
 variable b = "The added space will cause an error"
 ```
+
 Syntax error
 
         Cell In[1], line 2
@@ -233,8 +222,8 @@ Syntax error
 
 ## Double or single quotation marks? {.smaller}
 
-* You will see people using 'single' and also "double" quotation marks. 
-* It does not matter which you chose, but be consistent. If you accidentally mix pairs of quotation marks you will get strange errors.
+- You will see people using 'single' and also "double" quotation marks.
+- It does not matter which you chose, but be consistent. If you accidentally mix pairs of quotation marks you will get strange errors.
 
 ```{.python filename="quotation_marks.py"}
 variable_a = "All good here with two double quotation marks"
@@ -249,12 +238,11 @@ Syntax error
                  ^
         SyntaxError: unterminated string literal (detected at line 18)
 
-* `variable_b`'s string causes an error due to unmatching quotation marks.
-
+- `variable_b`'s string causes an error due to unmatching quotation marks.
 
 ## Using both types of quotation marks
 
-* You can embed quotation marks within each other
+- You can embed quotation marks within each other
 
 ```{.python filename="quotation_marks.py"}
 variable_a = "I want to highlight 'this' word"
@@ -263,14 +251,13 @@ variable_b = 'I would like to show you "this"'
 
 Will print as
 
-        I want to highlight 'this' word    
-        I would like to show you "this"    
-
+        I want to highlight 'this' word
+        I would like to show you "this"
 
 ## Add strings together
 
-* You can add strings together as below
-* Note, you cannot **add** an integer to a string in python
+- You can add strings together as below
+- Note, you cannot **add** an integer to a string in python
 
 ```{.python filename="adding_strings.py"}
 age = "25"
@@ -281,10 +268,9 @@ Output
 
         The patient's age is: 25
 
-
 ## Use a comma
 
-* Or you can use as separate arguments
+- Or you can use as separate arguments
 
 ```{.python filename="using_commas.py"}
 age = 25
@@ -295,12 +281,11 @@ Output
 
         The patient's age is: 25
 
-* Note, the print statement when used like this adds a space between the arguments in the print out.
-
+- Note, the print statement when used like this adds a space between the arguments in the print out.
 
 ## f-strings
 
-* A more advanced, but powerful method.
+- A more advanced, but powerful method.
 
 ```{.python filename="f_string.py"}
 age = 25
@@ -310,18 +295,16 @@ print(f"The patient's age is: { age }")
 Output
 
         The patient's age is: 25
-        
 
 ## Indentation {background-image="/media/steps-and-child.jpg" background-opacity="0.4"}
 
-* Python is `extremely` sensitive to indentation. One extra space or tab in front of a line of code and you will not hear the end of it in terms of errors or strange results. 
-* Indentation (in the form of `tabs`) of lines of code shows the computer which previous line(s) of code it relates to.
-* In standard `Codespace`, **1 tab = 4 spaces**
-
+- Python is `extremely` sensitive to indentation. One extra space or tab in front of a line of code and you will not hear the end of it in terms of errors or strange results.
+- Indentation (in the form of `tabs`) of lines of code shows the computer which previous line(s) of code it relates to.
+- In standard `Codespace`, **1 tab = 4 spaces**
 
 ## Indentation
 
-* Let's say **a drug has been prescribed and given**
+- Let's say **a drug has been prescribed and given**
 
 ```{.python filename="indentation.py" code-line-numbers="9"}
 if drug_prescribed == True:
@@ -340,10 +323,9 @@ Output
         Drug has been prescribed and given to the patient
         Drug round complete!
 
+## Indentation 2
 
-## Indentation
-
-* Let's say **a drug has been prescribed and given**
+- Let's say **a drug has been prescribed and given**
 
 ```{.python filename="indentation.py" code-line-numbers="9"}
 if drug_prescribed == True:
@@ -357,39 +339,35 @@ else:
     print("Drug round complete!")
 ```
 
-
 Output
 
         Drug has been prescribed and given to the patient
 
-
 ## Naming conventions
 
-* There are several naming conventions in python. The convention you need to know about for this module is:
-    * `snake_case` - for variables, functions and methods
+- There are several naming conventions in python. The convention you need to know about for this module is:
+  - `snake_case` - for variables, functions and methods
 
+## What is in a code 2?
 
-## What is in a code?
-
-* You may notice that you can enter values for a variable (and other things) over several lines. This is allowed, but we will not bog you down with the specifics for now.
+- You may notice that you can enter values for a variable (and other things) over several lines. This is allowed, but we will not bog you down with the specifics for now.
 
 ```{.python filename="human_organs.py"}
 human_organ_locations = {
-    "heart": "chest", 
-    "stomach": "abdomen", 
+    "heart": "chest",
+    "stomach": "abdomen",
     "brain": "head"
 }
 ```
 
 ## Comments {.smaller}
 
-* Comments are useful in `explaining` what code is supposed to do.
-* They are essential for when you, and others, need to read your code later to problem solve or add to your code (`10:1 reading to writing code ratio`).
-* Use them sparingly, as they can clutter code.
-* Try and make variable and function names self-explanatory.
-* You can comment with the hastag or encapsulate with triple quotation marks.
-* Comments are lines of code not translated by the interpretor.
-
+- Comments are useful in `explaining` what code is supposed to do.
+- They are essential for when you, and others, need to read your code later to problem solve or add to your code (`10:1 reading to writing code ratio`).
+- Use them sparingly, as they can clutter code.
+- Try and make variable and function names self-explanatory.
+- You can comment with the hastag or encapsulate with triple quotation marks.
+- Comments are lines of code not translated by the interpretor.
 
 ## Comments
 
@@ -397,8 +375,7 @@ human_organ_locations = {
 # This is a single line comment
 ```
 
-
-## Comments
+## Comments 2
 
 ```{.python filename="comments.py"}
 """ Double quotation mark multiline comment
@@ -407,8 +384,7 @@ human_organ_locations = {
 """
 ```
 
-
-## Comment
+## Comments 3
 
 ```{.python filename="comments.py"}
 ''' Single quotation mark multiline comment
@@ -419,7 +395,7 @@ human_organ_locations = {
 
 ## To uncomment
 
-* To `uncomment` - remove the hashtag, or triple single / double quotation marks.
+- To `uncomment` - remove the hashtag, or triple single / double quotation marks.
 
 ```{.python filename="comments.py"}
 # i_am_commented_out_function_call()
@@ -427,35 +403,31 @@ human_organ_locations = {
 i_am_a_function_call_that_can_run()
 ```
 
-
 ## Basic operators {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
-* Operators manipulate and compare data (which are stored in variables). Operator types include:
-* Assign `=`
-    
-    `x = "a string"`
+- Operators manipulate and compare data (which are stored in variables). Operator types include:
+- Assign `=`
+  `x = "a string"`
 
+## Basic operators 2 {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
-## Basic operators {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
+- Arithmetic:
+  - `+` plus (eg `x = 3 + 5`)
+  - `-` minus
+  - `*` multiply
+  - `/` divide
 
-* Arithmetic: 
-    * `+` plus (eg `x = 3 + 5`)
-    * `-` minus
-    * `*` multiply
-    * `/` divide
+## Basic operators 3 {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
-
-## Basic operators {.smaller background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
-
-* Comparison:
-    * `==` compare (eg `if x == 8`)
-    * `>` greater than
-    * `<` less than
-
+- Comparison:
+  - `==` compare (eg `if x == 8`)
+  - `>` greater than
+  - `<` less than
 
 ## More advanced operators {background-image="/media/blackboard-and-equations.jpg" background-opacity="0.2"}
 
-* Membership: `in` and `not in`
+- Membership: `in` and `not in`
+
 ```{.python filename="membership.py"}
     a_list = [1,2,3,4,5]
 
@@ -467,13 +439,11 @@ Output
 
         Yes, 2 is in the list
 
-
 ## Functions {background-image="/media/box.jpg" background-opacity="0.4"}
 
-* Blocks of reusable code that perform a specific task. 
-* Help in organising code and making it more modular (code can be reused).
-* Part of the `DRY` (`don't repeat yourself`) philosophy.
-
+- Blocks of reusable code that perform a specific task.
+- Help in organising code and making it more modular (code can be reused).
+- Part of the `DRY` (`don't repeat yourself`) philosophy.
 
 ## Anatomy of a function
 
@@ -486,7 +456,7 @@ def name_of_function(argument_1, argument_2):
     return "Finished"
 ```
 
-## Anatomy of a function
+## Anatomy of a function 2
 
 ```{.python filename="functions.py" code-line-numbers="4"}
 
@@ -497,7 +467,7 @@ def name_of_function(argument_1, argument_2):
     return "Finished"
 ```
 
-## Anatomy of a function
+## Anatomy of a function 3
 
 ```{.python filename="functions.py" code-line-numbers="6"}
 
@@ -510,7 +480,8 @@ def name_of_function(argument_1, argument_2):
 
 ## Inbuilt functions
 
-* There are some functions that are already built into python, eg
+- There are some functions that are already built into python, eg
+
 ```{.python filename="built_in_functions.py"}
 print("hello world")
 print(len([0,1,2,3,4]))
@@ -524,44 +495,41 @@ Output
 
 # <span class="hide-title">Errors</span> {background-image="/media/system-error.png"}
 
-
 ## Error Handling {background-image="/media/insect-on-leaf.jpg" background-opacity="0.3"}
 
-* Error handling is one of the most important concepts to understand and manage well. 
-* You will be spending 25-50% of  your time `debugging`.
-* `Debugging` is the practice of looking for bugs (errors in the code) and trying to fix them.
-* When an error happens in python, ones says an `exception is raised`. You then use the `traceback` to try and find the cause of the error.
-
+- Error handling is one of the most important concepts to understand and manage well.
+- You will be spending 25-50% of your time `debugging`.
+- `Debugging` is the practice of looking for bugs (errors in the code) and trying to fix them.
+- When an error happens in python, ones says an `exception is raised`. You then use the `traceback` to try and find the cause of the error.
 
 ## The Traceback
 
-* At first, this looks like a very complicated output
-* The traceback is printed to the terminal, as such:
+- At first, this looks like a very complicated output
+- The traceback is printed to the terminal, as such:
 
         Traceback (most recent call last):
             File "/User/a_user/code/error_in_code.py", line 7, in _price
                 print(human_organ_locations["football"])
         KeyError: 'football'
 
+## The Traceback 2
 
-## The Traceback
-
-* When reading a Traceback, alwas read from the last line upwards.
+- When reading a Traceback, alwas read from the last line upwards.
 
         Traceback (most recent call last):
             File "/User/a_user/code/error_in_code.py", line 7, in _price
                 print(human_organ_locations["football"])
-    ==> KeyError: 'football' <==
 
+  ==> KeyError: 'football' <==
 
 ## Compare the Traceback to the code
 
-* Compare against the code
+- Compare against the code
 
 ```{.python filename="human_organs.py" code-line-numbers="7"}
 human_organ_locations = {
-    "heart": "chest", 
-    "stomach": "abdomen", 
+    "heart": "chest",
+    "stomach": "abdomen",
     "brain": "head"
 }
 
@@ -570,7 +538,7 @@ print(human_organ_locations["football"])
 
 ## Traceback
 
-* Sometimes the traceback will underline erroneous code with upwards arrows `^`
+- Sometimes the traceback will underline erroneous code with upwards arrows `^`
 
 Syntax error:
 
@@ -579,48 +547,43 @@ Syntax error:
                      ^
         SyntaxError: invalid syntax
 
-
 ## Squiggly lines
 
-* Hint: Codespace will underline with `squiggly lines` to highlight errors.
+- Hint: Codespace will underline with `squiggly lines` to highlight errors.
 
 ![](/media/squiggly-lines-vscode.png){.bordered fig-align="center" fig-alt="Squiggly lines under errors in python code"}
 
-
 ## How to write
 
-* It might seem daunting to write code, and you might be wondering where to start.
-* The best way to write code is to just write it. 
-* Think a little about what you are going to write, but then write down a line of code and run the code. If it works, great! If it did not work, great too! Either way you have learnt something.
-
+- It might seem daunting to write code, and you might be wondering where to start.
+- The best way to write code is to just write it.
+- Think a little about what you are going to write, but then write down a line of code and run the code. If it works, great! If it did not work, great too! Either way you have learnt something.
 
 ## You got all that? {background-image="/media/coding.jpg" background-opacity="0.3"}
 
-* Now it is your turn.
-* Time for some hands on coding in `Lesson 2`.
-* You need to change directory
+- Now it is your turn.
+- Time for some hands on coding in `Lesson 2`.
+- You need to change directory
 
 ```{.bash}
 $ cd lesson_2
 ```
 
-* Then run the first exercise:
+- Then run the first exercise:
 
 ```{.bash}
 $ python exercise_1.py
 ```
 
+## Computers are pedantic! {.smaller}
 
-## Computers are pedantic!  {.smaller}
-
-* **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers. 
-* Even one character being out of place can break your code. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
-* Now go have some fun in your tutor groups with hands-on coding and debugging.
-* Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
+- **Remember** that computers think in `True` and `False`, e.g. `1` and `0`s. They are literal thinkers.
+- Even one character being out of place can break your code. So watch out for that `unpaired quotation mark`, look out for that `space` that should not be there, and make sure you `match your indentations to your if statements`.
+- Now go have some fun in your tutor groups with hands-on coding and debugging.
+- Come back to these slides to remind yourself of key concepts - [https://letsdodigital.org/learn/learn-python/module-0/](https://letsdodigital.org/learn/learn-python/module-0/)
 
 ```{=html}
 <div class="bottom-right">
     <a href="https://letsdodigital.org/learn/learn-python/module-0/4-python-basics.html" style="color: lightgrey;">Python basics 2nd deck</a>
 </div>
 ```
-

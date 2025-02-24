@@ -24,7 +24,7 @@ The DAIM course is split into:
 
 **Module 1 - Introduction** Working with the broader concepts required for the course, such as code structure and debugging.
 
-**Module 2 Core Python for Image Processing** Hands-on experience with core Python modules for image analysis (NumPy, PIL) and performing basic image tasks. 
+**Module 2 Core Python for Image Processing** Hands-on experience with core Python modules for image analysis (NumPy, PIL) and performing basic image tasks.
 
 **Module 3: Python and DICOM.** Working with real-life medical imaging in it’s native format, DICOM.
 
@@ -37,7 +37,6 @@ The DAIM course is split into:
 ## Purchase tickets
 
 Tickets can be purchases [here](https://letsdodigital.thinkific.com/courses/data-analytics-in-medicine-course).
-
 
 ## Questions
 

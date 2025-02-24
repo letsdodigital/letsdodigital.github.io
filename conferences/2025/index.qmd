@@ -9,6 +9,7 @@ image: "/media/reading-a-book.jpg"
 ```{=html}
 <img src="/media/reading-a-book.jpg" class="img-fluid d-block mx-auto max-300px" alt="Close up of a book being read">
 ```
+
 \
 
 **Education, education, education! **
@@ -17,9 +18,9 @@ The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Confe
 
 ## Feedback from last year's conference
 
-* I loved the whole event.
-* I think it was very well organised, publicised and executed (on the whole). Great use of technology, the "vosters" worked, especially with the video presentations playing during breaks, the sessions were engaging and relevant, good speakers and variety of speakers, especially Nadia, Tom and Stefan.
-* It was a privilege to attend for the first time, I learnt a lot from the sessions I attended, I thought the topics were spot on.
+- I loved the whole event.
+- I think it was very well organised, publicised and executed (on the whole). Great use of technology, the "vosters" worked, especially with the video presentations playing during breaks, the sessions were engaging and relevant, good speakers and variety of speakers, especially Nadia, Tom and Stefan.
+- It was a privilege to attend for the first time, I learnt a lot from the sessions I attended, I thought the topics were spot on.
 
 ## Register now!
 

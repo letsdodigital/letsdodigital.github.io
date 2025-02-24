@@ -2,13 +2,13 @@
 title: "So what will 2025 bring?"
 description: "2025: The Year of the Snake and of Digital Health Education"
 author:
- - name: Mark Bailey
+  - name: Mark Bailey
 date: 2024-12-19
 categories: [blog]
 image: /media/snake-2025.jpg
 draft: false
 comments:
-  giscus: 
+  giscus:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
@@ -17,7 +17,6 @@ Snakes you say. I will get to that!
 ![](/media/snake-2025.jpg){height=400px fig-align="center" fig-alt="The year 2025 in cartoon letters and also the number 5 is in the form of a snake."}
 
 So, some of you may have noticed that things have **appeared** to be a bit quieter than usual around here. Over the last year, at **Let's Do Digital**, we have been running quite a few conferences, webinars and training courses, associated with lots of social media pushes regarding said events. Things have "appeared" somewhat quieter for the last 2 months since the October **Let's Talk Digital Conference**. Looks can be deceiving. The Let's Do Digital team have been working hard to deliver even more value to the community. We have been working on a number of courses, webinars and other educational materials for 2025. Before I go into the details of what is planned for next year, let me give you a quick update on the team behind the scenes.
-
 
 ## The Team
 
@@ -30,7 +29,6 @@ So, with the above said, a tear shed, and with an ever-burning passion to make d
 ![](/media/daim-course-logo.png){height=400px fig-align="center" fig-alt="The DAIM course logo"}
 
 We have been working hard on the long awaited Data Analytics in Medicine course. This course is designed to teach you how to use data analytics in a healthcare setting. We have a number of modules planned for this course, and we are looking to deliver the first module in the first quarter of 2025. We will have more details on this course soon, so keep an eye out for updates.
-
 
 ## AI Course
 

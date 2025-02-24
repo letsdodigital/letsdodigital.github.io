@@ -12,13 +12,12 @@ We will be using Codespace from Github as the teaching environment. All students
 
 Code for the sessions can be found [here](https://github.com/letsdodigital/coding-hands-on).
 
-
 ## Session info for students
 
 We will be using hackMD to store information for the session (eg tutor group allocation). This stops the need to repeatedly copy and paste details into the chat. A markdown template for the HackMD can be found [here](../../hackmd.qmd).
 
-
 ## Timings
+
 **Needs updating!**
 Example timings for evening session.
 
@@ -52,9 +51,7 @@ End 10pm
 
 10:00 pm - Close
 
-
 ## Common pit falls
 
-* **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of the hospital/GP practice network.
-* **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.
-
+- **Cannot connect to GitHub website** - Most likely due to hospital/GP practice IT restrictions. Try a non-hospital/GP practice computer and try outside of the hospital/GP practice network.
+- **Cannot open an instance of Codespace** - Check that the student has not already created a Codespace instance for the repo that we are using. GitHub only allows one instance of Codespace per GitHub account per repo.

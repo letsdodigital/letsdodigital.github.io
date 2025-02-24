@@ -40,7 +40,7 @@ Dr Marcus Baw is a practicing GP and Emergency Physician in Yorkshire, UK, with 
 
 **Job Title(s)** – member of the National Digital Shared Decision-Making Council with NHSE, member of the LND local council, MSc student in Digital Health at UCL
 
-**Title of Presentation** – Sophie is an NHS Clinician who created Lister due to experiencing frustrations from paper handover lists that still saturate the NHS regardless of digital transformation. She felt the cognitive overload of trying to remember and prioritise all patients within her care and the patient safety concerns of missed or overlooked tasks. This was coupled with the lack of transparency between tasks and staff members, with various roles working from different lists, leading to delays and inefficient ways of working. Motivated to solve these problems, Sophie was accepted onto the NHS Clinical Entrepreneur programme in 2019 with the Idea of digitising this process to improve patient safety, teamwork and workflow. Fast forward to 2023, Lister is now a developed task management solution and is currently being evaluated with 4 NHS Trusts. 
+**Title of Presentation** – Sophie is an NHS Clinician who created Lister due to experiencing frustrations from paper handover lists that still saturate the NHS regardless of digital transformation. She felt the cognitive overload of trying to remember and prioritise all patients within her care and the patient safety concerns of missed or overlooked tasks. This was coupled with the lack of transparency between tasks and staff members, with various roles working from different lists, leading to delays and inefficient ways of working. Motivated to solve these problems, Sophie was accepted onto the NHS Clinical Entrepreneur programme in 2019 with the Idea of digitising this process to improve patient safety, teamwork and workflow. Fast forward to 2023, Lister is now a developed task management solution and is currently being evaluated with 4 NHS Trusts.
 
 Sophie’s passion for digital innovation has evolved over the years and she is a member of the National Digital Shared Decision-Making Council with NHSE, a member of the LND local council and a UCL MSc student in Digital Health. She looks forward to sharing her journey from NHS Clinician turned digital Innovator at the let’s Talk Digital Conference 2023.
 
@@ -56,7 +56,7 @@ Sophie’s passion for digital innovation has evolved over the years and she is 
 
 **Title of presentation** – An innovative way to streamline multidisciplinary team meetings, safely, efficiently, and digitally.
 
-After graduating from Bristol university with a Masters in Aeronautical Engineering, Kareem decided to pursue his passion in software development and programming.  As a software engineer, he applied his skills working in different industries, testing software, developing transport and journey planning apps,  and medical software, building experience in web and app development as well as backend systems. Kareem is currently our chief programming officer.
+After graduating from Bristol university with a Masters in Aeronautical Engineering, Kareem decided to pursue his passion in software development and programming. As a software engineer, he applied his skills working in different industries, testing software, developing transport and journey planning apps, and medical software, building experience in web and app development as well as backend systems. Kareem is currently our chief programming officer.
 
 ---
 
@@ -152,9 +152,9 @@ Anita is a recently qualified GP with a strong interest in health optimisation a
 
 **Job Title(s)** – Andrea Preston (MRPharmS Consultant), Head of Patient Innovation and Care at Sanius Health | Myeloma Specialist Pharmacist.
 
-**Title of Presentation** – Andrea is a haematology specialist pharmacist with over 20 years’ experience in the NHS.  After co-creating an app to support patients with Chronic Myeloid Leukaemia she joined Sanius Health, an award-winning, AI powered patient generated data platform with a focus on accelerating personalised medicine, drug discovery, and clinical research for cancer treatment, haematological malignancies, haematological disorders and rare diseases.
+**Title of Presentation** – Andrea is a haematology specialist pharmacist with over 20 years’ experience in the NHS. After co-creating an app to support patients with Chronic Myeloid Leukaemia she joined Sanius Health, an award-winning, AI powered patient generated data platform with a focus on accelerating personalised medicine, drug discovery, and clinical research for cancer treatment, haematological malignancies, haematological disorders and rare diseases.
 
-Andrea is Chair of the UK Myeloma Society Pharmacist Group and plays an active prescribing role for patients with multiple myeloma and amyloid.  
+Andrea is Chair of the UK Myeloma Society Pharmacist Group and plays an active prescribing role for patients with multiple myeloma and amyloid.
 
 Andrea is passionate about research and innovation for patient benefit. She has been an NHS Clinical Entrepreneur with NHS England and NHS Improvement’s Innovation, Research and Life Sciences group and is a member of the British Oncology Pharmacy Association’s Audit & Research Committee. Her areas of research interest include medication adherence, dosing in obesity and the use of innovative technologies to drive better outcomes for patients.
 
@@ -184,7 +184,7 @@ Mr.Rajesh Sivaprakasam is a Robotic Renal Failure Surgeon, Lead for Robotic rena
 
 **Title of Presentation** – Future Nanomedicines: Building a regulatory framework for the first-in-human nanoswarm cancer clinical trial
 
-Matimba is a PhD candidate in the Department of Engineering Mathematics at University of Bristol. Matimba’s research investigates cancer nanomedicine, swarm medicine, bioethics and the use of virtual tumours and patient twin models in clinical trials. Matimba is currently doing a placement on the Futures team in the UK Government Office for Science. Matimba is passionate about emerging technologies, medical ethics, global health and digital health disparities. Matimba currently sits on the Bristol cancer steering committee and is a trustee on the Executive Board at the Brain Tumour Charity. Matimba previously worked in stem cell research and clinical trials with a focus on decentralised phase II and III rare disease trials and digital healthcare. 
+Matimba is a PhD candidate in the Department of Engineering Mathematics at University of Bristol. Matimba’s research investigates cancer nanomedicine, swarm medicine, bioethics and the use of virtual tumours and patient twin models in clinical trials. Matimba is currently doing a placement on the Futures team in the UK Government Office for Science. Matimba is passionate about emerging technologies, medical ethics, global health and digital health disparities. Matimba currently sits on the Bristol cancer steering committee and is a trustee on the Executive Board at the Brain Tumour Charity. Matimba previously worked in stem cell research and clinical trials with a focus on decentralised phase II and III rare disease trials and digital healthcare.
 
 ---
 
@@ -196,11 +196,11 @@ Matimba is a PhD candidate in the Department of Engineering Mathematics at Unive
 
 **Job Title(s)** – See Change Fellow in Digital Health
 
-**Title of Presentation** – 1)   Debate: “This house believes that clinicians should be allowed to directly code and create health apps”
+**Title of Presentation** – 1) Debate: “This house believes that clinicians should be allowed to directly code and create health apps”
 For – Marcus Baw, Clinical Informatician, Software Developer, and other roles
 Against – Harold Thimbleby, Professor of Computer Science, Swansea University
 
-2) Short talk: “First do no harm? First fix digital”
+2. Short talk: “First do no harm? First fix digital”
 
 Harold Thimbleby is an internationally recognised computer scientist and popular speaker who campaigns for improving digital healthcare. Harold’s book Fix IT: See and solve the problems of digital healthcare (OUP) won the British Medical Association best book awards in General Medicine; the BMA judges wrote “It is such an important book. Our ability to help patients is so reliant on IT and digital solutions. It has the broadest appeal and has achieved something quite impressive … It should be read by all healthcare staff.”
 
@@ -232,4 +232,4 @@ Grant originally comes from New Zealand but calls the U.K. home after being here
 
 **Title of Presentation** – 10 lessons from a journey through health and care data
 
-Mark Wardle is a consultant neurologist and CCIO with a mission to build higher quality and safer healthcare services through open standards, interoperability and the use of meaningful data captured as a consequence of the processes of care. The 10 lessons are drawn from his experience developing clinical applications that are in active use within the NHS and worldwide, chairing the Welsh Technical Standards Board (WTSB), international consultancy work and continued academic involvement in the use of real-life data and outcomes. https://www.wardle.org and https://github.com/wardle 
+Mark Wardle is a consultant neurologist and CCIO with a mission to build higher quality and safer healthcare services through open standards, interoperability and the use of meaningful data captured as a consequence of the processes of care. The 10 lessons are drawn from his experience developing clinical applications that are in active use within the NHS and worldwide, chairing the Welsh Technical Standards Board (WTSB), international consultancy work and continued academic involvement in the use of real-life data and outcomes. https://www.wardle.org and https://github.com/wardle

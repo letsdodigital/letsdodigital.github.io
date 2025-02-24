@@ -6,10 +6,9 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-    data-background-image: /media/web-app.png
-    data-background-opacity: "0.4"
+  data-background-image: /media/web-app.png
+  data-background-opacity: "0.4"
 ---
-
 
 ## What to build?
 
@@ -17,14 +16,12 @@ title-slide-attributes:
 
 eGFR = estimated glomerular filtration rate
 
-
 ## Streamlit
 
-* We will be using a python web app framework called `Streamlit`.
-* Frameworks are a higher level of organisation of code above libraries.
+- We will be using a python web app framework called `Streamlit`.
+- Frameworks are a higher level of organisation of code above libraries.
 
 ![](/media/streamlit.png){fig-align="center" fig-alt="Streamlit icon"}
-
 
 ## Module import
 
@@ -40,18 +37,16 @@ or as an `alias`
 import streamlit as st
 ```
 
-
 ## Who is running what?
 
-* A common practice is to use:
+- A common practice is to use:
 
 ```{.python filename="main.py"}
 if __name__ == "__main__":
     main()
 ```
 
-* Checks if the current file is being run as an imported library or directly.
-
+- Checks if the current file is being run as an imported library or directly.
 
 ## Streamlit methods
 
@@ -66,55 +61,54 @@ st.write("Text to write to browser")
 
 # Creates a text input field
 # `step` is the increment for + - buttons
-st.number_input("Label of input box", step=1) 
+st.number_input("Label of input box", step=1)
 
 # Creates a select box
 st.selectbox("Label for selectbox", ["first choice","second choice"])
 ```
 
-
 ## Streamlit methods
 
 ![](/media/my-first-app.png){fig-align="center" width="max" height="max" fig-alt="Picture of first app with some basic fields"}
 
-
 ## magicEnabled = false
 
-* We have turned off the feature in Streamlit that shows all of your code in the browser using:
+- We have turned off the feature in Streamlit that shows all of your code in the browser using:
 
 ```{.python filename=".streamlit/config.toml" code-line-numbers="2"}
 [runner]
 magicEnabled = false
 ```
+
 \
-(See the *.streamlit/config.toml* file if interested)
+(See the _.streamlit/config.toml_ file if interested)
 
 ## Stopping a running program
 
 CTRL - C
 
-or 
+or
 
 CMD - C
 
-* If a major error happens, streamlit will not refresh and you will need to stop your program.
-* You will also need to stop the program between exercises.
+- If a major error happens, streamlit will not refresh and you will need to stop your program.
+- You will also need to stop the program between exercises.
 
 ## Warning! {background-image="/media/glowing-red-cone.jpg" background-opacity="0.3"}
 
-* You are building an educational program. This is NOT to be used with real patients!
+- You are building an educational program. This is NOT to be used with real patients!
 
 ## Time to install a framework {background-image="/media/computer-and-phone.png" background-opacity="0.3"}
 
-* You now need to install the Streamlit framework. Don't worry, it is very easy:
+- You now need to install the Streamlit framework. Don't worry, it is very easy:
 
 ```{.bash}
 $ cd ../lesson_2
 $ pip install streamlit
 ```
 
-* There will be many lines of output in the terminal. Just wait for this to finish (30-60 seconds).
-* And now run this command:
+- There will be many lines of output in the terminal. Just wait for this to finish (30-60 seconds).
+- And now run this command:
 
 ```{.bash}
 $ streamlit run exercise_1.py
@@ -122,7 +116,7 @@ $ streamlit run exercise_1.py
 
 ## Now off you go! {background-image="/media/man-at-starting-line.jpg" background-opacity="0.3"}
 
-* Lesson 3 is for those that finish lesson 2 early (but it is not a race).
+- Lesson 3 is for those that finish lesson 2 early (but it is not a race).
 
 ```{=html}
 <div class="bottom-right">

@@ -11,11 +11,11 @@ We have a very exciting webinar ready and waiting for you, especially for those 
 
 In this first of many webinars from the **Frontline Insights** series from the **Let's Do Digital** team, we are excited to hear from Andrew Simpson, Clinical Scientist at South Tees Hospital NHS Foundation Trust and Sam McInerney, Oncology registrar at the Beatson Cancer Centre and founder of DoctorsThatCode.com.
 
-Andrew will show us how **Internet of Things** (IoT), blood sweat and tears and a department that is open to innovation brought together both hardware and software to automate the heavy workload at the sleep department in South Tees. 
+Andrew will show us how **Internet of Things** (IoT), blood sweat and tears and a department that is open to innovation brought together both hardware and software to automate the heavy workload at the sleep department in South Tees.
 
 Sam will give us the low down on how he successfully used **robotic process automation** to streamline the detailed clinic preparation that is required of oncology clinic outpatients.
 
-Andrew is a <abbr title="Health and Care Professions Council">HCPC</abbr> registered Clinical Scientist in Medical Physics & Clinical Engineering, specialising in Clinical Measurement, Clinical Engineering & Computing. Andrew has implemented an array of digital solutions to improve healthcare management. Andrew  is also the British Computer Society Teesside and District Branch Chair.
+Andrew is a <abbr title="Health and Care Professions Council">HCPC</abbr> registered Clinical Scientist in Medical Physics & Clinical Engineering, specialising in Clinical Measurement, Clinical Engineering & Computing. Andrew has implemented an array of digital solutions to improve healthcare management. Andrew is also the British Computer Society Teesside and District Branch Chair.
 
 Sam is the founder of [DoctorsThatCode.com](https://www.doctorsthatcode.com/), a very interesting and informative blog series. He is an up and coming clinician-who-codes, and uses his dual speciality skills to improve the care he gives as a oncology registrar in Scotland.
 
@@ -48,7 +48,7 @@ Sam is the founder of [DoctorsThatCode.com](https://www.doctorsthatcode.com/), a
             <img src="/media/sam-mcinerney.png" alt="picture of Ramandeep Kaur in a circle" class="agenda-image">
         </div>
         <div class="agenda-text-container">
-            Speaker: Sam McInerney Beatson Cancer Centre and founder of DoctorsThatCode.com, 
+            Speaker: Sam McInerney Beatson Cancer Centre and founder of DoctorsThatCode.com,
         </div>
     </div>
 </div>
@@ -56,18 +56,15 @@ Sam is the founder of [DoctorsThatCode.com](https://www.doctorsthatcode.com/), a
 
 Two 20 minute presentations followed by a Q&A.
 
-
 ## When and where
 
 YouTube streaming, 2-3pm, on Tuesday the 16th of July.
-
 
 ## Tickets and coffees
 
 Ticket sales are now closed.
 
 You can watch the recording [here](https://www.youtube.com/live/oeWrARubRmU).
-
 
 ## Questions
 
