@@ -57,14 +57,13 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            // Extract the branch name from the GitHub context
             const branchName = process.env.GITHUB_REF.replace('refs/heads/', '');
-            const baseBranch = "main";  // Change to your target branch if needed
+            const baseBranch = "main";  // Change this to your target branch if needed
             const title = `PR: Review changes from ${branchName}`;
             const body = "This pull request was created automatically to review the changes from the recent commit.";
-            
-            // Create the pull request using the GitHub API
-            const { data: pullRequest } = await github.pulls.create({
+
+            // Create the pull request using the REST API via github.rest
+            const { data: pullRequest } = await github.rest.pulls.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
               head: branchName,
@@ -73,4 +72,5 @@ jobs:
               body: body,
             });
             console.log("Pull Request URL:", pullRequest.html_url);
+
       
