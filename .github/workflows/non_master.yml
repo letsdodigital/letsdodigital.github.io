@@ -5,36 +5,35 @@ on:
     branches-ignore:
       - master 
       - main
-      - "pull-request-for-*"
 
 permissions:
   contents: write
 
 jobs:
-  # testing:
-  #   runs-on: ubuntu-latest
-  #   name: Testing
-  #   permissions:
-  #     contents: write
-  #   steps:
-  #     - name: Check out repository
-  #       uses: actions/checkout@v4
-  #       with:
-  #         fetch-depth: 0
+  testing:
+    runs-on: ubuntu-latest
+    name: Testing
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-  #     - name: Set up Node.js
-  #       uses: actions/setup-node@v3
-  #       with:
-  #         node-version: '23.1.0'
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '23.1.0'
 
-  #     - name: Install dependencies
-  #       run: npm install
+      - name: Install dependencies
+        run: npm install
 
-  #     - name: Set up Quarto
-  #       uses: quarto-dev/quarto-actions/setup@v2
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
-  #     - name: run CI CD tasks
-  #       run: bash cicd.sh 
+      - name: run CI CD tasks
+        run: bash cicd.sh 
 
   create_pr:
     # needs: testing
