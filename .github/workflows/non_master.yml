@@ -11,7 +11,7 @@ permissions:
   contents: write
 
 jobs:
-  cicd_pipeline:
+  testing:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -51,26 +51,17 @@ jobs:
       #     base: main
 
   create_pr:
+    needs: testing
     runs-on: ubuntu-latest
     steps:
-      - name: Create Pull Request using GitHub Script
-        uses: actions/github-script@v6
+      - name: Check out repository code
+        uses: actions/checkout@v4
         with:
-          script: |
-            const branchName = process.env.GITHUB_REF.replace('refs/heads/', '');
-            const baseBranch = "main";  // Change this to your target branch if needed
-            const title = `PR: Review changes from ${branchName}`;
-            const body = "This pull request was created automatically to review the changes from the recent commit.";
-
-            // Create the pull request using the REST API via github.rest
-            const { data: pullRequest } = await github.rest.pulls.create({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              head: branchName,
-              base: baseBranch,
-              title: title,
-              body: body,
-            });
-            console.log("Pull Request URL:", pullRequest.html_url);
+          fetch-depth: 0
+          ref: develop
+      - name: create pull request
+        run: gh pr create -B main -H develop --title 'Merge develop into main' --body 'Created by GitHub action'
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       
