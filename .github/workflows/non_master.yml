@@ -36,7 +36,7 @@ jobs:
         run: bash cicd.sh 
 
   create_pr:
-    # needs: testing
+    needs: testing
     name: Create / Update PR
     runs-on: ubuntu-latest
     steps:
@@ -46,7 +46,7 @@ jobs:
           fetch-depth: 0
           ref: ${{ github.ref }}
       - name: create pull request
-        run: gh pr create -B main -H ${{ github.ref }} --title 'Merge ${{ github.ref }} into main' --body 'Created by GitHub action'
+        run: gh pr create -B main -H ${{ github.ref }} --title 'Merge branch ${{ github.ref }} into main' --body 'Created by GitHub action' || gh pr edit -B main --title "Merge branch ${{ github.ref }} into main" --body 'Created by GitHub action'
         env:
             GITHUB_TOKEN: ${{ secrets.PAT }}
 
