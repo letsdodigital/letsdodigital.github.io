@@ -13,6 +13,7 @@ permissions:
 jobs:
   testing:
     runs-on: ubuntu-latest
+    name: Testing
     permissions:
       contents: write
     steps:
@@ -34,31 +35,17 @@ jobs:
 
       - name: run CI CD tasks
         run: bash cicd.sh
-      
-      # - name: Configure Git
-      #   run: |
-      #     git config --global user.email "quarto-github-actions-publish@example.com"
-      #     git config --global user.name "Quarto GHA Workflow Runner"
-
-      # - name: Create Pull Request
-      #   uses: peter-evans/create-pull-request@v7
-      #   with:
-      #     token: ${{ secrets.PAT }}
-      #     commit-message: "Automated changes from CI/CD pipeline"
-      #     branch: "pull-request-for-${{ github.ref_name }}"
-      #     title: "Automated changes from CI/CD pipeline"
-      #     body: "This PR contains automated changes from the CI/CD pipeline."
-      #     base: main
 
   create_pr:
     needs: testing
+    name: Create / Update PR
     runs-on: ubuntu-latest
     steps:
       - name: Check out repository code
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: develop
+          ref: ${{ github.ref }}
       - name: create pull request
         run: gh pr create -B main -H develop --title 'Merge develop into main' --body 'Created by GitHub action'
         env:
