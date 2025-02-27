@@ -30,9 +30,6 @@ async function checkUrlStatus(url: string): Promise<number> {
   }
 }
 
-
-
-
 function findHtmlFiles(dir: string): string[] {
   const pattern = path.join(dir, '**/*.html');
   return glob.sync(pattern);
