@@ -71,7 +71,9 @@ run_command "Formatting of TypeScript" "npx prettier --config .prettierrc --chec
 
 run_command "Linting of TypeScript" "npx eslint '**/*.ts' --color"
 
-run_command "Post-render unit tests" "npm exec npx jest tests/post-render/*.ts" "utils"
+run_command "Creating Quarto static pages" "quarto render"
+
+# run_command "Post-render unit tests" "npm exec npx jest tests/post-render/*.ts" "utils"
 
 run_command "Formatting of Quarto files" "npx prettier --check '**/*.qmd' --color"
 

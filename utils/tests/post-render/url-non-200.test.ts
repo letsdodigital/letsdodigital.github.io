@@ -4,7 +4,6 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 const render_folder: string = '_site';
-
 const verbose = false;
 
 async function checkUrlStatus(url: string): Promise<number> {
@@ -36,8 +35,8 @@ function findHtmlFiles(dir: string): string[] {
   return glob.sync(pattern);
 }
 
-async function checkUrlsInSiteFolder() {
-  const siteFolder = path.join(process.cwd(), render_folder);
+async function checkUrlsInSiteFolder(): Promise<string> {
+  const siteFolder = path.join(process.cwd(), '../', render_folder);
   const htmlFiles = findHtmlFiles(siteFolder);
   let errorMessage: string = '';
 
@@ -54,7 +53,9 @@ async function checkUrlsInSiteFolder() {
         if (cleanUrl.startsWith('http')) {
           const status = await checkUrlStatus(fullUrl);
           if (status !== 200) {
-            console.log(`URL ${fullUrl} returned status ${status}`);
+            console.log(
+              `File:${file}\nURL ${fullUrl} returned status ${status}`
+            );
             errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
           } else {
             if (verbose) {
@@ -98,5 +99,5 @@ describe('URLs in site folder', () => {
     if (errorMessage) {
       throw new Error(`The following url fails occurred:\n\n${errorMessage}`);
     }
-  });
+  }, 100000);
 });

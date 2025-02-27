@@ -16,7 +16,7 @@ Okay, so you have some healthcare data in front of you. It might make sense, it 
 
 We will get to that!
 
-![](/media/canyon-with-speach-bubbles.png){height=400px fig-align="center" fig-alt="A burning firepit"}
+![](/media/canyon-and-speech-bubbles.png){height=400px fig-align="center" fig-alt="A burning firepit"}
 
 I have been a firm believer in education for some time. I used to supervise pharmacy students when I was doing my degree in Medicinal Chemistry, and I was a tutor for final year medical students when I was a foundation doctor. I have provided education to junior doctors, and, until recently, I was an FCI mentor for [Dr Anita Phung](https://www.linkedin.com/in/dranitaphung/) (sadly the FCI is no more). I have also wanted to study, and subsequently teach, digital health, coding, and clinical informatics in general. On top of this, I have been a perpetual student, having just completed the [NHS Digital Academy - Digital Leadership](https://digital-transformation.hee.nhs.uk/digital-academy) course.
 
