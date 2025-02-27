@@ -1,6 +1,6 @@
 ---
 title: "Outcomes from the Digital Healthcare Education Panel"
-description: "Or rather, how would you build a health app?"
+description: "And what we are going to do about it!"
 author:
   - name: Mark Bailey
 date: 2025-02-27
@@ -12,15 +12,17 @@ comments:
     repo: letsdodigital/letsdodigital.github.io
 ---
 
-Digital Healthcare education is a must!
+> Digital Healthcare education is a must!
 
 \
 
-![](media/education-word-cloud.png){height=400px fig-align="center" fig-alt="Word cloud regarding how people want digital healthcare education delivered."}
+![](/media/education-word-cloud.png){height=400px fig-align="center" fig-alt="Word cloud regarding how people want digital healthcare education delivered."}
 
-This is the take home message for me from our panel yesterday covering the need for learning materials for digital healthcare. We had an amazing turn out in the audience of people from all walks of life. We had medical students just starting out on their own journey in digital healthcare, we had a new Clinical Consultant, eager to show her own resident doctors the path to digital healthcare enlightenment by preparing to taking start the journey herself. We had C-suite's wanting to know what course to jump on to progress their CVs. We also had engaging conversations with with seasons digital health professionals about how to best and safely use large language models in and around healthcare. We even hear a very interesting story how people are now using chatGPT during interviews to help them answer questions! We even discussed the tell-tail signs of someone using these tools during interviews. Other major learnings were that we needed great diversity in the learning formats, having a mixture of online and face-to-face, of live sessions, and reading materials and recordings to go through at the student's own pace. The topic that got the most engagement from both the audience and the panel was the "push verses pull" of learning. Too often we have forced on us **mandatory training**, that we are not interested in doing and we far too often do not see the value in doing. Some people of course may find that having learning material pushed on them helps that actually engage with learning. Others however, and I argue this is a majority, prefer to engage with learning materials that they themselves want to learn about. This is of course no new concept, but it was great to hear that the room felt that they wanted the Let's Do Digital team to provide engaging, interesting materials that they could see would greatly help them with the tasks that they were actually doing in their own jobs.
+This is the take home message for me from our panel yesterday covering the **need** for learning materials for digital healthcare. We had an amazing turn out with people from all walks of life. We had medical students just starting out on their own journey in digital healthcare, we had a new Clinical Consultant, eager to show her own resident doctors the path to digital healthcare enlightenment by taking the first steps of the journey herself. We had C-suite's wanting to know what course to jump on to progress their careers. We also had engaging conversations with seasoned digital health professionals on how best and safely use large language models in and around healthcare. We even heard a very interesting story about how people are now using ChatGPT during interviews to help them answer questions! We even discussed the tell-tail signs of someone using these tools during interviews (typing furiously during the interview, large pauses and even accidentally showing the ChatGPT browser during a screen share). Other major learnings were that we needed great diversity in the learning formats, having a mixture of online and face-to-face, of live sessions, and reading materials and recordings to go through at the student's own pace. The topic that got the most engagement from both the audience and the panel was the "push verses pull" of learning. Too often we have forced on us **mandatory training**, that we are not interested in doing and we far too often we do not see the value in doing. Some people of course may find that having learning material _pushed_ on them helps them actually engage with the learning materials. Others, however, and I argue this is a majority, prefer to engage with learning materials that they themselves want to learn about. This is of course no new concept, but it was great to hear that the room felt that they wanted the **Let's Do Digital team** to provide engaging, interesting materials that the audience could see would greatly help them with the tasks that they were actually doing in their own jobs.
 
-So what next, we had some great conversations, met some great people who want to study with Let's Do Digital and left newly invigorated to create amazing learning materials for our fellow digital healthcare professionals. Well, right off the bat me, David Tang, Keith Blackwood and Sam McIneney decided to straight away build the starting modules for the two most talked about topics during our panel. So watch this space for:
+So what next, we had some great conversations, met some great people who want to study with **Let's Do Digital** and left newly invigorated to create amazing learning materials for our fellow digital healthcare professionals. Well, right off the bat me, David Tang, Keith Blackwood and Sam McIneney decided to straight away build the starting modules for the two most talked about topics during our panel. So watch this space for:
 
 - **What actually is Digital Healthcare?** - The beginner's guide to digital healthcare.
 - **Coffee and Chatbots** - What are chatbots and how can they be used safely and efficiently in healthcare?
+
+Watch our [tickets](/tickets/) for up and coming courses and events. We are looking forward to seeing you there!
