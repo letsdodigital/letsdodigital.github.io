@@ -19,9 +19,9 @@ Have questions or concerns you want to raise that are Let’s Do Digital related
 ::::
 
 :::: {.g-col-12 .g-col-md-6 style="text-align:center;"}
-[{{< fa brands x-twitter size=3x >}}](https://twitter.com/LetsDoDigitalCI)
+[{{< fa brands x-twitter size=3x >}}](https://x.com/LetsDoDigitalCI)
 
-[@LetsDoDigitalCI](https://twitter.com/LetsDoDigitalCI)
+[@LetsDoDigitalCI](https://x.com/LetsDoDigitalCI)
 ::::
 
 :::: {.g-col-12 .g-col-md-6 style="text-align:center;"}
