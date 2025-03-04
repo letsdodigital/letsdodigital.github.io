@@ -11,14 +11,9 @@ image: /media/tickets.png
 
 [Programming in Healthcare Module 0-3](https://letsdodigital.thinkific.com/collections)
 
-### 13th February 2025
+### 6rd of Mach 2025
 
-[Ask a Clinician - The Radiologist's Eye: Insights into Neuroradiology](ask-a-clinician/5.qmd)
-
-### 3rd of Mach 2025
-
-[Ask A Clinician: Insights from the Field Hospital and Beyond
-](ask-a-clinician/6.qmd)
+[Ask A Clinician: Insights from the Field Hospital and Beyond](ask-a-clinician/6.qmd)
 
 ### 11th March 2025
 
