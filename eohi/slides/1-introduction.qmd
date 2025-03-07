@@ -1,0 +1,156 @@
+---
+title: "What is Digital Health?"
+author: "Dr. Mark Bailey"
+date: "2025"
+output: revealjs::revealjs_presentation
+---
+
+# What is Digital Health?
+
+## Introduction
+
+- Digital health is about using technology to help people stay healthy and get better when they are ill.
+- It includes things like online medical records, video doctor visits, and health apps on phones.
+- In this talk, we’ll look at what digital health is, why it matters, and how it affects patients and doctors.
+
+---
+
+### What This Talk Covers
+
+1. What do we mean by "digital" and "health"?
+2. How has healthcare changed with technology?
+3. What are the main digital tools used in healthcare?
+4. What are the benefits and challenges of digital health?
+5. How can you learn more about digital health?
+
+---
+
+## What is "Digital" and What is "Health"?
+
+### **What is Digital?**
+
+- Anything that uses computers, the internet, or smart devices.
+- Examples: Emails, apps, websites, mobile phones.
+
+### **What is Health?**
+
+- Everything related to keeping people well or treating them when they are ill.
+- Examples: Hospitals, doctors, medicines, exercise.
+
+### **How Do They Overlap?**
+
+- Digital health is when we use digital tools to help with health.
+- Examples:
+  - Booking a doctor’s appointment online.
+  - Using an app to track your heart rate.
+  - A hospital storing patient records on a computer instead of paper.
+
+---
+
+## How Has Healthcare Changed With Technology?
+
+### **The Old Way**
+
+- Doctors wrote notes on paper.
+- If you needed medical advice, you had to visit a clinic in person.
+- There were no mobile apps or online health services.
+
+### **Early Digital Changes (1980s - 2000s)**
+
+- Most early digital health developments in the UK started in **GP practices**.
+- GP systems were some of the first to adopt **electronic records**, replacing paper files.
+- Early **prescription systems** allowed doctors to send prescriptions to pharmacies digitally.
+- Hospitals started using computers for administrative tasks, but most patient records were still on paper.
+- Early **telemedicine** experiments allowed doctors to give advice over the phone.
+
+### **The Digital Health Boom (2010s - Now)**
+
+- **Smartphones & Apps**: Patients started using apps for tracking health, fitness, and medications.
+- **Electronic Health Records (EHRs)**: Hospitals and clinics moved to digital records that could be shared across healthcare providers.
+- **Telemedicine Growth**: Video calls with doctors became more common, especially after the COVID-19 pandemic.
+- **Wearable Devices**: Smartwatches and fitness trackers allowed people to monitor their health in real-time.
+- **Artificial Intelligence (AI)**: AI helped doctors analyse scans and predict illnesses more accurately.
+- **Big Data in Healthcare**: Large amounts of health data helped scientists understand diseases better.
+
+### **The Future of Digital Health**
+
+- More personalised care using AI and health data.
+- Faster diagnosis and treatment through automation.
+- More remote monitoring and home-based healthcare.
+- Better integration between digital systems to make healthcare more efficient.
+
+---
+
+## What Are The Main Digital Tools in Healthcare?
+
+### **1. Digital Medical Records**
+
+- A computer version of a patient’s medical history.
+- Helps doctors quickly find information about patients.
+
+### **2. Telemedicine (Seeing a Doctor Online)**
+
+- Talking to a doctor using a video call instead of going to a clinic.
+- Useful for people who live far away or cannot travel easily.
+
+### **3. Health Apps**
+
+- Apps that help track steps, diet, sleep, or medical conditions.
+- Examples: A diabetes app that reminds people to check their blood sugar.
+
+### **4. Wearable Devices**
+
+- Smartwatches and fitness trackers that measure heart rate, sleep, and activity.
+- Some devices can alert doctors if something is wrong.
+
+### **5. Artificial Intelligence (AI) in Healthcare**
+
+- AI can help doctors read X-rays or predict health problems.
+- Some chatbots give basic health advice based on symptoms.
+
+### **6. Cybersecurity and Data Privacy**
+
+- Protecting patient information so that only the right people can see it.
+- Important for keeping medical records safe.
+
+---
+
+## Benefits and Challenges of Digital Health
+
+### **Benefits**
+
+- **Faster and Easier Healthcare:** Patients can get advice without leaving home.
+- **More Information:** Apps and wearables help people understand their health.
+- **Better Care:** Doctors can access patient records quickly.
+
+### **Challenges**
+
+- **Not Everyone Has Internet Access:** Some people may struggle to use digital tools.
+- **Privacy Concerns:** Keeping personal health data safe is important.
+- **Learning to Use New Technology:** Patients and doctors need to learn how to use digital health tools properly.
+
+---
+
+## How Can You Learn More About Digital Health?
+
+### **Where to Start?**
+
+- Websites and online courses (e.g. NHS Digital, FutureLearn).
+- Books and guides (like _Essentials of Health Informatics_).
+- Join groups that discuss digital health topics.
+- Attend online talks or workshops.
+
+### **Final Thoughts**
+
+- Digital health is changing how we access and receive care.
+- There are many opportunities to learn and get involved.
+- Start small: Try a health app or book an online appointment!
+
+---
+
+## Thank You!
+
+### Questions?
+
+- Connect via _Let’s Do Digital_ or LinkedIn.
+- More resources at: [Insert relevant link]
