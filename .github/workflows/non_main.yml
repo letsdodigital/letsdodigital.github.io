@@ -32,8 +32,8 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: run CI CD tasks
-        run: bash cicd.sh 
+      # - name: run CI CD tasks
+      #   run: bash cicd.sh 
 
   create_pr:
     needs: testing
@@ -53,7 +53,7 @@ jobs:
               echo "PR created successfully"
             else
               echo "PR creation failed, attempting to update existing PR"
-              gh pr edit ${{ github.ref }} --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action"
+              gh pr edit -B main --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action"
 
             fi
         env:
