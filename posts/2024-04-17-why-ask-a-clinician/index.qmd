@@ -54,4 +54,4 @@ As you can see, there is a wide range of topics, however, not really the stuff I
 
 Future episodes (I am hoping for one a month, but don't hold me to that as I do this in my "spare" time) will bring in GPs, surgeons, dentists, pharmacists, nurses and more. I already have a few episodes lined up if this first one goes well.
 
-And so, if you are interested, please do join us at the first of many episodes of "{{< var ask-a-clinician-series-title >}}" by signing up [here](/tickets/ask-a-clinician-1.qmd).
+And so, if you are interested, please do join us at the first of many episodes of "{{< var ask-a-clinician-series-title >}}" by signing up [here](/tickets/ask-a-clinician/1.qmd).

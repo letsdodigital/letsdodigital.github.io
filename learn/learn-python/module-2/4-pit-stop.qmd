@@ -18,6 +18,6 @@ title-slide-attributes:
 
 ```{=html}
 <div class="bottom-right">
-    <a href="https://letsdodigital.org/learn/learn-python/module-2/6-session-close.html" style="color: lightgrey;">Session close</a>
+    <a href="https://letsdodigital.org/learn/learn-python/module-2/5-session-close.html" style="color: lightgrey;">Session close</a>
 </div>
 ```

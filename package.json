@@ -4,7 +4,6 @@
   "description": "Root code",
   "workspaces": [
     "utils"
-
   ],
   "devDependencies": {
     "@eslint/js": "^9.17.0",
@@ -12,9 +11,9 @@
     "@types/jest": "^29.5.14",
     "@types/lodash": "^4.17.13",
     "@types/node": "^22.9.0",
+    "@types/selenium-webdriver": "^4.1.28",
     "@typescript-eslint/eslint-plugin": "^8.18.1",
     "@typescript-eslint/parser": "^8.18.1",
-    "@types/selenium-webdriver": "^4.1.28",
     "axios": "^1.7.7",
     "eslint": "^9.17.0",
     "eslint-config-prettier": "^9.1.0",
@@ -33,5 +32,8 @@
     "typescript": "^5.6.3",
     "typescript-eslint": "^8.18.1",
     "yaml": "^2.6.1"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
   }
 }

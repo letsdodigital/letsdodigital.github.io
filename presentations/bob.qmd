@@ -33,7 +33,7 @@ title-slide-attributes:
 - Mentoring and tutoring
 - Build great digital healthcare solutions
 
-see [www.letsdodigital.org](www.letsdodigital.org).
+see [www.letsdodigital.org](http://www.letsdodigital.org).
 
 ## Essentials of Health Informatics - a Guide {background-image="/media/book-flicking-pages.jpg" background-opacity="0.2"}
 
