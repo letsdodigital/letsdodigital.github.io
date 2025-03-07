@@ -12,6 +12,24 @@ const log = (message: any) => {
   }
 };
 
+interface AllowlistConfig {
+  allowlistedUrls: string[];
+}
+
+function loadAllowlist(): AllowlistConfig {
+  try {
+    const configPath = path.join(__dirname, 'urls.json');
+    const configData = fs.readFileSync(configPath, 'utf-8');
+    return JSON.parse(configData) as AllowlistConfig;
+  } catch (error) {
+    throw new Error(
+      `Failed to load allowlist config, using defaults: ${error}`
+    );
+  }
+}
+
+const bypassedUrls = loadAllowlist().allowlistedUrls;
+
 /**
  * Check the status of a URL
  * @param url The URL to check
@@ -29,6 +47,9 @@ async function checkUrlStatus(url: string): Promise<number> {
     } catch {
       return 404;
     }
+    // Due to bot protection, we need to bypass some URLs.
+  } else if (bypassedUrls.includes(url)) {
+    return -1;
   } else {
     try {
       if (url.includes('x.com') || url.includes('twitter.com')) {
@@ -104,17 +125,7 @@ async function checkUrlsInSiteFolder(): Promise<{
         const cleanUrl = url.replace(/href="|"/g, '');
         let fullUrl = cleanUrl;
 
-        // Check if the url has already been tested
-        if (urlsChecked[fullUrl] !== undefined) {
-          const status = urlsChecked[fullUrl];
-          log(`URL ${fullUrl} already checked, status ${status}`);
-
-          if (status !== 200) {
-            errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
-          }
-          continue;
-        }
-
+        // Ignore certain urls
         if (
           cleanUrl.startsWith('mailto:') ||
           cleanUrl.startsWith('#') ||
@@ -122,22 +133,34 @@ async function checkUrlsInSiteFolder(): Promise<{
           cleanUrl.startsWith('tel:')
         ) {
           continue;
+        }
+        // Check if the url has already been tested.
+        else if (urlsChecked[fullUrl] !== undefined) {
+          const status = urlsChecked[fullUrl];
+          log(`URL ${fullUrl} already checked, status ${status}`);
+
+          if (status !== 200) {
+            errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
+          }
         } else if (cleanUrl.startsWith('http')) {
           const status = await checkUrlStatus(fullUrl);
           urlsChecked[fullUrl] = status;
 
-          if (status === 999 && fullUrl.includes('linkedin.com')) {
-            warningMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
+          // Handle bypass urls (due to bots protections on these sites, see `urls.json`)
+          if (status === -1) {
+            warningMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m has been bypassed\n`;
+
+            // Handle non-200 status codes
           } else if (status !== 200) {
             log(`File:${file}\nURL ${fullUrl} returned status ${status}`);
             errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
+
+            // Handle 200 status codes
           } else {
             log(`URL ${fullUrl} is OK`);
-
-            continue;
           }
 
-          // Check for local files
+          // Check for local files.
         } else if (cleanUrl.startsWith('/')) {
           fullUrl = path.resolve(
             process.cwd(),
@@ -154,6 +177,7 @@ async function checkUrlsInSiteFolder(): Promise<{
           } catch {
             errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, the local url \x1b[2m${cleanUrl}\x1b[0m did not exist\n`;
           }
+          // Check for local files again.
         } else {
           fullUrl = path.resolve(path.dirname(file), cleanUrl);
           try {
