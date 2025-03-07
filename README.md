@@ -21,6 +21,8 @@ Please ask someone to review your PR. The person reviewing should check over any
 
 As an author, if you are only making very minor changes, you can merge the PR yourself.
 
+In regards to `url testing`, unfortunately, some sites do not allow automated testing (you will receive a status code 403). To bypass this, please manually check that the url is working, and then add the url to the `allowlistedUrls` array in the `utils/tests/post-render/urls.json` file.
+
 ## Main Branch
 
 Once a branch has been merged into main, another GitHub action will run. This will:
