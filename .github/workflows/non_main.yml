@@ -32,8 +32,8 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      # - name: run CI CD tasks
-      #   run: bash cicd.sh 
+      - name: run CI CD tasks
+        run: bash cicd.sh 
 
   create_pr:
     needs: testing
