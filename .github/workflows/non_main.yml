@@ -47,14 +47,15 @@ jobs:
           ref: ${{ github.ref }}
       - name: create pull request
         run: |
-          PR_EXISTS=$(gh pr list --head ${{ github.ref }} --json number --jq '.[0].number')
-          if [ -z "$PR_EXISTS" ]; then
-            echo "No existing PR found, creating new PR"
-            gh pr create -B main -H ${{ github.ref }} --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action" --draft
-          else
-            echo "Existing PR #$PR_EXISTS found, updating it"
-            gh pr edit $PR_EXISTS --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action"
-          fi
+            set -e
+            echo "Attempting to create a new PR"
+            if gh pr create -B main -H ${{ github.ref }} --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action" --draft; then
+              echo "PR created successfully"
+            else
+              echo "PR creation failed, attempting to update existing PR"
+              gh pr edit -B main --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action"
+
+            fi
         env:
             GITHUB_TOKEN: ${{ secrets.PAT }}
 
