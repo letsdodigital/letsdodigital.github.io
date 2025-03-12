@@ -30,8 +30,15 @@ jobs:
 
       - name: run CI CD tasks
         run: bash cicd.sh
+
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: Check for test failures
+      - name: If failure, revert commit
         if: failure()
         uses: actions/github-script@v6
         with:
@@ -73,11 +80,3 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        
-# TODO: #39 Perhaps Quarto does not need to build the website again, and only push to gh-pages
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
