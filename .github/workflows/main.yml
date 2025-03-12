@@ -36,9 +36,14 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
+            git config --global user.email "info@letsdodigital.org"
+            git config --global user.name "Lets Do Digital"
             const { execSync } = require('child_process');
             const commitSha = process.env.GITHUB_SHA;
-            execSync(`git revert --no-commit ${commitSha}`);
+            const commitInfo = execSync(`git cat-file -p ${commitSha}`).toString();
+            const isMergeCommit = commitInfo.includes('parent 2');
+            const revertCommand = isMergeCommit ? `git revert --no-commit -m 1 ${commitSha}` : `git revert --no-commit ${commitSha}`;
+            execSync(revertCommand);
             execSync(`git commit -m "Revert commit ${commitSha} due to test failure"`);
             execSync(`git push origin main`);
         env:
