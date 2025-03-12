@@ -4,7 +4,7 @@ import * as path from 'path';
 import * as fs from 'fs';
 
 const RENDER_FOLDER: string = '_site';
-const verbose = true;
+const verbose = false;
 
 const log = (message: any) => {
   if (verbose) {
