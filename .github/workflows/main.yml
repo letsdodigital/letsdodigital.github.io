@@ -8,7 +8,7 @@ on:
 jobs:
   testing:
     runs-on: ubuntu-latest
-    name: Testing
+    name: Testing, building and deploying
     permissions:
       contents: write
     steps:
