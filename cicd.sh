@@ -67,8 +67,6 @@ run_command() {
 
 print_message "Running CICD tasks" "" "blue"
 
-exit 1
-
 run_command "Formatting of TypeScript" "npx prettier --config .prettierrc --check './utils/**/*.ts' --color"
 
 run_command "Linting of TypeScript" "npx eslint '**/*.ts' --color"
