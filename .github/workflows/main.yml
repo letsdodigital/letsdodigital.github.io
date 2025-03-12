@@ -36,16 +36,28 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            git config --global user.email "info@letsdodigital.org"
-            git config --global user.name "Lets Do Digital"
             const { execSync } = require('child_process');
-            const commitSha = process.env.GITHUB_SHA;
-            const commitInfo = execSync(`git cat-file -p ${commitSha}`).toString();
-            const isMergeCommit = commitInfo.includes('parent 2');
-            const revertCommand = isMergeCommit ? `git revert --no-commit -m 1 ${commitSha}` : `git revert --no-commit ${commitSha}`;
-            execSync(revertCommand);
-            execSync(`git commit -m "Revert commit ${commitSha} due to test failure"`);
-            execSync(`git push origin main`);
+            try {
+              // Set Git user config
+              execSync('git config --global user.email "info@letsdodigital.org"', { stdio: 'inherit' });
+              execSync('git config --global user.name "Lets Do Digital"', { stdio: 'inherit' });
+              
+              // Get commit details
+              const commitSha = process.env.GITHUB_SHA;
+              const commitInfo = execSync(`git cat-file -p ${commitSha}`, { cwd: process.env.GITHUB_WORKSPACE }).toString();
+              const isMergeCommit = commitInfo.includes('parent') && commitInfo.split('\n').filter(line => line.startsWith('parent')).length > 1;
+              
+              // Revert command
+              const revertCommand = isMergeCommit ? `git revert --no-commit -m 1 ${commitSha}` : `git revert --no-commit ${commitSha}`;
+              execSync(revertCommand, { cwd: process.env.GITHUB_WORKSPACE, stdio: 'inherit' });
+              
+              // Commit and push
+              execSync(`git commit -m "Revert commit ${commitSha} due to test failure"`, { cwd: process.env.GITHUB_WORKSPACE, stdio: 'inherit' });
+              execSync(`git push origin main`, { cwd: process.env.GITHUB_WORKSPACE, stdio: 'inherit' });
+            } catch (error) {
+              console.error(`Revert failed: ${error.message}`);
+              process.exit(1);
+            }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

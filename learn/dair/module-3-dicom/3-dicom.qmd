@@ -360,7 +360,8 @@ import pydicom
 - It projects the highest intensity values along each line of sight onto a 2D plane.
 - Often used in **positron emission tomography (PET) imaging**.
 
-![MIP of a SPECT image of a mouse. Source: Christian Lackas, <delta@lackas.net> [Originally uploaded to en.wikipedia](http://www.spect-ct.com/site/site.cgi/dispentry.site?id=38&mode=orig). Description page is/was [here](https://en.wikipedia.org/wiki/File:Mouse02-spect.gif). [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=8744558)](/media/daim/module_3/MouseMIP_Christian_Lackas.gif)
+<!-- I had to delete the spect-ct link as it caused the CICD to fail >
+![MIP of a SPECT image of a mouse. Source: Christian Lackas, <delta@lackas.net> [Originally uploaded to en.wikipedia](). Description page is/was [here](https://en.wikipedia.org/wiki/File:Mouse02-spect.gif). [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=8744558)](/media/daim/module_3/MouseMIP_Christian_Lackas.gif)
 
 # Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
