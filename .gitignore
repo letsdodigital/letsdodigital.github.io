@@ -1,6 +1,6 @@
 /.quarto/
 .DS_Store
-media/.DS_Store
+/media/.DS_Store
 _site
 /.luarc.json
 .venv
