@@ -4,30 +4,31 @@ author: "{{< var author >}}"
 format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
-title-slide-attributes: 
+title-slide-attributes:
   data-background-image: /media/daim/bg_cubes_blue.png
   data-background-opacity: "0.6"
 ---
 
 ## Introduction {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* Welcome to the first seminar of the **Data Analytics in Medicine (DAIM) - Images** course!
-* Today, we will be discussing:
-    * The clinical benefits of **learning to work with images**
-    * **Programming resources** that you can use throughout the course
+- Welcome to the first seminar of the **Data Analytics in Medicine (DAIM) - Images** course!
+- Today, we will be discussing:
+  - The clinical benefits of **learning to work with images**
+  - **Programming resources** that you can use throughout the course
 
 ## Why programming in medicine? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 <!--
-References 
+References
 https://www.pharmiweb.com/press-release/2024-04-24/ai-in-medicine-market-set-for-accelerated-growth-forecasting-usd-1568-billion-value-by-2033
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7577280/#bib0630
 https://www.nature.com/articles/s41591-021-01614-0
 -->
-* The global market for AI in medicine has grown from 
-    * $0.2 billion in 2015 to *$13.7 billion* in 2023
-* **"The usefulness of human–AI collaboration will likely depend on the specifics of the task and the clinical context."** - "AI in health and medicine", in *Nature*
-* Clinicians will be, and should be, **leading the deployment** of these technologies
+
+- The global market for AI in medicine has grown from
+  - $0.2 billion in 2015 to _$13.7 billion_ in 2023
+- **"The usefulness of human–AI collaboration will likely depend on the specifics of the task and the clinical context."** - "AI in health and medicine", in _Nature_
+- Clinicians will be, and should be, **leading the deployment** of these technologies
 
 ## Why programming in medicine? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
@@ -35,30 +36,31 @@ https://www.nature.com/articles/s41591-021-01614-0
 References
 https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorded%20instances%20of,IT%20issues%2C%20across%2031%20trusts
 -->
-* There is risk of harm to patients if technology is deployed **incorrectly** or **inappropropriately**
-    * *"...almost half recorded instances of potential patient harm linked to their systems."*
-* Involving doctors in development helps **idea sharing** and helps us **advocate for patients**.
 
-## Why programming in medicine?  {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
+- There is risk of harm to patients if technology is deployed **incorrectly** or **inappropropriately**
+  - _"...almost half recorded instances of potential patient harm linked to their systems."_
+- Involving doctors in development helps **idea sharing** and helps us **advocate for patients**.
 
-* Most **translational bioengineering** or **informatics** research will use some degree of programming in **Python, MatLab, or R**
-* This skills allows for some degree of work across **clinical** settings and **academia**
+## Why programming in medicine? {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
+
+- Most **translational bioengineering** or **informatics** research will use some degree of programming in **Python, MatLab, or R**
+- This skills allows for some degree of work across **clinical** settings and **academia**
 
 ## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
 
-* What is the **top reason** that doctors should learn to program?
-* What are the **disadvantages** of programming for doctors?
+- What is the **top reason** that doctors should learn to program?
+- What are the **disadvantages** of programming for doctors?
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
 ## Python Environments {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* We will be using **Google Colab** for the workshops of DAIM - Images.
-* Google Colab uses **Jupyter Notebooks** to run Python code
-    * **Easy to set up**
-    * **Easy to use**
-    * **Powerful**
-* Many other biomedical coding resources use this environment, e.g. **Kaggle**, **AlphaFold**
+- We will be using **Google Colab** for the workshops of DAIM - Images.
+- Google Colab uses **Jupyter Notebooks** to run Python code
+  - **Easy to set up**
+  - **Easy to use**
+  - **Powerful**
+- Many other biomedical coding resources use this environment, e.g. **Kaggle**, **AlphaFold**
 
 ## Google Colab Window
 
@@ -67,34 +69,34 @@ TODO Use marked-up screenshot of first workshop
 
 ## Using Google Colab
 
-* A notebook consists of **cells**
-    * **Code** cells
-    * **Markdown** cells
-* When you run the first line of code, the **kernel** starts
-* Variables **persist** between cells:
+- A notebook consists of **cells**
+  - **Code** cells
+  - **Markdown** cells
+- When you run the first line of code, the **kernel** starts
+- Variables **persist** between cells:
 
 ![](/media/daim/colab_cells.png)
 
 ## Trying out Google Colab {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* We would recommend testing out Google Colab before the first workshop.
-* The default notebook from Google can be found [here](https://colab.research.google.com/).
+- We would recommend testing out Google Colab before the first workshop.
+- The default notebook from Google can be found [here](https://colab.research.google.com/).
 
-## Resources to use  {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+## Resources to use {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* There are multiple resources that programmers often use when trying to solve a particular problem
-    * **Code documentation** - reliable and accurate
-    * **StackOverflow** - real-world solutions with explanations
-    * **Github** - Talk with the developers
+- There are multiple resources that programmers often use when trying to solve a particular problem
+  - **Code documentation** - reliable and accurate
+  - **StackOverflow** - real-world solutions with explanations
+  - **Github** - Talk with the developers
 
 ## Code documentation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* Documentation contains information about how to use the code in a library.
-* It should be the first place you go if you **don't understand** how to use a function/class.
-* Contains information about **arguments** and **use cases**.
-* Search for the function (e.g. `numpy.shape()`) followed by "docs".
+- Documentation contains information about how to use the code in a library.
+- It should be the first place you go if you **don't understand** how to use a function/class.
+- Contains information about **arguments** and **use cases**.
+- Search for the function (e.g. `numpy.shape()`) followed by "docs".
 
-## Reading Documentation 
+## Reading Documentation
 
 ![[The documentation for NumPy's 'shape' method](https://numpy.org/doc/stable/reference/generated/numpy.shape.html), a very commonly used NumPy method](/media/daim/np_shape_docs.png)
 
@@ -102,11 +104,11 @@ TODO Use marked-up screenshot of first workshop
 Maybe mention the difference between function and method here.
 -->
 
-## StackOverflow 
+## StackOverflow
 
-* **[StackOverflow](https://stackoverflow.com)** is a website created in 2008 to allow programmers to **share programming issues**.
-* There are other websites (**Stack Exchanges**) for other fields that have been created in the same format.
-    * **[Medical Sciences Stack Exchange](https://medicalsciences.stackexchange.com)**
+- **[StackOverflow](https://stackoverflow.com)** is a website created in 2008 to allow programmers to **share programming issues**.
+- There are other websites (**Stack Exchanges**) for other fields that have been created in the same format.
+  - **[Medical Sciences Stack Exchange](https://medicalsciences.stackexchange.com)**
 
 ![](/media/daim/Stack_Overflow_logo.png)
 
@@ -116,12 +118,12 @@ Maybe mention the difference between function and method here.
 
 ## Github{background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* A site where code is developed and hosted
-* Built around **Git repositories**
-    * Git is a useful tool to know about
-* Many answers can be found there by:
-    * Looking at source code
-    * **Github issues**
+- A site where code is developed and hosted
+- Built around **Git repositories**
+  - Git is a useful tool to know about
+- Many answers can be found there by:
+  - Looking at source code
+  - **Github issues**
 
 ## Github Code File
 
@@ -133,32 +135,32 @@ Maybe mention the difference between function and method here.
 
 ## Writing Python
 
-* As you start to write more complex code, **readability is vital**
-* In general, you should aim to use **one** of the following when naming variables, etc.
-    * Snake-casing e.g. `data_analytics_in_medicine`
-    * Camel-casing e.g. `dataAnalyticsInMedicine`
-* [More style guidelines can be found here (PEP 8)](https://peps.python.org/pep-0008/)
+- As you start to write more complex code, **readability is vital**
+- In general, you should aim to use **one** of the following when naming variables, etc.
+  - Snake-casing e.g. `data_analytics_in_medicine`
+  - Camel-casing e.g. `dataAnalyticsInMedicine`
+- [More style guidelines can be found here (PEP 8)](https://peps.python.org/pep-0008/)
 
 ## Break and Questions! {background-image="/media/daim/coffee2.png" background-opacity="0.6" text-align=center}
 
 ## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* Some data is easier for computers to process than others.
-* How can we make clinical data easier to work with?
+- Some data is easier for computers to process than others.
+- How can we make clinical data easier to work with?
 
 ## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* Standardised data formats
-    * This allows for **interoperatibility** between systems and **facilitates research**
-    * **DICOM** is a successful example of this.
-    * We will be discussing **DICOM** in **Module 2** of this course.
+- Standardised data formats
+  - This allows for **interoperatibility** between systems and **facilitates research**
+  - **DICOM** is a successful example of this.
+  - We will be discussing **DICOM** in **Module 2** of this course.
 
 ## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
-* Structured data
-    * Labelling data consistently
-    * Human-labelled data is often variable
-    * Use an encoding in your data collection protocol to make processing easier (e.g. "CXR" = 1)
+- Structured data
+  - Labelling data consistently
+  - Human-labelled data is often variable
+  - Use an encoding in your data collection protocol to make processing easier (e.g. "CXR" = 1)
 
 ```python
 scan = "CXR"
@@ -167,8 +169,8 @@ scan = "CXR"
 
 ## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
 
-* Can you think of other considerations that can make clinical data easier to process?
-* Have you ever encountered any issues with this in your practice?
+- Can you think of other considerations that can make clinical data easier to process?
+- Have you ever encountered any issues with this in your practice?
 
 ## Thank you! {background-image="/media/python-scales.jpg" background-opacity="0.4"}
 
