@@ -211,8 +211,8 @@ DAIM Team
 <h2>Introduction</h2>
 <ul>
 <li>Today’s module will cover <strong>the DICOM format</strong>.</li>
-<li>We will also recap important information from previous seminars.</li>
-<li>This will prepare you for the <strong>DICOM coding workshop</strong>.</li>
+<li>We will also recap important information from previous seminars</li>
+<li>This will prepare you for the <strong>DICOM coding workshop</strong></li>
 </ul>
 </section>
 <section>
@@ -237,7 +237,7 @@ DAIM Team
 <div id="tabset-1-2">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="../../../media/daim/np_shape_1.png" height="400"></p>
+<p><img data-src="../../../media/daim/np_shape_1.png"></p>
 <figcaption>Visualisation of different array shapes</figcaption>
 </figure>
 </div>
@@ -248,22 +248,22 @@ DAIM Team
 <section id="why-use-numpy-arrays-for-medical-images" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6">
 <h2>Why use NumPy arrays for medical images?</h2>
 <ul>
-<li>NumPy is built on top of <strong>C</strong>.
+<li>NumPy is built on top of <strong>C</strong>
 <ul>
-<li>Computations are much faster than in Python computations.</li>
+<li>Computations much faster than in Python computations</li>
 </ul></li>
-<li>NumPy arrays consume <strong>less space in memory</strong> than Python lists.</li>
-<li>NumPy is also <strong>fast</strong> because it uses <strong>broadcasting</strong>.</li>
+<li>NumPy arrays consume <strong>less space in memory</strong> than Python lists</li>
+<li>NumPy is also <strong>fast</strong> because it uses <strong>broadcasting</strong></li>
 </ul>
 </section>
-<section id="broadcasting" class="slide level2 smaller" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6">
+<section id="broadcasting" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6">
 <h2>Broadcasting</h2>
 <div class="panel-tabset">
 <ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Definition</a></li><li><a href="#tabset-2-2">Rules</a></li><li><a href="#tabset-2-3">Example</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1">
 <blockquote>
-<p>Broadcasting is the ability to perform computations on or using arrays without the need to use for loops even if arrays are not of the same exact shape.</p>
+<p>Broadcasting is the ability to perform computations on or using arrays without the need to use for loops even if arrays are not of the same exact shape</p>
 </blockquote>
 </div>
 <div id="tabset-2-2">
@@ -284,17 +284,16 @@ DAIM Team
 </div>
 </div>
 </div>
-<!-- TODO: repeat this slide but with the answer showing -->
 </section>
 <section id="question" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6" data-text-align="center">
 <h2>Question</h2>
 <ul>
 <li>Considering the rules of broadcasting, which would yield an error and which is compatible?</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>    (<span class="dv">2</span>,<span class="dv">1</span>), (<span class="dv">1</span>,) <span class="op">---&gt;</span></span>
-<span id="cb1-2"><a></a>    (<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">3</span>), (<span class="dv">2</span>,<span class="dv">5</span>,<span class="dv">3</span>) <span class="op">--&gt;</span></span>
-<span id="cb1-3"><a></a>    (<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">3</span>), (<span class="dv">5</span>,<span class="dv">3</span>) <span class="op">--&gt;</span></span>
-<span id="cb1-4"><a></a>    (<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">4</span>), (<span class="dv">4</span>,)<span class="op">--&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<pre><code>(2,1), (1,) ---&gt;
+(5,5,3), (2,5,3) --&gt;
+(5,5,3), (5,3) --&gt;
+(3,3,4), (4,)--&gt;</code></pre>
 </section></section>
 <section>
 <section id="section-1" class="title-slide slide level1 center">
@@ -303,7 +302,7 @@ DAIM Team
 <p><strong>Image Representation in DICOM</strong></p>
 </div>
 </section>
-<section id="reminder" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<section id="reminder" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Reminder</h2>
 <div class="panel-tabset">
 <ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Reminder</a></li><li><a href="#tabset-3-2">RGB Explainer</a></li></ul>
@@ -327,19 +326,19 @@ DAIM Team
 </div>
 </div>
 </section>
-<section id="houndsfield-units" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<section id="houndsfield-units" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Houndsfield Units</h2>
 <div class="panel-tabset">
 <ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Explanation</a></li><li><a href="#tabset-4-2">Hounsfield</a></li></ul>
 <div class="tab-content">
 <div id="tabset-4-1">
 <ul>
-<li>Used in <strong>X-ray imaging</strong> (plain films, CT scans).</li>
-<li>They describe a <strong>physical property</strong>.
+<li>Used in <strong>X-ray imaging</strong> (plain films, CT scans)</li>
+<li>They describe a <strong>physical property</strong>
 <ul>
-<li>The <strong>attentuation of x-rays</strong> through different structures.</li>
+<li>The <strong>attentuation of x-rays</strong> through different structures</li>
 </ul></li>
-<li><strong>Water</strong> is used as a reference point at <strong>0 HU (Hounsfield Units)</strong> .
+<li><strong>Water</strong> is used as a reference point at <strong>0 HU (Hounsfield Units)</strong>
 <ul>
 <li>Materials that <strong>attenuate X-rays more</strong> will have a <strong>higher value</strong>, and vice versa.</li>
 </ul></li>
@@ -348,7 +347,7 @@ DAIM Team
 <div id="tabset-4-2">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="../../../media/daim/module_3/image8.jpg" height="300"></p>
+<p><img data-src="../../../media/daim/module_3/image8.jpg"></p>
 <figcaption>In the early 1970s, <strong>Sir Godfrey Newbold Hounsfield</strong> , a British electrical engineer presented the world with Hounsfield Units which he won the <strong>Nobel Prize</strong> for several years later.</figcaption>
 </figure>
 </div>
@@ -356,18 +355,18 @@ DAIM Team
 </div>
 </div>
 </section>
-<section id="why-is-this-important-for-programming" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<section id="why-is-this-important-for-programming" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Why is this important for programming?</h2>
 <ul>
-<li>Houndsfield units are <strong>quantitative</strong> - they measure a <strong>physical property</strong>.</li>
+<li>Houndsfield units are <strong>quantitative</strong> - they measure a <strong>physical property</strong></li>
 <li>Houndsfield units are typically represented as 12-bit or 16-bit integers.</li>
-<li>As previously mentioned, <strong>most images are 8-bit</strong>.
+<li>As previously mentioned, <strong>most images are 8-bit</strong>
 <ul>
 <li>How can we visualise CT scans?</li>
 </ul></li>
 </ul>
 </section>
-<section id="windowing" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<section id="windowing" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Windowing</h2>
 <div class="panel-tabset">
 <ul id="tabset-5" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-5-1">Explanation</a></li><li><a href="#tabset-5-2">Table</a></li><li><a href="#tabset-5-3">Example</a></li></ul>
@@ -433,13 +432,13 @@ DAIM Team
 <p><strong>The DICOM Standard</strong></p>
 </div>
 </section>
-<section id="what-is-dicom" class="slide level2" data-background-image="../../../media/daim/bg_cubes_green_right.png" data-background-opacity="0.6">
+<section id="what-is-dicom" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>What is DICOM?</h2>
 <ul>
 <li><strong>DICOM (Digital Imaging and Communications in Medicine)</strong> is a standard for storing and transmitting medical images.</li>
 <li>It was developed to ensure <strong>interoperability</strong> between medical imaging devices.
 <ul>
-<li>CT and MRI <strong>(stored as 3D images)</strong></li>
+<li>CT, MRI <strong>(stored as 3D images)</strong></li>
 <li>X-ray and ultrasound <strong>(stored as 2D images)</strong></li>
 </ul></li>
 <li>DICOM includes more data <strong>about the image itself</strong>.
@@ -448,40 +447,39 @@ DAIM Team
 </ul></li>
 </ul>
 </section>
-<section id="metadata" class="slide level2" data-background-image="../../../media/daim/bg_cubes_green_right.png" data-background-opacity="0.6">
+<section id="metadata" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Metadata</h2>
 <ul>
-<li>Other formats (JPEG, PNG) have metadata.
+<li>Other formats (JPEG, PNG) have metadata
 <ul>
-<li>DICOM’s metadata is <strong>more extensive</strong>.</li>
+<li>DICOM’s metadata is <strong>more extensive</strong></li>
 </ul></li>
 <li>The metadata can include:
 <ul>
-<li>The patient’s name, referring hospital, gender, etc.</li>
-<li>Parameters of image acquisition such as slice thickness, protocol, position of patient, etc.</li>
+<li>The patient’s name, referring hospital, patient sex etc.</li>
+<li>Paramaters of image aquisition such as slice thickness, protocol, position of patient etc.</li>
 </ul></li>
 </ul>
 </section>
-<section id="other-features-of-dicom" class="slide level2" data-background-image="../../../media/daim/bg_cubes_green_right.png" data-background-opacity="0.6">
+<section id="other-features-of-dicom" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Other features of DICOM</h2>
 <ul>
-<li>A key part of DICOM is <strong>standardisation</strong>, allowing a common framework for managing, storing, and sharing medical images across different devices and platforms.
+<li>A key part of DICOM is <strong>standardization</strong> allowing a common framework for managing, storing, and sharing medical images across different devices and platforms
 <ul>
-<li>This allows for integration into electronic health records and PACS (Picture Archive Communication System).</li>
+<li>This allows for integration into electronic health records and PACS (Picture Archive Communication System)</li>
 </ul></li>
-<li>Support for <strong>lossless compression</strong>.
+<li>Support for <strong>lossless compression</strong>
 <ul>
-<li>Medical images can be compressed without losing valuable scan information.</li>
+<li>Medical images can be compressed without losing valuable scan information</li>
 </ul></li>
 </ul>
 </section>
-<section id="examples" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<section id="examples" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Examples</h2>
 <div class="panel-tabset">
 <ul id="tabset-6" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-6-1">Example 1</a></li><li><a href="#tabset-6-2">Lung Example</a></li><li><a href="#tabset-6-3">Soft Tissue Example</a></li></ul>
 <div class="tab-content">
 <div id="tabset-6-1">
-<!-- TODO: this one looks like lung windows -->
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="../../../media/daim/module_3/dicom_slices.gif"></p>
@@ -490,7 +488,6 @@ DAIM Team
 </div>
 </div>
 <div id="tabset-6-2">
-<!-- I have no idea what window this is, but it is way too overexposed -->
 <div class="quarto-figure quarto-figure-center">
 <figure>
 <p><img data-src="../../../media/daim/module_3/lung_windowed_slices.gif"></p>
@@ -512,15 +509,15 @@ DAIM Team
 <section id="break" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
 <h2>Break!</h2>
 </section>
-<section id="value-representation" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<section id="value-representation" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Value representation</h2>
 <ul>
-<li>Each item of <strong>data</strong> in a DICOM file has a <strong>value representation</strong>.
+<li>Each item of <strong>data</strong> in a DICOM file has a <strong>value representation</strong>
 <ul>
 <li>This is its <strong>datatype</strong></li>
 </ul></li>
 <li>Common datatypes in Python include integers, strings, floats, etc.</li>
-<li>DICOM’s <strong>value representations</strong> are more elaborate.</li>
+<li>DICOM’s <strong>value representations</strong> are more elaborate</li>
 <li>These are important so that the programmer knows how to <strong>interpret</strong> data in the file.</li>
 </ul>
 </section>
@@ -623,14 +620,13 @@ DAIM Team
 <li><strong>Image Distribution</strong>: Facilitates the transfer of images and associated data across multiple locations, enabling remote diagnostics and consultations.</li>
 </ul>
 </section>
-<section id="what-is-the-difference-between-pacs-and-dicom-viewers" class="slide level2">
+<section id="what-is-the-difference-between-pacs-and-dicom-viewers" class="slide level2 smaller">
 <h2>What is the difference between PACS and DICOM viewers?</h2>
-<div style="font-size: 18px;">
 <table class="caption-top">
 <colgroup>
-<col style="width: 18%">
-<col style="width: 38%">
-<col style="width: 42%">
+<col style="width: 12%">
+<col style="width: 37%">
+<col style="width: 49%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -660,6 +656,25 @@ DAIM Team
 <td>Basic integration with imaging devices.</td>
 <td>Integrates with various imaging modalities and hospital information systems.</td>
 </tr>
+</tbody>
+</table>
+</section>
+<section id="what-is-the-difference-between-pacs-and-dicom-viewers-1" class="slide level2 smaller">
+<h2>What is the difference between PACS and DICOM viewers?</h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 13%">
+<col style="width: 38%">
+<col style="width: 47%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Feature/Aspect</th>
+<th>DICOM Viewers</th>
+<th>PACS (Picture Archive and Communication Systems)</th>
+</tr>
+</thead>
+<tbody>
 <tr class="odd">
 <td><strong>Collaboration</strong></td>
 <td>Limited to local use, minimal sharing capabilities.</td>
@@ -682,17 +697,16 @@ DAIM Team
 </tr>
 <tr class="odd">
 <td><strong>Use Case</strong></td>
-<td>Suitable for individual practitioners or small practices needing basic image review.</td>
-<td>Ideal for hospitals, large clinics, and healthcare networks that require comprehensive image management.</td>
+<td>Suitable for individuals needing basic image review.</td>
+<td>Ideal for hospitals that require comprehensive image management.</td>
 </tr>
 </tbody>
 </table>
-</div>
 </section>
 <section id="python-packages" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Python Packages</h2>
 <ul>
-<li><strong>Python</strong> can be used to interact with DICOM files.</li>
+<li><strong>Python</strong> can be used to interact with DICOM files</li>
 <li>The library that we will be using in this course is <strong>pydicom</strong>.
 <ul>
 <li>This package can be used to open and extract <strong>image data</strong>.</li>
@@ -735,8 +749,8 @@ DAIM Team
 <section id="isotropic-vs.-non-isotropic-voxels" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Isotropic vs.&nbsp;Non-Isotropic Voxels</h2>
 <ul>
-<li>Isotropic voxels have <strong>equal dimensions</strong>, e.g.&nbsp;1 mm × 1 mm × 1 mm.</li>
-<li>Non-isotropic voxels do not have <strong>square</strong> dimensions, e.g.&nbsp;1mm × 1mm × 2mm.</li>
+<li>Isotropic voxels have <strong>equal dimensions</strong>, e.g.&nbsp;1 mm × 1 mm × 1 mm</li>
+<li>Non-isotropic voxels do not have <strong>square</strong> dimensions, e.g.&nbsp;1mm × 1mm × 2mm</li>
 </ul>
 
 <img data-src="../../../media/daim/module_3/voxels.JPG" class="r-stretch quarto-figure-center"><p class="caption">Example plot showing different voxel dimensions.</p></section>
@@ -774,21 +788,21 @@ DAIM Team
 <section id="displaying-an-image" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Displaying an image</h2>
 <ul>
-<li><strong>Sections</strong> of an image can be displayed instead.</li>
-<li>These can correspond to the <strong>x, y, and z imaging dimensions</strong>.
+<li><strong>Sections</strong> of an image can be displayed.</li>
+<li>These can correspond to the <strong>x, y, and z imaging dimensions</strong>
 <ul>
 <li>Coronal, sagittal and axial planes</li>
 </ul></li>
-<li>In Python, these can be extracted by <strong>array slicing</strong>.</li>
+<li>In Python, these can be extracted by <strong>array slicing</strong></li>
 <li>What happens if you want a <strong>different angle</strong> of your imaging plane?</li>
 </ul>
 
-<img data-src="../../../media/daim/module_3/dicom_slices2.gif" class="r-stretch quarto-figure-center"><p class="caption">Scrolling down the z-axis (axially) in a thoracic CT scan.</p></section>
+<img data-src="../../../media/daim/module_3/dicom_slices2.gif" class="r-stretch quarto-figure-center"><p class="caption">Scrolling down the z-axis (axially) in a thoracic CT scan</p></section>
 <section id="interpolation" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Interpolation</h2>
 <ul>
 <li>Interpolation is a method used to estimate an unknown value between two known values.</li>
-<li>In medical imaging, it can be used to estimate intermediate values between voxels.
+<li>In medical imaging, it can be used to estimate intermediate values between voxels
 <ul>
 <li>This can be useful if you want to section the volume at an <strong>angle</strong>.</li>
 </ul></li>
@@ -797,28 +811,26 @@ DAIM Team
 <section id="segmentation" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Segmentation</h2>
 <ul>
-<li>Segmentation is <strong>pixel-level classification</strong> where each pixel is classified to belong to a <strong>certain class</strong>.
+<li>Segmentation is <strong>pixel-level classification</strong> where each pixel is classified to belong to a <strong>certain class</strong>
 <ul>
 <li><strong>e.g.&nbsp;is this pixel part of the liver?</strong></li>
 </ul></li>
-<li>This can be useful in many settings including automated image analysis and object rendering.</li>
+<li>This can be useful in many settings including automated image analysis and object rendering</li>
 </ul>
 
 <img data-src="../../../media/daim/module_3/3dsegmentation.JPG" class="r-stretch quarto-figure-center"><p class="caption">Segmentation of the liver and other vessels.</p></section>
 <section id="maximum-intensity-projection-mip" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Maximum Intensity Projection (MIP)</h2>
 <ul>
-<li><strong>Maximum Intensity Projection (MIP)</strong> is a method used to visualize 3D volumetric data.</li>
+<li><strong>Maximum Intensity Projection (MIP)</strong> is a method used to visualize 3D volumetric data</li>
 <li>It projects the highest intensity values along each line of sight onto a 2D plane.</li>
 <li>Often used in <strong>positron emission tomography (PET) imaging</strong>.</li>
 </ul>
-<!-- I had to remove the spect-ct link, as it is no longer working and it causes the link testing code to fail! -->
-
-<img data-src="../../../media/daim/module_3/MouseMIP_Christian_Lackas.gif" class="r-stretch quarto-figure-center"><p class="caption">MIP of a SPECT image of a mouse. Source: Christian Lackas, <a href="mailto:delta@lackas.net" class="email">delta@lackas.net</a> Originally uploaded to en.wikipedia. Description page is/was <a href="https://en.wikipedia.org/wiki/File:Mouse02-spect.gif">here</a>. <a href="https://commons.wikimedia.org/w/index.php?curid=8744558">CC BY-SA 3.0</a></p></section></section>
+<p>&lt;!– I had to delete the spect-ct link as it caused the CICD to fail &gt; <img data-src="../../../media/daim/module_3/MouseMIP_Christian_Lackas.gif" alt="MIP of a SPECT image of a mouse. Source: Christian Lackas, delta@lackas.net Originally uploaded to en.wikipedia. Description page is/was here. CC BY-SA 3.0"></p>
+</section></section>
 <section id="thank-you" class="title-slide slide level1 center" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
 <h1>Thank you!</h1>
 <p>Any questions?</p>
-<!-- TODO: mention what is coming up next -->
 
 
 </section>
