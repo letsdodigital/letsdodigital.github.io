@@ -28,13 +28,15 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: run CI CD tasks
+      - name: Run CI CD tasks
         run: bash cicd.sh
 
-      - name: Render and Publish
+      - name: Push to github pages
+        if: success()
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
+          # No need to render again, as CICD script already does this.
           render: "false"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -68,16 +70,3 @@ jobs:
             }
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-  build-deploy:
-    needs: testing
-    runs-on: ubuntu-latest
-    name: Build and Deploy
-    permissions:
-      contents: write
-    steps:
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
