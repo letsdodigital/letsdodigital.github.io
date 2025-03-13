@@ -74,7 +74,7 @@ title-slide-attributes:
 
 ## Big Business
 
-<div class="fact-pop">Worth $288.55 billion in 2024</div>
+<div class="fact-pop">Worth $290 billion in 2024</div>
 
 <footer>Grand View Research, "Digital Health Market Report", 2024, <https://www.grandviewresearch.com/industry-analysis/digital-health-market></footer>
 
@@ -112,7 +112,7 @@ title-slide-attributes:
 ## The Digital Health Boom (2010s - Now)
 
 - **Smartphones & Apps:** Patients started using apps for tracking health, fitness, and medications.
-- **Electronic Health Records (EHRs):** Hospitals and clinics moved to digital records that could be shared across healthcare providers.
+- **Electronic Health Records (EHRs):** Hospitals and clinics moved to digital records and functionality.
 - **Telemedicine Growth:** Video calls with doctors became more common, especially after the COVID-19 pandemic.
 
 ---
@@ -129,7 +129,7 @@ title-slide-attributes:
 
 - **Wearable Devices:** Smartwatches and fitness trackers allowed people to monitor their health in real-time.
 - **Artificial Intelligence (AI):** AI is showing promise to help doctors analyse scans and predict illnesses more accurately.
-- **Big Data in Healthcare:** Large amounts of health data has helped scientists understand diseases better.
+- **Big Data in Healthcare:** Large amounts of health data has helped scientists understand disease better.
 
 ---
 
@@ -168,7 +168,7 @@ title-slide-attributes:
 
 ---
 
-## 2. Telemedicine (Seeing a Doctor Online)
+## 2. Telemedicine
 
 - Talking to a doctor using a video call instead of going to a clinic.
 - Useful for people who live far away or cannot travel easily.
@@ -209,7 +209,7 @@ title-slide-attributes:
 
 <div class="fact-pop">AI assistance improved clinicians' ability to detect lung cancer by 17.4%</div>
 
-<footer>Dissez G, Tay N, Dyer T, et al., "Enhancing Early Lung Cancer Detection on Chest Radiographs with AI-assistance: A Multi-Reader Study", 2022, <https://arxiv.org/abs/2208.14742></footer>
+<footer>Dissez G, Tay N, Dyer T, et al., "Enhancing Early Lung Cancer Detection on Chest Radiographs with AI-assistance: A Multi-Reader Study", Cornell University, 2022, <https://arxiv.org/abs/2208.14742></footer>
 
 ---
 
@@ -225,6 +225,17 @@ title-slide-attributes:
 
 - Protecting patient information so that only the right people can see it.
 - Important for keeping medical records safe.
+
+# Topics {.smaller}
+
+- There are a huge amount of topics in digital health. These topics are as broad as:
+  - Infrastructure
+  - Governance
+  - Programmatic coding
+  - Workflow optimisation
+  - Change management
+  - Clinical safety
+  - AI
 
 # Benefits and Challenges of Digital Health{background-image="/media/abseiling.jpg" background-opacity="0.5"}
 
@@ -265,11 +276,12 @@ title-slide-attributes:
 
 ## Why this statistic?
 
-- Regulation
-- Standards
-- Reimbursement
-- Stakeholder take up of new technology
-- Poor outcomes in real life settings
+- A complex ecosystem!
+  - Regulation
+  - Standards
+  - Reimbursement
+  - Poor stakeholder take up of new technology
+  - Poor outcomes in real life settings
 
 # How Can You Learn More About Digital Health? {background-image="/media/man-reading.jpg" background-opacity="0.5"}
 
@@ -277,8 +289,9 @@ title-slide-attributes:
 
 ## Where to Start?
 
-- The `Let's Do Digital` team is building new modules.
-- You can also join discussions on digital health topics at `Digital Health Discourse`. See [https://discourse.digitalhealth.net/](https://discourse.digitalhealth.net/).
+- The `Let's Do Digital` team is delivering learning materials covering the whole of digital health.
+- The materials from these modules will be used to write the `Essentials of Health Informatics` handbook - free and open source.
+- You can also join discussions and learn more on a range digital health topics at `Digital Health Discourse`. See [https://discourse.digitalhealth.net/](https://discourse.digitalhealth.net/).
 
 ---
 
@@ -287,6 +300,7 @@ title-slide-attributes:
 - Digital health is changing how we access and receive care.
 - There are many opportunities to learn and get involved.
 - As a complex ecosystem, creating and implementing digital solutions can be tricky.
+- It is evolving fast, especially with the rise of AI and big data.
 - Education and training are key to understanding, buying and making digital health work for everyone.
 
 # Quiz Time! {background-image="/media/quiz.jpg" background-opacity="0.3"}

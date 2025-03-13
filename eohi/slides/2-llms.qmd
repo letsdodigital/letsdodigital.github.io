@@ -1,3 +1,416 @@
-# test
+---
+title: "Large Language Models in Healthcare"
+author: "Let's Do Digital"
+format: revealjs
+css: /slides.css
+title-slide-attributes:
+  data-background-image: /media/hand-network.jpg
+  data-background-opacity: "0.4"
+---
 
-stuff
+## Overview
+
+- This module covers how large language models (LLMs) work and their role in healthcare.
+- We’ll explore risks, safety, and practical tips for clinicians.
+- End with a quiz to test your understanding.
+
+---
+
+## We Will Cover
+
+1. What are LLMs?
+2. How do they work?
+3. Why you need to avoid patient identifiable information?
+4. How to affectively ask questions of LLMs?
+5. Are LLMs safe for use in healthcare?
+6. Who’s responsible for LLM outputs?
+
+## What Are Large Language Models?
+
+- Large Language Models (LLMs) are artificial intelligence (AI) tools that interpret and generate human language.
+- Some of them can also create images and video.
+- Examples include `ChatGPT`, `Claude` and `Grok`.
+- Most people now interact with LLMs via `chatbots`.
+
+# What Do Their Interfaces Look Like? {background-image="/media/binoculars.jpg" background-opacity="0.3"}
+
+---
+
+## ChatGPT from openAI
+
+![](/media/chatgpt-mi.png){.nostretch fig-align="center" width="800px"}
+
+---
+
+## Claude from Anthropic
+
+![](claude-mi.png){.nostretch fig-align="center" width="800px"}
+
+---
+
+## Grok from X.com
+
+![](grok-mi.png){.nostretch fig-align="center" width="800px"}
+
+---
+
+## APIs
+
+- Application Programming Interfaces (APIs) are another way to interact with LLMs.
+- APIs are basically programmatic (via code) ways to interact with LLMs.
+- They are used to integrate LLMs into other software.
+
+# How Do They Work? {background-image="/media/ceramic-head.jpg" background-opacity="0.3"}
+
+---
+
+## Neural Networks
+
+- Most, if not all LLMs, are built on the deep learning architecture, a type of neural network.
+- These mimic neurons in the human brain.
+
+![](/media/neural-network.png){.nostretch fig-align="center" width="500px"}
+
+---
+
+## AI subset
+
+- Deep learning is a subtype of AI.
+
+![](/media/ai-llm-venn.png){.nostretch fig-align="center" width="500px"}
+
+---
+
+## Transformers
+
+- LLMs are built on a specific type of deep learning architecture called `transformers`.
+
+---
+
+## Transformers
+
+<div class="fact-pop">Attention Is All You Need</div>
+
+<footer>Vaswani et al., "Attention Is All You Need," 2017, <https://arxiv.org/abs/1706.03762></footer>
+
+---
+
+## Lots of Data?
+
+- LLMs are trained on a large amount of text data (or imaging data if they create images).
+- This can be in the form of books, articles, or web pages.
+- This is in the order of `billions` of words.
+- The size of the data LLMs are trained on is what makes them "large".
+
+---
+
+## Lots of Cost
+
+<div class="fact-pop">Training of GPT-4 likely cost over £50 million</div>
+
+<footer>Carbon Credits, "The Carbon Countdown: AI and Its 10 Billion Rise in Power Use", 2024, <https://carboncredits.com/carbon-countdown-ais-10-billion-rise-in-power-use-explodes-data-center-emission/></footer>
+
+---
+
+## How do you interact with LLMs?
+
+- You interact with LLMs by typing in a question (called a prompt).
+- The LLM then generates a response based on the data it has been trained on.
+- You can then ask follow-up questions to the LLM.
+  ![](/media/chatGPT-input.png)
+
+---
+
+## LLMs Predict the Next Word
+
+- LLMs learn to predict the next word in a sentence based on sentences it has seen before during training.
+
+\
+
+```text {code-line-numbers="false"}
+    "Yesterday, I went to the ____________."
+```
+
+\
+
+- LLM could return: _store_, _beach_, _cinema_
+- LLM less likely to return: _elephant_, _carrot_, _sun_
+
+---
+
+## LLMs Are Probabilistic!
+
+- What is meant by this?
+- Let's first take a look at an example of a deterministic result.
+
+---
+
+## LLMs Are Probabilistic!
+
+- If you want to know what the weather currently is, you can look outside and see if it is raining or sunny.
+- This is a deterministic result. It is either raining or sunny. There is no probability of it being either raining or sunny.
+
+---
+
+## LLMs Are Probabilistic!
+
+- If you ask an LLM what the weather is like right now, it will give you an answer based on the data it has been previously trained on, and not use any other method to assess the current weather outside the window.
+- This is a probabilistic result.
+- It also means that you can get slightly different answers each time you ask the same question.
+
+---
+
+## LLMs Are Probabilistic!
+
+```text {code-line-numbers="false"}
+    "What is the weather like right now?"
+    "It is raining."
+
+    "What is the weather like right now?"
+    "It is sunny."
+
+    "What is the weather like right now?"
+    "It is snowing."
+```
+
+---
+
+## Hallucinations
+
+- This is a very important concept to understand, especially when using LLMs in healthcare.
+- Hallucinations are when the LLM generates information that is not true.
+- The probabilistic nature of LLMs is the main cause for hallucinations. Other causes are:
+  - Gaps in the data that the LLM was trained on.
+  - Overfitting - taking very specific data and generalizing it.
+  - The question you ask of the LLM was not clear.
+
+---
+
+## Fine tuning
+
+- LLMs can also be improved or adjusted from their original training data, for example if you want to make them more specific to healthcare.
+- This is called `fine tuning`.
+- We will not go into the details of fine tuning in this talk.
+
+# Healthcare and LLMs {background-image="/media/stethoscope-and-sphygmomanometer.jpg" background-opacity="0.3"}
+
+---
+
+## How are LLMs used in healthcare?
+
+- Examples: Summarizing notes, answering medical questions, drafting reports.
+- Goal: Help clinicians save time and improve patient care—responsibly.
+
+---
+
+## LLMs Are Everywhere
+
+<div class="fact-pop">79% of healthcare organisations have explored AI tools like LLMs</div>
+
+<footer>Microsoft, "Microsoft makes the promise of AI in healthcare real through new collaborations with healthcare organizations and partners", 2024 <https://blogs.microsoft.com/blog/2024/03/11/microsoft-makes-the-promise-of-ai-in-healthcare-real-through-new-collaborations-with-healthcare-organizations-and-partners/></footer>
+
+# Patient Confidentiality {background-image="/media/safe-dial.jpg" background-opacity="0.3"}
+
+---
+
+## Why No Patient Info?
+
+- LLMs can “memorise” data they’re trained on — risking sensitive data leaks.
+- Inputting patient details (e.g., “John Doe, born 24/01/1981, diabetes”) could expose sensitive info.
+- Privacy laws like HIPAA (in the USA) forbid using LLMs and patient data without safeguards.
+
+---
+
+## Even if you don't input patient info...
+
+<div class="fact-pop">In a research setting, medically trained LLMs allowed 22% of attacks to exposed sensitive data</div>
+
+<footer>Alber et al, "Medical large language models are vulnerable to data-poisoning attacks", Nature, 2025, <https://www.nature.com/articles/s41591-024-03445-1></footer>
+
+# Prompt Engineering {background-image="/media/engineer-beam.jpg" background-opacity="0.3"}
+
+---
+
+## Prompt Engineering Basics
+
+- Prompt: Basically the question that you type in.
+- Prompt engineering: Crafting clear questions to get useful LLM outputs.
+- **Bad:** “Tell me about chest pain.”
+- **Better:** “List causes of acute chest pain in a 50-year-old male smoker.”
+
+---
+
+## How to Prompt Well
+
+- Be specific: Include age, symptoms, context.
+- Avoid jargon overload: “MI” might confuse it—use “myocardial infarction.”
+- Test and tweak: Adjust your prompts, adding new ones if needed, if answers stray off-topic.
+
+---
+
+## Example Prompt
+
+- **Input:** “Summarise treatment options for hypertension in a 60-year-old female with no allergies.”
+- **Output:** "This 60-year-old lady would likely benefit from ACE inhibitors and also lifestyle changes".
+
+---
+
+## Prompt Types
+
+- There are various ways you can manage your prompts to the LLM. Some common types include:
+  - Zero-shot
+  - Multi-shot
+  - Chain-of-thought
+  - Role playing
+
+## Zero-shot
+
+```text {code-line-numbers="false"}
+    USER: "What are the symptoms of COVID-19?"
+```
+
+## Multi-shot
+
+```text {code-line-numbers="false"}
+    USER:
+    "Cough + dry = COVID-19?"
+    "Cough + wet = pneumonia?"
+    "Cough + blood ="
+
+    LLM:
+    "Tuberculosis"
+```
+
+## Chain-of-thought
+
+```text {code-line-numbers="false"}
+    USER:
+    "I have a headache."
+    "What could be causing it?"
+    "What should I do about it?"
+```
+
+---
+
+## Role playing
+
+```text {code-line-numbers="false"}
+    USER:
+    "Pretend that you are a doctor specialised in headaches. What would you do if a patient presented with a headache that is of sudden onset?"
+```
+
+# Limitations {background-image="/media/speed-limit-25.jpg" background-opacity="0.2"}
+
+---
+
+## Cannot Count
+
+- Technically, LLMs cannot count. If you ask it to multiple something, it will print out a number that looks about right, but is technically wrong.
+- Some LLMs now have added features that enable calculations.
+
+---
+
+## Out of Date
+
+- LLMs are trained on data up to the point of training. If you ask it about something that has happened after the training data, it will not know about it.
+- Some LLMs are now able to access live websites, and can provide you with up-to-date information. However, the accuracy of how the LLM interprets this information is still in question.
+
+---
+
+## Also...
+
+- **Logical reasoning:** LLMs can struggle with complex logic or reasoning.
+- **Memory:** LLMs can forget context from earlier in a conversation.
+- **Highly specialised knowledge:** LLMs can struggle with highly specialized or niche knowledge that isn’t well-represented in their training data.
+
+# Safety {background-image="/media/hard-hat.jpg" background-opacity="0.5"}
+
+---
+
+## Safety First
+
+- LLMs aren’t doctors — they can hallucinate (invent facts) or miss nuance.
+- Example: Might suggest a drug contraindicated for a condition.
+- Always double-check with clinical judgment.
+
+---
+
+## Why Safety Matters
+
+- Misdiagnosis or bad advice could harm patients.
+- LLMs lack empathy and can’t read body language like clinicians.
+- Use as a tool, not a replacement.
+
+---
+
+## Legal Responsibility
+
+- If an LLM’s advice goes wrong, who’s liable? Most likely the clinician.
+- Courts will likely see you as the final decision-maker, not the LLM.
+- Although, there have been no large court cases involving LLMs in healthcare, yet!
+- Document use and verify outputs to protect yourself.
+
+---
+
+## Scepticism
+
+<div  class="fact-pop">Clinicians and the general public are still sceptical about the use of LLMs</div>
+
+<footer>Jones et al, "Artificial intelligence and clinical decision support: clinicians’ perspectives on trust, trustworthiness, and liability", Medical Law Review 2023, 31(4), 501-520,<https://academic.oup.com/medlaw/article/31/4/501/7176027></footer>
+
+---
+
+## Current Applications
+
+It is best to keep LLM usage around healthcare to **more basic**, **non-critical tasks**, with **you as the clinician verifying the final output**.
+
+- **Documentation**: Drafting notes or summaries—faster than typing.
+- **Education**: Explaining complex terms to clinicians or patients.
+- **Research**: Summarizing studies or spotting trends.
+
+# Closing Thoughts {background-image="/media/swing-dusk.jpg" background-opacity="0.3"}
+
+---
+
+## Future Potential
+
+- Predicting outcomes (e.g., readmissions) with patient data analysis.
+- Personalizing care plans via integrated EHR insights.
+- Bridging language gaps in diverse clinics.
+
+---
+
+## Ethical Concerns
+
+- Bias: Trained on skewed data—might miss rare conditions or minorities.
+- Transparency: Hard to know _why_ an LLM suggests something.
+- Equity: Not all healthcare providers can afford AI tools.
+
+---
+
+## Clinician Tips
+
+- `Treat LLMs like a smart intern` — helpful but needs oversight.
+- **Start small:** Use for summaries, not critical decisions.
+- **Stay updated:** AI evolves fast—check new features.
+
+---
+
+## Where to Learn More
+
+- Check `Let’s Do Digital` modules for LLM basics.
+- The materials from these modules will be used to write the `Essentials of Health Informatics` handbook - free and open source.
+- Join `Digital Health Discourse`—see <https://discourse.digitalhealth.net/>.
+
+---
+
+## To Conclude
+
+- LLMs can boost efficiency and learning in healthcare.
+- Risks: privacy, safety, and liabilities.
+- Master them now - they’re here to stay.
+
+# Quiz Time! {background-image="/media/quiz.jpg" background-opacity="0.3"}
+
+- Test your LLM know-how with a quick quiz.
+- Good luck!
