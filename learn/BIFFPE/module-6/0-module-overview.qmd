@@ -1,0 +1,34 @@
+---
+title: "Module-6-0-javascript-advanced"
+author: "David Tang"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+  data-background-color: "#0D4848"
+---
+
+## Module 6: Making Websites Move - Part 2 {background-image="/media/denny-muller-JySoEnr-eOg-unsplash.jpg" background-opacity="0.2"}
+
+- Well done on making it this far!
+- We are going to more advanced bits of Javascript.
+
+---
+
+## Contents 
+  - **Loops** in JavaScript: Automating repetitive tasks.
+  - Building our first function: A phone number validator.
+  - Pulling clinical data from an external database.
+  - Sorting and getting relevant data with javascript.
+
+---
+
+## Tutor groups
+
+- We maintain a maximum ratio of 4:1 students:tutor at LDD courses.
+- Time to get paired up into each tutorial group, and set up the breakout rooms.
+
+## Questions?
+
+
+---

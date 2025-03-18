@@ -1,0 +1,60 @@
+---
+title: "Module-5-4-more-features"
+author: "David Tang"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+  data-background-color: "#0D4848"
+---
+
+## More features?
+
+- In this next section, you are going to test out more features.
+- Check out web interactivity, and combine this with the previous knowledge about data types.
+
+---
+
+## Web interactivity 
+
+- We've learnt `html` and `css` in the prior modules 
+- Javascript is a useful tool to interact with these elements 
+- There is a specific function called `.getElementById` that lets the code target specific parts of our code
+- and enables users to modify or interact with it.
+
+---
+
+## Now get testing!
+
+- Check out the following javascript functions
+- Open up `5-4-more-features/second-more-javascript-features.html`
+  - color change
+  - movement
+  - visibility toggle
+  - rotate
+  - scale transform
+  - multiple (mix and match!)
+
+- Also look at the code and get intuition on how it is interacting with the `div` element from html.
+
+---
+
+## Hands-on
+
+- Feel free to take 2 minutes, to change the code.
+- Reopen or refresh your preview to see what happens.
+
+---
+
+## Even more features.
+
+- Open up `5-4-more-features/third-modal-events.html`
+- Javascript can capture events not just from within html.
+- Here we have additional examples :
+  - opening up popups
+  - tracking mouse location
+  - keyboard tracking 
+  - modals (overlays within a page)
+  - form validation
+
+---

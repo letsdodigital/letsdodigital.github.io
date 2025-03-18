@@ -1,5 +1,5 @@
 ---
-title: "Module-5"
+title: "Module-5-3-code-sandbox"
 author: "David Tang"
 format: revealjs
 logo: /media/ldd-logo.png
@@ -15,6 +15,7 @@ title-slide-attributes:
   - CodePen: (www.codepen.io) - User-friendly interface with live preview.
   - JS Bin: (www.jsbin.com) - Minimalist environment for focused coding.
   - Browser Console: (In your web browser's developer tools) - Quick and readily available.
+  - Github codespaces - We'll cover this on the course.
 
 ---
 
@@ -48,7 +49,15 @@ title-slide-attributes:
 
 ## Code
 
-- Share CodePen link with attendees.
+- Share Codespaces link with attendees.
 - Ask them to open the link and try it out.
+- Take the time to explore the interface and familiarise.
+- Any questions on how codespaces work? 
+
+- Look at the `5-3-start-here` folder and try to get the first javascript project working.
+- There are many ways to get this running in codespaces.
+- Easiest for this course would be to install the `Preview` extension.
+
+- Now: What does the html do and start getting some intuition behind the mechanics.
 
 ---

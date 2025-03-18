@@ -1,5 +1,5 @@
 ---
-title: "Module-5"
+title: "Module-5-0-javascript-101"
 author: "David Tang"
 format: revealjs
 logo: /media/ldd-logo.png
@@ -56,15 +56,18 @@ title-slide-attributes:
 - Why use JavaScript? The importance of dynamic content and behavior.
 - **Variables** in JavaScript: Storing and manipulation of data.
 - Setting up a **JavaScript testing sandbox**.
+- Testing out web interactivity with JavaScript.
 
 - Followup module 6:
   - **Loops** in JavaScript: Automating repetitive tasks.
   - Building our first function: A phone number validator.
+  - Pulling clinical data from an external database.
+  - Sorting and getting relevant data with javascript.
 
 ## Tutor groups
 
-- Tutor groups:
-  - ?
+- We maintain a maximum ratio of 4:1 students:tutor at LDD courses.
+- Time to get paired up into each tutorial group, and set up the breakout rooms.
 
 ## Next Session
 

@@ -1,0 +1,37 @@
+---
+title: "Module-6-1-loops"
+author: "David Tang"
+format: revealjs
+logo: /media/ldd-logo.png
+css: /slides.css
+title-slide-attributes:
+  data-background-color: "#0D4848"
+---
+
+## Module 6: Making Websites Move - Part 2 {background-image="/media/denny-muller-JySoEnr-eOg-unsplash.jpg" background-opacity="0.2"}
+
+- Just one more concept now: Loops
+
+---
+
+## Loops
+
+- A useful programmatic way of doing a lot with less code
+- Loops are used to repeat a block of code multiple times.
+- They automate repetitive tasks, saving time and effort. 
+
+---
+
+## Control Flow:
+
+- Loops alter the normal sequential flow of program execution.
+
+Learn how to control the flow using loop control statements like break and continue.
+Initialization, Condition, and Increment/Decrement:
+
+Many loops rely on these three components:
+Initialization: Sets the initial value of a loop counter.
+Condition: Determines whether the loop continues or terminates.
+Increment/Decrement: Changes the loop counter after each iteration.
+
+---
