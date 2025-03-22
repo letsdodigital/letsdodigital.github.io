@@ -11,7 +11,7 @@ title-slide-attributes:
 
 ## Introduction {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
-- Welcome to the second seminar of the **DAIM - Images** course!
+- Welcome to the Module 2 of the **DAIM - Images** course!
 - This seminar will introduce key concepts for image processing in Python.
 - This will prepare you for the first workshop of the course.
 
@@ -19,10 +19,10 @@ title-slide-attributes:
 
 - **Recap** general uses of image data in clinical settings.
 - Understand the **basics** of **digital image representation**.
-- Understand what an **image transform** is.
+- Learn about **convolution**, a type of image transform
 - Learn overviews of **two key Python packages** (PIL, NumPy).
 
-## What is meant by image processing? {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
+## What is meant by digital image processing? {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6"}
 
 - This refers to **performing operations** on **an image** to **gain information** from it or improve its usefulness.
 - Digitally, an image is defined as a **2D grid of pixels**.
@@ -243,9 +243,7 @@ A comparison of convolving an image of a cat with a edge detection kernel (Sobel
 - It is **used in other areas** (e.g. signal processing).
 - Convolution is a key operation in a **convolutional neural network**, a **well-established deep-learning architecture** for analysing images.
 
-## 5-minute task or break! {background-image="/media/daim/coffee2.png" background-opacity="0.4"}
-
-- What property do all of the `kernel` variables in the **convolution example slide** share?
+## 5-minute break! {background-image="/media/daim/coffee2.png" background-opacity="0.4"}
 
 <!--
 Find a clinical example of convolution?
@@ -371,10 +369,6 @@ derm_image_shape = (1920, 1080, 3)
 cxr_batch_shape = (16, 256, 256)
 ```
 
-:::
-
-:::{.r-stack}
-**Conclusions**
 :::
 
 ## Conclusions {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
