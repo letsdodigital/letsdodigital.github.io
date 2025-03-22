@@ -5,6 +5,7 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
+title-slide-attributes:
   data-background-image: /media/daim/bg_cubes_blue.png
   data-background-opacity: "0.6"
 ---
@@ -15,10 +16,15 @@ title-slide-attributes:
 - Today, we will be discussing:
   - The clinical benefits of **learning to work with images**.
   - **Programming resources** that you can use throughout the course.
+- Welcome to the first seminar of the **Data Analytics in Medicine (DAIM) - Images** course!
+- Today, we will be discussing:
+  - The clinical benefits of **learning to work with images**
+  - **Programming resources** that you can use throughout the course
 
 ## Why programming in medicine? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 <!--
+References
 References
 https://www.pharmiweb.com/press-release/2024-04-24/ai-in-medicine-market-set-for-accelerated-growth-forecasting-usd-1568-billion-value-by-2033
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7577280/#bib0630
@@ -31,6 +37,11 @@ https://www.nature.com/articles/s41591-021-01614-0
 - **"The usefulness of human–AI collaboration will likely depend on the specifics of the task and the clinical context."** - "AI in health and medicine", _Nature_.
 - Clinicians will be, and should be, **leading** both the **development and deployment** of these technologies.
 
+- The global market for AI in medicine has grown from
+  - $0.2 billion in 2015 to _$13.7 billion_ in 2023
+- **"The usefulness of human–AI collaboration will likely depend on the specifics of the task and the clinical context."** - "AI in health and medicine", in _Nature_
+- Clinicians will be, and should be, **leading the deployment** of these technologies
+
 ## Why programming in medicine? {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 <!--
@@ -42,13 +53,22 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
   - _"...almost half recorded instances of potential patient harm linked to their systems."_
 - Involving doctors from the start helps integrate expert medical knowledge and safety at the core and strengthens the **advocation for patients**.
 
+- There is risk of harm to patients if technology is deployed **incorrectly** or **inappropropriately**
+  - _"...almost half recorded instances of potential patient harm linked to their systems."_
+- Involving doctors in development helps **idea sharing** and helps us **advocate for patients**.
+
+## Why programming in medicine? {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
 ## Why programming in medicine? {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
 
 - Most **translational bioengineering** or **informatics** research will use some degree of programming in **Python, MatLab, or R**.
 - This skills allows for some degree of work across **clinical** settings and **academia**.
+- Most **translational bioengineering** or **informatics** research will use some degree of programming in **Python, MatLab, or R**
+- This skills allows for some degree of work across **clinical** settings and **academia**
 
 ## 5-minute open discussion {background-image="/media/daim/question1.png" background-opacity="0.4"}
 
+- What is the **top reason** that doctors should learn to program?
+- What are the **disadvantages** of programming for doctors?
 - What is the **top reason** that doctors should learn to program?
 - What are the **disadvantages** of programming for doctors?
 
@@ -62,6 +82,12 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
   - **Easy to use**
   - **Powerful**
 - Many other biomedical coding resources use this environment, e.g. **Kaggle** and **AlphaFold**.
+- We will be using **Google Colab** for the workshops of DAIM - Images.
+- Google Colab uses **Jupyter Notebooks** to run Python code
+  - **Easy to set up**
+  - **Easy to use**
+  - **Powerful**
+- Many other biomedical coding resources use this environment, e.g. **Kaggle**, **AlphaFold**
 
 ## Google Colab Window
 
@@ -71,6 +97,11 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
 
 ## Using Google Colab
 
+- Variables **persist** between cells:
+- A notebook consists of **cells**
+  - **Code** cells
+  - **Markdown** cells
+- When you run the first line of code, the **kernel** starts
 - Variables **persist** between cells:
 
 ![](/media/daim/colab_cells.png)
@@ -87,16 +118,27 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
 
 - We would recommend **testing** Google Colab before the first workshop.
 - We will provide a link to a workshop with **exercises** that you can try over the next 1-2 weeks **before the first workshop**. 
+- We would recommend testing out Google Colab before the first workshop.
+- The default notebook from Google can be found [here](https://colab.research.google.com/).
 
+## Resources to use {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 ## Resources to use {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 - There are multiple resources that programmers often use when trying to solve a particular problem:
   - **Code documentation** - reliable and accurate
   - **StackOverflow forums** - real-world solutions with explanations
   - **Github code repositories** - code that works (mostly)
+- There are multiple resources that programmers often use when trying to solve a particular problem
+  - **Code documentation** - reliable and accurate
+  - **StackOverflow** - real-world solutions with explanations
+  - **Github** - Talk with the developers
 
 ## Code documentation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
+- Documentation contains information about how to use the code in a library.
+- It should be the first place you go if you **don't understand** how to use a function/class.
+- Contains information about **arguments** and **use cases**.
+- Search for the function (e.g. `numpy.shape()`) followed by "docs".
 - Documentation contains information about how to use the code in a library.
 - It should be the first place you go if you **don't understand** how to use a function/class.
 - Contains information about **arguments** and **use cases**.
@@ -105,6 +147,7 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
 ## Reading Documentation
 
 <!-- TODO: is this formattted correctly? Are you wanting to have nested hyperlinks and images? -->
+## Reading Documentation
 
 ![[The documentation for NumPy's 'shape' method](https://numpy.org/doc/stable/reference/generated/numpy.shape.html), a very commonly used NumPy method](/media/daim/np_shape_docs.png)
 
@@ -113,7 +156,11 @@ Maybe mention the difference between function and method here.
 -->
 
 ## StackOverflow
+## StackOverflow
 
+- **[StackOverflow](https://stackoverflow.com)** is a website created in 2008 to allow programmers to **share programming issues**.
+- There are other websites (**Stack Exchanges**) for other fields that have been created in the same format.
+  - **[Medical Sciences Stack Exchange](https://medicalsciences.stackexchange.com)**
 - **[StackOverflow](https://stackoverflow.com)** is a website created in 2008 to allow programmers to **share programming issues**.
 - There are other websites (**Stack Exchanges**) for other fields that have been created in the same format.
   - **[Medical Sciences Stack Exchange](https://medicalsciences.stackexchange.com)**
@@ -132,6 +179,12 @@ Maybe mention the difference between function and method here.
 - Many answers can be found there by:
   - Looking at source code
   - **Github issues**
+- A site where code is developed and hosted
+- Built around **Git repositories**
+  - Git is a useful tool to know about
+- Many answers can be found there by:
+  - Looking at source code
+  - **Github issues**
 
 ## Github Code File
 
@@ -147,11 +200,17 @@ Maybe mention the difference between function and method here.
 
 - Some data is easier for computers to process than others.
 - How can we make clinical data easier to work with?
+- Some data is easier for computers to process than others.
+- How can we make clinical data easier to work with?
 
 ## Clinical Considerations {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 - Standardised data formats
   - This allows for **interoperability** between systems and **facilitates research**.
+  - **DICOM** is a successful example of this.
+  - We will be discussing **DICOM** in **Module 2** of this course.
+- Standardised data formats
+  - This allows for **interoperatibility** between systems and **facilitates research**
   - **DICOM** is a successful example of this.
   - We will be discussing **DICOM** in **Module 2** of this course.
 
@@ -181,6 +240,8 @@ scan = "CXR"
     - **Get to grips with Google Colab**
     - Ask questions on the [DAIM forum](https://discourse.digitalhealth.net/t/data-in-analytics-course-forum/63765)
 - Module 2 will start next week: **Core Python for Image Processing**
+- Can you think of other considerations that can make clinical data easier to process?
+- Have you ever encountered any issues with this in your practice?
 
 ## Thank you! {background-image="/media/python-scales.jpg" background-opacity="0.4"}
 

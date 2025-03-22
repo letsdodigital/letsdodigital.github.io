@@ -1,21 +1,30 @@
 ---
-title: "What is Digital Health?"
-author: "Dr. Mark Bailey"
-date: "2025"
-output: revealjs::revealjs_presentation
+title: "What Is Digital Health?"
+author: "Let's Do Digital"
+format: revealjs
+css: /slides.css
+title-slide-attributes:
+  data-background-image: /media/pcb.jpg
+  data-background-opacity: "0.5"
 ---
 
-# What is Digital Health?
+# What Is Digital Health?
 
-## Introduction
-
-- Digital health is about using technology to help people stay healthy and get better when they are ill.
-- It includes things like online medical records, video doctor visits, and health apps on phones.
-- In this talk, we’ll look at what digital health is, why it matters, and how it affects patients and doctors.
+- The use of technology to manage the health and social care of patients.
+- Eg. online medical records, video doctor visits, and health apps on phones.
+- We will look at what digital health is, why it matters, and how it affects patients and those working in healthcare.
 
 ---
 
-### What This Talk Covers
+## Overview
+
+- In this video, we will cover the basics of digital health.
+- Following this, we will have a quiz to test your knowledge.
+- You will also get a certificate for completing the module.
+
+---
+
+## We Will Cover
 
 1. What do we mean by "digital" and "health"?
 2. How has healthcare changed with technology?
@@ -25,21 +34,31 @@ output: revealjs::revealjs_presentation
 
 ---
 
-## What is "Digital" and What is "Health"?
-
-### **What is Digital?**
+## What Is Digital?
 
 - Anything that uses computers, the internet, or smart devices.
 - Examples: Emails, apps, websites, mobile phones.
 
-### **What is Health?**
+---
 
-- Everything related to keeping people well or treating them when they are ill.
+## Mobile Phones Everywhere
+
+<div class="fact-pop">58% of the world's population have mobile phones connected to the internet</div>
+
+<footer>GSM Association, "The Mobile Economy 2025", 2025, <https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2025/02/030325-The-Mobile-Economy-2025.pdf></footer>
+
+---
+
+## What Is Health?
+
+- Everything related to keeping people well or treating them when they are sick.
 - Examples: Hospitals, doctors, medicines, exercise.
 
-### **How Do They Overlap?**
+---
 
-- Digital health is when we use digital tools to help with health.
+## How Do Digital and Health Overlap?
+
+- Digital health is where we use digital tools to help with health.
 - Examples:
   - Booking a doctor’s appointment online.
   - Using an app to track your heart rate.
@@ -47,110 +66,230 @@ output: revealjs::revealjs_presentation
 
 ---
 
-## How Has Healthcare Changed With Technology?
+## How Do Digital and Health Overlap?
 
-### **The Old Way**
+![](/media/venn-digital-health.png)
+
+---
+
+## Big Business
+
+<div class="fact-pop">Worth $288.55 billion in 2024</div>
+
+<footer>Grand View Research, "Digital Health Market Report", 2024, <https://www.grandviewresearch.com/industry-analysis/digital-health-market></footer>
+
+# How Has Healthcare Changed With Technology? {background-image="/media/new-butterfly.jpg" background-opacity="0.5"}
+
+---
+
+## The Old Way
 
 - Doctors wrote notes on paper.
+- Results and correspondence were sent by post.
 - If you needed medical advice, you had to visit a clinic in person.
 - There were no mobile apps or online health services.
 
-### **Early Digital Changes (1980s - 2000s)**
+---
 
-- Most early digital health developments in the UK started in **GP practices**.
-- GP systems were some of the first to adopt **electronic records**, replacing paper files.
-- Early **prescription systems** allowed doctors to send prescriptions to pharmacies digitally.
+## Paper Records in 2001
+
+<div class="fact-pop">Only 18% of U.S. doctors used electronic records in 2001</div>
+
+<footer>Statista, "Office-based U.S. physicians with EMR/EHR systems 2001-2021", 2021, <https://www.statista.com/statistics/252083/office-based-physicians-with-emr-ehr-systems-in-the-us-2001-2012/></footer>
+
+---
+
+## Early Digital Changes (1980s - 2000s)
+
+- Most early digital health developments in the UK started in GP practices.
+- GP systems were some of the first to adopt electronic records, replacing paper files.
+- Early prescription systems allowed doctors to send prescriptions to pharmacies digitally.
 - Hospitals started using computers for administrative tasks, but most patient records were still on paper.
-- Early **telemedicine** experiments allowed doctors to give advice over the phone.
+- Early telemedicine experiments allowed doctors to give advice over the phone.
 
-### **The Digital Health Boom (2010s - Now)**
+---
 
-- **Smartphones & Apps**: Patients started using apps for tracking health, fitness, and medications.
-- **Electronic Health Records (EHRs)**: Hospitals and clinics moved to digital records that could be shared across healthcare providers.
-- **Telemedicine Growth**: Video calls with doctors became more common, especially after the COVID-19 pandemic.
-- **Wearable Devices**: Smartwatches and fitness trackers allowed people to monitor their health in real-time.
-- **Artificial Intelligence (AI)**: AI helped doctors analyse scans and predict illnesses more accurately.
-- **Big Data in Healthcare**: Large amounts of health data helped scientists understand diseases better.
+## The Digital Health Boom (2010s - Now)
 
-### **The Future of Digital Health**
+- **Smartphones & Apps:** Patients started using apps for tracking health, fitness, and medications.
+- **Electronic Health Records (EHRs):** Hospitals and clinics moved to digital records that could be shared across healthcare providers.
+- **Telemedicine Growth:** Video calls with doctors became more common, especially after the COVID-19 pandemic.
+
+---
+
+## Telehealth Surge in 2020
+
+<div class="fact-pop">U.S. telehealth usage jumped 154% in early 2020 due to COVID-19</div>
+
+<footer>CDC, "Trends in the Use of Telehealth During the Emergence of the COVID-19 Pandemic — United States", 2020, <https://www.cdc.gov/mmwr/volumes/69/wr/mm6943a3.htm></footer>
+
+---
+
+## The Digital Health Boom (2010s - Now)
+
+- **Wearable Devices:** Smartwatches and fitness trackers allowed people to monitor their health in real-time.
+- **Artificial Intelligence (AI):** AI is showing promise to help doctors analyse scans and predict illnesses more accurately.
+- **Big Data in Healthcare:** Large amounts of health data has helped scientists understand diseases better.
+
+---
+
+## Wearables in Action
+
+<div class="fact-pop">In 2024, 30 million U.S. patients used remote monitoring tools like smartwatches</div>
+
+<footer>PatentPC,"Remote Patient Monitoring: Growth & Adoption Stats", 2025, <https://patentpc.com/blog/remote-patient-monitoring-growth-adoption-stats></footer>
+
+---
+
+## The Potential Future of Digital Health
 
 - More personalised care using AI and health data.
 - Faster diagnosis and treatment through automation.
 - More remote monitoring and home-based healthcare.
 - Better integration between digital systems to make healthcare more efficient.
 
+# What Are the Main Digital Tools in Healthcare?{background-image="/media/tools.jpg" background-opacity="0.3"}
+
 ---
 
-## What Are The Main Digital Tools in Healthcare?
+## 1. Electronic Patient Records (EPRs)
 
-### **1. Digital Medical Records**
-
+- Also called Electronic Health Records (EHRs).
 - A computer version of a patient’s medical history.
-- Helps doctors quickly find information about patients.
+- Tries to condense all the required data and functionality into one system.
 
-### **2. Telemedicine (Seeing a Doctor Online)**
+---
+
+## EPRs Worldwide
+
+<div class="fact-pop">In 2019, 100% of UK GP practices used EPRs, compared to 71% in Switzerland</div>
+
+<footer>Statista, "Proportion of primary care physicians who use electronic medical records in their practice in select countries worldwide in 2019", 2025, <https://www.statista.com/statistics/1097577/proportion-primary-physicians-using-emr-select-countries-worldwide/></footer>
+
+---
+
+## 2. Telemedicine (Seeing a Doctor Online)
 
 - Talking to a doctor using a video call instead of going to a clinic.
 - Useful for people who live far away or cannot travel easily.
 
-### **3. Health Apps**
+---
+
+## 3. Health Apps
 
 - Apps that help track steps, diet, sleep, or medical conditions.
 - Examples: A diabetes app that reminds people to check their blood sugar.
 
-### **4. Wearable Devices**
+---
+
+## Health App Boom
+
+<div class="fact-pop">Health app downloads surged 50% globally during the COVID-19 pandemic</div>
+
+<footer>World Economy Forum, "Fitness apps grew by nearly 50% during the first half of 2020, study finds", 2020, <https://www.weforum.org/stories/2020/09/fitness-apps-gym-health-downloads/></footer>
+
+---
+
+## 4. Wearable Devices
 
 - Smartwatches and fitness trackers that measure heart rate, sleep, and activity.
 - Some devices can alert doctors if something is wrong.
 
-### **5. Artificial Intelligence (AI) in Healthcare**
+---
+
+## 5. Artificial Intelligence (AI) in Healthcare
 
 - AI can help doctors read X-rays or predict health problems.
 - Some chatbots give basic health advice based on symptoms.
+- But: Not yet accurate or safe enough for routine use—lots of hype still unproven.
 
-### **6. Cybersecurity and Data Privacy**
+---
+
+## AI Enhances Early Detection of Lung Cancer
+
+<div class="fact-pop">AI assistance improved clinicians' ability to detect lung cancer by 17.4%</div>
+
+<footer>Dissez G, Tay N, Dyer T, et al., "Enhancing Early Lung Cancer Detection on Chest Radiographs with AI-assistance: A Multi-Reader Study", 2022, <https://arxiv.org/abs/2208.14742></footer>
+
+---
+
+## But At the Same Time
+
+<div class="fact-pop">Large language models did not improve physician performance in diagnostic reasoning tasks</div>
+
+<footer>Goh E, Gallo R, Hom J, et al. Large Language Model Influence on Diagnostic Reasoning: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(10)</footer>
+
+---
+
+## 6. Cybersecurity and Data Privacy
 
 - Protecting patient information so that only the right people can see it.
 - Important for keeping medical records safe.
 
+# Benefits and Challenges of Digital Health{background-image="/media/abseiling.jpg" background-opacity="0.5"}
+
 ---
 
-## Benefits and Challenges of Digital Health
+## Benefits
 
-### **Benefits**
-
-- **Faster and Easier Healthcare:** Patients can get advice without leaving home.
+- **Faster and more accessible:** Patients can get advice without leaving home. Routine tasks can be automated.
 - **More Information:** Apps and wearables help people understand their health.
 - **Better Care:** Doctors can access patient records quickly.
 
-### **Challenges**
+---
 
-- **Not Everyone Has Internet Access:** Some people may struggle to use digital tools.
-- **Privacy Concerns:** Keeping personal health data safe is important.
-- **Learning to Use New Technology:** Patients and doctors need to learn how to use digital health tools properly.
+## Health Info Online
+
+<div class="fact-pop">In 2020, 63% of UK adults used the internet for health info</div>
+
+<footer>Statista, "Share of individuals in the United Kingdom seeking health information online from 2009 to 2020", 2025 <https://www.statista.com/statistics/1236817/united-kingdom-internet-users-seeking-health-information-online/></footer>
 
 ---
 
-## How Can You Learn More About Digital Health?
+## Challenges
 
-### **Where to Start?**
+- **Internet access:** Some people may struggle to use digital tools.
+- **Privacy:** Keeping personal health data safe is important.
+- **New technology:** Patients and doctors need to learn how to use digital health tools properly.
+- **Deliverables:** Many digital health systems fall short of expectations.
 
-- Websites and online courses (e.g. NHS Digital, FutureLearn).
-- Books and guides (like _Essentials of Health Informatics_).
-- Join groups that discuss digital health topics.
-- Attend online talks or workshops.
+---
 
-### **Final Thoughts**
+## Complex ecosystem
+
+<div class="fact-pop">Over 80% of digital health startups fail</div>
+
+<footer>Growth List, "Startup Failure Statistics", 2025, <https://growthlist.co/startup-failure-statistics/></footer>
+
+---
+
+## Why this statistic?
+
+- Regulation
+- Standards
+- Reimbursement
+- Stakeholder take up of new technology
+- Poor outcomes in real life settings
+
+# How Can You Learn More About Digital Health? {background-image="/media/man-reading.jpg" background-opacity="0.5"}
+
+---
+
+## Where to Start?
+
+- The `Let's Do Digital` team is building new modules.
+- You can also join discussions on digital health topics at `Digital Health Discourse`. See [https://discourse.digitalhealth.net/](https://discourse.digitalhealth.net/).
+
+---
+
+## Final Thoughts
 
 - Digital health is changing how we access and receive care.
 - There are many opportunities to learn and get involved.
-- Start small: Try a health app or book an online appointment!
+- As a complex ecosystem, creating and implementing digital solutions can be tricky.
+- Education and training are key to understanding, buying and making digital health work for everyone.
 
----
+# Quiz Time! {background-image="/media/quiz.jpg" background-opacity="0.3"}
 
-## Thank You!
-
-### Questions?
-
-- Connect via _Let’s Do Digital_ or LinkedIn.
-- More resources at: [Insert relevant link]
+- We will now test your knowledge with a quiz.
+- Good luck!
