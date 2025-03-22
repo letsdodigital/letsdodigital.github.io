@@ -4,176 +4,171 @@ author: "DAIM Team"
 format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
-title-slide-attributes:
+title-slide-attributes: 
   data-background-image: /media/daim/bg_cubes_red.png
   data-background-opacity: "0.6"
 ---
 
 ## Module 4: Part 2 Learning Objectives {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Why evaluate model and understand key metrics
-- Appreciate evaluation of regression tasks and transfer to classification tasks
-- Understand pros and cons of each metrics
-- Understand limitations of each metrics
-- More specifically, understand
-  - mean
-  - variance
-  - standard deviation
-  - standard error
-  - model deviance
+* Why evaluate model and understand key metrics
+* Appreciate evaluation of regression tasks and transfer to classification tasks
+* Understand pros and cons of each metrics
+* Understand limitations of each metrics
+* More specifically, understand
+    + mean
+    + variance
+    + standard deviation
+    + standard error
+    + model deviance
 
 ## You fitted a model - now what? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- What do you do next?
-  - Depends on why you are building it for.
-- Consider
-  - how do we get people to use this model
-  - how do we generalise the findings to other datasets
-  - how do we have it approved by peers and by medico-legally
+* What do you do next?
+    + Depends on why you are building it for.
+* Consider
+    + how do we get people to use this model
+    + how do we generalise the findings to other datasets
+    + how do we have it approved by peers and by medico-legally 
 
 #
-
 :::{.r-stack}
 **How to evaluate a machine learning model**
 :::
 
 ## Complexity of the Model {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- In ML, you need to trade off between **bias** and **variance**:
-  - Very biased model = assuming everyone is sick
-  - High variant model = responding to every noise
-- This describes the difference between **overfitting** and **underfitting**
+* In ML, you need to trade off between **bias** and **variance**:
+  + Very biased model = assuming everyone is sick
+  + High variant model = responding to every noise
+* This describes the difference between **overfitting** and **underfitting**
 
 ![](/media/daim/module_4/biasvariance.jpg)
 
 ## Overfitting {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- The more **parameters** a model has, the more **information** it can represent
-- However, this can lead to **overfitting** and **inefficiency**
+* The more **parameters** a model has, the more **information** it can represent
+* However, this can lead to **overfitting** and **inefficiency**
 
 ![](/media/daim/module_4/biasvariance.jpg)
 
 ## Evaluate Your Model: How? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Validation is key to model reliability:
-  - **Validation set** = marking your own homework!
-  - **Test dataset** = using a separate, fresh dataset
+    - **Validation set** = marking your own homework!
+    - **Test dataset** = using a separate, fresh dataset
 - Beware of **data leakage**
-  - We will return to this later...
+    - We will return to this later...
 
 ## Task {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 You are a botanist. You are interested in iris flowers and in particular its **petal width**
-
-- You want to **build a model** that can predict width.
-- Your helpful colleagues have **collected some data.**
++ You want to **build a model** that can predict width.
++ Your helpful colleagues have **collected some data.**
 
 ![](/media/daim/module_4/petalwidth.png)
 
 ## Theoretical: Why evaluate models? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- **Models are not truth**.
-  - They **apporoximate** the real world.
-- As a good scientist, you should have a **healthy** skepticism of your hypotheses
-- In extension, you should be skeptical of models you fitted.
+* **Models are not truth**.
+    + They **apporoximate** the real world.
+* As a good scientist, you should have a **healthy** skepticism of your hypotheses
+* In extension, you should be skeptical of models you fitted.
 
 ## Null hypothesis and Model Evaluation: parallels {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Hypothesis testing: is our finding '**by chance**'?
-  - **Null Hypothesis**: First assume there is **no effect**.
-- Similarly, we will start from evaluating **naive** model
-  - We will compare our models against **naive** models.
-- This allow us to **generalise** our model findings.
+* Hypothesis testing: is our finding '**by chance**'?
+    + **Null Hypothesis**: First assume there is **no effect**.
+* Similarly, we will start from evaluating **naive** model
+    + We will compare our models against **naive** models.
+* This allow us to **generalise** our model findings.
 
 ## Why is generalisation important? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Generalisation is efficient
-  - Same for your own brain and for your code
-  - generalisation allows for wider applicability
-  - e.g., dogs = 4 legged creature with a tail and likes to bark
-  - means you can transfer to all instances of dogs not just your pet
-
-* Saves you to memorise class animalDog vs. Dog0, Dog1, Dog2, etc...
+* Generalisation is efficient
+    + Same for your own brain and for your code
+    + generalisation allows for wider applicability
+    + e.g., dogs = 4 legged creature with a tail and likes to bark
+    + means you can transfer to all instances of dogs not just your pet
++ Saves you to memorise class animalDog vs. Dog0, Dog1, Dog2, etc...
 
 ---
 
 ## Generalisation in models {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
-- This means your model findings are not **memorised** by the model
-- This means your model findings are **applicable** in other settings.
-- It works in **external data** that is **unseen**.
+ 
+* This means your model findings are not **memorised** by the model
+* This means your model findings are **applicable** in other settings.
+* It works in **external data** that is **unseen**.
 
 ## A good model? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- A well-performing model in one setting **may not work in others.**
-  - e.g. screening test for cancer vs. confirmation test.
-- A good model is **generalisable** and thus **applicable**.
+* A well-performing model in one setting **may not work in others.**
+    + e.g. screening test for cancer vs. confirmation test.
+* A good model is **generalisable** and thus **applicable**.
 
 #
-
 :::{.r-stack}
 **Different types of prediction**
 :::
 
 ## Refresher: regression vs. classification {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Regression
-  - How do multiple **independent** variables affect a **depedent** variable?
-- Classification
-  - Does an **outcome** fit into a certain **class** or not?
-  - Y is a binary variable i.e, 0 or 1.
+* Regression
+    + How do multiple **independent** variables affect a **depedent** variable?
+* Classification
+    + Does an **outcome** fit into a certain **class** or not?
+    + Y is a binary variable i.e, 0 or 1.
 
 ## Theory: Residuals {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Difference between **true value** and **predicted value** is called residual.
-  - residual can be positive or negative.
-- Here the dotted lines are residuals.
+* Difference between **true value** and **predicted value** is called residual.
+    + residual can be positive or negative.
+* Here the dotted lines are residuals.
 
 ![](/media/daim/module_4/residuals.png){width=80%}
 
 ## Theory: Residuals {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Intuitively, the **worse** your model is, the **bigger** your **residuals** would be.
-  - What is the **worst** model?
+* Intuitively, the **worse** your model is, the **bigger** your **residuals** would be.
+    + What is the **worst** model? 
 
 ![](/media/daim/module_4/residuals.png){width=80%}
 
 ## The naive model {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- The worst model is your naive model.
-  - Predicting the **mean average** at **every value** will give the **largest residuals**.
-  - This is your **null model**.
-- For regression, you want a model that has the **smallest residual**.
-  - But _how_ small?
+* The worst model is your naive model. 
+    + Predicting the **mean average** at **every value** will give the **largest residuals**.
+    + This is your **null model**.
+* For regression, you want a model that has the **smallest residual**. 
+    + But *how* small?
 
 TODO Diagram of a straight line with the regression points in 2D
 
 ## Saturated Model {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- What is a **saturated model**?
-- A theoretical model where there are as many **parameters** as **data points**.
-- i.e. You have 5 pairs of measurements for 5 variables.
-  - If you use all 5, that is a **saturated** model.
+* What is a **saturated model**?
+* A theoretical model where there are as many **parameters** as **data points**.
+* i.e. You have 5 pairs of measurements for 5 variables.
+    + If you use all 5, that is a **saturated** model.
 
 TODO Diagram of a wiggly line which goes through every point in 2D
 
 ## Saturated vs null models {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Worst model (residuals = max) → very **biased**
-- "saturated" model (residuals = 0) → very **variant**.
-  - Why do you not want a **saturated** model?
+* Worst model (residuals = max) → very **biased**
+* "saturated" model (residuals = 0) → very **variant**. 
+    + Why do you not want a **saturated** model?
 
 ## Overfitting {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- A **saturated** model means it is **overfitted**.
-- Therefore, you want **a balance** between a naive model and saturated model.
+* A **saturated** model means it is **overfitted**. 
+* Therefore, you want **a balance** between a naive model and saturated model.
 
 ## Comparing the models {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ![](/media/daim/module_4/null.png)
 
 #
-
 :::{.r-stack}
 **How can we quantify how good a prediction is?**
 :::
@@ -204,9 +199,9 @@ $$
 MSE = \frac{1}{n} * \sum_{i=1}^{n}(y_i - y_p)^2
 $$
 
-- Take the AE and square them (why?)
-- for each value of data from i=1 to n
-- then divide by sample size
+* Take the AE and square them (why?)
+* for each value of data from i=1 to n 
+* then divide by sample size
 
 ## Root mean squared error {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -216,41 +211,41 @@ $$
 
 - TODO add more explanation about squaring/unsquaring if we are going to include this level of detail
 
-## Summary: Regression metrics {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Summary: Regression metrics  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Mean Absolute Error = mean absolute differences
-- Mean Squared Error = measures the variance of the residuals.
-- Root Mean Squared Error = measures standard deviation of the residuals
-- R-squared (value between 0 and 1) = how much variation in y is explained by your model.
+* Mean Absolute Error = mean absolute differences 
+* Mean Squared Error = measures the variance of the residuals.
+* Root Mean Squared Error = measures standard deviation of the residuals
+* R-squared (value between 0 and 1) = how much variation in y is explained by your model.
 
-- adjusted R-squared = because R^2 will go up with more variables i.e., overfit. adjusted R^2 penalises for having more predictor variables
+* adjusted R-squared = because R^2 will go up with more variables i.e., overfit. adjusted R^2 penalises for having more predictor variables
 
 #
-
 :::{.r-stack}
 **Moving to classification**
 :::
 
-## Moving to classification {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
-- Residuals --> Deviance
-  - Residual is specific to when y is **continuous**.
-  - **Deviance** is a generalised term for residual.
-- **Deviance** quantifies the **difference** between model and observations.
 
 ## Moving to classification {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- In classification problems, the **ground truth** is **0** or **1**.
-  - Pneumonia / no pneumonia
-- The model will produce a **probability** that the example belongs to a class
-  - 0.2 - low probability of pnuemonia
-- How can we evaluate a **classification** model with the metrics we have discussed?
+* Residuals --> Deviance
+    + Residual is specific to when y is **continuous**.
+    + **Deviance** is a generalised term for residual.
+* **Deviance** quantifies the **difference** between model and observations.
+
+## Moving to classification  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* In classification problems, the **ground truth** is **0** or **1**. 
+    * Pneumonia / no pneumonia
+* The model will produce a **probability** that the example belongs to a class
+    * 0.2 - low probability of pnuemonia
+* How can we evaluate a **classification** model with the metrics we have discussed?
 
 ## Log Loss {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Log loss - is roughly equivalent to MSE for classification
 - Log Loss is linked to likelihood function.
-  - Log loss = -1 \* log of likelihood function (TODO add explanation for this)
+    - Log loss = -1 * log of likelihood function (TODO add explanation for this)
 
 ## Likelihood {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -258,70 +253,69 @@ $$
 
 ## Likelihood, Logloss, Deviance {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- When predicting **outcomes** with a **classifier**, we want to minimise **deviance**
-- Deviance = 2 _ n _ log loss
-  - Thus, log loss minimisation = deviance minimisation.
-  - Maximum likelihood estimation = statistics
-  - Minimising Log loss = **machine learning**
+* When predicting **outcomes** with a **classifier**, we want to minimise **deviance**
+* Deviance = 2 * n * log loss 
+    * Thus, log loss minimisation = deviance minimisation.
+    * Maximum likelihood estimation = statistics
+    * Minimising Log loss = **machine learning**
 
 ## Overall metrics {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- In **regression**, we use MSE and RMSE
-- In classification, we use **log loss**
-  - These are the key most important metrics.
-- We used **log-loss** as our loss function to **train our model** in the last workshop.
-  - The log-loss shows how **incorrect** the predictions are.
+* In **regression**, we use MSE and RMSE
+* In classification, we use **log loss**
+    * These are the key most important metrics.
+* We used **log-loss** as our loss function to **train our model** in the last workshop.
+    * The log-loss shows how **incorrect** the predictions are.
 
 ## Extending to Crossentropy Loss {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- We have been disccussing classification for one class (cat vs dog)
-  - This is **binary classification**
-- How about multiple classes?
-  - e.g. car vs cat vs dog.
-- Here we generalise **log loss** -> **crossentropy loss.**
+* We have been disccussing classification for one class (cat vs dog)   
+    * This is **binary classification**
+* How about multiple classes?
+    * e.g. car vs cat vs dog.
+* Here we generalise **log loss** -> **crossentropy loss.**
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
 #
-
 :::{.r-stack}
 **Going beyond log-loss**
 :::
 
 ## Discrete metrics {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Models will output a classification **probability**
-  - Probabilities are **continuous** (e.g. 0.2, 0.92)
-- To make a prediction (pneumonia/no pneumonia), we need to set a **threshold**
-  - Where we set the threshold will affect the classification **performance**
-- Usually defaults to **0.5**
-  - This is what we see when Keras shows us the **accuracy** of our model
+* Models will output a classification **probability**
+    * Probabilities are **continuous** (e.g. 0.2, 0.92)
+* To make a prediction (pneumonia/no pneumonia), we need to set a **threshold**
+    * Where we set the threshold will affect the classification **performance**
+* Usually defaults to **0.5**
+    * This is what we see when Keras shows us the **accuracy** of our model
 
 ## Confusion Matrix {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-|                     | Model Predicted as _Yes_ | Model Predicted as _No_ |
-| ------------------- | ------------------------ | ----------------------- |
-| True value is _Yes_ | A                        | B                       |
-| True value is _No_  | C                        | D                       |
+||Model Predicted as *Yes*| Model Predicted as *No*|
+|----|-----|-----|
+|True value is *Yes*|A|B|
+|True value is *No*|C|D|
 
-True Positives = A
+True Positives = A 
 
-True Negatives = D
+True Negatives = D 
 
-False Positives = C
+False Positives = C 
 
 False Negatives = B
 
 ## Confusion Matrix {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-|                     | Model Predicted as _Yes_ | Model Predicted as _No_ |
-| ------------------- | ------------------------ | ----------------------- |
-| True value is _Yes_ | A                        | B                       |
-| True value is _No_  | C                        | D                       |
+||Model Predicted as *Yes*| Model Predicted as *No*|
+|----|-----|-----|
+|True value is *Yes*|A|B|
+|True value is *No*|C|D|
 
 Total sample size = A + B + C + D
 
-Total cases = A + B
+Total cases = A + B 
 
 Total not-cases = C + D
 
@@ -329,122 +323,121 @@ Prevalence = total cases / total sample size
 
 ## Exercise {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-|          | Model = 1 | Model = 0 |
-| -------- | --------- | --------- |
-| True = 1 | 80        | 30        |
-| True = 0 | 20        | 40        |
+||Model = 1 | Model =  0|
+|----|-----|-----|
+|True = 1 |80|30|
+|True = 0|20|40|
 
-- Work out the following:
-  - Total Sample size, Total Cases, Prevalence
-  - Accuracy
+* Work out the following:
+    * Total Sample size, Total Cases, Prevalence
+    * Accuracy
 
 ## There are more metrics beyond accuracy... {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- What are the limitations with accuracy?
-- Other metrics give us a more **holistic** assessment of how the classifier works:
-  - Precision, specificity, recall/sensitivity
+* What are the limitations with accuracy?
+* Other metrics give us a more **holistic** assessment of how the classifier works:
+    * Precision, specificity, recall/sensitivity
 
 ## Exercise - going further {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-|          | Model = 1 | Model = 0 |
-| -------- | --------- | --------- |
-| True = 1 | 80        | 30        |
-| True = 0 | 20        | 40        |
+||Model = 1 | Model =  0|
+|----|-----|-----|
+|True = 1 |80|30|
+|True = 0|20|40|
 
-Precision = Positive Predictive Value =
+Precision = Positive Predictive Value = 
 
 Recall = True Positive Rate =
 
-Specificity = True Negative Rate =
+Specificity = True Negative Rate = 
 
 ## Balancing evaluation
 
-- The F1 score
-  - The **(harmonic) mean average** of the precision and recall.
-  - Nothing to do with cars or UK resident doctors.
-- Gives an idea of the **overall predictive performance** of the classifier.
+* The F1 score
+    * The **(harmonic) mean average** of the precision and recall.
+    * Nothing to do with cars or UK resident doctors.
+* Gives an idea of the **overall predictive performance** of the classifier.
 
 ## Exercise - going even further {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-|          | Model = 1 | Model = 0 |
-| -------- | --------- | --------- |
-| True = 1 | 80        | 30        |
-| True = 0 | 20        | 40        |
+||Model = 1 | Model =  0|
+|----|-----|-----|
+|True = 1 |80|30|
+|True = 0|20|40|
 
-F1 score = precision \* recall / precision + recall =
-
-## What happens if we change the threshold? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
-- As discussed earlier, many models predict **probabilities** which are **continuous** values
-  - Classification relies on **discrete**, **binary** predictions (Yes/No)
+F1 score = precision * recall / precision + recall = 
 
 ## What happens if we change the threshold? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- How can we evaluate how the prediction of the model changes as we **modify the threshold** for detection?
-- This works for clinical metrics too - what level of procalcitonin best predicts bacterial infection?
+* As discussed earlier, many models predict **probabilities** which are **continuous** values
+    * Classification relies on **discrete**, **binary** predictions (Yes/No)
+
+## What happens if we change the threshold? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+* How can we evaluate how the prediction of the model changes as we **modify the threshold** for detection?
+* This works for clinical metrics too - what level of procalcitonin best predicts bacterial infection?
 
 ## Area under Curve
 
-- Sensitivty and Specificity is a trade off
-- If you plot the Sensitivty against the Specificity for different thresholds, a **receiver-operator curve (ROC)** can be generated.
-- The area under this curve is the **AUC**
-- 0.5 indicates **random guessing**, and 1.0 is **perfect classification performance**.
+* Sensitivty and Specificity is a trade off 
+* If you plot the Sensitivty against the Specificity for different thresholds, a **receiver-operator curve (ROC)** can be generated.
+* The area under this curve is the **AUC**
+* 0.5 indicates **random guessing**, and 1.0 is **perfect classification performance**.
 
 ## Example of AUC curve {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ![An ROC curve which shows the classification performance for blood different infection markers for predicting serious bacterial infection (SBI) in febrile infants. *Milcent K, Faesch S, Gras-Le Guen C, et al. Use of Procalcitonin Assays to Predict Serious Bacterial Infection in Young Febrile Infants. JAMA Pediatr. 2016;170(1):62–69. doi:10.1001/jamapediatrics.2015.3210*](/media/daim/module_4/milcent_et_al_ROC.png)
 
-# Youden index {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+# Youden index {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-- The Youden index is the optimal cut off for balancing sensitivity and specificity.
+* The Youden index is the optimal cut off for balancing sensitivity and specificity. 
 
-- TODO find example image of ROC with this annotated.
+* TODO find example image of ROC with this annotated.
 
 #
-
 :::{.r-stack}
 **Putting it all together**
 :::
 
-## Evaluating models {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Evaluating models {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-- You now know how to **fit** models
-- You now know how to **evaluate** the models
-- What do you **evaluate** it on?
-  - The gold standard is an **external data set**.
-- Short of that:
-  - we will split data into training and test set.
+* You now know how to **fit** models
+* You now know how to **evaluate** the models 
+* What do you **evaluate** it on?
+    * The gold standard is an **external data set**.
+* Short of that:
+    * we will split data into training and test set.
 
-## Train-Test Split {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Train-Test Split {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-- Training dataset and test should receive the same treatments
-- Test set is **unseen data** for your model.
-- You will **report performance** on test set
-- Test set most closely **resembles** an external independent dataset.
-  - But, **_data leakage_**
+* Training dataset and test should receive the same treatments
+* Test set is **unseen data** for your model.
+* You will **report performance** on test set
+* Test set most closely **resembles** an external independent dataset.
+    * But, ***data leakage***
 
-## What is data leakage? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## What is data leakage? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-- Data leakage is where you have **ridiculously good results**.
-- It is a false discovery.
-- Data leakage can happen for many reasons.
+* Data leakage is where you have **ridiculously good results**.
+* It is a false discovery.
+* Data leakage can happen for many reasons.
 
-## Examples of data leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Examples of data leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-- Example 1
-  - you treat training and test data with the max values of the entire dataset.
-  - This somehow biases the test dataset and it causes
-- TODO clarify examples with clinical information
+* Example 1
+    + you treat training and test data with the max values of the entire dataset. 
+    + This somehow biases the test dataset and it causes
+* TODO clarify examples with clinical information
 
-## Examples of data leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Examples of data leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"} 
 
-- Example 2: Future information is somehow leaked in a training dataset.
-  - Lets say you are building a model that can predict patient receiving a surgery or not.
-  - Lets say all sick patients who got antibiotics got surgery
-  - Somehow you included antibiotics in your training dataset. It will cause leakage.
-- TODO clarify examples with clinical information
+* Example 2: Future information is somehow leaked in a training dataset. 
+    + Lets say you are building a model that can predict patient receiving a surgery or not.
+    + Lets say all sick patients who got antibiotics got surgery
+    + Somehow you included antibiotics in your training dataset. It will cause leakage. 
+* TODO clarify examples with clinical information
 
-- **NOTE**: Data leakage can sometimes be **very difficult** to detect.
+* **NOTE**: Data leakage can sometimes be **very difficult** to detect.
 
 ## Understanding Data Leakage {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -459,16 +452,16 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 ## Assuming no leakage
 
-- Test set is untouched.
-- Test set should be split right at the begining
-- Data transformation / engineering processes should be encapsulated in a reproducible manner and applied seperately to train and test sets.
+* Test set is untouched.
+* Test set should be split right at the begining
+* Data transformation / engineering processes should be encapsulated in a reproducible manner and applied seperately to train and test sets.
 
 ## Common pitfalls
 
-- TODO Common pitfalls
-  - TODO How to deal with overfitting. (LL2)
-  - TODO How to deal with multicollinearity (LL2)
-  - TODO How to deal with missing data and sensitivity analysis (LL2)
+-   TODO Common pitfalls
+    -   TODO How to deal with overfitting. (LL2)
+    -   TODO How to deal with multicollinearity (LL2)
+    -   TODO How to deal with missing data and sensitivity analysis (LL2)
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
@@ -478,27 +471,27 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 ## Other Forms of Machine Learning
 
-- TODO Be able to discuss the uses, advantages, and disadvantages of more modern approaches to machine learning (stable diffusion, large language models) (LL2) (LL4)
+-  TODO Be able to discuss the uses, advantages, and disadvantages of more modern approaches to machine learning (stable diffusion, large language models) (LL2) (LL4)
+
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
 #
-
 :::{.r-stack}
 **Practical and Ethical Considerations**
 :::
 
 ## Scenario 1 {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- You are a _GP_.
+- You are a *GP*.
 - You use an AI-based clinical decision support (CDS) tool to help manage patients with "breast lump" presentations.
 - The tool helps decide amongst options: **invasive investigation**, **imaging**, or **watchful waiting**.
 - A 17-year-old male patient presents with a "breast lump."
-- Should you _trust_ the model recommendations for this patient?
+- Should you *trust* the model recommendations for this patient?
 
 ## Scenario 2 {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- You are a _clinical lead_ for your organization.
+- You are a *clinical lead* for your organization.
 - You want to improve pathways for acutely unwell patients.
 - You have a **£100,000** budget for this.
 - Your team presents two options:
@@ -515,7 +508,6 @@ Example of data leakage in Chest X-Ray (CXR) data:
 ## Ethics of AI {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - The ethics of AI/ML are complex:
-
   - Should **generative AI models** (like ChatGPT) be allowed in research writing?
   - Should clinical judgments **factor in** AI recommendations?
 
@@ -530,7 +522,7 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 ![](/media/daim/module_4/aigaydar.jpg)
 
-## How Do We ~~Do Good~~ _Stop Bad_ AI? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## How Do We ~~Do Good~~ *Stop Bad* AI? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Recognize inherent **biases** and **discrimination**
 - **Assume bias is present**, then **find** and **address** it
@@ -545,7 +537,8 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 **NHS app and deprivation:** See [this study](https://informatics.bmj.com/content/30/1/e100809)
 
-## Reproducibility: An Analogy {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+## Reproducibility: An Analogy  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ::: {#fig-elephants layout-ncol=2}
 
@@ -557,7 +550,7 @@ Example of data leakage in Chest X-Ray (CXR) data:
 
 :::
 
-## Reproducibility: Important Questions {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Reproducibility: Important Questions  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - What type of oven?
 - What mode: fan or gas?
@@ -565,11 +558,10 @@ Example of data leakage in Chest X-Ray (CXR) data:
 - Type of milk?
 
 In ML: consider:
+* **Technical** details like **Python version** and **framework**
+* Clinical details like **film projection** and **sample types**
 
-- **Technical** details like **Python version** and **framework**
-- Clinical details like **film projection** and **sample types**
-
-## Real-Life Example {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Real-Life Example  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ![](/media/daim/module_4/neupane_table1.png)
 
@@ -578,33 +570,32 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ---
 
-## Reproducibility Analogy {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Reproducibility Analogy  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 ![](/media/daim/module_4/repro.jpg)
 
 ---
 
-## How to Make Research Reproducible {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## How to Make Research Reproducible  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - **Aim for reproducibility**, even if it is **challenging** at first
 - Visit [RAPS with R](https://raps-with-r.dev/) for reproducibility principles
 
 #
-
 :::{.r-stack}
 **Revisiting the scenarios**
 :::
 
-## Scenario 1 Revisited {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Scenario 1 Revisited  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- You are a _GP_.
+- You are a *GP*. 
 - You use an AI-based clinical decision support (CDS) tool to help manage patients with "breast lump" presentations.
 - The tool suggests options like **invasive investigation**, **imaging**, or **watchful waiting**.
 - A 17-year-old male patient presents with a "breast lump."
 
-- **Question**: Should you _trust_ the model's recommendations for this patient?
+- **Question**: Should you *trust* the model's recommendations for this patient?
 
-### Scenario 1: Critical Questions {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+### Scenario 1: Critical Questions  {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Was the AI CDS trained on both male and female images?
 - Were patients under 18 included in the training set?
@@ -614,12 +605,11 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ## Scenario 2 Revisited {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- You are a _clinical lead_ for your organization.
+- You are a *clinical lead* for your organization.
 - Your goal is to improve pathways for acutely unwell patients.
 - You have a **100,000 GBP** budget.
 
 - Two options are presented:
-
   - **Option 1**: Recruit **two specialist nurses**
   - **Option 2**: Deploy an **AI-based CDS and risk management system**
 
@@ -628,7 +618,6 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 ### Scenario 2: Considerations {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - **Nurses**:
-
   - Would they provide versatility and fill in during staff shortages?
   - Would they be happy in their roles, or might they leave?
 
@@ -639,18 +628,17 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
   - AI offers scalability and continuous availability, but what if it fails?
 
 #
-
 :::{.r-stack}
 **Conclusion**
 :::
 
 ## What we have covered {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Today, we have covered:
-  - The basics of **regression** and **classification**
-  - Comprehensively **evaluating** binary classifiers
-  - **Ethical** and **practical** considerations of AI in clinical settings
-- We will delve into these further in the **second part** of the **workshop**.
+* Today, we have covered:
+    * The basics of **regression** and **classification**
+    * Comprehensively **evaluating** binary classifiers
+    * **Ethical** and **practical** considerations of AI in clinical settings
+* We will delve into these further in the **second part** of the **workshop**.
 
 ## Further Reading and Resources {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
