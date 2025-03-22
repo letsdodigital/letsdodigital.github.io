@@ -1,166 +1,233 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<link href="../../media/ldd-logo.png" rel="icon" type="image/png">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.42">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Dr.&nbsp;Mark Bailey">
+<meta name="dcterms.date" content="2025-01-01">
+
+<title>What is Digital Health? – Let’s Do Digital</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../media/ldd-logo.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.42">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b53751a350365c71b6c909e95f209ed1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-8647a4a42273f773479d27c00df3f9ed.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-03cff2e87a80ce85282700c0d3d2a4d3.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
 
-  <meta name="author" content="Let’s Do Digital">
-  <title>Let's Do Digital – What Is Digital Health?</title>
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reset.css">
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/reveal.css">
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
-      vertical-align: middle;
-    }
-  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-2f366650f320edcfcf53d73c80250a32.css">
-  <link rel="stylesheet" href="../../slides.css">
-  <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
-  <link href="../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
-  <style type="text/css">
-    .reveal div.sourceCode {
-      margin: 0;
-      overflow: auto;
-    }
-    .reveal div.hanging-indent {
-      margin-left: 1em;
-      text-indent: -1em;
-    }
-    .reveal .slide:not(.center) {
-      height: 100%;
-    }
-    .reveal .slide.scrollable {
-      overflow-y: auto;
-    }
-    .reveal .footnotes {
-      height: 100%;
-      overflow-y: auto;
-    }
-    .reveal .slide .absolute {
-      position: absolute;
-      display: block;
-    }
-    .reveal .footnotes ol {
-      counter-reset: ol;
-      list-style-type: none; 
-      margin-left: 0;
-    }
-    .reveal .footnotes ol li:before {
-      counter-increment: ol;
-      content: counter(ol) ". "; 
-    }
-    .reveal .footnotes ol li > p:first-child {
-      display: inline-block;
-    }
-    .reveal .slide ul,
-    .reveal .slide ol {
-      margin-bottom: 0.5em;
-    }
-    .reveal .slide ul li,
-    .reveal .slide ol li {
-      margin-top: 0.4em;
-      margin-bottom: 0.2em;
-    }
-    .reveal .slide ul[role="tablist"] li {
-      margin-bottom: 0;
-    }
-    .reveal .slide ul li > *:first-child,
-    .reveal .slide ol li > *:first-child {
-      margin-block-start: 0;
-    }
-    .reveal .slide ul li > *:last-child,
-    .reveal .slide ol li > *:last-child {
-      margin-block-end: 0;
-    }
-    .reveal .slide .columns:nth-child(3) {
-      margin-block-start: 0.8em;
-    }
-    .reveal blockquote {
-      box-shadow: none;
-    }
-    .reveal .tippy-content>* {
-      margin-top: 0.2em;
-      margin-bottom: 0.7em;
-    }
-    .reveal .tippy-content>*:last-child {
-      margin-bottom: 0.2em;
-    }
-    .reveal .slide > img.stretch.quarto-figure-center,
-    .reveal .slide > img.r-stretch.quarto-figure-center {
-      display: block;
-      margin-left: auto;
-      margin-right: auto; 
-    }
-    .reveal .slide > img.stretch.quarto-figure-left,
-    .reveal .slide > img.r-stretch.quarto-figure-left  {
-      display: block;
-      margin-left: 0;
-      margin-right: auto; 
-    }
-    .reveal .slide > img.stretch.quarto-figure-right,
-    .reveal .slide > img.r-stretch.quarto-figure-right  {
-      display: block;
-      margin-left: auto;
-      margin-right: 0; 
-    }
-  </style>
-<meta name="twitter:title" content="What Is Digital Health? – Let’s Do Digital">
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="What is Digital Health? – Let’s Do Digital">
 <meta name="twitter:card" content="summary">
 </head>
-<body class="quarto-light">
-  <div class="reveal">
-    <div class="slides">
 
-<section id="title-slide" data-background-image="../../media/pcb.jpg" data-background-opacity="0.5" class="quarto-title-block center">
-  <h1 class="title">What Is Digital Health?</h1>
+<body class="nav-fixed">
 
-<div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-Let’s Do Digital 
-</div>
-</div>
-</div>
-
-</section>
-<section>
-<section id="what-is-digital-health" class="title-slide slide level1 center">
-<h1>What Is Digital Health?</h1>
-<ul>
-<li>The use of technology to manage the health and social care of patients.</li>
-<li>Eg. online medical records, video doctor visits, and health apps on phones.</li>
-<li>We will look at what digital health is, why it matters, and how it affects patients and those working in healthcare.</li>
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Let’s Do Digital</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../learn/index.html"> 
+<span class="menu-text">Learn</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../conferences/2024/index.html"> 
+<span class="menu-text">Conference</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../tickets/index.html"> 
+<span class="menu-text">Tickets</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../services-we-offer.html"> 
+<span class="menu-text">Services we offer</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../who-are-we.html"> 
+<span class="menu-text">Who are we</span></a>
+  </li>  
 </ul>
-</section>
-<section id="overview" class="slide level2">
-<h2>Overview</h2>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-is-digital-health" id="toc-what-is-digital-health" class="nav-link active" data-scroll-target="#what-is-digital-health">What is Digital Health?</a>
+  <ul class="collapse">
+  <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a>
+  <ul class="collapse">
+  <li><a href="#what-this-talk-covers" id="toc-what-this-talk-covers" class="nav-link" data-scroll-target="#what-this-talk-covers">What This Talk Covers</a></li>
+  </ul></li>
+  <li><a href="#what-is-digital-and-what-is-health" id="toc-what-is-digital-and-what-is-health" class="nav-link" data-scroll-target="#what-is-digital-and-what-is-health">What is “Digital” and What is “Health”?</a>
+  <ul class="collapse">
+  <li><a href="#what-is-digital" id="toc-what-is-digital" class="nav-link" data-scroll-target="#what-is-digital"><strong>What is Digital?</strong></a></li>
+  <li><a href="#what-is-health" id="toc-what-is-health" class="nav-link" data-scroll-target="#what-is-health"><strong>What is Health?</strong></a></li>
+  <li><a href="#how-do-they-overlap" id="toc-how-do-they-overlap" class="nav-link" data-scroll-target="#how-do-they-overlap"><strong>How Do They Overlap?</strong></a></li>
+  </ul></li>
+  <li><a href="#how-has-healthcare-changed-with-technology" id="toc-how-has-healthcare-changed-with-technology" class="nav-link" data-scroll-target="#how-has-healthcare-changed-with-technology">How Has Healthcare Changed With Technology?</a>
+  <ul class="collapse">
+  <li><a href="#the-old-way" id="toc-the-old-way" class="nav-link" data-scroll-target="#the-old-way"><strong>The Old Way</strong></a></li>
+  <li><a href="#early-digital-changes-1980s---2000s" id="toc-early-digital-changes-1980s---2000s" class="nav-link" data-scroll-target="#early-digital-changes-1980s---2000s"><strong>Early Digital Changes (1980s - 2000s)</strong></a></li>
+  <li><a href="#the-digital-health-boom-2010s---now" id="toc-the-digital-health-boom-2010s---now" class="nav-link" data-scroll-target="#the-digital-health-boom-2010s---now"><strong>The Digital Health Boom (2010s - Now)</strong></a></li>
+  <li><a href="#the-future-of-digital-health" id="toc-the-future-of-digital-health" class="nav-link" data-scroll-target="#the-future-of-digital-health"><strong>The Future of Digital Health</strong></a></li>
+  </ul></li>
+  <li><a href="#what-are-the-main-digital-tools-in-healthcare" id="toc-what-are-the-main-digital-tools-in-healthcare" class="nav-link" data-scroll-target="#what-are-the-main-digital-tools-in-healthcare">What Are The Main Digital Tools in Healthcare?</a>
+  <ul class="collapse">
+  <li><a href="#digital-medical-records" id="toc-digital-medical-records" class="nav-link" data-scroll-target="#digital-medical-records"><strong>1. Digital Medical Records</strong></a></li>
+  <li><a href="#telemedicine-seeing-a-doctor-online" id="toc-telemedicine-seeing-a-doctor-online" class="nav-link" data-scroll-target="#telemedicine-seeing-a-doctor-online"><strong>2. Telemedicine (Seeing a Doctor Online)</strong></a></li>
+  <li><a href="#health-apps" id="toc-health-apps" class="nav-link" data-scroll-target="#health-apps"><strong>3. Health Apps</strong></a></li>
+  <li><a href="#wearable-devices" id="toc-wearable-devices" class="nav-link" data-scroll-target="#wearable-devices"><strong>4. Wearable Devices</strong></a></li>
+  <li><a href="#artificial-intelligence-ai-in-healthcare" id="toc-artificial-intelligence-ai-in-healthcare" class="nav-link" data-scroll-target="#artificial-intelligence-ai-in-healthcare"><strong>5. Artificial Intelligence (AI) in Healthcare</strong></a></li>
+  <li><a href="#cybersecurity-and-data-privacy" id="toc-cybersecurity-and-data-privacy" class="nav-link" data-scroll-target="#cybersecurity-and-data-privacy"><strong>6. Cybersecurity and Data Privacy</strong></a></li>
+  </ul></li>
+  <li><a href="#benefits-and-challenges-of-digital-health" id="toc-benefits-and-challenges-of-digital-health" class="nav-link" data-scroll-target="#benefits-and-challenges-of-digital-health">Benefits and Challenges of Digital Health</a>
+  <ul class="collapse">
+  <li><a href="#benefits" id="toc-benefits" class="nav-link" data-scroll-target="#benefits"><strong>Benefits</strong></a></li>
+  <li><a href="#challenges" id="toc-challenges" class="nav-link" data-scroll-target="#challenges"><strong>Challenges</strong></a></li>
+  </ul></li>
+  <li><a href="#how-can-you-learn-more-about-digital-health" id="toc-how-can-you-learn-more-about-digital-health" class="nav-link" data-scroll-target="#how-can-you-learn-more-about-digital-health">How Can You Learn More About Digital Health?</a>
+  <ul class="collapse">
+  <li><a href="#where-to-start" id="toc-where-to-start" class="nav-link" data-scroll-target="#where-to-start"><strong>Where to Start?</strong></a></li>
+  <li><a href="#final-thoughts" id="toc-final-thoughts" class="nav-link" data-scroll-target="#final-thoughts"><strong>Final Thoughts</strong></a></li>
+  </ul></li>
+  <li><a href="#thank-you" id="toc-thank-you" class="nav-link" data-scroll-target="#thank-you">Thank You!</a>
+  <ul class="collapse">
+  <li><a href="#questions" id="toc-questions" class="nav-link" data-scroll-target="#questions">Questions?</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">What is Digital Health?</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Dr.&nbsp;Mark Bailey </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="what-is-digital-health" class="level1">
+<h1>What is Digital Health?</h1>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <ul>
-<li>In this video, we will cover the basics of digital health.</li>
-<li>Following this, we will have a quiz to test your knowledge.</li>
-<li>You will also get a certificate for completing the module.</li>
+<li>Digital health is about using technology to help people stay healthy and get better when they are ill.</li>
+<li>It includes things like online medical records, video doctor visits, and health apps on phones.</li>
+<li>In this talk, we’ll look at what digital health is, why it matters, and how it affects patients and doctors.</li>
 </ul>
-</section>
-<section id="we-will-cover" class="slide level2">
-<h2>We Will Cover</h2>
+<hr>
+<section id="what-this-talk-covers" class="level3">
+<h3 class="anchored" data-anchor-id="what-this-talk-covers">What This Talk Covers</h3>
 <ol type="1">
 <li>What do we mean by “digital” and “health”?</li>
 <li>How has healthcare changed with technology?</li>
@@ -168,34 +235,29 @@ Let’s Do Digital
 <li>What are the benefits and challenges of digital health?</li>
 <li>How can you learn more about digital health?</li>
 </ol>
+<hr>
 </section>
-<section id="what-is-digital" class="slide level2">
-<h2>What Is Digital?</h2>
+</section>
+<section id="what-is-digital-and-what-is-health" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-digital-and-what-is-health">What is “Digital” and What is “Health”?</h2>
+<section id="what-is-digital" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-digital"><strong>What is Digital?</strong></h3>
 <ul>
 <li>Anything that uses computers, the internet, or smart devices.</li>
 <li>Examples: Emails, apps, websites, mobile phones.</li>
 </ul>
 </section>
-<section id="mobile-phones-everywhere" class="slide level2">
-<h2>Mobile Phones Everywhere</h2>
-<div class="fact-pop">
-58% of the world’s population have mobile phones connected to the internet
-</div>
-<footer>
-GSM Association, “The Mobile Economy 2025”, 2025, <a href="https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2025/02/030325-The-Mobile-Economy-2025.pdf" class="uri">https://www.gsma.com/solutions-and-impact/connectivity-for-good/mobile-economy/wp-content/uploads/2025/02/030325-The-Mobile-Economy-2025.pdf</a>
-</footer>
-</section>
-<section id="what-is-health" class="slide level2">
-<h2>What Is Health?</h2>
+<section id="what-is-health" class="level3">
+<h3 class="anchored" data-anchor-id="what-is-health"><strong>What is Health?</strong></h3>
 <ul>
-<li>Everything related to keeping people well or treating them when they are sick.</li>
+<li>Everything related to keeping people well or treating them when they are ill.</li>
 <li>Examples: Hospitals, doctors, medicines, exercise.</li>
 </ul>
 </section>
-<section id="how-do-digital-and-health-overlap" class="slide level2">
-<h2>How Do Digital and Health Overlap?</h2>
+<section id="how-do-they-overlap" class="level3">
+<h3 class="anchored" data-anchor-id="how-do-they-overlap"><strong>How Do They Overlap?</strong></h3>
 <ul>
-<li>Digital health is where we use digital tools to help with health.</li>
+<li>Digital health is when we use digital tools to help with health.</li>
 <li>Examples:
 <ul>
 <li>Booking a doctor’s appointment online.</li>
@@ -203,661 +265,774 @@ GSM Association, “The Mobile Economy 2025”, 2025, <a href="https://www.gsma.
 <li>A hospital storing patient records on a computer instead of paper.</li>
 </ul></li>
 </ul>
+<hr>
 </section>
-<section id="how-do-digital-and-health-overlap-1" class="slide level2">
-<h2>How Do Digital and Health Overlap?</h2>
-
-<img data-src="../../media/venn-digital-health.png" class="r-stretch"></section>
-<section id="big-business" class="slide level2">
-<h2>Big Business</h2>
-<div class="fact-pop">
-Worth $288.55 billion in 2024
-</div>
-<footer>
-Grand View Research, “Digital Health Market Report”, 2024, <a href="https://www.grandviewresearch.com/industry-analysis/digital-health-market" class="uri">https://www.grandviewresearch.com/industry-analysis/digital-health-market</a>
-</footer>
-</section></section>
-<section>
-<section id="how-has-healthcare-changed-with-technology" class="title-slide slide level1 center" data-background-image="../../media/new-butterfly.jpg" data-background-opacity="0.5">
-<h1>How Has Healthcare Changed With Technology?</h1>
-
 </section>
-<section id="the-old-way" class="slide level2">
-<h2>The Old Way</h2>
+<section id="how-has-healthcare-changed-with-technology" class="level2">
+<h2 class="anchored" data-anchor-id="how-has-healthcare-changed-with-technology">How Has Healthcare Changed With Technology?</h2>
+<section id="the-old-way" class="level3">
+<h3 class="anchored" data-anchor-id="the-old-way"><strong>The Old Way</strong></h3>
 <ul>
 <li>Doctors wrote notes on paper.</li>
-<li>Results and correspondence were sent by post.</li>
 <li>If you needed medical advice, you had to visit a clinic in person.</li>
 <li>There were no mobile apps or online health services.</li>
 </ul>
 </section>
-<section id="paper-records-in-2001" class="slide level2">
-<h2>Paper Records in 2001</h2>
-<div class="fact-pop">
-Only 18% of U.S. doctors used electronic records in 2001
-</div>
-<footer>
-Statista, “Office-based U.S. physicians with EMR/EHR systems 2001-2021”, 2021, <a href="https://www.statista.com/statistics/252083/office-based-physicians-with-emr-ehr-systems-in-the-us-2001-2012/" class="uri">https://www.statista.com/statistics/252083/office-based-physicians-with-emr-ehr-systems-in-the-us-2001-2012/</a>
-</footer>
-</section>
-<section id="early-digital-changes-1980s---2000s" class="slide level2">
-<h2>Early Digital Changes (1980s - 2000s)</h2>
+<section id="early-digital-changes-1980s---2000s" class="level3">
+<h3 class="anchored" data-anchor-id="early-digital-changes-1980s---2000s"><strong>Early Digital Changes (1980s - 2000s)</strong></h3>
 <ul>
-<li>Most early digital health developments in the UK started in GP practices.</li>
-<li>GP systems were some of the first to adopt electronic records, replacing paper files.</li>
-<li>Early prescription systems allowed doctors to send prescriptions to pharmacies digitally.</li>
+<li>Most early digital health developments in the UK started in <strong>GP practices</strong>.</li>
+<li>GP systems were some of the first to adopt <strong>electronic records</strong>, replacing paper files.</li>
+<li>Early <strong>prescription systems</strong> allowed doctors to send prescriptions to pharmacies digitally.</li>
 <li>Hospitals started using computers for administrative tasks, but most patient records were still on paper.</li>
-<li>Early telemedicine experiments allowed doctors to give advice over the phone.</li>
+<li>Early <strong>telemedicine</strong> experiments allowed doctors to give advice over the phone.</li>
 </ul>
 </section>
-<section id="the-digital-health-boom-2010s---now" class="slide level2">
-<h2>The Digital Health Boom (2010s - Now)</h2>
+<section id="the-digital-health-boom-2010s---now" class="level3">
+<h3 class="anchored" data-anchor-id="the-digital-health-boom-2010s---now"><strong>The Digital Health Boom (2010s - Now)</strong></h3>
 <ul>
-<li><strong>Smartphones &amp; Apps:</strong> Patients started using apps for tracking health, fitness, and medications.</li>
-<li><strong>Electronic Health Records (EHRs):</strong> Hospitals and clinics moved to digital records that could be shared across healthcare providers.</li>
-<li><strong>Telemedicine Growth:</strong> Video calls with doctors became more common, especially after the COVID-19 pandemic.</li>
+<li><strong>Smartphones &amp; Apps</strong>: Patients started using apps for tracking health, fitness, and medications.</li>
+<li><strong>Electronic Health Records (EHRs)</strong>: Hospitals and clinics moved to digital records that could be shared across healthcare providers.</li>
+<li><strong>Telemedicine Growth</strong>: Video calls with doctors became more common, especially after the COVID-19 pandemic.</li>
+<li><strong>Wearable Devices</strong>: Smartwatches and fitness trackers allowed people to monitor their health in real-time.</li>
+<li><strong>Artificial Intelligence (AI)</strong>: AI helped doctors analyse scans and predict illnesses more accurately.</li>
+<li><strong>Big Data in Healthcare</strong>: Large amounts of health data helped scientists understand diseases better.</li>
 </ul>
 </section>
-<section id="telehealth-surge-in-2020" class="slide level2">
-<h2>Telehealth Surge in 2020</h2>
-<div class="fact-pop">
-U.S. telehealth usage jumped 154% in early 2020 due to COVID-19
-</div>
-<footer>
-CDC, “Trends in the Use of Telehealth During the Emergence of the COVID-19 Pandemic — United States”, 2020, <a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6943a3.htm" class="uri">https://www.cdc.gov/mmwr/volumes/69/wr/mm6943a3.htm</a>
-</footer>
-</section>
-<section id="the-digital-health-boom-2010s---now-1" class="slide level2">
-<h2>The Digital Health Boom (2010s - Now)</h2>
-<ul>
-<li><strong>Wearable Devices:</strong> Smartwatches and fitness trackers allowed people to monitor their health in real-time.</li>
-<li><strong>Artificial Intelligence (AI):</strong> AI is showing promise to help doctors analyse scans and predict illnesses more accurately.</li>
-<li><strong>Big Data in Healthcare:</strong> Large amounts of health data has helped scientists understand diseases better.</li>
-</ul>
-</section>
-<section id="wearables-in-action" class="slide level2">
-<h2>Wearables in Action</h2>
-<div class="fact-pop">
-In 2024, 30 million U.S. patients used remote monitoring tools like smartwatches
-</div>
-<footer>
-PatentPC,“Remote Patient Monitoring: Growth &amp; Adoption Stats”, 2025, <a href="https://patentpc.com/blog/remote-patient-monitoring-growth-adoption-stats" class="uri">https://patentpc.com/blog/remote-patient-monitoring-growth-adoption-stats</a>
-</footer>
-</section>
-<section id="the-potential-future-of-digital-health" class="slide level2">
-<h2>The Potential Future of Digital Health</h2>
+<section id="the-future-of-digital-health" class="level3">
+<h3 class="anchored" data-anchor-id="the-future-of-digital-health"><strong>The Future of Digital Health</strong></h3>
 <ul>
 <li>More personalised care using AI and health data.</li>
 <li>Faster diagnosis and treatment through automation.</li>
 <li>More remote monitoring and home-based healthcare.</li>
 <li>Better integration between digital systems to make healthcare more efficient.</li>
 </ul>
-</section></section>
-<section>
-<section id="what-are-the-main-digital-tools-in-healthcare" class="title-slide slide level1 center" data-background-image="../../media/tools.jpg" data-background-opacity="0.3">
-<h1>What Are the Main Digital Tools in Healthcare?</h1>
-
+<hr>
 </section>
-<section id="electronic-patient-records-eprs" class="slide level2">
-<h2>1. Electronic Patient Records (EPRs)</h2>
+</section>
+<section id="what-are-the-main-digital-tools-in-healthcare" class="level2">
+<h2 class="anchored" data-anchor-id="what-are-the-main-digital-tools-in-healthcare">What Are The Main Digital Tools in Healthcare?</h2>
+<section id="digital-medical-records" class="level3">
+<h3 class="anchored" data-anchor-id="digital-medical-records"><strong>1. Digital Medical Records</strong></h3>
 <ul>
-<li>Also called Electronic Health Records (EHRs).</li>
 <li>A computer version of a patient’s medical history.</li>
-<li>Tries to condense all the required data and functionality into one system.</li>
+<li>Helps doctors quickly find information about patients.</li>
 </ul>
 </section>
-<section id="eprs-worldwide" class="slide level2">
-<h2>EPRs Worldwide</h2>
-<div class="fact-pop">
-In 2019, 100% of UK GP practices used EPRs, compared to 71% in Switzerland
-</div>
-<footer>
-Statista, “Proportion of primary care physicians who use electronic medical records in their practice in select countries worldwide in 2019”, 2025, <a href="https://www.statista.com/statistics/1097577/proportion-primary-physicians-using-emr-select-countries-worldwide/" class="uri">https://www.statista.com/statistics/1097577/proportion-primary-physicians-using-emr-select-countries-worldwide/</a>
-</footer>
-</section>
-<section id="telemedicine-seeing-a-doctor-online" class="slide level2">
-<h2>2. Telemedicine (Seeing a Doctor Online)</h2>
+<section id="telemedicine-seeing-a-doctor-online" class="level3">
+<h3 class="anchored" data-anchor-id="telemedicine-seeing-a-doctor-online"><strong>2. Telemedicine (Seeing a Doctor Online)</strong></h3>
 <ul>
 <li>Talking to a doctor using a video call instead of going to a clinic.</li>
 <li>Useful for people who live far away or cannot travel easily.</li>
 </ul>
 </section>
-<section id="health-apps" class="slide level2">
-<h2>3. Health Apps</h2>
+<section id="health-apps" class="level3">
+<h3 class="anchored" data-anchor-id="health-apps"><strong>3. Health Apps</strong></h3>
 <ul>
 <li>Apps that help track steps, diet, sleep, or medical conditions.</li>
 <li>Examples: A diabetes app that reminds people to check their blood sugar.</li>
 </ul>
 </section>
-<section id="health-app-boom" class="slide level2">
-<h2>Health App Boom</h2>
-<div class="fact-pop">
-Health app downloads surged 50% globally during the COVID-19 pandemic
-</div>
-<footer>
-World Economy Forum, “Fitness apps grew by nearly 50% during the first half of 2020, study finds”, 2020, <a href="https://www.weforum.org/stories/2020/09/fitness-apps-gym-health-downloads/" class="uri">https://www.weforum.org/stories/2020/09/fitness-apps-gym-health-downloads/</a>
-</footer>
-</section>
-<section id="wearable-devices" class="slide level2">
-<h2>4. Wearable Devices</h2>
+<section id="wearable-devices" class="level3">
+<h3 class="anchored" data-anchor-id="wearable-devices"><strong>4. Wearable Devices</strong></h3>
 <ul>
 <li>Smartwatches and fitness trackers that measure heart rate, sleep, and activity.</li>
 <li>Some devices can alert doctors if something is wrong.</li>
 </ul>
 </section>
-<section id="artificial-intelligence-ai-in-healthcare" class="slide level2">
-<h2>5. Artificial Intelligence (AI) in Healthcare</h2>
+<section id="artificial-intelligence-ai-in-healthcare" class="level3">
+<h3 class="anchored" data-anchor-id="artificial-intelligence-ai-in-healthcare"><strong>5. Artificial Intelligence (AI) in Healthcare</strong></h3>
 <ul>
 <li>AI can help doctors read X-rays or predict health problems.</li>
 <li>Some chatbots give basic health advice based on symptoms.</li>
-<li>But: Not yet accurate or safe enough for routine use—lots of hype still unproven.</li>
 </ul>
 </section>
-<section id="ai-enhances-early-detection-of-lung-cancer" class="slide level2">
-<h2>AI Enhances Early Detection of Lung Cancer</h2>
-<div class="fact-pop">
-AI assistance improved clinicians’ ability to detect lung cancer by 17.4%
-</div>
-<footer>
-Dissez G, Tay N, Dyer T, et al., “Enhancing Early Lung Cancer Detection on Chest Radiographs with AI-assistance: A Multi-Reader Study”, 2022, <a href="https://arxiv.org/abs/2208.14742" class="uri">https://arxiv.org/abs/2208.14742</a>
-</footer>
-</section>
-<section id="but-at-the-same-time" class="slide level2">
-<h2>But At the Same Time</h2>
-<div class="fact-pop">
-Large language models did not improve physician performance in diagnostic reasoning tasks
-</div>
-<footer>
-Goh E, Gallo R, Hom J, et al.&nbsp;Large Language Model Influence on Diagnostic Reasoning: A Randomized Clinical Trial. JAMA Netw Open. 2024;7(10)
-</footer>
-</section>
-<section id="cybersecurity-and-data-privacy" class="slide level2">
-<h2>6. Cybersecurity and Data Privacy</h2>
+<section id="cybersecurity-and-data-privacy" class="level3">
+<h3 class="anchored" data-anchor-id="cybersecurity-and-data-privacy"><strong>6. Cybersecurity and Data Privacy</strong></h3>
 <ul>
 <li>Protecting patient information so that only the right people can see it.</li>
 <li>Important for keeping medical records safe.</li>
 </ul>
-</section></section>
-<section>
-<section id="benefits-and-challenges-of-digital-health" class="title-slide slide level1 center" data-background-image="../../media/abseiling.jpg" data-background-opacity="0.5">
-<h1>Benefits and Challenges of Digital Health</h1>
-
+<hr>
 </section>
-<section id="benefits" class="slide level2">
-<h2>Benefits</h2>
+</section>
+<section id="benefits-and-challenges-of-digital-health" class="level2">
+<h2 class="anchored" data-anchor-id="benefits-and-challenges-of-digital-health">Benefits and Challenges of Digital Health</h2>
+<section id="benefits" class="level3">
+<h3 class="anchored" data-anchor-id="benefits"><strong>Benefits</strong></h3>
 <ul>
-<li><strong>Faster and more accessible:</strong> Patients can get advice without leaving home. Routine tasks can be automated.</li>
+<li><strong>Faster and Easier Healthcare:</strong> Patients can get advice without leaving home.</li>
 <li><strong>More Information:</strong> Apps and wearables help people understand their health.</li>
 <li><strong>Better Care:</strong> Doctors can access patient records quickly.</li>
 </ul>
 </section>
-<section id="health-info-online" class="slide level2">
-<h2>Health Info Online</h2>
-<div class="fact-pop">
-In 2020, 63% of UK adults used the internet for health info
-</div>
-<footer>
-Statista, “Share of individuals in the United Kingdom seeking health information online from 2009 to 2020”, 2025 <a href="https://www.statista.com/statistics/1236817/united-kingdom-internet-users-seeking-health-information-online/" class="uri">https://www.statista.com/statistics/1236817/united-kingdom-internet-users-seeking-health-information-online/</a>
-</footer>
-</section>
-<section id="challenges" class="slide level2">
-<h2>Challenges</h2>
+<section id="challenges" class="level3">
+<h3 class="anchored" data-anchor-id="challenges"><strong>Challenges</strong></h3>
 <ul>
-<li><strong>Internet access:</strong> Some people may struggle to use digital tools.</li>
-<li><strong>Privacy:</strong> Keeping personal health data safe is important.</li>
-<li><strong>New technology:</strong> Patients and doctors need to learn how to use digital health tools properly.</li>
-<li><strong>Deliverables:</strong> Many digital health systems fall short of expectations.</li>
+<li><strong>Not Everyone Has Internet Access:</strong> Some people may struggle to use digital tools.</li>
+<li><strong>Privacy Concerns:</strong> Keeping personal health data safe is important.</li>
+<li><strong>Learning to Use New Technology:</strong> Patients and doctors need to learn how to use digital health tools properly.</li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="how-can-you-learn-more-about-digital-health" class="level2">
+<h2 class="anchored" data-anchor-id="how-can-you-learn-more-about-digital-health">How Can You Learn More About Digital Health?</h2>
+<section id="where-to-start" class="level3">
+<h3 class="anchored" data-anchor-id="where-to-start"><strong>Where to Start?</strong></h3>
+<ul>
+<li>Websites and online courses (e.g.&nbsp;NHS Digital, FutureLearn).</li>
+<li>Books and guides (like <em>Essentials of Health Informatics</em>).</li>
+<li>Join groups that discuss digital health topics.</li>
+<li>Attend online talks or workshops.</li>
 </ul>
 </section>
-<section id="complex-ecosystem" class="slide level2">
-<h2>Complex ecosystem</h2>
-<div class="fact-pop">
-Over 80% of digital health startups fail
-</div>
-<footer>
-Growth List, “Startup Failure Statistics”, 2025, <a href="https://growthlist.co/startup-failure-statistics/" class="uri">https://growthlist.co/startup-failure-statistics/</a>
-</footer>
-</section>
-<section id="why-this-statistic" class="slide level2">
-<h2>Why this statistic?</h2>
-<ul>
-<li>Regulation</li>
-<li>Standards</li>
-<li>Reimbursement</li>
-<li>Stakeholder take up of new technology</li>
-<li>Poor outcomes in real life settings</li>
-</ul>
-</section></section>
-<section>
-<section id="how-can-you-learn-more-about-digital-health" class="title-slide slide level1 center" data-background-image="../../media/man-reading.jpg" data-background-opacity="0.5">
-<h1>How Can You Learn More About Digital Health?</h1>
-
-</section>
-<section id="where-to-start" class="slide level2">
-<h2>Where to Start?</h2>
-<ul>
-<li>The <code>Let's Do Digital</code> team is building new modules.</li>
-<li>You can also join discussions on digital health topics at <code>Digital Health Discourse</code>. See <a href="https://discourse.digitalhealth.net/">https://discourse.digitalhealth.net/</a>.</li>
-</ul>
-</section>
-<section id="final-thoughts" class="slide level2">
-<h2>Final Thoughts</h2>
+<section id="final-thoughts" class="level3">
+<h3 class="anchored" data-anchor-id="final-thoughts"><strong>Final Thoughts</strong></h3>
 <ul>
 <li>Digital health is changing how we access and receive care.</li>
 <li>There are many opportunities to learn and get involved.</li>
-<li>As a complex ecosystem, creating and implementing digital solutions can be tricky.</li>
-<li>Education and training are key to understanding, buying and making digital health work for everyone.</li>
+<li>Start small: Try a health app or book an online appointment!</li>
 </ul>
-</section></section>
-<section id="quiz-time" class="title-slide slide level1 center" data-background-image="../../media/quiz.jpg" data-background-opacity="0.3">
-<h1>Quiz Time!</h1>
+<hr>
+</section>
+</section>
+<section id="thank-you" class="level2">
+<h2 class="anchored" data-anchor-id="thank-you">Thank You!</h2>
+<section id="questions" class="level3">
+<h3 class="anchored" data-anchor-id="questions">Questions?</h3>
 <ul>
-<li>We will now test your knowledge with a quiz.</li>
-<li>Good luck!</li>
+<li>Connect via <em>Let’s Do Digital</em> or LinkedIn.</li>
+<li>More resources at: [Insert relevant link]</li>
 </ul>
 
 
 </section>
-    </div>
-  <div class="quarto-auto-generated-content" style="display: none;">
-<div class="footer footer-default">
+</section>
+</section>
 
-</div>
-</div></div>
-
-  <script>window.backupDefine = window.define; window.define = undefined;</script>
-  <script src="../../site_libs/revealjs/dist/reveal.js"></script>
-  <!-- reveal.js plugins -->
-  <script src="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
-  <script src="../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
-  <script src="../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
-  <script src="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
-  <script src="../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
-  
-
-  <script src="../../site_libs/revealjs/plugin/notes/notes.js"></script>
-  <script src="../../site_libs/revealjs/plugin/search/search.js"></script>
-  <script src="../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
-  <script src="../../site_libs/revealjs/plugin/math/math.js"></script>
-  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
-
-  <script>
-
-      // Full list of configuration options available at:
-      // https://revealjs.com/config/
-      Reveal.initialize({
-'controlsAuto': true,
-'previewLinksAuto': false,
-'pdfSeparateFragments': false,
-'autoAnimateEasing': "ease",
-'autoAnimateDuration': 1,
-'autoAnimateUnmatched': true,
-'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
-'smaller': false,
- 
-        // Display controls in the bottom right corner
-        controls: false,
-
-        // Help the user learn the controls by providing hints, for example by
-        // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: false,
-
-        // Determines where controls appear, "edges" or "bottom-right"
-        controlsLayout: 'edges',
-
-        // Visibility rule for backwards navigation arrows; "faded", "hidden"
-        // or "visible"
-        controlsBackArrows: 'faded',
-
-        // Display a presentation progress bar
-        progress: true,
-
-        // Display the page number of the current slide
-        slideNumber: false,
-
-        // 'all', 'print', or 'speaker'
-        showSlideNumber: 'all',
-
-        // Add the current slide number to the URL hash so that reloading the
-        // page/copying the URL will return you to the same slide
-        hash: true,
-
-        // Start with 1 for the hash rather than 0
-        hashOneBasedIndex: false,
-
-        // Flags if we should monitor the hash and change slides accordingly
-        respondToHashChanges: true,
-
-        // Push each slide change to the browser history
-        history: true,
-
-        // Enable keyboard shortcuts for navigation
-        keyboard: true,
-
-        // Enable the slide overview mode
-        overview: true,
-
-        // Disables the default reveal.js slide layout (scaling and centering)
-        // so that you can use custom CSS layout
-        disableLayout: false,
-
-        // Vertical centering of slides
-        center: false,
-
-        // Enables touch navigation on devices with touch input
-        touch: true,
-
-        // Loop the presentation
-        loop: false,
-
-        // Change the presentation direction to be RTL
-        rtl: false,
-
-        // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'linear',
-
-        // Randomizes the order of slides each time the presentation loads
-        shuffle: false,
-
-        // Turns fragments on and off globally
-        fragments: true,
-
-        // Flags whether to include the current fragment in the URL,
-        // so that reloading brings you to the same fragment position
-        fragmentInURL: false,
-
-        // Flags if the presentation is running in an embedded mode,
-        // i.e. contained within a limited portion of the screen
-        embedded: false,
-
-        // Flags if we should show a help overlay when the questionmark
-        // key is pressed
-        help: true,
-
-        // Flags if it should be possible to pause the presentation (blackout)
-        pause: true,
-
-        // Flags if speaker notes should be visible to all viewers
-        showNotes: false,
-
-        // Global override for autoplaying embedded media (null/true/false)
-        autoPlayMedia: null,
-
-        // Global override for preloading lazy-loaded iframes (null/true/false)
-        preloadIframes: null,
-
-        // Number of milliseconds between automatically proceeding to the
-        // next slide, disabled when set to 0, this value can be overwritten
-        // by using a data-autoslide attribute on your slides
-        autoSlide: 0,
-
-        // Stop auto-sliding after user input
-        autoSlideStoppable: true,
-
-        // Use this method for navigation when auto-sliding
-        autoSlideMethod: null,
-
-        // Specify the average time in seconds that you think you will spend
-        // presenting each slide. This is used to show a pacing timer in the
-        // speaker view
-        defaultTiming: null,
-
-        // Enable slide navigation via mouse wheel
-        mouseWheel: false,
-
-        // The display mode that will be used to show slides
-        display: 'block',
-
-        // Hide cursor if inactive
-        hideInactiveCursor: true,
-
-        // Time before the cursor is hidden (in ms)
-        hideCursorTime: 5000,
-
-        // Opens links in an iframe preview overlay
-        previewLinks: false,
-
-        // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
-
-        // Transition speed (default/fast/slow)
-        transitionSpeed: 'default',
-
-        // Transition style for full page slide backgrounds
-        // (none/fade/slide/convex/concave/zoom)
-        backgroundTransition: 'none',
-
-        // Number of slides away from the current that are visible
-        viewDistance: 3,
-
-        // Number of slides away from the current that are visible on mobile
-        // devices. It is advisable to set this to a lower number than
-        // viewDistance in order to save resources.
-        mobileViewDistance: 2,
-
-        // The "normal" size of the presentation, aspect ratio will be preserved
-        // when the presentation is scaled to fit different resolutions. Can be
-        // specified using percentage units.
-        width: 1050,
-
-        height: 700,
-
-        // Factor of the display size that should remain empty around the content
-        margin: 0.1,
-
-        math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
-          config: 'TeX-AMS_HTML-full',
-          tex2jax: {
-            inlineMath: [['\\(','\\)']],
-            displayMath: [['\\[','\\]']],
-            balanceBraces: true,
-            processEscapes: false,
-            processRefs: true,
-            processEnvironments: true,
-            preview: 'TeX',
-            skipTags: ['script','noscript','style','textarea','pre','code'],
-            ignoreClass: 'tex2jax_ignore',
-            processClass: 'tex2jax_process'
-          },
-        },
-
-        // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
-
-          RevealMath,
-          RevealNotes,
-          RevealSearch,
-          RevealZoom
-        ]
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
       });
-    </script>
-    <script id="quarto-html-after-body" type="application/javascript">
-    window.document.addEventListener("DOMContentLoaded", function (event) {
-      const toggleBodyColorMode = (bsSheetEl) => {
-        const mode = bsSheetEl.getAttribute("data-mode");
-        const bodyEl = window.document.querySelector("body");
-        if (mode === "dark") {
-          bodyEl.classList.add("quarto-dark");
-          bodyEl.classList.remove("quarto-light");
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
         } else {
-          bodyEl.classList.add("quarto-light");
-          bodyEl.classList.remove("quarto-dark");
+          toggle.classList.remove("alternate");
         }
       }
-      const toggleBodyColorPrimary = () => {
-        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-        if (bsSheetEl) {
-          toggleBodyColorMode(bsSheetEl);
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
       }
-      toggleBodyColorPrimary();  
-      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
-      tabsets.forEach(function(tabset) {
-        const tabby = new Tabby('#' + tabset.id);
-      });
-      const isCodeAnnotation = (el) => {
-        for (const clz of el.classList) {
-          if (clz.startsWith('code-annotation-')) {                     
-            return true;
-          }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/letsdodigital\.org\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
         }
-        return false;
       }
-      const onCopySuccess = function(e) {
-        // button target
-        const button = e.trigger;
-        // don't keep focus
-        button.blur();
-        // flash "checked"
-        button.classList.add('code-copy-button-checked');
-        var currentTitle = button.getAttribute("title");
-        button.setAttribute("title", "Copied!");
-        let tooltip;
-        if (window.bootstrap) {
-          button.setAttribute("data-bs-toggle", "tooltip");
-          button.setAttribute("data-bs-placement", "left");
-          button.setAttribute("data-bs-title", "Copied!");
-          tooltip = new bootstrap.Tooltip(button, 
-            { trigger: "manual", 
-              customClass: "code-copy-button-tooltip",
-              offset: [0, -8]});
-          tooltip.show();    
-        }
-        setTimeout(function() {
-          if (tooltip) {
-            tooltip.hide();
-            button.removeAttribute("data-bs-title");
-            button.removeAttribute("data-bs-toggle");
-            button.removeAttribute("data-bs-placement");
-          }
-          button.setAttribute("title", currentTitle);
-          button.classList.remove('code-copy-button-checked');
-        }, 1000);
-        // clear code selection
-        e.clearSelection();
-      }
-      const getTextToCopy = function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-      }
-      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-        text: getTextToCopy
-      });
-      clipboard.on('success', onCopySuccess);
-      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-          text: getTextToCopy,
-          container: window.document.getElementById('quarto-embedded-source-code-modal')
-        });
-        clipboardModal.on('success', onCopySuccess);
-      }
-        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-        var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/letsdodigital\.org\/");
-        var isInternal = (href) => {
-            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-        }
-        // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-        for (var i=0; i<links.length; i++) {
-          const link = links[i];
-          if (!isInternal(link.href)) {
-            // undo the damage that might have been done by quarto-nav.js in the case of
-            // links that we want to consider external
-            if (link.dataset.originalHref !== undefined) {
-              link.href = link.dataset.originalHref;
-            }
-          }
-        }
-      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-        const config = {
-          allowHTML: true,
-          maxWidth: 500,
-          delay: 100,
-          arrow: false,
-          appendTo: function(el) {
-              return el.closest('section.slide') || el.parentElement;
-          },
-          interactive: true,
-          interactiveBorder: 10,
-          theme: 'light-border',
-          placement: 'bottom-start',
-        };
-        if (contentFn) {
-          config.content = contentFn;
-        }
-        if (onTriggerFn) {
-          config.onTrigger = onTriggerFn;
-        }
-        if (onUntriggerFn) {
-          config.onUntrigger = onUntriggerFn;
-        }
-          config['offset'] = [0,0];
-          config['maxWidth'] = 700;
-        window.tippy(el, config); 
-      }
-      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-      for (var i=0; i<noterefs.length; i++) {
-        const ref = noterefs[i];
-        tippyHover(ref, function() {
-          // use id or data attribute instead here
-          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-          try { href = new URL(href).hash; } catch {}
-          const id = href.replace(/^#\/?/, "");
-          const note = window.document.getElementById(id);
-          if (note) {
-            return note.innerHTML;
-          } else {
-            return "";
-          }
-        });
-      }
-      const findCites = (el) => {
-        const parentEl = el.parentElement;
-        if (parentEl) {
-          const cites = parentEl.dataset.cites;
-          if (cites) {
-            return {
-              el,
-              cites: cites.split(' ')
-            };
-          } else {
-            return findCites(el.parentElement)
-          }
-        } else {
-          return undefined;
-        }
-      };
-      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-      for (var i=0; i<bibliorefs.length; i++) {
-        const ref = bibliorefs[i];
-        const citeInfo = findCites(ref);
-        if (citeInfo) {
-          tippyHover(citeInfo.el, function() {
-            var popup = window.document.createElement('div');
-            citeInfo.cites.forEach(function(cite) {
-              var citeDiv = window.document.createElement('div');
-              citeDiv.classList.add('hanging-indent');
-              citeDiv.classList.add('csl-entry');
-              var biblioDiv = window.document.getElementById('ref-' + cite);
-              if (biblioDiv) {
-                citeDiv.innerHTML = biblioDiv.innerHTML;
-              }
-              popup.appendChild(citeDiv);
-            });
-            return popup.innerHTML;
-          });
-        }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
       }
     });
-    </script>
-    
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../contact.html">
+<p>Contact</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../privacy-policy.html">
+<p>Privacy Policy</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../company-information.html">
+<p>Company information</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../sponsor.html">
+<p>Sponsor us</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../paying-the-team.html">
+<p>Paying the team</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../../eohi/business-case.html">
+<p>Essentials of Health Informatics</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/letsdodigital">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://x.com/letsdodigitalci">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
 
 </body></html>
