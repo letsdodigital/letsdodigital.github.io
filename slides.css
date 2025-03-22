@@ -188,27 +188,3 @@
   height: auto !important;
   justify-content: center;
 }
-
-/* General slide padding to avoid overlap */
-.reveal section {
-  padding-bottom: 40px; /* Space for footer */
-}
-
-/* Footer positioning and right justification */
-.reveal section footer {
-  position: absolute;
-  bottom: 10px;        /* Stays at bottom */
-  right: 10px;         /* Moves to right edge */
-  font-size: 0.7em;    /* Readable for video */
-  color: #666;         /* Subtle gray */
-  text-align: right;   /* Right-aligns the text */
-  width: 90%;          /* Optional: limits width, adjust as needed */
-}
-
-.fact-pop {
-    font-size:70px; 
-    position: absolute; 
-    top: 30%; 
-    align-items: center;
-    text-align: center;
-}

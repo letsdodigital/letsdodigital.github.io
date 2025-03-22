@@ -8,7 +8,7 @@ on:
 jobs:
   testing:
     runs-on: ubuntu-latest
-    name: Testing, building and deploying
+    name: Testing
     permissions:
       contents: write
     steps:
@@ -28,45 +28,39 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Run CI CD tasks
+      - name: run CI CD tasks
         run: bash cicd.sh
-
-      - name: Push to github pages
-        if: success()
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-          # No need to render again, as CICD script already does this.
-          render: "false"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: If failure, revert commit
+      - name: Check for test failures
         if: failure()
         uses: actions/github-script@v6
         with:
           script: |
             const { execSync } = require('child_process');
-            try {
-              // Set Git user config
-              execSync('git config --global user.email "info@letsdodigital.org"', { stdio: 'inherit' });
-              execSync('git config --global user.name "Lets Do Digital"', { stdio: 'inherit' });
-              
-              // Get commit details
-              const commitSha = process.env.GITHUB_SHA;
-              const commitInfo = execSync(`git cat-file -p ${commitSha}`, { cwd: process.env.GITHUB_WORKSPACE }).toString();
-              const isMergeCommit = commitInfo.includes('parent') && commitInfo.split('\n').filter(line => line.startsWith('parent')).length > 1;
-              
-              // Revert command
-              const revertCommand = isMergeCommit ? `git revert --no-commit -m 1 ${commitSha}` : `git revert --no-commit ${commitSha}`;
-              execSync(revertCommand, { cwd: process.env.GITHUB_WORKSPACE, stdio: 'inherit' });
-              
-              // Commit and push
-              execSync(`git commit -m "Revert commit ${commitSha} due to test failure"`, { cwd: process.env.GITHUB_WORKSPACE, stdio: 'inherit' });
-              execSync(`git push origin main`, { cwd: process.env.GITHUB_WORKSPACE, stdio: 'inherit' });
-            } catch (error) {
-              console.error(`Revert failed: ${error.message}`);
-              process.exit(1);
-            }
+            const commitSha = process.env.GITHUB_SHA;
+            execSync(`git revert --no-commit ${commitSha}`);
+            execSync(`git commit -m "Revert commit ${commitSha} due to test failure"`);
+            execSync(`git push origin main`);
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  build-deploy:
+    needs: testing
+    runs-on: ubuntu-latest
+    name: Build and Deploy
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        
+# TODO: #39 Perhaps Quarto does not need to build the website again, and only push to gh-pages
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
