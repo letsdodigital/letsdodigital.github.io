@@ -193,7 +193,7 @@ kernel = [
     [-1, -1, -1],
     [-1, 9, -1],
     [-1, -1, -1]
-] 
+]
 ```
 
 A comparison of convolving an image of a cat with a sharpening kernel.
@@ -245,7 +245,7 @@ A comparison of convolving an image of a cat with a edge detection kernel (Sobel
 
 ## Why feature convolution in this course? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.4"}
 
-- It is a very **versatile** and **widely used** operation 
+- It is a very **versatile** and **widely used** operation
 - It is **used in other areas** (e.g. signal processing).
 - Convolution is a key operation in a **convolutional neural network**, a **well-established deep-learning architecture** for analysing images.
 
@@ -386,7 +386,7 @@ cxr_batch_shape = (16, 256, 256)
 ## Conclusions {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
 - Today we have:
-  - Covered the **basics** of image representation 
+  - Covered the **basics** of image representation
   - Explained an image transformation - **convolution**
   - Provided an overview of the Python packages we will be working with
 - This is a **general overview**, and there is a lot more depth to **digital image processing** that we have not touched on today.

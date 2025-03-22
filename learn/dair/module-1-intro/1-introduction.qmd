@@ -58,6 +58,7 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
 - Involving doctors in development helps **idea sharing** and helps us **advocate for patients**.
 
 ## Why programming in medicine? {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
+
 ## Why programming in medicine? {background-image="/media/bundle-of-wires.jpg" background-opacity="0.4"}
 
 - Most **translational bioengineering** or **informatics** research will use some degree of programming in **Python, MatLab, or R**.
@@ -109,19 +110,20 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
 ## Using Google Colab
 
 - A `notebook` consists of **cells**.
-    - **Code** cells
-    - **Markdown** cells
+  - **Code** cells
+  - **Markdown** cells
 - When you run the first line of code, the **kernel** starts.
-    - This is the **"engine"** that **runs your code** on the **server**.
+  - This is the **"engine"** that **runs your code** on the **server**.
 
 ## Trying out Google Colab {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 - We would recommend **testing** Google Colab before the first workshop.
-- We will provide a link to a workshop with **exercises** that you can try over the next 1-2 weeks **before the first workshop**. 
+- We will provide a link to a workshop with **exercises** that you can try over the next 1-2 weeks **before the first workshop**.
 - We would recommend testing out Google Colab before the first workshop.
 - The default notebook from Google can be found [here](https://colab.research.google.com/).
 
 ## Resources to use {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+
 ## Resources to use {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 - There are multiple resources that programmers often use when trying to solve a particular problem:
@@ -147,6 +149,7 @@ https://www.bbc.co.uk/news/articles/c4nn0vl2e78o#:~:text=almost%20half%20recorde
 ## Reading Documentation
 
 <!-- TODO: is this formattted correctly? Are you wanting to have nested hyperlinks and images? -->
+
 ## Reading Documentation
 
 ![[The documentation for NumPy's 'shape' method](https://numpy.org/doc/stable/reference/generated/numpy.shape.html), a very commonly used NumPy method](/media/daim/np_shape_docs.png)
@@ -156,6 +159,7 @@ Maybe mention the difference between function and method here.
 -->
 
 ## StackOverflow
+
 ## StackOverflow
 
 - **[StackOverflow](https://stackoverflow.com)** is a website created in 2008 to allow programmers to **share programming issues**.
@@ -236,9 +240,9 @@ scan = "CXR"
 ## Next Steps {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
 - Over the next 1-2 weeks:
-    - Work on the **introduction exercises**
-    - **Get to grips with Google Colab**
-    - Ask questions on the [DAIM forum](https://discourse.digitalhealth.net/t/data-in-analytics-course-forum/63765)
+  - Work on the **introduction exercises**
+  - **Get to grips with Google Colab**
+  - Ask questions on the [DAIM forum](https://discourse.digitalhealth.net/t/data-in-analytics-course-forum/63765)
 - Module 2 will start next week: **Core Python for Image Processing**
 - Can you think of other considerations that can make clinical data easier to process?
 - Have you ever encountered any issues with this in your practice?
