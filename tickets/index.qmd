@@ -5,15 +5,17 @@ image: /media/tickets.png
 
 ::: {.panel-tabset}
 
-## Upcoming Events
+## Courses and Events
 
-### 12th Feb - 5th March January 2025
+### Essentials of Health Informations Teaching Modules
 
-[Programming in Healthcare Module 0-3](https://letsdodigital.thinkific.com/collections)
+Covering the full range of Clinical Informatics, these introductory teaching modules are self-paced, requiring no pre-requisites and are no longer than 1-1.5 hours of study each.
 
-### 6rd of Mach 2025
+[Register here](https://letsdodigital.thinkific.com/collections)
 
-[Ask A Clinician: Insights from the Field Hospital and Beyond](ask-a-clinician/6.qmd)
+### Module 0 - Programming in Healthcare
+
+[Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
 ### 11th March 2025
 
@@ -27,13 +29,7 @@ image: /media/tickets.png
 
 [Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation](ask-someone-in-digital/2.qmd)
 
-## Self-paced learning
-
-### Module 0 - Programming in Healthcare
-
-[Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
-
-## Previous events
+## Previous Courses and Events
 
 ### 31st March 2022
 
