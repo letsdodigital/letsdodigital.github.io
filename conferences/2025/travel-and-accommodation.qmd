@@ -1,5 +1,5 @@
 ---
-title: "Maps 2024"
+title: "Travel And Accommodation 2025"
 ---
 
 {{< include _navbar.qmd >}}

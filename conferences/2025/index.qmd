@@ -1,6 +1,6 @@
 ---
 title: "Let's Talk Digital Conference - 2025"
-description: "September 2025"
+description: "23-24th October 2025"
 image: "/media/reading-a-book.jpg"
 ---
 
@@ -12,7 +12,7 @@ image: "/media/reading-a-book.jpg"
 
 \
 
-**Education, education, education! **
+**Education, education, education!**
 
 The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Conference, with an important theme of education in digital healthcare. We have an amazing line of of speakers and chairs, who will provide you with a range of exciting and educational case studies and also great innovation learnings from the frontline. We will be updating the schedule shortly, so please keep an eye on this page for more information.
 
@@ -24,7 +24,7 @@ The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Confe
 
 ## Register now!
 
-Registration will open shortly. We are planning on having the conference at the beginning of September 2025. Please keep an eye on this page for more information.
+Registration will open shortly. The conference will be held on the 23-24th of October. Please keep an eye on this page for more information.
 
 <!-- <script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="13"></script> -->
 
