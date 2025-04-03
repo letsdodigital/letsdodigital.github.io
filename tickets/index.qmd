@@ -7,9 +7,9 @@ image: /media/tickets.png
 
 ## Courses and Events
 
-### Essentials of Health Informations Teaching Modules
+### Essentials of Health Informations Bite-Sized Learning Modules
 
-Covering the full range of Clinical Informatics, these introductory teaching modules are self-paced, requiring no pre-requisites and are no longer than 1-1.5 hours of study each.
+Covering the full range of Digital Health, these introductory teaching modules are easy to access, self-paced, requiring no pre-requisites and are no longer than 1-1.5 hours of study each. **Jump start your learning now!**
 
 [Register here](https://letsdodigital.thinkific.com/collections)
 
