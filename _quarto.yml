@@ -10,7 +10,7 @@ website:
     left:
       - href: learn/index.qmd
         text: Learn
-      - href: conferences/2024/index.qmd
+      - href: conferences/2025/index.qmd
         text: Conference
       - href: tickets/index.qmd
         text: "Tickets"
