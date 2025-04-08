@@ -4,4 +4,617 @@ title: "Agenda 2025"
 
 {{< include _navbar.qmd >}}
 
-Coming soon!
+::: {.panel-tabset}
+
+## Thursday, 23rd of October
+
+8:30 – **Welcome coffee and tea**
+
+9:25 – **Opening talk**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/mark-bailey-circle.png" class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Mark Bailey – Community Lead for Let's Do Digital, Locum Consultant, Clinician-Who-Codes
+        </div>
+    </div>
+</div>
+```
+
+\
+
+### 9:35 – Morning session 1 - Class Is In Session
+
+9:35 – **Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/ gopesh-farmah.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Gopesh Farmah - Chief Clinical Information Officer for Primary Care, GP Partner
+        </div>
+    </div>
+</div>
+```
+
+9:40 – **The patient's perspective**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/blank-face.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            TBC
+        </div>
+    </div>
+</div>
+```
+
+9:50 – **Three practical steps to making your workforce more digitally confident and competent**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/james-freed.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            James Freed - Deputy Director, NHS Digital Academy
+        </div>
+    </div>
+</div>
+```
+
+10:00 – **Empowering the Next Generation of Healthcare Professionals Through Intelligent Learning Technologies**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/anil-krishaniah.jpg"
+            class="agenda-img-circle"
+            style="object-position: 0% 0%;">
+        </div>
+        <div class="agenda-text-container">
+            Anil Krishaniah - Paediatric Intensivist & Clinical Informatician
+        </div>
+    </div>
+</div>
+```
+
+10:10 – **Q&A**
+
+\
+
+### 10:25 – Coffee break
+
+\
+
+### 11:05 – Morning session 2 - Disruption Is The New Norm
+
+11:05 – **Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/alexandre-mathy.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Alexandre Mathy - Consultant Neurologist at the Great Western Hospital and Oxford University Hospitals
+        </div>
+    </div>
+</div>
+```
+
+11:10 – **The Innovation Sausage Machine - What are the most important social emotional skills we need in the NHS for digital innovation?**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/liam-cahill.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Liam Cahill - Founder of Together Digital
+        </div>
+    </div>
+</div>
+```
+
+11:20 – **The Government Digital Services and how can we learn from them in the NHS**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/saw-nwe.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Saw Nwe - Principle Consultant at Public Digital
+        </div>
+    </div>
+</div>
+```
+
+11:30 – **Building health data platforms that work**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/ben-goldacre.jpg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Ben Goldacre - Director of Bennett Institute for Applied Data Science, Oxford University
+        </div>
+    </div>
+</div>
+```
+
+11:40 – **Q&A**
+
+\
+
+### 12:00 – Debate - This house believes that Digital Health should be taught at undergraduate (clinical) level
+
+**Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/helen-winter.png"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Helen Winter – SWAG cancer alliance clinical director and Medical Oncologist at Bristol Royal Infirmary Hospital
+        </div>
+    </div>
+</div>
+```
+
+**For**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/sarah-khavandi.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Sarah Khavandi - Strategic Solutions at Lindus Health & Medical Doctor
+        </div>
+    </div>
+</div>
+```
+
+**Against**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/james-freed.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            James Freed - Deputy Director, NHS Digital Academy
+        </div>
+    </div>
+</div>
+```
+
+(2 x 10 min presentations, 2 x 5 min responses, 20 min Q&A to the floor)
+
+\
+
+### 12:50 – 13:50 – Lunch
+
+\
+
+### 13:50 – Afternoon session 1 - Talk is cheap. Delivery isn't.
+
+13:50 – **Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/anita-phung-circle.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Anita Phung - Medical Monitor at Lindus Health & GP
+        </div>
+    </div>
+</div>
+```
+
+13:55 – **The Wired West — plugged in, digitised, and running on algorithms instead of horses.**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/adrian-byrne.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Adrian Byrne - Independent Consultant
+        </div>
+    </div>
+</div>
+```
+
+14:05 – **Linear delivery: have we always delivered care this way**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/jill-winters.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Jill Winter - Director of 11 and CAS
+        </div>
+    </div>
+</div>
+```
+
+14:15 – **A Pharmacist’s Journey into Digital Healthcare: Challenges, Lessons, and Opportunities**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/max-hughes.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Max Hughes - Pharmacist and Director of Max Digital Healthcare
+        </div>
+    </div>
+</div>
+```
+
+14:25 – **Q&A**
+
+\
+
+### 14:40 – Coffee break
+
+\
+
+### 15:20 – Afternoon session 2 - Vision without execution is hallucination
+
+15:20 – **Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/astrid-grant.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Astrid Grant - Managing Consultant at Channel 3 Consulting
+        </div>
+    </div>
+</div>
+```
+
+15:25 – **Advancing large language models in oncology : fine tuning approaches and performance evaluation**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/sam-mcinerney.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Sam McInerney - Oncology Register, PhD student and Founder of DoctorsThatCode.com
+        </div>
+    </div>
+</div>
+```
+
+15:35 – **Breaking barriers: bringing more Clinicians into AI**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/beatrix-fletcher.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Beatrix Fletcher - Senior Programme Manager (AI), Guy's and St Thomas' NHS Foundation Trust
+        </div>
+    </div>
+</div>
+```
+
+15:45 – **Chatbots; valuable, inevitable, disruptors or dangerous?**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/phil-hall.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Phil Hall - Director of Elzware
+        </div>
+    </div>
+</div>
+```
+
+15:55 - **Q&A**
+
+16:10 - **Close and Drinks**
+
+18:00 - **Dinner and After-Dinner Entertainment**
+
+## Friday, 24th of October
+
+### 9:30 – Morning session 1 - The Clinicians-Who-Code Corner
+
+9:30 – **Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/keith-blackwood.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Keith Blackwood - Freelance Full Stack Developer
+        </div>
+    </div>
+</div>
+```
+
+9:40 – **Digital Clinical Safety: Taking Out The Drudgery and Putting Back The Quality**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/marcus-baw-circle.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Marcus Baw - Locum GP and ED doctor and clinician-who-codes
+        </div>
+    </div>
+</div>
+```
+
+9:50 – **Virtual Reality and Genomics - Seeing Things Clearer**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/shane-mckee.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Shane McKee - Consultant in Genetic & Genomic Medicine at Belfast HSC Trust, Clinician-Who-Codes
+        </div>
+    </div>
+</div>
+```
+
+10:00 – **Rust-y Spaces and Education**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/max-flitton.webp"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Max Flitton - Software engineer at SurrealDB
+        </div>
+    </div>
+</div>
+```
+
+10:10 – **Q&A**
+
+\
+
+### 10:25 – Coffee break
+
+\
+
+### 11:05 – Morning session 2 - Acknowledging the problem is the first step to fixing it
+
+11:05 – **Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/kevin-monk.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Kevin Monk - CEO SARD JV
+        </div>
+    </div>
+</div>
+```
+
+11:10 – **ePROMS in Systemic Anti-Cancer Treatment Management**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/blank-face.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Jessica Bailey - Clinical Lead for Oncology, Gloucestershire Hospitals NHS Foundation Trust
+        </div>
+    </div>
+</div>
+```
+
+11:20 – **Insights from informal first line tech support**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/nadia-kuftinoff-circle.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & Berkshire West ICB
+        </div>
+    </div>
+</div>
+```
+
+11:30 – **First solve your own problem: a Swift tale of the journey from a spreadsheet to an app**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/chris-wilson.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Chris Wilson - GP, Clinician-Who-Codes and Global Digital Health Fellow - Elephant Healthcare
+        </div>
+    </div>
+</div>
+```
+
+11:40 – **Q&A**
+
+\
+
+### 12:00 – Panel: Health and care records, do we need a blank slate?
+
+**Chair**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/basil-bekdash.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Basil Bekdash - Consultant Paediatric Surgeon and Clinical Safety Officer, Sheffield Children's NHS Foundation Trust
+        </div>
+    </div>
+</div>
+```
+
+**Panellists**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/geoff-revill-circle.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Geoff Revill - Managing Director, Safe Space One Ltd. Director of the South West Cyber Security Cluster
+        </div>
+    </div>
+</div>
+
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/blank-face.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            TBC
+        </div>
+    </div>
+</div>
+
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/blank-face.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            TBC
+        </div>
+    </div>
+</div>
+```
+
+### 12:50 – 13:50 – Lunch
+
+\
+
+### 13:50 – Saving the Best for Last"
+
+13:50 – **Video Poster Awards**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/blank-face.png"
+            class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            TBC
+        </div>
+    </div>
+</div>
+```
+
+14:00 – **Close**
+
+```{=html}
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/mark-bailey-circle.png" class="agenda-image-small">
+        </div>
+        <div class="agenda-text-container">
+            Mark Bailey – Community Lead of Let's Do Digital, Locum Consultant, Clinician-Who-Codes
+        </div>
+    </div>
+</div>
+```
+
+:::

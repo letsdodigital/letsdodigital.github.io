@@ -14,7 +14,9 @@ image: "/media/reading-a-book.jpg"
 
 **Education, education, education!**
 
-The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Conference, with an important theme of education in digital healthcare. We have an amazing line of of speakers and chairs, who will provide you with a range of exciting and educational case studies and also great innovation learnings from the frontline. We will be updating the schedule shortly, so please keep an eye on this page for more information.
+The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Conference, with an important theme of education in digital healthcare. We have an amazing line of of speakers and chairs, who will provide you with a range of exciting and educational case studies and also great innovation learnings from the frontline.
+
+Hear from **Prof Ben Goldacre** about the open access data platforms he and his team are building at the Bennett Institute at Oxford University. Engage with learnings regarding the **Government Digital Services** and **Public Health**. Find out what forward thinking frontline clinicians have been building to help improve patient care. Hear debates about digital health education and interoperability. Finally, we have some amazing insights on how AI, when used correctly, can help improve patient care.
 
 ## Feedback from last year's conference
 
@@ -26,7 +28,7 @@ The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Confe
 
 Registration will open shortly. The conference will be held on the 23-24th of October. Please keep an eye on this page for more information.
 
-<!-- <script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="13"></script> -->
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="13"></script>
 
 ## Submit your abstract
 

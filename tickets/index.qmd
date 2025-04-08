@@ -17,10 +17,6 @@ Covering the full range of Digital Health, these introductory teaching modules a
 
 [Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
-### 11th March 2025
-
-[Data Analytics in Medicine (DAIM) Course](daim/1.qmd)
-
 ### 10th April 2025
 
 [Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare](ask-a-clinician/7.qmd)
@@ -111,4 +107,11 @@ Covering the full range of Digital Health, these introductory teaching modules a
 
 [Open source Christmas special webinar! Dr Marcus Baw](https://youtube.com/live/UwVBfJrRSss)
 
+### 6th March 2025
+
+[Ask a Clinician - Episode 6 - Insights from the Field Hospital and Beyond](ask-a-clinician/6.qmd)
+
+### 11th March 2025
+
+[Data Analytics in Medicine (DAIM) Course](daim/1.qmd)
 :::
