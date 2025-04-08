@@ -88,7 +88,8 @@ title: "Agenda 2025"
             style="object-position: 0% 0%;">
         </div>
         <div class="agenda-text-container">
-            Anil Krishaniah - Paediatric Intensivist & Clinical Informatician
+            Anil Krishaniah - Paediatric Intensivist & Clinical Informatician, Cromwell
+            hospital, London
         </div>
     </div>
 </div>
