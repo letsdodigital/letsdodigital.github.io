@@ -35,7 +35,7 @@ title: "Agenda 2025"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/ gopesh-farmah.jpeg"
+            <img src="/media/2025-conference/gopesh-farmah.jpeg"
             class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
@@ -477,8 +477,8 @@ title: "Agenda 2025"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/blank-face.png"
-            class="agenda-image-small">
+            <img src="/media/2025-conference/jessica-bailey.jpg"
+            class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
             Jessica Bailey - Clinical Lead for Oncology, Gloucestershire Hospitals NHS Foundation Trust
@@ -559,11 +559,11 @@ title: "Agenda 2025"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/blank-face.png"
-            class="agenda-image-small">
+            <img src="/media/2025-conference/max-perry.jpeg"
+            class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            TBC
+            Max Perry - Post Doctoral Researcher, University of Edinburgh
         </div>
     </div>
 </div>
@@ -571,11 +571,11 @@ title: "Agenda 2025"
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/blank-face.png"
-            class="agenda-image-small">
+            <img src="/media/2025-conference/abigail-durrant.jpeg"
+            class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            TBC
+            Abi Durrant - Professor of Interaction Design at Open Lab, Newcastle University
         </div>
     </div>
 </div>
@@ -585,19 +585,21 @@ title: "Agenda 2025"
 
 \
 
-### 13:50 – Saving the Best for Last"
+### 13:50 – Saving the Best for Last
 
 13:50 – **Video Poster Awards**
+
+**Chair**
 
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/blank-face.png"
+            <img src="/media/2025-conference/nadia-kuftinoff-circle.png"
             class="agenda-image-small">
         </div>
         <div class="agenda-text-container">
-            TBC
+            Nadia Kuftinoff - Senior Digital Delivery Lead, Buckinghamshire, Oxfordshire & Berkshire West ICB
         </div>
     </div>
 </div>
