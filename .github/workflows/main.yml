@@ -36,9 +36,9 @@ jobs:
         uses: actions/github-script@v6
         with:
           script: |
-            git config --global user.email "info@letsdodigital.org"
-            git config --global user.name "Let's Do Digital"
             const { execSync } = require('child_process');
+            execSync('git config --global user.email "info@letsdodigital.org"');
+            execSync('git config --global user.name "Let\'s Do Digital"');
             const commitSha = process.env.GITHUB_SHA;
             execSync(`git revert --no-commit ${commitSha}`);
             execSync(`git commit -m "Revert commit ${commitSha} due to test failure"`);

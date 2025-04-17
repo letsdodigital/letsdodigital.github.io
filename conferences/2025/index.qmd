@@ -16,7 +16,7 @@ image: "/media/reading-a-book.jpg"
 
 The Let's Do Digital team is proud to announce the 2025 Let's Talk Digital Conference, with an important theme of education in digital healthcare. We have an amazing line of of speakers and chairs, who will provide you with a range of exciting and educational case studies and also great innovation learnings from the frontline.
 
-Hear from **Prof Ben Goldacre** about the open access data platforms he and his team are building at the Bennett Institute at Oxford University. Engage with learnings regarding the **Government Digital Services** and **Public Health**. Find out what forward thinking frontline clinicians have been building to help improve patient care. Hear debates about digital health education and interoperability. Finally, we have some amazing insights on how AI, when used correctly, can help improve patient care.
+Hear from **Prof Ben Goldacre** about the open access data platforms he and his team are building at the Bennett Institute at Oxford University. Engage with learnings regarding the **Government Digital Services** and **Public Health**. Hear about digital health education from the centre from **NHS Digital Academy Deputy-Director James Freed**. And also find out what forward thinking frontline clinicians have been building to help improve patient care. Hear debates about digital health education and interoperability. Finally, we have some amazing insights on how AI, when used correctly, can help improve patient care.
 
 ## Feedback from last year's conference
 
