@@ -1,5 +1,6 @@
 ---
 title: "Registration 2024"
+image: /media/reading-a-book.jpg
 ---
 
 {{< include _navbar.qmd >}}

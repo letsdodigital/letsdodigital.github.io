@@ -1,5 +1,6 @@
 ---
 title: "Agenda 2025"
+image: /media/reading-a-book.jpg
 ---
 
 {{< include _navbar.qmd >}}
