@@ -52,11 +52,11 @@ image: /media/reading-a-book.jpg
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/blank-face.png"
-            class="agenda-image-small">
+            <img src="/media/2025-conference/michelle-durham.jpeg"
+            class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            TBC
+            Michelle Durham
         </div>
     </div>
 </div>
