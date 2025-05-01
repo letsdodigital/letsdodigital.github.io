@@ -1,9 +1,13 @@
 ---
 title: "Ask A Clinician - Episode 8: From Frontline to Frameworks"
-image: "/media/stockholm-boat.jpg"
+image: "/media/trainline-framework.jpg"
 ---
 
-Join us for an inspiring session with Michelle Durham, a seasoned Clinical Informatician and former NHS GP with over three decades of frontline and national digital leadership experience. Having spent nearly 34 years at NHS England—including nearly a decade as Clinical Lead—Michelle brings a unique perspective on how clinical insight and digital innovation can work hand in hand.
+Join us for an inspiring session with Michelle Durham, a seasoned Clinical Informatician and former NHS GP with over three decades of frontline and national digital leadership experience.
+
+![](/media/trainline-framework.jpg){height=300px fig-align="center" fig-alt="Framework bridge around a train line"}
+
+Having spent nearly 34 years at NHS England—including nearly a decade as Clinical Lead—Michelle brings a unique perspective on how clinical insight and digital innovation can work hand in hand.
 
 In this webinar, Michelle will explore her journey from primary care to shaping national digital policy, with a particular focus on interoperability—what it really means, why it matters, and how we can move beyond buzzwords to create truly connected, safe, and efficient systems. Drawing on her extensive experience in clinical safety (DCB 0129/0160), data governance, and digital transformation, Michelle will share candid reflections, lessons learned, and practical insights for anyone working in or building for health and care.
 
