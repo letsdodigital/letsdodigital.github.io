@@ -6,7 +6,7 @@ See below for exciting news!
 
 ## Let's Talk Digital Conference 2025
 
-The Let's Talk Digital Conference is a CPD accredited event. The The Federation for Informatics Professionals in Health and Care (FEDIP) is awarding **8 CPD points** for attending the conference. Register [here](/conferences/2025/index.qmd) to secure your spot.
+The Let's Talk Digital Conference registration is now open and we are excited to announce it is a CPD accredited event. The Federation for Informatics Professionals in Health and Care (FEDIP) is awarding **8 CPD points** for attending the conference. Register [here](/conferences/2025/index.qmd) to secure your spot.
 
 ![](/media/2025-conference/CPD-Endorsed-FEDIP.svg){width=200 class="center-image" fig-alt="FEDIP CPD points logo"}
 
