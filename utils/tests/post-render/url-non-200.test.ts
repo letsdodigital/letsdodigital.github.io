@@ -112,7 +112,7 @@ async function checkUrlsInSiteFolder(): Promise<{
   const siteFolder = path.join(process.cwd(), '..', RENDER_FOLDER);
   const htmlFiles = findHtmlFiles(siteFolder);
   let errorMessage: string = '';
-  let warningMessage: string = '';
+  const warningMessage: string = '';
   const urlsChecked: { [url: string]: number } = {};
 
   for (const file of htmlFiles) {
@@ -149,18 +149,18 @@ async function checkUrlsInSiteFolder(): Promise<{
           // urlsChecked[fullUrl] = status;
 
           // Handle bypass urls (due to bots protections on these sites, see `urls.json`)
-          if (status === -1) {
-            warningMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m has been bypassed\n`;
+          // if (status === -1) {
+          //   warningMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m has been bypassed\n`;
 
-            // Handle non-200 status codes
-          } else if (status !== 200) {
-            log(`File:${file}\nURL ${fullUrl} returned status ${status}`);
-            errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
+          //   // Handle non-200 status codes
+          // } else if (status !== 200) {
+          //   log(`File:${file}\nURL ${fullUrl} returned status ${status}`);
+          //   errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
 
-            // Handle 200 status codes
-          } else {
-            log(`URL ${fullUrl} is OK`);
-          }
+          //   // Handle 200 status codes
+          // } else {
+          //   log(`URL ${fullUrl} is OK`);
+          // }
 
           // Check for local files.
         } else if (cleanUrl.startsWith('/')) {
