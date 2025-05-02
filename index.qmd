@@ -1,34 +1,18 @@
 ---
 title: "Let's Do Digital"
-description: "Join the Let's Do Digital community to learn, collaborate, and innovate"
 ---
 
-```{=html}
-<div id="post-images" class="owl-carousel">
-    <div class="item">
-        <img src="/media/flying-book-in-library.jpeg" alt="Book flying through a library">
-    </div>
-    <div class="item">
-        <img src="/media/team-at-beach.jpeg" alt="A team group of people at the beach at sunset">
-    </div>
-    <div class="item">
-        <img src="/media/blueprints.jpeg" alt="Blueprints with pencil and metal ruler">
-    </div>
-</div>
+See below for exciting news!
 
-<!-- Include Owl Carousel CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+## Let's Talk Digital Conference 2025
 
-<!-- Include jQuery -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+The Let's Talk Digital Conference is a CPD accredited event. The The Federation for Informatics Professionals in Health and Care (FEDIP) is awarding **8 CPD points** for attending the conference. Register [here](/conferences/2025/index.qmd) to secure your spot.
 
-<!-- Include Owl Carousel JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+![](/media/2025-conference/CPD-Endorsed-FEDIP.svg){width=200 class="center-image" fig-alt="FEDIP CPD points logo"}
 
-<script src="/scripts.js"></script>
-```
+## Welcome to Let's Do Digital
 
-**Welcome to Let's Do Digital** – Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to transforming the future of healthcare through education and collaboration. Join our vibrant community of healthcare professionals, educators, and tech enthusiasts to access comprehensive resources, connect with like-minded individuals, and explore innovative ideas. Together, we can revolutionise digital healthcare and make a lasting impact. Dive in, explore, and start your journey with us today!
+Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to transforming the future of healthcare through education and collaboration. Join our vibrant community of healthcare professionals, educators, and tech enthusiasts to access comprehensive resources, connect with like-minded individuals, and explore innovative ideas. Together, we can revolutionise digital healthcare and make a lasting impact. Dive in, explore, and start your journey with us today!
 
 ## Updates
 
