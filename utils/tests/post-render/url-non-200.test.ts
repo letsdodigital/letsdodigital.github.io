@@ -38,67 +38,67 @@ const bypassedUrls = loadAllowlist().allowlistedUrls;
  *
  * @remark LinkedIn returns a 999 status code.
  */
-// async function checkUrlStatus(url: string): Promise<number> {
-//   if (url.startsWith('file://')) {
-//     const filePath = url.replace('file://', '');
-//     try {
-//       await fs.promises.access(filePath, fs.constants.F_OK);
-//       return 200;
-//     } catch {
-//       return 404;
-//     }
-//     // Due to bot protection, we need to bypass some URLs.
-//   } else if (bypassedUrls.includes(url)) {
-//     return -1;
-//   } else {
-//     try {
-//       if (url.includes('x.com') || url.includes('twitter.com')) {
-//         log(`Using special handling for Twitter/X URL: ${url}`);
+async function checkUrlStatus(url: string): Promise<number> {
+  if (url.startsWith('file://')) {
+    const filePath = url.replace('file://', '');
+    try {
+      await fs.promises.access(filePath, fs.constants.F_OK);
+      return 200;
+    } catch {
+      return 404;
+    }
+    // Due to bot protection, we need to bypass some URLs.
+  } else if (bypassedUrls.includes(url)) {
+    return -1;
+  } else {
+    try {
+      if (url.includes('x.com') || url.includes('twitter.com')) {
+        log(`Using special handling for Twitter/X URL: ${url}`);
 
-//         // Twitter
-//         const response = await axios.get(url, {
-//           headers: {
-//             'User-Agent':
-//               'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-//             Accept:
-//               'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-//             'Accept-Language': 'en-US,en;q=0.9',
-//             'Accept-Encoding': 'gzip, deflate, br',
-//             Referer: 'https://www.google.com/',
-//             'Cache-Control': 'max-age=0',
-//             'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120"',
-//             'Sec-Ch-Ua-Mobile': '?0',
-//             'Sec-Ch-Ua-Platform': '"Windows"',
-//             'Sec-Fetch-Dest': 'document',
-//             'Sec-Fetch-Mode': 'navigate',
-//             'Sec-Fetch-Site': 'cross-site',
-//             'Sec-Fetch-User': '?1',
-//             'Upgrade-Insecure-Requests': '1'
-//           },
-//           timeout: 10000,
-//           maxRedirects: 5
-//         });
-//         return response.status;
-//       }
+        // Twitter
+        const response = await axios.get(url, {
+          headers: {
+            'User-Agent':
+              'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            Accept:
+              'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            Referer: 'https://www.google.com/',
+            'Cache-Control': 'max-age=0',
+            'Sec-Ch-Ua': '"Not_A Brand";v="8", "Chromium";v="120"',
+            'Sec-Ch-Ua-Mobile': '?0',
+            'Sec-Ch-Ua-Platform': '"Windows"',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'cross-site',
+            'Sec-Fetch-User': '?1',
+            'Upgrade-Insecure-Requests': '1'
+          },
+          timeout: 10000,
+          maxRedirects: 5
+        });
+        return response.status;
+      }
 
-//       // Regular handling for non-Twitter URLs (unchanged)
-//       const response = await axios.get(url, {
-//         headers: {
-//           'User-Agent':
-//             'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
-//         }
-//       });
-//       return response.status;
-//     } catch (error: any) {
-//       if (error.response) {
-//         return error.response.status;
-//       } else {
-//         console.log(`Error fetching ${url}:`, error.message);
-//         return 0;
-//       }
-//     }
-//   }
-// }
+      // Regular handling for non-Twitter URLs (unchanged)
+      const response = await axios.get(url, {
+        headers: {
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.3'
+        }
+      });
+      return response.status;
+    } catch (error: any) {
+      if (error.response) {
+        return error.response.status;
+      } else {
+        console.log(`Error fetching ${url}:`, error.message);
+        return 0;
+      }
+    }
+  }
+}
 
 function findHtmlFiles(dir: string): string[] {
   const pattern = path.join(dir, '**/*.html');
@@ -143,10 +143,8 @@ async function checkUrlsInSiteFolder(): Promise<{
             errorMessage += `In file \x1b[2m${fileShort}\x1b[0m, url \x1b[2m${cleanUrl}\x1b[0m returned status \x1b[2m${status}\x1b[0m\n`;
           }
         } else if (cleanUrl.startsWith('http')) {
-          continue;
-          // TODO: testing of external urls seem to be failing a lot, so commenting out for now
-          // const status = await checkUrlStatus(fullUrl);
-          // urlsChecked[fullUrl] = status;
+          const status = await checkUrlStatus(fullUrl);
+          urlsChecked[fullUrl] = status;
 
           // Handle bypass urls (due to bots protections on these sites, see `urls.json`)
           if (status === -1) {
