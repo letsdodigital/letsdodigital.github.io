@@ -138,7 +138,7 @@ image: /media/reading-a-book.jpg
 </div>
 ```
 
-11:20 – **The Government Digital Services and how can we learn from them in the NHS**
+11:20 – **A Government Digital Service Story for the NHS**
 
 ```{=html}
 <div class="agenda-container-small">
