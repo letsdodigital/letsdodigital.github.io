@@ -59,13 +59,7 @@ title-slide-attributes:
 - The two arrays are compatible in a dimension if they have the same size in the dimension or if one of the arrays has size 1 in that dimension.
 - In any dimension where one array had size 1 and the other array had size greater than 1, the first array behaves as if it were copied along that dimension.
 
-### Example
-
-![Visualisation of a cross-product, a common matrix operation.](/media/daim/module_3/image3.gif)
-
 :::
-
-<!-- TODO: repeat this slide but with the answer showing -->
 
 ## Question {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6" text-align=center}
 
@@ -78,6 +72,15 @@ title-slide-attributes:
     (3,3,4), (4,)-->
 ```
 
+## Answers {background-image="/media/daim/bg_cubes_blue.png" background-opacity="0.6" text-align=center}
+
+```{.python}
+    (2,1), (1,) ---> Yes
+    (5,5,3), (2,5,3) --> No
+    (5,5,3), (5,3) --> Yes
+    (3,3,4), (4,)--> Yes
+```
+
 #
 
 :::{.r-stack}
@@ -86,38 +89,18 @@ title-slide-attributes:
 
 ## Reminder {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-::: {.panel-tabset}
-
-### Reminder
-
 - Images are **2D** or **3D arrays**.
 - Image pixels are often represented with **8-bit integers**.
 - Colour images have three dimensions with **a 2D array for every color channel**.
 - How does this change for **medical imaging**?
 
-### RGB Explainer
-
-![Explainer diagram for RGB images.](/media/daim/module_3/image5.png)
-
-:::
-
 ## Houndsfield Units {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-::: {.panel-tabset}
-
-### Explanation
-
-- Used in **X-ray imaging** (plain films, CT scans).
-- They describe a **physical property**.
-  - The **attentuation of x-rays** through different structures.
+- Used in **CT Scans**.
+- They describe the **attentuation of x-rays** through different structures.
 - **Water** is used as a reference point at **0 HU (Hounsfield Units)** .
-  - Materials that **attenuate X-rays more** will have a **higher value**, and vice versa.
-
-### Hounsfield
-
-![In the early 1970s, **Sir Godfrey Newbold Hounsfield** , a British electrical engineer presented the world with Hounsfield Units which he won the **Nobel Prize** for several years later.](/media/daim/module_3/image8.jpg){height=300px}
-
-:::
+  - Broadly, materials that **attenuate X-rays more** will have a **higher value**, and vice versa.
+  - Calibration can be done with respect to **water** or **air**
 
 ## Why is this important for programming? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -133,8 +116,9 @@ title-slide-attributes:
 ### Explanation
 
 - Windowing is the selection of a:
-  - **Center HU value** (aka **level**)
-  - **Range** (aka **window**)
+  - **Centre value** (level)
+  - **Range** (aka **width**)
+- The **level** determines the **brightness**, the **width** determines the **contrast**
 - HU values outside of this are not displayed.
 - This allows for visualisation of different structures.
 
@@ -147,10 +131,6 @@ title-slide-attributes:
 | Water       | 0 HU                       |
 | Soft Tissue | +40 to +80 HU              |
 | Bone        | +700 to +3000 HU           |
-
-### Example
-
-![An example of changing the window of a thoracic CT scan to visualise different structures.](/media/daim/module_3/windowing.png)
 
 :::
 
@@ -183,27 +163,6 @@ title-slide-attributes:
   - This allows for integration into electronic health records and PACS (Picture Archive Communication System).
 - Support for **lossless compression**.
   - Medical images can be compressed without losing valuable scan information.
-
-## Examples {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
-::: {.panel-tabset}
-
-### Example 1
-
-<!-- TODO: this one looks like lung windows -->
-
-![An animation of a CT scan.](/media/daim/module_3/dicom_slices.gif)
-
-### Lung Example
-
-<!-- I have no idea what window this is, but it is way too overexposed -->
-
-![An animation of a lung-windowed CT scan.](/media/daim/module_3/lung_windowed_slices.gif)
-
-### Soft Tissue Example
-
-![An animation of a soft-tissue-windowed CT scan.](/media/daim/module_3/soft_tissue_windowed_slices.gif)
-:::
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
@@ -330,7 +289,7 @@ import pydicom
 - A 3D image cannot be shown on a 2D screen.
 - How do you **display data** from a **3D volumetric scan**?
 
-![What the voxels in a chest CT scan look like when plotted as a volume - this is not useful.](/media/daim/module_3/3Dvis.JPG)
+![What the voxels in a chest CT scan look like when plotted as a volume. (Source: TCIA Database (see references))](/media/daim/module_3/3Dvis.png)
 
 ## Displaying an image {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
@@ -338,15 +297,6 @@ import pydicom
 - These can correspond to the **x, y, and z imaging dimensions**.
   - Coronal, sagittal and axial planes
 - In Python, these can be extracted by **array slicing**.
-- What happens if you want a **different angle** of your imaging plane?
-
-![Scrolling down the z-axis (axially) in a thoracic CT scan.](/media/daim/module_3/dicom_slices2.gif)
-
-## Interpolation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
-
-- Interpolation is a method used to estimate an unknown value between two known values.
-- In medical imaging, it can be used to estimate intermediate values between voxels.
-  - This can be useful if you want to section the volume at an **angle**.
 
 ## Segmentation {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
 
@@ -354,20 +304,30 @@ import pydicom
   - **e.g. is this pixel part of the liver?**
 - This can be useful in many settings including automated image analysis and object rendering.
 
-![Segmentation of the liver and other vessels.](/media/daim/module_3/3dsegmentation.JPG)
+![Segmentation of the liver and other vessels. (Source: TCIA Database (see references))](/media/daim/module_3/3dsegmentation.png)
 
 ## Maximum Intensity Projection (MIP) {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
+ 
+::: {.panel-tabset}
+
+### Explanation
 
 - **Maximum Intensity Projection (MIP)** is a method used to visualize 3D volumetric data.
-- It projects the highest intensity values along each line of sight onto a 2D plane.
-- Often used in **positron emission tomography (PET) imaging**.
+- It projects the maximum values (HUs) along each line of sight onto a 2D plane.
+- Often used in **positron emission tomography (PET) imaging** and for **vessel assessment** in angiography.
 
-<!-- I had to remove the spect-ct link, as it is no longer working and it causes the link testing code to fail -->
+### Example
 
-![MIP of a SPECT image of a mouse. Source: Christian Lackas, <delta@lackas.net> Originally uploaded to en.wikipedia. Description page is/was [here](https://en.wikipedia.org/wiki/File:Mouse02-spect.gif). [CC BY-SA 3.0](https://commons.wikimedia.org/w/index.php?curid=8744558)](/media/daim/module_3/MouseMIP_Christian_Lackas.gif)
+![A magnetic resonance angiography (MRA) image of the Circle of Willis. © Nevit Dilmen, CC BY-SA 3.0, via Wikimedia Commons, URL: https://commons.wikimedia.org/wiki/File:MRA_102014.png](/media/daim/module_3/mra_img.png){height=400px}
+
+:::
+
 
 # Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
-Any questions?
+Thank you to **Dr Sam Ebbs (Radiology Registrar)** for reviewing the content in this seminar.
 
-<!-- TODO: mention what is coming up next -->
+## Next week {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
+
+- The Module 3 - DICOM **workshop** will be held next week.
+- This will be a **2-hour session** in which you will gain hands-on experience working with DICOM images with Python.
