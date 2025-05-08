@@ -260,7 +260,7 @@ DAIM Team
 <section id="broadcasting" class="slide level2 smaller" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6">
 <h2>Broadcasting</h2>
 <div class="panel-tabset">
-<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Definition</a></li><li><a href="#tabset-2-2">Rules</a></li><li><a href="#tabset-2-3">Example</a></li></ul>
+<ul id="tabset-2" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-2-1">Definition</a></li><li><a href="#tabset-2-2">Rules</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1">
 <blockquote>
@@ -275,17 +275,8 @@ DAIM Team
 <li>In any dimension where one array had size 1 and the other array had size greater than 1, the first array behaves as if it were copied along that dimension.</li>
 </ul>
 </div>
-<div id="tabset-2-3">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../../../media/daim/module_3/image3.gif"></p>
-<figcaption>Visualisation of a cross-product, a common matrix operation.</figcaption>
-</figure>
 </div>
 </div>
-</div>
-</div>
-<!-- TODO: repeat this slide but with the answer showing -->
 </section>
 <section id="question" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6" data-text-align="center">
 <h2>Question</h2>
@@ -296,6 +287,13 @@ DAIM Team
 <span id="cb1-2"><a></a>    (<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">3</span>), (<span class="dv">2</span>,<span class="dv">5</span>,<span class="dv">3</span>) <span class="op">--&gt;</span></span>
 <span id="cb1-3"><a></a>    (<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">3</span>), (<span class="dv">5</span>,<span class="dv">3</span>) <span class="op">--&gt;</span></span>
 <span id="cb1-4"><a></a>    (<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">4</span>), (<span class="dv">4</span>,)<span class="op">--&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="answers" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6" data-text-align="center">
+<h2>Answers</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>    (<span class="dv">2</span>,<span class="dv">1</span>), (<span class="dv">1</span>,) <span class="op">---&gt;</span> Yes</span>
+<span id="cb2-2"><a></a>    (<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">3</span>), (<span class="dv">2</span>,<span class="dv">5</span>,<span class="dv">3</span>) <span class="op">--&gt;</span> No</span>
+<span id="cb2-3"><a></a>    (<span class="dv">5</span>,<span class="dv">5</span>,<span class="dv">3</span>), (<span class="dv">5</span>,<span class="dv">3</span>) <span class="op">--&gt;</span> Yes</span>
+<span id="cb2-4"><a></a>    (<span class="dv">3</span>,<span class="dv">3</span>,<span class="dv">4</span>), (<span class="dv">4</span>,)<span class="op">--&gt;</span> Yes</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
 <section id="section-1" class="title-slide slide level1 center">
@@ -306,56 +304,24 @@ DAIM Team
 </section>
 <section id="reminder" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Reminder</h2>
-<div class="panel-tabset">
-<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Reminder</a></li><li><a href="#tabset-3-2">RGB Explainer</a></li></ul>
-<div class="tab-content">
-<div id="tabset-3-1">
 <ul>
 <li>Images are <strong>2D</strong> or <strong>3D arrays</strong>.</li>
 <li>Image pixels are often represented with <strong>8-bit integers</strong>.</li>
 <li>Colour images have three dimensions with <strong>a 2D array for every color channel</strong>.</li>
 <li>How does this change for <strong>medical imaging</strong>?</li>
 </ul>
-</div>
-<div id="tabset-3-2">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../../../media/daim/module_3/image5.png"></p>
-<figcaption>Explainer diagram for RGB images.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="houndsfield-units" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Houndsfield Units</h2>
-<div class="panel-tabset">
-<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Explanation</a></li><li><a href="#tabset-4-2">Hounsfield</a></li></ul>
-<div class="tab-content">
-<div id="tabset-4-1">
 <ul>
-<li>Used in <strong>X-ray imaging</strong> (plain films, CT scans).</li>
-<li>They describe a <strong>physical property</strong>.
-<ul>
-<li>The <strong>attentuation of x-rays</strong> through different structures.</li>
-</ul></li>
+<li>Used in <strong>CT Scans</strong>.</li>
+<li>They describe the <strong>attentuation of x-rays</strong> through different structures.</li>
 <li><strong>Water</strong> is used as a reference point at <strong>0 HU (Hounsfield Units)</strong> .
 <ul>
-<li>Materials that <strong>attenuate X-rays more</strong> will have a <strong>higher value</strong>, and vice versa.</li>
+<li>Broadly, materials that <strong>attenuate X-rays more</strong> will have a <strong>higher value</strong>, and vice versa.</li>
+<li>Calibration can be done with respect to <strong>water</strong> or <strong>air</strong></li>
 </ul></li>
 </ul>
-</div>
-<div id="tabset-4-2">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../../../media/daim/module_3/image8.jpg" height="300"></p>
-<figcaption>In the early 1970s, <strong>Sir Godfrey Newbold Hounsfield</strong> , a British electrical engineer presented the world with Hounsfield Units which he won the <strong>Nobel Prize</strong> for several years later.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="why-is-this-important-for-programming" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Why is this important for programming?</h2>
@@ -371,20 +337,21 @@ DAIM Team
 <section id="windowing" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Windowing</h2>
 <div class="panel-tabset">
-<ul id="tabset-5" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-5-1">Explanation</a></li><li><a href="#tabset-5-2">Table</a></li><li><a href="#tabset-5-3">Example</a></li></ul>
+<ul id="tabset-3" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-3-1">Explanation</a></li><li><a href="#tabset-3-2">Table</a></li></ul>
 <div class="tab-content">
-<div id="tabset-5-1">
+<div id="tabset-3-1">
 <ul>
 <li>Windowing is the selection of a:
 <ul>
-<li><strong>Center HU value</strong> (aka <strong>level</strong>)</li>
-<li><strong>Range</strong> (aka <strong>window</strong>)</li>
+<li><strong>Centre value</strong> (level)</li>
+<li><strong>Range</strong> (aka <strong>width</strong>)</li>
 </ul></li>
+<li>The <strong>level</strong> determines the <strong>brightness</strong>, the <strong>width</strong> determines the <strong>contrast</strong></li>
 <li>HU values outside of this are not displayed.</li>
 <li>This allows for visualisation of different structures.</li>
 </ul>
 </div>
-<div id="tabset-5-2">
+<div id="tabset-3-2">
 <table class="caption-top">
 <thead>
 <tr class="header">
@@ -415,14 +382,6 @@ DAIM Team
 </tr>
 </tbody>
 </table>
-</div>
-<div id="tabset-5-3">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../../../media/daim/module_3/windowing.png"></p>
-<figcaption>An example of changing the window of a thoracic CT scan to visualise different structures.</figcaption>
-</figure>
-</div>
 </div>
 </div>
 </div>
@@ -475,40 +434,6 @@ DAIM Team
 <li>Medical images can be compressed without losing valuable scan information.</li>
 </ul></li>
 </ul>
-</section>
-<section id="examples" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Examples</h2>
-<div class="panel-tabset">
-<ul id="tabset-6" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-6-1">Example 1</a></li><li><a href="#tabset-6-2">Lung Example</a></li><li><a href="#tabset-6-3">Soft Tissue Example</a></li></ul>
-<div class="tab-content">
-<div id="tabset-6-1">
-<!-- TODO: this one looks like lung windows -->
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../../../media/daim/module_3/dicom_slices.gif"></p>
-<figcaption>An animation of a CT scan.</figcaption>
-</figure>
-</div>
-</div>
-<div id="tabset-6-2">
-<!-- I have no idea what window this is, but it is way too overexposed -->
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../../../media/daim/module_3/lung_windowed_slices.gif"></p>
-<figcaption>An animation of a lung-windowed CT scan.</figcaption>
-</figure>
-</div>
-</div>
-<div id="tabset-6-3">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../../../media/daim/module_3/soft_tissue_windowed_slices.gif"></p>
-<figcaption>An animation of a soft-tissue-windowed CT scan.</figcaption>
-</figure>
-</div>
-</div>
-</div>
-</div>
 </section>
 <section id="break" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
 <h2>Break!</h2>
@@ -704,7 +629,7 @@ DAIM Team
 <li><strong>dicompyler</strong>: Useful for radiation therapy data analysis and reviewing treatment plans.</li>
 </ul></li>
 </ul>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="im">import</span> pydicom</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="im">import</span> pydicom</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
 <section id="section-4" class="title-slide slide level1 center">
@@ -771,7 +696,7 @@ DAIM Team
 <li>How do you <strong>display data</strong> from a <strong>3D volumetric scan</strong>?</li>
 </ul>
 
-<img data-src="../../../media/daim/module_3/3Dvis.JPG" class="r-stretch quarto-figure-center"><p class="caption">What the voxels in a chest CT scan look like when plotted as a volume - this is not useful.</p></section>
+<img data-src="../../../media/daim/module_3/3Dvis.png" class="r-stretch quarto-figure-center"><p class="caption">What the voxels in a chest CT scan look like when plotted as a volume. (Source: TCIA Database (see references))</p></section>
 <section id="displaying-an-image" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Displaying an image</h2>
 <ul>
@@ -781,18 +706,6 @@ DAIM Team
 <li>Coronal, sagittal and axial planes</li>
 </ul></li>
 <li>In Python, these can be extracted by <strong>array slicing</strong>.</li>
-<li>What happens if you want a <strong>different angle</strong> of your imaging plane?</li>
-</ul>
-
-<img data-src="../../../media/daim/module_3/dicom_slices2.gif" class="r-stretch quarto-figure-center"><p class="caption">Scrolling down the z-axis (axially) in a thoracic CT scan.</p></section>
-<section id="interpolation" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
-<h2>Interpolation</h2>
-<ul>
-<li>Interpolation is a method used to estimate an unknown value between two known values.</li>
-<li>In medical imaging, it can be used to estimate intermediate values between voxels.
-<ul>
-<li>This can be useful if you want to section the volume at an <strong>angle</strong>.</li>
-</ul></li>
 </ul>
 </section>
 <section id="segmentation" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
@@ -805,24 +718,44 @@ DAIM Team
 <li>This can be useful in many settings including automated image analysis and object rendering.</li>
 </ul>
 
-<img data-src="../../../media/daim/module_3/3dsegmentation.JPG" class="r-stretch quarto-figure-center"><p class="caption">Segmentation of the liver and other vessels.</p></section>
+<img data-src="../../../media/daim/module_3/3dsegmentation.png" class="r-stretch quarto-figure-center"><p class="caption">Segmentation of the liver and other vessels. (Source: TCIA Database (see references))</p></section>
 <section id="maximum-intensity-projection-mip" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.6">
 <h2>Maximum Intensity Projection (MIP)</h2>
+<div class="panel-tabset">
+<ul id="tabset-4" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-4-1">Explanation</a></li><li><a href="#tabset-4-2">Example</a></li></ul>
+<div class="tab-content">
+<div id="tabset-4-1">
 <ul>
 <li><strong>Maximum Intensity Projection (MIP)</strong> is a method used to visualize 3D volumetric data.</li>
-<li>It projects the highest intensity values along each line of sight onto a 2D plane.</li>
-<li>Often used in <strong>positron emission tomography (PET) imaging</strong>.</li>
+<li>It projects the maximum values (HUs) along each line of sight onto a 2D plane.</li>
+<li>Often used in <strong>positron emission tomography (PET) imaging</strong> and for <strong>vessel assessment</strong> in angiography.</li>
 </ul>
-<!-- I had to remove the spect-ct link, as it is no longer working and it causes the link testing code to fail -->
-
-<img data-src="../../../media/daim/module_3/MouseMIP_Christian_Lackas.gif" class="r-stretch quarto-figure-center"><p class="caption">MIP of a SPECT image of a mouse. Source: Christian Lackas, <a href="mailto:delta@lackas.net" class="email">delta@lackas.net</a> Originally uploaded to en.wikipedia. Description page is/was <a href="https://en.wikipedia.org/wiki/File:Mouse02-spect.gif">here</a>. <a href="https://commons.wikimedia.org/w/index.php?curid=8744558">CC BY-SA 3.0</a></p></section></section>
+</div>
+<div id="tabset-4-2">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../../media/daim/module_3/mra_img.png" height="400"></p>
+<figcaption>A magnetic resonance angiography (MRA) image of the Circle of Willis. © Nevit Dilmen, CC BY-SA 3.0, via Wikimedia Commons, URL: https://commons.wikimedia.org/wiki/File:MRA_102014.png</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
 <section id="thank-you" class="title-slide slide level1 center" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
 <h1>Thank you!</h1>
-<p>Any questions?</p>
-<!-- TODO: mention what is coming up next -->
-
-
+<p>Thank you to <strong>Dr Sam Ebbs (Radiology Registrar)</strong> for reviewing the content in this seminar.</p>
 </section>
+<section id="next-week" class="slide level2" data-background-image="../../../media/daim/bg_cubes_blue_right.png" data-background-opacity="0.4">
+<h2>Next week</h2>
+<ul>
+<li>The Module 3 - DICOM <strong>workshop</strong> will be held next week.</li>
+<li>This will be a <strong>2-hour session</strong> in which you will gain hands-on experience working with DICOM images with Python.</li>
+</ul>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
 <p><img src="../../../media/ldd-logo.png" class="slide-logo"></p>
