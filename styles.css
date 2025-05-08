@@ -130,3 +130,17 @@
     padding: 10px;
   }
 
+.agenda-img-circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: top;
+  background-color: transparent;
+}
+
+.center-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

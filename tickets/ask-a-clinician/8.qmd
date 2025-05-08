@@ -1,0 +1,62 @@
+---
+title: "Ask A Clinician - Episode 8: From Frontline to Frameworks"
+image: "/media/trainline-framework.jpg"
+---
+
+Join us for an inspiring session with Michelle Durham, a seasoned Clinical Informatician and former NHS GP with over three decades of frontline and national digital leadership experience.
+
+![](/media/trainline-framework.jpg){height=300px fig-align="center" fig-alt="Framework bridge around a train line"}
+
+Having spent nearly 34 years at NHS England—including nearly a decade as Clinical Lead—Michelle brings a unique perspective on how clinical insight and digital innovation can work hand in hand.
+
+In this webinar, Michelle will explore her journey from primary care to shaping national digital policy, with a particular focus on interoperability—what it really means, why it matters, and how we can move beyond buzzwords to create truly connected, safe, and efficient systems. Drawing on her extensive experience in clinical safety (DCB 0129/0160), data governance, and digital transformation, Michelle will share candid reflections, lessons learned, and practical insights for anyone working in or building for health and care.
+
+Whether you're a clinician, technologist, policy-maker or product designer, this is a chance to hear from someone who’s worked at the sharp end of care and at the strategic level of system design.
+
+## Webinar Structure
+
+**Chair**
+
+```{=html}
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/2025-conference/mark-bailey-circle.png" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Mark Bailey – Community Lead for Let's Do Digital, Locum Consultant, Clinician-Who-Codes
+        </div>
+    </div>
+</div>
+```
+
+**Speaker**
+
+```{=html}
+<div class="agenda-container">
+    <div class="agenda-row">
+        <div class="agenda-image-container">
+            <img src="/media/michelle-durham.png" alt="picture of Michelle Durham in a circle" class="agenda-image">
+        </div>
+        <div class="agenda-text-container">
+            Dr Michelle Durham - Clinical Informatics Specialist, Previous Clinical lead at NHS England and GP. As one of the pioneers in digital GP health records, Michelle has dedicated her career as a GP to promoting and advocating for the highest levels of clinical excellence within digital programmes, ensuring they are not only useful but also usable and optimally utilised.
+        </div>
+    </div>
+</div>
+```
+
+The first half will be presentations from our two presentors, followed by a Q&A.
+
+## When and where
+
+Online, 6-7pm UK time, on Thursday the 26th of June.
+
+## Register now
+
+```{=html}
+<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
+```
+
+## Questions
+
+Have questions about the course or anything else **Let's Do Digital** related, email us at [info@letsdodigital.org](mailto:info@letsdodigital.org).

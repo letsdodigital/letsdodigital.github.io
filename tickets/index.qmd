@@ -5,35 +5,27 @@ image: /media/tickets.png
 
 ::: {.panel-tabset}
 
-## Upcoming Events
+## Courses and Events
 
-### 12th Feb - 5th March January 2025
+### Essentials of Health Informations Bite-Sized Learning Modules
 
-[Programming in Healthcare Module 0-3](https://letsdodigital.thinkific.com/collections)
+Covering the full range of Digital Health, these introductory teaching modules are easy to access, self-paced, requiring no pre-requisites and are no longer than 1-1.5 hours of study each. **Jump start your learning now!**
 
-### 6rd of Mach 2025
+[Register here](https://letsdodigital.thinkific.com/collections)
 
-[Ask A Clinician: Insights from the Field Hospital and Beyond](ask-a-clinician/6.qmd)
+### Module 0 - Programming in Healthcare, Self-paced
 
-### 11th March 2025
-
-[Data Analytics in Medicine (DAIM) Course](daim/1.qmd)
-
-### 10th April 2025
-
-[Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare](ask-a-clinician/7.qmd)
+[Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
 ### 1st May 2025
 
 [Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation](ask-someone-in-digital/2.qmd)
 
-## Self-paced learning
+### 26th June 2025
 
-### Module 0 - Programming in Healthcare
+[Ask a Clinician - From Frontline to Frameworks](ask-a-clinician/8.qmd)
 
-[Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
-
-## Previous events
+## Previous Courses and Events
 
 ### 31st March 2022
 
@@ -115,4 +107,15 @@ image: /media/tickets.png
 
 [Open source Christmas special webinar! Dr Marcus Baw](https://youtube.com/live/UwVBfJrRSss)
 
+### 6th March 2025
+
+[Ask a Clinician - Episode 6 - Insights from the Field Hospital and Beyond](ask-a-clinician/6.qmd)
+
+### 11th March 2025
+
+[Data Analytics in Medicine (DAIM) Course](daim/1.qmd)
+
+### 10th April 2025
+
+[Ask A Clinician - Episode 7: A Swedish Perspective on Digital Healthcare](ask-a-clinician/7.qmd)
 :::

@@ -3,6 +3,8 @@ title: "Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transf
 image: /media/hand-over-a-rose.jpg
 ---
 
+CANCELLED
+
 Join us for the next Ask Someone in Digital webinar, featuring Daniela Valdés, a Turing Fellow, AI scientist, and digital transformation leader with a career spanning healthcare, consulting, and executive leadership.
 
 ![](/media/hand-over-a-rose.jpg){height=300px fig-align="center" fig-alt="Picture of arms from two separate people, one handing a rose to the other"}
@@ -23,11 +25,7 @@ The first half will be presentations from our two presentors, followed by a Q&A.
 
 ## When and where
 
-Online, 6-7pm, on Thursday the 1st of May.
-
-```{=html}
-<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
-```
+CANCELLED
 
 ## Questions
 

@@ -25,9 +25,7 @@ Online, 6-7pm UK time, on Thursday the 10th of April.
 
 ## Register now
 
-```{=html}
-<script src="https://www.cognitoforms.com/f/seamless.js" data-key="elpaTpPHb0yyqTG9uLoqOw" data-form="6"></script>
-```
+The YouTube recording of the webinar can be found [here](https://www.youtube.com/live/jqf3jP_-Foc).
 
 ## Questions
 

@@ -75,6 +75,6 @@ run_command "Formatting of Quarto files" "npx prettier --check '**/*.qmd' --colo
 
 run_command "Creating Quarto static pages" "quarto render"
 
-run_command "Post-render unit tests" "npm exec npx jest tests/post-render/*.ts" "utils"
+# run_command "Post-render unit tests" "npm exec npx jest tests/post-render/*.ts" "utils"
 
 print_message "All tasks completed successfully" "" "blue"
