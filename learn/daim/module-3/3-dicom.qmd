@@ -307,7 +307,7 @@ import pydicom
 ![Segmentation of the liver and other vessels. (Source: TCIA Database (see references))](/media/daim/module_3/3dsegmentation.png)
 
 ## Maximum Intensity Projection (MIP) {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.6"}
- 
+
 ::: {.panel-tabset}
 
 ### Explanation
@@ -321,7 +321,6 @@ import pydicom
 ![A magnetic resonance angiography (MRA) image of the Circle of Willis. © Nevit Dilmen, CC BY-SA 3.0, via Wikimedia Commons, URL: https://commons.wikimedia.org/wiki/File:MRA_102014.png](/media/daim/module_3/mra_img.png){height=400px}
 
 :::
-
 
 # Thank you! {background-image="/media/daim/bg_cubes_blue_right.png" background-opacity="0.4"}
 
