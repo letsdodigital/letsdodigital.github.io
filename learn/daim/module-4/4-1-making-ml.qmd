@@ -5,33 +5,34 @@ format: revealjs
 logo: /media/ldd-logo.png
 css: /slides.css
 title-slide-attributes:
-  data-background-image: /media/daim/bg_cubes_blue.png
+  data-background-image: /media/daim/bg_cubes_red.png
   data-background-opacity: "0.6"
 ---
 
 ## Module 4: Part 1 Learning Objectives {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Appreciate machine learning vs. AI
+- Appreciate what is meant by "machine learning" and "AI"
 - Understand the high-level steps needed to train a statistical model
 - Rationale for "verifying your model findings" and how to use a test set
 - Understand dataset bias and clinical factors
 
 ---
 
-## What is machine learning?
+## What is machine learning? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- TODO Understand what machine learning is at a broad level (LL2)
+- Machine learning describes a **collection** of **algorithms** that allow computers to "learn" from data.
+- This stands in contrast to **desccribing exactly** what an algorithm should detect with code
 
 ## Big Data, Machine Learning, and Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Big data → ML/AI
+- Big data support the development of ML/AI
 - The six **Vs** of big data: **volume**, **variety**, **velocity**, **veracity**, **value**, and **variability**
 - I would like to add **vulnerability**
 
 ## Machine Learning vs. Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - There are no set, global definitions for either term!
-- Machine learning often refers to a **specific subset of statistical algorithms**
+- **Machine learning (ML)** often refers to a **specific subset of statistical algorithms.**
   - Artificial neural networks
   - Decision trees
   - Support vector machines
@@ -39,19 +40,20 @@ title-slide-attributes:
 
 ## Machine Learning vs. Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Different types of machine learning:
+- There are **different types** of ML:
   - Supervised learning
   - Unsupervised learning
   - Reinforcement Learning
-- Deep Learning refers to neural networks with **multiple layers**
-  - We will be building one in the workshop
+- **Deep Learning** refers to neural networks with **multiple layers**
+  - We will be building one in the workshop.
 
 ## Supervised / Unsupervised Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Supervised learning uses **labelled data**.
-  - For instance, a radiologist has **labelled** CT head studies with different types of **intracranial haemorrhage**, and the **ML system learns** which scans contain which type of haemorrhage.
+  - For instance, a neurologist labels data with **different types of EEG patterns.**
+  - The model learns to **predict** which pattern is present.
 
-TODO: find image
+[See this Kaggle Competition.](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)
 
 ## Supervised / Unsupervised Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -59,7 +61,7 @@ TODO: find image
   - For instance, an ML system is given a series of **normal chest radiographs** and learns how best to **compress and uncompress** them.
   - This is known as an **autoencoder.**
 
-TODO: find image
+![Variational Autoencoder - *By EugenioTL - Own work, CC BY-SA 4.0, [link here](https://commons.wikimedia.org/w/index.php?curid=107231101)*](/media/daim/module_4/VAE_Basic.png){width=300}
 
 ## Appreciate {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -105,11 +107,36 @@ TODO: find image
   3. **Validation data** (testing the model during training)
 - The reasons for this will be discussed over the course of these two seminars.
 
-## Bias in a clinical dataset
+#
 
-- TODO - Understand dataset bias and clincial factors that can confound a dataset (LL4)
-- TODO - Use examples to demonstrate clinical bias (LL4)
-- TODO - Be able to list clinical uses for ML (LL4)
+:::{.r-stack}
+**Bias in Machine Learning**
+:::
+
+## Bias in clinical applications {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- **Bias** can come from many places during creation of a **clinical dataset.**
+  - Missing data for certain groups
+  - Lack of robust data collection protocols for researchers
+  - Biased sampling
+- This can lead to algorithms that **underperform for certain groups.**
+
+![Source: [1] (see sources slide.)]()
+
+## Case Study 1 - Dermatology{background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Convolutional neural networks can be trained to **classify skin lesions**.
+- Dataset contains 5-10% images of lesions on black skin.
+- Diagnostic accuracy **halves** when trialled with images of black skin.
+
+![Source: [1] (see sources slide.)]()
+
+## Case Study 2 - Heart Disease Predictors {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+- Predictive models for heart disease are often trained on datasets that have **more data** from **male** patients.
+- How might this affect the **clinical application** of the tool?
+
+![Source: [1] (see sources slide.)]()
 
 #
 
@@ -117,14 +144,14 @@ TODO: find image
 **How to preprocess data for an ML model?**
 :::
 
-## Data preprocessing
+## Data preprocessing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - **Data preprocessing** refers to **optimising the data** in your dataset **for the model** that you have chosen to train.
-- Different models have different formats which the data must be in
-- Data is usually passed to the model as a NumPy array
-  - You may see these referred to as **tensors**
+- **Different models** have **different formats** which the data must be in
+- Data is often passed to the model as a **NumPy array**.
+  - These are often referred to as **tensors**
 
-## What kind of NumPy Array?
+## What kind of NumPy Array? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - This will depend on the type of data being used.
 - For **images**, it is likely to be an image with certain:
@@ -140,15 +167,13 @@ TODO: find image
 
 ## Example of data augmentation
 
-![Examples of different data augementation techniques.](/media/daim/module_4/data_aug.png)
+![Examples of different data augementation techniques. Source: [2]](/media/daim/module_4/data_aug.png)
 
 ## Going further than this...
 
 - In imaging, further data augmentation techniques can be applied to **simulate anatomical variation**
 - For instance, **elastic deformation**
 - **Subtle image distortion** to **simulate** data acquired from a **different patient**.
-
-TODO find image
 
 ## Data augmentation
 
@@ -162,7 +187,13 @@ TODO find image
 - In the workshop, we will be building a **machine learning system** to predict **pneumonia** on chest XR.
 - This will demonstrate the process of training a model on a dataset.
 - The technique is a cornerstone of **building neural networks** that **interpret images**
-  - It is _not_ cutting edge, but will demonstrate **first principles**.
+  - We will be using tried-and-tested techniques to demonstrate **first principles**.
+
+#
+
+:::{.r-stack}
+**What is learning?**
+:::
 
 ## Machine Learning and Philosophy of Learning {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -173,14 +204,15 @@ TODO find image
 
 ## Learning vs. Memorizing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-Using an example of **adding and the symbol +**:
+- Using an example of **adding and the symbol +**:
+  - You learn to add and use the symbol **+**
+  - This allows you to _generalize_ rather than memorizing specific sums, like `1002 + 2003 = 3005`
+  - You _train_ by practicing simple exercises like `1 + 1 = 2`
+  - Your teacher corrects if you get `1 + 1 = 3`
 
-- You learn to add and use the symbol **+**
-- This allows you to _generalize_ rather than memorizing specific sums, like `1002 + 2003 = 3005`
-- You _train_ by practicing simple exercises like `1 + 1 = 2`
-- Your teacher corrects if you get `1 + 1 = 3`
+## Learning vs. Memorizing {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
 - You are then examined on new material to ensure you can generalize and apply your learnings
-
 - **Similarly:** You use a **training dataset** to train the model so it can _learn_ and apply in a **general** context.
 
 ## What does learning mean for a computer? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
@@ -205,14 +237,24 @@ $$
 
 ## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- The "ball" (the model) rolls down the hill to find the value of the two values that minimises the loss.
+- The "ball" (the model) **rolls down the hill** to find the value of the two values that minimises the loss.
 - This is called **gradient descent**.
 
 ## How does the optimiser make the network "learn"? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- The animation demonstrates the process for 2 parameters (x1, x2) in 2D.
+::: {.panel-tabset}
+
+### Explanation
+
+- The animation demonstrates the process for **2 parameters** in 2D.
 - Machine learning models have **100,000s** of parameters.
-- It's difficult to visualise a ball rolling around in a million dimensional space!
+- It's **difficult to visualise** a ball rolling around in a **multi-million dimensional space**!
+
+### Diagram
+
+![Gradient descent. *By Gpeyre - Own work, CC BY-SA 4.0, [link here](https://commons.wikimedia.org/wiki/File:Gradient_Descent_in_2D.webm)*](/media/daim/module_4/Gradient_Descent_in_2D.gif){width=400}
+
+:::
 
 ## Break! {background-image="/media/daim/coffee1.png" background-opacity="0.6" text-align=center}
 
@@ -245,9 +287,9 @@ $$
 - Therefore they take up lots of memory and computing power!
   - Think about how **the number of connections grows between neurons** as the number increases.
 
-## Dense layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Dense layer {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-TODO image of a Dense layer
+![A diagram of a dense layer with 5 neurons, connected to another dense layer with 3 neurons.](/media/daim/module_4/dense_layer.png)
 
 ## Convolutional layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -261,38 +303,33 @@ TODO image of a Dense layer
 - E.g. If the pathology in the image is large and lumpy, the parameters in the kernels  might resemble the **blurring kernel** from module 1 as this will highlight large shapes and ignore small details.
 -->
 
-## Convolutional layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
-
-TODO image of a convolutional layer
-
 ## Pooling layers {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Pooling layers **reduce the size** of the image through the network
-- This is often done by a factor of 2 e.g. (`(256, 256, 3)` to `(128, 128, 3)`)
+- This is often done by a factor of 2 e.g. `(256, 256, 3)` to `(128, 128, 3)`
 - This allows for the model to "shed" **less important**, fine detail **information**
 
 ## Why do we need to reduce the image size throughout the network? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- When images are connected to Dense layers, they are flattened.
+- When images are connected to Dense layers, they are **flattened**.
   - e.g. `(256, 256)` to `(65536)`
 - Even **small images** will result in **huge** networks, as **all neurons** between Dense layers are **connected**
-  - `(256, 256)` to a Dense layer with 256 neurons: 16.8 million parameters!
+  - `(256, 256)` to a Dense layer with 256 neurons: **16.8 million parameters!**
 
 ## What are the inputs to the network? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- The input to neural networks which process images will be an **image**.
+- The **input** to neural networks which process images will be an **image**.
   - The image will have a fixed resolution and number of channels
-  - e.g. (`(128, 128, 3)`)
+  - e.g. `(128, 128, 3)`
 
 ## What are the outputs? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- The output will **vary** depending on the **type of network**:
-  - Probabilities that certain features are present (e.g. pneumonia)
+- The output will **vary** depending on the **architecture of the network**:
+  - Probabilities that **certain features are present** (e.g. pneumonia)
   - A processed image, showing the locations of objects/features
     - This is called **semantic segmentation**
   - It can even be the same image!
     - This is an **autoencoder** which is used for **compression**.
-- The **architecture** will affect the **desired output**.
 
 #
 
@@ -302,45 +339,59 @@ TODO image of a convolutional layer
 
 ## Batches of data {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Data is fed to the network in **batches**
-  - A **batch** is a **collection** of datapoints e.g. 16 images
-- The overall direction to **change** the network parameters is established after asking the **network** to **predict** each batch item
-- This gradually minimises the **loss** and therefore the **error** of the network
+- Data is fed to the network in **batches**.
+  - A **batch** is a **collection** of datapoints e.g. 16 images.
+- The overall direction to **change** the network parameters is established after asking the **network** to **predict** each batch item.
+- This gradually minimises the **loss** and therefore the **error** of the network.
 
 ## Epochs of training {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - After a certain number of **batches** are fed to the network, an **epoch** of training has been completed.
 - The network is then usually evaluated on the **validation** dataset.
-- _Repeat..._ until a **set number** of epochs has been completed
+- _Repeat..._ until a **set number** of epochs has been completed.
 
 ## The process of training {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-TODO image of loss against epoch index showing the learning process.
+![Number of epochs plotted against loss in an ideal situation.](/media/daim/module_4/epoch_loss.png)
 
 ## What is a hyperparameter? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - **Hyperparameters** determine **how your network learns** and the **network structure**.
-- Any **parameter** that **cannot be modified** by the network optimiser during training can be seen as a **hyperparameter**
+- Any **parameter** that **cannot be modified** by the network optimiser during training can be seen as a **hyperparameter**.
 - **Tuning hyperparameters** is **important** for extracting the **best performance** from your network.
 
 ## What is a hyperparameter? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Examples include:
-  - The number of **neurons** in each layer
-  - The number of **kernels** in a convolutional layer
-  - The **learning rate** of the network
+  - The number of **neurons** in each layer.
+  - The number of **kernels** in a convolutional layer.
+  - The **learning rate** of the network.
 
-## Conclusion{background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+## Conclusion {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - We have covered a **lot of information** in this lecture.
 - **We will recap** nearly all of it during the **workshop**.
 
 ## Further resources {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-- Further resources
-  - 3Blue1Brown's series on [the basics of neural networks](https://www.youtube.com/watch?v=aircAruvnKk)
-  - TODO add further items=
+- **Further resources**
+  - 3Blue1Brown's series on [the basics of neural networks](https://www.youtube.com/watch?v=aircAruvnKk). This covers more mathematical detail about how these networks work.
+  - Google's [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course). This provides more insight into different types of model and different datasets.
 
 ## Thank you! {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 Any questions?
+
+## Sources {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
+
+[1] - Norori N, Hu Q, Aellen FM, Faraci FD, Tzovara A. Addressing bias in big data and AI for health care: A call for open science. Patterns (N Y). 2021;2(10):100347. Published 2021 Oct 8. doi:10.1016/j.patter.2021.100347
+
+[2] - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2. Data adapted under CC BY 4.0 Licence.
+
+<!--
+
+## todo
+
+- TODO - Be able to list clinical uses for ML (LL4)
+
+-->
