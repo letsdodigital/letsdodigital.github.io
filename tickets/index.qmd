@@ -17,13 +17,13 @@ Covering the full range of Digital Health, these introductory teaching modules a
 
 [Register here](https://letsdodigital.thinkific.com/courses/module-0-programming-in-healthcare)
 
-### 1st May 2025
+<!-- ### 1st May 2025
 
-[Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation](ask-someone-in-digital/2.qmd)
+[Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation](ask-someone-in-digital/2.qmd) -->
 
-### 26th June 2025
+<!-- ### 26th June 2025
 
-[Ask a Clinician - From Frontline to Frameworks](ask-a-clinician/8.qmd)
+[Ask a Clinician - From Frontline to Frameworks](ask-a-clinician/8.qmd) -->
 
 ## Previous Courses and Events
 
