@@ -130,7 +130,7 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="../../../media/daim/bg_cubes_blue.png" data-background-opacity="0.6" class="quarto-title-block center">
+<section id="title-slide" data-background-image="../../../media/daim/bg_cubes_red.png" data-background-opacity="0.6" class="quarto-title-block center">
   <h1 class="title">AI: Making an ML Model</h1>
 
 <div class="quarto-title-authors">
@@ -145,22 +145,23 @@ DAIM Team
 <section id="module-4-part-1-learning-objectives" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Module 4: Part 1 Learning Objectives</h2>
 <ul>
-<li>Appreciate machine learning vs.&nbsp;AI</li>
+<li>Appreciate what is meant by “machine learning” and “AI”</li>
 <li>Understand the high-level steps needed to train a statistical model</li>
 <li>Rationale for “verifying your model findings” and how to use a test set</li>
 <li>Understand dataset bias and clinical factors</li>
 </ul>
 </section>
-<section id="what-is-machine-learning" class="slide level2">
+<section id="what-is-machine-learning" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>What is machine learning?</h2>
 <ul>
-<li>TODO Understand what machine learning is at a broad level (LL2)</li>
+<li>Machine learning describes a <strong>collection</strong> of <strong>algorithms</strong> that allow computers to “learn” from data.</li>
+<li>This stands in contrast to <strong>desccribing exactly</strong> what an algorithm should detect with code</li>
 </ul>
 </section>
 <section id="big-data-machine-learning-and-artificial-intelligence" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Big Data, Machine Learning, and Artificial Intelligence</h2>
 <ul>
-<li>Big data → ML/AI</li>
+<li>Big data support the development of ML/AI</li>
 <li>The six <strong>Vs</strong> of big data: <strong>volume</strong>, <strong>variety</strong>, <strong>velocity</strong>, <strong>veracity</strong>, <strong>value</strong>, and <strong>variability</strong></li>
 <li>I would like to add <strong>vulnerability</strong></li>
 </ul>
@@ -169,7 +170,7 @@ DAIM Team
 <h2>Machine Learning vs.&nbsp;Artificial Intelligence</h2>
 <ul>
 <li>There are no set, global definitions for either term!</li>
-<li>Machine learning often refers to a <strong>specific subset of statistical algorithms</strong>
+<li><strong>Machine learning (ML)</strong> often refers to a <strong>specific subset of statistical algorithms.</strong>
 <ul>
 <li>Artificial neural networks</li>
 <li>Decision trees</li>
@@ -181,15 +182,15 @@ DAIM Team
 <section id="machine-learning-vs.-artificial-intelligence-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Machine Learning vs.&nbsp;Artificial Intelligence</h2>
 <ul>
-<li>Different types of machine learning:
+<li>There are <strong>different types</strong> of ML:
 <ul>
 <li>Supervised learning</li>
 <li>Unsupervised learning</li>
 <li>Reinforcement Learning</li>
 </ul></li>
-<li>Deep Learning refers to neural networks with <strong>multiple layers</strong>
+<li><strong>Deep Learning</strong> refers to neural networks with <strong>multiple layers</strong>
 <ul>
-<li>We will be building one in the workshop</li>
+<li>We will be building one in the workshop.</li>
 </ul></li>
 </ul>
 </section>
@@ -198,10 +199,11 @@ DAIM Team
 <ul>
 <li>Supervised learning uses <strong>labelled data</strong>.
 <ul>
-<li>For instance, a radiologist has <strong>labelled</strong> CT head studies with different types of <strong>intracranial haemorrhage</strong>, and the <strong>ML system learns</strong> which scans contain which type of haemorrhage.</li>
+<li>For instance, a neurologist labels data with <strong>different types of EEG patterns.</strong></li>
+<li>The model learns to <strong>predict</strong> which pattern is present.</li>
 </ul></li>
 </ul>
-<p>TODO: find image</p>
+<p><a href="https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification">See this Kaggle Competition.</a></p>
 </section>
 <section id="supervised-unsupervised-learning-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Supervised / Unsupervised Learning</h2>
@@ -212,8 +214,8 @@ DAIM Team
 <li>This is known as an <strong>autoencoder.</strong></li>
 </ul></li>
 </ul>
-<p>TODO: find image</p>
-</section>
+
+<img data-src="../../../media/daim/module_4/VAE_Basic.png" width="300" class="r-stretch quarto-figure-center"><p class="caption">Variational Autoencoder - <em>By EugenioTL - Own work, CC BY-SA 4.0, <a href="https://commons.wikimedia.org/w/index.php?curid=107231101">link here</a></em></p></section>
 <section id="appreciate" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Appreciate</h2>
 
@@ -265,34 +267,63 @@ DAIM Team
 </ol></li>
 <li>The reasons for this will be discussed over the course of these two seminars.</li>
 </ul>
-</section>
-<section id="bias-in-a-clinical-dataset" class="slide level2">
-<h2>Bias in a clinical dataset</h2>
-<ul>
-<li>TODO - Understand dataset bias and clincial factors that can confound a dataset (LL4)</li>
-<li>TODO - Use examples to demonstrate clinical bias (LL4)</li>
-<li>TODO - Be able to list clinical uses for ML (LL4)</li>
-</ul>
 </section></section>
 <section>
 <section id="section-1" class="title-slide slide level1 center">
 <h1></h1>
 <div class="r-stack">
+<p><strong>Bias in Machine Learning</strong></p>
+</div>
+</section>
+<section id="bias-in-clinical-applications" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Bias in clinical applications</h2>
+<ul>
+<li><strong>Bias</strong> can come from many places during creation of a <strong>clinical dataset.</strong>
+<ul>
+<li>Missing data for certain groups</li>
+<li>Lack of robust data collection protocols for researchers</li>
+<li>Biased sampling</li>
+</ul></li>
+<li>This can lead to algorithms that <strong>underperform for certain groups.</strong></li>
+</ul>
+
+<img data-src=".png" class="r-stretch quarto-figure-center"><p class="caption">Source: [1] (see sources slide.)</p></section>
+<section id="case-study-1---dermatology" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Case Study 1 - Dermatology</h2>
+<ul>
+<li>Convolutional neural networks can be trained to <strong>classify skin lesions</strong>.</li>
+<li>Dataset contains 5-10% images of lesions on black skin.</li>
+<li>Diagnostic accuracy <strong>halves</strong> when trialled with images of black skin.</li>
+</ul>
+
+<img data-src=".png" class="r-stretch quarto-figure-center"><p class="caption">Source: [1] (see sources slide.)</p></section>
+<section id="case-study-2---heart-disease-predictors" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Case Study 2 - Heart Disease Predictors</h2>
+<ul>
+<li>Predictive models for heart disease are often trained on datasets that have <strong>more data</strong> from <strong>male</strong> patients.</li>
+<li>How might this affect the <strong>clinical application</strong> of the tool?</li>
+</ul>
+
+<img data-src=".png" class="r-stretch quarto-figure-center"><p class="caption">Source: [1] (see sources slide.)</p></section></section>
+<section>
+<section id="section-2" class="title-slide slide level1 center">
+<h1></h1>
+<div class="r-stack">
 <p><strong>How to preprocess data for an ML model?</strong></p>
 </div>
 </section>
-<section id="data-preprocessing" class="slide level2">
+<section id="data-preprocessing" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Data preprocessing</h2>
 <ul>
 <li><strong>Data preprocessing</strong> refers to <strong>optimising the data</strong> in your dataset <strong>for the model</strong> that you have chosen to train.</li>
-<li>Different models have different formats which the data must be in</li>
-<li>Data is usually passed to the model as a NumPy array
+<li><strong>Different models</strong> have <strong>different formats</strong> which the data must be in</li>
+<li>Data is often passed to the model as a <strong>NumPy array</strong>.
 <ul>
-<li>You may see these referred to as <strong>tensors</strong></li>
+<li>These are often referred to as <strong>tensors</strong></li>
 </ul></li>
 </ul>
 </section>
-<section id="what-kind-of-numpy-array" class="slide level2">
+<section id="what-kind-of-numpy-array" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>What kind of NumPy Array?</h2>
 <ul>
 <li>This will depend on the type of data being used.</li>
@@ -315,7 +346,7 @@ DAIM Team
 <section id="example-of-data-augmentation" class="slide level2">
 <h2>Example of data augmentation</h2>
 
-<img data-src="../../../media/daim/module_4/data_aug.png" class="r-stretch quarto-figure-center"><p class="caption">Examples of different data augementation techniques.</p></section>
+<img data-src="../../../media/daim/module_4/data_aug.png" class="r-stretch quarto-figure-center"><p class="caption">Examples of different data augementation techniques. Source: [2]</p></section>
 <section id="going-further-than-this" class="slide level2">
 <h2>Going further than this…</h2>
 <ul>
@@ -323,7 +354,6 @@ DAIM Team
 <li>For instance, <strong>elastic deformation</strong></li>
 <li><strong>Subtle image distortion</strong> to <strong>simulate</strong> data acquired from a <strong>different patient</strong>.</li>
 </ul>
-<p>TODO find image</p>
 </section>
 <section id="data-augmentation" class="slide level2">
 <h2>Data augmentation</h2>
@@ -342,9 +372,16 @@ DAIM Team
 <li>This will demonstrate the process of training a model on a dataset.</li>
 <li>The technique is a cornerstone of <strong>building neural networks</strong> that <strong>interpret images</strong>
 <ul>
-<li>It is <em>not</em> cutting edge, but will demonstrate <strong>first principles</strong>.</li>
+<li>We will be using tried-and-tested techniques to demonstrate <strong>first principles</strong>.</li>
 </ul></li>
 </ul>
+</section></section>
+<section>
+<section id="section-3" class="title-slide slide level1 center">
+<h1></h1>
+<div class="r-stack">
+<p><strong>What is learning?</strong></p>
+</div>
 </section>
 <section id="machine-learning-and-philosophy-of-learning" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Machine Learning and Philosophy of Learning</h2>
@@ -357,14 +394,21 @@ DAIM Team
 </section>
 <section id="learning-vs.-memorizing" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Learning vs.&nbsp;Memorizing</h2>
-<p>Using an example of <strong>adding and the symbol +</strong>:</p>
 <ul>
-<li><p>You learn to add and use the symbol <strong>+</strong></p></li>
-<li><p>This allows you to <em>generalize</em> rather than memorizing specific sums, like <code>1002 + 2003 = 3005</code></p></li>
-<li><p>You <em>train</em> by practicing simple exercises like <code>1 + 1 = 2</code></p></li>
-<li><p>Your teacher corrects if you get <code>1 + 1 = 3</code></p></li>
-<li><p>You are then examined on new material to ensure you can generalize and apply your learnings</p></li>
-<li><p><strong>Similarly:</strong> You use a <strong>training dataset</strong> to train the model so it can <em>learn</em> and apply in a <strong>general</strong> context.</p></li>
+<li>Using an example of <strong>adding and the symbol +</strong>:
+<ul>
+<li>You learn to add and use the symbol <strong>+</strong></li>
+<li>This allows you to <em>generalize</em> rather than memorizing specific sums, like <code>1002 + 2003 = 3005</code></li>
+<li>You <em>train</em> by practicing simple exercises like <code>1 + 1 = 2</code></li>
+<li>Your teacher corrects if you get <code>1 + 1 = 3</code></li>
+</ul></li>
+</ul>
+</section>
+<section id="learning-vs.-memorizing-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Learning vs.&nbsp;Memorizing</h2>
+<ul>
+<li>You are then examined on new material to ensure you can generalize and apply your learnings</li>
+<li><strong>Similarly:</strong> You use a <strong>training dataset</strong> to train the model so it can <em>learn</em> and apply in a <strong>general</strong> context.</li>
 </ul>
 </section>
 <section id="what-does-learning-mean-for-a-computer" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
@@ -399,23 +443,38 @@ Y = f(x_1, x_2, x_3, ...)
 <section id="how-does-the-optimiser-make-the-network-learn-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>How does the optimiser make the network “learn”?</h2>
 <ul>
-<li>The “ball” (the model) rolls down the hill to find the value of the two values that minimises the loss.</li>
+<li>The “ball” (the model) <strong>rolls down the hill</strong> to find the value of the two values that minimises the loss.</li>
 <li>This is called <strong>gradient descent</strong>.</li>
 </ul>
 </section>
 <section id="how-does-the-optimiser-make-the-network-learn-2" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>How does the optimiser make the network “learn”?</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Explanation</a></li><li><a href="#tabset-1-2">Diagram</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
 <ul>
-<li>The animation demonstrates the process for 2 parameters (x1, x2) in 2D.</li>
+<li>The animation demonstrates the process for <strong>2 parameters</strong> in 2D.</li>
 <li>Machine learning models have <strong>100,000s</strong> of parameters.</li>
-<li>It’s difficult to visualise a ball rolling around in a million dimensional space!</li>
+<li>It’s <strong>difficult to visualise</strong> a ball rolling around in a <strong>multi-million dimensional space</strong>!</li>
 </ul>
+</div>
+<div id="tabset-1-2">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../../../media/daim/module_4/Gradient_Descent_in_2D.gif" width="400"></p>
+<figcaption>Gradient descent. <em>By Gpeyre - Own work, CC BY-SA 4.0, <a href="https://commons.wikimedia.org/wiki/File:Gradient_Descent_in_2D.webm">link here</a></em></figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 </section>
 <section id="break-1" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
 <h2>Break!</h2>
 </section></section>
 <section>
-<section id="section-2" class="title-slide slide level1 center">
+<section id="section-4" class="title-slide slide level1 center">
 <h1></h1>
 <div class="r-stack">
 <p><strong>How do we create an ML model?</strong></p>
@@ -456,10 +515,10 @@ Y = f(x_1, x_2, x_3, ...)
 </ul></li>
 </ul>
 </section>
-<section id="dense-layers" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Dense layers</h2>
-<p>TODO image of a Dense layer</p>
-</section>
+<section id="dense-layer" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Dense layer</h2>
+
+<img data-src="../../../media/daim/module_4/dense_layer.png" class="r-stretch quarto-figure-center"><p class="caption">A diagram of a dense layer with 5 neurons, connected to another dense layer with 3 neurons.</p></section>
 <section id="convolutional-layers" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Convolutional layers</h2>
 <ul>
@@ -475,47 +534,43 @@ Y = f(x_1, x_2, x_3, ...)
 - E.g. If the pathology in the image is large and lumpy, the parameters in the kernels  might resemble the **blurring kernel** from module 1 as this will highlight large shapes and ignore small details.
 -->
 </section>
-<section id="convolutional-layers-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Convolutional layers</h2>
-<p>TODO image of a convolutional layer</p>
-</section>
 <section id="pooling-layers" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Pooling layers</h2>
 <ul>
 <li>Pooling layers <strong>reduce the size</strong> of the image through the network</li>
-<li>This is often done by a factor of 2 e.g.&nbsp;(<code>(256, 256, 3)</code> to <code>(128, 128, 3)</code>)</li>
+<li>This is often done by a factor of 2 e.g.&nbsp;<code>(256, 256, 3)</code> to <code>(128, 128, 3)</code></li>
 <li>This allows for the model to “shed” <strong>less important</strong>, fine detail <strong>information</strong></li>
 </ul>
 </section>
 <section id="why-do-we-need-to-reduce-the-image-size-throughout-the-network" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Why do we need to reduce the image size throughout the network?</h2>
 <ul>
-<li>When images are connected to Dense layers, they are flattened.
+<li>When images are connected to Dense layers, they are <strong>flattened</strong>.
 <ul>
 <li>e.g.&nbsp;<code>(256, 256)</code> to <code>(65536)</code></li>
 </ul></li>
 <li>Even <strong>small images</strong> will result in <strong>huge</strong> networks, as <strong>all neurons</strong> between Dense layers are <strong>connected</strong>
 <ul>
-<li><code>(256, 256)</code> to a Dense layer with 256 neurons: 16.8 million parameters!</li>
+<li><code>(256, 256)</code> to a Dense layer with 256 neurons: <strong>16.8 million parameters!</strong></li>
 </ul></li>
 </ul>
 </section>
 <section id="what-are-the-inputs-to-the-network" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>What are the inputs to the network?</h2>
 <ul>
-<li>The input to neural networks which process images will be an <strong>image</strong>.
+<li>The <strong>input</strong> to neural networks which process images will be an <strong>image</strong>.
 <ul>
 <li>The image will have a fixed resolution and number of channels</li>
-<li>e.g.&nbsp;(<code>(128, 128, 3)</code>)</li>
+<li>e.g.&nbsp;<code>(128, 128, 3)</code></li>
 </ul></li>
 </ul>
 </section>
 <section id="what-are-the-outputs" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>What are the outputs?</h2>
 <ul>
-<li>The output will <strong>vary</strong> depending on the <strong>type of network</strong>:
+<li>The output will <strong>vary</strong> depending on the <strong>architecture of the network</strong>:
 <ul>
-<li>Probabilities that certain features are present (e.g.&nbsp;pneumonia)</li>
+<li>Probabilities that <strong>certain features are present</strong> (e.g.&nbsp;pneumonia)</li>
 <li>A processed image, showing the locations of objects/features
 <ul>
 <li>This is called <strong>semantic segmentation</strong></li>
@@ -525,11 +580,10 @@ Y = f(x_1, x_2, x_3, ...)
 <li>This is an <strong>autoencoder</strong> which is used for <strong>compression</strong>.</li>
 </ul></li>
 </ul></li>
-<li>The <strong>architecture</strong> will affect the <strong>desired output</strong>.</li>
 </ul>
 </section></section>
 <section>
-<section id="section-3" class="title-slide slide level1 center">
+<section id="section-5" class="title-slide slide level1 center">
 <h1></h1>
 <div class="r-stack">
 <p><strong>How to train an ML model?</strong></p>
@@ -538,12 +592,12 @@ Y = f(x_1, x_2, x_3, ...)
 <section id="batches-of-data" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Batches of data</h2>
 <ul>
-<li>Data is fed to the network in <strong>batches</strong>
+<li>Data is fed to the network in <strong>batches</strong>.
 <ul>
-<li>A <strong>batch</strong> is a <strong>collection</strong> of datapoints e.g.&nbsp;16 images</li>
+<li>A <strong>batch</strong> is a <strong>collection</strong> of datapoints e.g.&nbsp;16 images.</li>
 </ul></li>
-<li>The overall direction to <strong>change</strong> the network parameters is established after asking the <strong>network</strong> to <strong>predict</strong> each batch item</li>
-<li>This gradually minimises the <strong>loss</strong> and therefore the <strong>error</strong> of the network</li>
+<li>The overall direction to <strong>change</strong> the network parameters is established after asking the <strong>network</strong> to <strong>predict</strong> each batch item.</li>
+<li>This gradually minimises the <strong>loss</strong> and therefore the <strong>error</strong> of the network.</li>
 </ul>
 </section>
 <section id="epochs-of-training" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
@@ -551,18 +605,18 @@ Y = f(x_1, x_2, x_3, ...)
 <ul>
 <li>After a certain number of <strong>batches</strong> are fed to the network, an <strong>epoch</strong> of training has been completed.</li>
 <li>The network is then usually evaluated on the <strong>validation</strong> dataset.</li>
-<li><em>Repeat…</em> until a <strong>set number</strong> of epochs has been completed</li>
+<li><em>Repeat…</em> until a <strong>set number</strong> of epochs has been completed.</li>
 </ul>
 </section>
 <section id="the-process-of-training" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>The process of training</h2>
-<p>TODO image of loss against epoch index showing the learning process.</p>
-</section>
+
+<img data-src="../../../media/daim/module_4/epoch_loss.png" class="r-stretch quarto-figure-center"><p class="caption">Number of epochs plotted against loss in an ideal situation.</p></section>
 <section id="what-is-a-hyperparameter" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>What is a hyperparameter?</h2>
 <ul>
 <li><strong>Hyperparameters</strong> determine <strong>how your network learns</strong> and the <strong>network structure</strong>.</li>
-<li>Any <strong>parameter</strong> that <strong>cannot be modified</strong> by the network optimiser during training can be seen as a <strong>hyperparameter</strong></li>
+<li>Any <strong>parameter</strong> that <strong>cannot be modified</strong> by the network optimiser during training can be seen as a <strong>hyperparameter</strong>.</li>
 <li><strong>Tuning hyperparameters</strong> is <strong>important</strong> for extracting the <strong>best performance</strong> from your network.</li>
 </ul>
 </section>
@@ -571,9 +625,9 @@ Y = f(x_1, x_2, x_3, ...)
 <ul>
 <li>Examples include:
 <ul>
-<li>The number of <strong>neurons</strong> in each layer</li>
-<li>The number of <strong>kernels</strong> in a convolutional layer</li>
-<li>The <strong>learning rate</strong> of the network</li>
+<li>The number of <strong>neurons</strong> in each layer.</li>
+<li>The number of <strong>kernels</strong> in a convolutional layer.</li>
+<li>The <strong>learning rate</strong> of the network.</li>
 </ul></li>
 </ul>
 </section>
@@ -587,16 +641,28 @@ Y = f(x_1, x_2, x_3, ...)
 <section id="further-resources" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Further resources</h2>
 <ul>
-<li>Further resources
+<li><strong>Further resources</strong>
 <ul>
-<li>3Blue1Brown’s series on <a href="https://www.youtube.com/watch?v=aircAruvnKk">the basics of neural networks</a></li>
-<li>TODO add further items=</li>
+<li>3Blue1Brown’s series on <a href="https://www.youtube.com/watch?v=aircAruvnKk">the basics of neural networks</a>. This covers more mathematical detail about how these networks work.</li>
+<li>Google’s <a href="https://developers.google.com/machine-learning/crash-course">Machine Learning Crash Course</a>. This provides more insight into different types of model and different datasets.</li>
 </ul></li>
 </ul>
 </section>
 <section id="thank-you" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Thank you!</h2>
 <p>Any questions?</p>
+</section>
+<section id="sources" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Sources</h2>
+<p>[1] - Norori N, Hu Q, Aellen FM, Faraci FD, Tzovara A. Addressing bias in big data and AI for health care: A call for open science. Patterns (N Y). 2021;2(10):100347. Published 2021 Oct 8. doi:10.1016/j.patter.2021.100347</p>
+<p>[2] - Kermany, Daniel; Zhang, Kang; Goldbaum, Michael (2018), “Labeled Optical Coherence Tomography (OCT) and Chest X-Ray Images for Classification”, Mendeley Data, V2, doi: 10.17632/rscbjbr9sj.2. Data adapted under CC BY 4.0 Licence.</p>
+<!--
+
+## todo
+
+- TODO - Be able to list clinical uses for ML (LL4)
+
+-->
 
 
 </section></section>
