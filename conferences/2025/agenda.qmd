@@ -17,10 +17,10 @@ image: /media/reading-a-book.jpg
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/mark-bailey-circle.png" class="agenda-image-small">
+            <img src="/media/2025-conference/alec-price-forbes.jpeg" class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            Mark Bailey – Community Lead for Let's Do Digital, Locum Consultant, Clinician-Who-Codes
+            Alec Price-Forbes - National Chief Clinical Information Officer (CCIO), NHS England
         </div>
     </div>
 </div>
