@@ -16,6 +16,8 @@ Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to tran
 
 ## Updates
 
+**20/05/25** - The Programming in Healthcare course is back! We are excited to announce the launch of our new series of modules. This course is designed to introduce the concepts of programming and data science in healthcare. The course is suitable for all levels, from beginners to those with some experience in programming. [Register here](https://letsdodigital.thinkific.com/collections?page=2).
+
 **08/04/25** Registration for the Let's Talk Digital Conference 2025 is now open. [Register now](/conferences/2025/index.qmd) to secure a spot.
 
 **03/04/25** - We are now offer bite-sized modules in digital health. These 1-1.5 hour modules are designed to be flexible and can be taken at your own pace. They are perfect for busy healthcare professionals looking to upskill in digital health. Check out the modules available in the [tickets](/tickets/index.qmd) section above.
