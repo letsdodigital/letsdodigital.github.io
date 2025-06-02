@@ -580,7 +580,21 @@ image: /media/reading-a-book.jpg
         </div>
     </div>
 </div>
+
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/nicholas-oughtibridge.jpeg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Nicholas Oughtibridge - Head of the Clinical Data Architecture, NHS England
+        </div>
+    </div>
+</div>
 ```
+
+\
 
 ### 12:50 – 13:50 – Lunch
 
@@ -588,9 +602,7 @@ image: /media/reading-a-book.jpg
 
 ### 13:50 – Saving the Best for Last
 
-13:50 – **Video Poster Awards**
-
-**Chair**
+**Chair & Speaker**
 
 ```{=html}
 <div class="agenda-container-small">
@@ -606,6 +618,10 @@ image: /media/reading-a-book.jpg
 </div>
 ```
 
-14:00 – **Close**
+13:50 – **Video Poster Awards**
+
+14:00 – **Closing talk**
+
+14:10 - **Close**
 
 :::
