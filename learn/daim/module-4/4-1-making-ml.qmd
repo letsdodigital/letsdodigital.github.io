@@ -21,7 +21,7 @@ title-slide-attributes:
 ## What is machine learning? {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Machine learning describes a **collection** of **algorithms** that allow computers to "learn" from data.
-- This stands in contrast to **desccribing exactly** what an algorithm should detect with code
+- This stands in contrast to **describing exactly** what an algorithm should detect with code
 
 ## Big Data, Machine Learning, and Artificial Intelligence {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -381,6 +381,8 @@ $$
 ## Thank you! {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 Any questions?
+
+Thank you to Dr Sam Ebbs (radiology registrar) for reviewing the slides for this seminar.
 
 ## Sources {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
