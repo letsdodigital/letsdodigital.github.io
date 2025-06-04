@@ -3000,49 +3000,42 @@
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#module-4-part-2-learning-objectives",
     "title": "AI: Evaluating an ML Model",
     "section": "Module 4: Part 2 Learning Objectives",
-    "text": "Module 4: Part 2 Learning Objectives\n\nWhy evaluate model and understand key metrics\nAppreciate evaluation of regression tasks and transfer to classification tasks\nUnderstand pros and cons of each metrics\nUnderstand limitations of each metrics\nMore specifically, understand\n\nmean\nvariance\nstandard deviation\nstandard error\nmodel deviance"
+    "text": "Module 4: Part 2 Learning Objectives\n\nWhy evaluate ML models and understand key metrics\nUnderstand pros and cons of different metrics\nUnderstand the limitations of different metrics"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#you-fitted-a-model---now-what",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#you-fitted-a-model---now-what",
     "title": "AI: Evaluating an ML Model",
     "section": "You fitted a model - now what?",
-    "text": "You fitted a model - now what?\n\nWhat do you do next?\n\nDepends on why you are building it for.\n\nConsider\n\nhow do we get people to use this model\nhow do we generalise the findings to other datasets\nhow do we have it approved by peers and by medico-legally"
+    "text": "You fitted a model - now what?\n\nWhat do you do next?\n\nDepends on why you are building it for.\n\nConsider\n\nHow do we get people to use this model\nHow do we generalise the findings to other datasets\nHow do we have it approved by peers and medico-legally"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#complexity-of-the-model",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#complexity-of-the-model",
     "title": "AI: Evaluating an ML Model",
     "section": "Complexity of the Model",
-    "text": "Complexity of the Model\n\nIn ML, you need to trade off between bias and variance:\n\nVery biased model = assuming everyone is sick\nHigh variant model = responding to every noise\n\nThis describes the difference between overfitting and underfitting"
+    "text": "Complexity of the Model\n\nIn ML, you need to trade off between bias and variance:\n\nVery biased model = assuming everyone is sick\nHigh variant model = responding to noise\n\nThis describes the difference between overfitting and underfitting\n\n[Source: [1]]"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#overfitting",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#overfitting",
     "title": "AI: Evaluating an ML Model",
     "section": "Overfitting",
-    "text": "Overfitting\n\nThe more parameters a model has, the more information it can represent\nHowever, this can lead to overfitting and inefficiency"
+    "text": "Overfitting\n\nThe more parameters a model has, the more information it can represent\nHowever, this can lead to overfitting and inefficiency\n\n[Source: [1]]"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#evaluate-your-model-how",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#evaluate-your-model-how",
     "title": "AI: Evaluating an ML Model",
     "section": "Evaluate Your Model: How?",
-    "text": "Evaluate Your Model: How?\n\nValidation is key to model reliability:\n\nValidation set = marking your own homework!\nTest dataset = using a separate, fresh dataset\n\nBeware of data leakage\n\nWe will return to this later…"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#task",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#task",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Task",
-    "text": "Task\nYou are a botanist. You are interested in iris flowers and in particular its petal width\n\nYou want to build a model that can predict width.\nYour helpful colleagues have collected some data."
+    "text": "Evaluate Your Model: How?\n\nValidation is key to model reliability.\n\nValidation set = marking your own homework!\nTest dataset = using a separate, fresh dataset\n\nBeware of data leakage\n\nWe will return to this later…"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#theoretical-why-evaluate-models",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#theoretical-why-evaluate-models",
     "title": "AI: Evaluating an ML Model",
     "section": "Theoretical: Why evaluate models?",
-    "text": "Theoretical: Why evaluate models?\n\nModels are not truth.\n\nThey apporoximate the real world.\n\nAs a good scientist, you should have a healthy skepticism of your hypotheses\nIn extension, you should be skeptical of models you fitted."
+    "text": "Theoretical: Why evaluate models?\n\nModels are not truth.\n\nThey apporoximate the real world.\n\nAs a good scientist, you should have a healthy skepticism of your hypotheses\n\nIn extension, you should be skeptical of models you fitted."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#null-hypothesis-and-model-evaluation-parallels",
@@ -3052,39 +3045,32 @@
     "text": "Null hypothesis and Model Evaluation: parallels\n\nHypothesis testing: is our finding ‘by chance’?\n\nNull Hypothesis: First assume there is no effect.\n\nSimilarly, we will start from evaluating naive model\n\nWe will compare our models against naive models.\n\nThis allow us to generalise our model findings."
   },
   {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#why-is-generalisation-important",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#why-is-generalisation-important",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Why is generalisation important?",
-    "text": "Why is generalisation important?\n\nGeneralisation is efficient\n\nSame for your own brain and for your code\ngeneralisation allows for wider applicability\ne.g., dogs = 4 legged creature with a tail and likes to bark\nmeans you can transfer to all instances of dogs not just your pet\n\nSaves you to memorise class animalDog vs. Dog0, Dog1, Dog2, etc…"
-  },
-  {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#generalisation-in-models",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#generalisation-in-models",
     "title": "AI: Evaluating an ML Model",
     "section": "Generalisation in models",
-    "text": "Generalisation in models\n\nThis means your model findings are not memorised by the model\nThis means your model findings are applicable in other settings.\nIt works in external data that is unseen."
+    "text": "Generalisation in models\n\nGeneralisation means the findings in your dataset are not memorised by the model.\nThis means your model findings are applicable in other settings.\nIt works in external data that is unseen."
   },
   {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#a-good-model",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#a-good-model",
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#what-makes-a-good-model",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#what-makes-a-good-model",
     "title": "AI: Evaluating an ML Model",
-    "section": "A good model?",
-    "text": "A good model?\n\nA well-performing model in one setting may not work in others.\n\ne.g. screening test for cancer vs. confirmation test.\n\nA good model is generalisable and thus applicable."
+    "section": "What makes a good model?",
+    "text": "What makes a good model?\n\nA good model is generalisable and therefore applicable.\nNote: A well-performing model in one setting may not work in others.\n\ne.g. screening test for cancer vs. confirmation test."
   },
   {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#refresher-regression-vs.-classification",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#refresher-regression-vs.-classification",
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#regression-vs.-classification",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#regression-vs.-classification",
     "title": "AI: Evaluating an ML Model",
-    "section": "Refresher: regression vs. classification",
-    "text": "Refresher: regression vs. classification\n\nRegression\n\nHow do multiple independent variables affect a depedent variable?\n\nClassification\n\nDoes an outcome fit into a certain class or not?\nY is a binary variable i.e, 0 or 1."
+    "section": "Regression vs. classification",
+    "text": "Regression vs. classification\n\nRegression\n\nHow do multiple independent variables affect a depedent variable?\n\nClassification\n\nDoes an outcome fit into a certain class or not?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#theory-residuals",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#theory-residuals",
     "title": "AI: Evaluating an ML Model",
     "section": "Theory: Residuals",
-    "text": "Theory: Residuals\n\nDifference between true value and predicted value is called residual.\n\nresidual can be positive or negative.\n\nHere the dotted lines are residuals."
+    "text": "Theory: Residuals\n\nDifference between true value and predicted value is called a residual.\n\nResiduals can be positive or negative.\n\nIn this example, the dotted lines are residuals."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#theory-residuals-1",
@@ -3098,14 +3084,21 @@
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#the-naive-model",
     "title": "AI: Evaluating an ML Model",
     "section": "The naive model",
-    "text": "The naive model\n\nThe worst model is your naive model.\n\nPredicting the mean average at every value will give the largest residuals.\nThis is your null model.\n\nFor regression, you want a model that has the smallest residual.\n\nBut how small?\n\n\nTODO Diagram of a straight line with the regression points in 2D"
+    "text": "The naive model\n\nThe worst model is your naive model.\n\nPredicting the mean average at every value will give the largest residuals.\nThis is your null model."
+  },
+  {
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#better-models",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#better-models",
+    "title": "AI: Evaluating an ML Model",
+    "section": "Better models",
+    "text": "Better models\n\nFor regression, you want a model that has the smallest residual.\n\nBut how small?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#saturated-model",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#saturated-model",
     "title": "AI: Evaluating an ML Model",
     "section": "Saturated Model",
-    "text": "Saturated Model\n\nWhat is a saturated model?\nA theoretical model where there are as many parameters as data points.\ni.e. You have 5 pairs of measurements for 5 variables.\n\nIf you use all 5, that is a saturated model.\n\n\nTODO Diagram of a wiggly line which goes through every point in 2D"
+    "text": "Saturated Model\n\nWhat is a saturated model?\nA theoretical model where there are as many parameters as data points.\ni.e. You have 5 pairs of measurements for 5 variables.\n\nIf you use all 5, that is a saturated model."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#saturated-vs-null-models",
@@ -3154,70 +3147,42 @@
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#mean-squared-error",
     "title": "AI: Evaluating an ML Model",
     "section": "Mean squared error",
-    "text": "Mean squared error\n\\[\nMSE = \\frac{1}{n} * \\sum_{i=1}^{n}(y_i - y_p)^2\n\\]\n\nTake the AE and square them (why?)\nfor each value of data from i=1 to n\nthen divide by sample size"
+    "text": "Mean squared error\n\\[\nMSE = \\frac{1}{n} * \\sum_{i=1}^{n}(y_i - y_p)^2\n\\]\n\nTake the absolute errors and square them.\nAdd them together and divide by the sample size (mean average).\nThe square root can be taken of this value to give the Root MSE (RMSE)"
   },
   {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#root-mean-squared-error",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#root-mean-squared-error",
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#summary-basic-regression-metrics",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#summary-basic-regression-metrics",
     "title": "AI: Evaluating an ML Model",
-    "section": "Root mean squared error",
-    "text": "Root mean squared error\n\\[\nRMSE = \\sqrt{MSE}\n\\]\n\nTODO add more explanation about squaring/unsquaring if we are going to include this level of detail"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#summary-regression-metrics",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#summary-regression-metrics",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Summary: Regression metrics",
-    "text": "Summary: Regression metrics\n\nMean Absolute Error = mean absolute differences\nMean Squared Error = measures the variance of the residuals.\nRoot Mean Squared Error = measures standard deviation of the residuals\nR-squared (value between 0 and 1) = how much variation in y is explained by your model.\nadjusted R-squared = because R^2 will go up with more variables i.e., overfit. adjusted R^2 penalises for having more predictor variables"
+    "section": "Summary: Basic regression metrics",
+    "text": "Summary: Basic regression metrics\n\nMean Absolute Error = mean absolute differences\nMean Squared Error = measures the variance of the residuals.\nRoot Mean Squared Error = measures standard deviation of the residuals"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#moving-to-classification",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#moving-to-classification",
     "title": "AI: Evaluating an ML Model",
     "section": "Moving to classification",
-    "text": "Moving to classification\n\nResiduals –&gt; Deviance\n\nResidual is specific to when y is continuous.\nDeviance is a generalised term for residual.\n\nDeviance quantifies the difference between model and observations."
+    "text": "Moving to classification\n\nMoving from residuals to deviance.\n\nResidual is specific to when y is continuous.\nDeviance is a generalised term for residual.\n\nDeviance quantifies the difference between model and observations."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#moving-to-classification-1",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#moving-to-classification-1",
     "title": "AI: Evaluating an ML Model",
     "section": "Moving to classification",
-    "text": "Moving to classification\n\nIn classification problems, the ground truth is 0 or 1.\n\nPneumonia / no pneumonia\n\nThe model will produce a probability that the example belongs to a class\n\n0.2 - low probability of pnuemonia\n\nHow can we evaluate a classification model with the metrics we have discussed?"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#log-loss",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#log-loss",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Log Loss",
-    "text": "Log Loss\n\nLog loss - is roughly equivalent to MSE for classification\nLog Loss is linked to likelihood function.\n\nLog loss = -1 * log of likelihood function (TODO add explanation for this)"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#likelihood",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#likelihood",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Likelihood",
-    "text": "Likelihood"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#likelihood-logloss-deviance",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#likelihood-logloss-deviance",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Likelihood, Logloss, Deviance",
-    "text": "Likelihood, Logloss, Deviance\n\nWhen predicting outcomes with a classifier, we want to minimise deviance\nDeviance = 2 _ n _ log loss\n\nThus, log loss minimisation = deviance minimisation.\nMaximum likelihood estimation = statistics\nMinimising Log loss = machine learning"
+    "text": "Moving to classification\n\nIn classification problems, the ground truth is 0 or 1.\n\nPneumonia / no pneumonia\n\nThe model will produce a probability that the example belongs to a class\n\n0.03 = low probability of pnuemonia\n\nHow can we evaluate a classification model with the metrics we have discussed?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#overall-metrics",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#overall-metrics",
     "title": "AI: Evaluating an ML Model",
     "section": "Overall metrics",
-    "text": "Overall metrics\n\nIn regression, we use MSE and RMSE\nIn classification, we use log loss\n\nThese are the key most important metrics.\n\nWe used log-loss as our loss function to train our model in the last workshop.\n\nThe log-loss shows how incorrect the predictions are."
+    "text": "Overall metrics\n\nIn regression, we use MSE and RMSE\nIn classification, we use log loss\n\nThese are the key most important metrics.\n\nWe use log-loss as our loss function to train our model in the last workshop.\n\nThe log-loss shows how well the model predicts the probability of a binary outcome"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#extending-to-crossentropy-loss",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#extending-to-crossentropy-loss",
     "title": "AI: Evaluating an ML Model",
     "section": "Extending to Crossentropy Loss",
-    "text": "Extending to Crossentropy Loss\n\nWe have been disccussing classification for one class (cat vs dog)\n\nThis is binary classification\n\nHow about multiple classes?\n\ne.g. car vs cat vs dog.\n\nHere we generalise log loss -&gt; crossentropy loss."
+    "text": "Extending to Crossentropy Loss\n\nWe have been disccussing classification for one class.\n\nE.g. cat vs dog.\nThis is binary classification\n\nHow about multiple classes?\n\ne.g. car vs cat vs dog.\n\nHere we generalise from log loss to crossentropy loss."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#break",
@@ -3231,7 +3196,7 @@
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#discrete-metrics",
     "title": "AI: Evaluating an ML Model",
     "section": "Discrete metrics",
-    "text": "Discrete metrics\n\nModels will output a classification probability\n\nProbabilities are continuous (e.g. 0.2, 0.92)\n\nTo make a prediction (pneumonia/no pneumonia), we need to set a threshold\n\nWhere we set the threshold will affect the classification performance\n\nUsually defaults to 0.5\n\nThis is what we see when Keras shows us the accuracy of our model"
+    "text": "Discrete metrics\n\nModels will output a probability for each class.\n\nProbabilities are continuous (e.g. 0.2, 0.92).\n\nTo make a prediction (pneumonia/no pneumonia), we need to set a threshold\n\nWhere we set the threshold will affect the classification performance.\n\nThis threshold usually defaults to 0.5.\n\nThis is what we see when Keras shows us the accuracy of our model."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#confusion-matrix",
@@ -3255,53 +3220,39 @@
     "text": "Exercise\n\n\n\n\nModel = 1\nModel = 0\n\n\n\n\nTrue = 1\n80\n30\n\n\nTrue = 0\n20\n40\n\n\n\n\nWork out the following:\n\nTotal Sample size, Total Cases, Prevalence\nAccuracy"
   },
   {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#there-are-more-metrics-beyond-accuracy",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#there-are-more-metrics-beyond-accuracy",
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#metrics-beyond-accuracy",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#metrics-beyond-accuracy",
     "title": "AI: Evaluating an ML Model",
-    "section": "There are more metrics beyond accuracy…",
-    "text": "There are more metrics beyond accuracy…\n\nWhat are the limitations with accuracy?\nOther metrics give us a more holistic assessment of how the classifier works:\n\nPrecision, specificity, recall/sensitivity"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#exercise---going-further",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#exercise---going-further",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Exercise - going further",
-    "text": "Exercise - going further\n\n\n\n\nModel = 1\nModel = 0\n\n\n\n\nTrue = 1\n80\n30\n\n\nTrue = 0\n20\n40\n\n\n\nPrecision = Positive Predictive Value =\nRecall = True Positive Rate =\nSpecificity = True Negative Rate ="
+    "section": "Metrics beyond accuracy…",
+    "text": "Metrics beyond accuracy…\n\nWhat are the limitations with accuracy?\nOther metrics give us a more holistic assessment of how the classifier works:\n\nPrecision, specificity, recall/sensitivity"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#balancing-evaluation",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#balancing-evaluation",
     "title": "AI: Evaluating an ML Model",
     "section": "Balancing evaluation",
-    "text": "Balancing evaluation\n\nThe F1 score\n\nThe (harmonic) mean average of the precision and recall.\nNothing to do with cars or UK resident doctors.\n\nGives an idea of the overall predictive performance of the classifier."
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#exercise---going-even-further",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#exercise---going-even-further",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Exercise - going even further",
-    "text": "Exercise - going even further\n\n\n\n\nModel = 1\nModel = 0\n\n\n\n\nTrue = 1\n80\n30\n\n\nTrue = 0\n20\n40\n\n\n\nF1 score = precision * recall / precision + recall ="
+    "text": "Balancing evaluation\n\nThe F1 score\n\nThe (harmonic) mean average of the precision and recall.\n\nGives an idea of the overall predictive performance of the classifier."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#what-happens-if-we-change-the-threshold",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#what-happens-if-we-change-the-threshold",
     "title": "AI: Evaluating an ML Model",
     "section": "What happens if we change the threshold?",
-    "text": "What happens if we change the threshold?\n\nAs discussed earlier, many models predict probabilities which are continuous values\n\nClassification relies on discrete, binary predictions (Yes/No)"
+    "text": "What happens if we change the threshold?\n\nAs discussed earlier, many models predict probabilities which are continuous values.\n\nClassification relies on discrete, binary predictions. (Yes/No)"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#what-happens-if-we-change-the-threshold-1",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#what-happens-if-we-change-the-threshold-1",
     "title": "AI: Evaluating an ML Model",
     "section": "What happens if we change the threshold?",
-    "text": "What happens if we change the threshold?\n\nHow can we evaluate how the prediction of the model changes as we modify the threshold for detection?\nThis works for clinical metrics too - what level of procalcitonin best predicts bacterial infection?"
+    "text": "What happens if we change the threshold?\n\nHow can we evaluate how the prediction of the model changes as we modify the threshold for detection?\nThis works for clinical tests too.\n\nWhat level of procalcitonin best predicts bacterial infection?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#area-under-curve",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#area-under-curve",
     "title": "AI: Evaluating an ML Model",
     "section": "Area under Curve",
-    "text": "Area under Curve\n\nSensitivty and Specificity is a trade off\nIf you plot the Sensitivty against the Specificity for different thresholds, a receiver-operator curve (ROC) can be generated.\nThe area under this curve is the AUC\n0.5 indicates random guessing, and 1.0 is perfect classification performance."
+    "text": "Area under Curve\n\nSensitivty and specificity is a trade off.\nIf you plot the sensitivty against the specificity for different thresholds, a receiver-operator curve (ROC) can be generated.\nThe area under this curve (AUC) gives us information about classification performance.\n\n0.5 indicates random guessing, and 1.0 is perfect classification performance."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#example-of-auc-curve",
@@ -3315,56 +3266,35 @@
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#evaluating-models",
     "title": "AI: Evaluating an ML Model",
     "section": "Evaluating models",
-    "text": "Evaluating models\n\nYou now know how to fit models\nYou now know how to evaluate the models\nWhat do you evaluate it on?\n\nThe gold standard is an external data set.\n\nShort of that:\n\nwe will split data into training and test set."
+    "text": "Evaluating models\n\nYou now know how to fit models.\nYou now know how to evaluate the models.\nWhat do you evaluate it on?\n\nThe gold standard is an external data set.\n\nShort of that:\n\nSplit your data into training and test set."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#train-test-split",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#train-test-split",
     "title": "AI: Evaluating an ML Model",
     "section": "Train-Test Split",
-    "text": "Train-Test Split\n\nTraining dataset and test should receive the same treatments\nTest set is unseen data for your model.\nYou will report performance on test set\nTest set most closely resembles an external independent dataset.\n\nBut, data leakage"
+    "text": "Train-Test Split\n\nTest set is unseen data for your model.\nYou will report performance on test set\nTest set most closely resembles an external independent dataset.\n\nBut, data leakage"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#what-is-data-leakage",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#what-is-data-leakage",
     "title": "AI: Evaluating an ML Model",
     "section": "What is data leakage?",
-    "text": "What is data leakage?\n\nData leakage is where you have ridiculously good results.\nIt is a false discovery.\nData leakage can happen for many reasons."
+    "text": "What is data leakage?\n\nData leakage is where you have ridiculously good results.\nIt is a false discovery.\nInvolves information being available to the model in training that it will not have access to in deployment.\nData leakage can happen for many reasons."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#examples-of-data-leakage",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#examples-of-data-leakage",
     "title": "AI: Evaluating an ML Model",
     "section": "Examples of data leakage",
-    "text": "Examples of data leakage\n\nExample 1\n\nyou treat training and test data with the max values of the entire dataset.\nThis somehow biases the test dataset and it causes\n\nTODO clarify examples with clinical information"
+    "text": "Examples of data leakage\n\nThis paper trained a chest XR classifier to predict pneumonia.\nThey split 112k XRs from 31k different patients randomly into training and validation sets.\nWhere is the issue here?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#examples-of-data-leakage-1",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#examples-of-data-leakage-1",
     "title": "AI: Evaluating an ML Model",
     "section": "Examples of data leakage",
-    "text": "Examples of data leakage\n\nExample 2: Future information is somehow leaked in a training dataset.\n\nLets say you are building a model that can predict patient receiving a surgery or not.\nLets say all sick patients who got antibiotics got surgery\nSomehow you included antibiotics in your training dataset. It will cause leakage.\n\nTODO clarify examples with clinical information\nNOTE: Data leakage can sometimes be very difficult to detect."
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#understanding-data-leakage",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#understanding-data-leakage",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Understanding Data Leakage",
-    "text": "Understanding Data Leakage\nExample of data leakage in Chest X-Ray (CXR) data:\n\nSuppose a model is trained to detect pneumonia on resus scans\n\nSicker patients often get AP films and are placed in resus\nThe model might “cheat” by detecting resus environment instead of pneumonia itself\nReal scans may not have the AP sticker, and the model will fail in a real-world environment"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#assuming-no-leakage",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#assuming-no-leakage",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Assuming no leakage",
-    "text": "Assuming no leakage\n\nTest set is untouched.\nTest set should be split right at the begining\nData transformation / engineering processes should be encapsulated in a reproducible manner and applied seperately to train and test sets."
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#common-pitfalls",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#common-pitfalls",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Common pitfalls",
-    "text": "Common pitfalls\n\nTODO Common pitfalls\n\nTODO How to deal with overfitting. (LL2)\nTODO How to deal with multicollinearity (LL2)\nTODO How to deal with missing data and sensitivity analysis (LL2)"
+    "text": "Examples of data leakage\n\nThe model could learn patient anatomy and changes between each XR, rather than detecting pneumonia.\nThis was noticed by another researcher and subsequently corrected.\n\nThe authors subsequently made sure that there was no patient crossover between the datasets."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#break-1",
@@ -3374,32 +3304,11 @@
     "text": "Break!"
   },
   {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#extending-the-workshop-task",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#extending-the-workshop-task",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Extending the workshop task",
-    "text": "Extending the workshop task\n\nTODO Appreciate that the task we are performing is fairly simple and that more complex techniques exist (LL2)"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#other-forms-of-machine-learning",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#other-forms-of-machine-learning",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Other Forms of Machine Learning",
-    "text": "Other Forms of Machine Learning\n\nTODO Be able to discuss the uses, advantages, and disadvantages of more modern approaches to machine learning (stable diffusion, large language models) (LL2) (LL4)"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#break-2",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#break-2",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Break!",
-    "text": "Break!"
-  },
-  {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-1",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-1",
     "title": "AI: Evaluating an ML Model",
     "section": "Scenario 1",
-    "text": "Scenario 1\n\nYou are a GP.\nYou use an AI-based clinical decision support (CDS) tool to help manage patients with “breast lump” presentations.\nThe tool helps decide amongst options: invasive investigation, imaging, or watchful waiting.\nA 17-year-old male patient presents with a “breast lump.”\nShould you trust the model recommendations for this patient?"
+    "text": "Scenario 1\n\nYou are a GP.\nYou use an AI-based clinical decision support(CDS) tool to help manage patients with “breast lump” presentations.\nThe tool helps decide amongst options: invasive investigation, imaging, or watchful waiting.\nA 17-year-old male patient presents with a “breast lump.”\nShould you trust the model recommendations for this patient?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-2",
@@ -3413,21 +3322,14 @@
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#gold-standards-in-medical-ai",
     "title": "AI: Evaluating an ML Model",
     "section": "Gold Standards in Medical AI",
-    "text": "Gold Standards in Medical AI\n\n\nRefer to this BMJ article on standards\nAlso, see related BMJ content"
+    "text": "Gold Standards in Medical AI\n\nRefer to this BMJ article on standards\nAlso, see related BMJ content"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#ethics-of-ai",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#ethics-of-ai",
     "title": "AI: Evaluating an ML Model",
     "section": "Ethics of AI",
-    "text": "Ethics of AI\n\nThe ethics of AI/ML are complex:\n\nShould generative AI models (like ChatGPT) be allowed in research writing?\nShould clinical judgments factor in AI recommendations?\n\nAI/ML don’t always get it right, but neither do humans\n\nDoes AI/ML need to be better than humans?\nWhich humans? FY1 or an average consultant?"
-  },
-  {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#examples-of-bad-ai",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#examples-of-bad-ai",
-    "title": "AI: Evaluating an ML Model",
-    "section": "Examples of ‘Bad’ AI",
-    "text": "Examples of ‘Bad’ AI\n\nRead the abstract of this paper (Wang 2018)\nIs this an ethical use of image processing machine learning systems?"
+    "text": "Ethics of AI\n\nThe ethics of AI/ML are complex:\n\nShould generative AI models (like ChatGPT) be allowed in research writing?\nShould clinical judgments factor in AI recommendations?\n\nAI/ML don’t always get it right, but neither do humans\n\nDoes AI/ML need to be better than humans?\nWhich humans? FY1 or consultant?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#how-do-we-do-good-stop-bad-ai",
@@ -3455,14 +3357,14 @@
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#reproducibility-important-questions",
     "title": "AI: Evaluating an ML Model",
     "section": "Reproducibility: Important Questions",
-    "text": "Reproducibility: Important Questions\n\nWhat type of oven?\nWhat mode: fan or gas?\nWhich oil: olive oil or rapeseed?\nType of milk?\n\nIn ML: consider:\n\nTechnical details like Python version and framework\nClinical details like film projection and sample types"
+    "text": "Reproducibility: Important Questions\n\nPoints to consider:\n\nWhat type of oven?\nWhat mode: fan or gas?\nWhich oil: olive oil or rapeseed?\nType of milk?\n\nIn ML, consider:\n\nTechnical details like Python version and framework\nClinical details like film projection and sample types"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#real-life-example",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#real-life-example",
     "title": "AI: Evaluating an ML Model",
     "section": "Real-Life Example",
-    "text": "Real-Life Example\n\nDifferent OSs parse data differently\nReference: Bhandari Neupane et al., “Characterization of Leptazolines a–d” (2019)"
+    "text": "Real-Life Example\n\nDifferent operating systems parse data differently Reference: Bhandari Neupane et al., “Characterization of Leptazolines a–d” (2019)."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#reproducibility-analogy",
@@ -3472,25 +3374,53 @@
     "text": "Reproducibility Analogy"
   },
   {
-    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#how-to-make-research-reproducible",
-    "href": "learn/daim/module-4/4-2-evaluating-ml.html#how-to-make-research-reproducible",
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#maximising-reproducibility",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#maximising-reproducibility",
     "title": "AI: Evaluating an ML Model",
-    "section": "How to Make Research Reproducible",
-    "text": "How to Make Research Reproducible\n\nAim for reproducibility, even if it is challenging at first\nVisit RAPS with R for reproducibility principles"
+    "section": "Maximising Reproducibility",
+    "text": "Maximising Reproducibility\n\nAim for reproducibility, even if it is challenging at first.\nVisit RAPS with R for reproducibility principles."
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-1-revisited",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-1-revisited",
     "title": "AI: Evaluating an ML Model",
     "section": "Scenario 1 Revisited",
-    "text": "Scenario 1 Revisited\n\nYou are a GP.\nYou use an AI-based clinical decision support (CDS) tool to help manage patients with “breast lump” presentations.\nThe tool suggests options like invasive investigation, imaging, or watchful waiting.\nA 17-year-old male patient presents with a “breast lump.”\nQuestion: Should you trust the model’s recommendations for this patient?\n\nScenario 1: Critical Questions\n\nWas the AI CDS trained on both male and female images?\nWere patients under 18 included in the training set?\nIs the model optimized for sensitivity or specificity?\nWhat does your clinical judgment suggest?\nWhat are the local governance policies regarding AI use?"
+    "text": "Scenario 1 Revisited\n\nYou are a GP.\nYou use an AI-based clinical decision support(CDS) tool to help manage patients with “breast lump” presentations.\nThe tool helps decide amongst options: invasive investigation, imaging, or watchful waiting.\nA 17-year-old male patient presents with a “breast lump.”\nQuestion: Should you trust the model’s recommendations for this patient?"
+  },
+  {
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-1-critical-questions",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-1-critical-questions",
+    "title": "AI: Evaluating an ML Model",
+    "section": "Scenario 1: Critical Questions",
+    "text": "Scenario 1: Critical Questions\n\nWas the AI CDS trained on both male and female images?\nWere patients under 18 included in the training set?\nIs the model optimized for sensitivity or specificity?\nWhat does your clinical judgment suggest?\nWhat are the local governance policies regarding AI use?"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-2-revisited",
     "href": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-2-revisited",
     "title": "AI: Evaluating an ML Model",
     "section": "Scenario 2 Revisited",
-    "text": "Scenario 2 Revisited\n\nYou are a clinical lead for your organization.\nYour goal is to improve pathways for acutely unwell patients.\nYou have a 100,000 GBP budget.\nTwo options are presented:\n\nOption 1: Recruit two specialist nurses\nOption 2: Deploy an AI-based CDS and risk management system\n\nQuestion: Which option would you choose?\n\nScenario 2: Considerations\n\nNurses:\n\nWould they provide versatility and fill in during staff shortages?\nWould they be happy in their roles, or might they leave?\n\nAI System:\n\nDoes your organization have the digital infrastructure for AI?\nAre clinical pathways aligned with AI integration?\nIf AI flags deterioration, can your pathways respond effectively?\nAI offers scalability and continuous availability, but what if it fails?"
+    "text": "Scenario 2 Revisited\n\nYou are a clinical lead for your organization.\nYou want to improve pathways for acutely unwell patients.\nYou have a £100,000 budget for this.\nYour team presents two options:\n\nOption 1: Recruit two specialist nurses\nOption 2: Deploy an AI-based CDS and risk management system\n\nQuestion: Which option would you choose?"
+  },
+  {
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-2-considerations",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-2-considerations",
+    "title": "AI: Evaluating an ML Model",
+    "section": "Scenario 2: Considerations",
+    "text": "Scenario 2: Considerations\n\nNurses:\n\nIs the budget adequate for the clinical support that is needed?\nWould they provide versatility and fill in during staff shortages?"
+  },
+  {
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-2-considerations-1",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#scenario-2-considerations-1",
+    "title": "AI: Evaluating an ML Model",
+    "section": "Scenario 2: Considerations",
+    "text": "Scenario 2: Considerations\n\nAI System:\n\nDoes your organization have the digital infrastructure for AI?\nAre clinical pathways aligned with AI integration?\nIf AI flags deterioration, can your pathways respond effectively?\nAI offers scalability and continuous availability, but what if it fails?"
+  },
+  {
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#extending-the-workshop-task",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#extending-the-workshop-task",
+    "title": "AI: Evaluating an ML Model",
+    "section": "Extending the workshop task",
+    "text": "Extending the workshop task\n\nThe workshop task demonstrates first principles and provides a introduction into building a machine learning model.\nMachine learning is a broad field, with more fields than just computer vision…"
   },
   {
     "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#what-we-have-covered",
@@ -3512,6 +3442,20 @@
     "title": "AI: Evaluating an ML Model",
     "section": "Discussion and Q&A",
     "text": "Discussion and Q&A\n\nLet’s discuss any remaining questions on ML/AI in clinical applications!"
+  },
+  {
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#acknowledgements",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#acknowledgements",
+    "title": "AI: Evaluating an ML Model",
+    "section": "Acknowledgements",
+    "text": "Acknowledgements\nThank you to Teddy Hla for writing these slides."
+  },
+  {
+    "objectID": "learn/daim/module-4/4-2-evaluating-ml.html#sources",
+    "href": "learn/daim/module-4/4-2-evaluating-ml.html#sources",
+    "title": "AI: Evaluating an ML Model",
+    "section": "Sources",
+    "text": "Sources\n[1] - Hermansson, Anton. (2020). Standardization and optimization of index for 28 day strength for cement made from standard clinker. 10.13140/RG.2.2.18178.91849."
   },
   {
     "objectID": "learn/daim/module-2/2-images.html#introduction",
@@ -5205,7 +5149,7 @@
     "href": "learn/daim/module-4/4-1-making-ml.html#what-is-machine-learning",
     "title": "AI: Making an ML Model",
     "section": "What is machine learning?",
-    "text": "What is machine learning?\n\nMachine learning describes a collection of algorithms that allow computers to “learn” from data.\nThis stands in contrast to desccribing exactly what an algorithm should detect with code"
+    "text": "What is machine learning?\n\nMachine learning describes a collection of algorithms that allow computers to “learn” from data.\nThis stands in contrast to describing exactly what an algorithm should detect with code"
   },
   {
     "objectID": "learn/daim/module-4/4-1-making-ml.html#big-data-machine-learning-and-artificial-intelligence",
@@ -5534,7 +5478,7 @@
     "href": "learn/daim/module-4/4-1-making-ml.html#thank-you",
     "title": "AI: Making an ML Model",
     "section": "Thank you!",
-    "text": "Thank you!\nAny questions?"
+    "text": "Thank you!\nAny questions?\nThank you to Dr Sam Ebbs (radiology registrar) for reviewing the slides for this seminar."
   },
   {
     "objectID": "learn/daim/module-4/4-1-making-ml.html#sources",

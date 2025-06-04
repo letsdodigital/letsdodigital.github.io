@@ -145,18 +145,9 @@ DAIM Team
 <section id="module-4-part-2-learning-objectives" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Module 4: Part 2 Learning Objectives</h2>
 <ul>
-<li>Why evaluate model and understand key metrics</li>
-<li>Appreciate evaluation of regression tasks and transfer to classification tasks</li>
-<li>Understand pros and cons of each metrics</li>
-<li>Understand limitations of each metrics</li>
-<li>More specifically, understand
-<ul>
-<li>mean</li>
-<li>variance</li>
-<li>standard deviation</li>
-<li>standard error</li>
-<li>model deviance</li>
-</ul></li>
+<li>Why <strong>evaluate</strong> ML models and understand <strong>key metrics</strong></li>
+<li>Understand <strong>pros</strong> and <strong>cons</strong> of different metrics</li>
+<li>Understand the <strong>limitations</strong> of different metrics</li>
 </ul>
 </section>
 <section id="you-fitted-a-model---now-what" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
@@ -168,9 +159,9 @@ DAIM Team
 </ul></li>
 <li>Consider
 <ul>
-<li>how do we get people to use this model</li>
-<li>how do we generalise the findings to other datasets</li>
-<li>how do we have it approved by peers and by medico-legally</li>
+<li>How do we get people to <strong>use</strong> this model</li>
+<li>How do we <strong>generalise the findings</strong> to other datasets</li>
+<li>How do we have it <strong>approved</strong> by peers and medico-legally</li>
 </ul></li>
 </ul>
 </section>
@@ -187,43 +178,34 @@ DAIM Team
 <li>In ML, you need to trade off between <strong>bias</strong> and <strong>variance</strong>:
 <ul>
 <li>Very biased model = assuming everyone is sick</li>
-<li>High variant model = responding to every noise</li>
+<li>High variant model = responding to noise</li>
 </ul></li>
 <li>This describes the difference between <strong>overfitting</strong> and <strong>underfitting</strong></li>
 </ul>
-
-<img data-src="../../../media/daim/module_4/biasvariance.jpg" class="r-stretch"></section>
+<p><img data-src="../../../media/daim/module_4/biasvariance.jpg">[Source: [1]]</p>
+</section>
 <section id="overfitting" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Overfitting</h2>
 <ul>
 <li>The more <strong>parameters</strong> a model has, the more <strong>information</strong> it can represent</li>
 <li>However, this can lead to <strong>overfitting</strong> and <strong>inefficiency</strong></li>
 </ul>
-
-<img data-src="../../../media/daim/module_4/biasvariance.jpg" class="r-stretch"></section>
+<p><img data-src="../../../media/daim/module_4/biasvariance.jpg">[Source: [1]]</p>
+</section>
 <section id="evaluate-your-model-how" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Evaluate Your Model: How?</h2>
 <ul>
-<li>Validation is key to model reliability:
+<li>Validation is <strong>key</strong> to <strong>model reliability</strong>.
 <ul>
 <li><strong>Validation set</strong> = marking your own homework!</li>
 <li><strong>Test dataset</strong> = using a separate, fresh dataset</li>
 </ul></li>
 <li>Beware of <strong>data leakage</strong>
 <ul>
-<li>We will return to this later…</li>
+<li><em>We will return to this later…</em></li>
 </ul></li>
 </ul>
 </section>
-<section id="task" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Task</h2>
-<p>You are a botanist. You are interested in iris flowers and in particular its <strong>petal width</strong></p>
-<ul>
-<li>You want to <strong>build a model</strong> that can predict width.</li>
-<li>Your helpful colleagues have <strong>collected some data.</strong></li>
-</ul>
-
-<img data-src="../../../media/daim/module_4/petalwidth.png" class="r-stretch"></section>
 <section id="theoretical-why-evaluate-models" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Theoretical: Why evaluate models?</h2>
 <ul>
@@ -231,8 +213,10 @@ DAIM Team
 <ul>
 <li>They <strong>apporoximate</strong> the real world.</li>
 </ul></li>
-<li>As a good scientist, you should have a <strong>healthy</strong> skepticism of your hypotheses</li>
+<li>As a good scientist, you should have a <strong>healthy skepticism</strong> of your hypotheses
+<ul>
 <li>In extension, you should be skeptical of models you fitted.</li>
+</ul></li>
 </ul>
 </section>
 <section id="null-hypothesis-and-model-evaluation-parallels" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
@@ -244,40 +228,27 @@ DAIM Team
 </ul></li>
 <li>Similarly, we will start from evaluating <strong>naive</strong> model
 <ul>
-<li>We will compare our models against <strong>naive</strong> models.</li>
+<li>We will <strong>compare</strong> our models against <strong>naive</strong> models.</li>
 </ul></li>
 <li>This allow us to <strong>generalise</strong> our model findings.</li>
-</ul>
-</section>
-<section id="why-is-generalisation-important" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Why is generalisation important?</h2>
-<ul>
-<li>Generalisation is efficient
-<ul>
-<li>Same for your own brain and for your code</li>
-<li>generalisation allows for wider applicability</li>
-<li>e.g., dogs = 4 legged creature with a tail and likes to bark</li>
-<li>means you can transfer to all instances of dogs not just your pet</li>
-</ul></li>
-<li>Saves you to memorise class animalDog vs.&nbsp;Dog0, Dog1, Dog2, etc…</li>
 </ul>
 </section>
 <section id="generalisation-in-models" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Generalisation in models</h2>
 <ul>
-<li>This means your model findings are not <strong>memorised</strong> by the model</li>
+<li><strong>Generalisation</strong> means the findings in <strong>your dataset</strong> are not <strong>memorised</strong> by the model.</li>
 <li>This means your model findings are <strong>applicable</strong> in other settings.</li>
 <li>It works in <strong>external data</strong> that is <strong>unseen</strong>.</li>
 </ul>
 </section>
-<section id="a-good-model" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>A good model?</h2>
+<section id="what-makes-a-good-model" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>What makes a good model?</h2>
 <ul>
-<li>A well-performing model in one setting <strong>may not work in others.</strong>
+<li>A good model is <strong>generalisable</strong> and therefore <strong>applicable</strong>.</li>
+<li>Note: A well-performing model in one setting <strong>may not work in others.</strong>
 <ul>
-<li>e.g.&nbsp;screening test for cancer vs.&nbsp;confirmation test.</li>
+<li>e.g.&nbsp;<strong>screening</strong> test for cancer vs.&nbsp;<strong>confirmation</strong> test.</li>
 </ul></li>
-<li>A good model is <strong>generalisable</strong> and thus <strong>applicable</strong>.</li>
 </ul>
 </section></section>
 <section>
@@ -287,28 +258,27 @@ DAIM Team
 <p><strong>Different types of prediction</strong></p>
 </div>
 </section>
-<section id="refresher-regression-vs.-classification" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Refresher: regression vs.&nbsp;classification</h2>
+<section id="regression-vs.-classification" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Regression vs.&nbsp;classification</h2>
 <ul>
-<li>Regression
+<li><strong>Regression</strong>
 <ul>
 <li>How do multiple <strong>independent</strong> variables affect a <strong>depedent</strong> variable?</li>
 </ul></li>
 <li>Classification
 <ul>
 <li>Does an <strong>outcome</strong> fit into a certain <strong>class</strong> or not?</li>
-<li>Y is a binary variable i.e, 0 or 1.</li>
 </ul></li>
 </ul>
 </section>
 <section id="theory-residuals" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Theory: Residuals</h2>
 <ul>
-<li>Difference between <strong>true value</strong> and <strong>predicted value</strong> is called residual.
+<li>Difference between <strong>true value</strong> and <strong>predicted value</strong> is called a <strong>residual</strong>.
 <ul>
-<li>residual can be positive or negative.</li>
+<li><strong>Residuals</strong> can be positive or negative.</li>
 </ul></li>
-<li>Here the dotted lines are residuals.</li>
+<li>In this example, the dotted lines are residuals.</li>
 </ul>
 
 <img data-src="../../../media/daim/module_4/residuals.png" style="width:80.0%" class="r-stretch"></section>
@@ -330,12 +300,17 @@ DAIM Team
 <li>Predicting the <strong>mean average</strong> at <strong>every value</strong> will give the <strong>largest residuals</strong>.</li>
 <li>This is your <strong>null model</strong>.</li>
 </ul></li>
+</ul>
+
+<img data-src="../../../media/daim/module_4/mean_regression.png" class="r-stretch"></section>
+<section id="better-models" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Better models</h2>
+<ul>
 <li>For regression, you want a model that has the <strong>smallest residual</strong>.
 <ul>
 <li>But <em>how</em> small?</li>
 </ul></li>
 </ul>
-<p>TODO Diagram of a straight line with the regression points in 2D</p>
 </section>
 <section id="saturated-model" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Saturated Model</h2>
@@ -347,8 +322,8 @@ DAIM Team
 <li>If you use all 5, that is a <strong>saturated</strong> model.</li>
 </ul></li>
 </ul>
-<p>TODO Diagram of a wiggly line which goes through every point in 2D</p>
-</section>
+
+<img data-src="../../../media/daim/module_4/saturated_regression.png" class="r-stretch"></section>
 <section id="saturated-vs-null-models" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Saturated vs null models</h2>
 <ul>
@@ -407,28 +382,17 @@ MAE = \frac{1}{n} * \sum_{i=1}^{n}(y_i - y_p)
 MSE = \frac{1}{n} * \sum_{i=1}^{n}(y_i - y_p)^2
 \]</span></p>
 <ul>
-<li>Take the AE and square them (why?)</li>
-<li>for each value of data from i=1 to n</li>
-<li>then divide by sample size</li>
+<li>Take the absolute errors and square them.</li>
+<li><strong>Add them together</strong> and <strong>divide</strong> by the sample size (mean average).</li>
+<li>The square root can be taken of this value to give the Root MSE (<strong>RMSE</strong>)</li>
 </ul>
 </section>
-<section id="root-mean-squared-error" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Root mean squared error</h2>
-<p><span class="math display">\[
-RMSE = \sqrt{MSE}
-\]</span></p>
+<section id="summary-basic-regression-metrics" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Summary: Basic regression metrics</h2>
 <ul>
-<li>TODO add more explanation about squaring/unsquaring if we are going to include this level of detail</li>
-</ul>
-</section>
-<section id="summary-regression-metrics" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Summary: Regression metrics</h2>
-<ul>
-<li><p>Mean Absolute Error = mean absolute differences</p></li>
-<li><p>Mean Squared Error = measures the variance of the residuals.</p></li>
-<li><p>Root Mean Squared Error = measures standard deviation of the residuals</p></li>
-<li><p>R-squared (value between 0 and 1) = how much variation in y is explained by your model.</p></li>
-<li><p>adjusted R-squared = because R^2 will go up with more variables i.e., overfit. adjusted R^2 penalises for having more predictor variables</p></li>
+<li><strong>Mean Absolute Error</strong> = mean absolute differences</li>
+<li><strong>Mean Squared Error</strong> = measures the variance of the residuals.</li>
+<li><strong>Root Mean Squared Error</strong> = measures standard deviation of the residuals</li>
 </ul>
 </section></section>
 <section>
@@ -441,9 +405,9 @@ RMSE = \sqrt{MSE}
 <section id="moving-to-classification" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Moving to classification</h2>
 <ul>
-<li>Residuals –&gt; Deviance
+<li>Moving from <strong>residuals</strong> to <strong>deviance.</strong>
 <ul>
-<li>Residual is specific to when y is <strong>continuous</strong>.</li>
+<li>Residual is specific to when <strong>y is continuous</strong>.</li>
 <li><strong>Deviance</strong> is a generalised term for residual.</li>
 </ul></li>
 <li><strong>Deviance</strong> quantifies the <strong>difference</strong> between model and observations.</li>
@@ -456,37 +420,11 @@ RMSE = \sqrt{MSE}
 <ul>
 <li>Pneumonia / no pneumonia</li>
 </ul></li>
-<li>The model will produce a <strong>probability</strong> that the example belongs to a class
+<li>The model will produce a <strong>probability</strong> that the example belongs to a <strong>class</strong>
 <ul>
-<li>0.2 - low probability of pnuemonia</li>
+<li><strong>0.03 = low probability of pnuemonia</strong></li>
 </ul></li>
 <li>How can we evaluate a <strong>classification</strong> model with the metrics we have discussed?</li>
-</ul>
-</section>
-<section id="log-loss" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Log Loss</h2>
-<ul>
-<li>Log loss - is roughly equivalent to MSE for classification</li>
-<li>Log Loss is linked to likelihood function.
-<ul>
-<li>Log loss = -1 * log of likelihood function (TODO add explanation for this)</li>
-</ul></li>
-</ul>
-</section>
-<section id="likelihood" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Likelihood</h2>
-
-<img data-src="../../../media/daim/module_4/model.png" class="r-stretch"></section>
-<section id="likelihood-logloss-deviance" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Likelihood, Logloss, Deviance</h2>
-<ul>
-<li>When predicting <strong>outcomes</strong> with a <strong>classifier</strong>, we want to minimise <strong>deviance</strong></li>
-<li>Deviance = 2 _ n _ log loss
-<ul>
-<li>Thus, log loss minimisation = deviance minimisation.</li>
-<li>Maximum likelihood estimation = statistics</li>
-<li>Minimising Log loss = <strong>machine learning</strong></li>
-</ul></li>
 </ul>
 </section>
 <section id="overall-metrics" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
@@ -497,24 +435,25 @@ RMSE = \sqrt{MSE}
 <ul>
 <li>These are the key most important metrics.</li>
 </ul></li>
-<li>We used <strong>log-loss</strong> as our loss function to <strong>train our model</strong> in the last workshop.
+<li>We use <strong>log-loss</strong> as our loss function to <strong>train our model</strong> in the last workshop.
 <ul>
-<li>The log-loss shows how <strong>incorrect</strong> the predictions are.</li>
+<li>The log-loss shows how well the model predicts the <strong>probability</strong> of a <strong>binary outcome</strong></li>
 </ul></li>
 </ul>
 </section>
 <section id="extending-to-crossentropy-loss" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Extending to Crossentropy Loss</h2>
 <ul>
-<li>We have been disccussing classification for one class (cat vs dog)
+<li>We have been disccussing classification for <strong>one class</strong>.
 <ul>
+<li>E.g. cat vs dog.</li>
 <li>This is <strong>binary classification</strong></li>
 </ul></li>
-<li>How about multiple classes?
+<li>How about <strong>multiple</strong> classes?
 <ul>
 <li>e.g.&nbsp;car vs cat vs dog.</li>
 </ul></li>
-<li>Here we generalise <strong>log loss</strong> -&gt; <strong>crossentropy loss.</strong></li>
+<li>Here we generalise from <strong>log loss</strong> to <strong>crossentropy loss.</strong></li>
 </ul>
 </section>
 <section id="break" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
@@ -530,17 +469,17 @@ RMSE = \sqrt{MSE}
 <section id="discrete-metrics" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Discrete metrics</h2>
 <ul>
-<li>Models will output a classification <strong>probability</strong>
+<li>Models will output a <strong>probability for each class</strong>.
 <ul>
-<li>Probabilities are <strong>continuous</strong> (e.g.&nbsp;0.2, 0.92)</li>
+<li>Probabilities are <strong>continuous</strong> (e.g.&nbsp;0.2, 0.92).</li>
 </ul></li>
 <li>To make a prediction (pneumonia/no pneumonia), we need to set a <strong>threshold</strong>
 <ul>
-<li>Where we set the threshold will affect the classification <strong>performance</strong></li>
+<li>Where we set the threshold will affect the classification <strong>performance.</strong></li>
 </ul></li>
-<li>Usually defaults to <strong>0.5</strong>
+<li>This threshold usually defaults to <strong>0.5</strong>.
 <ul>
-<li>This is what we see when Keras shows us the <strong>accuracy</strong> of our model</li>
+<li>This is what we see when Keras shows us the <strong>accuracy</strong> of our model.</li>
 </ul></li>
 </ul>
 </section>
@@ -548,9 +487,9 @@ RMSE = \sqrt{MSE}
 <h2>Confusion Matrix</h2>
 <table class="caption-top">
 <colgroup>
-<col style="width: 28%">
-<col style="width: 36%">
+<col style="width: 32%">
 <col style="width: 34%">
+<col style="width: 32%">
 </colgroup>
 <thead>
 <tr class="header">
@@ -561,21 +500,21 @@ RMSE = \sqrt{MSE}
 </thead>
 <tbody>
 <tr class="odd">
-<td>True value is <em>Yes</em></td>
+<td><strong>True value is <em>Yes</em></strong></td>
 <td>A</td>
 <td>B</td>
 </tr>
 <tr class="even">
-<td>True value is <em>No</em></td>
+<td><strong>True value is <em>No</em></strong></td>
 <td>C</td>
 <td>D</td>
 </tr>
 </tbody>
 </table>
-<p>True Positives = A</p>
-<p>True Negatives = D</p>
-<p>False Positives = C</p>
-<p>False Negatives = B</p>
+<p><em>True Positives = A</em></p>
+<p><em>True Negatives = D</em></p>
+<p><em>False Positives = C</em></p>
+<p><em>False Negatives = B</em></p>
 </section>
 <section id="confusion-matrix-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Confusion Matrix</h2>
@@ -605,10 +544,10 @@ RMSE = \sqrt{MSE}
 </tr>
 </tbody>
 </table>
-<p>Total sample size = A + B + C + D</p>
-<p>Total cases = A + B</p>
-<p>Total not-cases = C + D</p>
-<p>Prevalence = total cases / total sample size</p>
+<p><em>Total sample size = A + B + C + D</em></p>
+<p><em>Total cases = A + B</em></p>
+<p><em>Total not-cases = C + D</em></p>
+<p><em>Prevalence = total cases / total sample size</em></p>
 </section>
 <section id="exercise" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Exercise</h2>
@@ -641,85 +580,32 @@ RMSE = \sqrt{MSE}
 </ul></li>
 </ul>
 </section>
-<section id="there-are-more-metrics-beyond-accuracy" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>There are more metrics beyond accuracy…</h2>
+<section id="metrics-beyond-accuracy" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Metrics beyond accuracy…</h2>
 <ul>
-<li>What are the limitations with accuracy?</li>
+<li>What are the <strong>limitations</strong> with accuracy?</li>
 <li>Other metrics give us a more <strong>holistic</strong> assessment of how the classifier works:
 <ul>
-<li>Precision, specificity, recall/sensitivity</li>
+<li><em>Precision, specificity, recall/sensitivity</em></li>
 </ul></li>
 </ul>
 </section>
-<section id="exercise---going-further" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Exercise - going further</h2>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th></th>
-<th>Model = 1</th>
-<th>Model = 0</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>True = 1</td>
-<td>80</td>
-<td>30</td>
-</tr>
-<tr class="even">
-<td>True = 0</td>
-<td>20</td>
-<td>40</td>
-</tr>
-</tbody>
-</table>
-<p>Precision = Positive Predictive Value =</p>
-<p>Recall = True Positive Rate =</p>
-<p>Specificity = True Negative Rate =</p>
-</section>
-<section id="balancing-evaluation" class="slide level2">
+<section id="balancing-evaluation" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Balancing evaluation</h2>
 <ul>
 <li>The F1 score
 <ul>
 <li>The <strong>(harmonic) mean average</strong> of the precision and recall.</li>
-<li>Nothing to do with cars or UK resident doctors.</li>
 </ul></li>
 <li>Gives an idea of the <strong>overall predictive performance</strong> of the classifier.</li>
 </ul>
 </section>
-<section id="exercise---going-even-further" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Exercise - going even further</h2>
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th></th>
-<th>Model = 1</th>
-<th>Model = 0</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>True = 1</td>
-<td>80</td>
-<td>30</td>
-</tr>
-<tr class="even">
-<td>True = 0</td>
-<td>20</td>
-<td>40</td>
-</tr>
-</tbody>
-</table>
-<p>F1 score = precision * recall / precision + recall =</p>
-</section>
 <section id="what-happens-if-we-change-the-threshold" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>What happens if we change the threshold?</h2>
 <ul>
-<li>As discussed earlier, many models predict <strong>probabilities</strong> which are <strong>continuous</strong> values
+<li>As discussed earlier, many models predict <strong>probabilities</strong> which are <strong>continuous</strong> values.
 <ul>
-<li>Classification relies on <strong>discrete</strong>, <strong>binary</strong> predictions (Yes/No)</li>
+<li><strong>Classification</strong> relies on <strong>discrete</strong>, <strong>binary</strong> predictions. (Yes/No)</li>
 </ul></li>
 </ul>
 </section>
@@ -727,30 +613,27 @@ RMSE = \sqrt{MSE}
 <h2>What happens if we change the threshold?</h2>
 <ul>
 <li>How can we evaluate how the prediction of the model changes as we <strong>modify the threshold</strong> for detection?</li>
-<li>This works for clinical metrics too - what level of procalcitonin best predicts bacterial infection?</li>
+<li>This works for <strong>clinical tests</strong> too.
+<ul>
+<li>What level of procalcitonin best predicts bacterial infection?</li>
+</ul></li>
 </ul>
 </section>
 <section id="area-under-curve" class="slide level2">
 <h2>Area under Curve</h2>
 <ul>
-<li>Sensitivty and Specificity is a trade off</li>
-<li>If you plot the Sensitivty against the Specificity for different thresholds, a <strong>receiver-operator curve (ROC)</strong> can be generated.</li>
-<li>The area under this curve is the <strong>AUC</strong></li>
+<li><strong>Sensitivty</strong> and <strong>specificity</strong> is a trade off.</li>
+<li>If you plot the <strong>sensitivty</strong> against the <strong>specificity</strong> for different thresholds, a <strong>receiver-operator curve (ROC)</strong> can be generated.</li>
+<li>The area under this curve (AUC) gives us information about <strong>classification performance</strong>.
+<ul>
 <li>0.5 indicates <strong>random guessing</strong>, and 1.0 is <strong>perfect classification performance</strong>.</li>
+</ul></li>
 </ul>
 </section>
 <section id="example-of-auc-curve" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Example of AUC curve</h2>
 
 <img data-src="../../../media/daim/module_4/milcent_et_al_ROC.png" class="r-stretch quarto-figure-center"><p class="caption">An ROC curve which shows the classification performance for blood different infection markers for predicting serious bacterial infection (SBI) in febrile infants. <em>Milcent K, Faesch S, Gras-Le Guen C, et al.&nbsp;Use of Procalcitonin Assays to Predict Serious Bacterial Infection in Young Febrile Infants. JAMA Pediatr. 2016;170(1):62–69. doi:10.1001/jamapediatrics.2015.3210</em></p></section></section>
-<section id="youden-index" class="title-slide slide level1 center" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h1>Youden index</h1>
-<ul>
-<li><p>The Youden index is the optimal cut off for balancing sensitivity and specificity.</p></li>
-<li><p>TODO find example image of ROC with this annotated.</p></li>
-</ul>
-</section>
-
 <section>
 <section id="section-5" class="title-slide slide level1 center">
 <h1></h1>
@@ -761,22 +644,21 @@ RMSE = \sqrt{MSE}
 <section id="evaluating-models" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Evaluating models</h2>
 <ul>
-<li>You now know how to <strong>fit</strong> models</li>
-<li>You now know how to <strong>evaluate</strong> the models</li>
+<li>You now know how to <strong>fit</strong> models.</li>
+<li>You now know how to <strong>evaluate</strong> the models.</li>
 <li>What do you <strong>evaluate</strong> it on?
 <ul>
 <li>The gold standard is an <strong>external data set</strong>.</li>
 </ul></li>
 <li>Short of that:
 <ul>
-<li>we will split data into training and test set.</li>
+<li>Split your data into <strong>training</strong> and <strong>test</strong> set.</li>
 </ul></li>
 </ul>
 </section>
 <section id="train-test-split" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Train-Test Split</h2>
 <ul>
-<li>Training dataset and test should receive the same treatments</li>
 <li>Test set is <strong>unseen data</strong> for your model.</li>
 <li>You will <strong>report performance</strong> on test set</li>
 <li>Test set most closely <strong>resembles</strong> an external independent dataset.
@@ -789,82 +671,30 @@ RMSE = \sqrt{MSE}
 <h2>What is data leakage?</h2>
 <ul>
 <li>Data leakage is where you have <strong>ridiculously good results</strong>.</li>
-<li>It is a false discovery.</li>
-<li>Data leakage can happen for many reasons.</li>
+<li>It is a <strong>false discovery</strong>.</li>
+<li>Involves <strong>information being available</strong> to the model in training that <strong>it will not have access to</strong> in deployment.</li>
+<li>Data leakage can happen for <strong>many reasons.</strong></li>
 </ul>
 </section>
 <section id="examples-of-data-leakage" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Examples of data leakage</h2>
 <ul>
-<li>Example 1
-<ul>
-<li>you treat training and test data with the max values of the entire dataset.</li>
-<li>This somehow biases the test dataset and it causes</li>
-</ul></li>
-<li>TODO clarify examples with clinical information</li>
+<li><a href="https://arxiv.org/pdf/1711.05225">This paper</a> trained a chest XR classifier to predict pneumonia.</li>
+<li>They split 112k XRs from 31k different patients randomly into training and validation sets.</li>
+<li><strong>Where is the issue here</strong>?</li>
 </ul>
 </section>
 <section id="examples-of-data-leakage-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Examples of data leakage</h2>
 <ul>
-<li><p>Example 2: Future information is somehow leaked in a training dataset.</p>
+<li>The model could <strong>learn patient anatomy</strong> and changes between each XR, <strong>rather than detecting pneumonia</strong>.</li>
+<li><a href="https://web.archive.org/web/20180610093107/https://twitter.com/nizkroberts/status/931121395748270080">This was noticed by another researcher</a> and <strong>subsequently corrected</strong>.
 <ul>
-<li>Lets say you are building a model that can predict patient receiving a surgery or not.</li>
-<li>Lets say all sick patients who got antibiotics got surgery</li>
-<li>Somehow you included antibiotics in your training dataset. It will cause leakage.</li>
-</ul></li>
-<li><p>TODO clarify examples with clinical information</p></li>
-<li><p><strong>NOTE</strong>: Data leakage can sometimes be <strong>very difficult</strong> to detect.</p></li>
-</ul>
-</section>
-<section id="understanding-data-leakage" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Understanding Data Leakage</h2>
-<p>Example of data leakage in Chest X-Ray (CXR) data:</p>
-<ul>
-<li>Suppose a model is trained to detect pneumonia on resus scans
-<ul>
-<li>Sicker patients often get <strong>AP films</strong> and are placed in <strong>resus</strong></li>
-<li>The model might “cheat” by detecting <strong>resus environment</strong> instead of pneumonia itself</li>
-<li>Real scans may not have the AP sticker, and the model will fail in a real-world environment</li>
-</ul></li>
-</ul>
-
-<img data-src="../../../media/daim/module_4/chest.jpg" class="r-stretch"></section>
-<section id="assuming-no-leakage" class="slide level2">
-<h2>Assuming no leakage</h2>
-<ul>
-<li>Test set is untouched.</li>
-<li>Test set should be split right at the begining</li>
-<li>Data transformation / engineering processes should be encapsulated in a reproducible manner and applied seperately to train and test sets.</li>
-</ul>
-</section>
-<section id="common-pitfalls" class="slide level2">
-<h2>Common pitfalls</h2>
-<ul>
-<li>TODO Common pitfalls
-<ul>
-<li>TODO How to deal with overfitting. (LL2)</li>
-<li>TODO How to deal with multicollinearity (LL2)</li>
-<li>TODO How to deal with missing data and sensitivity analysis (LL2)</li>
+<li>The authors subsequently made sure that there was <strong>no patient crossover</strong> between the datasets.</li>
 </ul></li>
 </ul>
 </section>
 <section id="break-1" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
-<h2>Break!</h2>
-</section>
-<section id="extending-the-workshop-task" class="slide level2">
-<h2>Extending the workshop task</h2>
-<ul>
-<li>TODO Appreciate that the task we are performing is fairly simple and that more complex techniques exist (LL2)</li>
-</ul>
-</section>
-<section id="other-forms-of-machine-learning" class="slide level2">
-<h2>Other Forms of Machine Learning</h2>
-<ul>
-<li>TODO Be able to discuss the uses, advantages, and disadvantages of more modern approaches to machine learning (stable diffusion, large language models) (LL2) (LL4)</li>
-</ul>
-</section>
-<section id="break-2" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
 <h2>Break!</h2>
 </section></section>
 <section>
@@ -877,17 +707,17 @@ RMSE = \sqrt{MSE}
 <section id="scenario-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Scenario 1</h2>
 <ul>
-<li>You are a <em>GP</em>.</li>
-<li>You use an AI-based clinical decision support (CDS) tool to help manage patients with “breast lump” presentations.</li>
+<li>You are a <strong>GP</strong>.</li>
+<li>You use an <strong>AI-based clinical decision support(CDS) tool</strong> to help manage patients with “breast lump” presentations.</li>
 <li>The tool helps decide amongst options: <strong>invasive investigation</strong>, <strong>imaging</strong>, or <strong>watchful waiting</strong>.</li>
-<li>A 17-year-old male patient presents with a “breast lump.”</li>
+<li><strong>A 17-year-old male patient</strong> presents with a “breast lump.”</li>
 <li>Should you <em>trust</em> the model recommendations for this patient?</li>
 </ul>
 </section>
 <section id="scenario-2" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Scenario 2</h2>
 <ul>
-<li>You are a <em>clinical lead</em> for your organization.</li>
+<li>You are a <strong>clinical lead</strong> for your organization.</li>
 <li>You want to improve pathways for acutely unwell patients.</li>
 <li>You have a <strong>£100,000</strong> budget for this.</li>
 <li>Your team presents two options:
@@ -899,35 +729,27 @@ RMSE = \sqrt{MSE}
 </section>
 <section id="gold-standards-in-medical-ai" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Gold Standards in Medical AI</h2>
-
-<img data-src="../../../media/daim/module_4/extvali.jpg" class="r-stretch"><ul>
+<ul>
 <li>Refer to <a href="https://www.bmj.com/content/384/bmj-2023-074821">this BMJ article on standards</a></li>
 <li>Also, see <a href="https://www.bmj.com/content/384/bmj-2023-074819">related BMJ content</a></li>
 </ul>
-</section>
+
+<img data-src="../../../media/daim/module_4/extvali.jpg" class="r-stretch"></section>
 <section id="ethics-of-ai" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Ethics of AI</h2>
 <ul>
-<li><p>The ethics of AI/ML are complex:</p>
+<li>The ethics of AI/ML are complex:
 <ul>
 <li>Should <strong>generative AI models</strong> (like ChatGPT) be allowed in research writing?</li>
 <li>Should clinical judgments <strong>factor in</strong> AI recommendations?</li>
 </ul></li>
-<li><p><strong>AI/ML don’t always get it right</strong>, but neither do humans</p>
+<li><strong>AI/ML don’t always get it right</strong>, but neither do humans
 <ul>
 <li>Does AI/ML need to be <strong>better</strong> than humans?</li>
-<li><strong>Which humans?</strong> FY1 or an average consultant?</li>
+<li><strong>Which humans?</strong> FY1 or consultant?</li>
 </ul></li>
 </ul>
 </section>
-<section id="examples-of-bad-ai" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>Examples of ‘Bad’ AI</h2>
-<ul>
-<li>Read the abstract of <a href="https://pubmed.ncbi.nlm.nih.gov/29389215/">this paper (Wang 2018)</a></li>
-<li>Is this an ethical use of image processing machine learning systems?</li>
-</ul>
-
-<img data-src="../../../media/daim/module_4/aigaydar.jpg" class="r-stretch"></section>
 <section id="how-do-we-do-good-stop-bad-ai" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>How Do We <del>Do Good</del> <em>Stop Bad</em> AI?</h2>
 <ul>
@@ -986,32 +808,34 @@ Figure&nbsp;2: <strong>Kitchen and Recipe</strong>
 <section id="reproducibility-important-questions" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Reproducibility: Important Questions</h2>
 <ul>
+<li><strong>Points to consider:</strong>
+<ul>
 <li>What type of oven?</li>
 <li>What mode: fan or gas?</li>
 <li>Which oil: olive oil or rapeseed?</li>
 <li>Type of milk?</li>
-</ul>
-<p>In ML: consider:</p>
+</ul></li>
+<li>In ML, consider:
 <ul>
-<li><strong>Technical</strong> details like <strong>Python version</strong> and <strong>framework</strong></li>
-<li>Clinical details like <strong>film projection</strong> and <strong>sample types</strong></li>
+<li><strong>Technical details</strong> like <strong>Python version</strong> and <strong>framework</strong></li>
+<li><strong>Clinical details</strong> like <strong>film projection</strong> and <strong>sample types</strong></li>
+</ul></li>
 </ul>
 </section>
 <section id="real-life-example" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Real-Life Example</h2>
 
-<img data-src="../../../media/daim/module_4/neupane_table1.png" class="r-stretch"><p><strong>Different OSs parse data differently</strong><br>
-Reference: Bhandari Neupane et al., “Characterization of Leptazolines a–d” (2019)</p>
+<img data-src="../../../media/daim/module_4/neupane_table1.png" class="r-stretch"><p><strong>Different operating systems parse data differently</strong> Reference: Bhandari Neupane et al., “Characterization of Leptazolines a–d” (2019).</p>
 </section>
 <section id="reproducibility-analogy" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Reproducibility Analogy</h2>
 
 <img data-src="../../../media/daim/module_4/repro.jpg" class="r-stretch"></section>
-<section id="how-to-make-research-reproducible" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
-<h2>How to Make Research Reproducible</h2>
+<section id="maximising-reproducibility" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Maximising Reproducibility</h2>
 <ul>
-<li><strong>Aim for reproducibility</strong>, even if it is <strong>challenging</strong> at first</li>
-<li>Visit <a href="https://raps-with-r.dev/">RAPS with R</a> for reproducibility principles</li>
+<li><strong>Aim for reproducibility</strong>, even if it is <strong>challenging</strong> at first.</li>
+<li>Visit <a href="https://raps-with-r.dev/"><strong>RAPS with R</strong></a> for reproducibility principles.</li>
 </ul>
 </section></section>
 <section>
@@ -1024,47 +848,56 @@ Reference: Bhandari Neupane et al., “Characterization of Leptazolines a–d”
 <section id="scenario-1-revisited" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Scenario 1 Revisited</h2>
 <ul>
-<li><p>You are a <em>GP</em>.</p></li>
-<li><p>You use an AI-based clinical decision support (CDS) tool to help manage patients with “breast lump” presentations.</p></li>
-<li><p>The tool suggests options like <strong>invasive investigation</strong>, <strong>imaging</strong>, or <strong>watchful waiting</strong>.</p></li>
-<li><p>A 17-year-old male patient presents with a “breast lump.”</p></li>
-<li><p><strong>Question</strong>: Should you <em>trust</em> the model’s recommendations for this patient?</p></li>
+<li>You are a <strong>GP</strong>.</li>
+<li>You use an <strong>AI-based clinical decision support(CDS) tool</strong> to help manage patients with “breast lump” presentations.</li>
+<li>The tool helps decide amongst options: <strong>invasive investigation</strong>, <strong>imaging</strong>, or <strong>watchful waiting</strong>.</li>
+<li><strong>A 17-year-old male patient</strong> presents with a “breast lump.”</li>
+<li><strong>Question</strong>: Should you <em>trust</em> the model’s recommendations for this patient?</li>
 </ul>
-<h3 data-background-image="/media/daim/bg_cubes_red_right.png" data-background-opacity="0.6" id="scenario-1-critical-questions">Scenario 1: Critical Questions</h3>
+</section>
+<section id="scenario-1-critical-questions" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Scenario 1: Critical Questions</h2>
 <ul>
-<li>Was the AI CDS trained on both male and female images?</li>
-<li>Were patients under 18 included in the training set?</li>
+<li>Was the AI CDS trained on <strong>both male and female</strong> images?</li>
+<li>Were <strong>patients under 18</strong> included in the training set?</li>
 <li>Is the model optimized for <strong>sensitivity</strong> or <strong>specificity</strong>?</li>
-<li>What does your clinical judgment suggest?</li>
-<li>What are the local governance policies regarding AI use?</li>
+<li>What does your <strong>clinical judgment</strong> suggest?</li>
+<li>What are the <strong>local governance policies</strong> regarding AI use?</li>
 </ul>
 </section>
 <section id="scenario-2-revisited" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Scenario 2 Revisited</h2>
 <ul>
-<li><p>You are a <em>clinical lead</em> for your organization.</p></li>
-<li><p>Your goal is to improve pathways for acutely unwell patients.</p></li>
-<li><p>You have a <strong>100,000 GBP</strong> budget.</p></li>
-<li><p>Two options are presented:</p>
+<li>You are a <strong>clinical lead</strong> for your organization.</li>
+<li>You want to improve pathways for acutely unwell patients.</li>
+<li>You have a <strong>£100,000</strong> budget for this.</li>
+<li>Your team presents two options:
 <ul>
-<li><strong>Option 1</strong>: Recruit <strong>two specialist nurses</strong></li>
-<li><strong>Option 2</strong>: Deploy an <strong>AI-based CDS and risk management system</strong></li>
+<li>Option 1: Recruit <strong>two specialist nurses</strong></li>
+<li>Option 2: Deploy an <strong>AI-based CDS and risk management system</strong></li>
 </ul></li>
-<li><p><strong>Question</strong>: Which option would you choose?</p></li>
+<li><strong>Question</strong>: Which option would you choose?</li>
 </ul>
-<h3 data-background-image="/media/daim/bg_cubes_red_right.png" data-background-opacity="0.6" id="scenario-2-considerations">Scenario 2: Considerations</h3>
+</section>
+<section id="scenario-2-considerations" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Scenario 2: Considerations</h2>
 <ul>
-<li><p><strong>Nurses</strong>:</p>
+<li><strong>Nurses</strong>:
 <ul>
-<li>Would they provide versatility and fill in during staff shortages?</li>
-<li>Would they be happy in their roles, or might they leave?</li>
+<li>Is the budget <strong>adequate</strong> for the clinical support that is needed?</li>
+<li>Would they provide <strong>versatility</strong> and fill in during staff shortages?</li>
 </ul></li>
-<li><p><strong>AI System</strong>:</p>
+</ul>
+</section>
+<section id="scenario-2-considerations-1" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Scenario 2: Considerations</h2>
 <ul>
-<li>Does your organization have the digital infrastructure for AI?</li>
-<li>Are clinical pathways aligned with AI integration?</li>
-<li>If AI flags deterioration, can your pathways respond effectively?</li>
-<li>AI offers scalability and continuous availability, but what if it fails?</li>
+<li><strong>AI System</strong>:
+<ul>
+<li>Does your organization have the <strong>digital infrastructure</strong> for AI?</li>
+<li>Are <strong>clinical pathways aligned</strong> with AI integration?</li>
+<li>If AI flags deterioration, can your pathways <strong>respond effectively</strong>?</li>
+<li>AI offers scalability and continuous availability, but <strong>what if it fails</strong>?</li>
 </ul></li>
 </ul>
 </section></section>
@@ -1074,6 +907,13 @@ Reference: Bhandari Neupane et al., “Characterization of Leptazolines a–d”
 <div class="r-stack">
 <p><strong>Conclusion</strong></p>
 </div>
+</section>
+<section id="extending-the-workshop-task" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
+<h2>Extending the workshop task</h2>
+<ul>
+<li>The workshop task demonstrates <strong>first principles</strong> and provides a <strong>introduction into building a machine learning model</strong>.</li>
+<li>Machine learning is a <strong>broad field</strong>, with more fields than just <strong>computer vision</strong>…</li>
+</ul>
 </section>
 <section id="what-we-have-covered" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>What we have covered</h2>
@@ -1090,8 +930,8 @@ Reference: Bhandari Neupane et al., “Characterization of Leptazolines a–d”
 <section id="further-reading-and-resources" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.6">
 <h2>Further Reading and Resources</h2>
 <ul>
-<li>For reproducibility guidelines, see <a href="https://the-turing-way.netlify.app/">The Turing Way</a></li>
-<li>More on big data ethics: <a href="https://www.gov.uk/government/publications/data-ethics-framework">Data Ethics Framework</a></li>
+<li>For reproducibility guidelines, see <a href="https://the-turing-way.netlify.app/"><strong>The Turing Way</strong></a></li>
+<li>More on big data ethics: <a href="https://www.gov.uk/government/publications/data-ethics-framework"><strong>Data Ethics Framework</strong></a></li>
 </ul>
 </section>
 <section id="discussion-and-qa" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
@@ -1099,6 +939,14 @@ Reference: Bhandari Neupane et al., “Characterization of Leptazolines a–d”
 <ul>
 <li>Let’s discuss any remaining questions on ML/AI in clinical applications!</li>
 </ul>
+</section>
+<section id="acknowledgements" class="slide level2" data-background-image="../../../media/daim/coffee1.png" data-background-opacity="0.6" data-text-align="center">
+<h2>Acknowledgements</h2>
+<p>Thank you to Teddy Hla for writing these slides.</p>
+</section>
+<section id="sources" class="slide level2">
+<h2>Sources</h2>
+<p>[1] - Hermansson, Anton. (2020). Standardization and optimization of index for 28 day strength for cement made from standard clinker. 10.13140/RG.2.2.18178.91849.</p>
 
 
 </section></section>
