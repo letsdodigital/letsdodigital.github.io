@@ -7,11 +7,17 @@ image: /media/tickets.png
 
 ## Courses and Events
 
-### Essentials of Health Informations Bite-Sized Learning Modules
+### Essentials of Health Informatics Bite-Sized Learning Modules
 
 Covering the full range of Digital Health, these introductory teaching modules are easy to access, self-paced, requiring no pre-requisites and are no longer than 1-1.5 hours of study each. **Jump start your learning now!**
 
 [Register here](https://letsdodigital.thinkific.com/collections)
+
+### Programming in Healthcare - Modules 0-3
+
+The Programming in Healthcare course is a series of modules designed to introduce the concepts of programming and data science in healthcare. The course is suitable for all levels, from beginners to those with some experience in programming.
+
+[Register here](https://letsdodigital.thinkific.com/collections?page=2)
 
 ### Module 0 - Programming in Healthcare, Self-paced
 
@@ -21,9 +27,9 @@ Covering the full range of Digital Health, these introductory teaching modules a
 
 [Ask someone in Digital - Episode 2 - AI, Leadership & Kindness in Transformation](ask-someone-in-digital/2.qmd) -->
 
-<!-- ### 26th June 2025
+### 26th June 2025
 
-[Ask a Clinician - From Frontline to Frameworks](ask-a-clinician/8.qmd) -->
+[Ask a Clinician - From Frontline to Frameworks](ask-a-clinician/8.qmd)
 
 ## Previous Courses and Events
 

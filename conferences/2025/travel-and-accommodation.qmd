@@ -5,7 +5,7 @@ image: /media/reading-a-book.jpg
 
 {{< include _navbar.qmd >}}
 
-The conference will likely be booked for September 2025 at:
+The conference will be held on the 23-24th of October 2025 at:
 
 > The Painswick Centre<br>
 > Bisley Street<br>
