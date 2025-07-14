@@ -100,14 +100,14 @@ title-slide-attributes:
   - **Residuals** can be positive or negative.
 - In this example, the dotted lines are residuals.
 
-![](/media/daim/module_4/residuals.png){width=80%}
+![](/media/daim/module_4/residuals.png)[Source: [2]]{width=80%}
 
 ## Theory: Residuals {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
 - Intuitively, the **worse** your model is, the **bigger** your **residuals** would be.
   - What is the **worst** model?
 
-![](/media/daim/module_4/residuals.png){width=80%}
+![](/media/daim/module_4/residuals.png)[[Source [2]]]{width=80%}
 
 ## The naive model {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
@@ -144,7 +144,7 @@ title-slide-attributes:
 
 ## Comparing the models {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](/media/daim/module_4/null.png)
+![](/media/daim/module_4/null.png)[Source: [3]]
 
 #
 
@@ -425,6 +425,8 @@ _Prevalence = total cases / total sample size_
 
 **Kitchen and Recipe**
 
+Source: [Kitchen image](https://www.fusespecialtyappliances.com/blog/appliance-stores-boca-raton), [Recipe](https://www.bbcgoodfood.com/recipes/classic-scones-jam-clotted-cream)
+
 :::
 
 ## Reproducibility: Important Questions {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
@@ -449,7 +451,7 @@ Reference: Bhandari Neupane et al., "Characterization of Leptazolines a–d" (20
 
 ## Reproducibility Analogy {background-image="/media/daim/bg_cubes_red_right.png" background-opacity="0.6"}
 
-![](/media/daim/module_4/repro.jpg)
+![](/media/daim/module_4/repro.jpg)[Source: [Kitchen image](https://www.fusespecialtyappliances.com/blog/appliance-stores-boca-raton)]
 
 ---
 
@@ -538,4 +540,8 @@ Thank you to Teddy Hla for writing these slides.
 
 ## Sources
 
-[1] - Hermansson, Anton. (2020). Standardization and optimization of index for 28 day strength for cement made from standard clinker. 10.13140/RG.2.2.18178.91849.
+[1] - UNDERFIT and OVERFIT Explained. Aarthi Kasirajan, Medium. URL: https://medium.com/@minions.k/underfit-and-overfit-explained-8161559b37db
+
+[2] - How to interpret residuals in a linear regression model. Crystal X, Medium. URL: https://tracyrenee61.medium.com/how-to-interpret-residuals-in-a-linear-regression-model-7cfd8141d456
+
+[3] - Saturated Models, Deviance and the Derivation of Sum of Squares. Egor Howell, Medium. URL: https://towardsdatascience.com/saturated-models-deviance-and-the-derivation-of-sum-of-squares-ee6fa040f52/
