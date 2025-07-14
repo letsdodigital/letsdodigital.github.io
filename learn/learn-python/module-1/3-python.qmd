@@ -382,7 +382,7 @@ print(now)
 
 - Ignore the pop out about extensions you may get in the bottom right of Codespace
 
-![](/media/python-extension.png fig-alt="Screen shot of python extension pop out")
+![](/media/python-extension.png){fig-alt="Screen shot of python extension pop out"}
 
 ## Get to your first lesson {.smaller}
 

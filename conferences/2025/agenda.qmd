@@ -276,7 +276,7 @@ image: /media/reading-a-book.jpg
             class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            Jill Winter - Director of 11 and CAS
+            Jill Winter - Healthcare Operations
         </div>
     </div>
 </div>
