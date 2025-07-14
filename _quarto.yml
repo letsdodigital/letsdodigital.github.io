@@ -18,9 +18,9 @@ website:
       - forum.qmd
       - services-we-offer.qmd
       - who-are-we.qmd
-      
-  page-footer: 
-    left: 
+
+  page-footer:
+    left:
       - href: contact.qmd
         text: Contact
       - href: privacy-policy.qmd
@@ -33,23 +33,19 @@ website:
         text: Paying the team
       - href: eohi/business-case.qmd
         text: Essentials of Health Informatics
-    right: 
+    right:
       - icon: github
         href: https://github.com/letsdodigital
-      - icon: twitter 
+      - icon: twitter
         href: https://x.com/letsdodigitalci
   twitter-card: true
-      
 
   favicon: media/ldd-logo.png
 
 format:
   html:
-    theme: 
+    theme:
       light: cosmo
       dark: darkly
     css: styles.css
     toc: true
-
-
-

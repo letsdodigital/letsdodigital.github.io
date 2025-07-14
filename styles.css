@@ -1,134 +1,134 @@
 #post-images .item {
-    position: relative;
-    overflow: hidden;
-    height: 200px;
+  position: relative;
+  overflow: hidden;
+  height: 200px;
 }
 
 #post-images .item img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: auto;
 }
 
 .zoom-effect {
-    animation: zoom 3s ease-in-out forwards;
+  animation: zoom 3s ease-in-out forwards;
 }
 
 @keyframes zoom {
-    0% {
-        transform: scale(1);
-    }
-    100% {
-        transform: scale(1.1);
-    }
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.1);
+  }
 }
 
 .supporter-frame {
-    width: calc(100% - 40px);
-    min-height: 200px;
-    background-color: #f8f9fa;
-    color: black;
-    border: 15px solid;
-    border-image: linear-gradient(to bottom, #C0C0C0, #808080, #C0C0C0) 1;
-    padding: 10px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    border-radius: 5px;
-    margin: auto;
+  width: calc(100% - 40px);
+  min-height: 200px;
+  background-color: #f8f9fa;
+  color: black;
+  border: 15px solid;
+  border-image: linear-gradient(to bottom, #c0c0c0, #808080, #c0c0c0) 1;
+  padding: 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  margin: auto;
 }
 
 #contact-grid a {
-    text-decoration: none;
-    font-weight: lighter;
+  text-decoration: none;
+  font-weight: lighter;
 }
 
 #contact-grid a:has(i) {
-    color: rgba(var(--bs-body-color-rgb));
-    transition: color 0.3s;
+  color: rgba(var(--bs-body-color-rgb));
+  transition: color 0.3s;
 }
 
 #contact-grid a:has(i):hover {
-    color: rgba(var(--bs-link-hover-color-rgb));
+  color: rgba(var(--bs-link-hover-color-rgb));
 }
 
 .agenda-container {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .agenda-container-small {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    padding-left:10px;
-    padding-bottom:10px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
-  
+
 .agenda-row {
-    display: flex;
-    flex-direction: row;
+  display: flex;
+  flex-direction: row;
 }
 
 .agenda-image-container {
-    display: flex;
-    flex-direction: column;
-    width: 100px;
-    padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 100px;
+  padding: 10px;
 }
 
 .agenda-image-container-small {
-    display: flex;
-    flex-direction: column;
-    width: 80px;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  justify-content: center;
 }
 
 .agenda-image {
-    height: 80px;
-    width: 80px;
+  height: 80px;
+  width: 80px;
 }
 
 .agenda-image-small {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 .agenda-text-container {
-    display: flex;
-    flex-direction: column;
-    width: 80%;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  justify-content: center;
 }
 
 .agenda-text-container a {
-    display: inline;
+  display: inline;
 }
 
 .sponsors-named {
-    font-weight: bold;
-    text-indent: 20px;
+  font-weight: bold;
+  text-indent: 20px;
 }
 
 .italic-grey {
-    color: grey;
-    font-style: italic;
+  color: grey;
+  font-style: italic;
 }
 
 .max-300px {
-    max-height: 300px;
+  max-height: 300px;
 }
 
 .center-content {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .padded-image {
-    padding: 10px;
-  }
+  padding: 10px;
+}
 
 .agenda-img-circle {
   width: 60px;

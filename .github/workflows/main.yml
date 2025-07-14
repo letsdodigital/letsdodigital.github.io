@@ -20,7 +20,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '23.1.0'
+          node-version: "23.1.0"
 
       - name: Install dependencies
         run: npm install
@@ -30,7 +30,7 @@ jobs:
 
       - name: run CI CD tasks
         run: bash cicd.sh
-      
+
       - name: Check for test failures
         if: failure()
         uses: actions/github-script@v6
@@ -58,8 +58,8 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
-        
-# TODO: #39 Perhaps Quarto does not need to build the website again, and only push to gh-pages
+
+      # TODO: #39 Perhaps Quarto does not need to build the website again, and only push to gh-pages
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:

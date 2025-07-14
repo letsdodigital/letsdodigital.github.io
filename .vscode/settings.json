@@ -9,13 +9,13 @@
     "*.qmd": "markdown"
   },
   "[markdown]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnSave": true
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
   },
   "markdownlint.config": {
-      "MD033": false, // Allow inline HTML
-      "MD041": false, // Ignore first line heading rule
-      "MD045": false // as alt text is stored between curley brackets
+    "MD033": false, // Allow inline HTML
+    "MD041": false, // Ignore first line heading rule
+    "MD045": false // as alt text is stored between curley brackets
   },
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -33,7 +33,5 @@
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
   "jest.runMode": "on-demand",
-  "cSpell.words": [
-    "ACIG"
-  ],
+  "cSpell.words": ["ACIG"]
 }

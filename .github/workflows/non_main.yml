@@ -3,7 +3,7 @@ name: Non-Main Tasks
 on:
   push:
     branches-ignore:
-      - master 
+      - master
       - main
 
 permissions:
@@ -24,7 +24,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '23.1.0'
+          node-version: "23.1.0"
 
       - name: Install dependencies
         run: npm install
@@ -33,7 +33,7 @@ jobs:
         uses: quarto-dev/quarto-actions/setup@v2
 
       - name: run CI CD tasks
-        run: bash cicd.sh 
+        run: bash cicd.sh
 
   create_pr:
     needs: testing
@@ -47,16 +47,14 @@ jobs:
           ref: ${{ github.ref }}
       - name: create pull request
         run: |
-            set -e
-            echo "Attempting to create a new PR"
-            if gh pr create -B main -H ${{ github.ref }} --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action" --draft; then
-              echo "PR created successfully"
-            else
-              echo "PR creation failed, attempting to update existing PR"
-              gh pr edit -B main --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action"
+          set -e
+          echo "Attempting to create a new PR"
+          if gh pr create -B main -H ${{ github.ref }} --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action" --draft; then
+            echo "PR created successfully"
+          else
+            echo "PR creation failed, attempting to update existing PR"
+            gh pr edit -B main --title "Merge branch ${{ github.ref }} into main" --body "Created by GitHub action"
 
-            fi
+          fi
         env:
-            GITHUB_TOKEN: ${{ secrets.PAT }}
-
-      
+          GITHUB_TOKEN: ${{ secrets.PAT }}
