@@ -54,6 +54,7 @@ Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to tran
 
 ## Working in collaboration with
 
+![](/media/onionai.png){width=200 fig-alt="Onion.AI logo" class="padded-image"}
 ![](/media/university-of-bristol.svg){width=200 fig-alt="University of Bristol logo" class="padded-image"}
 ![](/media/mind-the-bleep.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}
 ![](/media/elzware.png){width=200 fig-alt="Mind the bleep logo" class="padded-image"}

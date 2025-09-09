@@ -122,17 +122,17 @@ image: /media/reading-a-book.jpg
 </div>
 ```
 
-11:10 – **The Innovation Sausage Machine - What are the most important social emotional skills we need in the NHS for digital innovation?**
+11:10 – **Reimagining Clinical Training for the Digital Age**
 
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/liam-cahill.jpeg"
+            <img src="/media/2025-conference/ellie-coles.png"
             class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            Liam Cahill - Founder of Together Digital
+            Ellie Coles - Founder of SimHealth AI & Specialist in Digital Placements
         </div>
     </div>
 </div>
