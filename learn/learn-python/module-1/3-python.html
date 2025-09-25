@@ -7,8 +7,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Let’s Do Digital Team">
   <title>Let's Do Digital – Python</title>
@@ -96,7 +96,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -235,12 +235,12 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>a_function.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb1" data-filename="a_function.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> a_function_that_prints(something_to_print):</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-filename="a_function.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="kw">def</span> a_function_that_prints(something_to_print):</span>
 <span id="cb1-2"><a></a>    <span class="bu">print</span>(something_to_print)</span>
 <span id="cb1-3"><a></a>    <span class="cf">return</span></span>
 <span id="cb1-4"><a></a></span>
 <span id="cb1-5"><a></a>a_function_that_prints(<span class="st">"Hello World!"</span>)</span>
-<span id="cb1-6"><a></a>a_function_that_prints(<span class="st">"Woo Hoo!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-6"><a></a>a_function_that_prints(<span class="st">"Woo Hoo!"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Output</p>
 <pre><code>    Hello World!
@@ -255,10 +255,10 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>raise_error.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb3" data-filename="raise_error.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>raise_error <span class="op">=</span> <span class="va">True</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" data-filename="raise_error.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>raise_error <span class="op">=</span> <span class="va">True</span></span>
 <span id="cb3-2"><a></a></span>
 <span id="cb3-3"><a></a><span class="cf">if</span> raise_error <span class="op">==</span> <span class="va">True</span>:</span>
-<span id="cb3-4"><a></a>    <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">"An error has been raised!"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-4"><a></a>    <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">"An error has been raised!"</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ul>
 <li><p>Other types include:</p>
@@ -275,13 +275,13 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>exception.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb5" data-filename="exception.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">try</span>:</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" data-filename="exception.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="cf">try</span>:</span>
 <span id="cb5-2"><a></a>    number <span class="op">=</span> <span class="bu">int</span>(<span class="st">"!"</span>)</span>
 <span id="cb5-3"><a></a>    <span class="bu">print</span>(<span class="st">"Conversion successful!"</span>)</span>
 <span id="cb5-4"><a></a><span class="cf">except</span> <span class="pp">ValueError</span>:</span>
 <span id="cb5-5"><a></a>    <span class="bu">print</span>(<span class="st">"Conversion failed. Please enter a valid number."</span>)</span>
 <span id="cb5-6"><a></a><span class="cf">else</span>:</span>
-<span id="cb5-7"><a></a>    <span class="bu">print</span>(<span class="st">"The number is:"</span>, number)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb5-7"><a></a>    <span class="bu">print</span>(<span class="st">"The number is:"</span>, number)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>Output</p>
 <pre><code>    Conversion failed. Please enter a valid number.</code></pre>
@@ -304,7 +304,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb7" data-filename="classes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7" data-filename="classes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a></span>
 <span id="cb7-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb7-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb7-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -316,7 +316,7 @@ Let’s Do Digital Team
 <span id="cb7-10"><a></a></span>
 <span id="cb7-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb7-12"><a></a></span>
-<span id="cb7-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-13"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="anatomy-of-a-class-1" class="slide level2">
@@ -325,7 +325,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb8" data-filename="classes.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8" data-filename="classes.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a></span>
 <span id="cb8-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb8-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb8-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -337,7 +337,7 @@ Let’s Do Digital Team
 <span id="cb8-10"><a></a></span>
 <span id="cb8-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb8-12"><a></a></span>
-<span id="cb8-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-13"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="naming-conventions" class="slide level2">
@@ -359,7 +359,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb9" data-filename="classes.py" data-code-line-numbers="11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb9" data-filename="classes.py" data-code-line-numbers="11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a></span>
 <span id="cb9-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb9-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb9-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -371,7 +371,7 @@ Let’s Do Digital Team
 <span id="cb9-10"><a></a></span>
 <span id="cb9-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb9-12"><a></a></span>
-<span id="cb9-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb9-13"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="creating-an-instance-of-the-class" class="slide level2">
@@ -389,7 +389,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb10" data-filename="classes.py" data-code-line-numbers="3,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb10" data-filename="classes.py" data-code-line-numbers="3,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a></span>
 <span id="cb10-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb10-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb10-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -401,7 +401,7 @@ Let’s Do Digital Team
 <span id="cb10-10"><a></a></span>
 <span id="cb10-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb10-12"><a></a></span>
-<span id="cb10-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb10-13"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ul>
 <li>When you create an instance of a class (aka object) the <code>__init__</code> method is <strong>automatically</strong> called.</li>
@@ -414,7 +414,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb11" data-filename="classes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb11" data-filename="classes.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ul>
 <li>You have passed <code>37.5</code> and <code>80</code> as arguments.</li>
@@ -426,7 +426,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb12" data-filename="classes.py" data-code-line-numbers="3,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb12" data-filename="classes.py" data-code-line-numbers="3,11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a></span>
 <span id="cb12-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb12-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb12-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -438,7 +438,7 @@ Let’s Do Digital Team
 <span id="cb12-10"><a></a></span>
 <span id="cb12-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb12-12"><a></a></span>
-<span id="cb12-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb12-13"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ul>
 <li><code>37.5</code> is set as the <code>temperature</code> argument.</li>
@@ -451,7 +451,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb13" data-filename="classes.py" data-code-line-numbers="4,5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb13" data-filename="classes.py" data-code-line-numbers="4,5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a></span>
 <span id="cb13-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb13-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb13-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -463,7 +463,7 @@ Let’s Do Digital Team
 <span id="cb13-10"><a></a></span>
 <span id="cb13-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb13-12"><a></a></span>
-<span id="cb13-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb13-13"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="one-needs-to-know-oneself" class="slide level2">
@@ -481,7 +481,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>classes.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb14" data-filename="classes.py" data-code-line-numbers="13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb14" data-filename="classes.py" data-code-line-numbers="13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a></span>
 <span id="cb14-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb14-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb14-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -493,7 +493,7 @@ Let’s Do Digital Team
 <span id="cb14-10"><a></a></span>
 <span id="cb14-11"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb14-12"><a></a></span>
-<span id="cb14-13"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb14-13"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="the-dot-operator" class="slide level2">
@@ -508,7 +508,7 @@ Let’s Do Digital Team
 </section>
 <section id="the-final-output" class="slide level2">
 <h2>The final output</h2>
-<div class="sourceCode" id="cb15" data-code-line-numbers="8,9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb15" data-code-line-numbers="8,9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a></span>
 <span id="cb15-2"><a></a><span class="kw">class</span> VitalSigns:</span>
 <span id="cb15-3"><a></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, temperature, heart_rate):</span>
 <span id="cb15-4"><a></a>        <span class="va">self</span>.temperature <span class="op">=</span> temperature</span>
@@ -521,7 +521,7 @@ Let’s Do Digital Team
 <span id="cb15-11"><a></a></span>
 <span id="cb15-12"><a></a>patient_1_vitals <span class="op">=</span> VitalSigns(<span class="fl">37.5</span>, <span class="dv">80</span>)</span>
 <span id="cb15-13"><a></a></span>
-<span id="cb15-14"><a></a>patient_1_vitals.display()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb15-14"><a></a>patient_1_vitals.display()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <p>Output:</p>
 <pre><code>    Temperature: 37.5°C
     Heart Rate: 80 bpm</code></pre>
@@ -553,7 +553,7 @@ Let’s Do Digital Team
 <ul>
 <li>This is very easy, just use <code>pip</code></li>
 </ul>
-<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb17"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb17-1"><a></a><span class="ex">$</span> pip install streamlit</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="preinstalled-libraries" class="slide level2">
 <h2>Preinstalled libraries</h2>
@@ -584,12 +584,12 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>import.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb19" data-filename="import.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb19" data-filename="import.py" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a></a></span>
 <span id="cb19-2"><a></a><span class="im">import</span> datetime</span>
 <span id="cb19-3"><a></a></span>
 <span id="cb19-4"><a></a>now <span class="op">=</span> datetime.datetime.now()</span>
 <span id="cb19-5"><a></a></span>
-<span id="cb19-6"><a></a><span class="bu">print</span>(now)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb19-6"><a></a><span class="bu">print</span>(now)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="importing-modules-1" class="slide level2">
@@ -598,11 +598,11 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>import.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb20" data-filename="import.py" data-code-line-numbers="3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="im">import</span> datetime</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb20" data-filename="import.py" data-code-line-numbers="3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a></a><span class="im">import</span> datetime</span>
 <span id="cb20-2"><a></a></span>
 <span id="cb20-3"><a></a>now <span class="op">=</span> datetime.datetime.now()</span>
 <span id="cb20-4"><a></a></span>
-<span id="cb20-5"><a></a><span class="bu">print</span>(now)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb20-5"><a></a><span class="bu">print</span>(now)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ul>
 <li>You use the <code>dot operator</code> to access the sub-modules, classes, methods and attributes within the imported module.</li>
@@ -661,11 +661,11 @@ Let’s Do Digital Team
 <ul>
 <li>Change the directory (don’t type the <code>$</code>. This is just how we show this is the command line):</li>
 </ul>
-<div class="sourceCode" id="cb21"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a></a>    <span class="ex">$</span> cd programming_in_healthcare/module_1/lesson_1</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb21"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb21-1"><a></a>    <span class="ex">$</span> cd programming_in_healthcare/module_1/lesson_1</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>And then</li>
 </ul>
-<div class="sourceCode" id="cb22"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a></a>    <span class="ex">$</span> python exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb22"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb22-1"><a></a>    <span class="ex">$</span> python exercise_1.py</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>Did it work? If so, open up the exercise_1.py file.</li>
 <li>Any problems, just ask your tutor for help.</li>
@@ -868,7 +868,7 @@ Let’s Do Digital Team
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -942,13 +942,14 @@ Let’s Do Digital Team
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

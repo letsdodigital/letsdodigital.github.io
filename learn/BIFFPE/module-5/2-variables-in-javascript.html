@@ -7,8 +7,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="David Tang">
   <title>Let's Do Digital – Module-5</title>
@@ -96,7 +96,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -223,10 +223,10 @@ David Tang
 </section>
 <section id="example-variables" class="slide level2">
 <h2>Example variables</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource javascript number-lines code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a></a><span class="kw">let</span> name <span class="op">=</span> <span class="st">"John"</span><span class="op">;</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource javascript number-lines code-with-copy"><code class="sourceCode javascript"><span id="cb1-1"><a></a><span class="kw">let</span> name <span class="op">=</span> <span class="st">"John"</span><span class="op">;</span></span>
 <span id="cb1-2"><a></a><span class="kw">let</span> age <span class="op">=</span> <span class="dv">25</span><span class="op">;</span></span>
 <span id="cb1-3"><a></a><span class="kw">let</span> isPatient <span class="op">=</span> <span class="kw">true</span><span class="op">;</span></span>
-<span id="cb1-4"><a></a><span class="kw">let</span> conditions <span class="op">=</span> [<span class="st">"diabetes"</span><span class="op">,</span> <span class="st">"cataracts"</span><span class="op">,</span> <span class="st">"hyperlipidaemia"</span>]<span class="op">;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-4"><a></a><span class="kw">let</span> conditions <span class="op">=</span> [<span class="st">"diabetes"</span><span class="op">,</span> <span class="st">"cataracts"</span><span class="op">,</span> <span class="st">"hyperlipidaemia"</span>]<span class="op">;</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="common-data-types" class="slide level2">
 <h2>Common Data Types:</h2>
@@ -250,9 +250,9 @@ David Tang
 </section>
 <section id="adding-a-string-to-a-number" class="slide level2">
 <h2>Adding a string to a number</h2>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource javascript number-lines code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a></a><span class="kw">let</span> age <span class="op">=</span> <span class="dv">25</span><span class="op">;</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource javascript number-lines code-with-copy"><code class="sourceCode javascript"><span id="cb2-1"><a></a><span class="kw">let</span> age <span class="op">=</span> <span class="dv">25</span><span class="op">;</span></span>
 <span id="cb2-2"><a></a><span class="kw">let</span> ageInYears <span class="op">=</span> age <span class="op">+</span> <span class="st">" years"</span><span class="op">;</span></span>
-<span id="cb2-3"><a></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(ageInYears)<span class="op">;</span> <span class="co">// Output: "25 years"</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-3"><a></a><span class="bu">console</span><span class="op">.</span><span class="fu">log</span>(ageInYears)<span class="op">;</span> <span class="co">// Output: "25 years"</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section class="slide level2">
 
@@ -449,7 +449,7 @@ David Tang
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -523,13 +523,14 @@ David Tang
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

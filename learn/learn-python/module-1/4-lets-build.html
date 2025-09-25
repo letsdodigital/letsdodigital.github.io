@@ -7,8 +7,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="Let’s Do Digital Team">
   <title>Let's Do Digital – 🎵 Do you want to build a web app? 🎵</title>
@@ -96,7 +96,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -230,14 +230,14 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>libraries_1.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb1" data-filename="libraries_1.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" data-filename="libraries_1.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> streamlit</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p>or as an <code>alias</code></p>
 <div class="code-with-filename">
 <div class="code-with-filename-file">
 <pre><strong>libraries_2.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb2" data-filename="libraries_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" data-filename="libraries_2.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="who-is-running-what" class="slide level2">
@@ -249,8 +249,8 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>main.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb3" data-filename="main.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
-<span id="cb3-2"><a></a>    main()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" data-filename="main.py"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb3-2"><a></a>    main()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <ul>
 <li>Checks if the current file is being run as an imported library or directly.</li>
@@ -262,7 +262,7 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>streamlit methods.py</strong></pre>
 </div>
-<div class="sourceCode" id="cb4" data-filename="streamlit methods.py" data-code-line-numbers="4,7,11,14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" data-filename="streamlit methods.py" data-code-line-numbers="4,7,11,14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a><span class="im">import</span> streamlit <span class="im">as</span> st</span>
 <span id="cb4-2"><a></a></span>
 <span id="cb4-3"><a></a><span class="co"># A title for the page</span></span>
 <span id="cb4-4"><a></a>st.title(<span class="st">"My first web app"</span>)</span>
@@ -275,7 +275,7 @@ Let’s Do Digital Team
 <span id="cb4-11"><a></a>st.number_input(<span class="st">"Label of input box"</span>, step<span class="op">=</span><span class="dv">1</span>)</span>
 <span id="cb4-12"><a></a></span>
 <span id="cb4-13"><a></a><span class="co"># Creates a select box</span></span>
-<span id="cb4-14"><a></a>st.selectbox(<span class="st">"Label for selectbox"</span>, [<span class="st">"first choice"</span>,<span class="st">"second choice"</span>])</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-14"><a></a>st.selectbox(<span class="st">"Label for selectbox"</span>, [<span class="st">"first choice"</span>,<span class="st">"second choice"</span>])</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </section>
 <section id="streamlit-methods-1" class="slide level2">
@@ -291,8 +291,8 @@ Let’s Do Digital Team
 <div class="code-with-filename-file">
 <pre><strong>.streamlit/config.toml</strong></pre>
 </div>
-<div class="sourceCode" id="cb5" data-filename=".streamlit/config.toml" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>[runner]</span>
-<span id="cb5-2"><a></a>magicEnabled <span class="op">=</span> false</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" data-filename=".streamlit/config.toml" data-code-line-numbers="2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a>[runner]</span>
+<span id="cb5-2"><a></a>magicEnabled <span class="op">=</span> false</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 <p><br>
 (See the <em>.streamlit/config.toml</em> file if interested)</p>
@@ -318,13 +318,13 @@ Let’s Do Digital Team
 <ul>
 <li>You now need to install the Streamlit framework. Don’t worry, it is very easy:</li>
 </ul>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a></a><span class="ex">$</span> cd ../lesson_2</span>
-<span id="cb6-2"><a></a><span class="ex">$</span> pip install streamlit</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a></a><span class="ex">$</span> cd ../lesson_2</span>
+<span id="cb6-2"><a></a><span class="ex">$</span> pip install streamlit</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <ul>
 <li>There will be many lines of output in the terminal. Just wait for this to finish (30-60 seconds).</li>
 <li>And now run this command:</li>
 </ul>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a></a><span class="ex">$</span> streamlit run exercise_1.py</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="now-off-you-go" class="slide level2" data-background-image="../../../media/man-at-starting-line.jpg" data-background-opacity="0.3">
 <h2>Now off you go!</h2>
@@ -527,7 +527,7 @@ Let’s Do Digital Team
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -601,13 +601,14 @@ Let’s Do Digital Team
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy

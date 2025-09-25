@@ -7,8 +7,8 @@
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-c8ad9e5dbd60b7b70b38521ab19b7da4.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.7.34">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dc55a5b9e770e841cd82e46aadbfb9b0.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.8.24">
 
   <meta name="author" content="DAIM Team">
   <title>Let's Do Digital – Core Python for Image Processing</title>
@@ -96,7 +96,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-f563837468303362081e247dddd440d0.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-534cd8e3a96973385dffff3f4709048d.css">
   <link rel="stylesheet" href="../../../slides.css">
   <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -408,11 +408,11 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 <li>The <strong>structure</strong> of the kernel affects the output.</li>
 <li>An <strong>averaging kernel</strong> is shown below in Python.</li>
 </ul>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>kernel <span class="op">=</span> (<span class="fl">1.0</span> <span class="op">/</span> <span class="fl">9.0</span>) <span class="op">*</span> [</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a>kernel <span class="op">=</span> (<span class="fl">1.0</span> <span class="op">/</span> <span class="fl">9.0</span>) <span class="op">*</span> [</span>
 <span id="cb1-2"><a></a>    [<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>],</span>
 <span id="cb1-3"><a></a>    [<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>],</span>
 <span id="cb1-4"><a></a>    [<span class="dv">1</span>, <span class="dv">1</span>, <span class="dv">1</span>]</span>
-<span id="cb1-5"><a></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-5"><a></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section>
 <section id="examples-of-convolution" class="slide level2" data-background-image="../../../media/daim/bg_cubes_red_right.png" data-background-opacity="0.4">
 <h2>Examples of convolution</h2>
@@ -449,11 +449,11 @@ Specific compression algorithms (e.g. DCT) are outside the scope of the course.
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>kernel <span class="op">=</span> [</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a></a>kernel <span class="op">=</span> [</span>
 <span id="cb2-2"><a></a>    [<span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>],</span>
 <span id="cb2-3"><a></a>    [<span class="op">-</span><span class="dv">1</span>, <span class="dv">9</span>, <span class="op">-</span><span class="dv">1</span>],</span>
 <span id="cb2-4"><a></a>    [<span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">1</span>]</span>
-<span id="cb2-5"><a></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-5"><a></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -493,12 +493,12 @@ Figure&nbsp;1: A comparison of convolving an image of a cat with a sharpening ke
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>kernel <span class="op">=</span> [</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a></a>kernel <span class="op">=</span> [</span>
 <span id="cb3-2"><a></a>    [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>],</span>
 <span id="cb3-3"><a></a>    [<span class="dv">2</span>, <span class="dv">4</span>, <span class="dv">2</span>],</span>
 <span id="cb3-4"><a></a>    [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>]</span>
 <span id="cb3-5"><a></a>]</span>
-<span id="cb3-6"><a></a>kernel <span class="op">*=</span> <span class="fl">1.0</span> <span class="op">/</span> <span class="fl">16.0</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-6"><a></a>kernel <span class="op">*=</span> <span class="fl">1.0</span> <span class="op">/</span> <span class="fl">16.0</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -538,11 +538,11 @@ Figure&nbsp;2: A comparison of convolving an image of a cat with a blurring kern
 </div>
 </div>
 <div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: flex-start;">
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>kernel <span class="op">=</span> [</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a></a>kernel <span class="op">=</span> [</span>
 <span id="cb4-2"><a></a>    [<span class="op">-</span><span class="dv">1</span>, <span class="op">-</span><span class="dv">2</span>, <span class="op">-</span><span class="dv">1</span>],</span>
 <span id="cb4-3"><a></a>    [<span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>],</span>
 <span id="cb4-4"><a></a>    [<span class="dv">1</span>, <span class="dv">2</span> ,<span class="dv">1</span>]</span>
-<span id="cb4-5"><a></a>]</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb4-5"><a></a>]</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -585,7 +585,7 @@ Find a clinical example of convolution?
 <li>Other modules contain methods for doing specific image operations, like <strong>filtering</strong> and <strong>enhancement</strong>.</li>
 </ul></li>
 </ul>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="im">from</span> PIL <span class="im">import</span> Image</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a></a><span class="im">from</span> PIL <span class="im">import</span> Image</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </section></section>
 <section>
 <section id="section-3" class="title-slide slide level1 center">
@@ -657,10 +657,10 @@ Find a clinical example of convolution?
 </ul>
 </div>
 <div id="tabset-4-2">
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>us_image_shape <span class="op">=</span> (<span class="dv">50</span>, <span class="dv">50</span>)</span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a>us_image_shape <span class="op">=</span> (<span class="dv">50</span>, <span class="dv">50</span>)</span>
 <span id="cb6-2"><a></a></span>
 <span id="cb6-3"><a></a><span class="co"># Practically, greyscale images may have an extra channel when imported...</span></span>
-<span id="cb6-4"><a></a>us_image_shape <span class="op">=</span> (<span class="dv">50</span>, <span class="dv">50</span>, <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb6-4"><a></a>us_image_shape <span class="op">=</span> (<span class="dv">50</span>, <span class="dv">50</span>, <span class="dv">1</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -678,9 +678,9 @@ Find a clinical example of convolution?
 </ul>
 </div>
 <div id="tabset-5-2">
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="co"># There are 3 channels for colour and the dimensions of</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="co"># There are 3 channels for colour and the dimensions of</span></span>
 <span id="cb7-2"><a></a><span class="co"># 1080p video are 1920 x 1080.</span></span>
-<span id="cb7-3"><a></a>derm_image_shape <span class="op">=</span> (<span class="dv">1920</span>, <span class="dv">1080</span>, <span class="dv">3</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb7-3"><a></a>derm_image_shape <span class="op">=</span> (<span class="dv">1920</span>, <span class="dv">1080</span>, <span class="dv">3</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -699,9 +699,9 @@ Find a clinical example of convolution?
 </ul>
 </div>
 <div id="tabset-6-2">
-<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="co"># There are 16 images in each batch, and each</span></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="co"># There are 16 images in each batch, and each</span></span>
 <span id="cb8-2"><a></a><span class="co"># image is 256 x 256.</span></span>
-<span id="cb8-3"><a></a>cxr_batch_shape <span class="op">=</span> (<span class="dv">16</span>, <span class="dv">256</span>, <span class="dv">256</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb8-3"><a></a>cxr_batch_shape <span class="op">=</span> (<span class="dv">16</span>, <span class="dv">256</span>, <span class="dv">256</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 </div>
 </div>
 </div>
@@ -922,7 +922,7 @@ Find a clinical example of convolution?
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
@@ -996,13 +996,14 @@ Find a clinical example of convolution?
           e.clearSelection();
         }
         const getTextToCopy = function(trigger) {
-            const codeEl = trigger.previousElementSibling.cloneNode(true);
-            for (const childEl of codeEl.children) {
-              if (isCodeAnnotation(childEl)) {
-                childEl.remove();
-              }
+          const outerScaffold = trigger.parentElement.cloneNode(true);
+          const codeEl = outerScaffold.querySelector('code');
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
             }
-            return codeEl.innerText;
+          }
+          return codeEl.innerText;
         }
         const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
           text: getTextToCopy
