@@ -580,6 +580,18 @@ image: /media/reading-a-book.jpg
         </div>
     </div>
 </div>
+
+<div class="agenda-container-small">
+    <div class="agenda-row">
+        <div class="agenda-image-container-small">
+            <img src="/media/2025-conference/charlie-mccay.jpg"
+            class="agenda-img-circle">
+        </div>
+        <div class="agenda-text-container">
+            Charlie McCay - NED and Technical Advisor, PRSB & Standards Architect, Ramsey Systems Ltd
+        </div>
+    </div>
+</div>
 ```
 
 \
