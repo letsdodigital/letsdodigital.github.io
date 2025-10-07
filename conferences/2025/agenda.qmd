@@ -324,7 +324,7 @@ image: /media/reading-a-book.jpg
 </div>
 ```
 
-15:25 – **Advancing large language models in oncology : fine tuning approaches and performance evaluation**
+15:25 – **Advancing large language models in oncology: fine tuning approaches and performance evaluation**
 
 ```{=html}
 <div class="agenda-container-small">
