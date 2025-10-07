@@ -430,7 +430,7 @@ image: /media/reading-a-book.jpg
 </div>
 ```
 
-10:00 – **Rust-y Spaces and Education**
+10:00 – **How clinical science can make software development safer and more effective**
 
 ```{=html}
 <div class="agenda-container-small">
