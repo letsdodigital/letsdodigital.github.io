@@ -48,8 +48,10 @@ Our speaker slots are now full. If you wish to give a presentation at next year'
 
 ## Sponsors
 
-We are excited to announce the below sponsor for this year's conference.
+We are excited to announce the below sponsors for this year's conference.
 
-![](/media/fedip-logo.png){width=200 fig-alt="Mind the bleep logo"}
+![](/media/fedip-logo.png){width=200 fig-alt="FEDIP logo"}
+
+<strong style="font-size: 1.2em;">Prof Joe McDonald - giving out free copies of his new book "FHIR and Loathing in Las Vegas" to all attendees.</strong>
 
 If you wish to sponsor the event, please review our sponsorship packages [here](sponsorship.qmd) or email [info@letsdodigital.org](mailto:info@letsdodigital.org).
