@@ -33,5 +33,5 @@
   "editor.formatOnPaste": true,
   "editor.wordWrap": "on",
   "jest.runMode": "on-demand",
-  "cSpell.words": ["ACIG"]
+  "cSpell.words": ["ACIG", "vosters"]
 }

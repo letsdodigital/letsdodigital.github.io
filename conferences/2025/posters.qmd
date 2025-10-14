@@ -5,4 +5,13 @@ image: /media/reading-a-book.jpg
 
 {{< include _navbar.qmd >}}
 
-We are currently putting out a call for posters. These will be displayed here once a judging panel has accepted them.
+You can now view all of the video posters (vosters) for this year's Let's Talk Digital Conference below, or visit our YouTube channel [here](https://www.youtube.com/playlist?list=PLv5yR6DkBB8r-05BG0zcnqIxB3zmBGbYJ).
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
+  <iframe src="https://www.youtube.com/embed/videoseries?list=PLv5yR6DkBB8r-05BG0zcnqIxB3zmBGbYJ" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          allowfullscreen>
+  </iframe>
+</div>
