@@ -50,7 +50,4 @@ function updateTimestamp() {
 
 // Update timestamp when page loads
 updateTimestamp();
-
-// Update timestamp every minute to show current time
-setInterval(updateTimestamp, 60000);
 </script>
