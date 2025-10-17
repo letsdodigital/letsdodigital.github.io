@@ -29,7 +29,7 @@ You will need a YouTube account to be able to ask questions via the live chat.
 ---
 
 <div id="last-updated" style="text-align: center; color: #666; font-size: 0.9em; margin-top: 2em;">
-  Page last updated: <span id="update-time"></span>
+  Page is set to automatically update every 5 mins. Last updated: <span id="update-time"></span>
 </div>
 
 <script>
