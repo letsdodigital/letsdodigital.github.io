@@ -138,17 +138,17 @@ image: /media/reading-a-book.jpg
 </div>
 ```
 
-11:20 – **A Government Digital Service Story for the NHS**
+11:20 – **FHIR and Loathing in Las Vegas**
 
 ```{=html}
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/saw-nwe.jpeg"
+            <img src="/media/joe-mcdonald.jpeg"
             class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            Saw Nwe - Principle Consultant at Public Digital
+            Joe McDonald, Author
         </div>
     </div>
 </div>
@@ -160,11 +160,11 @@ image: /media/reading-a-book.jpg
 <div class="agenda-container-small">
     <div class="agenda-row">
         <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/ben-goldacre.jpg"
+            <img src="/media/2025-conference/seb-bacon.jpeg"
             class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            Ben Goldacre - Director of Bennett Institute for Applied Data Science, Oxford University
+            Seb Bacon, CTO at the Bennett Institute, Oxford University
         </div>
     </div>
 </div>
