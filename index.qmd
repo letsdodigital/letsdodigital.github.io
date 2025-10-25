@@ -75,11 +75,10 @@ Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to tran
 </div>
 <br>
 <div class="supporter-frame">
-    <h3>Healthcare group supporters</h3>
-    <!--Elzware (Phil Hall) 20/09/2024-->
+    <h3>Company supporters</h3>
     <p class="sponsors-named">Elzware</p>
-    <!--FEDIP 25/09/2024-->
     <p class="sponsors-named">FEDIP</p>
+    <p class="sponsors-named">Wesleyan</p>
 </div>
 ```
 
@@ -87,3 +86,7 @@ Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to tran
 
 Do you want to get involved in current Let's Do Digital projects? Do you have a webinar series, course or app that you want to get off the ground with the help of the Let's Do Digital. Come join us for networking, collaboration and innovation. Email the team at
 [Let's Do Digital](mailto:info@letsdodigital.org). Better yet, join our forum at [Digital Health Discourse](https://discourse.digitalhealth.net/g/lets-do-digital).
+
+```
+
+```
