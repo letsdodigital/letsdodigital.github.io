@@ -78,24 +78,6 @@ image: /media/reading-a-book.jpg
 </div>
 ```
 
-10:00 – **Empowering the Next Generation of Healthcare Professionals Through Intelligent Learning Technologies**
-
-```{=html}
-<div class="agenda-container-small">
-    <div class="agenda-row">
-        <div class="agenda-image-container-small">
-            <img src="/media/2025-conference/anil-krishaniah.jpg"
-            class="agenda-img-circle"
-            style="object-position: 0% 0%;">
-        </div>
-        <div class="agenda-text-container">
-            Anil Krishaniah - Paediatric Intensivist & Clinical Informatician, Cromwell
-            hospital, London
-        </div>
-    </div>
-</div>
-```
-
 10:10 – **Q&A**
 
 \
