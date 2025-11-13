@@ -258,7 +258,7 @@ image: /media/reading-a-book.jpg
             class="agenda-img-circle">
         </div>
         <div class="agenda-text-container">
-            Hamza Qadri - Resident Doctor, Great Western Hospital
+            Muhammad Hamza Qadri - Resident Doctor, Great Western Hospital
         </div>
     </div>
 </div>
