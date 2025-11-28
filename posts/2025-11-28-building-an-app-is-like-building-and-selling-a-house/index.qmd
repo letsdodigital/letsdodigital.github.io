@@ -1,0 +1,67 @@
+---
+title: "Building an app is like building (and selling) a house"
+description: "The feel, survey and dinner party tests!"
+author:
+  - name: Mark Bailey
+date: 2025-11-28
+categories: [blog]
+image: /media/house-keys.jpg
+draft: false
+comments:
+  giscus:
+    repo: letsdodigital/letsdodigital.github.io
+---
+
+I have been doing some UAT (User Acceptance Testing) after finalising the work on infrastructure and security for an app I have been helping develop, and it struck me how similar building and launching an app is to fixing up and selling a house!
+
+\
+
+![](/media/house-keys.jpg){height=400px fig-align="center" fig-alt="A hand holding house keys, walking up some stairs"}
+
+When we talk about apps, it’s easy to focus on the tech - the backend, the data, the infrastructure. But lately, as I have been doing UAT for an app I am helping develop, it feels a like creating and launching an app is actually a lot like designing, buying, fixing up and living in a house.
+
+## 1. First impressions matter – kerb appeal
+
+Before anyone even steps inside a house, they’ve already judged it from the street. The same goes for an app. The logo, screenshots, and short description on the App Store are our front garden and front door. If they don’t look welcoming, people may never “book a viewing”, aka download the app!
+
+## 2. The floor plan – information architecture
+
+A good house just `flows`. You know where the kitchen should be and how to find the bathroom. In an app, that’s our layout and navigation. If users have to stop and think, or get lost trying to find something, it feels like walking through a house where every door opens to a cupboard.
+
+## 3. Fixtures and fittings – user interface (UI)
+
+Imagine light switches that don’t match, or taps that twist the wrong way. How about windows that are higher than others in the same room? Or the worse case, one or two steps in a staircase being 1-2 inches taller than the rest (one of the biggest reasons for tripping up staircases in old houses). These are bad UI of your house design.
+
+In an app, similar UI issues are seen with inconsistent buttons, colours, and gestures. These small details make a huge difference to how comfortable and familiar a space feels.
+
+## 4. Heating and plumbing – backend systems
+
+We don’t see the pipes and boilers, but we certainly notice when the shower runs cold. The backend - our servers, APIs, and databases - keeps the app running smoothly. It’s invisible, but it defines comfort.
+
+## 5. Neighbourhood and location – integrations and dependencies
+
+No house exists in isolation. It depends on good roads, reliable internet, and friendly neighbours. Our app depends on external APIs, cloud providers, and third-party tools. If one of them misbehaves, our “neighbourhood” suddenly feels a bit rougher.
+
+## 6. Building regulations – compliance and safety
+
+Every house has to meet building regulations. In our world, that means clinical safety standards, privacy regulations, and cybersecurity rules. They might feel bureaucratic, but they are what make the house safe to live in - and keep us out of trouble later.
+
+## 7. The house survey – technical quality
+
+Before someone buys a house, they get a survey done. That’s our equivalent of technical testing and quality assurance. It’s where we check the wiring, foundations, and data structures to make sure they’ll last - not just look good.
+
+## 8. Locks and alarms – cybersecurity
+
+You can have a beautiful home in a great area, but if the locks are flimsy or there are several copies of keys around, you’ll never sleep well. Cybersecurity is exactly that - invisible, essential, and built for trust.
+
+## 9. Maintenance – updates and patches
+
+Paint fades, boilers need servicing, and weeds grow. Apps are the same. Regular updates keep the experience fresh and the structure sound. A well-maintained product shows it’s cared for - and people notice.
+
+## 10. The dinner party test – user delight
+
+Finally, the best test of a home isn’t how it looks in the brochure, but how it feels when people visit. Do guests say, “I could live here”?
+
+That’s what great user experience does. It makes people not only use the app but recommend it. It’s comfort, trust, and delight rolled together.
+
+We hope to have our dinner party very soon for our new app in the form of beta testing, and we can’t wait to see how it feels to our users!

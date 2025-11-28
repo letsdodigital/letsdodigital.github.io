@@ -16,6 +16,8 @@ Where Innovation Meets Healthcare! At Let's Do Digital, we are dedicated to tran
 
 ## Updates
 
+**23/11/25** - The recodings of the 2025 Let's Talk Digital Conference are now free to watch on our [YouTube channel](https://www.youtube.com/playlist?list=PLv5yR6DkBB8r-05BG0zcnqIxB3zmBGbYJ). Catch up on all the exciting talks and presentations from the event.
+
 **20/05/25** - The Programming in Healthcare course is back! We are excited to announce the launch of our new series of modules. This course is designed to introduce the concepts of programming and data science in healthcare. The course is suitable for all levels, from beginners to those with some experience in programming. [Register here](https://letsdodigital.thinkific.com/collections?page=2).
 
 **08/04/25** Registration for the Let's Talk Digital Conference 2025 is now open. [Register now](/conferences/2025/index.qmd) to secure a spot.
